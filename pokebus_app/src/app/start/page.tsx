@@ -6,7 +6,7 @@ export default function StartPage() {
   const router = useRouter();
 
   const handleTap = () => {
-    router.push("/auth/login");
+    router.push("/login");
   };
 
   return (
