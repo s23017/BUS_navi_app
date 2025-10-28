@@ -1,4 +1,4 @@
-import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, updateProfile } from "firebase/auth";
+import { createUserWithEmailAndPassword, signInWithEmailAndPassword, signOut, updateProfile, GoogleAuthProvider, signInWithPopup } from "firebase/auth";
 import { FirebaseError } from "firebase/app";
 import { doc, setDoc, getDoc } from "firebase/firestore";
 import { auth, db } from "./firebase";
@@ -107,6 +107,50 @@ export async function logoutUser() {
   await signOut(auth);
 }
 
+
+export async function loginWithGoogle() {
+  try {
+    const provider = new GoogleAuthProvider();
+    const userCredential = await signInWithPopup(auth, provider);
+    const user = userCredential.user;
+
+    // Firestore の Users ドキュメントを取得または作成
+    const userRef = doc(db, "Users", user.uid);
+    const userDoc = await getDoc(userRef);
+    
+    if (userDoc.exists()) {
+      return userDoc.data();
+    }
+
+    // ドキュメントが無ければGoogleアカウント情報で作成
+    const userData: UserProfile = {
+      uid: user.uid,
+      username: user.displayName || "Googleユーザー",
+      email: user.email || "",
+      createdAt: new Date().toISOString(),
+    };
+    await setDoc(userRef, userData);
+    return userData;
+  } catch (err) {
+    if ((err as FirebaseError).code) {
+      const code = (err as FirebaseError).code;
+      let message = (err as FirebaseError).message || "Googleログインに失敗しました";
+      switch (code) {
+        case "auth/popup-closed-by-user":
+          message = "ログインがキャンセルされました。";
+          break;
+        case "auth/popup-blocked":
+          message = "ポップアップがブロックされました。ブラウザの設定を確認してください。";
+          break;
+        case "auth/operation-not-allowed":
+          message = "Googleログインが無効になっています。Firebase コンソールでGoogle認証を有効にしてください。";
+          break;
+      }
+      throw new Error(message);
+    }
+    throw err;
+  }
+}
 
 export function getCurrentUser() {
   return auth.currentUser;
