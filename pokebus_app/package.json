@@ -11,16 +11,10 @@
   "dependencies": {
     "@types/google.maps": "^3.58.1",
     "firebase": "^12.4.0",
-<<<<<<< HEAD
-    "next": "^15.3.4",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0"
-=======
     "lucide-react": "^0.548.0",
     "next": "15.3.4",
     "react": "^19.0.0",
     "react-dom": "^19.0.0"
->>>>>>> 187236d39ca921278a9a12730fb69e0aa761d9cb
   },
   "devDependencies": {
     "@types/node": "^20",
