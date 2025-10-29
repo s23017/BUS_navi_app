@@ -16,6 +16,10 @@ export default function BusSearch() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [mapLoaded, setMapLoaded] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
+  const [currentQuery, setCurrentQuery] = useState("");
+  const [currentPredictions, setCurrentPredictions] = useState<any[]>([]);
+  const [showCurrentPredictions, setShowCurrentPredictions] = useState(false);
+  const [selectedStartLocation, setSelectedStartLocation] = useState<any | null>(null);
   const [predictions, setPredictions] = useState<any[]>([]);
   const [showPredictions, setShowPredictions] = useState(false);
   const mapRef = useRef<HTMLDivElement>(null);
@@ -24,11 +28,14 @@ export default function BusSearch() {
   const placesService = useRef<google.maps.places.PlacesService | null>(null);
   const directionsService = useRef<google.maps.DirectionsService | null>(null);
   const directionsRenderer = useRef<google.maps.DirectionsRenderer | null>(null);
-  const currentLocationRef = useRef<google.maps.LatLng | null>(null);
+  const currentLocationRef = useRef<any>(null);
   const routeMarkersRef = useRef<google.maps.Marker[]>([]);
   const routePolylineRef = useRef<google.maps.Polyline | null>(null);
   const tripStopsRef = useRef<Record<string, any[]> | null>(null);
   const [selectedTripId, setSelectedTripId] = useState<string | null>(null);
+  const currentMarkerRef = useRef<google.maps.Marker | null>(null);
+  const watchIdRef = useRef<number | null>(null);
+  const [followLocation, setFollowLocation] = useState<boolean>(true);
 
   // Google Maps APIが読み込まれた後にマップを初期化
   const initializeMap = () => {
@@ -65,18 +72,71 @@ export default function BusSearch() {
           currentLocationRef.current = current; // 現在地を保存
           
           // 現在地マーカーを表示（ルート表示時は自動的に隠される）
-          new window.google.maps.Marker({
-            position: current,
-            map,
-            icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
-            title: "現在地",
-          });
-          map.setCenter(current);
+          if (!currentMarkerRef.current) {
+            currentMarkerRef.current = new window.google.maps.Marker({
+              position: current,
+              map,
+              icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+              title: "現在地",
+            });
+          } else {
+            currentMarkerRef.current.setPosition(current);
+            currentMarkerRef.current.setMap(map);
+          }
+          if (followLocation) map.setCenter(current);
         },
         (err) => console.error(err)
       );
     }
   };
+
+  // 位置追従を開始
+  const startWatchingLocation = () => {
+    if (!navigator.geolocation) return;
+    if (watchIdRef.current !== null) return; // 既に開始済み
+    const id = navigator.geolocation.watchPosition(
+      (p) => {
+        const lat = p.coords.latitude;
+        const lon = p.coords.longitude;
+        // window.google may not be ready when watchPosition first fires; fall back to plain lat/lng literal
+        let current: any;
+        if (window.google && window.google.maps && typeof window.google.maps.LatLng === 'function') {
+          current = new window.google.maps.LatLng(lat, lon);
+        } else {
+          current = { lat, lng: lon };
+        }
+        currentLocationRef.current = current;
+        if (currentMarkerRef.current) {
+          try { currentMarkerRef.current.setPosition(current); } catch (e) { /* ignore */ }
+        } else if (mapInstance.current) {
+          try {
+            currentMarkerRef.current = new window.google.maps.Marker({ position: current, map: mapInstance.current, icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png', title: '現在地' });
+          } catch (e) {
+            // If google.maps isn't ready, skip creating marker for now
+          }
+        }
+        if (followLocation && mapInstance.current) {
+          try { mapInstance.current.setCenter(current); } catch (e) { /* ignore */ }
+        }
+      },
+      (e) => console.error('watch error', e),
+      { enableHighAccuracy: true, maximumAge: 5000, timeout: 10000 }
+    );
+    watchIdRef.current = id as unknown as number;
+  };
+
+  const stopWatchingLocation = () => {
+    if (watchIdRef.current !== null && navigator.geolocation) {
+      navigator.geolocation.clearWatch(watchIdRef.current as number);
+      watchIdRef.current = null;
+    }
+  };
+
+  useEffect(() => {
+    // followLocation の切り替えに応じてウォッチを開始/停止
+    if (followLocation) startWatchingLocation(); else stopWatchingLocation();
+    return () => { stopWatchingLocation(); };
+  }, [followLocation]);
 
   // ユーザーが特定の便（trip）を選んだとき、その便の停車順のみを表示して地図に描画する
   const handleSelectBus = async (tripId: string) => {
@@ -279,6 +339,49 @@ export default function BusSearch() {
       }
     } catch (e) {
       // ignore prediction errors
+    }
+  };
+
+  // 現在地用の検索（stops.txt ベース）
+  const handleCurrentChange = async (value: string) => {
+    setCurrentQuery(value);
+    setShowCurrentPredictions(false);
+    setCurrentPredictions([]);
+    try {
+      const q = value.trim().toLowerCase();
+      if (!q) return;
+      const stops = await loadStops();
+      const matches = stops
+        .filter((s: any) => (s.stop_name || '').toLowerCase().includes(q))
+        .map((s: any) => ({ place_id: s.stop_id, structured_formatting: { main_text: s.stop_name, secondary_text: '' } }))
+        .slice(0,8);
+      if (matches.length > 0) {
+        setCurrentPredictions(matches);
+        setShowCurrentPredictions(true);
+      }
+    } catch (e) {}
+  };
+
+  const handleCurrentSelect = async (p: any) => {
+    if (!p) return;
+    const stops = await loadStops();
+    const stop = stops.find((s:any)=>s.stop_id === p.place_id);
+    if (!stop) return;
+    setSelectedStartLocation(stop);
+    setCurrentQuery(stop.stop_name || '');
+    setShowCurrentPredictions(false);
+    // set currentLocationRef and marker/map
+    const lat = parseFloat(stop.stop_lat);
+    const lon = parseFloat(stop.stop_lon);
+    if (!isNaN(lat) && !isNaN(lon)) {
+      const pos = (window.google && window.google.maps && typeof window.google.maps.LatLng === 'function') ? new window.google.maps.LatLng(lat, lon) : { lat, lng: lon };
+      currentLocationRef.current = pos;
+      if (currentMarkerRef.current && mapInstance.current) {
+        try { currentMarkerRef.current.setPosition(pos); currentMarkerRef.current.setMap(mapInstance.current); } catch(e){}
+      } else if (mapInstance.current && window.google && window.google.maps && typeof window.google.maps.Marker === 'function') {
+        try { currentMarkerRef.current = new window.google.maps.Marker({ position: pos, map: mapInstance.current, icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png', title: '現在地' }); } catch(e){}
+      }
+      if (mapInstance.current) try { mapInstance.current.setCenter(pos); } catch(e){}
     }
   };
 
@@ -622,15 +725,44 @@ export default function BusSearch() {
 
         {/* 検索バー */}
         <div className={styles.searchBar}>
-          <input
-            type="text"
-            placeholder="目的地を入力またはタップ"
-            className={styles.searchInput}
-            value={searchQuery}
-            onChange={(e) => handleSearchChange(e.target.value)}
-            onFocus={() => searchQuery && setShowPredictions(true)}
-            onBlur={() => setTimeout(() => setShowPredictions(false), 150)}
-          />
+          <div className={styles.multiInput}>
+            <div className={styles.currentInputWrap}>
+              <input
+                type="text"
+                placeholder="現在地（デフォルトは自分の位置）"
+                className={styles.searchInput}
+                value={currentQuery}
+                onChange={(e) => handleCurrentChange(e.target.value)}
+                onFocus={() => currentQuery && setShowCurrentPredictions(true)}
+                onBlur={() => setTimeout(() => setShowCurrentPredictions(false), 150)}
+              />
+              <button className={styles.smallButton} onClick={() => { if (navigator.geolocation) navigator.geolocation.getCurrentPosition(p=>{ const pos = new window.google.maps.LatLng(p.coords.latitude,p.coords.longitude); setSelectedStartLocation(null); setCurrentQuery('現在地'); currentLocationRef.current = pos; if (currentMarkerRef.current) currentMarkerRef.current.setPosition(pos); else if (mapInstance.current) currentMarkerRef.current = new window.google.maps.Marker({ position: pos, map: mapInstance.current, icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png' }); if (mapInstance.current) mapInstance.current.setCenter(pos); }); }} title="デバイス現在地に設定">自分</button>
+              {showCurrentPredictions && currentPredictions.length > 0 && (
+                <div className={styles.predictions}>
+                  {currentPredictions.map((p) => (
+                    <div key={p.place_id} className={styles.predictionItem} onClick={() => handleCurrentSelect(p)}>
+                      <MapPin size={16} className={styles.predictionIcon} />
+                      <div className={styles.predictionText}>
+                        <div className={styles.predictionMain}>{p.structured_formatting.main_text}</div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+
+            <div className={styles.destInputWrap}>
+              <input
+                type="text"
+                placeholder="目的地を入力またはタップ"
+                className={styles.searchInput}
+                value={searchQuery}
+                onChange={(e) => handleSearchChange(e.target.value)}
+                onFocus={() => searchQuery && setShowPredictions(true)}
+                onBlur={() => setTimeout(() => setShowPredictions(false), 150)}
+              />
+            </div>
+          </div>
           <button 
             className={styles.searchButton}
             onClick={handleSearch}
@@ -643,6 +775,15 @@ export default function BusSearch() {
             title="ルートをクリア"
           >
             クリア
+          </button>
+
+          {/* 現在地追従ボタン */}
+          <button
+            className={styles.locateButton}
+            onClick={() => setFollowLocation((s) => { const next = !s; if (next && mapInstance.current && currentLocationRef.current) mapInstance.current.setCenter(currentLocationRef.current); return next; })}
+            title={followLocation ? '現在地追従をオフ' : '現在地追従をオン'}
+          >
+            <MapPin size={16} />
           </button>
           
           {/* 検索予測 */}

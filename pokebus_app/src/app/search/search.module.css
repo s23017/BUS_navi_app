@@ -69,6 +69,35 @@
   z-index: 10;
 }
 
+.locateButton {
+  background: white;
+  border-radius: 9999px;
+  width: 2.25rem;
+  height: 2.25rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 0.5rem;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+  border: 1px solid #e5e7eb;
+  cursor: pointer;
+}
+
+.searchBar { 
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  top: 1rem;
+  width: calc(100% - 2rem);
+  max-width: 720px;
+  border-radius: 0.5rem;
+}
+
+.multiInput { display:flex; gap:0.5rem; width:100%; }
+.currentInputWrap { position: relative; width: 35%; }
+.destInputWrap { position: relative; flex:1; }
+.smallButton { margin-left:0.25rem; padding:0.25rem 0.5rem; border-radius:0.375rem; border:1px solid #e5e7eb; background:white; cursor:pointer }
+
 .searchInput {
   flex: 1;
   border: 1px solid #d1d5db; /* border */
