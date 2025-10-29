@@ -1,189 +1,113 @@
-'use client';
+"use client";
 
-import { useState } from 'react';
-import { useRouter } from 'next/navigation';
-import { registerUser, loginUser, loginWithGoogle } from '../../../lib/authe';
-import styles from './simple.module.css';
+import React, { useState } from 'react';
 
 export default function LoginPage() {
-  const [isLogin, setIsLogin] = useState(true);
-  const [email, setEmail] = useState('');
-  const [password, setPassword] = useState('');
-  const [username, setUsername] = useState('');
-  const [loading, setLoading] = useState(false);
-  const [error, setError] = useState('');
-  const router = useRouter();
+    const [username, setUsername] = useState('');
+    const [password, setPassword] = useState('');
 
-  const handleSubmit = async (e: React.FormEvent) => {
-    e.preventDefault();
-    setLoading(true);
-    setError('');
+    const handleLogin = (e: React.FormEvent) => {
+        e.preventDefault();
+        console.log('Login:', { username, password });
+    };
 
-    try {
-      if (isLogin) {
-        // ログイン処理
-        const userData = await loginUser(email, password);
-        if (userData) {
-          router.push('/');
-        } else {
-          setError('ユーザー情報の取得に失敗しました');
-        }
-      } else {
-        // 新規登録処理
-        if (!username.trim()) {
-          setError('ユーザー名を入力してください');
-          setLoading(false);
-          return;
-        }
-        await registerUser(email, password, username);
-        router.push('/');
-      }
-    } catch (error: any) {
-      console.error('Authentication error:', error);
-      console.error('Error code:', error.code);
-      console.error('Error message:', error.message);
-      
-      // Firebase認証エラーメッセージの日本語化
-      switch (error.code) {
-        case 'permission-denied':
-          setError('Firestoreへのアクセス権限がありません。Firebase Consoleでセキュリティルールを確認してください。');
-          break;
-        case 'auth/operation-not-allowed':
-          setError('この認証方法は有効になっていません。Firebase Consoleで Email/Password 認証を有効にしてください。');
-          break;
-        case 'auth/email-already-in-use':
-          setError('このメールアドレスは既に使用されています');
-          break;
-        case 'auth/weak-password':
-          setError('パスワードは6文字以上で入力してください');
-          break;
-        case 'auth/invalid-email':
-          setError('有効なメールアドレスを入力してください');
-          break;
-        case 'auth/user-not-found':
-          setError('ユーザーが見つかりません');
-          break;
-        case 'auth/wrong-password':
-          setError('パスワードが間違っています');
-          break;
-        case 'auth/invalid-credential':
-          setError('メールアドレスまたはパスワードが間違っています');
-          break;
-        default:
-          setError('認証に失敗しました。もう一度お試しください');
-      }
-    } finally {
-      setLoading(false);
-    }
-  };
+    const handleGoogleLogin = () => {
+        console.log('Google login');
+    };
 
-  const handleGoogleLogin = async () => {
-    setLoading(true);
-    setError('');
+    const handleSignup = () => {
+        console.log('Signup');
+    };
 
-    try {
-      const userData = await loginWithGoogle();
-      if (userData) {
-        router.push('/');
-      }
-    } catch (error: any) {
-      console.error('Google login error:', error);
-      setError(error.message || 'Googleログインに失敗しました');
-    } finally {
-      setLoading(false);
-    }
-  };
+    return (
+        <div className="min-h-screen w-full flex items-center justify-center bg-[#d4e9d4] p-4">
+            <div className="w-full max-w-lg bg-[#f5f0f5] rounded-[40px] shadow-xl p-12 relative border-2 border-black mx-auto">
+                {/* タイトル */}
+                <h1 className="text-4xl font-bold text-center mb-12 tracking-wide">ログイン</h1>
 
-  const toggleMode = () => {
-    setIsLogin(!isLogin);
-    setError('');
-    setEmail('');
-    setPassword('');
-    setUsername('');
-  };
+                <form onSubmit={handleLogin} className="space-y-5">
+                    {/* ユーザー名入力 */}
+                    <div className="relative flex items-center gap-4">
+                        <div className="w-12 h-12 rounded-full border-[3px] border-black flex items-center justify-center bg-white text-xl font-bold flex-shrink-0">
+                            1
+                        </div>
+                        <input
+                            type="text"
+                            value={username}
+                            onChange={(e) => setUsername(e.target.value)}
+                            placeholder="ユーザー名"
+                            className="flex-1 px-6 py-4 rounded-full border-[3px] border-black focus:outline-none bg-white text-gray-400 placeholder-gray-400"
+                        />
+                    </div>
 
-  return (
-    <div className={styles.container}>
-      <div className={styles.formContainer}>
-        <h1 className={styles.title}>
-          {isLogin ? 'ログイン' : '新規登録'}
-        </h1>
+                    {/* パスワード入力 */}
+                    <div className="relative flex items-center gap-4">
+                        <div className="w-12 h-12 rounded-full border-[3px] border-black flex items-center justify-center bg-white text-xl font-bold flex-shrink-0">
+                            2
+                        </div>
+                        <input
+                            type="password"
+                            value={password}
+                            onChange={(e) => setPassword(e.target.value)}
+                            placeholder="パスワード"
+                            className="flex-1 px-6 py-4 rounded-full border-[3px] border-black focus:outline-none bg-white text-gray-400 placeholder-gray-400"
+                        />
+                    </div>
 
-        <div className={styles.inputContainer}>
-          {!isLogin && (
-            <input
-              type="text"
-              placeholder="ユーザー名"
-              value={username}
-              onChange={(e) => setUsername(e.target.value)}
-              className={styles.input}
-              required={!isLogin}
-            />
-          )}
-          
-          <input
-            type="email"
-            placeholder="メールアドレス"
-            value={email}
-            onChange={(e) => setEmail(e.target.value)}
-            className={styles.input}
-            required
-          />
-          
-          <input
-            type="password"
-            placeholder="パスワード"
-            value={password}
-            onChange={(e) => setPassword(e.target.value)}
-            className={styles.input}
-            required
-            minLength={6}
-          />
+                    {/* ボタングループ */}
+                    <div className="flex gap-6 items-center pt-6">
+                        {/* 新規登録ボタン */}
+                        <div className="relative flex items-center gap-4 flex-1">
+                            <div className="w-12 h-12 rounded-full border-[3px] border-black flex items-center justify-center bg-white text-xl font-bold flex-shrink-0">
+                                4
+                            </div>
+                            <button
+                                type="button"
+                                onClick={handleSignup}
+                                className="flex-1 px-6 py-4 rounded-full border-[3px] border-black bg-white hover:bg-gray-50 transition-colors font-medium"
+                            >
+                                新規登録
+                            </button>
+                        </div>
+
+                        {/* ログインボタン */}
+                        <div className="relative flex items-center gap-4 flex-1">
+                            <div className="w-12 h-12 rounded-full border-[3px] border-black flex items-center justify-center bg-white text-xl font-bold flex-shrink-0">
+                                3
+                            </div>
+                            <button
+                                type="submit"
+                                className="flex-1 px-6 py-4 rounded-full bg-black text-white hover:bg-gray-800 transition-colors font-medium border-[3px] border-black"
+                            >
+                                ログイン
+                            </button>
+                        </div>
+                    </div>
+
+                    {/* 区切り線 */}
+                    <div className="border-t-[3px] border-black my-8"></div>
+
+                    {/* Googleログインボタン */}
+                    <div className="relative flex items-center gap-4">
+                        <div className="w-12 h-12 rounded-full border-[3px] border-black flex items-center justify-center bg-white text-xl font-bold flex-shrink-0">
+                            5
+                        </div>
+                        <button
+                            type="button"
+                            onClick={handleGoogleLogin}
+                            className="flex-1 px-6 py-4 rounded-full border-[3px] border-black bg-white hover:bg-gray-50 transition-colors flex items-center justify-center gap-2"
+                        >
+                            <svg className="w-6 h-6" viewBox="0 0 24 24">
+                                <path fill="#4285F4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
+                                <path fill="#34A853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
+                                <path fill="#FBBC05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
+                                <path fill="#EA4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
+                            </svg>
+                            <span className="font-medium">Google</span>
+                        </button>
+                    </div>
+                </form>
+            </div>
         </div>
-
-        {error && <p className={styles.error}>{error}</p>}
-
-        <button
-          onClick={(e) => {
-            e.preventDefault();
-            handleSubmit(e as any);
-          }}
-          disabled={loading}
-          className={styles.submitButton}
-        >
-          {loading ? '処理中...' : isLogin ? 'ログイン' : '新規登録'}
-        </button>
-
-        <div className={styles.divider}>
-          <div className={styles.dividerLine}></div>
-          <span className={styles.dividerText}>または</span>
-          <div className={styles.dividerLine}></div>
-        </div>
-
-        <button
-          onClick={handleGoogleLogin}
-          disabled={loading}
-          className={styles.googleButton}
-        >
-          <svg className={styles.googleIcon} viewBox="0 0 24 24">
-            <path fill="#4285f4" d="M22.56 12.25c0-.78-.07-1.53-.2-2.25H12v4.26h5.92c-.26 1.37-1.04 2.53-2.21 3.31v2.77h3.57c2.08-1.92 3.28-4.74 3.28-8.09z"/>
-            <path fill="#34a853" d="M12 23c2.97 0 5.46-.98 7.28-2.66l-3.57-2.77c-.98.66-2.23 1.06-3.71 1.06-2.86 0-5.29-1.93-6.16-4.53H2.18v2.84C3.99 20.53 7.7 23 12 23z"/>
-            <path fill="#fbbc05" d="M5.84 14.09c-.22-.66-.35-1.36-.35-2.09s.13-1.43.35-2.09V7.07H2.18C1.43 8.55 1 10.22 1 12s.43 3.45 1.18 4.93l2.85-2.22.81-.62z"/>
-            <path fill="#ea4335" d="M12 5.38c1.62 0 3.06.56 4.21 1.64l3.15-3.15C17.45 2.09 14.97 1 12 1 7.7 1 3.99 3.47 2.18 7.07l3.66 2.84c.87-2.6 3.3-4.53 6.16-4.53z"/>
-          </svg>
-          Googleでログイン
-        </button>
-
-        <p className={styles.toggleText}>
-          {isLogin ? 'アカウントをお持ちでない方は' : 'すでにアカウントをお持ちの方は'}{' '}
-          <button
-            onClick={toggleMode}
-            className={styles.toggleButton}
-          >
-            {isLogin ? '新規登録' : 'ログイン'}
-          </button>
-        </p>
-      </div>
-    </div>
-  );
+    );
 }

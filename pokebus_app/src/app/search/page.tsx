@@ -3,6 +3,7 @@ import { useState, useEffect, useRef } from "react";
 import { Menu, X, MapPin } from "lucide-react";
 import Script from "next/script";
 import styles from "./search.module.css";
+import { useRouter } from "next/navigation";
 
 // Google Maps API の型定義を追加
 declare global {
@@ -13,6 +14,7 @@ declare global {
 }
 
 export default function BusSearch() {
+  const router = useRouter();
   const [menuOpen, setMenuOpen] = useState(false);
   const [mapLoaded, setMapLoaded] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
@@ -25,11 +27,124 @@ export default function BusSearch() {
   const directionsService = useRef<google.maps.DirectionsService | null>(null);
   const directionsRenderer = useRef<google.maps.DirectionsRenderer | null>(null);
   const currentLocationRef = useRef<google.maps.LatLng | null>(null);
+
   const routeMarkersRef = useRef<google.maps.Marker[]>([]);
   const routePolylineRef = useRef<google.maps.Polyline | null>(null);
   const tripStopsRef = useRef<Record<string, any[]> | null>(null);
   const [selectedTripId, setSelectedTripId] = useState<string | null>(null);
 
+  return (
+    <div className="min-h-screen bg-gradient-to-b from-white to-slate-50 p-6">
+      <div className="max-w-3xl mx-auto">
+        {/* ヘッダー / ユーザー概要 */}
+        <div className="bg-white rounded-xl shadow p-5 mb-6">
+          <div className="flex items-center justify-between">
+            <div>
+              <h2 className="text-lg font-semibold">あなたのランキング</h2>
+              <p className="text-sm text-gray-500">今日の集計と最近の成績を表示します</p>
+            </div>
+            <div className="text-right">
+              <button
+                className="text-xs px-3 py-1 rounded-full bg-indigo-600 text-white"
+                onClick={() => window.scrollTo({ top: 400, behavior: "smooth" })}
+              >
+                詳細を見る
+              </button>
+            </div>
+          </div>
+
+          <div className="mt-4 grid grid-cols-1 sm:grid-cols-4 gap-4">
+            <div className="col-span-1 sm:col-span-2 flex items-center gap-4">
+              <div className="w-14 h-14 rounded-full bg-indigo-100 flex items-center justify-center text-indigo-700 font-bold text-xl">
+                {user?.displayName?.[0] ?? "あ"}
+              </div>
+              <div>
+                <div className="text-sm text-gray-500">あなたの現在順位</div>
+                <div className="text-2xl font-bold">#{ranking.findIndex((r) => r.uid === user?.uid) + 1 || "-"}</div>
+              </div>
+            </div>
+
+            <div className="p-3 bg-gray-50 rounded-lg text-center">
+              <div className="text-xs text-gray-500">週間ポイント</div>
+              <div className="text-xl font-semibold">{user?.weeklyPoints ?? "-"}</div>
+            </div>
+
+            <div className="p-3 bg-gray-50 rounded-lg text-center">
+              <div className="text-xs text-gray-500">バス通過数</div>
+              <div className="text-xl font-semibold">{user?.busPasses ?? "-"}</div>
+            </div>
+
+            <div className="p-3 bg-gray-50 rounded-lg text-center">
+              <div className="text-xs text-gray-500">総合ポイント</div>
+              <div className="text-xl font-semibold">{user?.totalPoints ?? "-"}</div>
+            </div>
+          </div>
+        </div>
+
+        {/* 期間切替ボタン */}
+        <div className="flex items-center gap-3 mb-4">
+          <button
+            className={`px-4 py-2 rounded-full text-sm font-medium ${period === "weekly" ? "bg-indigo-600 text-white" : "bg-white border"}`}
+            onClick={() => setPeriod("weekly")}
+            aria-pressed={period === "weekly"}
+          >
+            週間
+          </button>
+          <button
+            className={`px-4 py-2 rounded-full text-sm font-medium ${period === "monthly" ? "bg-indigo-600 text-white" : "bg-white border"}`}
+            onClick={() => setPeriod("monthly")}
+            aria-pressed={period === "monthly"}
+          >
+            月間
+          </button>
+          <button
+            className={`px-4 py-2 rounded-full text-sm font-medium ${period === "overall" ? "bg-indigo-600 text-white" : "bg-white border"}`}
+            onClick={() => setPeriod("overall")}
+            aria-pressed={period === "overall"}
+          >
+            総合
+          </button>
+        </div>
+
+        {/* ランキングリスト */}
+        <div className="bg-white rounded-xl shadow divide-y">
+          <div className="p-4 grid grid-cols-12 gap-2 text-xs text-gray-500">
+            <div className="col-span-1 text-center">順位</div>
+            <div className="col-span-6">ユーザー</div>
+            <div className="col-span-3 text-right">ポイント</div>
+            <div className="col-span-2 text-right">バス通過</div>
+          </div>
+
+          {loading ? (
+            <div className="p-8 text-center text-gray-400">読み込み中...</div>
+          ) : (
+            ranking.map((r, idx) => {
+              const isMe = r.uid === user?.uid;
+              return (
+                <div key={r.uid} className={`p-4 grid grid-cols-12 items-center gap-2 ${isMe ? "bg-indigo-50" : ""}`}>
+                  <div className="col-span-1 text-center font-medium">#{idx + 1}</div>
+                  <div className="col-span-6 flex items-center gap-3">
+                    <div className="w-10 h-10 rounded-full bg-gray-100 flex items-center justify-center text-sm font-semibold text-gray-700">
+                      {r.displayName[0]}
+                    </div>
+                    <div>
+                      <div className={`text-sm ${isMe ? "font-semibold text-indigo-700" : "font-medium"}`}>{r.displayName}</div>
+                      <div className="text-xs text-gray-400">{r.uid}</div>
+                    </div>
+                  </div>
+                  <div className="col-span-3 text-right font-semibold">{renderPointsFor(r)}</div>
+                  <div className="col-span-2 text-right text-sm text-gray-500">{r.busPasses}</div>
+                </div>
+              );
+            })
+          )}
+        </div>
+
+        <p className="text-xs text-gray-400 mt-3">※ データはサンプルです。Firestore / API と連携して実データを表示してください。</p>
+      </div>
+    </div>
+  );
+}
   // Google Maps APIが読み込まれた後にマップを初期化
   const initializeMap = () => {
     if (!mapRef.current || !window.google) return;
@@ -614,7 +729,16 @@ export default function BusSearch() {
         {menuOpen && (
           <div className={styles.dropdown}>
             <ul className={styles.dropdownList}>
-              <li className={styles.dropdownItem}>🏆 ランキング</li>
+              <li
+                className={styles.dropdownItem}
+                role="button"
+                onClick={() => {
+                  setMenuOpen(false);
+                  router.push("/ranking");
+                }}
+              >
+                🏆 ランキング
+              </li>
               <li className={styles.dropdownItem}>⚙ 設定</li>
             </ul>
           </div>
