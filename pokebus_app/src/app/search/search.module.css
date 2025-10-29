@@ -1,0 +1,184 @@
+.container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f9a8d4; /* bg-pink-300 */
+  padding: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+.logo {
+  height: 2.5rem; /* h-10 */
+}
+
+.menuButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.25rem;
+}
+
+.dropdown {
+  position: absolute;
+  top: 100%; /* ヘッダーの直下に配置 */
+  right: 0.5rem; /* right-2 */
+  background-color: white;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  border-radius: 0.5rem; /* rounded-lg */
+  padding: 0.5rem; /* p-2 */
+  width: 10rem; /* より広く */
+  z-index: 1000; /* より高いz-index */
+  margin-top: 0.25rem; /* 少し間隔を空ける */
+}
+
+.dropdownList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem; /* space-y-2 */
+}
+
+.dropdownItem {
+  color: #374151; /* text-gray-700 */
+  padding: 0.5rem; /* p-2 */
+  border-radius: 0.25rem; /* rounded */
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.dropdownItem:hover {
+  background-color: #f3f4f6; /* hover:bg-gray-100 */
+}
+
+.searchBar {
+  position: relative;
+  display: flex;
+  padding: 0.5rem; /* p-2 */
+  background-color: white;
+  align-items: center;
+  z-index: 10;
+}
+
+.searchInput {
+  flex: 1;
+  border: 1px solid #d1d5db; /* border */
+  border-radius: 0.375rem 0 0 0.375rem; /* rounded-l-md */
+  padding: 0.5rem; /* p-2 */
+  outline: none;
+}
+
+.searchInput:focus {
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 1px #3b82f6;
+}
+
+.searchButton {
+  background-color: #f472b6; /* bg-pink-400 */
+  color: white;
+  padding: 0.5rem 1rem; /* px-4 py-2 */
+  border-radius: 0 0.375rem 0.375rem 0; /* rounded-r-md */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.searchButton:hover {
+  background-color: #ec4899; /* hover:bg-pink-500 */
+}
+
+.clearButton {
+  background-color: #6b7280; /* bg-gray-500 */
+  color: white;
+  padding: 0.5rem 1rem; /* px-4 py-2 */
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  margin-left: 0.25rem;
+  border-radius: 0.375rem;
+}
+
+.clearButton:hover {
+  background-color: #4b5563; /* hover:bg-gray-600 */
+}
+
+.mapContainer {
+  flex: 1;
+  width: 100%;
+  height: 100%;
+}
+
+.loadingContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.loadingText {
+  color: #6b7280; /* text-gray-500 */
+}
+
+/* 検索予測のスタイル */
+.predictions {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border: 1px solid #d1d5db;
+  border-top: none;
+  border-radius: 0 0 0.375rem 0.375rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+  max-height: 200px;
+  overflow-y: auto;
+}
+
+.predictionItem {
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  border-bottom: 1px solid #f3f4f6;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: background-color 0.2s;
+}
+
+.predictionItem:hover {
+  background-color: #f9fafb;
+}
+
+.predictionItem:last-child {
+  border-bottom: none;
+}
+
+.predictionIcon {
+  color: #6b7280;
+  flex-shrink: 0;
+}
+
+.predictionText {
+  flex: 1;
+  color: #374151;
+  font-size: 0.875rem;
+}
+
+.predictionMain {
+  font-weight: 500;
+}
+
+.predictionSub {
+  color: #6b7280;
+  font-size: 0.75rem;
+  margin-top: 0.125rem;
+}
