@@ -1,0 +1,2 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url
+5000020473286,中城村,https://www.vill.nakagusuku.okinawa.jp/detail.jsp?id=64245&menuid=13292&funcid=1,Asia/Tokyo,ja,098-895-2131,

@@ -1,0 +1,2 @@
+feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version
+アーティサン株式会社,https://artisan.jp.net/service/maas/busyohou/,ja,20250401,20260331,2025/04/01改正-見える化ver2.6d

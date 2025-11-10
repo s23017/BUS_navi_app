@@ -1,0 +1,2 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url
+7000020473821,与那国町,https://www.town.yonaguni.okinawa.jp,Asia/Tokyo,ja,,

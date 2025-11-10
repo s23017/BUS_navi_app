@@ -1,0 +1,5 @@
+fare_id,route_id,origin_id,destination_id
+200,1,,
+200,2,,
+200,3,,
+200,4,,
