@@ -1,0 +1,2 @@
+feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date
+南城市,http://www.city.nanjo.okinawa.jp/,ja,20250401,20260331

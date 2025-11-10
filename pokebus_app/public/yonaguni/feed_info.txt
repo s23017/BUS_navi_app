@@ -1,0 +1,2 @@
+feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date
+与那国町,https://www.town.yonaguni.okinawa.jp,ja,20250821,20251231

@@ -1,0 +1,2 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url,agency_email
+5000020472115,沖縄市循環バス,https://www.city.okinawa.okinawa.jp/,Asia/Tokyo,ja,098-939-1212,,

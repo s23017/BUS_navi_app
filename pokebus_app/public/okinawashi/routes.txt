@@ -1,0 +1,5 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_color,route_text_color
+1,5000020472115,,西部ルート,,3,E3007E,FFFFFF
+2,5000020472115,,中部ルート,,3,006834,FFFFFF
+3,5000020472115,,北部ルート,,3,EA5414,FFFFFF
+4,5000020472115,,東部ルート,,3,1C1F87,FFFFFF

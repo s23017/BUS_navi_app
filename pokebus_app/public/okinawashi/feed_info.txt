@@ -1,0 +1,2 @@
+feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date,feed_version
+沖縄市循環バス,https://www.city.okinawa.okinawa.jp/,ja,20251002,20260331,2025/10/02改正-見える化ver2.6e

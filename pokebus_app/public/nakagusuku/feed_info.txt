@@ -1,0 +1,2 @@
+feed_publisher_name,feed_publisher_url,feed_lang,feed_start_date,feed_end_date
+中城村,https://www.vill.nakagusuku.okinawa.jp/detail.jsp?id=64245&menuid=13292&funcid=1,ja,20250926,20251230

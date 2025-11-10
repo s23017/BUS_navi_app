@@ -1,0 +1,5 @@
+route_id,agency_id,route_short_name,route_long_name,route_desc,route_type,route_color,route_text_color
+337,5000020473286,護佐丸バス,久場琉大線,,3,E6443A,FFFFFF
+338,5000020473286,護佐丸バス,伊集普天間線,,3,009ED5,FFFFFF
+339,5000020473286,護佐丸バス,伊集回り線,,3,DA3E71,FFFFFF
+340,5000020473286,護佐丸バス,久場回り線,,3,275D33,FFFFFF

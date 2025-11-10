@@ -1,0 +1,2 @@
+agency_id,agency_name,agency_url,agency_timezone,agency_lang,agency_phone,agency_fare_url
+3000020472158,南城市,https://nbus-nanjo.jp/,Asia/Tokyo,ja,,
