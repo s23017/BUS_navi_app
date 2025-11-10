@@ -1,0 +1,10 @@
+route_id,service_id,trip_id,direction_id,block_id,shape_id
+359,全日,ec0aebbf42af449dbe1e27b5547bd071,,,
+360,全日,04e74671ec99a5d9426a38250bb332f3,,,
+360,全日,27b28dfb937912f5ea285ba84b291d40,,,
+360,全日,4a71e46d617752d03aab6e5e7bc18524,,,
+360,全日,72e6b1def44609c1de5a6c54a69981fc,,,
+361,全日,1c8fc0f7581be0205fdddcc5bba6e32b,,,
+361,全日,e9dee73d109eda74ffe8af16c0ef2172,,,
+362,全日,dcc61c32276b8028143beaa106146d7a,,,
+363,全日,2e34bfeaa7601544817c9891ca889c7b,,,
