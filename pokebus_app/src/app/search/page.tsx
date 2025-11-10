@@ -30,6 +30,8 @@ declare global {
   const routePolylineRef = useRef<google.maps.Polyline | null>(null);
   const tripStopsRef = useRef<Record<string, any[]> | null>(null);
   const [selectedTripId, setSelectedTripId] = useState<string | null>(null);
+  const [ridingTripId, setRidingTripId] = useState<string | null>(null);
+  const [tripDelays, setTripDelays] = useState<Record<string, number | null>>({});
 
   // Google Maps APIが読み込まれた後にマップを初期化
   const initializeMap = () => {
@@ -143,6 +145,14 @@ declare global {
 
       setRouteStops(routeStopsFull);
       setSelectedTripId(tripId);
+
+      // fetch realtime delay info (mock/fallback)
+      try {
+        const d = await fetchRealtimeDelayMock(tripId);
+        setTripDelays(prev => ({ ...prev, [tripId]: d }));
+      } catch (e) {
+        setTripDelays(prev => ({ ...prev, [tripId]: null }));
+      }
 
       // 地図に描画（マーカーとポリライン）
       if (mapInstance.current && window.google) {
@@ -577,6 +587,13 @@ declare global {
     });
 
     return { stops, stopTimes, trips, routes };
+  }
+
+  // Realtime delay fetcher (mock). Replace with GTFS-RT or API integration later.
+  async function fetchRealtimeDelayMock(tripId: string): Promise<number | null> {
+    // Currently no GTFS-RT available in the repo; return null to indicate no realtime info.
+    // You can replace this function to fetch from a GTFS-RT feed and parse delay (sec/min) when available.
+    return null;
   }
 
   // 目的地検索入力ハンドラ
@@ -1796,6 +1813,75 @@ declare global {
                 )}
               </div>
             </div>
+          </div>
+        )}
+
+        {/* 選択された便の詳細パネル（地図の上に表示） */}
+        {selectedTripId && routeStops.length > 0 && (
+          <div className={styles.routeDetailContainer} style={{
+            position: 'absolute',
+            right: '16px',
+            top: '110px',
+            width: '320px',
+            maxHeight: '60vh',
+            overflowY: 'auto',
+            background: 'white',
+            zIndex: 1200,
+            boxShadow: '0 6px 20px rgba(0,0,0,0.12)',
+            borderRadius: '10px',
+            padding: '12px'
+          }}>
+            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
+              <div style={{ fontWeight: 700 }}>便情報</div>
+              <div>
+                <button className={styles.smallButton} onClick={() => { setSelectedTripId(null); setRouteStops([]); routeMarkersRef.current.forEach(m=>m.setMap(null)); if (routePolylineRef.current) { routePolylineRef.current.setMap(null); routePolylineRef.current = null; } }}>閉じる</button>
+              </div>
+            </div>
+            {(() => {
+              const bus = routeBuses.find(b => b.trip_id === selectedTripId);
+              const delay = tripDelays[selectedTripId || ''] ?? null;
+              return (
+                <div>
+                  <div style={{ marginBottom: '8px' }}>
+                    <div style={{ fontSize: '14px', color: '#007bff', fontWeight: 700 }}>🚌 {bus?.route_short_name || bus?.route_long_name || bus?.route_id}</div>
+                    <div style={{ fontSize: '12px', color: '#666' }}>出発: {bus?.departure || '不明'} • 到着: {bus?.arrival || '不明'}</div>
+                  </div>
+                  <div style={{ marginBottom: '8px' }}>
+                    <div style={{ fontSize: '12px', color: '#666' }}>遅延情報</div>
+                    <div style={{ fontWeight: 600 }}>{delay === null ? '遅延情報なし' : `${delay} 分遅延`}</div>
+                  </div>
+                  <div style={{ display: 'flex', gap: '8px', marginBottom: '8px' }}>
+                    <button className={styles.selectButton} onClick={() => setRidingTripId(ridingTripId === selectedTripId ? null : selectedTripId)}>{ridingTripId === selectedTripId ? '下車する' : 'この便に乗る'}</button>
+                    <button className={styles.smallButton} onClick={() => { mapInstance.current && routeStops.length > 0 && mapInstance.current.fitBounds((() => { const b = new window.google.maps.LatLngBounds(); if (currentLocationRef.current) b.extend(currentLocationRef.current); routeStops.forEach((rs)=>{ if (rs.stop_lat && rs.stop_lon) b.extend(new window.google.maps.LatLng(parseFloat(rs.stop_lat), parseFloat(rs.stop_lon))); }); return b; })()); }}>表示範囲</button>
+                  </div>
+                  <div style={{ fontSize: '13px', fontWeight: 600, marginBottom: '6px' }}>停車順</div>
+                  <div style={{ maxHeight: '28vh', overflowY: 'auto' }}>
+                    {routeStops.map((rs, idx) => {
+                      let isNearest = false;
+                      try {
+                        if (currentLocationRef.current && rs.stop_lat && rs.stop_lon) {
+                          const curLat = (currentLocationRef.current as google.maps.LatLng).lat();
+                          const curLon = (currentLocationRef.current as google.maps.LatLng).lng();
+                          const d = getDistance(curLat, curLon, parseFloat(rs.stop_lat), parseFloat(rs.stop_lon));
+                          isNearest = d < 150; // 150m以内を「現在地に近い」とする
+                        }
+                      } catch (e) {
+                        isNearest = false;
+                      }
+                      return (
+                        <div key={`route_stop_${rs.stop_id}_${idx}`} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '6px 8px', background: isNearest ? '#e6f7ff' : 'transparent', borderRadius: '6px', marginBottom: '6px' }}>
+                          <div>
+                            <div style={{ fontWeight: 600 }}>{rs.stop_name}</div>
+                            <div style={{ fontSize: '12px', color: '#666' }}>{rs.arrival_time || rs.departure_time || ''}</div>
+                          </div>
+                          <div style={{ fontSize: '12px', color: isNearest ? '#007bff' : '#666' }}>{isNearest ? '現在地近く' : `${idx+1}`}</div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                </div>
+              );
+            })()}
           </div>
         )}
 
