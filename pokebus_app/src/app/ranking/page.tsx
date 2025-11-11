@@ -1,7 +1,8 @@
 "use client";
 
-import React, { useEffect, useState } from "react";
-import { Trophy, TrendingUp, Award, Users } from "lucide-react";
+
+import React, { useState, useEffect } from "react";
+import { Menu, X, Trophy, TrendingUp, Award, Users } from "lucide-react";
 
 type RankItem = {
   uid: string;
@@ -33,7 +34,8 @@ const SAMPLE_RANKING: RankItem[] = [
   { uid: "u5", displayName: "Eve", weeklyPoints: 80, monthlyPoints: 300, totalPoints: 2100, busPasses: 20 },
 ];
 
-export default function RankingPage() {
+// ランキングページコンポーネント
+function RankingPage() {
   const [period, setPeriod] = useState<Period>("weekly");
   const [ranking, setRanking] = useState<RankItem[]>([]);
   const [loading, setLoading] = useState(false);
@@ -242,6 +244,79 @@ export default function RankingPage() {
           ※ データはサンプルです。実際の運用時はFirestore / APIと連携してください。
         </p>
       </div>
+    </div>
+  );
+}
+
+// ホームページコンポーネント
+function HomePage() {
+  return (
+    <div className="p-8 text-center text-gray-600">
+      <h2 className="text-2xl font-bold mb-4">バス検索アプリへようこそ</h2>
+      <p className="mb-4">ここにメインコンテンツが表示されます</p>
+      <p className="text-sm text-gray-400">右上のメニューから「ランキング」を選択してください</p>
+    </div>
+  );
+}
+
+// メインアプリコンポーネント
+export default function BusSearchApp() {
+  const [menuOpen, setMenuOpen] = useState(false);
+  const [currentPage, setCurrentPage] = useState<"home" | "ranking">("ranking");
+
+  const handleRankingClick = () => {
+    setMenuOpen(false);
+    setCurrentPage("ranking");
+  };
+
+  const handleHomeClick = () => {
+    setMenuOpen(false);
+    setCurrentPage("home");
+  };
+
+  return (
+    <div className="min-h-screen bg-gray-50">
+      {/* ヘッダー */}
+      <div className="flex items-center justify-between px-6 py-4 bg-white shadow-sm">
+        <div 
+          className="text-2xl font-bold text-gray-800 cursor-pointer hover:text-indigo-600 transition-colors"
+          onClick={handleHomeClick}
+        >
+          🚌 バス検索
+        </div>
+        <button 
+          className="p-2 hover:bg-gray-100 rounded-lg transition-colors"
+          onClick={() => setMenuOpen(!menuOpen)}
+        >
+          {menuOpen ? <X size={28} /> : <Menu size={28} />}
+        </button>
+      </div>
+
+      {/* ドロップダウンメニュー */}
+      {menuOpen && (
+        <div className="bg-white shadow-md border-t border-gray-200">
+          <ul className="py-2">
+            <li
+              className="px-6 py-3 cursor-pointer hover:bg-gray-50 transition-colors"
+              onClick={handleHomeClick}
+            >
+              🏠 ホーム
+            </li>
+            <li
+              className="px-6 py-3 cursor-pointer hover:bg-gray-50 transition-colors"
+              onClick={handleRankingClick}
+            >
+              🏆 ランキング
+            </li>
+            <li className="px-6 py-3 cursor-pointer hover:bg-gray-50 transition-colors">
+              ⚙️ 設定
+            </li>
+          </ul>
+        </div>
+      )}
+
+      {/* メインコンテンツ */}
+      {currentPage === "home" ? <HomePage /> : <RankingPage />}
     </div>
   );
 }

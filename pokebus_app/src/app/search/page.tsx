@@ -4,12 +4,14 @@ import { Menu, X, MapPin } from "lucide-react";
 import Script from "next/script";
 import styles from "./search.module.css";
 
-  // Google Maps API の型定義を追加
+// Google Maps API の型定義を追加
 declare global {
   interface Window {
     google: typeof google;
   }
-}export default function BusSearch() {
+}
+
+export default function BusSearch() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [mapLoaded, setMapLoaded] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
@@ -32,6 +34,10 @@ declare global {
   const [selectedTripId, setSelectedTripId] = useState<string | null>(null);
   const [ridingTripId, setRidingTripId] = useState<string | null>(null);
   const [tripDelays, setTripDelays] = useState<Record<string, number | null>>({});
+  
+  // 下部パネル用の状態を追加
+  const [showBottomPanel, setShowBottomPanel] = useState(false);
+  const [bottomPanelCollapsed, setBottomPanelCollapsed] = useState(false);
 
   // Google Maps APIが読み込まれた後にマップを初期化
   const initializeMap = () => {
@@ -1438,19 +1444,167 @@ declare global {
           )}
         </div>
 
-        {/* 選択された出発地点表示 */}
-        {selectedStart && (
-          <div className={styles.resultsContainer}>
-            <div className={styles.nearbyList}>
-              <h3>選択された出発地点</h3>
-              <div className={styles.nearbyItem}>
-                <div>
-                  <div className={styles.stopName}>{selectedStart.stop_name}</div>
+        {/* Googleマップ */}
+        <div ref={mapRef} className={styles.mapContainer}>
+          {!mapLoaded && (
+            <div className={styles.loadingContainer}>
+              <div className={styles.loadingText}>マップを読み込んでいます...</div>
+            </div>
+          )}
+        </div>
+
+        {/* 下部パネル - 選択された出発地点と便情報を表示 */}
+        {(selectedStart || selectedTripId) && (
+          <div className={`${styles.bottomPanel} ${bottomPanelCollapsed ? styles.collapsed : ''}`}>
+            <div className={styles.bottomPanelHeader} onClick={() => setBottomPanelCollapsed(!bottomPanelCollapsed)}>
+              <h3 className={styles.bottomPanelTitle}>
+                {selectedTripId ? '選択中の便情報' : '選択された出発地点'}
+              </h3>
+              <button className={styles.toggleButton}>
+                {bottomPanelCollapsed ? '▲' : '▼'}
+              </button>
+            </div>
+
+            <div className={styles.bottomPanelContent}>
+              {/* 選択された出発地点表示 */}
+              {selectedStart && (
+                <div className={styles.selectedStartSection}>
+                  <div className={styles.sectionHeader}>
+                    <h4>出発地点</h4>
+                    <button 
+                      className={styles.changeButton} 
+                      onClick={() => { 
+                        setSelectedStart(null); 
+                        setStartSearchQuery(""); 
+                      }}
+                    >
+                      変更
+                    </button>
+                  </div>
+                  <div className={styles.startInfo}>
+                    <div className={styles.stopName}>{selectedStart.stop_name}</div>
+                  </div>
                 </div>
-                <div>
-                  <button className={styles.selectButton} onClick={() => { setSelectedStart(null); setStartSearchQuery(""); }}>変更</button>
+              )}
+
+              {/* 便情報表示 */}
+              {selectedTripId && routeStops.length > 0 && (
+                <div className={styles.tripInfoSection}>
+                  <div className={styles.sectionHeader}>
+                    <h4>便情報</h4>
+                    <button 
+                      className={styles.closeButton} 
+                      onClick={() => { 
+                        setSelectedTripId(null); 
+                        setRouteStops([]); 
+                        routeMarkersRef.current.forEach(m=>m.setMap(null)); 
+                        if (routePolylineRef.current) { 
+                          routePolylineRef.current.setMap(null); 
+                          routePolylineRef.current = null; 
+                        } 
+                      }}
+                    >
+                      ×
+                    </button>
+                  </div>
+
+                  {(() => {
+                    const bus = routeBuses.find(b => b.trip_id === selectedTripId);
+                    const delay = tripDelays[selectedTripId || ''] ?? null;
+                    return (
+                      <div className={styles.tripDetails}>
+                        <div className={styles.busInfoCard}>
+                          <div className={styles.busRoute}>
+                            🚌 {bus?.route_short_name || bus?.route_long_name || bus?.route_id}
+                          </div>
+                          <div className={styles.busSchedule}>
+                            <span>出発: {bus?.departure || '不明'}</span>
+                            <span>到着: {bus?.arrival || '不明'}</span>
+                          </div>
+                        </div>
+                        
+                        <div className={styles.delayInfo}>
+                          <div className={styles.delayLabel}>遅延情報</div>
+                          <div className={`${styles.delayStatus} ${delay === null ? styles.delayNone : (delay > 0 ? styles.delayPositive : styles.delayNegative)}`}>
+                            {delay === null ? '遅延情報なし' : (delay > 0 ? `${delay}分遅延` : '定時運行')}
+                          </div>
+                        </div>
+                        
+                        <div className={styles.tripActions}>
+                          <button 
+                            className={`${styles.selectButton} ${styles.primaryButton}`}
+                            onClick={() => setRidingTripId(ridingTripId === selectedTripId ? null : selectedTripId)}
+                          >
+                            {ridingTripId === selectedTripId ? '🚌 下車する' : '🚌 この便に乗る'}
+                          </button>
+                          <button 
+                            className={`${styles.selectButton} ${styles.secondaryButton}`}
+                            onClick={() => { 
+                              if (mapInstance.current && routeStops.length > 0) {
+                                const bounds = new window.google.maps.LatLngBounds();
+                                if (currentLocationRef.current) bounds.extend(currentLocationRef.current);
+                                routeStops.forEach((rs)=>{ 
+                                  if (rs.stop_lat && rs.stop_lon) {
+                                    bounds.extend(new window.google.maps.LatLng(parseFloat(rs.stop_lat), parseFloat(rs.stop_lon)));
+                                  }
+                                });
+                                mapInstance.current.fitBounds(bounds);
+                              }
+                            }}
+                          >
+                            📍 地図で確認
+                          </button>
+                        </div>
+                        
+                        <div className={styles.stopsContainer}>
+                          <div className={styles.stopsHeader}>
+                            停車順（全{routeStops.length}駅）
+                          </div>
+                          <div className={styles.stopsScrollable}>
+                            {routeStops.map((rs, idx) => {
+                              let isNearest = false;
+                              try {
+                                if (currentLocationRef.current && rs.stop_lat && rs.stop_lon) {
+                                  const curLat = (currentLocationRef.current as google.maps.LatLng).lat();
+                                  const curLon = (currentLocationRef.current as google.maps.LatLng).lng();
+                                  const d = getDistance(curLat, curLon, parseFloat(rs.stop_lat), parseFloat(rs.stop_lon));
+                                  isNearest = d < 150;
+                                }
+                              } catch (e) {
+                                isNearest = false;
+                              }
+                              
+                              const isStart = idx === 0;
+                              const isEnd = idx === routeStops.length - 1;
+                              
+                              return (
+                                <div 
+                                  key={`route_stop_${rs.stop_id}_${idx}`} 
+                                  className={`${styles.stopItem} ${isNearest ? styles.stopNearby : ''} ${isStart ? styles.stopStart : ''} ${isEnd ? styles.stopEnd : ''}`}
+                                >
+                                  <div className={styles.stopInfo}>
+                                    <div className={`${styles.stopName} ${isStart ? styles.stopStartName : ''} ${isEnd ? styles.stopEndName : ''}`}>
+                                      {isStart && '🚏 '}
+                                      {isEnd && '🎯 '}
+                                      {rs.stop_name}
+                                    </div>
+                                    <div className={styles.stopTime}>
+                                      {rs.arrival_time || rs.departure_time || '時刻未定'}
+                                    </div>
+                                  </div>
+                                  <div className={`${styles.stopMeta} ${isNearest ? styles.stopNearbyMeta : styles.stopOrderMeta}`}>
+                                    {isNearest ? '📍 現在地付近' : `${idx + 1}番目`}
+                                  </div>
+                                </div>
+                              );
+                            })}
+                          </div>
+                        </div>
+                      </div>
+                    );
+                  })()}
                 </div>
-              </div>
+              )}
             </div>
           </div>
         )}
@@ -1815,84 +1969,6 @@ declare global {
             </div>
           </div>
         )}
-
-        {/* 選択された便の詳細パネル（地図の上に表示） */}
-        {selectedTripId && routeStops.length > 0 && (
-          <div className={styles.routeDetailContainer} style={{
-            position: 'absolute',
-            right: '16px',
-            top: '110px',
-            width: '320px',
-            maxHeight: '60vh',
-            overflowY: 'auto',
-            background: 'white',
-            zIndex: 1200,
-            boxShadow: '0 6px 20px rgba(0,0,0,0.12)',
-            borderRadius: '10px',
-            padding: '12px'
-          }}>
-            <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
-              <div style={{ fontWeight: 700 }}>便情報</div>
-              <div>
-                <button className={styles.smallButton} onClick={() => { setSelectedTripId(null); setRouteStops([]); routeMarkersRef.current.forEach(m=>m.setMap(null)); if (routePolylineRef.current) { routePolylineRef.current.setMap(null); routePolylineRef.current = null; } }}>閉じる</button>
-              </div>
-            </div>
-            {(() => {
-              const bus = routeBuses.find(b => b.trip_id === selectedTripId);
-              const delay = tripDelays[selectedTripId || ''] ?? null;
-              return (
-                <div>
-                  <div style={{ marginBottom: '8px' }}>
-                    <div style={{ fontSize: '14px', color: '#007bff', fontWeight: 700 }}>🚌 {bus?.route_short_name || bus?.route_long_name || bus?.route_id}</div>
-                    <div style={{ fontSize: '12px', color: '#666' }}>出発: {bus?.departure || '不明'} • 到着: {bus?.arrival || '不明'}</div>
-                  </div>
-                  <div style={{ marginBottom: '8px' }}>
-                    <div style={{ fontSize: '12px', color: '#666' }}>遅延情報</div>
-                    <div style={{ fontWeight: 600 }}>{delay === null ? '遅延情報なし' : `${delay} 分遅延`}</div>
-                  </div>
-                  <div style={{ display: 'flex', gap: '8px', marginBottom: '8px' }}>
-                    <button className={styles.selectButton} onClick={() => setRidingTripId(ridingTripId === selectedTripId ? null : selectedTripId)}>{ridingTripId === selectedTripId ? '下車する' : 'この便に乗る'}</button>
-                    <button className={styles.smallButton} onClick={() => { mapInstance.current && routeStops.length > 0 && mapInstance.current.fitBounds((() => { const b = new window.google.maps.LatLngBounds(); if (currentLocationRef.current) b.extend(currentLocationRef.current); routeStops.forEach((rs)=>{ if (rs.stop_lat && rs.stop_lon) b.extend(new window.google.maps.LatLng(parseFloat(rs.stop_lat), parseFloat(rs.stop_lon))); }); return b; })()); }}>表示範囲</button>
-                  </div>
-                  <div style={{ fontSize: '13px', fontWeight: 600, marginBottom: '6px' }}>停車順</div>
-                  <div style={{ maxHeight: '28vh', overflowY: 'auto' }}>
-                    {routeStops.map((rs, idx) => {
-                      let isNearest = false;
-                      try {
-                        if (currentLocationRef.current && rs.stop_lat && rs.stop_lon) {
-                          const curLat = (currentLocationRef.current as google.maps.LatLng).lat();
-                          const curLon = (currentLocationRef.current as google.maps.LatLng).lng();
-                          const d = getDistance(curLat, curLon, parseFloat(rs.stop_lat), parseFloat(rs.stop_lon));
-                          isNearest = d < 150; // 150m以内を「現在地に近い」とする
-                        }
-                      } catch (e) {
-                        isNearest = false;
-                      }
-                      return (
-                        <div key={`route_stop_${rs.stop_id}_${idx}`} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '6px 8px', background: isNearest ? '#e6f7ff' : 'transparent', borderRadius: '6px', marginBottom: '6px' }}>
-                          <div>
-                            <div style={{ fontWeight: 600 }}>{rs.stop_name}</div>
-                            <div style={{ fontSize: '12px', color: '#666' }}>{rs.arrival_time || rs.departure_time || ''}</div>
-                          </div>
-                          <div style={{ fontSize: '12px', color: isNearest ? '#007bff' : '#666' }}>{isNearest ? '現在地近く' : `${idx+1}`}</div>
-                        </div>
-                      );
-                    })}
-                  </div>
-                </div>
-              );
-            })()}
-          </div>
-        )}
-
-        {/* Googleマップ */}
-        <div ref={mapRef} className={styles.mapContainer}>
-          {!mapLoaded && (
-            <div className={styles.loadingContainer}>
-              <div className={styles.loadingText}>マップを読み込んでいます...</div>
-            </div>
-          )}
-        </div>
       </div>
     </>
   );
