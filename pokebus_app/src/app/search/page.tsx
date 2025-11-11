@@ -126,15 +126,50 @@ declare global {
 
       // 目的地IDsがある場合は start->dest の区間だけを抜き出す。なければ全停車順を表示
       const destIdsArr = selectedDestIds.length > 0 ? selectedDestIds : [];
-      // find the first index of any dest within the trip
+      // Default indices
       let startIdx = 0;
       let endIdx = tripStops.length - 1;
-      // If user previously selected a start stop, try to limit from that start
-      // Find start stop index by matching stop_id from nearbyStops? We'll try selectedTripId context: assume tripStops contain the start stop earlier
-      // For simplicity, show full sequence but if selectedDestIds present, cut until the first dest encountered
+
+      // Determine endIdx by first destination stop found on this trip
       if (destIdsArr.length > 0) {
         const destIdx = tripStops.findIndex(s => destIdsArr.includes(s.stop_id));
         if (destIdx !== -1) endIdx = destIdx;
+      }
+
+      // If user selected a boarding stop (selectedStart), try to find its index on this trip.
+      if (selectedStart) {
+        // exact match by stop_id first
+        const idxById = tripStops.findIndex(s => s.stop_id === selectedStart.stop_id);
+        if (idxById !== -1) {
+          startIdx = idxById;
+        } else if (selectedStart.stop_lat && selectedStart.stop_lon) {
+          // If selectedStart is a place (with coords), find the nearest stop along this trip
+          try {
+            const selLat = parseFloat(selectedStart.stop_lat);
+            const selLon = parseFloat(selectedStart.stop_lon);
+            let bestIdx = -1;
+            let bestDist = Infinity;
+            for (let i = 0; i < tripStops.length; i++) {
+              const sId = tripStops[i].stop_id;
+              const stopDef = (await loadStops()).find((st: any) => st.stop_id === sId);
+              if (!stopDef) continue;
+              const lat = parseFloat(stopDef.stop_lat);
+              const lon = parseFloat(stopDef.stop_lon);
+              if (isNaN(lat) || isNaN(lon)) continue;
+              const d = getDistance(selLat, selLon, lat, lon);
+              if (d < bestDist) { bestDist = d; bestIdx = i; }
+            }
+            // only accept nearest stop if reasonably close (e.g., within 800m)
+            if (bestIdx !== -1 && bestDist < 800) startIdx = bestIdx;
+          } catch (e) {
+            // ignore and keep default startIdx
+          }
+        }
+      }
+
+      // Ensure startIdx <= endIdx
+      if (startIdx > endIdx) {
+        throw new Error('選択した出発停留所から目的地へ向かう経路ではありません');
       }
 
       const slice = tripStops.slice(startIdx, endIdx + 1);
