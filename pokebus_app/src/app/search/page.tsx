@@ -36,6 +36,7 @@ declare global {
   const sheetTouchStartY = useRef<number | null>(null);
   const [sheetTranslateY, setSheetTranslateY] = useState<number>(0);
   const sheetDraggingRef = useRef(false);
+  const [isSheetMinimized, setIsSheetMinimized] = useState<boolean>(false);
 
   // Google Maps APIが読み込まれた後にマップを初期化
   const initializeMap = () => {
@@ -1889,16 +1890,37 @@ declare global {
               setSheetTranslateY(0);
               sheetTouchStartY.current = null;
             }}
-            style={{ transform: `translateY(${sheetTranslateY}px)` }}
+            style={{ 
+              transform: `translateY(${sheetTranslateY}px)`,
+              maxHeight: isSheetMinimized ? '80px' : '50vh',
+              transition: isSheetMinimized ? 'max-height 0.3s ease' : 'none'
+            }}
           >
             <div className={styles.sheetHandle} />
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
               <div style={{ fontWeight: 700 }}>便情報</div>
-              <div>
-                <button className={styles.smallButton} onClick={() => { setSelectedTripId(null); setRouteStops([]); routeMarkersRef.current.forEach(m=>m.setMap(null)); if (routePolylineRef.current) { routePolylineRef.current.setMap(null); routePolylineRef.current = null; } }}>閉じる</button>
+              <div style={{ display: 'flex', gap: '8px' }}>
+                <button 
+                  className={styles.smallButton} 
+                  onClick={() => setIsSheetMinimized(!isSheetMinimized)}
+                  style={{ fontSize: '12px', padding: '4px 8px' }}
+                >
+                  {isSheetMinimized ? '展開' : '最小化'}
+                </button>
+                <button className={styles.smallButton} onClick={() => { 
+                  setSelectedTripId(null); 
+                  setRouteStops([]); 
+                  setIsSheetMinimized(false);
+                  routeMarkersRef.current.forEach(m=>m.setMap(null)); 
+                  if (routePolylineRef.current) { 
+                    routePolylineRef.current.setMap(null); 
+                    routePolylineRef.current = null; 
+                  } 
+                }}>閉じる</button>
               </div>
             </div>
-            {(() => {
+            
+            {!isSheetMinimized && (() => {
               const bus = routeBuses.find(b => b.trip_id === selectedTripId);
               const delay = tripDelays[selectedTripId || ''] ?? null;
               return (
@@ -1939,6 +1961,31 @@ declare global {
                         </div>
                       );
                     })}
+                  </div>
+                </div>
+              );
+            })()}
+            
+            {/* 最小化時の簡略表示 */}
+            {isSheetMinimized && (() => {
+              const bus = routeBuses.find(b => b.trip_id === selectedTripId);
+              return (
+                <div 
+                  style={{ 
+                    display: 'flex', 
+                    justifyContent: 'space-between', 
+                    alignItems: 'center', 
+                    padding: '8px 0',
+                    cursor: 'pointer' 
+                  }}
+                  onClick={() => setIsSheetMinimized(false)}
+                >
+                  <div>
+                    <div style={{ fontSize: '14px', color: '#007bff', fontWeight: 700 }}>🚌 {bus?.route_short_name || bus?.route_long_name || bus?.route_id}</div>
+                    <div style={{ fontSize: '12px', color: '#666' }}>出発: {bus?.departure || '不明'} • 到着: {bus?.arrival || '不明'}</div>
+                  </div>
+                  <div style={{ fontSize: '12px', color: '#666' }}>
+                    タップして詳細を表示 ▲
                   </div>
                 </div>
               );
