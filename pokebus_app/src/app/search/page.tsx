@@ -30,6 +30,7 @@ declare global {
   const directionsRenderer = useRef<google.maps.DirectionsRenderer | null>(null);
   const currentLocationRef = useRef<google.maps.LatLng | null>(null);
   const routeMarkersRef = useRef<google.maps.Marker[]>([]);
+  const otherRidersMarkersRef = useRef<google.maps.Marker[]>([]); // 他のライダーのマーカー管理用
   const routePolylineRef = useRef<google.maps.Polyline | null>(null);
   const tripStopsRef = useRef<Record<string, any[]> | null>(null);
   const [selectedTripId, setSelectedTripId] = useState<string | null>(null);
@@ -1095,6 +1096,9 @@ declare global {
         
         setRidersLocations(uniqueLocations);
         console.log('他のライダー位置情報更新:', uniqueLocations.length, '人');
+        
+        // 地図上のマーカーを更新
+        updateOtherRidersMarkers();
       }, (error: any) => {
         console.error('他のライダー位置情報の取得に失敗:', error);
         if (error?.code === 'permission-denied') {
@@ -1271,6 +1275,11 @@ declare global {
     
     setIsLocationSharing(false);
     setRidersLocations([]);
+    
+    // 他のライダーのマーカーもクリア
+    otherRidersMarkersRef.current.forEach(marker => marker.setMap(null));
+    otherRidersMarkersRef.current = [];
+    
     console.log('位置情報共有停止（Firestoreからも削除）');
   };
 
@@ -1318,6 +1327,69 @@ declare global {
         routeMarkersRef.current.push(busMarker);
       }
     }
+  };
+
+  // 他のライダーのマーカーを地図上に表示・更新
+  const updateOtherRidersMarkers = () => {
+    if (!mapInstance.current || !window.google) return;
+
+    // 既存の他のライダーマーカーをクリア
+    otherRidersMarkersRef.current.forEach(marker => marker.setMap(null));
+    otherRidersMarkersRef.current = [];
+
+    // 新しいマーカーを作成
+    ridersLocations.forEach((rider, index) => {
+      // 自分のマーカーはスキップ（現在地マーカーと重複を避けるため）
+      const localUserId = currentUser?.uid || `local_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+      if (rider.id === localUserId || rider.id === 'current_user') return;
+
+      // 点滅用のマーカーアイコンを作成
+      const createBlinkingIcon = (color: string) => ({
+        url: `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(`
+          <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="15" fill="${color}" stroke="white" stroke-width="3" opacity="0.8">
+              <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+              <animate attributeName="r" values="12;18;12" dur="2s" repeatCount="indefinite"/>
+            </circle>
+            <text x="20" y="25" text-anchor="middle" font-family="Arial" font-size="14" fill="white">🚌</text>
+          </svg>
+        `)}`,
+        scaledSize: new window.google.maps.Size(40, 40),
+        anchor: new window.google.maps.Point(20, 20)
+      });
+
+      // ライダーごとに異なる色を割り当て
+      const colors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FFEAA7', '#DDA0DD', '#98D8C8'];
+      const riderColor = colors[index % colors.length];
+
+      const marker = new window.google.maps.Marker({
+        position: rider.position,
+        map: mapInstance.current,
+        title: `🚌 ${rider.username} (同乗者)`,
+        icon: createBlinkingIcon(riderColor),
+        zIndex: 1000 + index // 他のマーカーより前面に表示
+      });
+
+      // マーカークリック時の情報ウィンドウ
+      const infoWindow = new window.google.maps.InfoWindow({
+        content: `
+          <div style="padding: 10px; min-width: 150px;">
+            <h4 style="margin: 0 0 8px 0; color: #333;">🚌 同乗者情報</h4>
+            <p style="margin: 4px 0;"><strong>ユーザー:</strong> ${rider.username}</p>
+            <p style="margin: 4px 0;"><strong>最終更新:</strong> ${rider.timestamp.toLocaleTimeString('ja-JP')}</p>
+            <p style="margin: 4px 0; font-size: 12px; color: #666;">リアルタイム位置情報</p>
+          </div>
+        `
+      });
+
+      marker.addListener('click', () => {
+        infoWindow.open(mapInstance.current, marker);
+      });
+
+      otherRidersMarkersRef.current.push(marker);
+    });
+
+    console.log(`他のライダーマーカーを更新: ${otherRidersMarkersRef.current.length}個のマーカーを表示`);
   };
 
   // 通過した停留所をチェック
@@ -2098,6 +2170,8 @@ declare global {
     // 地図上のマーカーをクリア
     routeMarkersRef.current.forEach(m => m.setMap(null));
     routeMarkersRef.current = [];
+    otherRidersMarkersRef.current.forEach(m => m.setMap(null));
+    otherRidersMarkersRef.current = [];
     if (routePolylineRef.current) {
       routePolylineRef.current.setMap(null);
       routePolylineRef.current = null;
@@ -2137,6 +2211,11 @@ declare global {
   useEffect(() => {
     console.log('loadingRoute changed:', loadingRoute);
   }, [loadingRoute]);
+
+  // ridersLocationsの変更を監視してマーカーを更新
+  useEffect(() => {
+    updateOtherRidersMarkers();
+  }, [ridersLocations]);
 
   // コンポーネントのクリーンアップ
   useEffect(() => {
@@ -2192,6 +2271,10 @@ declare global {
       if (isLocationSharing) {
         stopLocationSharing();
       }
+
+      // マーカーのクリーンアップ
+      otherRidersMarkersRef.current.forEach(marker => marker.setMap(null));
+      otherRidersMarkersRef.current = [];
 
       // イベントリスナーを削除
       window.removeEventListener('beforeunload', handleBeforeUnload);
