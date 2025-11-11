@@ -24,7 +24,7 @@ export default function LoginPage() {
         // ログイン処理
         const userData = await loginUser(email, password);
         if (userData) {
-          router.push('/');
+          router.push('/search');
         } else {
           setError('ユーザー情報の取得に失敗しました');
         }
@@ -36,7 +36,24 @@ export default function LoginPage() {
           return;
         }
         await registerUser(email, password, username);
-        router.push('/');
+        
+        // 新規登録成功後、自動的にログイン処理を実行
+        try {
+          const userData = await loginUser(email, password);
+          if (userData) {
+            router.push('/search');
+          } else {
+            // 自動ログインに失敗した場合は、ログインモードに切り替え
+            setIsLogin(true);
+            setUsername('');
+            setError('新規登録は完了しました。ログインしてください。');
+          }
+        } catch (loginError) {
+          // 自動ログインに失敗した場合は、ログインモードに切り替え
+          setIsLogin(true);
+          setUsername('');
+          setError('新規登録は完了しました。ログインしてください。');
+        }
       }
     } catch (error: any) {
       console.error('Authentication error:', error);
@@ -84,7 +101,7 @@ export default function LoginPage() {
     try {
       const userData = await loginWithGoogle();
       if (userData) {
-        router.push('/');
+        router.push('/search');
       }
     } catch (error: any) {
       console.error('Google login error:', error);

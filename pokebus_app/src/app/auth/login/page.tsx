@@ -18,8 +18,8 @@ export default function LoginPage() {
     try {
       const user = await loginUser(email, password);
       if (!user) throw new Error("ユーザーデータが見つかりません");
-      // 成功したらホームへ
-      router.push("/");
+      // 成功したら検索ページへ
+      router.push("/search");
     } catch (err: any) {
       setError(err?.message || "ログインに失敗しました");
     } finally {
