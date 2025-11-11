@@ -1085,9 +1085,16 @@ declare global {
         
         // クライアント側で時間フィルタリング（2分以内）
         const cutoffTime = new Date(Date.now() - 120000);
-        const recentLocations = locations.filter(location => 
-          location.lastActive > cutoffTime
-        );
+        const recentLocations = locations.filter(location => {
+          const isRecent = location.lastActive > cutoffTime;
+          const timeDiff = Math.round((Date.now() - location.lastActive.getTime()) / 1000);
+          
+          if (!isRecent) {
+            console.log(`ユーザー ${location.username} (${location.id}) がタイムアウト: ${timeDiff}秒前の更新 (制限: 120秒)`);
+          }
+          
+          return isRecent;
+        });
         
         // 重複するユーザーIDを削除（最新のもののみ保持）
         const uniqueLocations = recentLocations.filter((location, index, self) => 
@@ -1212,16 +1219,30 @@ declare global {
                   where('tripId', '==', tripId)
                 );
                 const querySnapshot = await getDocs(q);
-                const updatePromises = querySnapshot.docs.map(doc => 
-                  updateDoc(doc.ref, { lastActive: Timestamp.now() })
-                );
+                
+                if (querySnapshot.empty) {
+                  console.warn('ハートビート対象のドキュメントが見つかりません - 位置情報が削除されている可能性');
+                  return;
+                }
+                
+                const updatePromises = querySnapshot.docs.map(doc => {
+                  console.log('ハートビート更新:', doc.id, 'lastActive:', new Date().toISOString());
+                  return updateDoc(doc.ref, { lastActive: Timestamp.now() });
+                });
+                
                 await Promise.all(updatePromises);
-                console.log('ハートビート送信');
-              } catch (error) {
+                console.log(`ハートビート送信成功 (${querySnapshot.docs.length}件更新) - 次回: ${new Date(Date.now() + 30000).toLocaleTimeString()}`);
+              } catch (error: any) {
                 console.error('ハートビート送信失敗:', error);
+                // ハートビート失敗時はエラーをユーザーに表示（デバッグ用）
+                if (error?.code === 'permission-denied' || error?.code === 'unavailable') {
+                  console.warn('Firebase接続エラー - ハートビート送信に失敗しました');
+                }
               }
             };
             updateHeartbeat();
+          } else {
+            console.warn('ハートビート送信スキップ - ユーザーが認証されていません');
           }
         }, 30000); // 30秒間隔
         
