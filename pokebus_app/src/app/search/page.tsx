@@ -2780,21 +2780,29 @@ declare global {
                   </div>
                   
                   {/* リアルタイム追跡情報 */}
-                  {ridingTripId === selectedTripId && isLocationSharing && (
-                    <div style={{ marginBottom: '8px', padding: '8px', backgroundColor: '#e8f5e8', borderRadius: '6px' }}>
-                      <div style={{ fontSize: '12px', color: '#28a745', fontWeight: 600, marginBottom: '4px' }}>
-                        🔴 リアルタイム追跡中 ({ridersLocations.length}人が乗車中)
+                  {selectedTripId && ridersLocations.length > 0 && (
+                    <div style={{ marginBottom: '8px', padding: '8px', backgroundColor: isLocationSharing ? '#e8f5e8' : '#f0f8ff', borderRadius: '6px' }}>
+                      <div style={{ fontSize: '12px', color: isLocationSharing ? '#28a745' : '#0066cc', fontWeight: 600, marginBottom: '4px' }}>
+                        {isLocationSharing ? '🔴 リアルタイム追跡中' : '👀 他のライダー情報'} ({ridersLocations.length}人が乗車中)
                       </div>
                       <div style={{ fontSize: '11px', color: '#666', marginBottom: '4px' }}>
-                        同じバスを選択したユーザー同士で位置情報が共有されています（1分間隔更新）
+                        {isLocationSharing 
+                          ? '同じバスを選択したユーザー同士で位置情報が共有されています（1分間隔更新）' 
+                          : '同じバスの他のライダーの位置情報を見ています'
+                        }
                         <br />
-                        ⚠️ バス停から500m圏内の位置情報のみ有効
+                        {isLocationSharing 
+                          ? '⚠️ バス停から500m圏内の位置情報のみ有効' 
+                          : '💡 「乗車中」ボタンを押すとあなたの位置も共有されます'
+                        }
                       </div>
                       
                       {/* 乗車中のユーザー一覧 */}
                       {ridersLocations.length > 0 && (
                         <div style={{ marginBottom: '4px' }}>
-                          <div style={{ fontSize: '10px', color: '#666', marginBottom: '2px' }}>乗車中のユーザー:</div>
+                          <div style={{ fontSize: '10px', color: '#666', marginBottom: '2px' }}>
+                            {isLocationSharing ? '乗車中のユーザー:' : '位置情報を共有中のライダー:'}
+                          </div>
                           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px' }}>
                             {ridersLocations
                               .filter((rider, index, self) => 
