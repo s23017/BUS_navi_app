@@ -32,6 +32,10 @@ declare global {
   const [selectedTripId, setSelectedTripId] = useState<string | null>(null);
   const [ridingTripId, setRidingTripId] = useState<string | null>(null);
   const [tripDelays, setTripDelays] = useState<Record<string, number | null>>({});
+  // Bottom sheet touch handling state
+  const sheetTouchStartY = useRef<number | null>(null);
+  const [sheetTranslateY, setSheetTranslateY] = useState<number>(0);
+  const sheetDraggingRef = useRef(false);
 
   // Google Maps APIが読み込まれた後にマップを初期化
   const initializeMap = () => {
@@ -1853,19 +1857,41 @@ declare global {
 
         {/* 選択された便の詳細パネル（地図の上に表示） */}
         {selectedTripId && routeStops.length > 0 && (
-          <div className={styles.routeDetailContainer} style={{
-            position: 'absolute',
-            right: '16px',
-            top: '110px',
-            width: '320px',
-            maxHeight: '60vh',
-            overflowY: 'auto',
-            background: 'white',
-            zIndex: 1200,
-            boxShadow: '0 6px 20px rgba(0,0,0,0.12)',
-            borderRadius: '10px',
-            padding: '12px'
-          }}>
+          <div
+            className={styles.routeDetailContainer}
+            onTouchStart={(e) => {
+              if (e.touches && e.touches.length > 0) {
+                sheetTouchStartY.current = e.touches[0].clientY;
+                sheetDraggingRef.current = true;
+              }
+            }}
+            onTouchMove={(e) => {
+              // Prevent page scrolling while dragging the sheet
+              try { e.preventDefault(); } catch (err) {}
+              if (!sheetDraggingRef.current || !sheetTouchStartY.current) return;
+              const curY = e.touches[0].clientY;
+              const delta = Math.max(0, curY - sheetTouchStartY.current);
+              // limit translate to viewport height
+              const max = window.innerHeight * 0.9;
+              setSheetTranslateY(Math.min(delta, max));
+            }}
+            onTouchEnd={() => {
+              sheetDraggingRef.current = false;
+              const delta = sheetTranslateY;
+              // If user swiped down sufficiently, close the sheet
+              if (delta > 120) {
+                setSelectedTripId(null);
+                setRouteStops([]);
+                routeMarkersRef.current.forEach(m=>m.setMap(null));
+                if (routePolylineRef.current) { routePolylineRef.current.setMap(null); routePolylineRef.current = null; }
+              }
+              // animate back
+              setSheetTranslateY(0);
+              sheetTouchStartY.current = null;
+            }}
+            style={{ transform: `translateY(${sheetTranslateY}px)` }}
+          >
+            <div className={styles.sheetHandle} />
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
               <div style={{ fontWeight: 700 }}>便情報</div>
               <div>

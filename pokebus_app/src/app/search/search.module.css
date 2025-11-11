@@ -110,6 +110,21 @@
   background-color: #2563eb; /* hover:bg-blue-600 */
 }
 
+.clearButton {
+  margin-left: 0.5rem;
+  background-color: #ef4444;
+  color: white;
+  border-radius: 9999px;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  border: none;
+  cursor: pointer;
+}
+
+.clearButton:hover {
+  background-color: #dc2626;
+}
+
 .mapContainer {
   position: relative;
   flex: 1;
@@ -240,7 +255,44 @@
 }
 
 .routeDetailContainer {
-  display: block;
+  position: fixed;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  width: 100%;
+  max-height: 60vh;
+  overflow-y: auto;
+  background: white;
+  z-index: 1200;
+  box-shadow: 0 -6px 20px rgba(0,0,0,0.12);
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 12px;
+  transition: transform 0.2s ease;
+  touch-action: none; /* allow custom touch handling */
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.sheetHandle {
+  width: 40px;
+  height: 4px;
+  background: #e5e7eb;
+  border-radius: 999px;
+  margin: 6px auto 8px;
+}
+
+@media (min-width: 768px) {
+  .routeDetailContainer {
+    position: absolute;
+    right: 16px;
+    top: 110px;
+    width: 320px;
+    max-height: 60vh;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.12);
+  }
 }
 
 .routePanel, .busesPanel { 
@@ -634,6 +686,34 @@
   }
   50% {
     opacity: 0.7;
+  }
+}
+
+/* Responsive: stack inputs vertically on small screens */
+@media (max-width: 767px) {
+  .searchBar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+
+  .searchInput {
+    width: 100%;
+  }
+
+  .searchButton,
+  .clearButton {
+    width: 100%;
+    margin-left: 0;
+    border-radius: 0.5rem;
+  }
+
+  .predictions {
+    /* place predictions below the input on mobile so they are fully tappable */
+    top: calc(100% + 0.5rem);
+    bottom: auto;
+    z-index: 1500;
+    pointer-events: auto;
   }
 }
 
