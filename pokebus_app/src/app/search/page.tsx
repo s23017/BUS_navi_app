@@ -559,6 +559,18 @@ declare global {
       // バス選択後はモーダルを閉じる
       console.log('Closing bus routes modal from handleSelectBus');
       setShowBusRoutes(false);
+
+      // 選択したバスの他のライダーの位置情報を監視開始
+      // 既存のリスナーを停止
+      if (unsubscribeRiderListener.current) {
+        unsubscribeRiderListener.current();
+        unsubscribeRiderListener.current = null;
+      }
+      
+      // すべてのユーザー（ゲストも含む）が他のライダーの位置を見ることができる
+      console.log('Starting to listen to other riders for trip:', tripId);
+      const unsubscribe = listenToOtherRiders(tripId);
+      unsubscribeRiderListener.current = unsubscribe;
     } catch (e: any) {
       setRouteError(e.message || '便選択でエラーが発生しました');
     } finally {
