@@ -1239,7 +1239,7 @@ export default function BusSearch() {
   };
 
   // 位置情報更新のタイマー用ref
-  const locationTimerRef = useRef<NodeJS.Timeout | (() => void) | null>(null);
+  const locationTimerRef = useRef<NodeJS.Timeout | (() => void) | { locationTimer: NodeJS.Timeout; heartbeatTimer: NodeJS.Timeout; clearAll: () => void } | null>(null);
   // Firestoreリスナー管理用のref
   const unsubscribeRiderListener = useRef<(() => void) | null>(null);
   const unsubscribeStopPassageListener = useRef<(() => void) | null>(null);
@@ -1372,6 +1372,19 @@ export default function BusSearch() {
         
         console.log('✅ 初回位置チェック通過 - 位置情報共有を開始');
         
+        // 既存のタイマーがあればクリア（重複防止）
+        if (locationTimerRef.current) {
+          console.log('🧹 既存タイマークリア（新規タイマー設定前）');
+          if (typeof locationTimerRef.current === 'object' && 'clearAll' in locationTimerRef.current) {
+            locationTimerRef.current.clearAll();
+          } else if (typeof locationTimerRef.current === 'function') {
+            locationTimerRef.current();
+          } else {
+            clearInterval(locationTimerRef.current);
+          }
+          locationTimerRef.current = null;
+        }
+        
         // 位置情報共有を有効化
         setIsLocationSharing(true);
         
@@ -1385,31 +1398,14 @@ export default function BusSearch() {
         console.log('⏰ 1分間隔タイマー開始');
         const timer = setInterval(() => {
           console.log('⏰ 定期更新タイマー発火 - updateLocation実行');
-          console.log('📊 タイマー状態: isLocationSharing=', isLocationSharing, 'currentUser=', currentUser?.uid);
-          
-          // 位置情報共有が継続中かチェック
-          if (!isLocationSharing) {
-            console.warn('⚠️ 位置情報共有が停止されています - タイマークリア');
-            clearInterval(timer);
-            return;
-          }
-          
-          updateLocation();
+          updateLocation(true); // skipStateCheck=trueで状態チェックをスキップ
         }, 60000); // 60秒 = 1分
-        locationTimerRef.current = timer;
         
         // 30秒間隔でハートビート（生存確認）を送信
         const heartbeatTimer = setInterval(() => {
           console.log('💓 ハートビートタイマー発火');
           
           if (currentUser?.uid) {
-            // 位置情報共有が継続中かチェック
-            if (!isLocationSharing) {
-              console.warn('⚠️ 位置情報共有停止 - ハートビートタイマークリア');
-              clearInterval(heartbeatTimer);
-              return;
-            }
-            
             // バックグラウンド実行中かどうかをチェック
             const isBackground = document.hidden;
             const statusText = isBackground ? 'バックグラウンド' : 'フォアグラウンド';
@@ -1451,14 +1447,17 @@ export default function BusSearch() {
           }
         }, 30000); // 30秒間隔
         
-        // ハートビートタイマーもクリーンアップ対象に追加
-        const originalClearTimer = locationTimerRef.current;
-        locationTimerRef.current = () => {
-          clearInterval(timer);
-          clearInterval(heartbeatTimer);
+        // タイマーIDを配列で保存（複数のタイマーをまとめて管理）
+        locationTimerRef.current = {
+          locationTimer: timer,
+          heartbeatTimer: heartbeatTimer,
+          clearAll: () => {
+            console.log('🧹 全タイマークリア実行');
+            clearInterval(timer);
+            clearInterval(heartbeatTimer);
+          }
         };
         
-        setIsLocationSharing(true);
         console.log('位置情報共有開始 (1分間隔 + 30秒ハートビート):', tripId);
       },
       (error) => {
@@ -1499,7 +1498,11 @@ export default function BusSearch() {
     if (locationTimerRef.current) {
       if (typeof locationTimerRef.current === 'function') {
         locationTimerRef.current(); // 複数のタイマーをクリアする関数
+      } else if (typeof locationTimerRef.current === 'object' && 'clearAll' in locationTimerRef.current) {
+        // 新しい形式のタイマーオブジェクト
+        locationTimerRef.current.clearAll();
       } else {
+        // 従来のタイマーID
         clearInterval(locationTimerRef.current);
       }
       locationTimerRef.current = null;
@@ -2751,14 +2754,6 @@ export default function BusSearch() {
     document.addEventListener('visibilitychange', handleVisibilityChange);
 
     return () => {
-      // タイマーのクリーンアップ
-      if (locationTimerRef.current) {
-        if (typeof locationTimerRef.current === 'function') {
-          locationTimerRef.current(); // 複数のタイマーをクリアする関数
-        } else {
-          clearInterval(locationTimerRef.current);
-        }
-      }
       // Firestoreリスナーのクリーンアップ
       if (unsubscribeRiderListener.current) {
         unsubscribeRiderListener.current();
@@ -2767,11 +2762,6 @@ export default function BusSearch() {
         unsubscribeStopPassageListener.current();
       }
       
-      // 位置情報共有が残っている場合は停止
-      if (isLocationSharing) {
-        stopLocationSharing();
-      }
-
       // マーカーのクリーンアップ
       otherRidersMarkersRef.current.forEach(marker => marker.setMap(null));
       otherRidersMarkersRef.current = [];
