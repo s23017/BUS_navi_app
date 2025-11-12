@@ -1086,10 +1086,33 @@ export default function BusSearch() {
         collection: 'busRiderLocations'
       });
 
-      // Firestoreに位置情報を保存
-      console.log('💾 Firestoreコレクションへ書き込み開始...');
-      const docRef = await addDoc(collection(db, 'busRiderLocations'), locationData);
-      console.log('✅ Firestore送信成功 - DocumentID:', docRef.id);
+      // 既存のドキュメントを検索
+      console.log('🔍 既存ドキュメントを検索中...');
+      const q = query(
+        collection(db, 'busRiderLocations'),
+        where('userId', '==', userId),
+        where('tripId', '==', tripId)
+      );
+      const querySnapshot = await getDocs(q);
+
+      if (!querySnapshot.empty) {
+        // 既存ドキュメントを更新
+        const existingDoc = querySnapshot.docs[0];
+        console.log('🔄 既存ドキュメント更新:', existingDoc.id);
+        await updateDoc(existingDoc.ref, {
+          latitude: locationData.latitude,
+          longitude: locationData.longitude,
+          timestamp: locationData.timestamp,
+          lastActive: locationData.lastActive
+        });
+        console.log('✅ Firestore更新成功 - DocumentID:', existingDoc.id);
+      } else {
+        // 新規ドキュメントを作成
+        console.log('💾 新規ドキュメント作成中...');
+        const docRef = await addDoc(collection(db, 'busRiderLocations'), locationData);
+        console.log('✅ Firestore新規作成成功 - DocumentID:', docRef.id);
+      }
+      
       console.log('✅ === shareLocationToFirestore完了 ===');
       
     } catch (error: any) {
@@ -1611,6 +1634,23 @@ export default function BusSearch() {
         const currentPosition = existingMarker.getPosition();
         console.log(`   📍 現在位置: ${currentPosition ? `${currentPosition.lat()}, ${currentPosition.lng()}` : 'undefined'}`);
         console.log(`   📍 新しい位置: ${rider.position.lat()}, ${rider.position.lng()}`);
+        
+        // 移動距離を計算（メートル単位）
+        if (currentPosition && window.google?.maps?.geometry) {
+          const distance = window.google.maps.geometry.spherical.computeDistanceBetween(
+            currentPosition,
+            rider.position
+          );
+          console.log(`   📏 移動距離: ${distance.toFixed(2)}m`);
+          
+          if (distance < 0.5) {
+            console.log(`   ⚠️ 移動距離が非常に小さい（${distance.toFixed(2)}m）- 視覚的な変化なし`);
+          } else if (distance < 5) {
+            console.log(`   ℹ️ 小さな移動（${distance.toFixed(2)}m）`);
+          } else {
+            console.log(`   ✅ 有意な移動を検出（${distance.toFixed(2)}m）`);
+          }
+        }
         
         // 新しい位置オブジェクトを確実に作成
         const newLatLng = new window.google.maps.LatLng(
