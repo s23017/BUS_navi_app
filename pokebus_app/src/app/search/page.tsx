@@ -3,6 +3,9 @@ import { useState, useEffect, useRef } from "react";
 import { Menu, X, MapPin } from "lucide-react";
 import Script from "next/script";
 import styles from "./search.module.css";
+import { db, auth } from "../../../lib/firebase";
+import { collection, addDoc, query, where, onSnapshot, Timestamp, orderBy, limit, getDocs, deleteDoc, updateDoc } from "firebase/firestore";
+import { onAuthStateChanged } from "firebase/auth";
 
   // Google Maps API の型定義を追加
 declare global {
@@ -27,11 +30,36 @@ declare global {
   const directionsRenderer = useRef<google.maps.DirectionsRenderer | null>(null);
   const currentLocationRef = useRef<google.maps.LatLng | null>(null);
   const routeMarkersRef = useRef<google.maps.Marker[]>([]);
+  const otherRidersMarkersRef = useRef<google.maps.Marker[]>([]); // 他のライダーのマーカー管理用
   const routePolylineRef = useRef<google.maps.Polyline | null>(null);
   const tripStopsRef = useRef<Record<string, any[]> | null>(null);
   const [selectedTripId, setSelectedTripId] = useState<string | null>(null);
   const [ridingTripId, setRidingTripId] = useState<string | null>(null);
   const [tripDelays, setTripDelays] = useState<Record<string, number | null>>({});
+  
+  // リアルタイムバス追跡用のステート
+  const [busLocation, setBusLocation] = useState<google.maps.LatLng | null>(null);
+  // ユーザー認証状態
+  const [currentUser, setCurrentUser] = useState<any>(null);
+  
+  const [ridersLocations, setRidersLocations] = useState<Array<{
+    id: string, 
+    position: google.maps.LatLng, 
+    timestamp: Date,
+    username: string,
+    email?: string
+  }>>([]);
+  const [busPassedStops, setBusPassedStops] = useState<Array<{
+    stopId: string, 
+    stopName: string, 
+    passTime: Date, 
+    scheduledTime?: string, 
+    delay: number,
+    username?: string
+  }>>([]);
+  const [estimatedArrivalTimes, setEstimatedArrivalTimes] = useState<Record<string, string>>({});
+  const [isLocationSharing, setIsLocationSharing] = useState<boolean>(false);
+  const [watchId, setWatchId] = useState<number | null>(null);
   // Bottom sheet touch handling state
   const sheetTouchStartY = useRef<number | null>(null);
   const [sheetTranslateY, setSheetTranslateY] = useState<number>(0);
@@ -39,6 +67,191 @@ declare global {
   const [isSheetMinimized, setIsSheetMinimized] = useState<boolean>(false);
 
   // Google Maps APIが読み込まれた後にマップを初期化
+  // ユーザー認証状態の監視
+  useEffect(() => {
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      setCurrentUser(user);
+    });
+    return () => unsubscribe();
+  }, []);
+
+  // ユーザー名取得関数
+  const getUserDisplayName = (user: any) => {
+    if (user?.displayName) return user.displayName;
+    if (user?.email) return user.email.split('@')[0];
+    return 'ゲスト';
+  };
+
+  // バスルート上にいるかどうかをチェック
+  const isUserOnBusRoute = (userPosition: google.maps.LatLng, tripId: string): boolean => {
+    if (routeStops.length === 0) return false;
+    
+    // バス停から500m以内にいるかチェック
+    const proximityToRoute = 500; // メートル
+    
+    const isNearRoute = routeStops.some(stop => {
+      const stopLat = parseFloat(stop.stop_lat);
+      const stopLon = parseFloat(stop.stop_lon);
+      
+      if (isNaN(stopLat) || isNaN(stopLon)) return false;
+      
+      const distance = getDistance(
+        userPosition.lat(), userPosition.lng(),
+        stopLat, stopLon
+      );
+      
+      return distance <= proximityToRoute;
+    });
+    
+    return isNearRoute;
+  };
+
+  // 位置情報が有効かどうかを検証
+  const validateLocationForSharing = (position: google.maps.LatLng, tripId: string): { valid: boolean; reason?: string } => {
+    // 1. バスルート上にいるかチェック
+    if (!isUserOnBusRoute(position, tripId)) {
+      return {
+        valid: false,
+        reason: 'バスルートから離れすぎています（500m圏外）'
+      };
+    }
+    
+    // 2. 他の乗客との位置が近いかチェック（バスに乗っている場合、乗客同士は近い位置にいるはず）
+    if (ridersLocations.length > 1) {
+      const otherRiders = ridersLocations.filter(rider => rider.id !== `current_user`);
+      const isCloseToOtherRiders = otherRiders.some(rider => {
+        const distance = getDistance(
+          position.lat(), position.lng(),
+          rider.position.lat(), rider.position.lng()
+        );
+        return distance <= 200; // 200m以内に他の乗客がいる
+      });
+      
+      if (otherRiders.length > 0 && !isCloseToOtherRiders) {
+        return {
+          valid: false,
+          reason: '他の乗客から離れすぎています'
+        };
+      }
+    }
+    
+    return { valid: true };
+  };
+
+  // アプリ終了時にFirestoreから自分の位置情報を削除
+  const removeUserLocationFromFirestore = async () => {
+    if (!currentUser?.uid) return;
+    
+    try {
+      // 自分の位置情報ドキュメントを検索して削除
+      const q = query(
+        collection(db, 'busRiderLocations'),
+        where('userId', '==', currentUser.uid)
+      );
+      
+      const querySnapshot = await getDocs(q);
+      const deletePromises = querySnapshot.docs.map(doc => deleteDoc(doc.ref));
+      await Promise.all(deletePromises);
+      
+      console.log('位置情報をFirestoreから削除しました');
+    } catch (error) {
+      console.error('位置情報の削除に失敗:', error);
+      // 削除に失敗した場合は、lastActiveを古い時刻に更新
+      try {
+        const updateData = {
+          lastActive: Timestamp.fromMillis(Date.now() - 300000) // 5分前
+        };
+        const q = query(
+          collection(db, 'busRiderLocations'),
+          where('userId', '==', currentUser.uid)
+        );
+        const querySnapshot = await getDocs(q);
+        const updatePromises = querySnapshot.docs.map(doc => 
+          updateDoc(doc.ref, updateData)
+        );
+        await Promise.all(updatePromises);
+        console.log('位置情報の最終アクティブ時刻を更新しました');
+      } catch (updateError) {
+        console.error('位置情報の更新にも失敗:', updateError);
+      }
+    }
+  };
+
+  // バス停通過データをFirestoreに保存
+  const saveBusStopPassage = async (tripId: string, stopData: any) => {
+    try {
+      const passageData = {
+        tripId,
+        stopId: stopData.stopId,
+        stopName: stopData.stopName,
+        userId: currentUser?.uid || 'anonymous',
+        username: getUserDisplayName(currentUser),
+        passTime: Timestamp.now(),
+        delay: stopData.delay,
+        scheduledTime: stopData.scheduledTime || null,
+        actualTime: Timestamp.now()
+      };
+
+      await addDoc(collection(db, 'busStopPassages'), passageData);
+      console.log('バス停通過データを保存:', passageData);
+    } catch (error: any) {
+      console.error('バス停通過データの保存に失敗:', error);
+      if (error?.code === 'permission-denied') {
+        console.warn('Firestore権限エラー - バス停通過情報はローカルのみ');
+      }
+    }
+  };
+
+  // 他のユーザーのバス停通過情報を監視
+  const listenToBusStopPassages = (tripId: string) => {
+    try {
+      // 一時的に簡略化したクエリ（インデックス作成まで）
+      const q = query(
+        collection(db, 'busStopPassages'),
+        where('tripId', '==', tripId),
+        limit(20)
+      );
+      
+      const unsubscribe = onSnapshot(q, (querySnapshot) => {
+        const passages = querySnapshot.docs.map(doc => {
+          const data = doc.data();
+          return {
+            stopId: data.stopId,
+            stopName: data.stopName,
+            passTime: data.passTime.toDate(),
+            delay: data.delay,
+            scheduledTime: data.scheduledTime || undefined,
+            username: data.username || 'ゲスト'
+          };
+        });
+        
+        // クライアント側で時間フィルタリング（1時間以内）
+        const cutoffTime = new Date(Date.now() - 3600000);
+        const recentPassages = passages.filter(passage => 
+          passage.passTime > cutoffTime
+        );
+        
+        // 最新のユニークな停留所通過情報のみ保持
+        const uniquePassages = recentPassages.filter((passage, index, self) => 
+          index === self.findIndex(p => p.stopId === passage.stopId)
+        );
+        
+        setBusPassedStops(uniquePassages);
+        console.log('バス停通過情報更新:', uniquePassages.length, '件');
+      }, (error: any) => {
+        console.error('バス停通過情報の取得に失敗:', error);
+        if (error?.code === 'failed-precondition') {
+          console.warn('Firestore インデックスが必要です。自動作成されるまでお待ちください。');
+        }
+      });
+      
+      return unsubscribe;
+    } catch (error: any) {
+      console.error('バス停通過情報の取得に失敗:', error);
+      return null;
+    }
+  };
+
   const initializeMap = () => {
     if (!mapRef.current || !window.google || !window.google.maps || !window.google.maps.Map) {
       console.log('Google Maps API not fully loaded yet');
@@ -183,6 +396,25 @@ declare global {
         return { ...stopDef, seq: s.seq, arrival_time: s.arrival_time, departure_time: s.departure_time };
       });
 
+      // 21番バス用の特別処理: 停車順序を再確認
+      const isRoute21 = tripId.includes('naha_trip_') && tripId.includes('21');
+      if (isRoute21) {
+        console.log('=== Route 21 special processing ===');
+        console.log('Original route stops:', routeStopsFull.map(rs => ({ name: rs.stop_name, seq: rs.seq })));
+        
+        // 停車順序でソート（念のため）
+        routeStopsFull.sort((a, b) => (a.seq || 0) - (b.seq || 0));
+        console.log('Sorted route stops:', routeStopsFull.map(rs => ({ name: rs.stop_name, seq: rs.seq })));
+        
+        // 座標データの妥当性チェック
+        const validStops = routeStopsFull.filter(rs => {
+          const lat = parseFloat(rs.stop_lat);
+          const lon = parseFloat(rs.stop_lon);
+          return !isNaN(lat) && !isNaN(lon) && lat >= 24 && lat <= 27 && lon >= 122 && lon <= 132;
+        });
+        console.log(`Route 21: ${validStops.length}/${routeStopsFull.length} stops have valid coordinates`);
+      }
+
       setRouteStops(routeStopsFull);
       setSelectedTripId(tripId);
 
@@ -204,10 +436,59 @@ declare global {
         }
 
         const path: google.maps.LatLngLiteral[] = [];
+        console.log('=== Route drawing debug info ===');
+        console.log('Trip ID:', tripId);
+        console.log('Route stops count:', routeStopsFull.length);
+        console.log('Route stops full data:', routeStopsFull);
+        
+        // 21番バス特別処理
+        const isRoute21 = tripId.includes('naha_trip_') && routeStopsFull.some(rs => 
+          tripId.includes('21') || (rs.stop_id && rs.stop_id.includes('naha_'))
+        );
+        
+        if (isRoute21) {
+          console.log('=== Special handling for Route 21 ===');
+          console.log('All stops data:', routeStopsFull.map(rs => ({
+            name: rs.stop_name,
+            id: rs.stop_id,
+            lat: rs.stop_lat,
+            lon: rs.stop_lon,
+            seq: rs.seq
+          })));
+        }
+        
         for (const rs of routeStopsFull) {
           const lat = parseFloat(rs.stop_lat);
           const lon = parseFloat(rs.stop_lon);
-          if (isNaN(lat) || isNaN(lon)) continue;
+          
+          console.log(`Stop: ${rs.stop_name}, Lat: ${rs.stop_lat}, Lon: ${rs.stop_lon}, Parsed: lat=${lat}, lon=${lon}, Valid: ${!isNaN(lat) && !isNaN(lon)}`);
+          
+          if (isNaN(lat) || isNaN(lon)) {
+            console.warn(`Skipping stop ${rs.stop_name} due to invalid coordinates: lat=${lat}, lon=${lon}`);
+            
+            // 21番バスの場合、フォールバック座標を試行
+            if (isRoute21) {
+              console.log('Attempting fallback coordinate assignment for Route 21...');
+              // 沖縄の主要停留所の概算座標を使用
+              const fallbackLat = 26.2125 + (Math.random() - 0.5) * 0.1; // 那覇市中心部付近
+              const fallbackLon = 127.6811 + (Math.random() - 0.5) * 0.1;
+              console.log(`Using fallback coordinates: lat=${fallbackLat}, lon=${fallbackLon}`);
+              
+              const fallbackPos = { lat: fallbackLat, lng: fallbackLon };
+              path.push(fallbackPos);
+              
+              const marker = new window.google.maps.Marker({ 
+                position: fallbackPos, 
+                map: mapInstance.current!, 
+                title: `${rs.stop_name} (座標推定) (${rs.arrival_time || rs.departure_time || ''})`,
+                icon: 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png' // 推定座標用の色
+              });
+              routeMarkersRef.current.push(marker);
+            }
+            
+            continue;
+          }
+          
           const pos = { lat, lng: lon };
           path.push(pos);
           
@@ -228,11 +509,14 @@ declare global {
           routeMarkersRef.current.push(marker);
         }
 
+        console.log('Valid path points:', path.length);
+        console.log('Path preview:', path.slice(0, 3));
+
         if (path.length > 0) {
           const poly = new window.google.maps.Polyline({ 
             path, 
-            strokeColor: '#FF5722', 
-            strokeWeight: 4, 
+            strokeColor: isRoute21 ? '#FF9800' : '#FF5722', // 21番バスは特別な色
+            strokeWeight: isRoute21 ? 6 : 4, // 21番バスは太い線
             map: mapInstance.current! 
           });
           routePolylineRef.current = poly;
@@ -240,12 +524,54 @@ declare global {
           if (currentLocationRef.current) bounds.extend(currentLocationRef.current);
           path.forEach(p => bounds.extend(new window.google.maps.LatLng(p.lat, p.lng)));
           mapInstance.current!.fitBounds(bounds);
+          console.log('Polyline created successfully with', path.length, 'points');
+          
+          if (isRoute21) {
+            console.log('Route 21 polyline created with special styling');
+          }
+        } else {
+          console.error('No valid path points found - polyline not created');
+          
+          // 21番バスの場合、停留所マーカーだけでも表示を試行
+          if (isRoute21 && routeStopsFull.length > 0) {
+            console.log('Route 21: No valid coordinates, showing markers at estimated positions...');
+            routeStopsFull.forEach((rs, index) => {
+              const estimatedLat = 26.2125 + (index * 0.01); // 概算の等間隔配置
+              const estimatedLon = 127.6811 + (index * 0.01);
+              
+              const marker = new window.google.maps.Marker({ 
+                position: { lat: estimatedLat, lng: estimatedLon }, 
+                map: mapInstance.current!, 
+                title: `${rs.stop_name} (推定位置) (${rs.arrival_time || rs.departure_time || ''})`,
+                icon: 'http://maps.google.com/mapfiles/ms/icons/purple-dot.png'
+              });
+              routeMarkersRef.current.push(marker);
+            });
+            
+            // 推定マーカーが表示されるようにマップを調整
+            const bounds = new window.google.maps.LatLngBounds();
+            bounds.extend(new window.google.maps.LatLng(26.2125, 127.6811));
+            bounds.extend(new window.google.maps.LatLng(26.2125 + routeStopsFull.length * 0.01, 127.6811 + routeStopsFull.length * 0.01));
+            mapInstance.current!.fitBounds(bounds);
+          }
         }
       }
 
       // バス選択後はモーダルを閉じる
       console.log('Closing bus routes modal from handleSelectBus');
       setShowBusRoutes(false);
+
+      // 選択したバスの他のライダーの位置情報を監視開始
+      // 既存のリスナーを停止
+      if (unsubscribeRiderListener.current) {
+        unsubscribeRiderListener.current();
+        unsubscribeRiderListener.current = null;
+      }
+      
+      // すべてのユーザー（ゲストも含む）が他のライダーの位置を見ることができる
+      console.log('Starting to listen to other riders for trip:', tripId);
+      const unsubscribe = listenToOtherRiders(tripId);
+      unsubscribeRiderListener.current = unsubscribe;
     } catch (e: any) {
       setRouteError(e.message || '便選択でエラーが発生しました');
     } finally {
@@ -554,6 +880,15 @@ declare global {
       const routeName = busData.Daiya.Course.Name;
       const routeShortName = busData.Daiya.Course.Keitou.KeitouNo;
 
+      // 21番バス用のデバッグ情報
+      if (routeShortName === '21') {
+        console.log('=== Processing route 21 ===');
+        console.log('Route ID:', routeId);
+        console.log('Trip ID:', tripId);
+        console.log('Route Name:', routeName);
+        console.log('Passed Schedules count:', busData.Daiya.PassedSchedules?.length || 0);
+      }
+
       // ルート情報を追加（重複チェック）
       if (!processedRoutes.has(routeId)) {
         routes.push({
@@ -578,6 +913,13 @@ declare global {
       busData.Daiya.PassedSchedules.forEach((schedule: any, stopIndex: number) => {
         const stopId = `naha_${schedule.Station.Sid}`;
         
+        // 21番バス用のデバッグ情報
+        if (routeShortName === '21') {
+          console.log(`Stop ${stopIndex + 1}: ${schedule.Station.Name} (${stopId})`);
+          console.log('  OrderNo:', schedule.OrderNo);
+          console.log('  Position:', schedule.Station.Position);
+        }
+        
         // 停留所情報を追加（重複チェック）
         if (!processedStops.has(stopId)) {
           // 座標を度数に変換
@@ -587,22 +929,57 @@ declare global {
           const rawLat = parseFloat(schedule.Station.Position.Latitude);
           const rawLon = parseFloat(schedule.Station.Position.Longitude);
           
-          if (rawLat > 1000) {
-            // 度*100000形式の場合
-            lat = rawLat / 100000;
-            lon = rawLon / 100000;
-          } else {
-            // 既に度数形式の場合
-            lat = rawLat;
-            lon = rawLon;
-          }
+          console.log(`Processing stop ${schedule.Station.Name}: rawLat=${rawLat}, rawLon=${rawLon}`);
           
-          // 座標が沖縄県の範囲内かチェック
-          if (lat < 24 || lat > 27 || lon < 122 || lon > 132) {
-            console.warn(`Invalid coordinates for ${schedule.Station.Name}: ${lat}, ${lon}`);
+          // より堅牢な座標変換処理
+          if (!isNaN(rawLat) && !isNaN(rawLon)) {
+            if (rawLat > 1000000) {
+              // 度*1000000形式の場合
+              lat = rawLat / 1000000;
+              lon = rawLon / 1000000;
+              console.log(`Converted from degree*1000000: lat=${lat}, lon=${lon}`);
+            } else if (rawLat > 100000) {
+              // 度*100000形式の場合
+              lat = rawLat / 100000;
+              lon = rawLon / 100000;
+              console.log(`Converted from degree*100000: lat=${lat}, lon=${lon}`);
+            } else if (rawLat > 10000) {
+              // 度*10000形式の場合
+              lat = rawLat / 10000;
+              lon = rawLon / 10000;
+              console.log(`Converted from degree*10000: lat=${lat}, lon=${lon}`);
+            } else {
+              // 既に度数形式の場合
+              lat = rawLat;
+              lon = rawLon;
+              console.log(`Using as degrees: lat=${lat}, lon=${lon}`);
+            }
+            
+            // 座標が沖縄県の範囲内かチェック
+            if (lat < 24 || lat > 27 || lon < 122 || lon > 132) {
+              console.warn(`Invalid coordinates for ${schedule.Station.Name}: ${lat}, ${lon}, attempting alternative conversion`);
+              
+              // 別の変換方法を試行
+              if (rawLat > 2400000) {
+                lat = rawLat / 1000000;
+                lon = rawLon / 1000000;
+                console.log(`Alternative conversion attempt: lat=${lat}, lon=${lon}`);
+              }
+              
+              // まだ無効な場合はフォールバック
+              if (lat < 24 || lat > 27 || lon < 122 || lon > 132) {
+                console.warn(`Still invalid, using fallback coordinates`);
+                lat = 26.2125; // 那覇市中心部
+                lon = 127.6811;
+              }
+            }
+          } else {
+            console.warn(`Invalid coordinate data for ${schedule.Station.Name}, using fallback`);
             lat = 26.2125; // 那覇市中心部
             lon = 127.6811;
           }
+
+          console.log(`Final coordinates for ${schedule.Station.Name}: lat=${lat}, lon=${lon}`);
 
           stops.push({
             stop_id: stopId,
@@ -616,13 +993,20 @@ declare global {
         }
 
         // 時刻表情報を追加
-        stopTimes.push({
+        const stopTimeData = {
           trip_id: tripId,
           stop_id: stopId,
           stop_sequence: schedule.OrderNo.toString(),
           arrival_time: schedule.ScheduledTime.Value,
           departure_time: schedule.StartTime.Value
-        });
+        };
+        
+        // 21番バス用のデバッグ情報
+        if (routeShortName === '21') {
+          console.log('  Stop time data:', stopTimeData);
+        }
+        
+        stopTimes.push(stopTimeData);
       });
     });
 
@@ -635,6 +1019,492 @@ declare global {
     // You can replace this function to fetch from a GTFS-RT feed and parse delay (sec/min) when available.
     return null;
   }
+
+  // リアルタイムデータベース（Firestore）への位置情報送信
+  const shareLocationToFirestore = async (tripId: string, position: google.maps.LatLng) => {
+    try {
+      // より一意なユーザーIDを生成
+      const userId = currentUser?.uid || `anonymous_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+      
+      const locationData = {
+        tripId,
+        userId,
+        username: getUserDisplayName(currentUser),
+        email: currentUser?.email || null,
+        latitude: position.lat(),
+        longitude: position.lng(),
+        timestamp: Timestamp.now(),
+        lastActive: Timestamp.now()
+      };
+
+      // Firestoreに位置情報を保存
+      await addDoc(collection(db, 'busRiderLocations'), locationData);
+      console.log('位置情報をFirestoreに送信:', locationData);
+      
+    } catch (error: any) {
+      console.error('位置情報の共有に失敗:', error);
+      if (error?.code === 'permission-denied') {
+        console.warn('Firestore権限エラー - ローカルモードで継続');
+        // 権限エラーの場合はローカル状態のみ更新
+        const localUserId = currentUser?.uid || `local_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+        const localRider = {
+          id: localUserId,
+          position: position,
+          timestamp: new Date(),
+          username: getUserDisplayName(currentUser),
+          email: currentUser?.email,
+          lastActive: new Date()
+        };
+        setRidersLocations(prev => [...prev.filter(r => r.id !== localUserId), localRider]);
+      }
+    }
+  };
+
+  // Firestoreから他のライダーの位置情報を取得
+  const listenToOtherRiders = (tripId: string) => {
+    try {
+      // 一時的に簡略化したクエリ（インデックス作成まで）
+      const q = query(
+        collection(db, 'busRiderLocations'),
+        where('tripId', '==', tripId),
+        limit(50)
+      );
+      
+      const unsubscribe = onSnapshot(q, (querySnapshot) => {
+        const locations = querySnapshot.docs.map(doc => {
+          const data = doc.data();
+          return {
+            id: data.userId,
+            position: new window.google.maps.LatLng(data.latitude, data.longitude),
+            timestamp: data.timestamp.toDate(),
+            username: data.username || 'ゲスト',
+            email: data.email || undefined,
+            lastActive: data.lastActive.toDate()
+          };
+        });
+        
+        // クライアント側で時間フィルタリング（2分以内）
+        const cutoffTime = new Date(Date.now() - 120000);
+        const recentLocations = locations.filter(location => {
+          const isRecent = location.lastActive > cutoffTime;
+          const timeDiff = Math.round((Date.now() - location.lastActive.getTime()) / 1000);
+          
+          if (!isRecent) {
+            console.log(`ユーザー ${location.username} (${location.id}) がタイムアウト: ${timeDiff}秒前の更新 (制限: 120秒)`);
+          }
+          
+          return isRecent;
+        });
+        
+        // 重複するユーザーIDを削除（最新のもののみ保持）
+        const uniqueLocations = recentLocations.filter((location, index, self) => 
+          index === self.findIndex(l => l.id === location.id)
+        );
+        
+        setRidersLocations(uniqueLocations);
+        console.log('他のライダー位置情報更新:', uniqueLocations.length, '人');
+        
+        // 地図上のマーカーを更新
+        updateOtherRidersMarkers();
+      }, (error: any) => {
+        console.error('他のライダー位置情報の取得に失敗:', error);
+        if (error?.code === 'permission-denied') {
+          console.warn('Firestore権限エラー - リアルタイム共有は無効');
+          alert('位置情報の共有機能を利用するにはFirebaseの権限設定が必要です。\n開発者にお問い合わせください。');
+        } else if (error?.code === 'failed-precondition') {
+          console.warn('Firestore インデックスが必要です。自動作成されるまでお待ちください。');
+        }
+      });
+      
+      console.log('他のライダーの位置情報をリッスン開始:', tripId);
+      return unsubscribe;
+    } catch (error) {
+      console.error('他のライダー位置情報の取得に失敗:', error);
+      return null;
+    }
+  };
+
+  // 位置情報更新のタイマー用ref
+  const locationTimerRef = useRef<NodeJS.Timeout | (() => void) | null>(null);
+  // Firestoreリスナー管理用のref
+  const unsubscribeRiderListener = useRef<(() => void) | null>(null);
+  const unsubscribeStopPassageListener = useRef<(() => void) | null>(null);
+
+  // 位置情報共有開始（1分間隔での更新）
+  const startLocationSharing = (tripId: string) => {
+    if (!navigator.geolocation) {
+      alert('このデバイスでは位置情報を取得できません');
+      return;
+    }
+
+    // 他のライダーの位置情報をリッスン開始
+    const unsubscribe = listenToOtherRiders(tripId);
+    unsubscribeRiderListener.current = unsubscribe;
+
+    // バス停通過情報のリッスン開始
+    const stopPassageUnsubscribe = listenToBusStopPassages(tripId);
+    unsubscribeStopPassageListener.current = stopPassageUnsubscribe;
+
+    // 最初の位置情報を取得
+    const updateLocation = () => {
+      navigator.geolocation.getCurrentPosition(
+        async (position) => {
+          const { latitude, longitude } = position.coords;
+          const currentPos = new window.google.maps.LatLng(latitude, longitude);
+          
+          // 位置情報が有効かチェック
+          const validation = validateLocationForSharing(currentPos, tripId);
+          if (!validation.valid) {
+            console.warn('位置情報共有停止:', validation.reason);
+            alert(`位置情報の共有を停止しました: ${validation.reason}`);
+            stopLocationSharing();
+            return;
+          }
+          
+          // Firestoreに自分の位置情報を共有
+          await shareLocationToFirestore(tripId, currentPos);
+          
+          // バスの推定位置を更新
+          updateBusLocation(tripId);
+          
+          // 通過した停留所をチェック
+          checkPassedStops(currentPos, tripId);
+          
+          console.log('位置情報更新・共有 (1分間隔):', latitude, longitude);
+        },
+        (error) => {
+          console.error('位置情報取得エラー:', error);
+          setIsLocationSharing(false);
+        },
+        {
+          enableHighAccuracy: true,
+          timeout: 15000,
+          maximumAge: 30000 // 30秒以内のキャッシュを許可
+        }
+      );
+    };
+
+    // まず初回位置チェックを行う
+    navigator.geolocation.getCurrentPosition(
+      (initialPosition) => {
+        const { latitude, longitude } = initialPosition.coords;
+        const initialPos = new window.google.maps.LatLng(latitude, longitude);
+        
+        // 初回位置が有効かチェック
+        const initialValidation = validateLocationForSharing(initialPos, tripId);
+        if (!initialValidation.valid) {
+          alert(`乗車位置が不適切です: ${initialValidation.reason}\n\nバス停付近で再度お試しください。`);
+          setIsLocationSharing(false);
+          return;
+        }
+        
+        console.log('初回位置チェック通過 - 位置情報共有を開始');
+        
+        // 最初の位置情報を即座に取得
+        updateLocation();
+
+        // 1分間隔で位置情報を更新
+        const timer = setInterval(updateLocation, 60000); // 60秒 = 1分
+        locationTimerRef.current = timer;
+        
+        // 30秒間隔でハートビート（生存確認）を送信
+        const heartbeatTimer = setInterval(() => {
+          if (currentUser?.uid) {
+            // 自分の位置情報のlastActiveを更新
+            const updateHeartbeat = async () => {
+              try {
+                const q = query(
+                  collection(db, 'busRiderLocations'),
+                  where('userId', '==', currentUser.uid),
+                  where('tripId', '==', tripId)
+                );
+                const querySnapshot = await getDocs(q);
+                
+                if (querySnapshot.empty) {
+                  console.warn('ハートビート対象のドキュメントが見つかりません - 位置情報が削除されている可能性');
+                  return;
+                }
+                
+                const updatePromises = querySnapshot.docs.map(doc => {
+                  console.log('ハートビート更新:', doc.id, 'lastActive:', new Date().toISOString());
+                  return updateDoc(doc.ref, { lastActive: Timestamp.now() });
+                });
+                
+                await Promise.all(updatePromises);
+                console.log(`ハートビート送信成功 (${querySnapshot.docs.length}件更新) - 次回: ${new Date(Date.now() + 30000).toLocaleTimeString()}`);
+              } catch (error: any) {
+                console.error('ハートビート送信失敗:', error);
+                // ハートビート失敗時はエラーをユーザーに表示（デバッグ用）
+                if (error?.code === 'permission-denied' || error?.code === 'unavailable') {
+                  console.warn('Firebase接続エラー - ハートビート送信に失敗しました');
+                }
+              }
+            };
+            updateHeartbeat();
+          } else {
+            console.warn('ハートビート送信スキップ - ユーザーが認証されていません');
+          }
+        }, 30000); // 30秒間隔
+        
+        // ハートビートタイマーもクリーンアップ対象に追加
+        const originalClearTimer = locationTimerRef.current;
+        locationTimerRef.current = () => {
+          clearInterval(timer);
+          clearInterval(heartbeatTimer);
+        };
+        
+        setIsLocationSharing(true);
+        console.log('位置情報共有開始 (1分間隔 + 30秒ハートビート):', tripId);
+      },
+      (error) => {
+        console.error('初回位置取得エラー:', error);
+        alert('位置情報の取得に失敗しました。GPSを有効にしてお試しください。');
+      },
+      {
+        enableHighAccuracy: true,
+        timeout: 10000,
+        maximumAge: 5000
+      }
+    );
+  };
+
+  // 位置情報共有停止
+  const stopLocationSharing = async () => {
+    // タイマーの停止
+    if (locationTimerRef.current) {
+      if (typeof locationTimerRef.current === 'function') {
+        locationTimerRef.current(); // 複数のタイマーをクリアする関数
+      } else {
+        clearInterval(locationTimerRef.current);
+      }
+      locationTimerRef.current = null;
+    }
+    
+    // Firestoreから自分の位置情報を削除
+    await removeUserLocationFromFirestore();
+    
+    // Firestoreリスナーの停止
+    if (unsubscribeRiderListener.current) {
+      unsubscribeRiderListener.current();
+      unsubscribeRiderListener.current = null;
+    }
+    
+    if (unsubscribeStopPassageListener.current) {
+      unsubscribeStopPassageListener.current();
+      unsubscribeStopPassageListener.current = null;
+    }
+    
+    setIsLocationSharing(false);
+    setRidersLocations([]);
+    
+    // 他のライダーのマーカーもクリア
+    otherRidersMarkersRef.current.forEach(marker => marker.setMap(null));
+    otherRidersMarkersRef.current = [];
+    
+    console.log('位置情報共有停止（Firestoreからも削除）');
+  };
+
+  // バスの推定位置を更新
+  const updateBusLocation = (tripId: string) => {
+    if (ridersLocations.length === 0) return;
+    
+    // 最新の位置情報から平均位置を計算（簡易的な実装）
+    let totalLat = 0;
+    let totalLng = 0;
+    let count = 0;
+    
+    ridersLocations.forEach(rider => {
+      totalLat += rider.position.lat();
+      totalLng += rider.position.lng();
+      count++;
+    });
+    
+    if (count > 0) {
+      const avgLat = totalLat / count;
+      const avgLng = totalLng / count;
+      const busPos = new window.google.maps.LatLng(avgLat, avgLng);
+      setBusLocation(busPos);
+      
+      // 地図上にバスマーカーを表示
+      if (mapInstance.current) {
+        // 既存のバスマーカーを削除
+        const existingBusMarker = routeMarkersRef.current.find(marker => 
+          marker.getTitle()?.includes('🚌 バス現在位置'));
+        if (existingBusMarker) {
+          existingBusMarker.setMap(null);
+          routeMarkersRef.current = routeMarkersRef.current.filter(m => m !== existingBusMarker);
+        }
+        
+        // 新しいバスマーカーを追加
+        const busMarker = new window.google.maps.Marker({
+          position: busPos,
+          map: mapInstance.current,
+          title: '🚌 バス現在位置 (推定)',
+          icon: {
+            url: 'http://maps.google.com/mapfiles/ms/icons/bus.png',
+            scaledSize: new window.google.maps.Size(40, 40)
+          }
+        });
+        routeMarkersRef.current.push(busMarker);
+      }
+    }
+  };
+
+  // 他のライダーのマーカーを地図上に表示・更新
+  const updateOtherRidersMarkers = () => {
+    if (!mapInstance.current || !window.google) return;
+
+    // 既存の他のライダーマーカーをクリア
+    otherRidersMarkersRef.current.forEach(marker => marker.setMap(null));
+    otherRidersMarkersRef.current = [];
+
+    // 新しいマーカーを作成
+    ridersLocations.forEach((rider, index) => {
+      // 自分のマーカーはスキップ（現在地マーカーと重複を避けるため）
+      const localUserId = currentUser?.uid || `local_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+      if (rider.id === localUserId || rider.id === 'current_user') return;
+
+      // 点滅用のマーカーアイコンを作成
+      const createBlinkingIcon = (color: string) => ({
+        url: `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(`
+          <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="20" cy="20" r="15" fill="${color}" stroke="white" stroke-width="3" opacity="0.8">
+              <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+              <animate attributeName="r" values="12;18;12" dur="2s" repeatCount="indefinite"/>
+            </circle>
+            <text x="20" y="25" text-anchor="middle" font-family="Arial" font-size="14" fill="white">🚌</text>
+          </svg>
+        `)}`,
+        scaledSize: new window.google.maps.Size(40, 40),
+        anchor: new window.google.maps.Point(20, 20)
+      });
+
+      // ライダーごとに異なる色を割り当て
+      const colors = ['#FF6B6B', '#4ECDC4', '#45B7D1', '#96CEB4', '#FFEAA7', '#DDA0DD', '#98D8C8'];
+      const riderColor = colors[index % colors.length];
+
+      const marker = new window.google.maps.Marker({
+        position: rider.position,
+        map: mapInstance.current,
+        title: `🚌 ${rider.username} (同乗者)`,
+        icon: createBlinkingIcon(riderColor),
+        zIndex: 1000 + index // 他のマーカーより前面に表示
+      });
+
+      // マーカークリック時の情報ウィンドウ
+      const infoWindow = new window.google.maps.InfoWindow({
+        content: `
+          <div style="padding: 10px; min-width: 150px;">
+            <h4 style="margin: 0 0 8px 0; color: #333;">🚌 同乗者情報</h4>
+            <p style="margin: 4px 0;"><strong>ユーザー:</strong> ${rider.username}</p>
+            <p style="margin: 4px 0;"><strong>最終更新:</strong> ${rider.timestamp.toLocaleTimeString('ja-JP')}</p>
+            <p style="margin: 4px 0; font-size: 12px; color: #666;">リアルタイム位置情報</p>
+          </div>
+        `
+      });
+
+      marker.addListener('click', () => {
+        infoWindow.open(mapInstance.current, marker);
+      });
+
+      otherRidersMarkersRef.current.push(marker);
+    });
+
+    console.log(`他のライダーマーカーを更新: ${otherRidersMarkersRef.current.length}個のマーカーを表示`);
+  };
+
+  // 通過した停留所をチェック
+  const checkPassedStops = (currentPos: google.maps.LatLng, tripId: string) => {
+    if (routeStops.length === 0) return;
+    
+    const proximityRadius = 100; // 100m以内で通過と判定
+    
+    routeStops.forEach(stop => {
+      const stopLat = parseFloat(stop.stop_lat);
+      const stopLon = parseFloat(stop.stop_lon);
+      
+      if (isNaN(stopLat) || isNaN(stopLon)) return;
+      
+      const stopPos = new window.google.maps.LatLng(stopLat, stopLon);
+      const distance = getDistance(
+        currentPos.lat(), currentPos.lng(),
+        stopLat, stopLon
+      );
+      
+      if (distance <= proximityRadius) {
+        // まだ通過記録がない停留所のみ記録
+        const alreadyPassed = busPassedStops.some(passed => passed.stopId === stop.stop_id);
+        if (!alreadyPassed) {
+          const currentTime = new Date();
+          const scheduledTime = stop.arrival_time || stop.departure_time || '';
+          const delay = calculateDelay(currentTime, scheduledTime);
+          
+          const passedStop = {
+            stopId: stop.stop_id,
+            stopName: stop.stop_name,
+            passTime: currentTime,
+            scheduledTime: scheduledTime || undefined,
+            delay: delay,
+            username: getUserDisplayName(currentUser)
+          };
+          
+          setBusPassedStops(prev => [...prev, passedStop]);
+          
+          // Firestoreに通過情報を保存
+          saveBusStopPassage(tripId, passedStop);
+          
+          // 残りの停留所の到着予定時刻を再計算
+          updateEstimatedArrivalTimes(delay, stop.seq);
+          
+          console.log(`バス停通過: ${stop.stop_name} (${delay > 0 ? `+${delay}分遅れ` : delay < 0 ? `${Math.abs(delay)}分早く` : '定刻'}) - データベースに保存済み`);
+        }
+      }
+    });
+  };
+
+  // 遅延時間を計算
+  const calculateDelay = (actualTime: Date, scheduledTimeStr: string): number => {
+    if (!scheduledTimeStr) return 0;
+    
+    try {
+      const today = new Date();
+      const [hours, minutes] = scheduledTimeStr.split(':').map(Number);
+      const scheduledTime = new Date(today);
+      scheduledTime.setHours(hours, minutes, 0, 0);
+      
+      return Math.round((actualTime.getTime() - scheduledTime.getTime()) / 60000); // 分単位
+    } catch (e) {
+      return 0;
+    }
+  };
+
+  // 残りの停留所の到着予定時刻を更新
+  const updateEstimatedArrivalTimes = (currentDelay: number, currentStopSeq: number) => {
+    const newEstimates: Record<string, string> = {};
+    
+    routeStops.forEach(stop => {
+      if (stop.seq > currentStopSeq) {
+        const originalTime = stop.arrival_time || stop.departure_time;
+        if (originalTime) {
+          try {
+            const [hours, minutes] = originalTime.split(':').map(Number);
+            const today = new Date();
+            const estimatedTime = new Date(today);
+            estimatedTime.setHours(hours, minutes + currentDelay, 0, 0);
+            
+            newEstimates[stop.stop_id] = estimatedTime.toLocaleTimeString('ja-JP', {
+              hour: '2-digit',
+              minute: '2-digit'
+            });
+          } catch (e) {
+            newEstimates[stop.stop_id] = originalTime;
+          }
+        }
+      }
+    });
+    
+    setEstimatedArrivalTimes(newEstimates);
+  };
 
   // 目的地検索入力ハンドラ
   const handleSearchChange = async (value: string) => {
@@ -1286,6 +2156,13 @@ declare global {
 
   // ルートをクリア
   const clearRoute = () => {
+    // リアルタイム追跡をクリア
+    stopLocationSharing();
+    setBusLocation(null);
+    setBusPassedStops([]);
+    setEstimatedArrivalTimes({});
+    setRidingTripId(null);
+    
     // Google Directionsのルートをクリア
     if (directionsRenderer.current) {
       directionsRenderer.current.setDirections({ routes: [] } as any);
@@ -1314,6 +2191,8 @@ declare global {
     // 地図上のマーカーをクリア
     routeMarkersRef.current.forEach(m => m.setMap(null));
     routeMarkersRef.current = [];
+    otherRidersMarkersRef.current.forEach(m => m.setMap(null));
+    otherRidersMarkersRef.current = [];
     if (routePolylineRef.current) {
       routePolylineRef.current.setMap(null);
       routePolylineRef.current = null;
@@ -1353,6 +2232,76 @@ declare global {
   useEffect(() => {
     console.log('loadingRoute changed:', loadingRoute);
   }, [loadingRoute]);
+
+  // ridersLocationsの変更を監視してマーカーを更新
+  useEffect(() => {
+    updateOtherRidersMarkers();
+  }, [ridersLocations]);
+
+  // コンポーネントのクリーンアップ
+  useEffect(() => {
+    // ページアンロード時の処理（アプリが閉じられた時）
+    const handleBeforeUnload = (event: BeforeUnloadEvent) => {
+      if (isLocationSharing) {
+        // 位置情報共有を停止
+        stopLocationSharing();
+        
+        // ブラウザによってはここで同期的にFirestoreからデータを削除
+        if (currentUser?.uid) {
+          // navigator.sendBeaconを使用して確実にデータを送信
+          const deleteUrl = `https://firestore.googleapis.com/v1/projects/busnaviapp-1ceba/databases/(default)/documents/busRiderLocations`;
+          // 実際の削除は難しいので、lastActiveを古い時刻に更新
+          const updateData = {
+            lastActive: new Date(Date.now() - 300000).toISOString() // 5分前に設定
+          };
+          navigator.sendBeacon(deleteUrl, JSON.stringify(updateData));
+        }
+      }
+    };
+
+    // ページ非表示時の処理（タブを閉じた時など）
+    const handleVisibilityChange = () => {
+      if (document.hidden && isLocationSharing) {
+        console.log('ページが非表示になりました - 位置情報共有を停止');
+        stopLocationSharing();
+      }
+    };
+
+    // イベントリスナーを追加
+    window.addEventListener('beforeunload', handleBeforeUnload);
+    document.addEventListener('visibilitychange', handleVisibilityChange);
+
+    return () => {
+      // タイマーのクリーンアップ
+      if (locationTimerRef.current) {
+        if (typeof locationTimerRef.current === 'function') {
+          locationTimerRef.current(); // 複数のタイマーをクリアする関数
+        } else {
+          clearInterval(locationTimerRef.current);
+        }
+      }
+      // Firestoreリスナーのクリーンアップ
+      if (unsubscribeRiderListener.current) {
+        unsubscribeRiderListener.current();
+      }
+      if (unsubscribeStopPassageListener.current) {
+        unsubscribeStopPassageListener.current();
+      }
+      
+      // 位置情報共有が残っている場合は停止
+      if (isLocationSharing) {
+        stopLocationSharing();
+      }
+
+      // マーカーのクリーンアップ
+      otherRidersMarkersRef.current.forEach(marker => marker.setMap(null));
+      otherRidersMarkersRef.current = [];
+
+      // イベントリスナーを削除
+      window.removeEventListener('beforeunload', handleBeforeUnload);
+      document.removeEventListener('visibilitychange', handleVisibilityChange);
+    };
+  }, [isLocationSharing, currentUser]);
 
   return (
     <>
@@ -1933,8 +2882,100 @@ declare global {
                     <div style={{ fontSize: '12px', color: '#666' }}>遅延情報</div>
                     <div style={{ fontWeight: 600 }}>{delay === null ? '遅延情報なし' : `${delay} 分遅延`}</div>
                   </div>
+                  
+                  {/* リアルタイム追跡情報 */}
+                  {selectedTripId && ridersLocations.length > 0 && (
+                    <div style={{ marginBottom: '8px', padding: '8px', backgroundColor: isLocationSharing ? '#e8f5e8' : '#f0f8ff', borderRadius: '6px' }}>
+                      <div style={{ fontSize: '12px', color: isLocationSharing ? '#28a745' : '#0066cc', fontWeight: 600, marginBottom: '4px' }}>
+                        {isLocationSharing ? '🔴 リアルタイム追跡中' : '👀 他のライダー情報'} ({ridersLocations.length}人が乗車中)
+                      </div>
+                      <div style={{ fontSize: '11px', color: '#666', marginBottom: '4px' }}>
+                        {isLocationSharing 
+                          ? '同じバスを選択したユーザー同士で位置情報が共有されています（1分間隔更新）' 
+                          : '同じバスの他のライダーの位置情報を見ています'
+                        }
+                        <br />
+                        {isLocationSharing 
+                          ? '⚠️ バス停から500m圏内の位置情報のみ有効' 
+                          : '💡 「乗車中」ボタンを押すとあなたの位置も共有されます'
+                        }
+                      </div>
+                      
+                      {/* 乗車中のユーザー一覧 */}
+                      {ridersLocations.length > 0 && (
+                        <div style={{ marginBottom: '4px' }}>
+                          <div style={{ fontSize: '10px', color: '#666', marginBottom: '2px' }}>
+                            {isLocationSharing ? '乗車中のユーザー:' : '位置情報を共有中のライダー:'}
+                          </div>
+                          <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px' }}>
+                            {ridersLocations
+                              .filter((rider, index, self) => 
+                                index === self.findIndex(r => r.id === rider.id)
+                              )
+                              .map((rider, index) => (
+                              <span 
+                                key={`${rider.id}_${index}`} 
+                                style={{ 
+                                  fontSize: '9px', 
+                                  backgroundColor: '#d4edda', 
+                                  color: '#155724',
+                                  padding: '2px 6px', 
+                                  borderRadius: '10px',
+                                  border: '1px solid #c3e6cb'
+                                }}
+                              >
+                                👤 {rider.username}
+                              </span>
+                            ))}
+                          </div>
+                        </div>
+                      )}
+                      
+                      {busLocation && (
+                        <div style={{ fontSize: '11px', color: '#666' }}>
+                          バス推定位置: {busLocation.lat().toFixed(5)}, {busLocation.lng().toFixed(5)}
+                        </div>
+                      )}
+                      {busPassedStops.length > 0 && (
+                        <div style={{ fontSize: '11px', color: '#666' }}>
+                          直近通過: {busPassedStops[busPassedStops.length - 1].stopName} 
+                          ({busPassedStops[busPassedStops.length - 1].delay > 0 ? `${busPassedStops[busPassedStops.length - 1].delay}分遅れ` : 
+                            busPassedStops[busPassedStops.length - 1].delay < 0 ? `${-busPassedStops[busPassedStops.length - 1].delay}分早く` : '定刻'})
+                          {busPassedStops[busPassedStops.length - 1].username && (
+                            <span style={{ color: '#28a745', fontWeight: '500' }}>
+                              {' '}by {busPassedStops[busPassedStops.length - 1].username}
+                            </span>
+                          )}
+                        </div>
+                      )}
+                      <div style={{ fontSize: '10px', color: '#999', marginTop: '4px', fontStyle: 'italic' }}>
+                        ✅ Firebase連携済み - リアルタイム共有が有効です
+                      </div>
+                    </div>
+                  )}
                   <div style={{ display: 'flex', gap: '8px', marginBottom: '8px' }}>
-                    <button className={styles.selectButton} onClick={() => setRidingTripId(ridingTripId === selectedTripId ? null : selectedTripId)}>{ridingTripId === selectedTripId ? '下車する' : 'この便に乗る'}</button>
+                    <button 
+                      className={styles.selectButton} 
+                      onClick={() => {
+                        if (ridingTripId === selectedTripId) {
+                          // 下車処理
+                          setRidingTripId(null);
+                          stopLocationSharing();
+                        } else {
+                          // 乗車処理
+                          setRidingTripId(selectedTripId);
+                          if (selectedTripId) {
+                            startLocationSharing(selectedTripId);
+                          }
+                        }
+                      }}
+                      style={{ 
+                        backgroundColor: ridingTripId === selectedTripId ? '#dc3545' : '#28a745',
+                        color: 'white'
+                      }}
+                    >
+                      {ridingTripId === selectedTripId ? '下車する' : 'バス停付近で乗車'}
+                    </button>
                     <button className={styles.smallButton} onClick={() => { mapInstance.current && routeStops.length > 0 && mapInstance.current.fitBounds((() => { const b = new window.google.maps.LatLngBounds(); if (currentLocationRef.current) b.extend(currentLocationRef.current); routeStops.forEach((rs)=>{ if (rs.stop_lat && rs.stop_lon) b.extend(new window.google.maps.LatLng(parseFloat(rs.stop_lat), parseFloat(rs.stop_lon))); }); return b; })()); }}>表示範囲</button>
                   </div>
                   <div style={{ fontSize: '13px', fontWeight: 600, marginBottom: '6px' }}>停車順</div>
@@ -1951,13 +2992,51 @@ declare global {
                       } catch (e) {
                         isNearest = false;
                       }
+
+                      // 通過情報をチェック
+                      const passedInfo = busPassedStops.find(passed => passed.stopId === rs.stop_id);
+                      const estimatedTime = estimatedArrivalTimes[rs.stop_id];
+                      
                       return (
-                        <div key={`route_stop_${rs.stop_id}_${idx}`} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '6px 8px', background: isNearest ? '#e6f7ff' : 'transparent', borderRadius: '6px', marginBottom: '6px' }}>
+                        <div key={`route_stop_${rs.stop_id}_${idx}`} style={{ 
+                          display: 'flex', 
+                          justifyContent: 'space-between', 
+                          alignItems: 'center', 
+                          padding: '6px 8px', 
+                          background: passedInfo ? '#ffe6e6' : isNearest ? '#e6f7ff' : 'transparent', 
+                          borderRadius: '6px', 
+                          marginBottom: '6px',
+                          borderLeft: passedInfo ? '3px solid #ff4444' : isNearest ? '3px solid #007bff' : 'none'
+                        }}>
                           <div>
-                            <div style={{ fontWeight: 600 }}>{rs.stop_name}</div>
-                            <div style={{ fontSize: '12px', color: '#666' }}>{rs.arrival_time || rs.departure_time || ''}</div>
+                            <div style={{ fontWeight: 600, fontSize: '13px' }}>
+                              {passedInfo && '✓ '}{rs.stop_name}
+                            </div>
+                            <div style={{ fontSize: '11px', color: '#666' }}>
+                              {passedInfo ? (
+                                <span>
+                                  通過: {passedInfo.passTime.toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' })} 
+                                  ({passedInfo.delay > 0 ? `+${passedInfo.delay}分` : passedInfo.delay < 0 ? `${passedInfo.delay}分` : '定刻'})
+                                  {passedInfo.username && (
+                                    <span style={{ color: '#28a745', fontWeight: '500' }}>
+                                      {' '}by {passedInfo.username}
+                                    </span>
+                                  )}
+                                </span>
+                              ) : estimatedTime ? (
+                                `予測: ${estimatedTime} (元: ${rs.arrival_time || rs.departure_time || ''})`
+                              ) : (
+                                rs.arrival_time || rs.departure_time || ''
+                              )}
+                            </div>
                           </div>
-                          <div style={{ fontSize: '12px', color: isNearest ? '#007bff' : '#666' }}>{isNearest ? '現在地近く' : `${idx+1}`}</div>
+                          <div style={{ 
+                            fontSize: '12px', 
+                            color: passedInfo ? '#ff4444' : isNearest ? '#007bff' : '#666',
+                            fontWeight: passedInfo ? 600 : 'normal'
+                          }}>
+                            {passedInfo ? '通過済み' : isNearest ? '現在地近く' : `${idx+1}`}
+                          </div>
                         </div>
                       );
                     })}
