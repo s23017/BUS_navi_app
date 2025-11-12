@@ -1569,8 +1569,33 @@ export default function BusSearch() {
         // 既存マーカーの位置をスムーズに更新
         console.log(`🔄 既存マーカーの位置を更新: ${rider.username}`);
         
-        // 位置を直接更新（Google Mapsが自動的に最適化してくれる）
-        existingMarker.setPosition(rider.position);
+        // 現在のマーカー位置を取得
+        const currentPosition = existingMarker.getPosition();
+        console.log(`   📍 現在位置: ${currentPosition ? `${currentPosition.lat()}, ${currentPosition.lng()}` : 'undefined'}`);
+        console.log(`   📍 新しい位置: ${rider.position.lat()}, ${rider.position.lng()}`);
+        
+        // 新しい位置オブジェクトを確実に作成
+        const newLatLng = new window.google.maps.LatLng(
+          rider.position.lat(), 
+          rider.position.lng()
+        );
+        
+        // 位置を強制更新
+        existingMarker.setPosition(newLatLng);
+        
+        // マーカーがマップに表示されているか確認
+        const markerMap = existingMarker.getMap();
+        if (!markerMap) {
+          console.log(`   ⚠️ マーカーがマップから外れています - 再追加`);
+          existingMarker.setMap(mapInstance.current);
+        }
+        
+        // マーカーの可視性を確保
+        existingMarker.setVisible(true);
+        
+        // マーカーが確実に見える位置に表示されているかチェック
+        const updatedPosition = existingMarker.getPosition();
+        console.log(`   ✅ 更新後位置確認: ${updatedPosition ? `${updatedPosition.lat()}, ${updatedPosition.lng()}` : 'undefined'}`);
         
         existingMarker.setTitle(isCurrentUser ? 
           `🚌 ${rider.username} (あなた - 位置情報共有中)` : 
@@ -1688,6 +1713,16 @@ export default function BusSearch() {
     }
 
     console.log(`🗺️ マーカー更新完了: ${ridersMarkersMapRef.current.size}個のマーカーを表示`);
+    
+    // マップの表示をリフレッシュ（マーカーの表示更新を強制）
+    if (mapInstance.current && ridersLocations.length > 0) {
+      // 短い遅延後にマップの再描画をトリガー
+      setTimeout(() => {
+        if (mapInstance.current) {
+          window.google.maps.event.trigger(mapInstance.current, 'resize');
+        }
+      }, 100);
+    }
   };
 
   // 通過した停留所をチェック
