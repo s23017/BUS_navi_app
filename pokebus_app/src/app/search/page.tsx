@@ -1160,14 +1160,14 @@ export default function BusSearch() {
         
         console.log(`📊 全受信データ: ${locations.length}件`);
         
-        // クライアント側で時間フィルタリング（2分以内）
-        const cutoffTime = new Date(Date.now() - 120000);
+        // クライアント側で時間フィルタリング（3分以内に延長）
+        const cutoffTime = new Date(Date.now() - 180000); // 3分 = 180秒
         const recentLocations = locations.filter(location => {
           const isRecent = location.lastActive > cutoffTime;
           const timeDiff = Math.round((Date.now() - location.lastActive.getTime()) / 1000);
           
           if (!isRecent) {
-            console.log(`⏰ ユーザー ${location.username} (${location.id}) がタイムアウト: ${timeDiff}秒前の更新 (制限: 120秒)`);
+            console.log(`⏰ ユーザー ${location.username} (${location.id}) がタイムアウト: ${timeDiff}秒前の更新 (制限: 180秒)`);
             
             // タイムアウトしたドキュメントを非同期で削除
             const timeoutDoc = querySnapshot.docs.find(doc => doc.data().userId === location.id);
@@ -1532,23 +1532,28 @@ export default function BusSearch() {
     const currentMarkerIds = Array.from(ridersMarkersMapRef.current.keys());
     const newRiderIds = ridersLocations.map(rider => rider.id);
 
-    // 不要なマーカーを削除（もういないライダー）
-    currentMarkerIds.forEach(riderId => {
-      if (!newRiderIds.includes(riderId)) {
-        const marker = ridersMarkersMapRef.current.get(riderId);
-        if (marker) {
-          console.log(`🗑️ 不要なマーカーを削除: ${riderId}`);
-          marker.setMap(null);
-          ridersMarkersMapRef.current.delete(riderId);
-          
-          // otherRidersMarkersRef からも削除
-          const index = otherRidersMarkersRef.current.indexOf(marker);
-          if (index > -1) {
-            otherRidersMarkersRef.current.splice(index, 1);
+    // 遅延削除: データが空の場合、すぐには削除しない
+    if (ridersLocations.length > 0) {
+      // データが存在する場合のみ、不要なマーカーを削除
+      currentMarkerIds.forEach(riderId => {
+        if (!newRiderIds.includes(riderId)) {
+          const marker = ridersMarkersMapRef.current.get(riderId);
+          if (marker) {
+            console.log(`🗑️ 不要なマーカーを削除: ${riderId}`);
+            marker.setMap(null);
+            ridersMarkersMapRef.current.delete(riderId);
+            
+            // otherRidersMarkersRef からも削除
+            const index = otherRidersMarkersRef.current.indexOf(marker);
+            if (index > -1) {
+              otherRidersMarkersRef.current.splice(index, 1);
+            }
           }
         }
-      }
-    });
+      });
+    } else {
+      console.log('⏸️ データが空のため、マーカー削除をスキップ（既存マーカーを保持）');
+    }
 
     // 各ライダーのマーカーを更新または新規作成
     ridersLocations.forEach((rider, index) => {
@@ -1561,49 +1566,42 @@ export default function BusSearch() {
       let existingMarker = ridersMarkersMapRef.current.get(rider.id);
       
       if (existingMarker) {
-        // 既存マーカーの位置を更新
+        // 既存マーカーの位置をスムーズに更新
         console.log(`🔄 既存マーカーの位置を更新: ${rider.username}`);
-        existingMarker.setPosition(rider.position);
+        
+        // 現在のマーカー位置を取得
+        const currentPosition = existingMarker.getPosition();
+        console.log(`   📍 現在位置: ${currentPosition ? `${currentPosition.lat()}, ${currentPosition.lng()}` : 'undefined'}`);
+        console.log(`   📍 新しい位置: ${rider.position.lat()}, ${rider.position.lng()}`);
+        
+        // 新しい位置オブジェクトを確実に作成
+        const newLatLng = new window.google.maps.LatLng(
+          rider.position.lat(), 
+          rider.position.lng()
+        );
+        
+        // 位置を強制更新
+        existingMarker.setPosition(newLatLng);
+        
+        // マーカーがマップに表示されているか確認
+        const markerMap = existingMarker.getMap();
+        if (!markerMap) {
+          console.log(`   ⚠️ マーカーがマップから外れています - 再追加`);
+          existingMarker.setMap(mapInstance.current);
+        }
+        
+        // マーカーの可視性を確保
+        existingMarker.setVisible(true);
+        
+        // マーカーが確実に見える位置に表示されているかチェック
+        const updatedPosition = existingMarker.getPosition();
+        console.log(`   ✅ 更新後位置確認: ${updatedPosition ? `${updatedPosition.lat()}, ${updatedPosition.lng()}` : 'undefined'}`);
+        
         existingMarker.setTitle(isCurrentUser ? 
           `🚌 ${rider.username} (あなた - 位置情報共有中)` : 
           `🚌 ${rider.username} (同乗者)`);
         
-        // 情報ウィンドウの内容も更新
-        if (isCurrentUser) {
-          const updatedInfoWindow = new window.google.maps.InfoWindow({
-            content: `
-              <div style="padding: 12px; min-width: 180px;">
-                <h4 style="margin: 0 0 8px 0; color: #007BFF;">👤 あなたの位置</h4>
-                <p style="margin: 4px 0; color: #666;"><strong>ユーザー名:</strong> ${rider.username}</p>
-                <p style="margin: 4px 0; color: #666;"><strong>位置:</strong> ${rider.position.lat().toFixed(6)}, ${rider.position.lng().toFixed(6)}</p>
-                <p style="margin: 4px 0; color: #666;"><strong>最終更新:</strong> ${rider.timestamp.toLocaleTimeString()}</p>
-                <p style="margin: 8px 0 4px 0; color: #007BFF; font-size: 12px;">� 位置情報を共有中</p>
-              </div>
-            `
-          });
-
-          // 既存のリスナーをクリア
-          window.google.maps.event.clearListeners(existingMarker, 'click');
-          existingMarker.addListener('click', () => {
-            updatedInfoWindow.open(mapInstance.current, existingMarker);
-          });
-        } else {
-          const updatedInfoWindow = new window.google.maps.InfoWindow({
-            content: `
-              <div style="padding: 10px; min-width: 150px;">
-                <h4 style="margin: 0 0 8px 0; color: #333;">� 同乗者情報</h4>
-                <p style="margin: 4px 0;"><strong>ユーザー:</strong> ${rider.username}</p>
-                <p style="margin: 4px 0;"><strong>最終更新:</strong> ${rider.timestamp.toLocaleTimeString('ja-JP')}</p>
-                <p style="margin: 4px 0; font-size: 12px; color: #666;">リアルタイム位置情報</p>
-              </div>
-            `
-          });
-
-          window.google.maps.event.clearListeners(existingMarker, 'click');
-          existingMarker.addListener('click', () => {
-            updatedInfoWindow.open(mapInstance.current, existingMarker);
-          });
-        }
+        // 情報ウィンドウの内容も更新（パフォーマンス向上のため簡略化）
         
         console.log(`   ✅ マーカー位置更新完了: ${rider.username} at (${rider.position.lat()}, ${rider.position.lng()})`);
       } else {
@@ -1715,6 +1713,16 @@ export default function BusSearch() {
     }
 
     console.log(`🗺️ マーカー更新完了: ${ridersMarkersMapRef.current.size}個のマーカーを表示`);
+    
+    // マップの表示をリフレッシュ（マーカーの表示更新を強制）
+    if (mapInstance.current && ridersLocations.length > 0) {
+      // 短い遅延後にマップの再描画をトリガー
+      setTimeout(() => {
+        if (mapInstance.current) {
+          window.google.maps.event.trigger(mapInstance.current, 'resize');
+        }
+      }, 100);
+    }
   };
 
   // 通過した停留所をチェック
