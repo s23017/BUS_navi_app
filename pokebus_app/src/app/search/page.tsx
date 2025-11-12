@@ -1210,6 +1210,10 @@ declare global {
         // 30秒間隔でハートビート（生存確認）を送信
         const heartbeatTimer = setInterval(() => {
           if (currentUser?.uid) {
+            // バックグラウンド実行中かどうかをチェック
+            const isBackground = document.hidden;
+            const statusText = isBackground ? 'バックグラウンド' : 'フォアグラウンド';
+            
             // 自分の位置情報のlastActiveを更新
             const updateHeartbeat = async () => {
               try {
@@ -1226,7 +1230,7 @@ declare global {
                 }
                 
                 const updatePromises = querySnapshot.docs.map(doc => {
-                  console.log('ハートビート更新:', doc.id, 'lastActive:', new Date().toISOString());
+                  console.log(`ハートビート更新(${statusText}):`, doc.id, 'lastActive:', new Date().toISOString());
                   return updateDoc(doc.ref, { lastActive: Timestamp.now() });
                 });
                 
@@ -2259,11 +2263,32 @@ declare global {
       }
     };
 
-    // ページ非表示時の処理（タブを閉じた時など）
+    // ページ非表示時の処理（実際にタブを閉じた時のみ）
     const handleVisibilityChange = () => {
       if (document.hidden && isLocationSharing) {
-        console.log('ページが非表示になりました - 位置情報共有を停止');
-        stopLocationSharing();
+        console.log('ページが非表示になりました - バックグラウンド実行モードに移行');
+        
+        // スマホの場合、アプリ切り替えでもhiddenになるため、
+        // 即座に停止せず、一定時間後にページが表示されない場合のみ停止
+        const backgroundTimeout = setTimeout(() => {
+          if (document.hidden && isLocationSharing) {
+            console.log('長時間非表示のため位置情報共有を停止');
+            stopLocationSharing();
+          }
+        }, 300000); // 5分後に停止
+        
+        // ページが再表示された時にタイマーをクリア
+        const handleVisibilityShow = () => {
+          if (!document.hidden) {
+            console.log('ページが再表示されました - バックグラウンドタイマーをクリア');
+            clearTimeout(backgroundTimeout);
+            document.removeEventListener('visibilitychange', handleVisibilityShow);
+          }
+        };
+        
+        document.addEventListener('visibilitychange', handleVisibilityShow);
+      } else if (!document.hidden && isLocationSharing) {
+        console.log('ページが表示状態に戻りました');
       }
     };
 
