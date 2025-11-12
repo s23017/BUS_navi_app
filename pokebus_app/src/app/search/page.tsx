@@ -1022,6 +1022,10 @@ declare global {
 
   // リアルタイムデータベース（Firestore）への位置情報送信
   const shareLocationToFirestore = async (tripId: string, position: google.maps.LatLng) => {
+    console.log('📤 === shareLocationToFirestore開始 ===');
+    console.log('Firebase db接続状態:', !!db);
+    console.log('currentUser:', currentUser?.uid || 'Anonymous');
+    
     try {
       // より一意なユーザーIDを生成
       const userId = currentUser?.uid || `anonymous_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
@@ -1037,14 +1041,33 @@ declare global {
         lastActive: Timestamp.now()
       };
 
+      console.log('📤 Firestore送信データ:', {
+        tripId: locationData.tripId,
+        userId: locationData.userId,
+        username: locationData.username,
+        lat: locationData.latitude,
+        lng: locationData.longitude,
+        time: new Date().toISOString(),
+        collection: 'busRiderLocations'
+      });
+
       // Firestoreに位置情報を保存
-      await addDoc(collection(db, 'busRiderLocations'), locationData);
-      console.log('位置情報をFirestoreに送信:', locationData);
+      console.log('💾 Firestoreコレクションへ書き込み開始...');
+      const docRef = await addDoc(collection(db, 'busRiderLocations'), locationData);
+      console.log('✅ Firestore送信成功 - DocumentID:', docRef.id);
+      console.log('✅ === shareLocationToFirestore完了 ===');
       
     } catch (error: any) {
-      console.error('位置情報の共有に失敗:', error);
+      console.error('❌ === shareLocationToFirestore失敗 ===');
+      console.error('エラー詳細:', {
+        name: error?.name,
+        code: error?.code,
+        message: error?.message,
+        stack: error?.stack
+      });
+      
       if (error?.code === 'permission-denied') {
-        console.warn('Firestore権限エラー - ローカルモードで継続');
+        console.error('🚫 Firebase権限エラー - Firestoreルールを確認してください');
         // 権限エラーの場合はローカル状態のみ更新
         const localUserId = currentUser?.uid || `local_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
         const localRider = {
@@ -1056,6 +1079,11 @@ declare global {
           lastActive: new Date()
         };
         setRidersLocations(prev => [...prev.filter(r => r.id !== localUserId), localRider]);
+      } else if (error?.code === 'unavailable') {
+        console.error('🌐 Firebaseサービス利用不可 - ネットワーク接続を確認してください');
+        throw error;
+      } else {
+        throw error;
       }
     }
   };
@@ -1071,8 +1099,20 @@ declare global {
       );
       
       const unsubscribe = onSnapshot(q, (querySnapshot) => {
+        console.log('📥 Firestoreデータ受信 - ドキュメント数:', querySnapshot.docs.length);
+        
         const locations = querySnapshot.docs.map(doc => {
           const data = doc.data();
+          console.log('📄 受信データ:', {
+            docId: doc.id,
+            userId: data.userId,
+            username: data.username,
+            lat: data.latitude,
+            lng: data.longitude,
+            lastActive: data.lastActive.toDate().toISOString(),
+            tripId: data.tripId
+          });
+          
           return {
             id: data.userId,
             position: new window.google.maps.LatLng(data.latitude, data.longitude),
@@ -1083,6 +1123,8 @@ declare global {
           };
         });
         
+        console.log(`📊 全受信データ: ${locations.length}件`);
+        
         // クライアント側で時間フィルタリング（2分以内）
         const cutoffTime = new Date(Date.now() - 120000);
         const recentLocations = locations.filter(location => {
@@ -1090,19 +1132,26 @@ declare global {
           const timeDiff = Math.round((Date.now() - location.lastActive.getTime()) / 1000);
           
           if (!isRecent) {
-            console.log(`ユーザー ${location.username} (${location.id}) がタイムアウト: ${timeDiff}秒前の更新 (制限: 120秒)`);
+            console.log(`⏰ ユーザー ${location.username} (${location.id}) がタイムアウト: ${timeDiff}秒前の更新 (制限: 120秒)`);
           }
           
           return isRecent;
         });
+        
+        console.log(`⌛ タイムフィルター後: ${recentLocations.length}件`);
         
         // 重複するユーザーIDを削除（最新のもののみ保持）
         const uniqueLocations = recentLocations.filter((location, index, self) => 
           index === self.findIndex(l => l.id === location.id)
         );
         
+        console.log(`🔄 重複削除後: ${uniqueLocations.length}件`);
+        uniqueLocations.forEach((loc, idx) => {
+          console.log(`   ${idx + 1}. ${loc.username} (${loc.id}): lat=${loc.position.lat().toFixed(6)}, lng=${loc.position.lng().toFixed(6)}`);
+        });
+        
         setRidersLocations(uniqueLocations);
-        console.log('他のライダー位置情報更新:', uniqueLocations.length, '人');
+        console.log('🗺️ ridersLocations状態更新完了 - マーカー更新をトリガー');
         
         // 地図上のマーカーを更新
         updateOtherRidersMarkers();
@@ -1132,37 +1181,69 @@ declare global {
 
   // 位置情報共有開始（1分間隔での更新）
   const startLocationSharing = (tripId: string) => {
+    console.log('🚀 === 位置情報共有開始 ===');
+    console.log('対象トリップID:', tripId);
+    console.log('現在ユーザー:', currentUser?.uid || 'Anonymous');
+    console.log('ナビゲーター位置情報サポート:', !!navigator.geolocation);
+    
     if (!navigator.geolocation) {
+      console.error('❌ このデバイスでは位置情報を取得できません');
       alert('このデバイスでは位置情報を取得できません');
       return;
     }
 
+    // 位置情報権限の確認
+    navigator.permissions.query({name: 'geolocation'}).then((permissionStatus) => {
+      console.log('📍 位置情報権限状態:', permissionStatus.state);
+    }).catch((error) => {
+      console.log('📍 権限確認API未対応:', error);
+    });
+
     // 他のライダーの位置情報をリッスン開始
+    console.log('👥 他ライダーの位置情報リッスン開始...');
     const unsubscribe = listenToOtherRiders(tripId);
     unsubscribeRiderListener.current = unsubscribe;
 
     // バス停通過情報のリッスン開始
+    console.log('🚏 バス停通過情報リッスン開始...');
     const stopPassageUnsubscribe = listenToBusStopPassages(tripId);
     unsubscribeStopPassageListener.current = stopPassageUnsubscribe;
 
     // 最初の位置情報を取得
     const updateLocation = () => {
+      console.log('🔄 updateLocation開始 - GPS位置取得中...');
       navigator.geolocation.getCurrentPosition(
         async (position) => {
           const { latitude, longitude } = position.coords;
           const currentPos = new window.google.maps.LatLng(latitude, longitude);
           
+          console.log('📍 GPS位置取得成功:', { 
+            lat: latitude, 
+            lng: longitude, 
+            accuracy: position.coords.accuracy + 'm',
+            timestamp: new Date().toISOString()
+          });
+          
           // 位置情報が有効かチェック
           const validation = validateLocationForSharing(currentPos, tripId);
           if (!validation.valid) {
-            console.warn('位置情報共有停止:', validation.reason);
+            console.warn('❌ 位置情報共有停止:', validation.reason);
             alert(`位置情報の共有を停止しました: ${validation.reason}`);
             stopLocationSharing();
             return;
           }
           
+          console.log('✅ 位置情報バリデーション通過');
+          
           // Firestoreに自分の位置情報を共有
-          await shareLocationToFirestore(tripId, currentPos);
+          try {
+            console.log('💾 Firestoreに位置情報送信中...');
+            await shareLocationToFirestore(tripId, currentPos);
+            console.log('✅ Firestore送信成功');
+          } catch (error) {
+            console.error('❌ Firestore送信失敗:', error);
+            return;
+          }
           
           // バスの推定位置を更新
           updateBusLocation(tripId);
@@ -1170,10 +1251,11 @@ declare global {
           // 通過した停留所をチェック
           checkPassedStops(currentPos, tripId);
           
-          console.log('位置情報更新・共有 (1分間隔):', latitude, longitude);
+          console.log('🚌 位置情報更新・共有完了 (1分間隔):', latitude, longitude);
         },
         (error) => {
-          console.error('位置情報取得エラー:', error);
+          console.error('❌ 位置情報取得エラー:', error);
+          console.error('エラーコード:', error.code, 'エラーメッセージ:', error.message);
           setIsLocationSharing(false);
         },
         {
@@ -1185,26 +1267,42 @@ declare global {
     };
 
     // まず初回位置チェックを行う
+    console.log('🔍 初回位置チェック開始...');
     navigator.geolocation.getCurrentPosition(
       (initialPosition) => {
+        console.log('✅ 初回GPS位置取得成功:', {
+          lat: initialPosition.coords.latitude,
+          lng: initialPosition.coords.longitude,
+          accuracy: initialPosition.coords.accuracy + 'm',
+          timestamp: new Date().toISOString()
+        });
+        
         const { latitude, longitude } = initialPosition.coords;
         const initialPos = new window.google.maps.LatLng(latitude, longitude);
         
         // 初回位置が有効かチェック
         const initialValidation = validateLocationForSharing(initialPos, tripId);
+        console.log('🔒 初回位置バリデーション結果:', initialValidation);
+        
         if (!initialValidation.valid) {
+          console.error('❌ 初回位置バリデーション失敗:', initialValidation.reason);
           alert(`乗車位置が不適切です: ${initialValidation.reason}\n\nバス停付近で再度お試しください。`);
           setIsLocationSharing(false);
           return;
         }
         
-        console.log('初回位置チェック通過 - 位置情報共有を開始');
+        console.log('✅ 初回位置チェック通過 - 位置情報共有を開始');
         
         // 最初の位置情報を即座に取得
+        console.log('🚀 初回updateLocation実行');
         updateLocation();
 
         // 1分間隔で位置情報を更新
-        const timer = setInterval(updateLocation, 60000); // 60秒 = 1分
+        console.log('⏰ 1分間隔タイマー開始');
+        const timer = setInterval(() => {
+          console.log('⏰ 定期更新タイマー発火 - updateLocation実行');
+          updateLocation();
+        }, 60000); // 60秒 = 1分
         locationTimerRef.current = timer;
         
         // 30秒間隔でハートビート（生存確認）を送信
@@ -1261,8 +1359,28 @@ declare global {
         console.log('位置情報共有開始 (1分間隔 + 30秒ハートビート):', tripId);
       },
       (error) => {
-        console.error('初回位置取得エラー:', error);
-        alert('位置情報の取得に失敗しました。GPSを有効にしてお試しください。');
+        console.error('❌ 初回位置情報取得エラー:', {
+          code: error.code,
+          message: error.message,
+          timestamp: new Date().toISOString()
+        });
+        
+        let errorMessage = '位置情報の取得に失敗しました。';
+        switch (error.code) {
+          case 1: // PERMISSION_DENIED
+            errorMessage = '位置情報の許可が拒否されています。ブラウザの設定を確認してください。';
+            break;
+          case 2: // POSITION_UNAVAILABLE
+            errorMessage = '位置情報を取得できません。GPSが利用できない環境の可能性があります。';
+            break;
+          case 3: // TIMEOUT
+            errorMessage = '位置情報の取得がタイムアウトしました。再度お試しください。';
+            break;
+        }
+        
+        alert(errorMessage);
+        setIsLocationSharing(false);
+        console.log('🔴 位置情報共有開始に失敗 - システム停止');
       },
       {
         enableHighAccuracy: true,
@@ -1357,16 +1475,71 @@ declare global {
   // 他のライダーのマーカーを地図上に表示・更新
   const updateOtherRidersMarkers = () => {
     if (!mapInstance.current || !window.google) return;
+    
+    console.log(`🗺️ マーカー更新開始 - 対象: ${ridersLocations.length}件のライダー`);
 
     // 既存の他のライダーマーカーをクリア
     otherRidersMarkersRef.current.forEach(marker => marker.setMap(null));
     otherRidersMarkersRef.current = [];
 
+    // 現在のユーザーIDを正確に取得
+    const currentUserId = currentUser?.uid;
+    console.log('🆔 現在のユーザーID:', currentUserId);
+
     // 新しいマーカーを作成
     ridersLocations.forEach((rider, index) => {
-      // 自分のマーカーはスキップ（現在地マーカーと重複を避けるため）
-      const localUserId = currentUser?.uid || `local_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
-      if (rider.id === localUserId || rider.id === 'current_user') return;
+      console.log(`👤 ライダー${index + 1}: ID=${rider.id}, username=${rider.username}`);
+      
+      // 自分のマーカーをスキップするかどうかの判定
+      const isCurrentUser = rider.id === currentUserId || rider.id === 'current_user';
+      console.log(`   → 自分？: ${isCurrentUser} (${rider.id} === ${currentUserId})`);
+      
+      if (isCurrentUser) {
+        console.log(`   ✅ 自分のマーカー - 共有中表示用のマーカーを作成`);
+        // 位置情報共有中は自分のマーカーも表示（識別しやすくする）
+        const selfMarker = new window.google.maps.Marker({
+          position: rider.position,
+          map: mapInstance.current,
+          title: `🚌 ${rider.username} (あなた - 位置情報共有中)`,
+          icon: {
+            url: `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(`
+              <svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="25" cy="25" r="20" fill="#007BFF" stroke="white" stroke-width="4" opacity="0.9">
+                  <animate attributeName="opacity" values="0.6;1;0.6" dur="1.5s" repeatCount="indefinite"/>
+                  <animate attributeName="r" values="16;24;16" dur="1.5s" repeatCount="indefinite"/>
+                </circle>
+                <text x="25" y="30" text-anchor="middle" font-family="Arial" font-size="16" fill="white">👤</text>
+              </svg>
+            `)}`,
+            scaledSize: new window.google.maps.Size(50, 50),
+            anchor: new window.google.maps.Point(25, 25)
+          },
+          zIndex: 2000 // 最前面に表示
+        });
+
+        // 自分用の情報ウィンドウ
+        const selfInfoWindow = new window.google.maps.InfoWindow({
+          content: `
+            <div style="padding: 12px; min-width: 180px;">
+              <h4 style="margin: 0 0 8px 0; color: #007BFF;">👤 あなたの位置</h4>
+              <p style="margin: 4px 0; color: #666;"><strong>ユーザー名:</strong> ${rider.username}</p>
+              <p style="margin: 4px 0; color: #666;"><strong>位置:</strong> ${rider.position.lat().toFixed(6)}, ${rider.position.lng().toFixed(6)}</p>
+              <p style="margin: 4px 0; color: #666;"><strong>最終更新:</strong> ${rider.timestamp.toLocaleTimeString()}</p>
+              <p style="margin: 8px 0 4px 0; color: #007BFF; font-size: 12px;">🔄 位置情報を共有中</p>
+            </div>
+          `
+        });
+
+        selfMarker.addListener('click', () => {
+          selfInfoWindow.open(mapInstance.current, selfMarker);
+        });
+
+        otherRidersMarkersRef.current.push(selfMarker);
+        console.log(`   ✅ 自分のマーカー作成完了`);
+        return;
+      }
+      
+      console.log(`   🚌 他のライダーのマーカー作成中...`);
 
       // 点滅用のマーカーアイコンを作成
       const createBlinkingIcon = (color: string) => ({
@@ -1412,9 +1585,10 @@ declare global {
       });
 
       otherRidersMarkersRef.current.push(marker);
+      console.log(`   ✅ マーカー作成完了: ${rider.username} at (${rider.position.lat()}, ${rider.position.lng()})`);
     });
 
-    console.log(`他のライダーマーカーを更新: ${otherRidersMarkersRef.current.length}個のマーカーを表示`);
+    console.log(`🗺️ マーカー更新完了: ${otherRidersMarkersRef.current.length}個のマーカーを表示`);
   };
 
   // 通過した停留所をチェック
@@ -2984,13 +3158,18 @@ declare global {
                       onClick={() => {
                         if (ridingTripId === selectedTripId) {
                           // 下車処理
+                          console.log('🛑 下車ボタンクリック - 位置情報共有停止');
                           setRidingTripId(null);
                           stopLocationSharing();
                         } else {
                           // 乗車処理
+                          console.log('🚌 乗車ボタンクリック - 位置情報共有開始準備');
+                          console.log('選択されたトリップID:', selectedTripId);
                           setRidingTripId(selectedTripId);
                           if (selectedTripId) {
                             startLocationSharing(selectedTripId);
+                          } else {
+                            console.error('❌ トリップIDが選択されていません');
                           }
                         }
                       }}
