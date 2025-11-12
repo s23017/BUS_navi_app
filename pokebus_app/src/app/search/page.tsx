@@ -237,18 +237,6 @@ declare global {
         );
         
         setBusPassedStops(uniquePassages);
-        
-        // 新しい通過情報があれば通知表示（自分以外のユーザー）
-        const currentUserId = currentUser?.uid;
-        const newPassages = uniquePassages.filter(passage => {
-          const existingPassage = busPassedStops.find(existing => existing.stopId === passage.stopId);
-          return !existingPassage && passage.username && currentUserId !== passage.username;
-        });
-        
-        newPassages.forEach(passage => {
-          showPassageNotification(`${passage.username}が${passage.stopName}を通過`, passage.delay || 0);
-        });
-        
         console.log('バス停通過情報更新:', uniquePassages.length, '件');
       }, (error: any) => {
         console.error('バス停通過情報の取得に失敗:', error);
@@ -612,24 +600,6 @@ declare global {
   const [loadingRoute, setLoadingRoute] = useState(false);
   const [showStopCandidates, setShowStopCandidates] = useState(false);
   const [showBusRoutes, setShowBusRoutes] = useState(false);
-  const [passageNotifications, setPassageNotifications] = useState<Array<{id: string, message: string, timestamp: number}>>([]);
-
-  // バス停通過通知を表示
-  const showPassageNotification = (stopName: string, delay: number) => {
-    const delayText = delay > 0 ? `+${delay}分遅れ` : delay < 0 ? `${Math.abs(delay)}分早く` : '定刻';
-    const notification = {
-      id: `${Date.now()}_${Math.random()}`,
-      message: `🚏 ${stopName}を通過 (${delayText})`,
-      timestamp: Date.now()
-    };
-    
-    setPassageNotifications(prev => [...prev, notification]);
-    
-    // 5秒後に自動で削除
-    setTimeout(() => {
-      setPassageNotifications(prev => prev.filter(n => n.id !== notification.id));
-    }, 5000);
-  };
 
   function getDistance(lat1: number, lon1: number, lat2: number, lon2: number) {
     const R = 6371000;
@@ -1516,42 +1486,7 @@ declare global {
   const updateOtherRidersMarkers = () => {
     if (!mapInstance.current || !window.google) return;
     
-    console.log(`🗺️ マーカー更新開始 - 対象: ${ridersLocations.length}件のライダー`);
-
-    // テスト用：開発環境では仮想ライダーを追加
-    const isDevelopment = process.env.NODE_ENV === 'development';
-    let allRiders = [...ridersLocations];
-    
-    if (isDevelopment && ridersLocations.length <= 1) {
-      // 現在地から少しずらした位置に仮想ライダーを配置（テスト用）
-      const currentPos = currentLocationRef.current;
-      if (currentPos) {
-        const testRiders = [
-          {
-            id: 'test_rider_1',
-            position: new window.google.maps.LatLng(
-              currentPos.lat() + 0.001, 
-              currentPos.lng() + 0.001
-            ),
-            timestamp: new Date(),
-            username: 'テストライダー1',
-            email: 'test1@example.com'
-          },
-          {
-            id: 'test_rider_2', 
-            position: new window.google.maps.LatLng(
-              currentPos.lat() - 0.001,
-              currentPos.lng() + 0.0005
-            ),
-            timestamp: new Date(),
-            username: 'テストライダー2', 
-            email: 'test2@example.com'
-          }
-        ];
-        allRiders = [...ridersLocations, ...testRiders];
-        console.log(`🧪 テスト用仮想ライダーを追加: ${testRiders.length}件 (開発環境)`);
-      }
-    }
+    console.log(`🗺️ マーカー更新開始 - ridersLocations: ${ridersLocations.length}件`);
 
     // 既存の他のライダーマーカーをクリア
     otherRidersMarkersRef.current.forEach(marker => marker.setMap(null));
@@ -1561,9 +1496,9 @@ declare global {
     const currentUserId = currentUser?.uid;
     console.log('🆔 現在のユーザーID:', currentUserId);
 
-    // 新しいマーカーを作成
-    allRiders.forEach((rider, index) => {
-      console.log(`👤 ライダー${index + 1}: ID=${rider.id}, username=${rider.username}`);
+    // まず実データのマーカーを作成
+    ridersLocations.forEach((rider, index) => {
+      console.log(`👤 実データライダー${index + 1}: ID=${rider.id}, username=${rider.username}`);
       
       // 自分のマーカーをスキップするかどうかの判定
       const isCurrentUser = rider.id === currentUserId || rider.id === 'current_user';
@@ -1660,8 +1595,82 @@ declare global {
       });
 
       otherRidersMarkersRef.current.push(marker);
-      console.log(`   ✅ マーカー作成完了: ${rider.username} at (${rider.position.lat()}, ${rider.position.lng()})`);
+      console.log(`   ✅ 実データマーカー作成完了: ${rider.username} at (${rider.position.lat()}, ${rider.position.lng()})`);
     });
+
+    // テスト用ライダーは実データが0件の場合のみ追加
+    const isDevelopment = process.env.NODE_ENV === 'development';
+    if (isDevelopment && ridersLocations.length === 0) {
+      const currentPos = currentLocationRef.current;
+      if (currentPos) {
+        console.log(`🧪 実データなし - テスト用ライダーを表示`);
+        
+        const testRiders = [
+          {
+            id: 'test_rider_1',
+            position: new window.google.maps.LatLng(
+              currentPos.lat() + 0.001, 
+              currentPos.lng() + 0.001
+            ),
+            username: 'テストライダー1'
+          },
+          {
+            id: 'test_rider_2', 
+            position: new window.google.maps.LatLng(
+              currentPos.lat() - 0.001,
+              currentPos.lng() + 0.0005
+            ),
+            username: 'テストライダー2'
+          }
+        ];
+
+        testRiders.forEach((testRider, index) => {
+          const colors = ['#FF6B6B', '#4ECDC4'];
+          const riderColor = colors[index % colors.length];
+
+          const createBlinkingIcon = (color: string) => ({
+            url: `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(`
+              <svg width="40" height="40" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="20" cy="20" r="15" fill="${color}" stroke="white" stroke-width="3" opacity="0.8">
+                  <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
+                  <animate attributeName="r" values="12;18;12" dur="2s" repeatCount="indefinite"/>
+                </circle>
+                <text x="20" y="25" text-anchor="middle" font-family="Arial" font-size="14" fill="white">🚌</text>
+              </svg>
+            `)}`,
+            scaledSize: new window.google.maps.Size(40, 40),
+            anchor: new window.google.maps.Point(20, 20)
+          });
+
+          const testMarker = new window.google.maps.Marker({
+            position: testRider.position,
+            map: mapInstance.current,
+            title: `🧪 ${testRider.username} (テスト用)`,
+            icon: createBlinkingIcon(riderColor),
+            zIndex: 500 + index
+          });
+
+          const testInfoWindow = new window.google.maps.InfoWindow({
+            content: `
+              <div style="padding: 10px; min-width: 150px;">
+                <h4 style="margin: 0 0 8px 0; color: #666;">🧪 テストライダー</h4>
+                <p style="margin: 4px 0;"><strong>ユーザー:</strong> ${testRider.username}</p>
+                <p style="margin: 4px 0; font-size: 12px; color: #999;">開発環境用デモデータ</p>
+              </div>
+            `
+          });
+
+          testMarker.addListener('click', () => {
+            testInfoWindow.open(mapInstance.current, testMarker);
+          });
+
+          otherRidersMarkersRef.current.push(testMarker);
+          console.log(`   🧪 テストマーカー作成完了: ${testRider.username}`);
+        });
+      }
+    } else if (ridersLocations.length > 0) {
+      console.log(`📡 実データ優先 - テストライダーは非表示 (実データ: ${ridersLocations.length}件)`);
+    }
 
     console.log(`🗺️ マーカー更新完了: ${otherRidersMarkersRef.current.length}個のマーカーを表示`);
   };
@@ -1710,17 +1719,6 @@ declare global {
           updateEstimatedArrivalTimes(delay, stop.seq);
           
           console.log(`バス停通過: ${stop.stop_name} (${delay > 0 ? `+${delay}分遅れ` : delay < 0 ? `${Math.abs(delay)}分早く` : '定刻'}) - データベースに保存済み`);
-          
-          // ブラウザ通知（権限がある場合）
-          if (Notification.permission === 'granted') {
-            new Notification('🚏 バス停通過', {
-              body: `${stop.stop_name}を通過しました ${delay > 0 ? `(+${delay}分遅れ)` : delay < 0 ? `(${Math.abs(delay)}分早く)` : '(定刻)'}`,
-              icon: '/bus-icon.png'
-            });
-          }
-          
-          // アプリ内通知表示
-          showPassageNotification(stop.stop_name, delay);
         }
       }
     });
@@ -2628,36 +2626,6 @@ declare global {
               <li className={styles.dropdownItem}>🏆 ランキング</li>
               <li className={styles.dropdownItem}>⚙ 設定</li>
             </ul>
-          </div>
-        )}
-
-        {/* バス停通過通知エリア */}
-        {passageNotifications.length > 0 && (
-          <div style={{
-            position: 'fixed',
-            top: '70px',
-            right: '20px',
-            zIndex: 2000,
-            maxWidth: '300px'
-          }}>
-            {passageNotifications.map(notification => (
-              <div
-                key={notification.id}
-                style={{
-                  backgroundColor: '#4CAF50',
-                  color: 'white',
-                  padding: '12px 16px',
-                  borderRadius: '8px',
-                  marginBottom: '8px',
-                  boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
-                  fontSize: '14px',
-                  fontWeight: '500',
-                  animation: 'slideInRight 0.3s ease-out'
-                }}
-              >
-                {notification.message}
-              </div>
-            ))}
           </div>
         )}
 
