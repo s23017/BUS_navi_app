@@ -237,6 +237,18 @@ declare global {
         );
         
         setBusPassedStops(uniquePassages);
+        
+        // 新しい通過情報があれば通知表示（自分以外のユーザー）
+        const currentUserId = currentUser?.uid;
+        const newPassages = uniquePassages.filter(passage => {
+          const existingPassage = busPassedStops.find(existing => existing.stopId === passage.stopId);
+          return !existingPassage && passage.username && currentUserId !== passage.username;
+        });
+        
+        newPassages.forEach(passage => {
+          showPassageNotification(`${passage.username}が${passage.stopName}を通過`, passage.delay || 0);
+        });
+        
         console.log('バス停通過情報更新:', uniquePassages.length, '件');
       }, (error: any) => {
         console.error('バス停通過情報の取得に失敗:', error);
@@ -600,6 +612,24 @@ declare global {
   const [loadingRoute, setLoadingRoute] = useState(false);
   const [showStopCandidates, setShowStopCandidates] = useState(false);
   const [showBusRoutes, setShowBusRoutes] = useState(false);
+  const [passageNotifications, setPassageNotifications] = useState<Array<{id: string, message: string, timestamp: number}>>([]);
+
+  // バス停通過通知を表示
+  const showPassageNotification = (stopName: string, delay: number) => {
+    const delayText = delay > 0 ? `+${delay}分遅れ` : delay < 0 ? `${Math.abs(delay)}分早く` : '定刻';
+    const notification = {
+      id: `${Date.now()}_${Math.random()}`,
+      message: `🚏 ${stopName}を通過 (${delayText})`,
+      timestamp: Date.now()
+    };
+    
+    setPassageNotifications(prev => [...prev, notification]);
+    
+    // 5秒後に自動で削除
+    setTimeout(() => {
+      setPassageNotifications(prev => prev.filter(n => n.id !== notification.id));
+    }, 5000);
+  };
 
   function getDistance(lat1: number, lon1: number, lat2: number, lon2: number) {
     const R = 6371000;
@@ -1133,6 +1163,16 @@ declare global {
           
           if (!isRecent) {
             console.log(`⏰ ユーザー ${location.username} (${location.id}) がタイムアウト: ${timeDiff}秒前の更新 (制限: 120秒)`);
+            
+            // タイムアウトしたドキュメントを非同期で削除
+            const timeoutDoc = querySnapshot.docs.find(doc => doc.data().userId === location.id);
+            if (timeoutDoc) {
+              deleteDoc(timeoutDoc.ref).then(() => {
+                console.log(`🗑️ タイムアウトデータ削除完了: ${location.username} (${timeoutDoc.id})`);
+              }).catch((error) => {
+                console.warn(`⚠️ タイムアウトデータ削除失敗: ${location.username}`, error);
+              });
+            }
           }
           
           return isRecent;
@@ -1478,6 +1518,41 @@ declare global {
     
     console.log(`🗺️ マーカー更新開始 - 対象: ${ridersLocations.length}件のライダー`);
 
+    // テスト用：開発環境では仮想ライダーを追加
+    const isDevelopment = process.env.NODE_ENV === 'development';
+    let allRiders = [...ridersLocations];
+    
+    if (isDevelopment && ridersLocations.length <= 1) {
+      // 現在地から少しずらした位置に仮想ライダーを配置（テスト用）
+      const currentPos = currentLocationRef.current;
+      if (currentPos) {
+        const testRiders = [
+          {
+            id: 'test_rider_1',
+            position: new window.google.maps.LatLng(
+              currentPos.lat() + 0.001, 
+              currentPos.lng() + 0.001
+            ),
+            timestamp: new Date(),
+            username: 'テストライダー1',
+            email: 'test1@example.com'
+          },
+          {
+            id: 'test_rider_2', 
+            position: new window.google.maps.LatLng(
+              currentPos.lat() - 0.001,
+              currentPos.lng() + 0.0005
+            ),
+            timestamp: new Date(),
+            username: 'テストライダー2', 
+            email: 'test2@example.com'
+          }
+        ];
+        allRiders = [...ridersLocations, ...testRiders];
+        console.log(`🧪 テスト用仮想ライダーを追加: ${testRiders.length}件 (開発環境)`);
+      }
+    }
+
     // 既存の他のライダーマーカーをクリア
     otherRidersMarkersRef.current.forEach(marker => marker.setMap(null));
     otherRidersMarkersRef.current = [];
@@ -1487,7 +1562,7 @@ declare global {
     console.log('🆔 現在のユーザーID:', currentUserId);
 
     // 新しいマーカーを作成
-    ridersLocations.forEach((rider, index) => {
+    allRiders.forEach((rider, index) => {
       console.log(`👤 ライダー${index + 1}: ID=${rider.id}, username=${rider.username}`);
       
       // 自分のマーカーをスキップするかどうかの判定
@@ -1635,6 +1710,17 @@ declare global {
           updateEstimatedArrivalTimes(delay, stop.seq);
           
           console.log(`バス停通過: ${stop.stop_name} (${delay > 0 ? `+${delay}分遅れ` : delay < 0 ? `${Math.abs(delay)}分早く` : '定刻'}) - データベースに保存済み`);
+          
+          // ブラウザ通知（権限がある場合）
+          if (Notification.permission === 'granted') {
+            new Notification('🚏 バス停通過', {
+              body: `${stop.stop_name}を通過しました ${delay > 0 ? `(+${delay}分遅れ)` : delay < 0 ? `(${Math.abs(delay)}分早く)` : '(定刻)'}`,
+              icon: '/bus-icon.png'
+            });
+          }
+          
+          // アプリ内通知表示
+          showPassageNotification(stop.stop_name, delay);
         }
       }
     });
@@ -2545,6 +2631,36 @@ declare global {
           </div>
         )}
 
+        {/* バス停通過通知エリア */}
+        {passageNotifications.length > 0 && (
+          <div style={{
+            position: 'fixed',
+            top: '70px',
+            right: '20px',
+            zIndex: 2000,
+            maxWidth: '300px'
+          }}>
+            {passageNotifications.map(notification => (
+              <div
+                key={notification.id}
+                style={{
+                  backgroundColor: '#4CAF50',
+                  color: 'white',
+                  padding: '12px 16px',
+                  borderRadius: '8px',
+                  marginBottom: '8px',
+                  boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+                  fontSize: '14px',
+                  fontWeight: '500',
+                  animation: 'slideInRight 0.3s ease-out'
+                }}
+              >
+                {notification.message}
+              </div>
+            ))}
+          </div>
+        )}
+
         {/* 検索バー */}
         <div className={styles.searchBar}>
           <input
@@ -3104,28 +3220,37 @@ declare global {
                       {ridersLocations.length > 0 && (
                         <div style={{ marginBottom: '4px' }}>
                           <div style={{ fontSize: '10px', color: '#666', marginBottom: '2px' }}>
-                            {isLocationSharing ? '乗車中のユーザー:' : '位置情報を共有中のライダー:'}
+                            {isLocationSharing ? `🚌 乗車中ライダー (${ridersLocations.length}名):` : `👥 位置情報共有中 (${ridersLocations.length}名):`}
                           </div>
                           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px' }}>
-                            {ridersLocations
-                              .filter((rider, index, self) => 
-                                index === self.findIndex(r => r.id === rider.id)
-                              )
-                              .map((rider, index) => (
-                              <span 
-                                key={`${rider.id}_${index}`} 
-                                style={{ 
-                                  fontSize: '9px', 
-                                  backgroundColor: '#d4edda', 
-                                  color: '#155724',
-                                  padding: '2px 6px', 
-                                  borderRadius: '10px',
-                                  border: '1px solid #c3e6cb'
-                                }}
-                              >
-                                👤 {rider.username}
+                            {ridersLocations.length === 0 ? (
+                              <span style={{ fontSize: '9px', color: '#999', fontStyle: 'italic' }}>
+                                現在乗車中のライダーはいません
                               </span>
-                            ))}
+                            ) : (
+                              ridersLocations
+                                .filter((rider, index, self) => 
+                                  index === self.findIndex(r => r.id === rider.id)
+                                )
+                                .map((rider, index) => {
+                                  const isCurrentUser = rider.id === currentUser?.uid;
+                                  return (
+                                    <span 
+                                      key={`${rider.id}_${index}`} 
+                                      style={{ 
+                                        fontSize: '9px', 
+                                        backgroundColor: isCurrentUser ? '#007BFF' : '#d4edda',
+                                        color: isCurrentUser ? 'white' : '#155724',
+                                        border: isCurrentUser ? '1px solid #0056b3' : '1px solid #c3e6cb',
+                                        borderRadius: '4px',
+                                        padding: '1px 4px'
+                                      }}
+                                    >
+                                      {isCurrentUser ? '👤' : '🚌'} {rider.username}
+                                    </span>
+                                  );
+                                })
+                            )}
                           </div>
                         </div>
                       )}
