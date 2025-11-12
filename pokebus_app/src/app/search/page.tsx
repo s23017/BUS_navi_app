@@ -1252,8 +1252,16 @@ export default function BusSearch() {
     unsubscribeStopPassageListener.current = stopPassageUnsubscribe;
 
     // 最初の位置情報を取得
-    const updateLocation = () => {
+    const updateLocation = (skipStateCheck = false) => {
       console.log('🔄 updateLocation開始 - GPS位置取得中...');
+      console.log('📊 位置更新時の状態: isLocationSharing=', isLocationSharing, 'currentUser=', currentUser?.uid, 'tripId=', tripId);
+      
+      // 位置情報共有が停止されている場合はスキップ（初回実行は除く）
+      if (!skipStateCheck && !isLocationSharing) {
+        console.warn('⚠️ 位置情報共有が停止されているため、updateLocationをスキップ');
+        return;
+      }
+      
       navigator.geolocation.getCurrentPosition(
         async (position) => {
           const { latitude, longitude } = position.coords;
@@ -1282,6 +1290,12 @@ export default function BusSearch() {
             console.log('💾 Firestoreに位置情報送信中...');
             await shareLocationToFirestore(tripId, currentPos);
             console.log('✅ Firestore送信成功');
+            
+            // 位置情報共有状態を維持
+            if (!isLocationSharing) {
+              console.log('🔄 位置情報共有状態を復旧');
+              setIsLocationSharing(true);
+            }
           } catch (error) {
             console.error('❌ Firestore送信失敗:', error);
             return;
@@ -1335,24 +1349,48 @@ export default function BusSearch() {
         
         console.log('✅ 初回位置チェック通過 - 位置情報共有を開始');
         
-        // 最初の位置情報を即座に取得
-        console.log('🚀 初回updateLocation実行');
-        updateLocation();
+        // 位置情報共有を有効化
+        setIsLocationSharing(true);
+        
+        // 状態更新後に実行されるよう少し遅延
+        setTimeout(() => {
+          console.log('🚀 初回updateLocation実行（状態更新後）');
+          updateLocation(true); // 初回は状態チェックをスキップ
+        }, 100);
 
         // 1分間隔で位置情報を更新
         console.log('⏰ 1分間隔タイマー開始');
         const timer = setInterval(() => {
           console.log('⏰ 定期更新タイマー発火 - updateLocation実行');
+          console.log('📊 タイマー状態: isLocationSharing=', isLocationSharing, 'currentUser=', currentUser?.uid);
+          
+          // 位置情報共有が継続中かチェック
+          if (!isLocationSharing) {
+            console.warn('⚠️ 位置情報共有が停止されています - タイマークリア');
+            clearInterval(timer);
+            return;
+          }
+          
           updateLocation();
         }, 60000); // 60秒 = 1分
         locationTimerRef.current = timer;
         
         // 30秒間隔でハートビート（生存確認）を送信
         const heartbeatTimer = setInterval(() => {
+          console.log('💓 ハートビートタイマー発火');
+          
           if (currentUser?.uid) {
+            // 位置情報共有が継続中かチェック
+            if (!isLocationSharing) {
+              console.warn('⚠️ 位置情報共有停止 - ハートビートタイマークリア');
+              clearInterval(heartbeatTimer);
+              return;
+            }
+            
             // バックグラウンド実行中かどうかをチェック
             const isBackground = document.hidden;
             const statusText = isBackground ? 'バックグラウンド' : 'フォアグラウンド';
+            console.log(`💓 ハートビート送信 (${statusText})`);
             
             // 自分の位置情報のlastActiveを更新
             const updateHeartbeat = async () => {
@@ -2602,6 +2640,11 @@ export default function BusSearch() {
   useEffect(() => {
     console.log('🏃‍♂️ ridersLocations changed:', ridersLocations.length, ridersLocations);
   }, [ridersLocations]);
+
+  // isLocationSharing状態の変化を監視
+  useEffect(() => {
+    console.log('📡 isLocationSharing changed:', isLocationSharing);
+  }, [isLocationSharing]);
 
   // ridersLocationsの変更を監視してマーカーを更新
   useEffect(() => {
