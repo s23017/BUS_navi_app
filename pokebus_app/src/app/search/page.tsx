@@ -12,7 +12,9 @@ declare global {
   interface Window {
     google: typeof google;
   }
-}export default function BusSearch() {
+}
+
+export default function BusSearch() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [mapLoaded, setMapLoaded] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
@@ -56,7 +58,8 @@ declare global {
     passTime: Date, 
     scheduledTime?: string, 
     delay: number,
-    username?: string
+    username?: string,
+    userId?: string
   }>>([]);
   const [estimatedArrivalTimes, setEstimatedArrivalTimes] = useState<Record<string, string>>({});
   const [isLocationSharing, setIsLocationSharing] = useState<boolean>(false);
@@ -87,10 +90,13 @@ declare global {
   const isUserOnBusRoute = (userPosition: google.maps.LatLng, tripId: string): boolean => {
     if (routeStops.length === 0) return false;
     
-    // バス停から500m以内にいるかチェック
-    const proximityToRoute = 500; // メートル
+    // バス停から500m以内にいるかチェック（バス停付近）
+    const stopProximity = 500; // メートル
+    // バスルート線上から離れすぎていないかチェック（バス停間移動用）
+    const routeProximity = 1000; // メートル（より緩い制限）
     
-    const isNearRoute = routeStops.some(stop => {
+    // 1. バス停から500m以内にいる場合は有効
+    const isNearBusStop = routeStops.some(stop => {
       const stopLat = parseFloat(stop.stop_lat);
       const stopLon = parseFloat(stop.stop_lon);
       
@@ -101,41 +107,36 @@ declare global {
         stopLat, stopLon
       );
       
-      return distance <= proximityToRoute;
+      return distance <= stopProximity;
     });
     
-    return isNearRoute;
+    if (isNearBusStop) {
+      return true;
+    }
+    
+    // 2. バス停から離れている場合、バスルート線から1000m以内なら有効
+    // （バス停間を移動中のバスの場合）
+    const isNearRouteCorridoor = routeStops.some(stop => {
+      const stopLat = parseFloat(stop.stop_lat);
+      const stopLon = parseFloat(stop.stop_lon);
+      
+      if (isNaN(stopLat) || isNaN(stopLon)) return false;
+      
+      const distance = getDistance(
+        userPosition.lat(), userPosition.lng(),
+        stopLat, stopLon
+      );
+      
+      return distance <= routeProximity;
+    });
+    
+    return isNearRouteCorridoor;
   };
 
   // 位置情報が有効かどうかを検証
   const validateLocationForSharing = (position: google.maps.LatLng, tripId: string): { valid: boolean; reason?: string } => {
-    // 1. バスルート上にいるかチェック
-    if (!isUserOnBusRoute(position, tripId)) {
-      return {
-        valid: false,
-        reason: 'バスルートから離れすぎています（500m圏外）'
-      };
-    }
-    
-    // 2. 他の乗客との位置が近いかチェック（バスに乗っている場合、乗客同士は近い位置にいるはず）
-    if (ridersLocations.length > 1) {
-      const otherRiders = ridersLocations.filter(rider => rider.id !== `current_user`);
-      const isCloseToOtherRiders = otherRiders.some(rider => {
-        const distance = getDistance(
-          position.lat(), position.lng(),
-          rider.position.lat(), rider.position.lng()
-        );
-        return distance <= 200; // 200m以内に他の乗客がいる
-      });
-      
-      if (otherRiders.length > 0 && !isCloseToOtherRiders) {
-        return {
-          valid: false,
-          reason: '他の乗客から離れすぎています'
-        };
-      }
-    }
-    
+    // 位置情報共有中は距離制限なしで常に有効
+    console.log('📍 位置情報バリデーション: 共有中のため常に有効');
     return { valid: true };
   };
 
@@ -222,7 +223,8 @@ declare global {
             passTime: data.passTime.toDate(),
             delay: data.delay,
             scheduledTime: data.scheduledTime || undefined,
-            username: data.username || 'ゲスト'
+            username: data.username || 'ゲスト',
+            userId: data.userId
           };
         });
         
@@ -237,10 +239,27 @@ declare global {
           index === self.findIndex(p => p.stopId === passage.stopId)
         );
         
+        // 新しい通過情報があるかチェック（他のユーザーによるもの）
+        const currentUserId = currentUser?.uid;
+        const newPassages = uniquePassages.filter(passage => {
+          const isFromOtherUser = passage.userId !== currentUserId;
+          const isNewPassage = !busPassedStops.some(existing => 
+            existing.stopId === passage.stopId && existing.userId === passage.userId
+          );
+          return isFromOtherUser && isNewPassage;
+        });
+
+        // 新しい通過情報があれば通知
+        newPassages.forEach(passage => {
+          console.log(`🔔 他のライダーによるバス停通過: ${passage.stopName} by ${passage.username}`);
+          showBusStopNotificationFromOtherUser(passage);
+        });
+        
         setBusPassedStops(uniquePassages);
-        console.log('バス停通過情報更新:', uniquePassages.length, '件');
+        console.log('🚏 バス停通過情報更新:', uniquePassages.length, '件（新着:', newPassages.length, '件）');
+        
       }, (error: any) => {
-        console.error('バス停通過情報の取得に失敗:', error);
+        console.error('❌ バス停通過情報の取得に失敗:', error);
         if (error?.code === 'failed-precondition') {
           console.warn('Firestore インデックスが必要です。自動作成されるまでお待ちください。');
         }
@@ -248,9 +267,24 @@ declare global {
       
       return unsubscribe;
     } catch (error: any) {
-      console.error('バス停通過情報の取得に失敗:', error);
+      console.error('❌ バス停通過情報の取得に失敗:', error);
       return null;
     }
+  };
+
+  // 他のユーザーのバス停通過通知を表示
+  const showBusStopNotificationFromOtherUser = (passedStop: any) => {
+    if ('Notification' in window && Notification.permission === 'granted') {
+      new Notification(`🚌 同じバスのライダーがバス停を通過`, {
+        body: `${passedStop.stopName} - ${passedStop.delay > 0 ? `${passedStop.delay}分遅れ` : passedStop.delay < 0 ? `${Math.abs(passedStop.delay)}分早く` : '定刻'} (by ${passedStop.username})`,
+        icon: '/bus-icon.png',
+        tag: `other-user-bus-stop-${passedStop.stopId}`,
+        requireInteraction: false
+      });
+    }
+    
+    // アプリ内通知も表示（画面上部にトースト表示）
+    console.log(`📢 アプリ内通知: ${passedStop.stopName}を通過 by ${passedStop.username}`);
   };
 
   const initializeMap = () => {
@@ -1715,21 +1749,75 @@ declare global {
             passTime: currentTime,
             scheduledTime: scheduledTime || undefined,
             delay: delay,
-            username: getUserDisplayName(currentUser)
+            username: getUserDisplayName(currentUser),
+            userId: currentUser?.uid || 'anonymous'
           };
           
           setBusPassedStops(prev => [...prev, passedStop]);
           
-          // Firestoreに通過情報を保存
-          saveBusStopPassage(tripId, passedStop);
+          // Firestoreに通過情報を保存（他のユーザーにも通知）
+          saveBusStopPassageToFirestore(tripId, passedStop);
+          
+          // ブラウザ通知を表示（許可されている場合）
+          showBusStopNotification(passedStop);
           
           // 残りの停留所の到着予定時刻を再計算
           updateEstimatedArrivalTimes(delay, stop.seq);
           
-          console.log(`バス停通過: ${stop.stop_name} (${delay > 0 ? `+${delay}分遅れ` : delay < 0 ? `${Math.abs(delay)}分早く` : '定刻'}) - データベースに保存済み`);
+          console.log(`🚏 バス停通過: ${stop.stop_name} (${delay > 0 ? `+${delay}分遅れ` : delay < 0 ? `${Math.abs(delay)}分早く` : '定刻'}) - 通知送信済み`);
         }
       }
     });
+  };
+
+  // バス停通過をFirestoreに保存（他のユーザーにリアルタイム通知）
+  const saveBusStopPassageToFirestore = async (tripId: string, passedStop: any) => {
+    try {
+      const passageData = {
+        tripId,
+        stopId: passedStop.stopId,
+        stopName: passedStop.stopName,
+        passTime: Timestamp.now(),
+        scheduledTime: passedStop.scheduledTime,
+        delay: passedStop.delay,
+        username: passedStop.username,
+        userId: currentUser?.uid || 'anonymous',
+        timestamp: Timestamp.now()
+      };
+
+      console.log('📤 バス停通過情報をFirestoreに保存:', passageData);
+      
+      await addDoc(collection(db, 'busStopPassages'), passageData);
+      console.log('✅ バス停通過情報保存成功');
+      
+    } catch (error) {
+      console.error('❌ バス停通過情報保存失敗:', error);
+    }
+  };
+
+  // ブラウザ通知を表示
+  const showBusStopNotification = (passedStop: any) => {
+    // 通知権限をチェック
+    if ('Notification' in window) {
+      if (Notification.permission === 'granted') {
+        new Notification(`🚏 バス停通過: ${passedStop.stopName}`, {
+          body: `${passedStop.delay > 0 ? `${passedStop.delay}分遅れ` : passedStop.delay < 0 ? `${Math.abs(passedStop.delay)}分早く` : '定刻'} by ${passedStop.username}`,
+          icon: '/bus-icon.png',
+          tag: `bus-stop-${passedStop.stopId}`,
+          requireInteraction: false
+        });
+      } else if (Notification.permission === 'default') {
+        // 通知許可を求める
+        Notification.requestPermission().then(permission => {
+          if (permission === 'granted') {
+            new Notification(`🚏 バス停通過: ${passedStop.stopName}`, {
+              body: `${passedStop.delay > 0 ? `${passedStop.delay}分遅れ` : passedStop.delay < 0 ? `${Math.abs(passedStop.delay)}分早く` : '定刻'} by ${passedStop.username}`,
+              icon: '/bus-icon.png'
+            });
+          }
+        });
+      }
+    }
   };
 
   // 遅延時間を計算
@@ -3191,12 +3279,12 @@ declare global {
                       </div>
                       <div style={{ fontSize: '11px', color: '#666', marginBottom: '4px' }}>
                         {isLocationSharing 
-                          ? '同じバスを選択したユーザー同士で位置情報が共有されています（1分間隔更新）' 
+                          ? '🚌 同じバスを選択したユーザー同士で位置情報を常時共有中（バス停通過時に通知）' 
                           : '同じバスの他のライダーの位置情報を見ています'
                         }
                         <br />
                         {isLocationSharing 
-                          ? '⚠️ バス停から500m圏内の位置情報のみ有効' 
+                          ? '📍 位置情報を常時共有中（バス停通過時に自動通知）' 
                           : '💡 「乗車中」ボタンを押すとあなたの位置も共有されます'
                         }
                       </div>
@@ -3204,8 +3292,27 @@ declare global {
                       {/* 乗車中のユーザー一覧 */}
                       {ridersLocations.length > 0 && (
                         <div style={{ marginBottom: '4px' }}>
-                          <div style={{ fontSize: '10px', color: '#666', marginBottom: '2px' }}>
-                            {isLocationSharing ? `🚌 乗車中ライダー (${ridersLocations.length}名):` : `👥 位置情報共有中 (${ridersLocations.length}名):`}
+                          <div style={{ fontSize: '10px', color: '#666', marginBottom: '2px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                            <span>{isLocationSharing ? `🚌 乗車中ライダー (${ridersLocations.length}名):` : `👥 位置情報共有中 (${ridersLocations.length}名):`}</span>
+                            {process.env.NODE_ENV === 'development' && (
+                              <button 
+                                onClick={() => {
+                                  console.log('🔧 手動マーカー更新実行');
+                                  updateOtherRidersMarkers();
+                                }}
+                                style={{ 
+                                  fontSize: '8px', 
+                                  padding: '2px 4px', 
+                                  backgroundColor: '#f0f0f0',
+                                  border: '1px solid #ccc',
+                                  borderRadius: '3px',
+                                  cursor: 'pointer'
+                                }}
+                                title="開発用: マーカーを手動更新"
+                              >
+                                🔄
+                              </button>
+                            )}
                           </div>
                           <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px' }}>
                             {ridersLocations.length === 0 ? (
