@@ -1161,10 +1161,7 @@ declare global {
         });
         
         setRidersLocations(uniqueLocations);
-        console.log('🗺️ ridersLocations状態更新完了 - マーカー更新をトリガー');
-        
-        // 地図上のマーカーを更新
-        updateOtherRidersMarkers();
+        console.log('🗺️ ridersLocations状態更新完了 - useEffectでマーカー更新がトリガーされます');
       }, (error: any) => {
         console.error('他のライダー位置情報の取得に失敗:', error);
         if (error?.code === 'permission-denied') {
@@ -2495,9 +2492,18 @@ declare global {
     console.log('loadingRoute changed:', loadingRoute);
   }, [loadingRoute]);
 
+  useEffect(() => {
+    console.log('🏃‍♂️ ridersLocations changed:', ridersLocations.length, ridersLocations);
+  }, [ridersLocations]);
+
   // ridersLocationsの変更を監視してマーカーを更新
   useEffect(() => {
-    updateOtherRidersMarkers();
+    if (mapLoaded && mapInstance.current) {
+      console.log(`🔄 useEffect triggered - ridersLocations変更検知: ${ridersLocations.length}件`);
+      updateOtherRidersMarkers();
+    } else {
+      console.log('⏳ マップ未準備 - マーカー更新をスキップ');
+    }
   }, [ridersLocations]);
 
   // コンポーネントのクリーンアップ
