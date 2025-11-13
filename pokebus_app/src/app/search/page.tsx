@@ -67,6 +67,7 @@ export default function BusSearch() {
   // Bottom sheet touch handling state
   const sheetTouchStartY = useRef<number | null>(null);
   const [sheetTranslateY, setSheetTranslateY] = useState<number>(0);
+  const sheetTranslateYRef = useRef<number>(0);
   const sheetDraggingRef = useRef(false);
   const [isSheetMinimized, setIsSheetMinimized] = useState<boolean>(false);
 
@@ -3411,6 +3412,8 @@ export default function BusSearch() {
               if (e.touches && e.touches.length > 0) {
                 sheetTouchStartY.current = e.touches[0].clientY;
                 sheetDraggingRef.current = true;
+                sheetTranslateYRef.current = 0;
+                setSheetTranslateY(0);
               }
             }}
             onTouchMove={(e) => {
@@ -3418,15 +3421,18 @@ export default function BusSearch() {
               try { e.preventDefault(); } catch (err) {}
               if (!sheetDraggingRef.current || !sheetTouchStartY.current) return;
               const curY = e.touches[0].clientY;
-              const delta = Math.max(0, curY - sheetTouchStartY.current);
-              // limit translate to viewport height
-              const max = window.innerHeight * 0.9;
-              setSheetTranslateY(Math.min(delta, max));
+              const rawDelta = curY - sheetTouchStartY.current;
+              const maxDown = window.innerHeight * 0.9;
+              const maxUp = 140;
+              const clampedDelta = isSheetMinimized
+                ? Math.max(-maxUp, Math.min(rawDelta, maxDown))
+                : Math.max(0, Math.min(rawDelta, maxDown));
+              sheetTranslateYRef.current = clampedDelta;
+              setSheetTranslateY(clampedDelta);
             }}
             onTouchEnd={() => {
               sheetDraggingRef.current = false;
-              const delta = sheetTranslateY;
-              // If user swiped down sufficiently, minimize or close the sheet
+              const delta = sheetTranslateYRef.current;
               if (delta > 120) {
                 if (isSheetMinimized) {
                   setSelectedTripId(null);
@@ -3437,8 +3443,11 @@ export default function BusSearch() {
                 } else {
                   setIsSheetMinimized(true);
                 }
+              } else if (delta < -80 && isSheetMinimized) {
+                setIsSheetMinimized(false);
               }
               // animate back
+              sheetTranslateYRef.current = 0;
               setSheetTranslateY(0);
               sheetTouchStartY.current = null;
             }}
@@ -3459,17 +3468,6 @@ export default function BusSearch() {
                 >
                   {isSheetMinimized ? '展開' : '最小化'}
                 </button>
-                <button className={styles.smallButton} onClick={() => { 
-                  setSelectedTripId(null); 
-                  setRouteStops([]); 
-                  setIsSheetMinimized(false);
-                  setSheetTranslateY(0);
-                  routeMarkersRef.current.forEach(m=>m.setMap(null)); 
-                  if (routePolylineRef.current) { 
-                    routePolylineRef.current.setMap(null); 
-                    routePolylineRef.current = null; 
-                  } 
-                }}>閉じる</button>
               </div>
             </div>
             
