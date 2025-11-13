@@ -14,6 +14,13 @@ declare global {
   }
 }
 
+const generateGuestUserId = () => {
+  if (typeof crypto !== 'undefined' && 'randomUUID' in crypto) {
+    return `guest_${crypto.randomUUID()}`;
+  }
+  return `guest_${Date.now()}_${Math.random().toString(36).slice(2, 11)}`;
+};
+
 export default function BusSearch() {
   const [menuOpen, setMenuOpen] = useState(false);
   const [mapLoaded, setMapLoaded] = useState(false);
@@ -34,6 +41,7 @@ export default function BusSearch() {
   const currentLocationMarkerRef = useRef<google.maps.Marker | null>(null);
   const busMarkerRef = useRef<google.maps.Marker | null>(null);
   const lastPositionTimestampRef = useRef<number>(0);
+  const sessionUserIdRef = useRef<string | null>(null);
   const routeMarkersRef = useRef<google.maps.Marker[]>([]);
   const otherRidersMarkersRef = useRef<google.maps.Marker[]>([]); // 他のライダーのマーカー管理用
   const ridersMarkersMapRef = useRef<Map<string, google.maps.Marker>>(new Map()); // ライダーID → マーカーのマップ
@@ -53,7 +61,8 @@ export default function BusSearch() {
     position: google.maps.LatLng, 
     timestamp: Date,
     username: string,
-    email?: string
+    email?: string,
+    lastActive?: Date
   }>>([]);
   const [busPassedStops, setBusPassedStops] = useState<Array<{
     stopId: string, 
@@ -75,6 +84,18 @@ export default function BusSearch() {
   const [isSheetMinimized, setIsSheetMinimized] = useState<boolean>(false);
   const [isMobileViewport, setIsMobileViewport] = useState<boolean>(true);
 
+  const getEffectiveUserId = () => currentUser?.uid || sessionUserIdRef.current;
+  const ensureSessionUserId = () => {
+    if (currentUser?.uid) {
+      sessionUserIdRef.current = currentUser.uid;
+      return currentUser.uid;
+    }
+    if (!sessionUserIdRef.current) {
+      sessionUserIdRef.current = generateGuestUserId();
+    }
+    return sessionUserIdRef.current;
+  };
+
   // Google Maps APIが読み込まれた後にマップを初期化
   // ユーザー認証状態の監視
   useEffect(() => {
@@ -83,6 +104,12 @@ export default function BusSearch() {
     });
     return () => unsubscribe();
   }, []);
+
+  useEffect(() => {
+    if (currentUser?.uid) {
+      sessionUserIdRef.current = currentUser.uid;
+    }
+  }, [currentUser]);
 
   useEffect(() => {
     if (typeof window === 'undefined') return;
@@ -159,13 +186,14 @@ export default function BusSearch() {
 
   // アプリ終了時にFirestoreから自分の位置情報を削除
   const removeUserLocationFromFirestore = async () => {
-    if (!currentUser?.uid) return;
+    const effectiveUserId = getEffectiveUserId();
+    if (!effectiveUserId) return;
     
     try {
       // 自分の位置情報ドキュメントを検索して削除
       const q = query(
         collection(db, 'busRiderLocations'),
-        where('userId', '==', currentUser.uid)
+        where('userId', '==', effectiveUserId)
       );
       
       const querySnapshot = await getDocs(q);
@@ -182,7 +210,7 @@ export default function BusSearch() {
         };
         const q = query(
           collection(db, 'busRiderLocations'),
-          where('userId', '==', currentUser.uid)
+          where('userId', '==', effectiveUserId)
         );
         const querySnapshot = await getDocs(q);
         const updatePromises = querySnapshot.docs.map(doc => 
@@ -203,7 +231,7 @@ export default function BusSearch() {
         tripId,
         stopId: stopData.stopId,
         stopName: stopData.stopName,
-        userId: currentUser?.uid || 'anonymous',
+        userId: getEffectiveUserId() || 'anonymous',
         username: getUserDisplayName(currentUser),
         passTime: Timestamp.now(),
         delay: stopData.delay,
@@ -1098,12 +1126,13 @@ export default function BusSearch() {
     
     try {
       // より一意なユーザーIDを生成
-      const userId = currentUser?.uid || `anonymous_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+      const userId = ensureSessionUserId();
+      const username = getUserDisplayName(currentUser);
       
       const locationData = {
         tripId,
         userId,
-        username: getUserDisplayName(currentUser),
+        username,
         email: currentUser?.email || null,
         latitude: position.lat(),
         longitude: position.lng(),
@@ -1149,6 +1178,20 @@ export default function BusSearch() {
       }
       
       console.log('✅ === shareLocationToFirestore完了 ===');
+      const newEntry = {
+        id: userId,
+        position,
+        timestamp: new Date(),
+        username,
+        email: currentUser?.email || undefined,
+        lastActive: new Date()
+      };
+      setRidersLocations(prev => {
+        const filtered = prev.filter(r => r.id !== userId);
+        const updated = [...filtered, newEntry];
+        updateBusLocation(tripId, updated);
+        return updated;
+      });
       
     } catch (error: any) {
       console.error('❌ === shareLocationToFirestore失敗 ===');
@@ -1162,7 +1205,7 @@ export default function BusSearch() {
       if (error?.code === 'permission-denied') {
         console.error('🚫 Firebase権限エラー - Firestoreルールを確認してください');
         // 権限エラーの場合はローカル状態のみ更新
-        const localUserId = currentUser?.uid || `local_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`;
+        const localUserId = ensureSessionUserId();
         const localRider = {
           id: localUserId,
           position: position,
@@ -1295,6 +1338,7 @@ export default function BusSearch() {
     console.log('対象トリップID:', tripId);
     console.log('現在ユーザー:', currentUser?.uid || 'Anonymous');
     console.log('ナビゲーター位置情報サポート:', !!navigator.geolocation);
+    ensureSessionUserId();
     
     if (!navigator.geolocation) {
       console.error('❌ このデバイスでは位置情報を取得できません');
@@ -1371,7 +1415,6 @@ export default function BusSearch() {
         return false;
       }
 
-      updateBusLocation(tripId);
       checkPassedStops(currentPos, tripId);
 
       console.log('🚌 位置情報更新・共有完了:', latitude, longitude);
@@ -1638,7 +1681,7 @@ export default function BusSearch() {
   };
 
   // バスの推定位置を更新
-  const updateBusLocation = (tripId: string) => {
+  const updateBusLocation = (tripId: string, overrideLocations?: typeof ridersLocations) => {
     if (!mapInstance.current || !window.google) return;
 
     if (routeMarkersRef.current.length > 0) {
@@ -1654,7 +1697,9 @@ export default function BusSearch() {
       routeMarkersRef.current = keptMarkers;
     }
 
-    if (ridersLocations.length === 0) {
+    const sourceLocations = overrideLocations ?? ridersLocations;
+
+    if (sourceLocations.length === 0) {
       if (busMarkerRef.current) {
         busMarkerRef.current.setMap(null);
         busMarkerRef.current = null;
@@ -1668,7 +1713,7 @@ export default function BusSearch() {
     let totalLng = 0;
     let count = 0;
     
-    ridersLocations.forEach(rider => {
+    sourceLocations.forEach(rider => {
       totalLat += rider.position.lat();
       totalLng += rider.position.lng();
       count++;
