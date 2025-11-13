@@ -32,6 +32,8 @@ export default function BusSearch() {
   const directionsRenderer = useRef<google.maps.DirectionsRenderer | null>(null);
   const currentLocationRef = useRef<google.maps.LatLng | null>(null);
   const currentLocationMarkerRef = useRef<google.maps.Marker | null>(null);
+  const busMarkerRef = useRef<google.maps.Marker | null>(null);
+  const lastPositionTimestampRef = useRef<number>(0);
   const routeMarkersRef = useRef<google.maps.Marker[]>([]);
   const otherRidersMarkersRef = useRef<google.maps.Marker[]>([]); // 他のライダーのマーカー管理用
   const ridersMarkersMapRef = useRef<Map<string, google.maps.Marker>>(new Map()); // ライダーID → マーカーのマップ
@@ -1358,6 +1360,7 @@ export default function BusSearch() {
         console.log('💾 Firestoreに位置情報送信中...');
         await shareLocationToFirestore(tripId, currentPos);
         console.log('✅ Firestore送信成功');
+        lastPositionTimestampRef.current = Date.now();
 
         if (!isLocationSharing) {
           console.log('🔄 位置情報共有状態を復旧');
@@ -1377,6 +1380,12 @@ export default function BusSearch() {
 
     const updateLocation = (skipStateCheck = false) => {
       console.log('🔄 updateLocation開始 - GPS位置取得中...');
+      const now = Date.now();
+      const minInterval = skipStateCheck ? 45000 : 0;
+      if (lastPositionTimestampRef.current && now - lastPositionTimestampRef.current < minInterval) {
+        console.log(`⏳ 直近${Math.round((now - lastPositionTimestampRef.current) / 1000)}秒以内に位置更新済みのためスキップ`);
+        return;
+      }
       navigator.geolocation.getCurrentPosition(
         (position) => {
           handlePositionUpdate(position, skipStateCheck)
@@ -1392,14 +1401,19 @@ export default function BusSearch() {
         (error) => {
           console.error('❌ 位置情報取得エラー:', error);
           console.error('エラーコード:', error.code, 'エラーメッセージ:', error.message);
+          const timeoutCode = (error as GeolocationPositionError).TIMEOUT ?? 3;
+          if (error.code === timeoutCode && currentLocationRef.current) {
+            console.warn('⏱️ タイムアウト - 最終取得位置を継続利用します');
+            lastPositionTimestampRef.current = Date.now();
+          }
           if (!skipStateCheck) {
             setIsLocationSharing(false);
           }
         },
         {
           enableHighAccuracy: true,
-          timeout: 15000,
-          maximumAge: 10000
+          timeout: 20000,
+          maximumAge: 15000
         }
       );
     };
@@ -1615,13 +1629,39 @@ export default function BusSearch() {
     // マーカーマップもクリア
     ridersMarkersMapRef.current.forEach(marker => marker.setMap(null));
     ridersMarkersMapRef.current.clear();
+    if (busMarkerRef.current) {
+      busMarkerRef.current.setMap(null);
+      busMarkerRef.current = null;
+    }
     
     console.log('位置情報共有停止（Firestoreからも削除）');
   };
 
   // バスの推定位置を更新
   const updateBusLocation = (tripId: string) => {
-    if (ridersLocations.length === 0) return;
+    if (!mapInstance.current || !window.google) return;
+
+    if (routeMarkersRef.current.length > 0) {
+      const keptMarkers: google.maps.Marker[] = [];
+      routeMarkersRef.current.forEach(marker => {
+        const title = marker.getTitle() || '';
+        if (title.includes('🚌 バス現在位置')) {
+          marker.setMap(null);
+        } else {
+          keptMarkers.push(marker);
+        }
+      });
+      routeMarkersRef.current = keptMarkers;
+    }
+
+    if (ridersLocations.length === 0) {
+      if (busMarkerRef.current) {
+        busMarkerRef.current.setMap(null);
+        busMarkerRef.current = null;
+      }
+      setBusLocation(null);
+      return;
+    }
     
     // 最新の位置情報から平均位置を計算（簡易的な実装）
     let totalLat = 0;
@@ -1640,18 +1680,10 @@ export default function BusSearch() {
       const busPos = new window.google.maps.LatLng(avgLat, avgLng);
       setBusLocation(busPos);
       
-      // 地図上にバスマーカーを表示
-      if (mapInstance.current) {
-        // 既存のバスマーカーを削除
-        const existingBusMarker = routeMarkersRef.current.find(marker => 
-          marker.getTitle()?.includes('🚌 バス現在位置'));
-        if (existingBusMarker) {
-          existingBusMarker.setMap(null);
-          routeMarkersRef.current = routeMarkersRef.current.filter(m => m !== existingBusMarker);
-        }
-        
-        // 新しいバスマーカーを追加
-        const busMarker = new window.google.maps.Marker({
+      if (busMarkerRef.current) {
+        busMarkerRef.current.setPosition(busPos);
+      } else {
+        busMarkerRef.current = new window.google.maps.Marker({
           position: busPos,
           map: mapInstance.current,
           title: '🚌 バス現在位置 (推定)',
@@ -1660,7 +1692,6 @@ export default function BusSearch() {
             scaledSize: new window.google.maps.Size(40, 40)
           }
         });
-        routeMarkersRef.current.push(busMarker);
       }
     }
   };
@@ -2783,6 +2814,10 @@ export default function BusSearch() {
     setRidingTripId(null);
     setIsSheetMinimized(false);
     setSheetTranslateY(0);
+    if (busMarkerRef.current) {
+      busMarkerRef.current.setMap(null);
+      busMarkerRef.current = null;
+    }
     
     // Google Directionsのルートをクリア
     if (directionsRenderer.current) {
@@ -2870,6 +2905,11 @@ export default function BusSearch() {
 
     console.log('🕒 現在地の定期更新を開始 (60秒間隔)');
     const intervalId = setInterval(() => {
+      const now = Date.now();
+      if (lastPositionTimestampRef.current && now - lastPositionTimestampRef.current < 45000) {
+        console.log('⏳ 直近45秒以内に現在地更新済みのため定期更新をスキップ');
+        return;
+      }
       navigator.geolocation.getCurrentPosition(
         (position) => {
           if (!window.google?.maps?.LatLng) return;
@@ -2886,15 +2926,21 @@ export default function BusSearch() {
               title: "現在地",
             });
           }
+          lastPositionTimestampRef.current = Date.now();
           console.log('✅ 定期現在地更新:', { latitude, longitude, timestamp: new Date().toISOString() });
         },
         (error) => {
           console.error('⚠️ 定期現在地更新に失敗:', error);
+          const timeoutCode = (error as GeolocationPositionError).TIMEOUT ?? 3;
+          if (error.code === timeoutCode && currentLocationRef.current) {
+            console.warn('⏱️ 定期更新タイムアウト - 最終取得位置を継続利用します');
+            lastPositionTimestampRef.current = Date.now();
+          }
         },
         {
           enableHighAccuracy: true,
-          timeout: 15000,
-          maximumAge: 5000,
+          timeout: 20000,
+          maximumAge: 15000,
         }
       );
     }, 60000);
@@ -2910,10 +2956,13 @@ export default function BusSearch() {
     if (mapLoaded && mapInstance.current) {
       console.log(`🔄 useEffect triggered - ridersLocations変更検知: ${ridersLocations.length}件`);
       updateOtherRidersMarkers();
+      if (selectedTripId) {
+        updateBusLocation(selectedTripId);
+      }
     } else {
       console.log('⏳ マップ未準備 - マーカー更新をスキップ');
     }
-  }, [ridersLocations]);
+  }, [ridersLocations, selectedTripId, mapLoaded]);
 
   // コンポーネントのクリーンアップ
   useEffect(() => {
