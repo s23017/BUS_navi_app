@@ -2111,7 +2111,7 @@ export default function BusSearch() {
   const checkPassedStops = (currentPos: google.maps.LatLng, tripId: string) => {
     if (routeStops.length === 0) return;
     
-    const proximityRadius = 150; // 150m以内で通過と判定
+    const proximityRadius = 50; // 50m以内で通過と判定
     
     routeStops.forEach(stop => {
       const stopLat = parseFloat(stop.stop_lat);
@@ -3729,18 +3729,29 @@ export default function BusSearch() {
             className={styles.routeDetailContainer}
             onTouchStart={(e) => {
               if (!isMobileViewport) return;
-              if (e.touches && e.touches.length > 0) {
-                sheetTouchStartY.current = e.touches[0].clientY;
-                sheetDraggingRef.current = true;
+              if (!e.touches || e.touches.length === 0) return;
+
+              const touchTarget = e.target as HTMLElement | null;
+              const isHandleTouch = !!touchTarget?.closest('[data-sheet-handle="true"]');
+              const shouldDrag = isHandleTouch || isSheetMinimized;
+
+              if (!shouldDrag) {
+                sheetDraggingRef.current = false;
+                sheetTouchStartY.current = null;
                 sheetTranslateYRef.current = 0;
-                setSheetTranslateY(0);
+                return;
               }
+
+              sheetTouchStartY.current = e.touches[0].clientY;
+              sheetDraggingRef.current = true;
+              sheetTranslateYRef.current = 0;
+              setSheetTranslateY(0);
             }}
             onTouchMove={(e) => {
               if (!isMobileViewport) return;
               // Prevent page scrolling while dragging the sheet
-              try { e.preventDefault(); } catch (err) {}
               if (!sheetDraggingRef.current || !sheetTouchStartY.current) return;
+              try { e.preventDefault(); } catch (err) {}
               const curY = e.touches[0].clientY;
               const rawDelta = curY - sheetTouchStartY.current;
               const maxDown = window.innerHeight * 0.9;
@@ -3753,6 +3764,7 @@ export default function BusSearch() {
             }}
             onTouchEnd={() => {
               if (!isMobileViewport) return;
+              if (!sheetDraggingRef.current) return;
               sheetDraggingRef.current = false;
               const delta = sheetTranslateYRef.current;
               if (delta > 120) {
@@ -3777,13 +3789,13 @@ export default function BusSearch() {
               transform: `translateY(${sheetTranslateY}px)`,
               maxHeight: isSheetMinimized ? '80px' : '50vh',
               transition: isSheetMinimized ? 'max-height 0.3s ease' : 'none',
-              touchAction: isMobileViewport ? 'none' : 'auto',
+              touchAction: isMobileViewport ? (isSheetMinimized ? 'none' : 'pan-y') : 'auto',
               userSelect: isMobileViewport ? 'none' : 'auto',
               WebkitUserSelect: isMobileViewport ? 'none' : 'auto',
-              overflowY: 'auto'
+              overflowY: isSheetMinimized ? 'hidden' : 'auto'
             }}
           >
-            <div className={styles.sheetHandle} />
+            <div className={styles.sheetHandle} data-sheet-handle="true" />
             <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '8px' }}>
               <div style={{ fontWeight: 700 }}>便情報</div>
               <div style={{ display: 'flex', gap: '8px' }}>
