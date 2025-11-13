@@ -14,6 +14,9 @@ declare global {
   }
 }
 
+
+const GEO_TIMEOUT_CODE = 3;
+const GEO_PERMISSION_DENIED_CODE = 1;
 const generateGuestUserId = () => {
   if (typeof crypto !== 'undefined' && 'randomUUID' in crypto) {
     return `guest_${crypto.randomUUID()}`;
@@ -129,6 +132,8 @@ export default function BusSearch() {
     if (user?.email) return user.email.split('@')[0];
     return 'ゲスト';
   };
+
+  const getActiveTripId = () => ridingTripId || selectedTripId;
 
   // バスルート上にいるかどうかをチェック
   const isUserOnBusRoute = (userPosition: google.maps.LatLng, tripId: string): boolean => {
@@ -1555,7 +1560,7 @@ export default function BusSearch() {
                   where('tripId', '==', tripId)
                 );
                 const querySnapshot = await getDocs(q);
-
+                console.log('💓 ハートビート送信成功');
                 if (querySnapshot.empty) {
                   console.warn('ハートビート対象のドキュメントが見つかりません - 位置情報が削除されている可能性');
                   return;
@@ -1856,17 +1861,8 @@ export default function BusSearch() {
             map: mapInstance.current,
             title: `🚌 ${rider.username} (あなた - 位置情報共有中)`,
             icon: {
-              url: `data:image/svg+xml;charset=UTF-8,${encodeURIComponent(`
-                <svg width="50" height="50" xmlns="http://www.w3.org/2000/svg">
-                  <circle cx="25" cy="25" r="20" fill="#007BFF" stroke="white" stroke-width="4" opacity="0.9">
-                    <animate attributeName="opacity" values="0.6;1;0.6" dur="1.5s" repeatCount="indefinite"/>
-                    <animate attributeName="r" values="16;24;16" dur="1.5s" repeatCount="indefinite"/>
-                  </circle>
-                  <text x="25" y="30" text-anchor="middle" font-family="Arial" font-size="16" fill="white">�</text>
-                </svg>
-              `)}`,
-              scaledSize: new window.google.maps.Size(50, 50),
-              anchor: new window.google.maps.Point(25, 25)
+              url: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+              scaledSize: new window.google.maps.Size(44, 44)
             },
             zIndex: 2000
           });
@@ -3001,13 +2997,14 @@ export default function BusSearch() {
     if (mapLoaded && mapInstance.current) {
       console.log(`🔄 useEffect triggered - ridersLocations変更検知: ${ridersLocations.length}件`);
       updateOtherRidersMarkers();
-      if (selectedTripId) {
-        updateBusLocation(selectedTripId);
+      const activeTripId = getActiveTripId();
+      if (activeTripId) {
+        updateBusLocation(activeTripId);
       }
     } else {
       console.log('⏳ マップ未準備 - マーカー更新をスキップ');
     }
-  }, [ridersLocations, selectedTripId, mapLoaded]);
+  }, [ridersLocations, selectedTripId, ridingTripId, mapLoaded]);
 
   // コンポーネントのクリーンアップ
   useEffect(() => {
