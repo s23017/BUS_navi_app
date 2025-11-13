@@ -452,6 +452,8 @@ export default function BusSearch() {
 
       setRouteStops(routeStopsFull);
       setSelectedTripId(tripId);
+      setIsSheetMinimized(false);
+      setSheetTranslateY(0);
 
       // fetch realtime delay info (mock/fallback)
       try {
@@ -2610,10 +2612,12 @@ export default function BusSearch() {
         showBusRoutes: true
       });
 
-  setRouteStops([]);
-  setRouteBuses(filteredBuses);
-      setSelectedTripId(null);
-      setShowStopCandidates(false);
+    setRouteStops([]);
+    setRouteBuses(filteredBuses);
+    setSelectedTripId(null);
+    setIsSheetMinimized(false);
+    setSheetTranslateY(0);
+    setShowStopCandidates(false);
       console.log('Opening bus routes modal');
       setShowBusRoutes(true);
       
@@ -2738,6 +2742,8 @@ export default function BusSearch() {
     setBusPassedStops([]);
     setEstimatedArrivalTimes({});
     setRidingTripId(null);
+    setIsSheetMinimized(false);
+    setSheetTranslateY(0);
     
     // Google Directionsのルートをクリア
     if (directionsRenderer.current) {
@@ -3420,12 +3426,17 @@ export default function BusSearch() {
             onTouchEnd={() => {
               sheetDraggingRef.current = false;
               const delta = sheetTranslateY;
-              // If user swiped down sufficiently, close the sheet
+              // If user swiped down sufficiently, minimize or close the sheet
               if (delta > 120) {
-                setSelectedTripId(null);
-                setRouteStops([]);
-                routeMarkersRef.current.forEach(m=>m.setMap(null));
-                if (routePolylineRef.current) { routePolylineRef.current.setMap(null); routePolylineRef.current = null; }
+                if (isSheetMinimized) {
+                  setSelectedTripId(null);
+                  setRouteStops([]);
+                  setIsSheetMinimized(false);
+                  routeMarkersRef.current.forEach(m=>m.setMap(null));
+                  if (routePolylineRef.current) { routePolylineRef.current.setMap(null); routePolylineRef.current = null; }
+                } else {
+                  setIsSheetMinimized(true);
+                }
               }
               // animate back
               setSheetTranslateY(0);
@@ -3452,6 +3463,7 @@ export default function BusSearch() {
                   setSelectedTripId(null); 
                   setRouteStops([]); 
                   setIsSheetMinimized(false);
+                  setSheetTranslateY(0);
                   routeMarkersRef.current.forEach(m=>m.setMap(null)); 
                   if (routePolylineRef.current) { 
                     routePolylineRef.current.setMap(null); 

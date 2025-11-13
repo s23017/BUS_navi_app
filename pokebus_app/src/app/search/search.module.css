@@ -2,7 +2,11 @@
   display: flex;
   flex-direction: column;
   height: 100vh;
+  height: 100dvh;
+  min-height: 100dvh;
   width: 100%;
+  overflow: hidden;
+  padding-bottom: env(safe-area-inset-bottom, 0);
 }
 
 .header {
@@ -10,9 +14,11 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.5rem 1rem;
+  padding: calc(0.5rem + env(safe-area-inset-top, 0)) 1rem 0.5rem;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  position: relative;
+  position: sticky;
+  top: 0;
+  z-index: 50;
 }
 
 .logo {
@@ -293,6 +299,7 @@
   border-top-left-radius: 12px;
   border-top-right-radius: 12px;
   padding: 12px;
+  padding-bottom: calc(12px + env(safe-area-inset-bottom, 0));
   transition: transform 0.2s ease;
   touch-action: none; /* allow custom touch handling */
   -webkit-user-select: none;
