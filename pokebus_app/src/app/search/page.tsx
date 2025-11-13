@@ -4,7 +4,7 @@ import { Menu, X, MapPin, Crosshair } from "lucide-react";
 import Script from "next/script";
 import styles from "./search.module.css";
 import { db, auth } from "../../../lib/firebase";
-import { collection, addDoc, query, where, onSnapshot, Timestamp, orderBy, limit, getDocs, deleteDoc, updateDoc } from "firebase/firestore";
+import { collection, addDoc, query, where, onSnapshot, Timestamp, orderBy, limit, getDocs, deleteDoc, updateDoc, QueryConstraint } from "firebase/firestore";
 import { onAuthStateChanged } from "firebase/auth";
 
   // Google Maps API の型定義を追加
@@ -62,6 +62,17 @@ export default function BusSearch() {
   // ユーザー認証状態
   const [currentUser, setCurrentUser] = useState<any>(null);
   
+  type PassedStopRecord = {
+    stopId: string;
+    stopName: string;
+    passTime: Date;
+    scheduledTime?: string;
+    delay: number;
+    username?: string;
+    userId?: string;
+    inferred?: boolean;
+  };
+
   const [ridersLocations, setRidersLocations] = useState<Array<{
     id: string, 
     position: google.maps.LatLng, 
@@ -70,15 +81,7 @@ export default function BusSearch() {
     email?: string,
     lastActive?: Date
   }>>([]);
-  const [busPassedStops, setBusPassedStops] = useState<Array<{
-    stopId: string, 
-    stopName: string, 
-    passTime: Date, 
-    scheduledTime?: string, 
-    delay: number,
-    username?: string,
-    userId?: string
-  }>>([]);
+  const [busPassedStops, setBusPassedStops] = useState<PassedStopRecord[]>([]);
   const [estimatedArrivalTimes, setEstimatedArrivalTimes] = useState<Record<string, string>>({});
   const [isLocationSharing, setIsLocationSharing] = useState<boolean>(false);
   const [watchId, setWatchId] = useState<number | null>(null);
@@ -192,17 +195,107 @@ export default function BusSearch() {
     return { valid: true };
   };
 
+  const getRouteSequenceInfo = () => {
+    const sequence: { stopId: string; stopName: string; seq: number; scheduledTime?: string }[] = [];
+    routeStops.forEach((stop, index) => {
+      const stopId = stop?.stop_id;
+      if (!stopId) return;
+      const rawSeq = Number(stop?.seq);
+      const seqValue = Number.isFinite(rawSeq) ? rawSeq : index;
+      sequence.push({
+        stopId,
+        stopName: stop?.stop_name || stopId,
+        seq: seqValue,
+        scheduledTime: stop?.arrival_time || stop?.departure_time || undefined,
+      });
+    });
+    sequence.sort((a, b) => a.seq - b.seq);
+    return sequence;
+  };
+
+  const inferPassedStopsForRoute = (passages: PassedStopRecord[]): PassedStopRecord[] => {
+    const sequenceInfo = getRouteSequenceInfo();
+    if (sequenceInfo.length === 0 || passages.length === 0) {
+      return passages;
+    }
+
+    const seqMap = new Map(sequenceInfo.map(info => [info.stopId, info]));
+    const normalizedMap = new Map<string, PassedStopRecord>();
+
+    passages.forEach(record => {
+      normalizedMap.set(record.stopId, { ...record, inferred: record.inferred ?? false });
+    });
+
+    let highestSeq = -1;
+    passages.forEach(record => {
+      const seq = seqMap.get(record.stopId)?.seq;
+      if (typeof seq === 'number' && seq > highestSeq) {
+        highestSeq = seq;
+      }
+    });
+
+    if (highestSeq < 0) {
+      return passages;
+    }
+
+    const referenceRecord = passages.reduce<PassedStopRecord | null>((current, candidate) => {
+      const candidateSeq = seqMap.get(candidate.stopId)?.seq;
+      if (typeof candidateSeq !== 'number') return current;
+      if (!current) return candidate;
+      const currentSeq = seqMap.get(current.stopId)?.seq ?? -1;
+      return candidateSeq >= currentSeq ? candidate : current;
+    }, null);
+
+    sequenceInfo
+      .filter(info => info.seq <= highestSeq)
+      .forEach(info => {
+        if (!normalizedMap.has(info.stopId)) {
+          normalizedMap.set(info.stopId, {
+            stopId: info.stopId,
+            stopName: info.stopName,
+            passTime: referenceRecord?.passTime
+              ? new Date(referenceRecord.passTime.getTime())
+              : new Date(),
+            scheduledTime: info.scheduledTime,
+            delay: referenceRecord?.delay ?? 0,
+            username: referenceRecord?.username,
+            userId: referenceRecord?.userId,
+            inferred: true,
+          });
+        }
+      });
+
+    return Array.from(normalizedMap.values()).sort((a, b) => {
+      const seqA = seqMap.get(a.stopId)?.seq ?? 0;
+      const seqB = seqMap.get(b.stopId)?.seq ?? 0;
+      return seqA - seqB;
+    });
+  };
+
+  const mergePassedStopRecords = (existing: PassedStopRecord[], additions: PassedStopRecord[]) => {
+    if (additions.length === 0) return inferPassedStopsForRoute(existing);
+    const mergedMap = new Map<string, PassedStopRecord>();
+    existing.forEach(record => {
+      mergedMap.set(record.stopId, { ...record });
+    });
+    additions.forEach(record => {
+      mergedMap.set(record.stopId, { ...record, inferred: record.inferred ?? false });
+    });
+    return inferPassedStopsForRoute(Array.from(mergedMap.values()));
+  };
+
   // アプリ終了時にFirestoreから自分の位置情報を削除
-  const removeUserLocationFromFirestore = async () => {
+  const removeUserLocationFromFirestore = async (tripId?: string) => {
     const effectiveUserId = getEffectiveUserId();
     if (!effectiveUserId) return;
     
     try {
       // 自分の位置情報ドキュメントを検索して削除
-      const q = query(
-        collection(db, 'busRiderLocations'),
-        where('userId', '==', effectiveUserId)
-      );
+      const constraints: QueryConstraint[] = [where('userId', '==', effectiveUserId)];
+      if (tripId) {
+        constraints.push(where('tripId', '==', tripId));
+      }
+      const q = query(collection(db, 'busRiderLocations'), ...constraints);
       
       const querySnapshot = await getDocs(q);
       const deletePromises = querySnapshot.docs.map(doc => deleteDoc(doc.ref));
@@ -216,10 +309,11 @@ export default function BusSearch() {
         const updateData = {
           lastActive: Timestamp.fromMillis(Date.now() - 300000) // 5分前
         };
-        const q = query(
-          collection(db, 'busRiderLocations'),
-          where('userId', '==', effectiveUserId)
-        );
+        const cleanupConstraints: QueryConstraint[] = [where('userId', '==', effectiveUserId)];
+        if (tripId) {
+          cleanupConstraints.push(where('tripId', '==', tripId));
+        }
+        const q = query(collection(db, 'busRiderLocations'), ...cleanupConstraints);
         const querySnapshot = await getDocs(q);
         const updatePromises = querySnapshot.docs.map(doc => 
           updateDoc(doc.ref, updateData)
@@ -308,7 +402,11 @@ export default function BusSearch() {
           showBusStopNotificationFromOtherUser(passage);
         });
         
-        setBusPassedStops(uniquePassages);
+        const normalizedPassages: PassedStopRecord[] = uniquePassages.map(passage => ({
+          ...passage,
+          inferred: false
+        }));
+        setBusPassedStops(inferPassedStopsForRoute(normalizedPassages));
         console.log('🚏 バス停通過情報更新:', uniquePassages.length, '件（新着:', newPassages.length, '件）');
         
       }, (error: any) => {
@@ -1168,16 +1266,35 @@ export default function BusSearch() {
       const querySnapshot = await getDocs(q);
 
       if (!querySnapshot.empty) {
-        // 既存ドキュメントを更新
-        const existingDoc = querySnapshot.docs[0];
-        console.log('🔄 既存ドキュメント更新:', existingDoc.id);
-        await updateDoc(existingDoc.ref, {
+        const docsWithData = querySnapshot.docs.map(docSnap => ({
+          snap: docSnap,
+          ts: (() => {
+            const data = docSnap.data();
+            return data?.timestamp?.toMillis?.() ?? 0;
+          })()
+        }));
+        docsWithData.sort((a, b) => b.ts - a.ts);
+
+        const [latestEntry, ...staleDocs] = docsWithData;
+        console.log('🔄 既存ドキュメント更新:', latestEntry.snap.id);
+        await updateDoc(latestEntry.snap.ref, {
           latitude: locationData.latitude,
           longitude: locationData.longitude,
           timestamp: locationData.timestamp,
           lastActive: locationData.lastActive
         });
-        console.log('✅ Firestore更新成功 - DocumentID:', existingDoc.id);
+        console.log('✅ Firestore更新成功 - DocumentID:', latestEntry.snap.id);
+
+        if (staleDocs.length > 0) {
+          console.log(`🧹 古い位置情報ドキュメントを削除: ${staleDocs.length}件`);
+          await Promise.all(
+            staleDocs.map(({ snap }) =>
+              deleteDoc(snap.ref).catch((cleanupError) => {
+                console.warn('古いドキュメントの削除に失敗:', cleanupError);
+              })
+            )
+          );
+        }
       } else {
         // 新規ドキュメントを作成
         console.log('💾 新規ドキュメント作成中...');
@@ -1426,7 +1543,7 @@ export default function BusSearch() {
       if (!validation.valid) {
         console.warn('❌ 位置情報共有停止:', validation.reason);
         alert(`位置情報の共有を停止しました: ${validation.reason}`);
-        await stopLocationSharing();
+  await stopLocationSharing(tripId);
         return false;
       }
 
@@ -1657,7 +1774,7 @@ export default function BusSearch() {
   };
 
   // 位置情報共有停止
-  const stopLocationSharing = async () => {
+  const stopLocationSharing = async (tripId?: string) => {
     // タイマーの停止
     if (locationTimerRef.current) {
       if (typeof locationTimerRef.current === 'function') {
@@ -1680,7 +1797,7 @@ export default function BusSearch() {
     }
     
     // Firestoreから自分の位置情報を削除
-    await removeUserLocationFromFirestore();
+    await removeUserLocationFromFirestore(tripId);
     
     // Firestoreリスナーの停止
     if (unsubscribeRiderListener.current) {
@@ -1707,6 +1824,9 @@ export default function BusSearch() {
       busMarkerRef.current.setMap(null);
       busMarkerRef.current = null;
     }
+
+    lastSharedPositionRef.current = null;
+    lastPositionTimestampRef.current = 0;
     
     console.log('位置情報共有停止（Firestoreからも削除）');
   };
@@ -1786,27 +1906,27 @@ export default function BusSearch() {
     const currentMarkerIds = Array.from(ridersMarkersMapRef.current.keys());
     const newRiderIds = ridersLocations.map(rider => rider.id);
 
-    // 遅延削除: データが空の場合、すぐには削除しない
-    if (ridersLocations.length > 0) {
-      // データが存在する場合のみ、不要なマーカーを削除
-      currentMarkerIds.forEach(riderId => {
-        if (!newRiderIds.includes(riderId)) {
-          const marker = ridersMarkersMapRef.current.get(riderId);
-          if (marker) {
-            console.log(`🗑️ 不要なマーカーを削除: ${riderId}`);
-            marker.setMap(null);
-            ridersMarkersMapRef.current.delete(riderId);
-            
-            // otherRidersMarkersRef からも削除
-            const index = otherRidersMarkersRef.current.indexOf(marker);
-            if (index > -1) {
-              otherRidersMarkersRef.current.splice(index, 1);
-            }
+    currentMarkerIds.forEach(riderId => {
+      if (!newRiderIds.includes(riderId)) {
+        const marker = ridersMarkersMapRef.current.get(riderId);
+        if (marker) {
+          console.log(`🗑️ 不要なマーカーを削除: ${riderId}`);
+          marker.setMap(null);
+          ridersMarkersMapRef.current.delete(riderId);
+
+          const index = otherRidersMarkersRef.current.indexOf(marker);
+          if (index > -1) {
+            otherRidersMarkersRef.current.splice(index, 1);
           }
         }
-      });
-    } else {
-      console.log('⏸️ データが空のため、マーカー削除をスキップ（既存マーカーを保持）');
+      }
+    });
+
+    if (ridersLocations.length === 0) {
+      console.log('🧹 ライダー情報が空のため、全マーカーをクリア');
+      otherRidersMarkersRef.current.forEach(marker => marker.setMap(null));
+      otherRidersMarkersRef.current = [];
+      ridersMarkersMapRef.current.clear();
     }
 
     // 各ライダーのマーカーを更新または新規作成
@@ -2023,7 +2143,7 @@ export default function BusSearch() {
             userId: currentUser?.uid || 'anonymous'
           };
           
-          setBusPassedStops(prev => [...prev, passedStop]);
+          setBusPassedStops(prev => mergePassedStopRecords(prev, [{ ...passedStop, inferred: false }]));
           
           // Firestoreに通過情報を保存（他のユーザーにも通知）
           saveBusStopPassageToFirestore(tripId, passedStop);
@@ -2874,7 +2994,7 @@ export default function BusSearch() {
   // ルートをクリア
   const clearRoute = () => {
     // リアルタイム追跡をクリア
-    stopLocationSharing();
+  stopLocationSharing(getActiveTripId() || undefined);
     setBusLocation(null);
     setBusPassedStops([]);
     setEstimatedArrivalTimes({});
@@ -3038,7 +3158,8 @@ export default function BusSearch() {
     const handleBeforeUnload = (event: BeforeUnloadEvent) => {
       if (isLocationSharing) {
         // 位置情報共有を停止
-        stopLocationSharing();
+        const activeTripId = getActiveTripId();
+        stopLocationSharing(activeTripId || undefined);
         
         // ブラウザによってはここで同期的にFirestoreからデータを削除
         if (currentUser?.uid) {
@@ -3063,7 +3184,8 @@ export default function BusSearch() {
         const backgroundTimeout = setTimeout(() => {
           if (document.hidden && isLocationSharing) {
             console.log('長時間非表示のため位置情報共有を停止');
-            stopLocationSharing();
+            const activeTripId = getActiveTripId();
+            stopLocationSharing(activeTripId || undefined);
           }
         }, 300000); // 5分後に停止
         
@@ -3794,8 +3916,9 @@ export default function BusSearch() {
                         if (ridingTripId === selectedTripId) {
                           // 下車処理
                           console.log('🛑 下車ボタンクリック - 位置情報共有停止');
+                          const activeTripId = getActiveTripId();
                           setRidingTripId(null);
-                          stopLocationSharing();
+                          stopLocationSharing(activeTripId || undefined);
                         } else {
                           // 乗車処理
                           console.log('🚌 乗車ボタンクリック - 位置情報共有開始準備');
