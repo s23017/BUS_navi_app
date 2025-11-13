@@ -1168,16 +1168,35 @@ export default function BusSearch() {
       const querySnapshot = await getDocs(q);
 
       if (!querySnapshot.empty) {
-        // 既存ドキュメントを更新
-        const existingDoc = querySnapshot.docs[0];
-        console.log('🔄 既存ドキュメント更新:', existingDoc.id);
-        await updateDoc(existingDoc.ref, {
+        const docsWithData = querySnapshot.docs.map(docSnap => ({
+          snap: docSnap,
+          ts: (() => {
+            const data = docSnap.data();
+            return data?.timestamp?.toMillis?.() ?? 0;
+          })()
+        }));
+        docsWithData.sort((a, b) => b.ts - a.ts);
+
+        const [latestEntry, ...staleDocs] = docsWithData;
+        console.log('🔄 既存ドキュメント更新:', latestEntry.snap.id);
+        await updateDoc(latestEntry.snap.ref, {
           latitude: locationData.latitude,
           longitude: locationData.longitude,
           timestamp: locationData.timestamp,
           lastActive: locationData.lastActive
         });
-        console.log('✅ Firestore更新成功 - DocumentID:', existingDoc.id);
+        console.log('✅ Firestore更新成功 - DocumentID:', latestEntry.snap.id);
+
+        if (staleDocs.length > 0) {
+          console.log(`🧹 古い位置情報ドキュメントを削除: ${staleDocs.length}件`);
+          await Promise.all(
+            staleDocs.map(({ snap }) =>
+              deleteDoc(snap.ref).catch((cleanupError) => {
+                console.warn('古いドキュメントの削除に失敗:', cleanupError);
+              })
+            )
+          );
+        }
       } else {
         // 新規ドキュメントを作成
         console.log('💾 新規ドキュメント作成中...');
