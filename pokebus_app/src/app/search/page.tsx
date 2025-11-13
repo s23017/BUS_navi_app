@@ -31,6 +31,7 @@ export default function BusSearch() {
   const directionsService = useRef<google.maps.DirectionsService | null>(null);
   const directionsRenderer = useRef<google.maps.DirectionsRenderer | null>(null);
   const currentLocationRef = useRef<google.maps.LatLng | null>(null);
+  const currentLocationMarkerRef = useRef<google.maps.Marker | null>(null);
   const routeMarkersRef = useRef<google.maps.Marker[]>([]);
   const otherRidersMarkersRef = useRef<google.maps.Marker[]>([]); // 他のライダーのマーカー管理用
   const ridersMarkersMapRef = useRef<Map<string, google.maps.Marker>>(new Map()); // ライダーID → マーカーのマップ
@@ -70,6 +71,7 @@ export default function BusSearch() {
   const sheetTranslateYRef = useRef<number>(0);
   const sheetDraggingRef = useRef(false);
   const [isSheetMinimized, setIsSheetMinimized] = useState<boolean>(false);
+  const [isMobileViewport, setIsMobileViewport] = useState<boolean>(true);
 
   // Google Maps APIが読み込まれた後にマップを初期化
   // ユーザー認証状態の監視
@@ -78,6 +80,18 @@ export default function BusSearch() {
       setCurrentUser(user);
     });
     return () => unsubscribe();
+  }, []);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const updateViewport = () => {
+      setIsMobileViewport(window.innerWidth < 768);
+    };
+    updateViewport();
+    window.addEventListener('resize', updateViewport);
+    return () => {
+      window.removeEventListener('resize', updateViewport);
+    };
   }, []);
 
   // ユーザー名取得関数
@@ -340,12 +354,16 @@ export default function BusSearch() {
             currentLocationRef.current = current; // 現在地を保存
             
             // 現在地マーカーを表示（ルート表示時は自動的に隠される）
-            new window.google.maps.Marker({
-              position: current,
-              map,
-              icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
-              title: "現在地",
-            });
+            if (currentLocationMarkerRef.current) {
+              currentLocationMarkerRef.current.setPosition(current);
+            } else {
+              currentLocationMarkerRef.current = new window.google.maps.Marker({
+                position: current,
+                map,
+                icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+                title: "現在地",
+              });
+            }
             map.setCenter(current);
           } catch (error) {
             console.error('Failed to set current location:', error);
@@ -1310,6 +1328,16 @@ export default function BusSearch() {
       const { latitude, longitude } = position.coords;
       const currentPos = new window.google.maps.LatLng(latitude, longitude);
       currentLocationRef.current = currentPos;
+      if (currentLocationMarkerRef.current) {
+        currentLocationMarkerRef.current.setPosition(currentPos);
+      } else if (mapInstance.current) {
+        currentLocationMarkerRef.current = new window.google.maps.Marker({
+          position: currentPos,
+          map: mapInstance.current,
+          icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+          title: "現在地",
+        });
+      }
 
       console.log('📍 GPS位置取得成功:', {
         lat: latitude,
@@ -2492,6 +2520,16 @@ export default function BusSearch() {
         if (mapInstance.current) {
           mapInstance.current.setCenter(latLng);
           mapInstance.current.setZoom(15);
+          if (currentLocationMarkerRef.current) {
+            currentLocationMarkerRef.current.setPosition(latLng);
+          } else {
+            currentLocationMarkerRef.current = new window.google.maps.Marker({
+              position: latLng,
+              map: mapInstance.current,
+              icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+              title: "現在地",
+            });
+          }
         }
       }
     } catch (error: any) {
@@ -2824,6 +2862,48 @@ export default function BusSearch() {
   useEffect(() => {
     console.log('📡 isLocationSharing changed:', isLocationSharing);
   }, [isLocationSharing]);
+
+  useEffect(() => {
+    if (!mapLoaded || typeof window === 'undefined' || !navigator.geolocation) {
+      return;
+    }
+
+    console.log('🕒 現在地の定期更新を開始 (60秒間隔)');
+    const intervalId = setInterval(() => {
+      navigator.geolocation.getCurrentPosition(
+        (position) => {
+          if (!window.google?.maps?.LatLng) return;
+          const { latitude, longitude } = position.coords;
+          const latLng = new window.google.maps.LatLng(latitude, longitude);
+          currentLocationRef.current = latLng;
+          if (currentLocationMarkerRef.current) {
+            currentLocationMarkerRef.current.setPosition(latLng);
+          } else if (mapInstance.current) {
+            currentLocationMarkerRef.current = new window.google.maps.Marker({
+              position: latLng,
+              map: mapInstance.current,
+              icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
+              title: "現在地",
+            });
+          }
+          console.log('✅ 定期現在地更新:', { latitude, longitude, timestamp: new Date().toISOString() });
+        },
+        (error) => {
+          console.error('⚠️ 定期現在地更新に失敗:', error);
+        },
+        {
+          enableHighAccuracy: true,
+          timeout: 15000,
+          maximumAge: 5000,
+        }
+      );
+    }, 60000);
+
+    return () => {
+      console.log('🛑 現在地の定期更新を停止');
+      clearInterval(intervalId);
+    };
+  }, [mapLoaded]);
 
   // ridersLocationsの変更を監視してマーカーを更新
   useEffect(() => {
@@ -3409,6 +3489,7 @@ export default function BusSearch() {
           <div
             className={styles.routeDetailContainer}
             onTouchStart={(e) => {
+              if (!isMobileViewport) return;
               if (e.touches && e.touches.length > 0) {
                 sheetTouchStartY.current = e.touches[0].clientY;
                 sheetDraggingRef.current = true;
@@ -3417,6 +3498,7 @@ export default function BusSearch() {
               }
             }}
             onTouchMove={(e) => {
+              if (!isMobileViewport) return;
               // Prevent page scrolling while dragging the sheet
               try { e.preventDefault(); } catch (err) {}
               if (!sheetDraggingRef.current || !sheetTouchStartY.current) return;
@@ -3431,6 +3513,7 @@ export default function BusSearch() {
               setSheetTranslateY(clampedDelta);
             }}
             onTouchEnd={() => {
+              if (!isMobileViewport) return;
               sheetDraggingRef.current = false;
               const delta = sheetTranslateYRef.current;
               if (delta > 120) {
@@ -3454,7 +3537,11 @@ export default function BusSearch() {
             style={{ 
               transform: `translateY(${sheetTranslateY}px)`,
               maxHeight: isSheetMinimized ? '80px' : '50vh',
-              transition: isSheetMinimized ? 'max-height 0.3s ease' : 'none'
+              transition: isSheetMinimized ? 'max-height 0.3s ease' : 'none',
+              touchAction: isMobileViewport ? 'none' : 'auto',
+              userSelect: isMobileViewport ? 'none' : 'auto',
+              WebkitUserSelect: isMobileViewport ? 'none' : 'auto',
+              overflowY: 'auto'
             }}
           >
             <div className={styles.sheetHandle} />
