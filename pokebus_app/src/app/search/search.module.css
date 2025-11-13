@@ -110,6 +110,31 @@
   background-color: #2563eb; /* hover:bg-blue-600 */
 }
 
+.locationButton {
+  margin-left: 0.5rem;
+  background-color: #10b981;
+  color: white;
+  border-radius: 9999px;
+  padding: 0.5rem 0.9rem;
+  font-size: 0.75rem;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: background-color 0.2s;
+}
+
+.locationButton:hover {
+  background-color: #059669;
+}
+
+.locationIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 .clearButton {
   margin-left: 0.5rem;
   background-color: #ef4444;
