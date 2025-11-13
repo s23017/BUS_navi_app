@@ -17,6 +17,8 @@ declare global {
 
 const GEO_TIMEOUT_CODE = 3;
 const GEO_PERMISSION_DENIED_CODE = 1;
+const MIN_SHARE_INTERVAL_MS = 30000; // Firestore共有は30秒間隔を基本とする
+const MIN_MOVEMENT_METERS = 15; // 小刻みな揺れによる書き込みを防ぐ最小移動距離
 const generateGuestUserId = () => {
   if (typeof crypto !== 'undefined' && 'randomUUID' in crypto) {
     return `guest_${crypto.randomUUID()}`;
@@ -44,6 +46,7 @@ export default function BusSearch() {
   const currentLocationMarkerRef = useRef<google.maps.Marker | null>(null);
   const busMarkerRef = useRef<google.maps.Marker | null>(null);
   const lastPositionTimestampRef = useRef<number>(0);
+  const lastSharedPositionRef = useRef<google.maps.LatLng | null>(null);
   const sessionUserIdRef = useRef<string | null>(null);
   const routeMarkersRef = useRef<google.maps.Marker[]>([]);
   const otherRidersMarkersRef = useRef<google.maps.Marker[]>([]); // 他のライダーのマーカー管理用
@@ -1378,6 +1381,28 @@ export default function BusSearch() {
 
       const { latitude, longitude } = position.coords;
       const currentPos = new window.google.maps.LatLng(latitude, longitude);
+
+      const now = Date.now();
+      const lastSharedAt = lastPositionTimestampRef.current || 0;
+      let movedDistance = Number.POSITIVE_INFINITY;
+      if (lastSharedPositionRef.current && window.google?.maps?.geometry) {
+        movedDistance = window.google.maps.geometry.spherical.computeDistanceBetween(
+          lastSharedPositionRef.current,
+          currentPos
+        );
+      }
+
+      const timeElapsed = now - lastSharedAt;
+      const timeElapsedInfo = lastSharedAt ? `${timeElapsed}ms` : '初回送信';
+      const movedEnough = Number.isFinite(movedDistance) && movedDistance >= MIN_MOVEMENT_METERS;
+      const intervalReached = !lastSharedAt || timeElapsed >= MIN_SHARE_INTERVAL_MS;
+
+      if (!intervalReached && !movedEnough) {
+        const distanceInfo = Number.isFinite(movedDistance) ? `${movedDistance.toFixed(1)}m` : '未計測';
+        console.log(`⏸️ 共有をスキップ: 経過 ${timeElapsedInfo}, 移動距離 ${distanceInfo}`);
+        return false;
+      }
+
       currentLocationRef.current = currentPos;
       if (currentLocationMarkerRef.current) {
         currentLocationMarkerRef.current.setPosition(currentPos);
@@ -1409,7 +1434,8 @@ export default function BusSearch() {
         console.log('💾 Firestoreに位置情報送信中...');
         await shareLocationToFirestore(tripId, currentPos);
         console.log('✅ Firestore送信成功');
-        lastPositionTimestampRef.current = Date.now();
+  lastPositionTimestampRef.current = now;
+        lastSharedPositionRef.current = currentPos;
 
         if (!isLocationSharing) {
           console.log('🔄 位置情報共有状態を復旧');
@@ -1429,7 +1455,7 @@ export default function BusSearch() {
     const updateLocation = (skipStateCheck = false) => {
       console.log('🔄 updateLocation開始 - GPS位置取得中...');
       const now = Date.now();
-      const minInterval = skipStateCheck ? 45000 : 0;
+  const minInterval = skipStateCheck ? MIN_SHARE_INTERVAL_MS : 0;
       if (lastPositionTimestampRef.current && now - lastPositionTimestampRef.current < minInterval) {
         console.log(`⏳ 直近${Math.round((now - lastPositionTimestampRef.current) / 1000)}秒以内に位置更新済みのためスキップ`);
         return;
@@ -1542,7 +1568,7 @@ export default function BusSearch() {
           // watchPositionが静止した際のバックアップとして定期的に現在地を取得
           console.log('⏰ フォールバックタイマー発火 - updateLocation実行');
           updateLocation(true);
-        }, 15000);
+        }, MIN_SHARE_INTERVAL_MS);
 
         const heartbeatTimer = setInterval(() => {
           console.log('💓 ハートビートタイマー発火');
