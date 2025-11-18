@@ -98,11 +98,7 @@ function ProfileContent() {
       let instagramUrl = '';
 
       try {
-        // 認証状態を確認してからFirestoreにアクセス
-        if (!auth.currentUser && !isOtherUser) {
-          throw new Error('ユーザーが認証されていません');
-        }
-
+        // 他のユーザーの場合でもFirestoreからInstagramのデータを取得
         const userDocRef = doc(db, 'Users', userId);
         const userDoc = await getDoc(userDocRef);
         
@@ -117,10 +113,13 @@ function ProfileContent() {
         
         // 権限エラーの場合は特別な処理
         if (firestoreError instanceof Error && firestoreError.message.includes('permission')) {
-          alert('プロフィール情報にアクセスする権限がありません。ログインし直してください。');
-          await signOut(auth);
-          router.push('/');
-          return;
+          // 他のユーザーの場合は権限エラーでもアプリを続行
+          if (!isOtherUser) {
+            alert('プロフィール情報にアクセスする権限がありません。ログインし直してください。');
+            await signOut(auth);
+            router.push('/');
+            return;
+          }
         }
       }
 
@@ -136,6 +135,16 @@ function ProfileContent() {
           joinDate: new Date(joinDate).toLocaleDateString('ja-JP'),
         }
       };
+
+      // デバッグ用ログ
+      if (isOtherUser) {
+        console.log('他のユーザーのプロフィール情報:', {
+          username,
+          instagramUrl,
+          isOtherUser,
+          targetUserId
+        });
+      }
 
       setUserProfile(profile);
       setEditedUsername(username);
