@@ -1,6 +1,6 @@
 'use client';
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
 import { User, signOut, onAuthStateChanged } from 'firebase/auth';
 import { collection, query, where, getDocs, orderBy, limit, doc, getDoc, setDoc } from 'firebase/firestore';
@@ -23,7 +23,8 @@ interface UserProfile {
   stats: UserStats;
 }
 
-export default function ProfilePage() {
+// useSearchParamsを使用するコンポーネントを分離
+function ProfileContent() {
   const [user, setUser] = useState<User | null>(null);
   const [loading, setLoading] = useState(true);
   const [userProfile, setUserProfile] = useState<UserProfile | null>(null);
@@ -409,5 +410,21 @@ export default function ProfilePage() {
         </div>
       )}
     </div>
+  );
+}
+
+// メインのプロフィールページコンポーネント（Suspenseでラップ）
+export default function ProfilePage() {
+  return (
+    <Suspense fallback={
+      <div className={styles.container}>
+        <div className={styles.loading}>
+          <div className={styles.spinner}></div>
+          <p>プロフィールを読み込んでいます...</p>
+        </div>
+      </div>
+    }>
+      <ProfileContent />
+    </Suspense>
   );
 }
