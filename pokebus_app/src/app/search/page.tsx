@@ -582,10 +582,20 @@ export default function BusSearch() {
         throw new Error('選択した出発停留所から目的地へ向かう経路ではありません');
       }
 
-      const slice = tripStops.slice(startIdx, endIdx + 1);
+      // 出発地点から2つ前のバス停まで表示するために、startIdxを調整
+      const adjustedStartIdx = Math.max(0, startIdx - 2);
+      console.log(`バス停表示範囲: ${adjustedStartIdx}番目から${endIdx}番目まで（元の出発地点: ${startIdx}番目）`);
+
+      const slice = tripStops.slice(adjustedStartIdx, endIdx + 1);
       const routeStopsFull = slice.map((s: any) => {
         const stopDef = stops.find((st: any) => st.stop_id === s.stop_id) || { stop_name: s.stop_id, stop_lat: 0, stop_lon: 0 };
-        return { ...stopDef, seq: s.seq, arrival_time: s.arrival_time, departure_time: s.departure_time };
+        return { 
+          ...stopDef, 
+          seq: s.seq, 
+          arrival_time: s.arrival_time, 
+          departure_time: s.departure_time,
+          isBeforeStart: adjustedStartIdx < startIdx && (s.seq < tripStops[startIdx]?.seq) // 出発地点より前のバス停かどうか
+        };
       });
 
       // 21番バス用の特別処理: 停車順序を再確認
@@ -4075,6 +4085,7 @@ export default function BusSearch() {
                       // 通過情報をチェック
                       const passedInfo = busPassedStops.find(passed => passed.stopId === rs.stop_id);
                       const estimatedTime = estimatedArrivalTimes[rs.stop_id];
+                      const isBeforeStart = rs.isBeforeStart; // 出発地点より前のバス停かどうか
                       
                       return (
                         <div key={`route_stop_${rs.stop_id}_${idx}`} style={{ 
@@ -4082,14 +4093,23 @@ export default function BusSearch() {
                           justifyContent: 'space-between', 
                           alignItems: 'center', 
                           padding: '6px 8px', 
-                          background: passedInfo ? (passedInfo.inferred ? '#fff4e6' : '#ffe6e6') : isNearest ? '#e6f7ff' : 'transparent', 
+                          background: 
+                            passedInfo ? (passedInfo.inferred ? '#fff4e6' : '#ffe6e6') : 
+                            isNearest ? '#e6f7ff' : 
+                            isBeforeStart ? '#f5f5f5' : 'transparent', 
                           borderRadius: '6px', 
                           marginBottom: '6px',
-                          borderLeft: passedInfo ? (passedInfo.inferred ? '3px solid #ff9900' : '3px solid #ff4444') : isNearest ? '3px solid #007bff' : 'none'
+                          borderLeft: 
+                            passedInfo ? (passedInfo.inferred ? '3px solid #ff9900' : '3px solid #ff4444') : 
+                            isNearest ? '3px solid #007bff' : 
+                            isBeforeStart ? '3px solid #ccc' : 'none',
+                          opacity: isBeforeStart ? 0.7 : 1 // 出発地点より前は少し薄く表示
                         }}>
                           <div>
                             <div style={{ fontWeight: 600, fontSize: '13px' }}>
-                              {passedInfo && (passedInfo.inferred ? '〜 ' : '✓ ')}{rs.stop_name}
+                              {passedInfo && (passedInfo.inferred ? '〜 ' : '✓ ')}
+                              {isBeforeStart && '← '}
+                              {rs.stop_name}
                             </div>
                             <div style={{ fontSize: '11px', color: '#666' }}>
                               {passedInfo ? (
@@ -4111,10 +4131,15 @@ export default function BusSearch() {
                           </div>
                           <div style={{ 
                             fontSize: '12px', 
-                            color: passedInfo ? (passedInfo.inferred ? '#ff9900' : '#ff4444') : isNearest ? '#007bff' : '#666',
+                            color: 
+                              passedInfo ? (passedInfo.inferred ? '#ff9900' : '#ff4444') : 
+                              isNearest ? '#007bff' : 
+                              isBeforeStart ? '#999' : '#666',
                             fontWeight: passedInfo ? 600 : 'normal'
                           }}>
-                            {passedInfo ? (passedInfo.inferred ? '推定通過済み' : '通過済み') : isNearest ? '現在地近く' : `${idx+1}`}
+                            {passedInfo ? (passedInfo.inferred ? '推定通過済み' : '通過済み') : 
+                             isNearest ? '現在地近く' : 
+                             isBeforeStart ? '出発前' : `${idx+1}`}
                           </div>
                         </div>
                       );
