@@ -582,10 +582,20 @@ export default function BusSearch() {
         throw new Error('選択した出発停留所から目的地へ向かう経路ではありません');
       }
 
-      const slice = tripStops.slice(startIdx, endIdx + 1);
+      // 出発地点から2つ前のバス停まで表示するために、startIdxを調整
+      const adjustedStartIdx = Math.max(0, startIdx - 2);
+      console.log(`バス停表示範囲: ${adjustedStartIdx}番目から${endIdx}番目まで（元の出発地点: ${startIdx}番目）`);
+
+      const slice = tripStops.slice(adjustedStartIdx, endIdx + 1);
       const routeStopsFull = slice.map((s: any) => {
         const stopDef = stops.find((st: any) => st.stop_id === s.stop_id) || { stop_name: s.stop_id, stop_lat: 0, stop_lon: 0 };
-        return { ...stopDef, seq: s.seq, arrival_time: s.arrival_time, departure_time: s.departure_time };
+        return { 
+          ...stopDef, 
+          seq: s.seq, 
+          arrival_time: s.arrival_time, 
+          departure_time: s.departure_time,
+          isBeforeStart: adjustedStartIdx < startIdx && (s.seq < tripStops[startIdx]?.seq) // 出発地点より前のバス停かどうか
+        };
       });
 
       // 21番バス用の特別処理: 停車順序を再確認
@@ -1660,6 +1670,9 @@ export default function BusSearch() {
           return;
         }
 
+        // 乗車開始時に前のバス停の通過判定を自動推論
+        inferPreviousPassedStops(initialPos, tripId);
+
         const watchIdentifier = navigator.geolocation.watchPosition(
           async (pos) => {
             console.log('👣 watchPosition更新受信');
@@ -2162,6 +2175,89 @@ export default function BusSearch() {
     });
   };
 
+  // 乗車開始時に現在位置より前のバス停の通過判定を自動推論
+  const inferPreviousPassedStops = (currentPos: google.maps.LatLng, tripId: string) => {
+    if (routeStops.length === 0) return;
+    
+    console.log('🔍 乗車開始時の前バス停通過判定開始');
+    
+    // 現在位置から最も近いバス停を特定
+    let nearestStopIndex = -1;
+    let nearestDistance = Infinity;
+    
+    routeStops.forEach((stop, index) => {
+      const stopLat = parseFloat(stop.stop_lat);
+      const stopLon = parseFloat(stop.stop_lon);
+      
+      if (isNaN(stopLat) || isNaN(stopLon)) return;
+      
+      const distance = getDistance(
+        currentPos.lat(), currentPos.lng(),
+        stopLat, stopLon
+      );
+      
+      if (distance < nearestDistance) {
+        nearestDistance = distance;
+        nearestStopIndex = index;
+      }
+    });
+    
+    if (nearestStopIndex === -1) {
+      console.log('🤷 最寄りバス停が特定できませんでした');
+      return;
+    }
+    
+    const nearestStop = routeStops[nearestStopIndex];
+    console.log(`📍 最寄りバス停: ${nearestStop.stop_name} (距離: ${nearestDistance.toFixed(0)}m)`);
+    
+    // 乗車判定の条件：最寄りバス停から200m以内
+    if (nearestDistance > 200) {
+      console.log('🚫 乗車位置がバス停から離れすぎています');
+      return;
+    }
+    
+    // 現在のバス停より前のバス停を通過済みとして推論
+    const currentTime = new Date();
+    const newPassedStops: PassedStopRecord[] = [];
+    
+    for (let i = 0; i < nearestStopIndex; i++) {
+      const previousStop = routeStops[i];
+      
+      // 既に通過記録があるかチェック
+      const alreadyPassed = busPassedStops.some(passed => passed.stopId === previousStop.stop_id);
+      if (!alreadyPassed) {
+        const scheduledTime = previousStop.arrival_time || previousStop.departure_time || '';
+        const estimatedPassTime = new Date(currentTime.getTime() - (nearestStopIndex - i) * 2 * 60 * 1000); // 各バス停2分前と仮定
+        const delay = calculateDelay(estimatedPassTime, scheduledTime);
+        
+        const inferredPassedStop: PassedStopRecord = {
+          stopId: previousStop.stop_id,
+          stopName: previousStop.stop_name,
+          passTime: estimatedPassTime,
+          scheduledTime: scheduledTime || undefined,
+          delay: delay,
+          username: getUserDisplayName(currentUser),
+          userId: currentUser?.uid || 'anonymous',
+          inferred: true // 推論による通過判定であることを明示
+        };
+        
+        newPassedStops.push(inferredPassedStop);
+        
+        // Firestoreに推論による通過情報を保存
+        saveBusStopPassageToFirestore(tripId, inferredPassedStop);
+        
+        console.log(`🤖 推論による通過判定: ${previousStop.stop_name} (推定通過時刻: ${estimatedPassTime.toLocaleTimeString()})`);
+      }
+    }
+    
+    if (newPassedStops.length > 0) {
+      setBusPassedStops(prev => mergePassedStopRecords(prev, newPassedStops));
+      console.log(`✅ ${newPassedStops.length}個のバス停を通過済みとして推論しました`);
+    } else {
+      console.log('ℹ️ 新規に推論するバス停はありませんでした');
+    }
+  };
+
   // バス停通過をFirestoreに保存（他のユーザーにリアルタイム通知）
   const saveBusStopPassageToFirestore = async (tripId: string, passedStop: any) => {
     try {
@@ -2174,7 +2270,8 @@ export default function BusSearch() {
         delay: passedStop.delay,
         username: passedStop.username,
         userId: currentUser?.uid || 'anonymous',
-        timestamp: Timestamp.now()
+        timestamp: Timestamp.now(),
+        inferred: passedStop.inferred || false // 推論による通過判定かどうかを記録
       };
 
       console.log('📤 バス停通過情報をFirestoreに保存:', passageData);
@@ -3988,6 +4085,7 @@ export default function BusSearch() {
                       // 通過情報をチェック
                       const passedInfo = busPassedStops.find(passed => passed.stopId === rs.stop_id);
                       const estimatedTime = estimatedArrivalTimes[rs.stop_id];
+                      const isBeforeStart = rs.isBeforeStart; // 出発地点より前のバス停かどうか
                       
                       return (
                         <div key={`route_stop_${rs.stop_id}_${idx}`} style={{ 
@@ -3995,19 +4093,28 @@ export default function BusSearch() {
                           justifyContent: 'space-between', 
                           alignItems: 'center', 
                           padding: '6px 8px', 
-                          background: passedInfo ? '#ffe6e6' : isNearest ? '#e6f7ff' : 'transparent', 
+                          background: 
+                            passedInfo ? (passedInfo.inferred ? '#fff4e6' : '#ffe6e6') : 
+                            isNearest ? '#e6f7ff' : 
+                            isBeforeStart ? '#f5f5f5' : 'transparent', 
                           borderRadius: '6px', 
                           marginBottom: '6px',
-                          borderLeft: passedInfo ? '3px solid #ff4444' : isNearest ? '3px solid #007bff' : 'none'
+                          borderLeft: 
+                            passedInfo ? (passedInfo.inferred ? '3px solid #ff9900' : '3px solid #ff4444') : 
+                            isNearest ? '3px solid #007bff' : 
+                            isBeforeStart ? '3px solid #ccc' : 'none',
+                          opacity: isBeforeStart ? 0.7 : 1 // 出発地点より前は少し薄く表示
                         }}>
                           <div>
                             <div style={{ fontWeight: 600, fontSize: '13px' }}>
-                              {passedInfo && '✓ '}{rs.stop_name}
+                              {passedInfo && (passedInfo.inferred ? '〜 ' : '✓ ')}
+                              {isBeforeStart && '← '}
+                              {rs.stop_name}
                             </div>
                             <div style={{ fontSize: '11px', color: '#666' }}>
                               {passedInfo ? (
                                 <span>
-                                  通過: {passedInfo.passTime.toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' })} 
+                                  {passedInfo.inferred ? '推定通過' : '通過'}: {passedInfo.passTime.toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' })} 
                                   ({passedInfo.delay > 0 ? `+${passedInfo.delay}分` : passedInfo.delay < 0 ? `${passedInfo.delay}分` : '定刻'})
                                   {passedInfo.username && (
                                     <span style={{ color: '#28a745', fontWeight: '500' }}>
@@ -4024,10 +4131,15 @@ export default function BusSearch() {
                           </div>
                           <div style={{ 
                             fontSize: '12px', 
-                            color: passedInfo ? '#ff4444' : isNearest ? '#007bff' : '#666',
+                            color: 
+                              passedInfo ? (passedInfo.inferred ? '#ff9900' : '#ff4444') : 
+                              isNearest ? '#007bff' : 
+                              isBeforeStart ? '#999' : '#666',
                             fontWeight: passedInfo ? 600 : 'normal'
                           }}>
-                            {passedInfo ? '通過済み' : isNearest ? '現在地近く' : `${idx+1}`}
+                            {passedInfo ? (passedInfo.inferred ? '推定通過済み' : '通過済み') : 
+                             isNearest ? '現在地近く' : 
+                             isBeforeStart ? '出発前' : `${idx+1}`}
                           </div>
                         </div>
                       );
