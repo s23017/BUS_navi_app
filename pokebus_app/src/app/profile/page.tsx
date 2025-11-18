@@ -409,6 +409,7 @@ function ProfileContent() {
               <div className={styles.userDetails}>
                 <h2 className={styles.username}>{userProfile.username}</h2>
                 <p className={styles.email}>{userProfile.email}</p>
+                {/* Instagram リンクは全てのユーザーに表示 */}
                 {userProfile.instagramUrl && (
                   <a 
                     href={userProfile.instagramUrl} 
