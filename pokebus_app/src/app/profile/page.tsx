@@ -53,7 +53,6 @@ function ProfileContent() {
     if (userId && userId !== user?.uid) {
       setIsOtherUser(true);
       setTargetUserId(userId);
-      console.log('他のユーザーのプロフィール表示:', { userId, username });
     } else {
       setIsOtherUser(false);
       setTargetUserId(null);
@@ -81,7 +80,6 @@ function ProfileContent() {
       if (isOtherUser && targetUserId) {
         // 他のユーザーのプロフィールを取得
         userId = targetUserId;
-        console.log('他のユーザーのプロフィール取得開始:', userId);
       } else if (user) {
         // 自分のプロフィールを取得
         targetUser = user;
