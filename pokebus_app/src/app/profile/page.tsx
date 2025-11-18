@@ -20,6 +20,7 @@ interface UserProfile {
   username: string;
   email: string;
   profileImage?: string;
+  instagramUrl?: string;
   stats: UserStats;
 }
 
@@ -31,6 +32,7 @@ function ProfileContent() {
   const [isLoading, setIsLoading] = useState(true);
   const [isEditing, setIsEditing] = useState(false);
   const [editedUsername, setEditedUsername] = useState('');
+  const [editedInstagramUrl, setEditedInstagramUrl] = useState('');
   const [isOtherUser, setIsOtherUser] = useState(false); // 他のユーザーのプロフィールかどうか
   const [targetUserId, setTargetUserId] = useState<string | null>(null); // 表示対象のユーザーID
   const router = useRouter();
@@ -85,24 +87,41 @@ function ProfileContent() {
         targetUser = user;
         userId = user.uid;
       } else {
+        // ユーザーがログインしていない場合はリダイレクト
+        router.push('/');
         return;
       }
 
       // ユーザーの基本プロフィール情報を取得（エラーが発生してもフォールバック）
       let username = targetUser?.displayName || searchParams.get('username') || 'ユーザー';
       let joinDate = targetUser?.metadata.creationTime || new Date().toISOString();
+      let instagramUrl = '';
 
       try {
-        const userDocRef = doc(db, 'users', userId);
+        // 認証状態を確認してからFirestoreにアクセス
+        if (!auth.currentUser && !isOtherUser) {
+          throw new Error('ユーザーが認証されていません');
+        }
+
+        const userDocRef = doc(db, 'Users', userId);
         const userDoc = await getDoc(userDocRef);
         
         if (userDoc.exists()) {
           const userData = userDoc.data();
           username = userData.username || username;
           joinDate = userData.createdAt || joinDate;
+          instagramUrl = userData.instagramUrl || '';
         }
       } catch (firestoreError) {
         console.warn('ユーザードキュメント取得エラー（基本情報を使用）:', firestoreError);
+        
+        // 権限エラーの場合は特別な処理
+        if (firestoreError instanceof Error && firestoreError.message.includes('permission')) {
+          alert('プロフィール情報にアクセスする権限がありません。ログインし直してください。');
+          await signOut(auth);
+          router.push('/');
+          return;
+        }
       }
 
       // 統計情報を取得（エラーが発生してもフォールバック）
@@ -111,6 +130,7 @@ function ProfileContent() {
       const profile: UserProfile = {
         username,
         email: isOtherUser ? '非公開' : (targetUser?.email || ''),
+        instagramUrl,
         stats: {
           ...stats,
           joinDate: new Date(joinDate).toLocaleDateString('ja-JP'),
@@ -119,12 +139,14 @@ function ProfileContent() {
 
       setUserProfile(profile);
       setEditedUsername(username);
+      setEditedInstagramUrl(instagramUrl);
     } catch (error) {
       console.error('プロフィール取得エラー:', error);
       // フォールバックプロフィールを作成
       const fallbackProfile: UserProfile = {
         username: isOtherUser ? (searchParams.get('username') || 'ユーザー') : (user?.displayName || 'ユーザー'),
         email: isOtherUser ? '非公開' : (user?.email || ''),
+        instagramUrl: '',
         stats: {
           totalShares: 0,
           busStopReports: 0,
@@ -136,6 +158,7 @@ function ProfileContent() {
       };
       setUserProfile(fallbackProfile);
       setEditedUsername(fallbackProfile.username);
+      setEditedInstagramUrl(fallbackProfile.instagramUrl || '');
     } finally {
       setIsLoading(false);
     }
@@ -151,6 +174,11 @@ function ProfileContent() {
     };
 
     try {
+      // 認証状態を確認
+      if (!auth.currentUser && !isOtherUser) {
+        return defaultStats;
+      }
+
       let totalShares = 0;
       let busStopReports = 0;
       let lastActive = '未記録';
@@ -166,6 +194,11 @@ function ProfileContent() {
         totalShares = locationSharesSnapshot.size;
       } catch (error) {
         console.warn('位置共有データ取得エラー:', error);
+        
+        // 権限エラーの場合は特別な処理
+        if (error instanceof Error && error.message.includes('permission')) {
+          console.warn('位置共有データの読み取り権限がありません');
+        }
       }
 
       // バス停通過報告数を取得（エラー処理付き）
@@ -195,6 +228,11 @@ function ProfileContent() {
         }
       } catch (error) {
         console.warn('バス停通過データ取得エラー:', error);
+        
+        // 権限エラーの場合は特別な処理
+        if (error instanceof Error && error.message.includes('permission')) {
+          console.warn('バス停通過データの読み取り権限がありません');
+        }
       }
 
       // 最後のアクティビティを取得（エラー処理付き）
@@ -216,6 +254,11 @@ function ProfileContent() {
         }
       } catch (error) {
         console.warn('最終アクティビティ取得エラー:', error);
+        
+        // 権限エラーの場合は特別な処理
+        if (error instanceof Error && error.message.includes('permission')) {
+          console.warn('最終アクティビティデータの読み取り権限がありません');
+        }
       }
 
       return {
@@ -235,24 +278,41 @@ function ProfileContent() {
     if (!user || !editedUsername.trim()) return;
 
     try {
-      const userDocRef = doc(db, 'users', user.uid);
+      // 認証状態を確認
+      if (!auth.currentUser) {
+        alert('プロフィールを更新するにはログインが必要です');
+        router.push('/');
+        return;
+      }
+
+      const userDocRef = doc(db, 'Users', user.uid);
       await setDoc(userDocRef, {
         username: editedUsername.trim(),
         email: user.email,
+        instagramUrl: editedInstagramUrl.trim(),
         updatedAt: new Date(),
         createdAt: userProfile?.stats.joinDate || new Date().toISOString()
       }, { merge: true });
 
       setUserProfile(prev => prev ? {
         ...prev,
-        username: editedUsername.trim()
+        username: editedUsername.trim(),
+        instagramUrl: editedInstagramUrl.trim()
       } : null);
 
       setIsEditing(false);
       alert('プロフィールを更新しました');
     } catch (error) {
       console.error('プロフィール更新エラー:', error);
-      alert('プロフィールの更新に失敗しました');
+      
+      // 権限エラーの場合の特別な処理
+      if (error instanceof Error && error.message.includes('permission')) {
+        alert('プロフィール更新の権限がありません。ログインし直してください。');
+        await signOut(auth);
+        router.push('/');
+      } else {
+        alert('プロフィールの更新に失敗しました');
+      }
     }
   };
 
@@ -319,6 +379,13 @@ function ProfileContent() {
                   className={styles.usernameInput}
                   placeholder="ユーザー名"
                 />
+                <input
+                  type="url"
+                  value={editedInstagramUrl}
+                  onChange={(e) => setEditedInstagramUrl(e.target.value)}
+                  className={styles.instagramInput}
+                  placeholder="Instagram URL (例: https://instagram.com/username)"
+                />
                 <div className={styles.editButtons}>
                   <button 
                     onClick={handleSaveProfile} 
@@ -330,6 +397,7 @@ function ProfileContent() {
                     onClick={() => {
                       setIsEditing(false);
                       setEditedUsername(userProfile.username);
+                      setEditedInstagramUrl(userProfile.instagramUrl || '');
                     }}
                     className={`${styles.button} ${styles.cancelButton}`}
                   >
@@ -341,6 +409,16 @@ function ProfileContent() {
               <div className={styles.userDetails}>
                 <h2 className={styles.username}>{userProfile.username}</h2>
                 <p className={styles.email}>{userProfile.email}</p>
+                {userProfile.instagramUrl && (
+                  <a 
+                    href={userProfile.instagramUrl} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className={styles.instagramLink}
+                  >
+                    📸 Instagram
+                  </a>
+                )}
                 {!isOtherUser && (
                   <button 
                     onClick={() => setIsEditing(true)}
