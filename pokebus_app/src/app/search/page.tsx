@@ -1,5 +1,6 @@
 "use client";
 import { useState, useEffect, useRef } from "react";
+import { useRouter } from "next/navigation";
 import { Menu, X, MapPin, Crosshair } from "lucide-react";
 import Script from "next/script";
 import styles from "./search.module.css";
@@ -27,6 +28,7 @@ const generateGuestUserId = () => {
 };
 
 export default function BusSearch() {
+  const router = useRouter();
   const [menuOpen, setMenuOpen] = useState(false);
   const [mapLoaded, setMapLoaded] = useState(false);
   const [searchQuery, setSearchQuery] = useState("");
@@ -3265,7 +3267,16 @@ export default function BusSearch() {
           <div className={styles.dropdown}>
             <ul className={styles.dropdownList}>
               <li className={styles.dropdownItem}>🏆 ランキング</li>
-              <li className={styles.dropdownItem}>⚙ 設定</li>
+              <li 
+                className={styles.dropdownItem}
+                onClick={() => {
+                  setMenuOpen(false);
+                  router.push('/profile');
+                }}
+                style={{ cursor: 'pointer' }}
+              >
+                👤 プロフィール
+              </li>
             </ul>
           </div>
         )}
