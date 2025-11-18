@@ -80,6 +80,7 @@ export default function BusSearch() {
     position: google.maps.LatLng, 
     timestamp: Date,
     username: string,
+    userId?: string, // ユーザーIDを追加
     email?: string,
     lastActive?: Date
   }>>([]);
@@ -1320,6 +1321,7 @@ export default function BusSearch() {
         position,
         timestamp: new Date(),
         username,
+        userId: userId, // userIdを明示的に追加
         email: currentUser?.email || undefined,
         lastActive: new Date()
       };
@@ -1391,6 +1393,7 @@ export default function BusSearch() {
             position: new window.google.maps.LatLng(data.latitude, data.longitude),
             timestamp: data.timestamp.toDate(),
             username: data.username || 'ゲスト',
+            userId: data.userId, // userIdを明示的に追加
             email: data.email || undefined,
             lastActive: data.lastActive.toDate()
           };
@@ -3986,17 +3989,28 @@ export default function BusSearch() {
                                 )
                                 .map((rider, index) => {
                                   const isCurrentUser = rider.id === currentUser?.uid;
+                                  const canViewProfile = rider.userId && rider.userId !== 'anonymous'; // 認証ユーザーのみプロフィール表示可能
+                                  
                                   return (
                                     <span 
                                       key={`${rider.id}_${index}`} 
+                                      onClick={canViewProfile && !isCurrentUser ? () => {
+                                        console.log('プロフィールページへ遷移:', rider.username, rider.userId);
+                                        // プロフィールページに遷移（クエリパラメータでuserIdを渡す）
+                                        router.push(`/profile?userId=${rider.userId}&username=${encodeURIComponent(rider.username)}`);
+                                      } : undefined}
                                       style={{ 
                                         fontSize: '9px', 
                                         backgroundColor: isCurrentUser ? '#007BFF' : '#d4edda',
                                         color: isCurrentUser ? 'white' : '#155724',
                                         border: isCurrentUser ? '1px solid #0056b3' : '1px solid #c3e6cb',
                                         borderRadius: '4px',
-                                        padding: '1px 4px'
+                                        padding: '1px 4px',
+                                        cursor: canViewProfile && !isCurrentUser ? 'pointer' : 'default',
+                                        textDecoration: canViewProfile && !isCurrentUser ? 'underline' : 'none',
+                                        transition: 'all 0.2s ease'
                                       }}
+                                      title={canViewProfile && !isCurrentUser ? `${rider.username}のプロフィールを表示` : isCurrentUser ? 'あなた' : undefined}
                                     >
                                       {isCurrentUser ? '👤' : '🚌'} {rider.username}
                                     </span>
@@ -4019,7 +4033,22 @@ export default function BusSearch() {
                             busPassedStops[busPassedStops.length - 1].delay < 0 ? `${-busPassedStops[busPassedStops.length - 1].delay}分早く` : '定刻'})
                           {busPassedStops[busPassedStops.length - 1].username && (
                             <span style={{ color: '#28a745', fontWeight: '500' }}>
-                              {' '}by {busPassedStops[busPassedStops.length - 1].username}
+                              {' '}by{' '}
+                              <span 
+                                onClick={busPassedStops[busPassedStops.length - 1].userId && busPassedStops[busPassedStops.length - 1].userId !== 'anonymous' && busPassedStops[busPassedStops.length - 1].userId !== currentUser?.uid ? () => {
+                                  const lastPassage = busPassedStops[busPassedStops.length - 1];
+                                  console.log('プロフィールページへ遷移（直近通過から）:', lastPassage.username, lastPassage.userId);
+                                  router.push(`/profile?userId=${lastPassage.userId}&username=${encodeURIComponent(lastPassage.username || '')}`);
+                                } : undefined}
+                                style={{ 
+                                  cursor: busPassedStops[busPassedStops.length - 1].userId && busPassedStops[busPassedStops.length - 1].userId !== 'anonymous' && busPassedStops[busPassedStops.length - 1].userId !== currentUser?.uid ? 'pointer' : 'default',
+                                  textDecoration: busPassedStops[busPassedStops.length - 1].userId && busPassedStops[busPassedStops.length - 1].userId !== 'anonymous' && busPassedStops[busPassedStops.length - 1].userId !== currentUser?.uid ? 'underline' : 'none',
+                                  color: '#28a745'
+                                }}
+                                title={busPassedStops[busPassedStops.length - 1].userId && busPassedStops[busPassedStops.length - 1].userId !== 'anonymous' && busPassedStops[busPassedStops.length - 1].userId !== currentUser?.uid ? `${busPassedStops[busPassedStops.length - 1].username}のプロフィールを表示` : undefined}
+                              >
+                                {busPassedStops[busPassedStops.length - 1].username}
+                              </span>
                             </span>
                           )}
                         </div>
@@ -4118,7 +4147,21 @@ export default function BusSearch() {
                                   ({passedInfo.delay > 0 ? `+${passedInfo.delay}分` : passedInfo.delay < 0 ? `${passedInfo.delay}分` : '定刻'})
                                   {passedInfo.username && (
                                     <span style={{ color: '#28a745', fontWeight: '500' }}>
-                                      {' '}by {passedInfo.username}
+                                      {' '}by{' '}
+                                      <span 
+                                        onClick={passedInfo.userId && passedInfo.userId !== 'anonymous' && passedInfo.userId !== currentUser?.uid ? () => {
+                                          console.log('プロフィールページへ遷移（通過情報から）:', passedInfo.username, passedInfo.userId);
+                                          router.push(`/profile?userId=${passedInfo.userId}&username=${encodeURIComponent(passedInfo.username || '')}`);
+                                        } : undefined}
+                                        style={{ 
+                                          cursor: passedInfo.userId && passedInfo.userId !== 'anonymous' && passedInfo.userId !== currentUser?.uid ? 'pointer' : 'default',
+                                          textDecoration: passedInfo.userId && passedInfo.userId !== 'anonymous' && passedInfo.userId !== currentUser?.uid ? 'underline' : 'none',
+                                          color: '#28a745'
+                                        }}
+                                        title={passedInfo.userId && passedInfo.userId !== 'anonymous' && passedInfo.userId !== currentUser?.uid ? `${passedInfo.username}のプロフィールを表示` : undefined}
+                                      >
+                                        {passedInfo.username}
+                                      </span>
                                     </span>
                                   )}
                                 </span>

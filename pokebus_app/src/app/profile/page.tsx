@@ -1,7 +1,7 @@
 'use client';
 
 import { useState, useEffect } from 'react';
-import { useRouter } from 'next/navigation';
+import { useRouter, useSearchParams } from 'next/navigation';
 import { User, signOut, onAuthStateChanged } from 'firebase/auth';
 import { collection, query, where, getDocs, orderBy, limit, doc, getDoc, setDoc } from 'firebase/firestore';
 import { auth, db } from '../../../lib/firebase';
@@ -30,7 +30,10 @@ export default function ProfilePage() {
   const [isLoading, setIsLoading] = useState(true);
   const [isEditing, setIsEditing] = useState(false);
   const [editedUsername, setEditedUsername] = useState('');
+  const [isOtherUser, setIsOtherUser] = useState(false); // 他のユーザーのプロフィールかどうか
+  const [targetUserId, setTargetUserId] = useState<string | null>(null); // 表示対象のユーザーID
   const router = useRouter();
+  const searchParams = useSearchParams();
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
@@ -42,28 +45,56 @@ export default function ProfilePage() {
   }, []);
 
   useEffect(() => {
+    // URLパラメータから他のユーザーの情報を取得
+    const userId = searchParams.get('userId');
+    const username = searchParams.get('username');
+    
+    if (userId && userId !== user?.uid) {
+      setIsOtherUser(true);
+      setTargetUserId(userId);
+      console.log('他のユーザーのプロフィール表示:', { userId, username });
+    } else {
+      setIsOtherUser(false);
+      setTargetUserId(null);
+    }
+  }, [searchParams, user]);
+
+  useEffect(() => {
     if (loading) return;
     
-    if (!user) {
+    if (!user && !isOtherUser) {
       router.push('/');
       return;
     }
 
     fetchUserProfile();
-  }, [user, loading, router]);
+  }, [user, loading, isOtherUser, targetUserId, router]);
 
   const fetchUserProfile = async () => {
-    if (!user) return;
-
     try {
       setIsLoading(true);
 
+      let targetUser: User | null = null;
+      let userId: string;
+      
+      if (isOtherUser && targetUserId) {
+        // 他のユーザーのプロフィールを取得
+        userId = targetUserId;
+        console.log('他のユーザーのプロフィール取得開始:', userId);
+      } else if (user) {
+        // 自分のプロフィールを取得
+        targetUser = user;
+        userId = user.uid;
+      } else {
+        return;
+      }
+
       // ユーザーの基本プロフィール情報を取得（エラーが発生してもフォールバック）
-      let username = user.displayName || 'ユーザー';
-      let joinDate = user.metadata.creationTime || new Date().toISOString();
+      let username = targetUser?.displayName || searchParams.get('username') || 'ユーザー';
+      let joinDate = targetUser?.metadata.creationTime || new Date().toISOString();
 
       try {
-        const userDocRef = doc(db, 'users', user.uid);
+        const userDocRef = doc(db, 'users', userId);
         const userDoc = await getDoc(userDocRef);
         
         if (userDoc.exists()) {
@@ -76,11 +107,11 @@ export default function ProfilePage() {
       }
 
       // 統計情報を取得（エラーが発生してもフォールバック）
-      const stats = await fetchUserStats(user.uid);
+      const stats = await fetchUserStats(userId);
 
       const profile: UserProfile = {
         username,
-        email: user.email || '',
+        email: isOtherUser ? '非公開' : (targetUser?.email || ''),
         stats: {
           ...stats,
           joinDate: new Date(joinDate).toLocaleDateString('ja-JP'),
@@ -93,12 +124,12 @@ export default function ProfilePage() {
       console.error('プロフィール取得エラー:', error);
       // フォールバックプロフィールを作成
       const fallbackProfile: UserProfile = {
-        username: user.displayName || 'ユーザー',
-        email: user.email || '',
+        username: isOtherUser ? (searchParams.get('username') || 'ユーザー') : (user?.displayName || 'ユーザー'),
+        email: isOtherUser ? '非公開' : (user?.email || ''),
         stats: {
           totalShares: 0,
           busStopReports: 0,
-          joinDate: new Date(user.metadata.creationTime || new Date().toISOString()).toLocaleDateString('ja-JP'),
+          joinDate: new Date(isOtherUser ? new Date().toISOString() : (user?.metadata.creationTime || new Date().toISOString())).toLocaleDateString('ja-JP'),
           lastActive: '未記録',
           totalDistance: 0,
           favoriteRoute: '未記録'
@@ -269,7 +300,9 @@ export default function ProfilePage() {
         >
           ←
         </button>
-        <h1 className={styles.title}>プロフィール</h1>
+        <h1 className={styles.title}>
+          {isOtherUser ? `${userProfile.username}のプロフィール` : 'プロフィール'}
+        </h1>
       </div>
 
       <div className={styles.profileCard}>
@@ -278,7 +311,7 @@ export default function ProfilePage() {
             {userProfile.username.charAt(0).toUpperCase()}
           </div>
           <div className={styles.userInfo}>
-            {isEditing ? (
+            {isEditing && !isOtherUser ? (
               <div className={styles.editSection}>
                 <input
                   type="text"
@@ -309,12 +342,14 @@ export default function ProfilePage() {
               <div className={styles.userDetails}>
                 <h2 className={styles.username}>{userProfile.username}</h2>
                 <p className={styles.email}>{userProfile.email}</p>
-                <button 
-                  onClick={() => setIsEditing(true)}
-                  className={styles.editButton}
-                >
-                  編集
-                </button>
+                {!isOtherUser && (
+                  <button 
+                    onClick={() => setIsEditing(true)}
+                    className={styles.editButton}
+                  >
+                    編集
+                  </button>
+                )}
               </div>
             )}
           </div>
@@ -357,20 +392,22 @@ export default function ProfilePage() {
         </div>
       </div>
 
-      <div className={styles.actions}>
-        <button 
-          onClick={() => router.push('/settings')}
-          className={`${styles.button} ${styles.secondaryButton}`}
-        >
-          設定
-        </button>
-        <button 
-          onClick={handleSignOut}
-          className={`${styles.button} ${styles.signOutButton}`}
-        >
-          ログアウト
-        </button>
-      </div>
+      {!isOtherUser && (
+        <div className={styles.actions}>
+          <button 
+            onClick={() => router.push('/settings')}
+            className={`${styles.button} ${styles.secondaryButton}`}
+          >
+            設定
+          </button>
+          <button 
+            onClick={handleSignOut}
+            className={`${styles.button} ${styles.signOutButton}`}
+          >
+            ログアウト
+          </button>
+        </div>
+      )}
     </div>
   );
 }
