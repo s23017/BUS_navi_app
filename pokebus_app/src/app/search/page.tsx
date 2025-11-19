@@ -591,18 +591,38 @@ export default function BusSearch() {
         throw new Error('選択した出発停留所から目的地へ向かう経路ではありません');
       }
 
-      // 出発地点から2つ前のバス停まで表示するために、startIdxを調整
-      const adjustedStartIdx = Math.max(0, startIdx - 2);
+      // 出発地点の前のバス停を3つ表示するために、startIdxを調整
+      // 出発地点は含めず、その前の3つのバス停を表示
+      const desiredStartIdx = startIdx - 3;
+      const adjustedStartIdx = Math.max(0, desiredStartIdx);
+      const actualPreviousCount = startIdx - adjustedStartIdx; // 実際に取得できる出発前のバス停数
 
       const slice = tripStops.slice(adjustedStartIdx, endIdx + 1);
-      const routeStopsFull = slice.map((s: any) => {
+      
+      // 重複するstop_idを除去（同じバス停が複数回現れる場合の対策）
+      const uniqueSlice = slice.filter((stop, index, self) => 
+        index === self.findIndex(s => s.stop_id === stop.stop_id)
+      );
+      
+      // デバッグ情報
+      console.log(`Debug: startIdx=${startIdx}, desiredStartIdx=${desiredStartIdx}, adjustedStartIdx=${adjustedStartIdx}, actualPreviousCount=${actualPreviousCount}`);
+      console.log(`slice.length=${slice.length}, uniqueSlice.length=${uniqueSlice.length}`);
+      console.log('Original slice stop names:', slice.map(s => s.stop_id));
+      console.log('Unique slice stop names:', uniqueSlice.map(s => s.stop_id));
+      
+      const routeStopsFull = uniqueSlice.map((s: any, sliceIndex: number) => {
         const stopDef = stops.find((st: any) => st.stop_id === s.stop_id) || { stop_name: s.stop_id, stop_lat: 0, stop_lon: 0 };
+        // 出発地点より前かどうかの判定（出発地点自体は含めない）
+        const isBeforeStart = sliceIndex < actualPreviousCount;
+        
+        console.log(`Stop ${sliceIndex}: ${s.stop_id} (${stopDef.stop_name}), isBeforeStart: ${isBeforeStart}, isStartPoint: ${sliceIndex === actualPreviousCount}`);
+        
         return { 
           ...stopDef, 
           seq: s.seq, 
           arrival_time: s.arrival_time, 
           departure_time: s.departure_time,
-          isBeforeStart: adjustedStartIdx < startIdx && (s.seq < tripStops[startIdx]?.seq) // 出発地点より前のバス停かどうか
+          isBeforeStart: isBeforeStart
         };
       });
 
@@ -3870,14 +3890,24 @@ export default function BusSearch() {
                   </div>
                   <div style={{ fontSize: '13px', fontWeight: 600, marginBottom: '6px' }}>停車順</div>
                   <div style={{ maxHeight: '28vh', overflowY: 'auto' }}>
-                    {routeStops.filter(rs => {
-                      // 停留所の予定時刻が現在時刻から過去2時間を超える場合は表示しない
-                      const scheduled = rs.arrival_time || rs.departure_time;
-                      if (scheduled && !isWithinPastHours(scheduled, 2)) {
-                        return false;
-                      }
-                      return true;
-                    }).map((rs, idx) => {
+                    {routeStops
+                      .filter(rs => {
+                        // 出発地点より前のバス停は時刻に関係なく常に表示
+                        if (rs.isBeforeStart) {
+                          return true;
+                        }
+                        // その他の停留所は予定時刻が現在時刻から過去2時間を超える場合は表示しない
+                        const scheduled = rs.arrival_time || rs.departure_time;
+                        if (scheduled && !isWithinPastHours(scheduled, 2)) {
+                          return false;
+                        }
+                        return true;
+                      })
+                      // 表示時にも重複除去を追加
+                      .filter((rs, index, array) => 
+                        index === array.findIndex(stop => stop.stop_id === rs.stop_id)
+                      )
+                      .map((rs, idx) => {
                       let isNearest = false;
                       try {
                         if (currentLocationRef.current && rs.stop_lat && rs.stop_lon) {
