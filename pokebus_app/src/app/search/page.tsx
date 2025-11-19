@@ -134,6 +134,19 @@ export default function BusSearch() {
     };
   }, []);
 
+  // クライアントサイド遷移で Script が既に読み込まれている場合に備え、
+  // マウント時に window.google が存在すれば mapLoaded を true にする
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    try {
+      if ((window as any).google && (window as any).google.maps) {
+        setMapLoaded(true);
+      }
+    } catch (e) {
+      // noop
+    }
+  }, []);
+
   // ユーザー名取得関数
   const getUserDisplayName = (user: any) => {
     if (user?.displayName) return user.displayName;
@@ -3122,7 +3135,7 @@ export default function BusSearch() {
       <div className={styles.container}>
         {/* ヘッダー */}
         <div className={styles.header}>
-          <img src="/logo.png" alt="logo" className={styles.logo} />
+          <img src="/pokebus_icon.png" alt="logo" className={styles.logo} />
           <button 
             className={styles.menuButton}
             onClick={() => setMenuOpen(!menuOpen)}
