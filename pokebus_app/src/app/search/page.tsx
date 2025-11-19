@@ -2605,7 +2605,7 @@ export default function BusSearch() {
       // 各 trip の停車順をソート
       for (const k of Object.keys(tripStops)) tripStops[k].sort((a,b)=>a.seq-b.seq);
 
-  const destIdsArr = destIds;
+      const destIdsArr = destIds;
       const filtered: any[] = [];
       for (const c of candidates) {
         const cid = c.stop_id;
@@ -2638,93 +2638,131 @@ export default function BusSearch() {
   // 目的地予測候補クリック
   const handlePredictionClick = async (p: any) => {
     if (!p) return;
+    
+    // まずは選択したアイテムの名前を即座に検索バーに設定
     const name = p.structured_formatting?.main_text || '';
     setSearchQuery(name);
     setShowPredictions(false);
     setPredictions([]);
     
-    // 停留所の場合は直接検索、地名の場合は座標を取得してから検索
-    if (p.type === 'place') {
-      // Google Places APIで詳細な座標を取得
+    // 停留所の場合はそのまま名前を設定
+    if (p.type === 'stop') {
+      // 停留所の場合は正確な名前を再設定
+      try {
+        const stops = await loadStops();
+        const selectedStop = stops.find((s: any) => s.stop_id === p.place_id);
+        if (selectedStop) {
+          setSearchQuery(selectedStop.stop_name);
+        } else {
+          setSearchQuery(name);
+        }
+      } catch (e) {
+        setSearchQuery(name);
+      }
+    } else if (p.type === 'place') {
+      // 地名の場合は座標を取得してから検索バーを更新
       if (placesService.current) {
         placesService.current.getDetails(
-          { placeId: p.place_id, fields: ['geometry', 'name'] },
+          { placeId: p.place_id, fields: ['geometry', 'name', 'formatted_address'] },
           async (place, status) => {
             if (status === window.google.maps.places.PlacesServiceStatus.OK && place && place.geometry) {
               const location = place.geometry.location;
+              const placeName = place.name || name;
               if (location) {
-                // 座標を検索クエリとして保存
-                setSearchQuery(`${name} (${location.lat()}, ${location.lng()})`);
-                await handleSearch();
+                // 地名と座標を組み合わせた形式で検索バーに設定
+                setSearchQuery(placeName);
+              } else {
+                setSearchQuery(placeName);
               }
             } else {
-              // フォールバック：通常の検索を実行
-              await handleSearch();
+              // フォールバック：元の名前をそのまま設定
+              setSearchQuery(name);
             }
           }
         );
       } else {
-        await handleSearch();
+        setSearchQuery(name);
       }
-    } else {
-      // 停留所の場合は直接検索
-      await handleSearch();
     }
   };
 
   // 出発地点予測候補クリック
   const handleStartPredictionClick = async (p: any) => {
     if (!p) return;
+    
+    // まずは選択したアイテムの名前を即座に検索バーに設定
     const name = p.structured_formatting?.main_text || '';
     setStartSearchQuery(name);
     setShowStartPredictions(false);
     setStartPredictions([]);
     
     if (p.type === 'stop') {
-      // 停留所の場合は直接選択
-      const stops = await loadStops();
-      const selectedStop = stops.find((s: any) => s.stop_id === p.place_id);
-      if (selectedStop) {
-        setSelectedStart(selectedStop);
+      // 停留所の場合は直接選択して正式名称を設定
+      try {
+        const stops = await loadStops();
+        const selectedStop = stops.find((s: any) => s.stop_id === p.place_id);
+        if (selectedStop) {
+          setSelectedStart(selectedStop);
+          setStartSearchQuery(selectedStop.stop_name); // 停留所の正式名称を設定
+        } else {
+          setStartSearchQuery(name);
+        }
+      } catch (e) {
+        setStartSearchQuery(name);
       }
     } else if (p.type === 'place') {
       // 地名の場合は座標を取得して最寄りの停留所を探す
       if (placesService.current) {
         placesService.current.getDetails(
-          { placeId: p.place_id, fields: ['geometry', 'name'] },
+          { placeId: p.place_id, fields: ['geometry', 'name', 'formatted_address'] },
           async (place, status) => {
             if (status === window.google.maps.places.PlacesServiceStatus.OK && place && place.geometry) {
               const location = place.geometry.location;
+              const placeName = place.name || name;
+              
               if (location) {
                 const lat = location.lat();
                 const lon = location.lng();
                 
-                // 最寄りの停留所を検索
-                const stops = await loadStops();
-                const nearestStop = stops
-                  .map((s: any) => ({
-                    ...s,
-                    distance: getDistance(lat, lon, parseFloat(s.stop_lat), parseFloat(s.stop_lon))
-                  }))
-                  .filter((s: any) => s.distance < 1000) // 1km以内
-                  .sort((a: any, b: any) => a.distance - b.distance)[0];
-                
-                if (nearestStop) {
-                  setSelectedStart(nearestStop);
-                  setStartSearchQuery(`${name} (最寄り: ${nearestStop.stop_name})`);
-                } else {
-                  // 最寄りの停留所が見つからない場合は座標を保存
-                  setSelectedStart({
-                    stop_id: `place_${p.place_id}`,
-                    stop_name: name,
-                    stop_lat: lat.toString(),
-                    stop_lon: lon.toString()
-                  });
+                try {
+                  // 最寄りの停留所を検索
+                  const stops = await loadStops();
+                  const nearestStop = stops
+                    .map((s: any) => ({
+                      ...s,
+                      distance: getDistance(lat, lon, parseFloat(s.stop_lat), parseFloat(s.stop_lon))
+                    }))
+                    .filter((s: any) => s.distance < 1000) // 1km以内
+                    .sort((a: any, b: any) => a.distance - b.distance)[0];
+                  
+                  if (nearestStop) {
+                    setSelectedStart(nearestStop);
+                    setStartSearchQuery(placeName); // 選択した地名をそのまま表示
+                  } else {
+                    // 最寄りの停留所が見つからない場合は座標を保存
+                    setSelectedStart({
+                      stop_id: `place_${p.place_id}`,
+                      stop_name: placeName,
+                      stop_lat: lat.toString(),
+                      stop_lon: lon.toString()
+                    });
+                    setStartSearchQuery(placeName);
+                  }
+                } catch (e) {
+                  // エラーの場合はそのまま地名を設定
+                  setStartSearchQuery(placeName);
                 }
+              } else {
+                setStartSearchQuery(placeName);
               }
+            } else {
+              // API呼び出し失敗時は元の名前を設定
+              setStartSearchQuery(name);
             }
           }
         );
+      } else {
+        setStartSearchQuery(name);
       }
     }
   };
@@ -3276,7 +3314,7 @@ export default function BusSearch() {
             value={startSearchQuery}
             onChange={(e) => handleStartSearchChange(e.target.value)}
             onFocus={() => startSearchQuery && setShowStartPredictions(true)}
-            onBlur={() => setTimeout(() => setShowStartPredictions(false), 150)}
+            onBlur={() => setTimeout(() => setShowStartPredictions(false), 200)} // 遅延時間を増加
           />
           <input
             type="text"
@@ -3285,7 +3323,7 @@ export default function BusSearch() {
             value={searchQuery}
             onChange={(e) => handleSearchChange(e.target.value)}
             onFocus={() => searchQuery && setShowPredictions(true)}
-            onBlur={() => setTimeout(() => setShowPredictions(false), 150)}
+            onBlur={() => setTimeout(() => setShowPredictions(false), 200)} // 遅延時間を増加
           />
           <button
             type="button"
@@ -3914,8 +3952,7 @@ export default function BusSearch() {
                       {busPassedStops.length > 0 && (
                         <div style={{ fontSize: '11px', color: '#666' }}>
                           直近通過: {busPassedStops[busPassedStops.length - 1].stopName} 
-                          ({busPassedStops[busPassedStops.length - 1].delay > 0 ? `${busPassedStops[busPassedStops.length - 1].delay}分遅れ` : 
-                            busPassedStops[busPassedStops.length - 1].delay < 0 ? `${-busPassedStops[busPassedStops.length - 1].delay}分早く` : '定刻'})
+                          ({busPassedStops[busPassedStops.length - 1].delay > 0 ? `+${busPassedStops[busPassedStops.length - 1].delay}分` : busPassedStops[busPassedStops.length - 1].delay < 0 ? `${busPassedStops[busPassedStops.length - 1].delay}分` : '定刻'})
                           {busPassedStops[busPassedStops.length - 1].username && (
                             <span style={{ color: '#28a745', fontWeight: '500' }}>
                               {' '}by{' '}
