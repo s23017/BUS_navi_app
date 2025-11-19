@@ -1,62 +1,375 @@
+
 "use client";
 
-import React, { useEffect, useState } from "react";
-import { Trophy, TrendingUp, Award, Users } from "lucide-react";
+import React, { useState, useEffect, useRef } from "react";
+import { Menu, X, Trophy, TrendingUp, Award, Users, ArrowLeft, Star } from "lucide-react";
+import { db, auth } from "../../../lib/firebase";
+import { collection, query, where, orderBy, limit, onSnapshot, doc, setDoc, getDoc, updateDoc, getDocs, Timestamp } from "firebase/firestore";
+import { onAuthStateChanged } from "firebase/auth";
+import styles from './ranking.module.css';
 
 type RankItem = {
   uid: string;
   displayName: string;
+  email?: string;
   avatarUrl?: string;
   weeklyPoints: number;
   monthlyPoints: number;
   totalPoints: number;
   busPasses: number;
+  lastUpdated: Timestamp;
+  rank?: number;
 };
 
 type Period = "weekly" | "monthly" | "overall";
 
-const SAMPLE_USER: RankItem = {
-  uid: "me",
-  displayName: "あなた",
-  avatarUrl: undefined,
-  weeklyPoints: 120,
-  monthlyPoints: 480,
-  totalPoints: 3240,
-  busPasses: 34,
+// ポイント計算設定
+const POINTS_PER_BUS_STOP = 10;
+
+// ヘッダーコンポーネント
+function Header() {
+  const [menuOpen, setMenuOpen] = useState(false);
+
+  const navigateTo = (path: string) => {
+    window.location.href = path;
+  };
+
+  return (
+    <>
+      {/* ヘッダー */}
+      <div className={styles.appHeader}>
+        <div className={styles.headerContent}>
+          {/* 左側：戻るボタンとタイトル */}
+          <div className={styles.headerLeft}>
+            <button 
+              className={styles.backButton}
+              onClick={() => navigateTo('/search')}
+            >
+              <ArrowLeft className="w-6 h-6" />
+            </button>
+            <div className={styles.headerTitle}>
+              🏆 ランキング
+            </div>
+          </div>
+
+          {/* 右側：メニューボタン */}
+          <button 
+            className={styles.menuButton}
+            onClick={() => setMenuOpen(!menuOpen)}
+          >
+            {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
+          </button>
+        </div>
+
+        {/* ドロップダウンメニュー */}
+        {menuOpen && (
+          <div className={styles.dropdown}>
+            <div className={styles.dropdownContent}>
+              <ul className={styles.dropdownList}>
+                <li 
+                  className={`${styles.dropdownItem} ${styles.dropdownItemOther}`}
+                  onClick={() => navigateTo('/search')}
+                >
+                  <span className={styles.dropdownItemIcon}>🏠</span>
+                  <span className={styles.dropdownItemText}>ホーム</span>
+                </li>
+                <li className={`${styles.dropdownItem} ${styles.dropdownItemActive}`}>
+                  <span className={styles.dropdownItemIcon}>🏆</span>
+                  <span className={styles.dropdownItemTextActive}>ランキング</span>
+                </li>
+                <li 
+                  className={`${styles.dropdownItem} ${styles.dropdownItemOther}`}
+                  onClick={() => navigateTo('/search')}
+                >
+                  <span className={styles.dropdownItemIcon}>📍</span>
+                  <span className={styles.dropdownItemText}>バス停検索</span>
+                </li>
+                <li className={`${styles.dropdownItem} ${styles.dropdownItemOther}`}>
+                  <span className={styles.dropdownItemIcon}>⚙️</span>
+                  <span className={styles.dropdownItemText}>設定</span>
+                </li>
+              </ul>
+            </div>
+          </div>
+        )}
+      </div>
+    </>
+  );
+}
+
+// ポイント計算関数
+const calculatePointsFromBusPasses = (busPasses: number): number => {
+  return busPasses * POINTS_PER_BUS_STOP;
 };
 
-const SAMPLE_RANKING: RankItem[] = [
-  { uid: "u1", displayName: "Alice", weeklyPoints: 220, monthlyPoints: 900, totalPoints: 5400, busPasses: 78 },
-  { uid: "u2", displayName: "Bob", weeklyPoints: 200, monthlyPoints: 760, totalPoints: 4800, busPasses: 64 },
-  { uid: "u3", displayName: "Carol", weeklyPoints: 170, monthlyPoints: 620, totalPoints: 4120, busPasses: 58 },
-  { uid: "me", displayName: "あなた", weeklyPoints: 120, monthlyPoints: 480, totalPoints: 3240, busPasses: 34 },
-  { uid: "u5", displayName: "Eve", weeklyPoints: 80, monthlyPoints: 300, totalPoints: 2100, busPasses: 20 },
-];
+// 週間・月間の期間判定
+const getWeekStart = (date: Date): Date => {
+  const d = new Date(date);
+  const day = d.getDay();
+  const diff = d.getDate() - day + (day === 0 ? -6 : 1); // Monday start
+  return new Date(d.setDate(diff));
+};
 
-export default function RankingPage() {
+const getMonthStart = (date: Date): Date => {
+  return new Date(date.getFullYear(), date.getMonth(), 1);
+};
+
+// ランキングページコンポーネント
+function RankingPage() {
   const [period, setPeriod] = useState<Period>("weekly");
   const [ranking, setRanking] = useState<RankItem[]>([]);
-  const [loading, setLoading] = useState(false);
-  const [user, setUser] = useState<RankItem | null>(null);
+  const [loading, setLoading] = useState(true);
+  const [currentUser, setCurrentUser] = useState<any>(null);
+  const [userStats, setUserStats] = useState<RankItem | null>(null);
+  const [error, setError] = useState<string | null>(null);
 
+  // 認証状態の監視
   useEffect(() => {
-    setLoading(true);
-    const timer = setTimeout(() => {
-      const list = [...SAMPLE_RANKING];
-      if (period === "weekly") {
-        list.sort((a, b) => b.weeklyPoints - a.weeklyPoints);
-      } else if (period === "monthly") {
-        list.sort((a, b) => b.monthlyPoints - a.monthlyPoints);
-      } else {
-        list.sort((a, b) => b.totalPoints - a.totalPoints);
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      console.log('🔐 認証状態変更:', user ? `${user.uid} (${user.email})` : 'ログアウト');
+      setCurrentUser(user);
+      
+      if (!user) {
+        console.warn('⚠️ ユーザーがログインしていません');
+        setError('ランキングを表示するにはログインが必要です');
+        setLoading(false);
+        return;
       }
-      setRanking(list);
-      const me = list.find((r) => r.uid === SAMPLE_USER.uid) ?? SAMPLE_USER;
-      setUser(me);
+    });
+
+    return () => unsubscribe();
+  }, []);
+
+  // ユーザーの統計データを更新/取得
+  const updateUserStats = async (userId: string) => {
+    try {
+      console.log('📊 ユーザー統計データ更新開始:', userId);
+
+      const now = new Date();
+      const weekStart = getWeekStart(now);
+      const monthStart = getMonthStart(now);
+
+      // 全期間のバス停通過数を取得
+      const totalPassagesQuery = query(
+        collection(db, 'busStopPassages'),
+        where('userId', '==', userId)
+      );
+
+      // 週間のバス停通過数を取得
+      const weeklyPassagesQuery = query(
+        collection(db, 'busStopPassages'),
+        where('userId', '==', userId),
+        where('passTime', '>=', Timestamp.fromDate(weekStart))
+      );
+
+      // 月間のバス停通過数を取得
+      const monthlyPassagesQuery = query(
+        collection(db, 'busStopPassages'),
+        where('userId', '==', userId),
+        where('passTime', '>=', Timestamp.fromDate(monthStart))
+      );
+
+      const [totalSnapshot, weeklySnapshot, monthlySnapshot] = await Promise.all([
+        getDocs(totalPassagesQuery),
+        getDocs(weeklyPassagesQuery),
+        getDocs(monthlyPassagesQuery)
+      ]);
+
+      const totalPasses = totalSnapshot.docs.length;
+      const weeklyPasses = weeklySnapshot.docs.length;
+      const monthlyPasses = monthlySnapshot.docs.length;
+
+      // ポイント計算
+      const userStats = {
+        uid: userId,
+        displayName: currentUser?.displayName || currentUser?.email?.split('@')[0] || 'ゲスト',
+        email: currentUser?.email || '',
+        weeklyPoints: calculatePointsFromBusPasses(weeklyPasses),
+        monthlyPoints: calculatePointsFromBusPasses(monthlyPasses),
+        totalPoints: calculatePointsFromBusPasses(totalPasses),
+        busPasses: totalPasses,
+        lastUpdated: Timestamp.now()
+      };
+
+      // Firestoreに統計データを保存
+      const userStatsRef = doc(db, 'userStats', userId);
+      await setDoc(userStatsRef, userStats, { merge: true });
+
+      console.log('✅ ユーザー統計データ更新完了:', {
+        totalPasses,
+        weeklyPasses,
+        monthlyPasses,
+        totalPoints: userStats.totalPoints,
+        weeklyPoints: userStats.weeklyPoints,
+        monthlyPoints: userStats.monthlyPoints
+      });
+      
+      return userStats;
+
+    } catch (error) {
+      console.error('❌ ユーザー統計データ更新エラー:', error);
+      throw error;
+    }
+  };
+
+  // リアルタイムでバス停通過を監視してランキングを更新
+  const listenToBusStopPassagesForRanking = () => {
+    try {
+      if (!currentUser) return null;
+      
+      const q = query(
+        collection(db, 'busStopPassages'),
+        where('userId', '==', currentUser.uid),
+        orderBy('passTime', 'desc'),
+        limit(1) // 最新の1件のみ監視
+      );
+      
+      const unsubscribe = onSnapshot(q, (querySnapshot) => {
+        console.log('🚏 新しいバス停通過情報を検出:', querySnapshot.docs.length, '件');
+        
+        if (!querySnapshot.empty) {
+          const latestPassage = querySnapshot.docs[0].data();
+          console.log('📊 最新のバス停通過:', latestPassage.stopName, 'at', latestPassage.passTime.toDate());
+          
+          // 統計を再計算（少し遅延させてFirestoreの整合性を保つ）
+          setTimeout(() => {
+            updateUserStats(currentUser.uid)
+              .then(() => {
+                console.log('✅ ランキング統計更新完了');
+              })
+              .catch((error) => {
+                console.error('❌ ランキング統計更新失敗:', error);
+              });
+          }, 1000);
+        }
+        
+      }, (error: any) => {
+        console.error('❌ バス停通過監視エラー:', error);
+      });
+      
+      return unsubscribe;
+    } catch (error: any) {
+      console.error('❌ バス停通過監視の開始に失敗:', error);
+      return null;
+    }
+  };
+
+  // ランキングデータの取得
+  const fetchRanking = (period: Period) => {
+    try {
+      console.log('📊 ランキングデータ取得開始:', period);
+      
+      if (!currentUser) {
+        console.warn('⚠️ ユーザーがログインしていません');
+        setError('ランキングを表示するにはログインが必要です');
+        setLoading(false);
+        return null;
+      }
+      
+      setLoading(true);
+      setError(null);
+
+      let orderField = 'totalPoints';
+      if (period === 'weekly') orderField = 'weeklyPoints';
+      if (period === 'monthly') orderField = 'monthlyPoints';
+
+      const rankingQuery = query(
+        collection(db, 'userStats'),
+        orderBy(orderField, 'desc'),
+        limit(50)
+      );
+
+      console.log('🔍 Firestoreクエリ実行中...', { orderField });
+
+      const unsubscribe = onSnapshot(rankingQuery, (snapshot) => {
+        console.log('📊 ランキングデータ受信:', snapshot.docs.length, '件');
+        
+        const rankingData: RankItem[] = snapshot.docs.map((doc, index) => {
+          const data = doc.data();
+          return {
+            uid: doc.id,
+            displayName: data.displayName || 'ゲスト',
+            email: data.email || '',
+            weeklyPoints: data.weeklyPoints || 0,
+            monthlyPoints: data.monthlyPoints || 0,
+            totalPoints: data.totalPoints || 0,
+            busPasses: data.busPasses || 0,
+            lastUpdated: data.lastUpdated || Timestamp.now(),
+            rank: index + 1 // 順位を追加
+          };
+        });
+
+        setRanking(rankingData);
+        
+        // 現在のユーザーの統計を抽出
+        if (currentUser) {
+          const currentUserStats = rankingData.find(item => item.uid === currentUser.uid);
+          if (currentUserStats) {
+            setUserStats(currentUserStats);
+          }
+        }
+
+        setLoading(false);
+        console.log('✅ ランキングデータ設定完了');
+      }, (error: any) => {
+        console.error('❌ ランキングデータ取得エラー:', error);
+        
+        if (error.code === 'permission-denied') {
+          setError('Firestoreのセキュリティルール設定に問題があります');
+        } else if (error.code === 'unauthenticated') {
+          setError('認証エラー: 再ログインしてください');
+        } else {
+          setError(`データベースエラー: ${error.message}`);
+        }
+        setLoading(false);
+      });
+
+      return unsubscribe;
+    } catch (error) {
+      console.error('❌ ランキング取得エラー:', error);
+      setError('データベース接続エラー');
       setLoading(false);
-    }, 300);
-    return () => clearTimeout(timer);
-  }, [period]);
+      return null;
+    }
+  };
+
+  // バス停通過監視のリスナー管理
+  const busStopPassageListenerRef = useRef<(() => void) | null>(null);
+
+  // 現在のユーザーの統計データとバス停通過を監視
+  useEffect(() => {
+    if (currentUser) {
+      console.log('🔄 現在のユーザーの統計データとバス停通過監視を開始:', currentUser.uid);
+      
+      // 統計データの初期更新
+      updateUserStats(currentUser.uid)
+        .then(() => {
+          console.log('✅ ユーザー統計データ初期更新完了');
+        })
+        .catch((error) => {
+          console.error('❌ ユーザー統計データ初期更新失敗:', error);
+        });
+
+      // バス停通過のリアルタイム監視開始
+      const busStopUnsubscribe = listenToBusStopPassagesForRanking();
+      busStopPassageListenerRef.current = busStopUnsubscribe;
+
+      return () => {
+        if (busStopPassageListenerRef.current) {
+          busStopPassageListenerRef.current();
+          busStopPassageListenerRef.current = null;
+        }
+      };
+    }
+  }, [currentUser]);
+
+  // ランキング期間変更時にデータを再取得
+  useEffect(() => {
+    if (currentUser) {
+      const unsubscribe = fetchRanking(period);
+      return unsubscribe || undefined;
+    }
+  }, [period, currentUser]);
 
   const renderPointsFor = (item: RankItem) => {
     if (period === "weekly") return item.weeklyPoints;
@@ -68,180 +381,229 @@ export default function RankingPage() {
     if (rank === 1) return "🥇";
     if (rank === 2) return "🥈";
     if (rank === 3) return "🥉";
+    if (rank <= 10) return "🏆";
     return null;
   };
 
-  const userRank = ranking.findIndex((r) => r.uid === user?.uid) + 1;
+  const userRank = userStats?.rank || 0;
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-indigo-50 via-purple-50 to-pink-50 p-4 sm:p-6">
-      <div className="max-w-4xl mx-auto">
-        {/* ヘッダー */}
-        <div className="text-center mb-8">
-          <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-yellow-400 to-orange-500 rounded-full mb-4 shadow-lg">
-            <Trophy className="w-8 h-8 text-white" />
-          </div>
-          <h1 className="text-3xl font-bold text-gray-800 mb-2">ランキング</h1>
-          <p className="text-gray-600">あなたの順位と実績を確認しましょう</p>
-        </div>
+    <div className={styles.rankingContainer}>
+      <Header />
 
-        {/* ユーザーカード */}
-        <div className="bg-gradient-to-br from-indigo-600 to-purple-600 rounded-2xl shadow-xl p-6 mb-6 text-white">
-          <div className="flex items-center justify-between mb-6">
-            <div className="flex items-center gap-4">
-              <div className="w-16 h-16 rounded-full bg-white/20 backdrop-blur-sm flex items-center justify-center text-white font-bold text-2xl border-2 border-white/30">
-                {user?.displayName?.[0] ?? "あ"}
-              </div>
-              <div>
-                <div className="text-sm opacity-90">あなたの現在順位</div>
-                <div className="text-4xl font-bold flex items-center gap-2">
-                  #{userRank || "-"}
-                  {getRankBadge(userRank) && <span className="text-3xl">{getRankBadge(userRank)}</span>}
-                </div>
-              </div>
+      <div className={styles.main}>
+        <div className={styles.content}>
+          {/* ページタイトル */}
+          <div className={styles.pageTitle}>
+            <div className={styles.titleIcon}>
+              <Trophy className={styles.trophy} />
             </div>
-            <TrendingUp className="w-8 h-8 opacity-50" />
+            <h1 className={styles.titleText}>ランキング</h1>
+            <p className={styles.titleSubtext}>バス停通過でポイントを貯めて上位を目指そう！</p>
           </div>
 
-          <div className="grid grid-cols-3 gap-3">
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-3 text-center border border-white/20">
-              <div className="text-xs opacity-90 mb-1">週間</div>
-              <div className="text-2xl font-bold">{user?.weeklyPoints ?? "-"}</div>
-              <div className="text-xs opacity-75">ポイント</div>
+          {error && (
+            <div className={styles.error}>
+              <p className={styles.errorText}>⚠️ {error}</p>
             </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-3 text-center border border-white/20">
-              <div className="text-xs opacity-90 mb-1">月間</div>
-              <div className="text-2xl font-bold">{user?.monthlyPoints ?? "-"}</div>
-              <div className="text-xs opacity-75">ポイント</div>
-            </div>
-            <div className="bg-white/10 backdrop-blur-sm rounded-xl p-3 text-center border border-white/20">
-              <div className="text-xs opacity-90 mb-1">バス</div>
-              <div className="text-2xl font-bold">{user?.busPasses ?? "-"}</div>
-              <div className="text-xs opacity-75">通過数</div>
-            </div>
-          </div>
-        </div>
+          )}
 
-        {/* 期間切替 */}
-        <div className="flex items-center justify-center gap-2 mb-6">
-          <button
-            className={`px-6 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 ${
-              period === "weekly"
-                ? "bg-white text-indigo-600 shadow-md scale-105"
-                : "bg-white/60 text-gray-600 hover:bg-white/80"
-            }`}
-            onClick={() => setPeriod("weekly")}
-          >
-            週間
-          </button>
-          <button
-            className={`px-6 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 ${
-              period === "monthly"
-                ? "bg-white text-indigo-600 shadow-md scale-105"
-                : "bg-white/60 text-gray-600 hover:bg-white/80"
-            }`}
-            onClick={() => setPeriod("monthly")}
-          >
-            月間
-          </button>
-          <button
-            className={`px-6 py-2.5 rounded-xl text-sm font-semibold transition-all duration-200 ${
-              period === "overall"
-                ? "bg-white text-indigo-600 shadow-md scale-105"
-                : "bg-white/60 text-gray-600 hover:bg-white/80"
-            }`}
-            onClick={() => setPeriod("overall")}
-          >
-            総合
-          </button>
-        </div>
-
-        {/* ランキングリスト */}
-        <div className="bg-white rounded-2xl shadow-lg overflow-hidden">
-          <div className="bg-gradient-to-r from-gray-50 to-gray-100 px-6 py-4 flex items-center gap-2 border-b">
-            <Users className="w-5 h-5 text-gray-600" />
-            <h2 className="font-semibold text-gray-800">ランキング一覧</h2>
-          </div>
-
-          {loading ? (
-            <div className="p-12 text-center">
-              <div className="inline-block w-8 h-8 border-4 border-indigo-200 border-t-indigo-600 rounded-full animate-spin"></div>
-              <p className="text-gray-400 mt-4">読み込み中...</p>
-            </div>
-          ) : (
-            <div className="divide-y divide-gray-100">
-              {ranking.map((r, idx) => {
-                const isMe = r.uid === user?.uid;
-                const rank = idx + 1;
-                const badge = getRankBadge(rank);
-                
-                return (
-                  <div
-                    key={r.uid}
-                    className={`p-4 sm:p-5 transition-all duration-200 ${
-                      isMe
-                        ? "bg-gradient-to-r from-indigo-50 to-purple-50 border-l-4 border-indigo-500"
-                        : "hover:bg-gray-50"
-                    }`}
-                  >
-                    <div className="flex items-center gap-4">
-                      {/* 順位 */}
-                      <div className="flex-shrink-0 w-12 text-center">
-                        {badge ? (
-                          <div className="text-3xl">{badge}</div>
-                        ) : (
-                          <div className={`text-lg font-bold ${isMe ? "text-indigo-600" : "text-gray-400"}`}>
-                            #{rank}
-                          </div>
-                        )}
+          {currentUser ? (
+            <>
+              {/* ユーザーカード */}
+              {userStats && (
+                <div className={styles.userCard}>
+                  <div className={styles.userCardHeader}>
+                    <div className={styles.userCardLeft}>
+                      <div className={styles.userAvatar}>
+                        {userStats.displayName[0]}
                       </div>
-
-                      {/* アバター */}
-                      <div
-                        className={`flex-shrink-0 w-12 h-12 rounded-full flex items-center justify-center text-sm font-semibold ${
-                          isMe
-                            ? "bg-gradient-to-br from-indigo-500 to-purple-500 text-white"
-                            : "bg-gradient-to-br from-gray-200 to-gray-300 text-gray-700"
-                        }`}
-                      >
-                        {r.displayName[0]}
-                      </div>
-
-                      {/* 名前 */}
-                      <div className="flex-1 min-w-0">
-                        <div className={`font-semibold truncate ${isMe ? "text-indigo-700" : "text-gray-800"}`}>
-                          {r.displayName}
+                      <div>
+                        <div className={styles.rankLabel}>あなたの現在順位</div>
+                        <div className={styles.rankValue}>
+                          #{userRank || "-"}
+                          {getRankBadge(userRank) && (
+                            <span className={styles.rankBadge}>{getRankBadge(userRank)}</span>
+                          )}
                         </div>
-                        <div className="text-xs text-gray-400 truncate">{r.uid}</div>
-                      </div>
-
-                      {/* ポイント */}
-                      <div className="flex-shrink-0 text-right">
-                        <div className={`text-xl font-bold ${isMe ? "text-indigo-600" : "text-gray-800"}`}>
-                          {renderPointsFor(r).toLocaleString()}
-                        </div>
-                        <div className="text-xs text-gray-500">ポイント</div>
-                      </div>
-
-                      {/* バス通過 */}
-                      <div className="flex-shrink-0 w-16 text-right">
-                        <div className="inline-flex items-center gap-1 px-2 py-1 bg-gray-100 rounded-full">
-                          <Award className="w-3 h-3 text-gray-600" />
-                          <span className="text-sm font-medium text-gray-700">{r.busPasses}</span>
-                        </div>
+                        <div className={styles.userName}>{userStats.displayName}</div>
                       </div>
                     </div>
+                    <TrendingUp className={styles.trendingIcon} />
                   </div>
-                );
-              })}
+
+                  <div className={styles.statsGrid}>
+                    <div className={styles.statCard}>
+                      <div className={styles.statLabel}>週間ポイント</div>
+                      <div className={styles.statValue}>{userStats.weeklyPoints.toLocaleString()}</div>
+                      <div className={styles.statSubtext}>{Math.floor(userStats.weeklyPoints / POINTS_PER_BUS_STOP)}回通過</div>
+                    </div>
+                    <div className={styles.statCard}>
+                      <div className={styles.statLabel}>月間ポイント</div>
+                      <div className={styles.statValue}>{userStats.monthlyPoints.toLocaleString()}</div>
+                      <div className={styles.statSubtext}>{Math.floor(userStats.monthlyPoints / POINTS_PER_BUS_STOP)}回通過</div>
+                    </div>
+                    <div className={styles.statCard}>
+                      <div className={styles.statLabel}>総合ポイント</div>
+                      <div className={styles.statValue}>{userStats.totalPoints.toLocaleString()}</div>
+                      <div className={styles.statSubtext}>{userStats.busPasses}回通過</div>
+                    </div>
+                  </div>
+                  
+                  <div className={styles.pointsInfo}>
+                    <div className={styles.pointsTitle}>🎯 ポイント獲得方法</div>
+                    <div className={styles.pointsText}>
+                      • バス停通過: <span className={styles.pointsHighlight}>+{POINTS_PER_BUS_STOP}ポイント</span><br/>
+                      • 「乗車中」状態でバス停付近を通過すると自動獲得<br/>
+                      • リアルタイム位置共有で他のユーザーと競い合おう！
+                    </div>
+                  </div>
+                </div>
+              )}
+
+              {/* 期間切替 */}
+              <div className={styles.periodTabs}>
+                <button
+                  className={`${styles.periodTab} ${
+                    period === "weekly" ? styles.periodTabActive : styles.periodTabInactive
+                  }`}
+                  onClick={() => setPeriod("weekly")}
+                >
+                  週間ランキング
+                </button>
+                <button
+                  className={`${styles.periodTab} ${
+                    period === "monthly" ? styles.periodTabActive : styles.periodTabInactive
+                  }`}
+                  onClick={() => setPeriod("monthly")}
+                >
+                  月間ランキング
+                </button>
+                <button
+                  className={`${styles.periodTab} ${
+                    period === "overall" ? styles.periodTabActive : styles.periodTabInactive
+                  }`}
+                  onClick={() => setPeriod("overall")}
+                >
+                  総合ランキング
+                </button>
+              </div>
+
+              {/* ランキングリスト */}
+              <div className={styles.rankingList}>
+                <div className={styles.rankingHeader}>
+                  <Users className="w-5 h-5" />
+                  <h2 className={styles.rankingTitle}>ランキング一覧</h2>
+                  <div className={styles.periodLabel}>
+                    {period === 'weekly' && '今週の獲得ポイント'}
+                    {period === 'monthly' && '今月の獲得ポイント'}
+                    {period === 'overall' && '総合獲得ポイント'}
+                  </div>
+                </div>
+
+                {loading ? (
+                  <div className={styles.loading}>
+                    <div className={styles.spinner}></div>
+                    <p className={styles.loadingText}>読み込み中...</p>
+                  </div>
+                ) : ranking.length === 0 ? (
+                  <div className={styles.noData}>
+                    <p className={styles.noDataText}>まだランキングデータがありません</p>
+                    <p className={styles.noDataSubtext}>バス停を通過してポイントを貯めましょう！</p>
+                  </div>
+                ) : (
+                  <div className={styles.rankingItems}>
+                    {ranking.map((r, idx) => {
+                      const isMe = currentUser && r.uid === currentUser.uid;
+                      const rank = r.rank || idx + 1;
+                      const badge = getRankBadge(rank);
+                      const points = renderPointsFor(r);
+                      
+                      return (
+                        <div
+                          key={r.uid}
+                          className={`${styles.rankingItem} ${
+                            isMe ? styles.rankingItemMe : styles.rankingItemOther
+                          }`}
+                        >
+                          <div className={styles.rankingItemContent}>
+                            {/* 順位 */}
+                            <div className={styles.rankPosition}>
+                              {badge ? (
+                                <div className={styles.rankBadgeLarge}>{badge}</div>
+                              ) : (
+                                <div className={`${styles.rankNumber} ${isMe ? styles.rankNumberMe : styles.rankNumberOther}`}>
+                                  #{rank}
+                                </div>
+                              )}
+                            </div>
+
+                            {/* アバター */}
+                            <div
+                              className={`${styles.itemAvatar} ${
+                                isMe ? styles.itemAvatarMe : styles.itemAvatarOther
+                              }`}
+                            >
+                              {r.displayName[0]}
+                            </div>
+
+                            {/* 名前とメール */}
+                            <div className={styles.itemInfo}>
+                              <div className={`${styles.itemName} ${isMe ? styles.itemNameMe : styles.itemNameOther}`}>
+                                {r.displayName}
+                                {isMe && <span className={styles.itemNameBadge}>(あなた)</span>}
+                              </div>
+                              <div className={styles.itemEmail}>{r.email}</div>
+                            </div>
+
+                            {/* ポイントとバス通過回数 */}
+                            <div className={styles.itemStats}>
+                              <div className={`${styles.itemPoints} ${isMe ? styles.itemPointsMe : styles.itemPointsOther}`}>
+                                {points.toLocaleString()}
+                              </div>
+                              <div className={styles.itemPointsLabel}>ポイント</div>
+                              <div className={styles.itemBadge}>
+                                <Award className={styles.itemBadgeIcon} />
+                                <span className={styles.itemBadgeText}>{r.busPasses}</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      );
+                    })}
+                  </div>
+                )}
+              </div>
+
+              <div className={styles.footer}>
+                <p className={styles.footerText}>
+                  🎯 バス停通過1回につき{POINTS_PER_BUS_STOP}ポイント自動獲得
+                </p>
+                <p className={styles.footerText}>
+                  ✨ Firebase連携済み - リアルタイム更新
+                </p>
+                <p className={styles.footerText}>
+                  🚌 「乗車中」状態でバス停付近を通過すると自動でポイント獲得
+                </p>
+              </div>
+            </>
+          ) : (
+            <div className={styles.loginRequired}>
+              <div className={styles.loginIcon}>🔒</div>
+              <h3 className={styles.loginTitle}>
+                ログインが必要です
+              </h3>
+              <p className={styles.loginText}>
+                ランキング機能を利用するには認証が必要です
+              </p>
             </div>
           )}
         </div>
-
-        <p className="text-xs text-gray-400 text-center mt-4">
-          ※ データはサンプルです。実際の運用時はFirestore / APIと連携してください。
-        </p>
       </div>
     </div>
   );
+}
+
+export default function RankingPageMain() {
+  return <RankingPage />;
 }

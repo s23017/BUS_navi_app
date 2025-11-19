@@ -1,4 +1,4 @@
-'use client';
+"use client";
 
 import { useState, useEffect, Suspense } from 'react';
 import { useRouter, useSearchParams } from 'next/navigation';
@@ -6,6 +6,8 @@ import { User, signOut, onAuthStateChanged } from 'firebase/auth';
 import { collection, query, where, getDocs, orderBy, limit, doc, getDoc, setDoc } from 'firebase/firestore';
 import { auth, db } from '../../../lib/firebase';
 import styles from './profile.module.css';
+import searchStyles from '../search/search.module.css';
+import { Menu, X } from 'lucide-react';
 
 interface UserStats {
   totalShares: number;
@@ -35,6 +37,7 @@ function ProfileContent() {
   const [editedInstagramUrl, setEditedInstagramUrl] = useState('');
   const [isOtherUser, setIsOtherUser] = useState(false); // 他のユーザーのプロフィールかどうか
   const [targetUserId, setTargetUserId] = useState<string | null>(null); // 表示対象のユーザーID
+  const [menuOpen, setMenuOpen] = useState(false);
   const router = useRouter();
   const searchParams = useSearchParams();
 
@@ -360,18 +363,48 @@ function ProfileContent() {
 
   return (
     <div className={styles.container}>
-      <div className={styles.header}>
-        <button 
-          onClick={() => router.back()} 
-          className={styles.backButton}
-          aria-label="戻る"
+      {/* search と同じヘッダー表示にする */}
+      <div className={searchStyles.header}>
+        <img
+          src="/pokebus_icon.png"
+          alt="logo"
+          className={searchStyles.logo}
+          onClick={() => router.push('/search')}
+          style={{ cursor: 'pointer' }}
+        />
+        <button
+          className={searchStyles.menuButton}
+          onClick={() => setMenuOpen(!menuOpen)}
+          aria-label="メニュー"
         >
-          ←
+          {menuOpen ? <X size={28} /> : <Menu size={28} />}
         </button>
-        <h1 className={styles.title}>
-          {isOtherUser ? `${userProfile.username}のプロフィール` : 'プロフィール'}
-        </h1>
       </div>
+      {menuOpen && (
+        <div className={searchStyles.dropdown}>
+          <ul className={searchStyles.dropdownList}>
+            <li
+              className={searchStyles.dropdownItem}
+              onClick={() => {
+                setMenuOpen(false);
+                router.push('/settings');
+              }}
+            >
+              ⚙️ 設定
+            </li>
+            <li
+              className={searchStyles.dropdownItem}
+              onClick={async () => {
+                setMenuOpen(false);
+                await signOut(auth);
+                router.push('/');
+              }}
+            >
+              🔒 ログアウト
+            </li>
+          </ul>
+        </div>
+      )}
 
       <div className={styles.profileCard}>
         <div className={styles.avatarSection}>
