@@ -212,7 +212,11 @@ export default function BusSearch() {
 
   const getRouteSequenceInfo = () => {
     const sequence: { stopId: string; stopName: string; seq: number; scheduledTime?: string }[] = [];
-    routeStops.forEach((stop, index) => {
+    // 共有用の全バス停リストを使用
+    const fullRouteStops = (window as any).fullRouteStops || routeStops;
+    console.log(`getRouteSequenceInfo: 使用するバス停リスト数 = ${fullRouteStops.length}`);
+    
+    fullRouteStops.forEach((stop: any, index: number) => {
       const stopId = stop?.stop_id;
       if (!stopId) return;
       const rawSeq = Number(stop?.seq);
@@ -591,31 +595,40 @@ export default function BusSearch() {
         throw new Error('選択した出発停留所から目的地へ向かう経路ではありません');
       }
 
-      // 出発地点の前のバス停を3つ表示するために、startIdxを調整
-      // 出発地点は含めず、その前の3つのバス停を表示
+      // 表示用：出発地点の前のバス停を3つ表示するために、startIdxを調整
       const desiredStartIdx = startIdx - 3;
       const adjustedStartIdx = Math.max(0, desiredStartIdx);
-      const actualPreviousCount = startIdx - adjustedStartIdx; // 実際に取得できる出発前のバス停数
+      const actualPreviousCount = startIdx - adjustedStartIdx;
 
-      const slice = tripStops.slice(adjustedStartIdx, endIdx + 1);
+      // 表示用の限定範囲
+      const displaySlice = tripStops.slice(adjustedStartIdx, endIdx + 1);
       
-      // 重複するstop_idを除去（同じバス停が複数回現れる場合の対策）
-      const uniqueSlice = slice.filter((stop, index, self) => 
+      // 位置情報共有用：バス路線全体を対象にする
+      const fullRouteSlice = tripStops.slice(0, tripStops.length);
+      
+      // 重複するstop_idを除去（表示用）
+      const uniqueDisplaySlice = displaySlice.filter((stop, index, self) => 
+        index === self.findIndex(s => s.stop_id === stop.stop_id)
+      );
+      
+      // 重複するstop_idを除去（共有用・全路線）
+      const uniqueFullRouteSlice = fullRouteSlice.filter((stop, index, self) => 
         index === self.findIndex(s => s.stop_id === stop.stop_id)
       );
       
       // デバッグ情報
       console.log(`Debug: startIdx=${startIdx}, desiredStartIdx=${desiredStartIdx}, adjustedStartIdx=${adjustedStartIdx}, actualPreviousCount=${actualPreviousCount}`);
-      console.log(`slice.length=${slice.length}, uniqueSlice.length=${uniqueSlice.length}`);
-      console.log('Original slice stop names:', slice.map(s => s.stop_id));
-      console.log('Unique slice stop names:', uniqueSlice.map(s => s.stop_id));
+      console.log(`displaySlice.length=${displaySlice.length}, uniqueDisplaySlice.length=${uniqueDisplaySlice.length}`);
+      console.log(`fullRouteSlice.length=${fullRouteSlice.length}, uniqueFullRouteSlice.length=${uniqueFullRouteSlice.length}`);
+      console.log('Display slice stop names:', uniqueDisplaySlice.map(s => s.stop_id));
+      console.log('Full route slice stop names:', uniqueFullRouteSlice.map(s => s.stop_id));
       
-      const routeStopsFull = uniqueSlice.map((s: any, sliceIndex: number) => {
+      // 表示用のバス停データ
+      const routeStopsFull = uniqueDisplaySlice.map((s: any, sliceIndex: number) => {
         const stopDef = stops.find((st: any) => st.stop_id === s.stop_id) || { stop_name: s.stop_id, stop_lat: 0, stop_lon: 0 };
-        // 出発地点より前かどうかの判定（出発地点自体は含めない）
         const isBeforeStart = sliceIndex < actualPreviousCount;
         
-        console.log(`Stop ${sliceIndex}: ${s.stop_id} (${stopDef.stop_name}), isBeforeStart: ${isBeforeStart}, isStartPoint: ${sliceIndex === actualPreviousCount}`);
+        console.log(`Display Stop ${sliceIndex}: ${s.stop_id} (${stopDef.stop_name}), isBeforeStart: ${isBeforeStart}, isStartPoint: ${sliceIndex === actualPreviousCount}`);
         
         return { 
           ...stopDef, 
@@ -623,6 +636,18 @@ export default function BusSearch() {
           arrival_time: s.arrival_time, 
           departure_time: s.departure_time,
           isBeforeStart: isBeforeStart
+        };
+      });
+      
+      // 位置情報共有用のバス停データ（グローバル変数に保存）
+      const fullRouteStops = uniqueFullRouteSlice.map((s: any) => {
+        const stopDef = stops.find((st: any) => st.stop_id === s.stop_id) || { stop_name: s.stop_id, stop_lat: 0, stop_lon: 0 };
+        return { 
+          ...stopDef, 
+          seq: s.seq, 
+          arrival_time: s.arrival_time, 
+          departure_time: s.departure_time,
+          isBeforeStart: false // 共有用では全て通常バス停として扱う
         };
       });
 
@@ -643,6 +668,8 @@ export default function BusSearch() {
       }
 
       setRouteStops(routeStopsFull);
+      // 位置情報共有用：バス路線全体をグローバル変数に保存
+      (window as any).fullRouteStops = fullRouteStops;
       setSelectedTripId(tripId);
       setIsSheetMinimized(false);
       setSheetTranslateY(0);
@@ -2030,13 +2057,17 @@ export default function BusSearch() {
 
   // 乗車開始時に現在位置より前のバス停の通過判定を自動推論
   const inferPreviousPassedStops = (currentPos: google.maps.LatLng, tripId: string) => {
-    if (routeStops.length === 0) return;
+    // 共有用の全バス停リストを取得（表示範囲に制限されない）
+    const fullRouteStops = (window as any).fullRouteStops || routeStops;
+    console.log(`inferPreviousPassedStops: 使用するバス停リスト数 = ${fullRouteStops.length}`);
+    
+    if (fullRouteStops.length === 0) return;
     
     // 現在位置から最も近いバス停を特定
     let nearestStopIndex = -1;
     let nearestDistance = Infinity;
     
-    routeStops.forEach((stop, index) => {
+    fullRouteStops.forEach((stop: any, index: number) => {
       const stopLat = parseFloat(stop.stop_lat);
       const stopLon = parseFloat(stop.stop_lon);
       
@@ -2047,6 +2078,8 @@ export default function BusSearch() {
         stopLat, stopLon
       );
       
+      console.log(`バス停 ${index}: ${stop.stop_name} (${stop.stop_id}) - 距離: ${distance.toFixed(0)}m`);
+      
       if (distance < nearestDistance) {
         nearestDistance = distance;
         nearestStopIndex = index;
@@ -2054,21 +2087,35 @@ export default function BusSearch() {
     });
     
     if (nearestStopIndex === -1) {
-
+      console.log('inferPreviousPassedStops: 最寄りバス停が見つかりませんでした');
       return;
     }
     
-    const nearestStop = routeStops[nearestStopIndex];
+    const nearestStop = fullRouteStops[nearestStopIndex];
     
-    // 乗車判定の条件：最寄りバス停から200m以内
-    if (nearestDistance > 200) {
-
+    // 乗車判定の条件：最寄りバス停から500m以内（2つ前のバス停からも共有可能にする）
+    if (nearestDistance > 500) {
+      console.log(`乗車判定失敗: 最寄りバス停 ${nearestStop.stop_name} から ${nearestDistance.toFixed(0)}m離れています（500m以上）`);
       return;
     }
+    
+    console.log(`最寄りバス停: ${nearestStop.stop_name} (${nearestDistance.toFixed(0)}m) - インデックス: ${nearestStopIndex}`);
     
     // 現在のバス停より前のバス停を通過済みとして推論
     const currentTime = new Date();
     const newPassedStops: PassedStopRecord[] = [];
+    
+    for (let i = 0; i < nearestStopIndex; i++) {
+      const stop = fullRouteStops[i];
+      newPassedStops.push({
+        stopId: stop.stop_id,
+        stopName: stop.stop_name,
+        passTime: currentTime,
+        delay: 0,
+        inferred: true
+      });
+      console.log(`推論で追加: ${stop.stop_name} (${stop.stop_id}) - seq: ${stop.seq}`);
+    }
     
     for (let i = 0; i < nearestStopIndex; i++) {
       const previousStop = routeStops[i];
@@ -3894,27 +3941,40 @@ export default function BusSearch() {
                       .filter(rs => {
                         // 出発地点より前のバス停は時刻に関係なく常に表示
                         if (rs.isBeforeStart) {
+                          console.log(`Before start stop ${rs.stop_name}: showing regardless of time`);
                           return true;
                         }
                         // その他の停留所は予定時刻が現在時刻から過去2時間を超える場合は表示しない
                         const scheduled = rs.arrival_time || rs.departure_time;
                         if (scheduled && !isWithinPastHours(scheduled, 2)) {
+                          console.log(`Stop ${rs.stop_name}: filtered out by time (${scheduled})`);
                           return false;
                         }
+                        console.log(`Stop ${rs.stop_name}: showing (time check passed)`);
                         return true;
                       })
                       // 表示時にも重複除去を追加
-                      .filter((rs, index, array) => 
-                        index === array.findIndex(stop => stop.stop_id === rs.stop_id)
-                      )
+                      .filter((rs, index, array) => {
+                        const isDuplicate = index !== array.findIndex(stop => stop.stop_id === rs.stop_id);
+                        if (isDuplicate) {
+                          console.log(`Stop ${rs.stop_name}: filtered out as duplicate`);
+                        }
+                        return !isDuplicate;
+                      })
                       .map((rs, idx) => {
                       let isNearest = false;
+                      let nearestDistance = Infinity;
                       try {
                         if (currentLocationRef.current && rs.stop_lat && rs.stop_lon) {
                           const curLat = (currentLocationRef.current as google.maps.LatLng).lat();
                           const curLon = (currentLocationRef.current as google.maps.LatLng).lng();
                           const d = getDistance(curLat, curLon, parseFloat(rs.stop_lat), parseFloat(rs.stop_lon));
+                          nearestDistance = d;
                           isNearest = d < 150; // 150m以内を「現在地に近い」とする
+                          
+                          if (d < 250) { // 250m以内の場合はデバッグログ出力
+                            console.log(`Stop ${rs.stop_name}: distance=${d.toFixed(0)}m, isNearest=${isNearest}`);
+                          }
                         }
                       } catch (e) {
                         isNearest = false;
