@@ -1,0 +1,6 @@
+stop_id,stop_code,stop_name,stop_desc,stop_lat,stop_lon,zone_id,stop_url,location_type,parent_station
+stop1,,札幌駅前,,43.0686,141.3507,,,0,
+stop2,,大通公園,,43.0596,141.3547,,,0,
+stop3,,すすきの,,43.0554,141.3540,,,0,
+stop4,,新千歳空港,,42.7749,141.6920,,,0,
+stop5,,旭川駅前,,43.7703,142.3650,,,0,

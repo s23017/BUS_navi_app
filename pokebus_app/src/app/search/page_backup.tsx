@@ -1957,7 +1957,7 @@ export default function BusSearch() {
                 <h4 style="margin: 0 0 8px 0; color: #007BFF;">� あなたの位置</h4>
                 <p style="margin: 4px 0; color: #666;"><strong>ユーザー名:</strong> ${rider.username}</p>
                 <p style="margin: 4px 0; color: #666;"><strong>位置:</strong> ${rider.position.lat().toFixed(6)}, ${rider.position.lng().toFixed(6)}</p>
-                <p style="margin: 4px 0; color: #666;"><strong>最終更新:</strong> ${rider.timestamp.toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' })}</p>
+                <p style="margin: 4px 0; color: #666;"><strong>最終更新:</strong> ${rider.timestamp.toLocaleTimeString()}</p>
                 <p style="margin: 8px 0 4px 0; color: #007BFF; font-size: 12px;">🔄 位置情報を共有中</p>
               </div>
             `
@@ -2309,54 +2309,104 @@ export default function BusSearch() {
     setEstimatedArrivalTimes(newEstimates);
   };
 
-  // 指定した座標近くの停留所候補を計算してモーダル表示する（selectedDestがあれば目的地に向かう便のある停留所に絞る）
-  const findNearbyStopsForPosition = async (pos: { lat: number; lon: number }) => {
+  // 目的地検索入力ハンドラ
+  const handleSearchChange = async (value: string) => {
+    setSearchQuery(value);
+    setShowPredictions(false);
+    setPredictions([]);
     try {
-      setStopsError(null);
-      setNearbyStops([]);
-      setLoadingStops(true);
-
+      const q = value.trim().toLowerCase();
+      if (!q) return;
+      
+      const predictions: any[] = [];
+      
+      // 1. 停留所名での検索
       const stops = await loadStops();
-      // 距離算出
-      const withDist = stops.map((s: any) => ({ ...s, distance: getDistance(pos.lat, pos.lon, parseFloat(s.stop_lat), parseFloat(s.stop_lon)) }));
-      let candidates = withDist.filter((s: any) => s.distance < 3000).sort((a: any, b: any) => a.distance - b.distance).slice(0, 100);
-
-      // 目的地が選択されていれば、目的地に向かう便がある停留所のみを残す
-      if (selectedDest) {
-        const stopTimes = await loadStopTimes();
-        const tripStops: Record<string, { stop_id: string; seq: number }[]> = {};
-        for (const st of stopTimes) {
-          if (!tripStops[st.trip_id]) tripStops[st.trip_id] = [];
-          tripStops[st.trip_id].push({ stop_id: st.stop_id, seq: Number(st.stop_sequence) });
+      let userLat: number | null = null;
+      let userLon: number | null = null;
+      if (currentLocationRef.current && (window.google && typeof window.google.maps.LatLng === 'function')) {
+        try {
+          userLat = (currentLocationRef.current as google.maps.LatLng).lat();
+          userLon = (currentLocationRef.current as google.maps.LatLng).lng();
+        } catch (e) {
+          userLat = null; userLon = null;
         }
-        for (const k of Object.keys(tripStops)) tripStops[k].sort((a, b) => a.seq - b.seq);
-
-        const destIdsArr = selectedDestIds;
-        const filtered: any[] = [];
-        for (const c of candidates) {
-          const cid = c.stop_id;
-          let ok = false;
-          for (const stopsArr of Object.values(tripStops)) {
-            const idxStart = stopsArr.findIndex((x: any) => x.stop_id === cid);
-            if (idxStart === -1) continue;
-            for (const did of destIdsArr) {
-              const idxDest = stopsArr.findIndex((x: any) => x.stop_id === did);
-              if (idxDest !== -1 && idxStart < idxDest) { ok = true; break; }
-            }
-            if (ok) break;
-          }
-          if (ok) filtered.push(c);
-        }
-        candidates = filtered;
       }
 
-      setNearbyStops(candidates.slice(0, 20));
-      setShowStopCandidates(true);
-      setShowBusRoutes(false);
-    } catch (e: any) {
-      setStopsError(e.message || '検索でエラーが発生しました');
-    } finally {
-      setLoadingStops(false);
+      const stopMatches = stops
+        .filter((s: any) => (s.stop_name || '').toLowerCase().includes(q))
+        .map((s: any, index: number) => {
+          let secondary = '🚏 停留所';
+          if (userLat !== null && userLon !== null) {
+            const d = Math.round(getDistance(userLat, userLon, parseFloat(s.stop_lat), parseFloat(s.stop_lon)));
+            secondary = `🚏 停留所 • ${d}m`;
+          }
+          return { 
+            place_id: s.stop_id, 
+            unique_key: `stop_${s.stop_id}_${index}`,
+            type: 'stop',
+            structured_formatting: { main_text: s.stop_name, secondary_text: secondary } 
+          };
+        })
+        .sort((a: any, b: any) => {
+          const ad = a.structured_formatting.secondary_text.includes('•') ? 
+            parseInt(a.structured_formatting.secondary_text.split('•')[1]) : Infinity;
+          const bd = b.structured_formatting.secondary_text.includes('•') ? 
+            parseInt(b.structured_formatting.secondary_text.split('•')[1]) : Infinity;
+          return ad - bd;
+        })
+        .slice(0, 5);
+
+      predictions.push(...stopMatches);
+
+      // 2. Google Places APIでの地名検索
+      if (autocompleteService.current && q.length >= 2) {
+        try {
+          const placesRequest = {
+            input: q,
+            componentRestrictions: { country: 'jp' },
+            locationBias: userLat && userLon ? {
+              center: new window.google.maps.LatLng(userLat, userLon),
+              radius: 50000 // 50km範囲
+            } : undefined,
+            types: ['establishment', 'geocode']
+          };
+          
+          const placesResults: any = await new Promise((resolve) => {
+            autocompleteService.current!.getPlacePredictions(placesRequest, (results, status) => {
+              if (status === window.google.maps.places.PlacesServiceStatus.OK && results) {
+                resolve(results);
+              } else {
+                resolve([]);
+              }
+            });
+          });
+
+          const placeMatches = placesResults
+            .filter((p: any) => p.description.includes('沖縄') || p.description.includes('那覇') || 
+              p.description.includes('宜野湾') || p.description.includes('浦添') || p.description.includes('具志川'))
+            .slice(0, 3)
+            .map((p: any, index: number) => ({
+              place_id: p.place_id,
+              unique_key: `place_${p.place_id}_${index}`,
+              type: 'place',
+              structured_formatting: {
+                main_text: p.structured_formatting.main_text,
+                secondary_text: `📍 ${p.structured_formatting.secondary_text}`
+              }
+            }));
+
+          predictions.push(...placeMatches);
+        } catch (e) {
+        }
+      }
+
+      if (predictions.length > 0) {
+        setPredictions(predictions.slice(0, 8));
+        setShowPredictions(true);
+      }
+    } catch (e) {
+      // ignore prediction errors
     }
   };
 
@@ -2461,107 +2511,6 @@ export default function BusSearch() {
     }
   };
 
-  // 目的地検索入力ハンドラ
-  const handleSearchChange = async (value: string) => {
-    setSearchQuery(value);
-    setShowPredictions(false);
-    setPredictions([]);
-    try {
-      const q = value.trim().toLowerCase();
-      if (!q) return;
-      
-      const predictions: any[] = [];
-      
-      // 1. 停留所名での検索
-      const stops = await loadStops();
-      let userLat: number | null = null;
-      let userLon: number | null = null;
-      if (currentLocationRef.current && (window.google && typeof window.google.maps.LatLng === 'function')) {
-        try {
-          userLat = (currentLocationRef.current as google.maps.LatLng).lat();
-          userLon = (currentLocationRef.current as google.maps.LatLng).lng();
-        } catch (e) {
-          userLat = null; userLon = null;
-        }
-      }
-
-      const stopMatches = stops
-        .filter((s: any) => (s.stop_name || '').toLowerCase().includes(q))
-        .map((s: any, index: number) => {
-          let secondary = '🚏 停留所';
-          if (userLat !== null && userLon !== null) {
-            const d = Math.round(getDistance(userLat, userLon, parseFloat(s.stop_lat), parseFloat(s.stop_lon)));
-            secondary = `🚏 停留所 • ${d}m`;
-          }
-          return { 
-            place_id: s.stop_id, 
-            unique_key: `stop_${s.stop_id}_${index}`,
-            type: 'stop',
-            structured_formatting: { main_text: s.stop_name, secondary_text: secondary } 
-          };
-        })
-        .sort((a: any, b: any) => {
-          const ad = a.structured_formatting.secondary_text.includes('•') ? 
-            parseInt(a.structured_formatting.secondary_text.split('•')[1]) : Infinity;
-          const bd = b.structured_formatting.secondary_text.includes('•') ? 
-            parseInt(b.structured_formatting.secondary_text.split('•')[1]) : Infinity;
-          return ad - bd;
-        })
-        .slice(0, 5);
-
-      predictions.push(...stopMatches);
-
-      // 2. Google Places APIでの地名検索
-      if (autocompleteService.current && q.length >= 2) {
-        try {
-          const placesRequest = {
-            input: q,
-            componentRestrictions: { country: 'jp' },
-            locationBias: userLat && userLon ? {
-              center: new window.google.maps.LatLng(userLat, userLon),
-              radius: 50000 // 50km範囲
-            } : undefined,
-            types: ['establishment', 'geocode']
-          };
-          
-          const placesResults: any = await new Promise((resolve) => {
-            autocompleteService.current!.getPlacePredictions(placesRequest, (results, status) => {
-              if (status === window.google.maps.places.PlacesServiceStatus.OK && results) {
-                resolve(results);
-              } else {
-                resolve([]);
-              }
-            });
-          });
-
-          const placeMatches = placesResults
-            .filter((p: any) => p.description.includes('沖縄') || p.description.includes('那覇') || 
-              p.description.includes('宜野湾') || p.description.includes('浦添') || p.description.includes('具志川'))
-            .slice(0, 3)
-            .map((p: any, index: number) => ({
-              place_id: p.place_id,
-              unique_key: `place_${p.place_id}_${index}`,
-              type: 'place',
-              structured_formatting: {
-                main_text: p.structured_formatting.main_text,
-                secondary_text: `📍 ${p.structured_formatting.secondary_text}`
-              }
-            }));
-
-          predictions.push(...placeMatches);
-        } catch (e) {
-        }
-      }
-
-      if (predictions.length > 0) {
-        setPredictions(predictions.slice(0, 8));
-        setShowPredictions(true);
-      }
-    } catch (e) {
-      // ignore prediction errors
-    }
-  };
-
   // 目的地名で検索し、現在地から近くて目的地に行くバスがある停留所のみを nearbyStops に入れる
   const handleSearch = async () => {
     setStopsError(null);
@@ -2630,13 +2579,6 @@ export default function BusSearch() {
       setSelectedDest(repDest);
       setSelectedDestIds(destIds);
 
-      // 出発時点の近くの停留所を再計算
-      if (currentLocationRef.current) {
-        const curLat = (currentLocationRef.current as google.maps.LatLng).lat();
-        const curLon = (currentLocationRef.current as google.maps.LatLng).lng();
-        findNearbyStopsForPosition({ lat: curLat, lon: curLon });
-      }
-
       // 出発地点取得（選択されていれば優先、なければ現在地）
       let pos: {lat: number, lon: number};
       if (selectedStart) {
@@ -2659,12 +2601,11 @@ export default function BusSearch() {
         if (!tripStops[st.trip_id]) tripStops[st.trip_id] = [];
         tripStops[st.trip_id].push({ stop_id: st.stop_id, seq: Number(st.stop_sequence) });
       }
-      for (const k of Object.keys(tripStops)) tripStops[k].sort((a,b)=>a.seq-b.seq);
 
       // 各 trip の停車順をソート
       for (const k of Object.keys(tripStops)) tripStops[k].sort((a,b)=>a.seq-b.seq);
 
-      const destIdsArr = destIds;
+  const destIdsArr = destIds;
       const filtered: any[] = [];
       for (const c of candidates) {
         const cid = c.stop_id;
@@ -2835,11 +2776,6 @@ export default function BusSearch() {
           }
         }
       }
-
-      // 新たに現在地が更新されたので、近くの停留所を再検索
-      const curLat = latitude;
-      const curLon = longitude;
-      findNearbyStopsForPosition({ lat: curLat, lon: curLon });
     } catch (error: any) {
 
       alert('現在地を取得できませんでした。位置情報の許可をご確認ください。');
@@ -2847,54 +2783,102 @@ export default function BusSearch() {
     }
   };
 
-  // 指定した座標近くの停留所候補を計算してモーダル表示する（selectedDestがあれば目的地に向かう便のある停留所に絞る）
-  const findNearbyStopsForPosition = async (pos: { lat: number; lon: number }) => {
+  // start 停留所を選択したときに、その停留所から selectedDest まで行くルート（停車順）と該当する便を算出して表示する
+  const handleSelectStartStop = async (startStop: any) => {
+    // 選択された出発地点を保存
+    setSelectedStart(startStop);
+    setRouteError(null);
+    setLoadingRoute(true);
+    // 古いモーダル状態をクリア
+
+    setShowBusRoutes(false);
+
     try {
-      setStopsError(null);
-      setNearbyStops([]);
-      setLoadingStops(true);
+      if (!selectedDest) throw new Error('目的地が選択されていません');
 
       const stops = await loadStops();
-      // 距離算出
-      const withDist = stops.map((s: any) => ({ ...s, distance: getDistance(pos.lat, pos.lon, parseFloat(s.stop_lat), parseFloat(s.stop_lon)) }));
-      let candidates = withDist.filter((s: any) => s.distance < 3000).sort((a: any, b: any) => a.distance - b.distance).slice(0, 100);
+      const stopTimes = await loadStopTimes();
+      const trips = await loadTrips();
+      const routes = await loadRoutes();
+      
+      // trip_id -> ordered stop sequence
+      const tripStops: Record<string, { stop_id: string; seq: number; arrival_time?: string; departure_time?: string }[]> = {};
+      for (const st of stopTimes) {
+        if (!tripStops[st.trip_id]) tripStops[st.trip_id] = [];
+        tripStops[st.trip_id].push({ stop_id: st.stop_id, seq: Number(st.stop_sequence), arrival_time: st.arrival_time, departure_time: st.departure_time });
+      }
+      for (const k of Object.keys(tripStops)) tripStops[k].sort((a,b)=>a.seq-b.seq);
 
-      // 目的地が選択されていれば、目的地に向かう便がある停留所のみを残す
-      if (selectedDest) {
-        const stopTimes = await loadStopTimes();
-        const tripStops: Record<string, { stop_id: string; seq: number }[]> = {};
-        for (const st of stopTimes) {
-          if (!tripStops[st.trip_id]) tripStops[st.trip_id] = [];
-          tripStops[st.trip_id].push({ stop_id: st.stop_id, seq: Number(st.stop_sequence) });
-        }
-        for (const k of Object.keys(tripStops)) tripStops[k].sort((a, b) => a.seq - b.seq);
+      const destIds = selectedDestIds.length > 0 ? selectedDestIds : [selectedDest.stop_id];
+      const startId = startStop.stop_id;
+      
+      const matchingTrips: { tripId: string; stopsSeq: any[]; routeId?: string; routeInfo?: any; startDeparture?: string }[] = [];
 
-        const destIdsArr = selectedDestIds;
-        const filtered: any[] = [];
-        for (const c of candidates) {
-          const cid = c.stop_id;
-          let ok = false;
-          for (const stopsArr of Object.values(tripStops)) {
-            const idxStart = stopsArr.findIndex((x: any) => x.stop_id === cid);
-            if (idxStart === -1) continue;
-            for (const did of destIdsArr) {
-              const idxDest = stopsArr.findIndex((x: any) => x.stop_id === did);
-              if (idxDest !== -1 && idxStart < idxDest) { ok = true; break; }
-            }
-            if (ok) break;
-          }
-          if (ok) filtered.push(c);
+      for (const trip of Object.keys(tripStops)) {
+        const seq = tripStops[trip];
+        const idxStart = seq.findIndex(s => s.stop_id === startId);
+        // 複数の目的地候補をチェック
+        const idxDest = seq.findIndex(s => destIds.includes(s.stop_id));
+        if (idxStart !== -1 && idxDest !== -1 && idxStart < idxDest) {
+          // 該当する停車順を切り出す
+          const slice = seq.slice(idxStart, idxDest + 1);
+          const tripDef = trips.find((t: any) => t.trip_id === trip);
+          const routeDef = tripDef ? routes.find((r: any) => r.route_id === tripDef.route_id) : null;
+          const startDeparture = slice[0]?.departure_time || slice[0]?.arrival_time || undefined;
+          matchingTrips.push({ tripId: trip, stopsSeq: slice, routeId: tripDef?.route_id, routeInfo: routeDef, startDeparture });
         }
-        candidates = filtered;
       }
 
-      setNearbyStops(candidates.slice(0, 20));
-      setShowStopCandidates(true);
-      setShowBusRoutes(false);
+      if (matchingTrips.length === 0) {
+        throw new Error('該当する便が見つかりませんでした');
+      }
+      
+      // routeBuses はマッチした便一覧（ID, route 名, 出発時刻、到着時刻）
+      const buses = matchingTrips.map(m => {
+        const lastStop = m.stopsSeq[m.stopsSeq.length - 1];
+        const busInfo = {
+          trip_id: m.tripId,
+          route_id: m.routeId,
+          route_short_name: m.routeInfo?.route_short_name,
+          route_long_name: m.routeInfo?.route_long_name,
+          departure: m.startDeparture,
+          arrival: lastStop?.arrival_time,
+          stops_count: m.stopsSeq.length
+        };
+
+        return busInfo;
+      });
+
+      // 出発時刻でソート
+      buses.sort((a, b) => {
+        if (!a.departure || !b.departure) return 0;
+        return a.departure.localeCompare(b.departure);
+      });
+
+      // 出発時刻が現在時刻から見て過去2時間より古いものは表示しない
+      const filteredBuses = buses.filter(b => {
+        if (!b.departure) return true;
+        return isWithinPastHours(b.departure, 2);
+      });
+
+      // キャッシュとしてこの時点で tripStops を保存しておく（便選択時に再利用）
+      tripStopsRef.current = tripStops;
+
+    setRouteStops([]);
+    setRouteBuses(filteredBuses);
+    setSelectedTripId(null);
+    setIsSheetMinimized(false);
+    setSheetTranslateY(0);
+    setShowStopCandidates(false);
+
+      setShowBusRoutes(true);
+      
     } catch (e: any) {
-      setStopsError(e.message || '検索でエラーが発生しました');
+
+      setRouteError(e.message || 'ルート取得でエラーが発生しました');
     } finally {
-      setLoadingStops(false);
+
+      setLoadingRoute(false);
     }
   };
 
@@ -2996,6 +2980,8 @@ export default function BusSearch() {
       }
     );
   };
+
+  // 検索ボタンクリック時の処理は GTFS ベースの handleSearch を使う
 
   // ルートをクリア
   const clearRoute = () => {
@@ -3110,7 +3096,7 @@ export default function BusSearch() {
           currentLocationRef.current = latLng;
           if (currentLocationMarkerRef.current) {
             currentLocationMarkerRef.current.setPosition(latLng);
-          } else {
+          } else if (mapInstance.current) {
             currentLocationMarkerRef.current = new window.google.maps.Marker({
               position: latLng,
               map: mapInstance.current,
@@ -3532,6 +3518,20 @@ export default function BusSearch() {
               borderRadius: '12px',
               padding: '0',
               maxWidth: '90vw',
+              maxHeight: '80vh',
+              width: '450px',
+              boxShadow: '0 10px 25px rgba(0, 0, 0, 0.2)'
+            }}>
+              <div className={styles.modalHeader} style={{
+                display: 'flex',
+                justifyContent: 'space-between',
+                alignItems: 'center',
+                padding: '20px',
+                borderBottom: '1px solid #eee'
+              }}>
+                <h3 style={{ margin: 0, fontSize: '18px', fontWeight: '600' }}>バス便選択</h3>
+                <button 
+                  className={styles.closeButton}
                   onClick={() => {
 
                     setShowBusRoutes(false);

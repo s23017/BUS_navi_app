@@ -9,6 +9,14 @@
   padding-bottom: env(safe-area-inset-bottom, 0);
 }
 
+.main {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+}
+
 .header {
   background-color: #f9a8d4; /* bg-pink-300 */
   display: flex;
@@ -19,6 +27,7 @@
   position: sticky;
   top: 0;
   z-index: 50;
+  position: relative;
 }
 
 .logo {
@@ -37,7 +46,7 @@
 .dropdown {
   position: absolute;
   right: 1rem;
-  top: 3.5rem; /* top-14 */
+  top: calc(100% + 0.25rem);
   background-color: white;
   border-radius: 0.75rem; /* rounded-xl */
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
@@ -64,14 +73,21 @@
   background-color: #f3f4f6; /* hover:bg-gray-100 */
 }
 
-.searchContainer {
-  display: flex;
-  flex-direction: column;
-  gap: 0.75rem;
-  padding: 0.75rem; /* p-3 */
-  background-color: white;
-  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
-  overflow: visible; /* 予測結果が隠れないように */
+.dropdownList {
+  list-style: none;
+  margin: 0;
+  padding: 0.5rem 0; /* py-2 */
+}
+
+.dropdownItem {
+  color: #374151;
+  padding: 0.5rem 1rem; /* px-4 py-2 */
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.dropdownItem:hover {
+  background-color: #f3f4f6; /* hover:bg-gray-100 */
 }
 
 .searchBar {
@@ -79,17 +95,22 @@
   display: flex;
   align-items: center;
   width: 100%;
-  overflow: visible; /* 予測結果が隠れないように */
+  gap: 0.5rem;
+  padding: 0.75rem;
+  background-color: white;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1);
+  overflow: visible;
 }
 
 .searchInput {
   flex: 1;
   border: 1px solid #d1d5db;
-  border-radius: 9999px; /* rounded-full */
-  padding: 0.5rem 0.75rem; /* px-3 py-2 */
-  font-size: 0.875rem; /* text-sm */
+  border-radius: 9999px;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
   outline: none;
   transition: border-color 0.2s;
+  min-width: 0;
 }
 
 .searchInput:focus {
@@ -99,6 +120,158 @@
 
 .searchInput::placeholder {
   color: #9ca3af;
+}
+
+.searchButton {
+  margin-left: 0.5rem;
+  background-color: #3b82f6;
+  color: white;
+  border-radius: 9999px;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.2s;
+  white-space: nowrap;
+}
+
+.searchButton:hover {
+  background-color: #2563eb;
+}
+
+.locationButton {
+  margin-left: 0.5rem;
+  background-color: #10b981;
+  color: white;
+  border-radius: 9999px;
+  padding: 0.5rem 0.9rem;
+  font-size: 0.75rem;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  transition: background-color 0.2s;
+  white-space: nowrap;
+}
+
+.locationButton:hover {
+  background-color: #059669;
+}
+
+.locationIcon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.clearButton {
+  margin-left: 0.5rem;
+  background-color: #ef4444;
+  color: white;
+  border-radius: 9999px;
+  padding: 0.5rem 1rem;
+  font-size: 0.875rem;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.clearButton:hover {
+  background-color: #dc2626;
+}
+
+/* 検索予測のスタイル */
+.predictions {
+  position: absolute;
+  top: calc(100% + 0.5rem);
+  left: 0;
+  right: 0;
+  background-color: white;
+  border: 2px solid #3b82f6;
+  border-radius: 0.75rem;
+  box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.2);
+  z-index: 1001;
+  max-height: 250px;
+  overflow-y: auto;
+}
+
+.predictionItem {
+  padding: 0.75rem 1rem;
+  cursor: pointer;
+  border-bottom: 1px solid #f3f4f6;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  transition: background-color 0.2s;
+}
+
+.predictionItem:hover {
+  background-color: #f9fafb;
+}
+
+.predictionItem:last-child {
+  border-bottom: none;
+}
+
+.predictionItem:first-child {
+  border-top-left-radius: 0.75rem;
+  border-top-right-radius: 0.75rem;
+}
+
+.predictionItem:last-child {
+  border-bottom-left-radius: 0.75rem;
+  border-bottom-right-radius: 0.75rem;
+}
+
+.predictionIcon {
+  color: #6b7280;
+  flex-shrink: 0;
+}
+
+.predictionText {
+  flex: 1;
+  color: #374151;
+  font-size: 0.875rem;
+}
+
+.predictionMain {
+  font-weight: 500;
+  color: #1f2937;
+}
+
+.predictionSub {
+  color: #6b7280;
+  font-size: 0.75rem;
+  margin-top: 0.125rem;
+}
+
+/* Responsive: stack inputs vertically on small screens */
+@media (max-width: 767px) {
+  .searchBar {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+  }
+
+  .searchInput {
+    width: 100%;
+  }
+
+  .searchButton,
+  .locationButton,
+  .clearButton {
+    width: 100%;
+    margin-left: 0;
+    border-radius: 0.5rem;
+  }
+
+  .predictions {
+    top: calc(100% + 0.5rem);
+    bottom: auto;
+    z-index: 1500;
+    pointer-events: auto;
+  }
 }
 
 .searchButton {
@@ -162,6 +335,31 @@
   flex: 1;
   width: 100%;
   height: 100%;
+  min-height: 400px;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.mapLoading {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: white;
+  padding: 1rem 2rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+  color: #374151;
+  font-weight: 500;
+  z-index: 10;
 }
 
 .resultsContainer {
@@ -302,7 +500,7 @@
   padding: 12px;
   padding-bottom: calc(12px + env(safe-area-inset-bottom, 0));
   transition: transform 0.2s ease;
-  touch-action: none; /* allow custom touch handling */
+  touch-action: none;
   -webkit-user-select: none;
   user-select: none;
 }
@@ -313,6 +511,141 @@
   background: #e5e7eb;
   border-radius: 999px;
   margin: 6px auto 8px;
+}
+
+/* バス停リストのスタイル */
+.busStopsList {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: white;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  max-height: 50vh;
+  overflow-y: auto;
+  z-index: 100;
+  box-shadow: 0 -4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+.sharingControls {
+  padding: 1rem;
+  border-bottom: 1px solid #e5e7eb;
+  text-align: center;
+}
+
+.shareButton {
+  background-color: #10b981;
+  color: white;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.shareButton:hover {
+  background-color: #059669;
+}
+
+.stopButton {
+  background-color: #ef4444;
+  color: white;
+  padding: 0.75rem 2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: 500;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.stopButton:hover {
+  background-color: #dc2626;
+}
+
+.stopsContainer {
+  padding: 1rem;
+}
+
+.stopsContainer h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.1rem;
+  color: #1f2937;
+}
+
+.stopItem {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;
+  transition: background-color 0.2s;
+}
+
+.stopItem.passedStop {
+  background-color: #f3f4f6;
+  opacity: 0.7;
+}
+
+.stopItem.beforeStartStop {
+  background-color: #fef3c7;
+  border-left: 4px solid #f59e0b;
+}
+
+.stopInfo {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.stopName {
+  font-weight: 500;
+  color: #1f2937;
+}
+
+.stopSequence {
+  font-size: 0.8rem;
+  color: #6b7280;
+}
+
+.arrivalTime {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  font-family: monospace;
+}
+
+.passedIndicator {
+  background-color: #10b981;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.beforeStartIndicator {
+  background-color: #f59e0b;
+  color: white;
+  padding: 0.25rem 0.5rem;
+  border-radius: 0.25rem;
+  font-size: 0.8rem;
+  font-weight: 500;
+}
+
+.errorMessage {
+  position: fixed;
+  bottom: 1rem;
+  left: 1rem;
+  right: 1rem;
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  color: #b91c1c;
+  padding: 1rem;
+  border-radius: 0.5rem;
+  z-index: 1000;
 }
 
 @media (min-width: 768px) {
