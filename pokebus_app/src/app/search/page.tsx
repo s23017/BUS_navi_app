@@ -205,7 +205,44 @@ export default function BusSearch() {
 
   // 位置情報が有効かどうかを検証
   const validateLocationForSharing = (position: google.maps.LatLng, tripId: string): { valid: boolean; reason?: string } => {
-    // 位置情報共有中は距離制限なしで常に有効
+    // 全バス停リストを使って、同じtripId上の任意の位置からの共有を許可
+    const fullRouteStops = (window as any).fullRouteStops || routeStops;
+    
+    if (fullRouteStops.length === 0) {
+      return { valid: false, reason: 'バス停情報が見つかりません' };
+    }
+    
+    // 全バス停のいずれかから500m以内であれば共有可能
+    let isNearAnyStop = false;
+    let nearestDistance = Infinity;
+    let nearestStopName = '';
+    
+    fullRouteStops.forEach((stop: any) => {
+      const stopLat = parseFloat(stop.stop_lat);
+      const stopLon = parseFloat(stop.stop_lon);
+      
+      if (isNaN(stopLat) || isNaN(stopLon)) return;
+      
+      const distance = getDistance(
+        position.lat(), position.lng(),
+        stopLat, stopLon
+      );
+      
+      if (distance < nearestDistance) {
+        nearestDistance = distance;
+        nearestStopName = stop.stop_name;
+      }
+      
+      if (distance <= 500) {
+        isNearAnyStop = true;
+      }
+    });
+    
+    console.log(`validateLocationForSharing: 最寄りバス停 ${nearestStopName} から ${nearestDistance.toFixed(0)}m, 共有可能: ${isNearAnyStop}`);
+    
+    if (!isNearAnyStop) {
+      return { valid: false, reason: `最寄りバス停から${nearestDistance.toFixed(0)}m離れています（500m以内の範囲で共有可能）` };
+    }
 
     return { valid: true };
   };
@@ -2057,17 +2094,17 @@ export default function BusSearch() {
 
   // 乗車開始時に現在位置より前のバス停の通過判定を自動推論
   const inferPreviousPassedStops = (currentPos: google.maps.LatLng, tripId: string) => {
-    // 共有用の全バス停リストを取得（表示範囲に制限されない）
-    const fullRouteStops = (window as any).fullRouteStops || routeStops;
-    console.log(`inferPreviousPassedStops: 使用するバス停リスト数 = ${fullRouteStops.length}`);
+    // 通過済み判定は表示範囲内のバス停のみを対象にする
+    // （位置情報共有は全路線対象だが、通過済み判定は表示範囲のみ）
+    console.log(`inferPreviousPassedStops: 使用するバス停リスト数 = ${routeStops.length} (表示範囲のみ)`);
     
-    if (fullRouteStops.length === 0) return;
+    if (routeStops.length === 0) return;
     
     // 現在位置から最も近いバス停を特定
     let nearestStopIndex = -1;
     let nearestDistance = Infinity;
     
-    fullRouteStops.forEach((stop: any, index: number) => {
+    routeStops.forEach((stop: any, index: number) => {
       const stopLat = parseFloat(stop.stop_lat);
       const stopLon = parseFloat(stop.stop_lon);
       
@@ -2091,7 +2128,7 @@ export default function BusSearch() {
       return;
     }
     
-    const nearestStop = fullRouteStops[nearestStopIndex];
+    const nearestStop = routeStops[nearestStopIndex];
     
     // 乗車判定の条件：最寄りバス停から500m以内（2つ前のバス停からも共有可能にする）
     if (nearestDistance > 500) {
@@ -2106,7 +2143,7 @@ export default function BusSearch() {
     const newPassedStops: PassedStopRecord[] = [];
     
     for (let i = 0; i < nearestStopIndex; i++) {
-      const stop = fullRouteStops[i];
+      const stop = routeStops[i];
       newPassedStops.push({
         stopId: stop.stop_id,
         stopName: stop.stop_name,
