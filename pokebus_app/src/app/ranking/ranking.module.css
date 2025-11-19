@@ -1,0 +1,1106 @@
+/* アプリ全体のスタイル */
+.appContainer {
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+
+/* ランキングページ */
+.rankingContainer {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #eef2ff, #fdf4ff, #fef7f0);
+}
+
+/* ヘッダー */
+.appHeader {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.headerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 24px;
+}
+
+.headerLeft {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.backButton {
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.backButton:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.headerTitle {
+  font-size: 20px;
+  font-weight: 700;
+  color: white;
+  margin: 0;
+}
+
+.menuButton {
+  padding: 8px;
+  background: rgba(255, 255, 255, 0.1);
+  border: none;
+  border-radius: 8px;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.2s;
+}
+
+.menuButton:hover {
+  background: rgba(255, 255, 255, 0.2);
+}
+
+.dropdown {
+  background: white;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.15);
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.dropdownContent {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.dropdownList {
+  padding: 8px 0;
+  list-style: none;
+  margin: 0;
+}
+
+.dropdownItem {
+  padding: 12px 24px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  transition: background-color 0.2s;
+}
+
+.dropdownItemOther:hover {
+  background-color: #f9fafb;
+}
+
+.dropdownItemActive {
+  background: linear-gradient(135deg, #eef2ff 0%, #f3e8ff 100%);
+  color: #4f46e5;
+}
+
+.dropdownItemIcon {
+  font-size: 16px;
+}
+
+.dropdownItemText {
+  color: #374151;
+  font-weight: 500;
+}
+
+.dropdownItemTextActive {
+  color: #4f46e5;
+  font-weight: 600;
+}
+
+.main {
+  padding: 16px 24px;
+}
+
+.content {
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
+.pageTitle {
+  text-align: center;
+  margin-bottom: 32px;
+}
+
+.titleIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 64px;
+  height: 64px;
+  background: linear-gradient(135deg, #fbbf24 0%, #f59e0b 100%);
+  border-radius: 50%;
+  margin-bottom: 16px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+
+.trophy {
+  width: 32px;
+  height: 32px;
+  color: white;
+}
+
+.titleText {
+  font-size: 30px;
+  font-weight: 700;
+  color: white;
+  margin: 0 0 8px 0;
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.titleSubtext {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 0;
+}
+
+.error {
+  background-color: #fef2f2;
+  border: 1px solid #fecaca;
+  border-radius: 12px;
+  padding: 16px;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.errorText {
+  color: #991b1b;
+}
+
+.userCard {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  border-radius: 16px;
+  box-shadow: 0 20px 25px rgba(0, 0, 0, 0.15);
+  padding: 24px;
+  margin-bottom: 24px;
+  color: white;
+}
+
+.userCardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 24px;
+}
+
+.userCardLeft {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.userAvatar {
+  width: 64px;
+  height: 64px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(10px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: 700;
+  font-size: 24px;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.rankLabel {
+  font-size: 14px;
+  opacity: 0.9;
+  margin-bottom: 4px;
+}
+
+.rankValue {
+  font-size: 36px;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  margin: 0;
+}
+
+.rankBadge {
+  font-size: 30px;
+}
+
+.userName {
+  font-size: 14px;
+  opacity: 0.75;
+}
+
+.trendingIcon {
+  width: 32px;
+  height: 32px;
+  opacity: 0.5;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+.statCard {
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  padding: 12px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.statLabel {
+  font-size: 12px;
+  opacity: 0.9;
+  margin-bottom: 4px;
+}
+
+.statValue {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.statSubtext {
+  font-size: 12px;
+  opacity: 0.75;
+}
+
+.pointsInfo {
+  margin-top: 16px;
+  padding: 12px;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.pointsTitle {
+  font-size: 12px;
+  opacity: 0.9;
+  margin-bottom: 8px;
+  text-align: center;
+}
+
+.pointsText {
+  font-size: 12px;
+  opacity: 0.85;
+  text-align: center;
+  line-height: 1.4;
+}
+
+.pointsHighlight {
+  font-weight: 700;
+  color: #fbbf24;
+}
+
+.periodTabs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin-bottom: 24px;
+}
+
+.periodTab {
+  padding: 10px 24px;
+  border-radius: 12px;
+  font-size: 14px;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s;
+}
+
+.periodTabActive {
+  background: white;
+  color: #4f46e5;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transform: scale(1.05);
+}
+
+.periodTabInactive {
+  background: rgba(255, 255, 255, 0.6);
+  color: #6b7280;
+}
+
+.periodTabInactive:hover {
+  background: rgba(255, 255, 255, 0.8);
+}
+
+.rankingList {
+  background: white;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.rankingHeader {
+  background: linear-gradient(135deg, #f9fafb 0%, #f3f4f6 100%);
+  padding: 16px 24px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.rankingTitle {
+  font-weight: 600;
+  color: #374151;
+  margin: 0;
+}
+
+.periodLabel {
+  margin-left: auto;
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.loading {
+  padding: 48px;
+  text-align: center;
+}
+
+.spinner {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  border: 4px solid #e0e7ff;
+  border-top: 4px solid #4f46e5;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.loadingText {
+  color: #9ca3af;
+  margin-top: 16px;
+}
+
+.noData {
+  padding: 48px;
+  text-align: center;
+}
+
+.noDataText {
+  color: #6b7280;
+  margin: 0;
+}
+
+.noDataSubtext {
+  color: #9ca3af;
+  font-size: 14px;
+  margin-top: 8px;
+}
+
+.rankingItems {
+  border: 0;
+}
+
+.rankingItem {
+  padding: 16px 20px;
+  transition: all 0.2s;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+.rankingItem:last-child {
+  border-bottom: none;
+}
+
+.rankingItemMe {
+  background: linear-gradient(135deg, #eef2ff 0%, #f3e8ff 100%);
+  border-left: 4px solid #4f46e5;
+}
+
+.rankingItemOther:hover {
+  background-color: #f9fafb;
+}
+
+.rankingItemContent {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+
+.rankPosition {
+  flex-shrink: 0;
+  width: 48px;
+  text-align: center;
+}
+
+.rankBadgeLarge {
+  font-size: 30px;
+}
+
+.rankNumber {
+  font-size: 18px;
+  font-weight: 700;
+}
+
+.rankNumberMe {
+  color: #4f46e5;
+}
+
+.rankNumberOther {
+  color: #9ca3af;
+}
+
+.itemAvatar {
+  flex-shrink: 0;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.itemAvatarMe {
+  background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
+  color: white;
+}
+
+.itemAvatarOther {
+  background: linear-gradient(135deg, #d1d5db 0%, #9ca3af 100%);
+  color: #374151;
+}
+
+.itemInfo {
+  flex: 1;
+  min-width: 0;
+}
+
+.itemName {
+  font-weight: 600;
+  margin: 0;
+  word-break: break-word;
+}
+
+.itemNameMe {
+  color: #312e81;
+}
+
+.itemNameOther {
+  color: #374151;
+}
+
+.itemNameBadge {
+  color: #4f46e5;
+  margin-left: 8px;
+}
+
+.itemEmail {
+  font-size: 12px;
+  color: #9ca3af;
+  word-break: break-all;
+  margin: 2px 0 0 0;
+}
+
+.itemStats {
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.itemPoints {
+  font-size: 20px;
+  font-weight: 700;
+  margin: 0;
+}
+
+.itemPointsMe {
+  color: #4f46e5;
+}
+
+.itemPointsOther {
+  color: #374151;
+}
+
+.itemPointsLabel {
+  font-size: 12px;
+  color: #6b7280;
+}
+
+.itemBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 8px;
+  background-color: #f3f4f6;
+  border-radius: 16px;
+  margin-top: 4px;
+}
+
+.itemBadgeIcon {
+  width: 12px;
+  height: 12px;
+  color: #6b7280;
+}
+
+.itemBadgeText {
+  font-size: 12px;
+  font-weight: 500;
+  color: #374151;
+}
+
+.footer {
+  text-align: center;
+  margin-top: 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.footerText {
+  font-size: 12px;
+  color: rgba(255, 255, 255, 0.7);
+  margin: 0;
+}
+
+.loginRequired {
+  text-align: center;
+  padding: 48px;
+  color: white;
+}
+
+.loginIcon {
+  font-size: 48px;
+  margin-bottom: 16px;
+}
+
+.loginTitle {
+  font-size: 20px;
+  font-weight: 600;
+  color: white;
+  margin: 0 0 8px 0;
+}
+
+.loginText {
+  color: rgba(255, 255, 255, 0.8);
+  margin: 0;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+/* レスポンシブ対応 */
+@media (max-width: 768px) {
+  .main {
+    padding: 16px 12px;
+  }
+  
+  .userCard {
+    padding: 20px;
+  }
+  
+  .statsGrid {
+    grid-template-columns: 1fr;
+    gap: 8px;
+  }
+  
+  .userCardHeader {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 16px;
+  }
+  
+  .periodTabs {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  
+  .periodTab {
+    padding: 8px 16px;
+    font-size: 13px;
+  }
+  
+  .rankingItemContent {
+    gap: 12px;
+  }
+  
+  .itemStats {
+    text-align: right;
+  }
+  
+  .itemPoints {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 480px) {
+  .headerContent {
+    padding: 12px 16px;
+  }
+  
+  .main {
+    padding: 12px 8px;
+  }
+  
+  .userCard {
+    margin-bottom: 16px;
+    padding: 16px;
+  }
+  
+  .userAvatar {
+    width: 56px;
+    height: 56px;
+    font-size: 20px;
+  }
+  
+  .rankValue {
+    font-size: 28px;
+  }
+  
+  .statsGrid {
+    grid-template-columns: repeat(3, 1fr);
+    gap: 6px;
+  }
+  
+  .statCard {
+    padding: 8px;
+  }
+  
+  .statValue {
+    font-size: 16px;
+  }
+  
+  .rankingItem {
+    padding: 12px 16px;
+  }
+  
+  .itemAvatar {
+    width: 40px;
+    height: 40px;
+    font-size: 12px;
+  }
+  
+  .rankPosition {
+    width: 40px;
+  }
+  
+  .rankBadgeLarge {
+    font-size: 24px;
+  }
+  
+  .rankNumber {
+    font-size: 16px;
+  }
+  
+  .itemPoints {
+    font-size: 16px;
+  }
+}
+
+/* ホームページ */
+.homePage {
+  padding: 2rem;
+  text-align: center;
+  color: #6b7280;
+}
+
+.homeTitle {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.homeContent {
+  margin-bottom: 1rem;
+}
+
+.homeHint {
+  font-size: 0.875rem;
+  color: #9ca3af;
+}
+
+/* ランキングページ */
+.rankingContainer {
+  min-height: 100vh;
+  background: linear-gradient(to bottom right, #eef2ff, #fdf4ff, #fef7f0);
+  padding: 1rem;
+}
+
+@media (min-width: 640px) {
+  .rankingContainer {
+    padding: 1.5rem;
+  }
+}
+
+.rankingWrapper {
+  max-width: 56rem;
+  margin: 0 auto;
+}
+
+/* ヘッダー */
+.rankingHeader {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.trophyIcon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 4rem;
+  height: 4rem;
+  background: linear-gradient(to bottom right, #fbbf24, #f97316);
+  border-radius: 50%;
+  margin-bottom: 1rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+}
+
+.trophy {
+  width: 2rem;
+  height: 2rem;
+  color: white;
+}
+
+.rankingTitle {
+  font-size: 1.875rem;
+  font-weight: bold;
+  color: #1f2937;
+  margin-bottom: 0.5rem;
+}
+
+.rankingSubtitle {
+  color: #6b7280;
+}
+
+/* ユーザーカード */
+.userCard {
+  background: linear-gradient(to bottom right, #4f46e5, #7c3aed);
+  border-radius: 1rem;
+  box-shadow: 0 25px 50px -12px rgb(0 0 0 / 0.25);
+  padding: 1.5rem;
+  margin-bottom: 1.5rem;
+  color: white;
+}
+
+.userCardHeader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.userInfo {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.userAvatar {
+  width: 4rem;
+  height: 4rem;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-weight: bold;
+  font-size: 1.5rem;
+  border: 2px solid rgba(255, 255, 255, 0.3);
+}
+
+.rankLabel {
+  font-size: 0.875rem;
+  opacity: 0.9;
+}
+
+.rankNumber {
+  font-size: 2.25rem;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.rankBadge {
+  font-size: 1.875rem;
+}
+
+.trendingIcon {
+  width: 2rem;
+  height: 2rem;
+  opacity: 0.5;
+}
+
+.statsGrid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 0.75rem;
+}
+
+.statCard {
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(8px);
+  border-radius: 0.75rem;
+  padding: 0.75rem;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+.statLabel {
+  font-size: 0.75rem;
+  opacity: 0.9;
+  margin-bottom: 0.25rem;
+}
+
+.statValue {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.statUnit {
+  font-size: 0.75rem;
+  opacity: 0.75;
+}
+
+/* 期間選択 */
+.periodSelector {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.periodButton {
+  padding: 0.625rem 1.5rem;
+  border-radius: 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 600;
+  transition: all 0.2s ease-in-out;
+  border: none;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #6b7280;
+}
+
+.periodButton:hover {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.periodButtonActive {
+  background-color: white;
+  color: #4f46e5;
+  box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+  transform: scale(1.05);
+}
+
+/* ランキングリスト */
+.rankingList {
+  background-color: white;
+  border-radius: 1rem;
+  box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1);
+  overflow: hidden;
+}
+
+.rankingListHeader {
+  background: linear-gradient(to right, #f9fafb, #f3f4f6);
+  padding: 1rem 1.5rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  border-bottom: 1px solid #e5e7eb;
+}
+
+.usersIcon {
+  width: 1.25rem;
+  height: 1.25rem;
+  color: #6b7280;
+}
+
+.rankingListTitle {
+  font-weight: 600;
+  color: #1f2937;
+  margin: 0;
+}
+
+/* ローディング */
+.loadingContainer {
+  padding: 3rem;
+  text-align: center;
+}
+
+.loadingSpinner {
+  display: inline-block;
+  width: 2rem;
+  height: 2rem;
+  border: 4px solid #e0e7ff;
+  border-top: 4px solid #4f46e5;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+.loadingText {
+  color: #9ca3af;
+  margin-top: 1rem;
+}
+
+/* ランキングアイテム */
+.rankingItems {
+  border-top: 1px solid #f3f4f6;
+}
+
+.rankingItem {
+  padding: 1rem 1.25rem;
+  transition: all 0.2s ease-in-out;
+  border-bottom: 1px solid #f3f4f6;
+}
+
+@media (min-width: 640px) {
+  .rankingItem {
+    padding: 1.25rem;
+  }
+}
+
+.rankingItem:hover {
+  background-color: #f9fafb;
+}
+
+.myRank {
+  background: linear-gradient(to right, #eef2ff, #fdf4ff);
+  border-left: 4px solid #4f46e5;
+}
+
+.rankingItemContent {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.rankPosition {
+  flex-shrink: 0;
+  width: 3rem;
+  text-align: center;
+}
+
+.rankMedal {
+  font-size: 1.875rem;
+}
+
+.rankText {
+  font-size: 1.125rem;
+  font-weight: bold;
+  color: #9ca3af;
+}
+
+.myRankText {
+  color: #4f46e5;
+}
+
+.rankAvatar {
+  flex-shrink: 0;
+  width: 3rem;
+  height: 3rem;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 0.875rem;
+  font-weight: 600;
+  background: linear-gradient(to bottom right, #e5e7eb, #d1d5db);
+  color: #374151;
+}
+
+.myAvatar {
+  background: linear-gradient(to bottom right, #4f46e5, #7c3aed);
+  color: white;
+}
+
+.userNameContainer {
+  flex: 1;
+  min-width: 0;
+}
+
+.userName {
+  font-weight: 600;
+  color: #1f2937;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.myName {
+  color: #4338ca;
+}
+
+.userUid {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.pointsContainer {
+  flex-shrink: 0;
+  text-align: right;
+}
+
+.pointsValue {
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: #1f2937;
+}
+
+.myPoints {
+  color: #4f46e5;
+}
+
+.pointsLabel {
+  font-size: 0.75rem;
+  color: #6b7280;
+}
+
+.busPasses {
+  flex-shrink: 0;
+  width: 4rem;
+  text-align: right;
+}
+
+.busBadge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  padding: 0.25rem 0.5rem;
+  background-color: #f3f4f6;
+  border-radius: 9999px;
+}
+
+.awardIcon {
+  width: 0.75rem;
+  height: 0.75rem;
+  color: #6b7280;
+}
+
+.busCount {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #374151;
+}
+
+.disclaimer {
+  font-size: 0.75rem;
+  color: #9ca3af;
+  text-align: center;
+  margin-top: 1rem;
+}
