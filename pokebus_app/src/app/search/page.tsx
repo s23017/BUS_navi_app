@@ -4,11 +4,6 @@ import { useRouter } from "next/navigation";
 import { Menu, X, MapPin, Crosshair } from "lucide-react";
 import Script from "next/script";
 import styles from "./search.module.css";
-import Header from "./components/Header";
-import SearchBar from "./components/SearchBar";
-import StopCandidatesModal from "./components/StopCandidatesModal";
-import BusRoutesModal from "./components/BusRoutesModal";
-import RouteDetailSheet from "./components/RouteDetailSheet";
 import { db, auth } from "../../../lib/firebase";
 import { loadStops, loadStopTimes, loadTrips, loadRoutes } from "../../../lib/gtfs";
 import { collection, addDoc, query, where, onSnapshot, Timestamp, orderBy, limit, getDocs, deleteDoc, updateDoc, QueryConstraint } from "firebase/firestore";
@@ -92,6 +87,8 @@ export default function BusSearch() {
   const [busPassedStops, setBusPassedStops] = useState<PassedStopRecord[]>([]);
   const [estimatedArrivalTimes, setEstimatedArrivalTimes] = useState<Record<string, string>>({});
   const [isLocationSharing, setIsLocationSharing] = useState<boolean>(false);
+  const [showLocationConfirm, setShowLocationConfirm] = useState(false);
+  const [pendingTripId, setPendingTripId] = useState<string | null>(null);
   const [watchId, setWatchId] = useState<number | null>(null);
   // Bottom sheet touch handling state
   const sheetTouchStartY = useRef<number | null>(null);
@@ -1098,29 +1095,37 @@ export default function BusSearch() {
 
   // 位置情報共有開始（1分間隔での更新）
   const startLocationSharing = (tripId: string) => {
+    // 位置情報共有の確認ダイアログを表示
+    setPendingTripId(tripId);
+    setShowLocationConfirm(true);
+  };
+
+  const handleConfirmLocationSharing = async () => {
+    if (!pendingTripId) return;
+    
+    setShowLocationConfirm(false);
+    const tripId = pendingTripId;
+    setPendingTripId(null);
 
     ensureSessionUserId();
     
     if (!navigator.geolocation) {
-
       alert('このデバイスでは位置情報を取得できません');
       return;
     }
 
     // 位置情報権限の確認
     navigator.permissions.query({name: 'geolocation'}).then((permissionStatus) => {
-
+      console.log('位置情報権限:', permissionStatus.state);
     }).catch((error) => {
-
+      console.error('位置情報権限確認エラー:', error);
     });
 
     // 他のライダーの位置情報をリッスン開始
-
     const unsubscribe = listenToOtherRiders(tripId);
     unsubscribeRiderListener.current = unsubscribe;
 
     // バス停通過情報のリッスン開始
-
     const stopPassageUnsubscribe = listenToBusStopPassages(tripId);
     unsubscribeStopPassageListener.current = stopPassageUnsubscribe;
 
@@ -1742,7 +1747,7 @@ export default function BusSearch() {
   const inferPreviousPassedStops = (currentPos: google.maps.LatLng, tripId: string) => {
     // 通過済み判定は表示範囲内のバス停のみを対象にする
     // （位置情報共有は全路線対象だが、通過済み判定は表示範囲のみ）
-    console.log(`inferPreviousPassedStops: 使用するバス停リスト数 = ${routeStops.length} (表示範囲のみ)`);
+    console.log(`inferPreviousPassedStops: 使用するバス停リスト数 = ${routeStops.length} (表示範囲内)`);
     
     if (routeStops.length === 0) return;
     
@@ -2938,6 +2943,11 @@ export default function BusSearch() {
     };
   }, [isLocationSharing, currentUser]);
 
+  const handleCancelLocationSharing = () => {
+    setShowLocationConfirm(false);
+    setPendingTripId(null);
+  };
+
   return (
     <>
       {/* CSS Animations */}
@@ -2961,41 +2971,111 @@ export default function BusSearch() {
       />
       
       <div className={styles.container}>
-        {/* Header / SearchBar を分離したコンポーネントで表示 */}
         {/* Header */}
-        {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
-        {/* @ts-ignore */}
-        <Header
-          menuOpen={menuOpen}
-          toggleMenu={() => setMenuOpen(!menuOpen)}
-          onGoProfile={() => router.push('/profile')}
-        />
+        <header className={styles.header}>
+          <div>
+            <img src="/logo.png" alt="PokebusBus" className={styles.logo} />
+          </div>
+          <button className={styles.menuButton} onClick={() => setMenuOpen(!menuOpen)}>
+            {menuOpen ? <X size={20} /> : <Menu size={20} />}
+          </button>
+          {menuOpen && (
+            <div className={styles.dropdown}>
+              <ul className={styles.dropdownList}>
+                <li className={styles.dropdownItem} onClick={() => router.push('/profile')}>
+                  プロフィール
+                </li>
+              </ul>
+            </div>
+          )}
+        </header>
 
         {/* SearchBar */}
-        {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
-        {/* @ts-ignore */}
-        <SearchBar
-          startSearchQuery={startSearchQuery}
-          searchQuery={searchQuery}
-          handleStartSearchChange={handleStartSearchChange}
-          handleSearchChange={handleSearchChange}
-          handleUseCurrentLocation={handleUseCurrentLocation}
-          handleSearch={handleSearch}
-          clearRoute={clearRoute}
-          showStartPredictions={showStartPredictions}
-          startPredictions={startPredictions}
-          showPredictions={showPredictions}
-          predictions={predictions}
-          handleStartPredictionClick={handleStartPredictionClick}
-          handlePredictionClick={handlePredictionClick}
-          setShowStartPredictions={setShowStartPredictions}
-          setShowPredictions={setShowPredictions}
-        />
+        <div className={styles.searchContainer}>
+          <div className={styles.searchBar}>
+            <div style={{ position: 'relative', flex: 1 }}>
+              <input
+                type="text"
+                placeholder="出発地点を入力..."
+                value={startSearchQuery}
+                onChange={(e) => handleStartSearchChange(e.target.value)}
+                className={styles.searchInput}
+                style={{ marginBottom: '0.5rem' }}
+              />
+              {showStartPredictions && startPredictions.length > 0 && (
+                <div className={styles.predictions}>
+                  {startPredictions.map((prediction: any) => (
+                    <div
+                      key={prediction.unique_key}
+                      className={styles.predictionItem}
+                      onClick={() => handleStartPredictionClick(prediction)}
+                    >
+                      <span className={styles.predictionIcon}>
+                        {prediction.type === 'stop' ? '🚏' : '📍'}
+                      </span>
+                      <div className={styles.predictionText}>
+                        <div className={styles.predictionMain}>
+                          {prediction.structured_formatting.main_text}
+                        </div>
+                        <div className={styles.predictionSecondary}>
+                          {prediction.structured_formatting.secondary_text}
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+          </div>
+          
+          <div className={styles.searchBar}>
+            <div style={{ position: 'relative', flex: 1 }}>
+              <input
+                type="text"
+                placeholder="目的地を入力..."
+                value={searchQuery}
+                onChange={(e) => handleSearchChange(e.target.value)}
+                className={styles.searchInput}
+              />
+              {showPredictions && predictions.length > 0 && (
+                <div className={styles.predictions}>
+                  {predictions.map((prediction: any) => (
+                    <div
+                      key={prediction.unique_key}
+                      className={styles.predictionItem}
+                      onClick={() => handlePredictionClick(prediction)}
+                    >
+                      <span className={styles.predictionIcon}>
+                        {prediction.type === 'stop' ? '🚏' : '📍'}
+                      </span>
+                      <div className={styles.predictionText}>
+                        <div className={styles.predictionMain}>
+                          {prediction.structured_formatting.main_text}
+                        </div>
+                        <div className={styles.predictionSecondary}>
+                          {prediction.structured_formatting.secondary_text}
+                        </div>
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              )}
+            </div>
+            <button className={styles.locationButton} onClick={handleUseCurrentLocation}>
+              <Crosshair size={16} />
+              現在地
+            </button>
+            <button onClick={handleSearch} className={styles.searchButton}>
+              検索
+            </button>
+            <button onClick={clearRoute} className={styles.clearButton}>
+              クリア
+            </button>
+          </div>
+        </div>
 
-        {/* 出発地点候補選択モーダル（コンポーネント化） */}
-        {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
-        {/* @ts-ignore */}
-        <StopCandidatesModal
+        {/* 出発地点候補選択モーダル（一時的にコメントアウト） */}
+        {/* <StopCandidatesModal
           visible={showStopCandidates}
           setVisible={setShowStopCandidates}
           loadingStops={loadingStops}
@@ -3003,10 +3083,10 @@ export default function BusSearch() {
           nearbyStops={nearbyStops}
           selectedDest={selectedDest}
           handleSelectStartStop={handleSelectStartStop}
-        />
+        /> */}
 
-        {/* バス便選択モーダル（コンポーネント化） */}
-        <BusRoutesModal
+        {/* バス便選択モーダル（一時的にコメントアウト） */}
+        {/* <BusRoutesModal
           visible={showBusRoutes}
           onClose={() => setShowBusRoutes(false)}
           selectedStart={selectedStart}
@@ -3016,10 +3096,10 @@ export default function BusSearch() {
           routeBuses={routeBuses}
           selectedTripId={selectedTripId}
           handleSelectBus={handleSelectBus}
-        />
+        /> */}
 
-        {/* 選択された便の詳細シート（コンポーネント化） */}
-        <RouteDetailSheet
+        {/* 選択された便の詳細シート（一時的にコメントアウト） */}
+        {/* <RouteDetailSheet
           selectedTripId={selectedTripId}
           routeStops={routeStops}
           isMobileViewport={isMobileViewport}
@@ -3052,7 +3132,59 @@ export default function BusSearch() {
           routePolylineRef={routePolylineRef}
           getDistance={getDistance}
           isWithinPastHours={isWithinPastHours}
-        />
+        /> */}
+
+        {/* 位置情報共有確認モーダル */}
+        {showLocationConfirm && (
+          <div className={styles.modalOverlay} onClick={handleCancelLocationSharing}>
+            <div className={styles.confirmModal} onClick={(e) => e.stopPropagation()}>
+              <div className={styles.modalHeader}>
+                <h3>位置情報の共有について</h3>
+              </div>
+              
+              <div className={styles.modalContent}>
+                <div className={styles.confirmIcon}>📍</div>
+                
+                <p className={styles.confirmText}>
+                  乗車開始により、リアルタイムで位置情報を他の乗客と共有します。
+                </p>
+                
+                <div className={styles.privacyInfo}>
+                  <h4>🔒 プライバシー保護</h4>
+                  <ul>
+                    <li>位置情報は同じバス路線の乗客とのみ共有されます</li>
+                    <li>下車時に自動的に共有が停止します</li>
+                    <li>個人を特定する情報は共有されません</li>
+                  </ul>
+                </div>
+                
+                <div className={styles.shareInfo}>
+                  <h4>📊 共有される情報</h4>
+                  <ul>
+                    <li>現在の位置（緯度・経度）</li>
+                    <li>バス停通過情報</li>
+                    <li>乗車状況</li>
+                  </ul>
+                </div>
+              </div>
+              
+              <div className={styles.modalButtons}>
+                <button 
+                  className={styles.cancelButton}
+                  onClick={handleCancelLocationSharing}
+                >
+                  キャンセル
+                </button>
+                <button 
+                  className={styles.confirmButton}
+                  onClick={handleConfirmLocationSharing}
+                >
+                  同意して乗車開始
+                </button>
+              </div>
+            </div>
+          </div>
+        )}
 
         {/* Googleマップ */}
         <div ref={mapRef} className={styles.mapContainer}>
