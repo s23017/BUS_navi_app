@@ -1,0 +1,67 @@
+// Firestore セキュリティルール
+// これをFirebaseコンソールで設定してください
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // Users コレクション
+    match /Users/{userId} {
+      // 認証済みユーザーは全てのユーザーのプロフィールを読み取り可能（インスタグラムリンクなど）
+      allow read: if request.auth != null;
+      
+      // 自分のドキュメントのみ書き込み可能
+      allow write: if request.auth != null && request.auth.uid == userId;
+      
+      // 新規作成時の検証
+      allow create: if request.auth != null 
+        && request.auth.uid == userId
+        && request.resource.data.keys().hasAll(['uid', 'username', 'email', 'createdAt'])
+        && request.resource.data.uid == request.auth.uid
+        && request.resource.data.email == request.auth.token.email;
+    }
+    
+    // バス乗客位置情報の読み書き許可
+    match /busRiderLocations/{document} {
+      // 読み取りは誰でも可能（同じバスの乗客情報を共有するため）
+      allow read: if true;
+      // 書き込みは認証済みユーザーのみ（不正なデータ投稿を防ぐ）
+      allow write: if request.auth != null;
+    }
+    
+    // バス停通過情報の読み書き許可
+    match /busStopPassages/{document} {
+      // 読み取りは誰でも可能（バス停通過情報を共有するため）
+      allow read: if true;
+      // 書き込みは認証済みユーザーのみ（不正なデータ投稿を防ぐ）
+      allow write: if request.auth != null;
+    }
+    
+    // ユーザー統計データ（ランキング用）
+    match /userStats/{userId} {
+      // 読み取りは認証済みユーザーなら誰でも可能（ランキング表示のため）
+      allow read: if request.auth != null;
+      // 書き込みは本人のデータのみ可能
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+    
+    // ポイント獲得履歴
+    match /userPoints/{document} {
+      // 読み取りは認証済みユーザーなら誰でも可能
+      allow read: if request.auth != null;
+      // 新規作成は認証済みユーザーで、自分のuserIdのみ
+      allow create: if request.auth != null 
+        && request.resource.data.userId == request.auth.uid;
+      // 更新・削除は本人のデータのみ可能
+      allow update, delete: if request.auth != null 
+        && resource.data.userId == request.auth.uid;
+    }
+    
+    // 位置情報データ（一時的なデータ）
+    match /riderLocations/{document} {
+      // 読み取りは認証済みユーザーなら誰でも可能
+      allow read: if request.auth != null;
+      // 書き込みは認証済みユーザーのみ
+      allow write: if request.auth != null;
+    }
+  }
+}

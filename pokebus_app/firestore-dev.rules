@@ -1,0 +1,12 @@
+// 開発環境用の一時的なFirestore セキュリティルール
+// 本番環境では絶対に使用しないでください！
+
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    // 開発環境用：認証済みユーザーは全てのドキュメントにアクセス可能
+    match /{document=**} {
+      allow read, write: if request.auth != null;
+    }
+  }
+}

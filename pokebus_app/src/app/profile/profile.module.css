@@ -151,6 +151,40 @@
   border-color: #007bff;
 }
 
+.instagramInput {
+  padding: 12px;
+  border: 2px solid #e0e0e0;
+  border-radius: 8px;
+  font-size: 16px;
+  outline: none;
+  transition: border-color 0.2s;
+}
+
+.instagramInput:focus {
+  border-color: #E4405F;
+}
+
+.instagramLink {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  color: #E4405F;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+  padding: 6px 12px;
+  border: 2px solid #E4405F;
+  border-radius: 20px;
+  transition: all 0.2s;
+  align-self: flex-start;
+}
+
+.instagramLink:hover {
+  background-color: #E4405F;
+  color: white;
+  transform: translateY(-1px);
+}
+
 .editButtons {
   display: flex;
   gap: 8px;
