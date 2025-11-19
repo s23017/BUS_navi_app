@@ -2106,16 +2106,18 @@ export default function BusSearch() {
 
       predictions.push(...stopMatches);
 
-      // 2. Google Places APIでの地名検索
+      // 2. Google Places APIでの地名検索（沖縄県内に制限）
       if (autocompleteService.current && q.length >= 2) {
         try {
+          const okinawaBounds = new window.google.maps.LatLngBounds(
+            new window.google.maps.LatLng(24.0, 122.0), // 沖縄県南西端  
+            new window.google.maps.LatLng(27.0, 131.0)  // 沖縄県北東端
+          );
+          
           const placesRequest = {
-            input: q,
+            input: `${q} 沖縄県`,
             componentRestrictions: { country: 'jp' },
-            locationBias: userLat && userLon ? {
-              center: new window.google.maps.LatLng(userLat, userLon),
-              radius: 50000 // 50km範囲
-            } : undefined,
+            locationBias: okinawaBounds,
             types: ['establishment', 'geocode']
           };
           
@@ -2167,6 +2169,51 @@ export default function BusSearch() {
     try {
       if (!searchQuery.trim()) throw new Error('目的地名を入力してください');
 
+      // 出発地点の処理：ユーザーが地名を入力したが selectedStart が未設定の場合の処理
+      let geocodedStart: {lat: number, lon: number, name: string} | null = null;
+      
+      if (startSearchQuery.trim() && !selectedStart && startSearchQuery !== '現在地' && startSearchQuery !== '現在地を取得中...') {
+        try {
+          // 出発地点をジオコーディング（沖縄県内に制限）
+          if (window.google && window.google.maps && window.google.maps.Geocoder) {
+            const geocoder = new window.google.maps.Geocoder();
+            const startGeoRes: any = await new Promise(resolve => {
+              geocoder.geocode({ 
+                address: `${startSearchQuery.trim()} 沖縄県`,
+                componentRestrictions: { country: 'JP' },
+                bounds: new window.google.maps.LatLngBounds(
+                  new window.google.maps.LatLng(24.0, 122.0), // 沖縄県南西端
+                  new window.google.maps.LatLng(27.0, 131.0)  // 沖縄県北東端
+                )
+              }, (results: any, status: any) => {
+                resolve({ results, status });
+              });
+            });
+            if (startGeoRes && startGeoRes.status === window.google.maps.GeocoderStatus.OK && startGeoRes.results && startGeoRes.results[0]) {
+              const loc = startGeoRes.results[0].geometry.location;
+              const lat = loc.lat();
+              const lon = loc.lng();
+              // 沖縄県内の座標かチェック
+              if (lat >= 24.0 && lat <= 27.0 && lon >= 122.0 && lon <= 131.0) {
+                geocodedStart = { lat, lon, name: startSearchQuery.trim() };
+                setSelectedStart({
+                  stop_id: `geocoded_start_${Date.now()}`,
+                  stop_name: startSearchQuery.trim(),
+                  stop_lat: lat.toString(),
+                  stop_lon: lon.toString()
+                });
+                console.log(`出発地点をジオコーディング（沖縄県内）: ${startSearchQuery} -> (${lat}, ${lon})`);
+                console.log(`selectedStartを設定しました: ${JSON.stringify({name: startSearchQuery.trim(), lat: lat.toString(), lon: lon.toString()})}`);
+              } else {
+                console.warn(`指定された場所「${startSearchQuery}」は沖縄県外です: (${lat}, ${lon})`);
+              }
+            }
+          }
+        } catch (e) {
+          console.warn('出発地点のジオコーディングに失敗:', e);
+        }
+      }
+
       const stops = await loadStops();
       let geocodedLocation: { lat: number; lon: number } | null = null;
       
@@ -2183,19 +2230,31 @@ export default function BusSearch() {
       const q = searchQuery.replace(/\s*\([^)]*\)/, '').trim().toLowerCase(); // 座標部分を削除
       const matchedByName = stops.filter((s: any) => (s.stop_name || '').toLowerCase().includes(q));
 
-      // 座標がない場合はジオコーディングを試行
+      // 座標がない場合はジオコーディングを試行（沖縄県内に制限）
       if (!geocodedLocation && matchedByName.length === 0) {
         try {
           if (window.google && window.google.maps && window.google.maps.Geocoder) {
             const geocoder = new window.google.maps.Geocoder();
             const geoRes: any = await new Promise(resolve => {
-              geocoder.geocode({ address: q }, (results: any, status: any) => {
+              geocoder.geocode({ 
+                address: `${q} 沖縄県`,
+                componentRestrictions: { country: 'JP' },
+                bounds: new window.google.maps.LatLngBounds(
+                  new window.google.maps.LatLng(24.0, 122.0), // 沖縄県南西端
+                  new window.google.maps.LatLng(27.0, 131.0)  // 沖縄県北東端
+                )
+              }, (results: any, status: any) => {
                 resolve({ results, status });
               });
             });
             if (geoRes && geoRes.status === window.google.maps.GeocoderStatus.OK && geoRes.results && geoRes.results[0]) {
               const loc = geoRes.results[0].geometry.location;
-              geocodedLocation = { lat: loc.lat(), lon: loc.lng() };
+              const lat = loc.lat();
+              const lon = loc.lng();
+              // 沖縄県内の座標かチェック
+              if (lat >= 24.0 && lat <= 27.0 && lon >= 122.0 && lon <= 131.0) {
+                geocodedLocation = { lat, lon };
+              }
             }
           }
         } catch (e) {
@@ -2225,11 +2284,29 @@ export default function BusSearch() {
       setSelectedDest(repDest);
       setSelectedDestIds(destIds);
 
-      // 出発地点取得（選択されていれば優先、なければ現在地）
+      // 出発地点取得（指定されていれば優先、空欄なら現在地）
       let pos: {lat: number, lon: number};
-      if (selectedStart) {
-        pos = { lat: parseFloat(selectedStart.stop_lat), lon: parseFloat(selectedStart.stop_lon) };
+      console.log(`handleSearch: selectedStart = ${selectedStart ? JSON.stringify({name: selectedStart.stop_name, lat: selectedStart.stop_lat, lon: selectedStart.stop_lon}) : 'null'}`);
+      console.log(`handleSearch: startSearchQuery = "${startSearchQuery}"`);
+      console.log(`handleSearch: geocodedStart = ${geocodedStart ? JSON.stringify(geocodedStart) : 'null'}`);
+      
+      if (geocodedStart) {
+        // ジオコーディングで取得した座標を使用（最優先）
+        pos = { lat: geocodedStart.lat, lon: geocodedStart.lon };
+        console.log(`ジオコーディング結果を使用: ${geocodedStart.name} (${geocodedStart.lat}, ${geocodedStart.lon})`);
+      } else if (selectedStart && startSearchQuery.trim() !== '' && startSearchQuery !== '現在地を取得中...') {
+        // 事前に選択された出発地点を使用
+        const lat = parseFloat(selectedStart.stop_lat);
+        const lon = parseFloat(selectedStart.stop_lon);
+        if (!isNaN(lat) && !isNaN(lon)) {
+          pos = { lat, lon };
+          console.log(`出発地点として指定された場所を使用: ${selectedStart.stop_name} (${lat}, ${lon})`);
+        } else {
+          throw new Error('指定された出発地点の座標が不正です');
+        }
       } else {
+        // 出発地点が空欄または「現在地」の場合は現在地を使用
+        console.log(`現在地を出発地点として使用 (理由: selectedStart=${!!selectedStart}, startSearchQuery="${startSearchQuery}", geocodedStart=${!!geocodedStart})`);
         pos = await new Promise<{lat:number, lon:number}>((resolve, reject) => {
           if (!navigator.geolocation) return reject(new Error('位置情報が取得できません'));
           navigator.geolocation.getCurrentPosition(p => resolve({ lat: p.coords.latitude, lon: p.coords.longitude }), () => reject(new Error('位置情報の取得に失敗しました')));
@@ -2873,9 +2950,10 @@ export default function BusSearch() {
       
       {/* Google Maps API Script */}
       <Script
-        src={`https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&libraries=geometry,places`}
+        src={`https://maps.googleapis.com/maps/api/js?key=${process.env.NEXT_PUBLIC_GOOGLE_MAPS_API_KEY}&libraries=geometry,places&loading=async`}
         onLoad={() => {
-
+          // Google Maps API読み込み完了後の処理
+          console.log('Google Maps API loaded');
           // 少し遅延してからmapLoadedを設定（完全な初期化を待つ）
           setTimeout(() => setMapLoaded(true), 100);
         }}
