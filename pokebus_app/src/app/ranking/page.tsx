@@ -37,6 +37,8 @@ type RankItem = {
 
 type Period = "weekly" | "monthly" | "overall";
 
+const TOP_RANK_LIMIT = 5;
+
 const normalizeTimestamp = (value: any, fallback?: Timestamp): Timestamp => {
   if (value instanceof Timestamp) return value;
   if (value instanceof Date) return Timestamp.fromDate(value);
@@ -300,7 +302,7 @@ function RankingPage() {
   };
 
   const userRank = userRankState ?? userStats?.rank ?? null;
-  const isUserRankedTop = typeof userRank === "number" && userRank > 0 && userRank <= 8;
+  const isUserRankedTop = typeof userRank === "number" && userRank > 0 && userRank <= TOP_RANK_LIMIT;
 
   const handleUserProfileNavigation = (item: RankItem, isSelf: boolean) => {
     if (!item?.uid) return;
@@ -484,7 +486,7 @@ function RankingPage() {
                 ) : (
                   <div className={styles.rankingItems}>
                     {ranking
-                      .filter((_, index) => index < 8)
+                      .filter((_, index) => index < TOP_RANK_LIMIT)
                       .map((r, idx) => {
                       const isMe = currentUser && r.uid === currentUser.uid;
                       const rank = r.rank || idx + 1;
