@@ -301,6 +301,33 @@
   color: #fbbf24;
 }
 
+.lastPassageInfo {
+  margin-top: 12px;
+  padding: 8px 10px;
+  border-radius: 10px;
+  background: rgba(255, 255, 255, 0.12);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.lastPassageTitle {
+  font-size: 11px;
+  opacity: 0.85;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 4px;
+}
+
+.lastPassageBody {
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.lastPassageSubtext {
+  font-size: 11px;
+  opacity: 0.75;
+  margin-top: 2px;
+}
+
 .periodTabs {
   display: flex;
   align-items: center;
@@ -502,6 +529,30 @@
   color: #9ca3af;
   word-break: break-all;
   margin: 2px 0 0 0;
+}
+
+.itemLastPassage {
+  margin-top: 6px;
+  font-size: 11px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 6px;
+  color: #4b5563;
+}
+
+.itemLastPassageStop {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.itemLastPassagePoints {
+  font-weight: 600;
+  color: #f59e0b;
+}
+
+.itemLastPassageTime {
+  opacity: 0.7;
 }
 
 .itemStats {

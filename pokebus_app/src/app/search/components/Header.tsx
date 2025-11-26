@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { useRouter } from "next/navigation";
 import searchStyles from "../search.module.css";
 import { Menu, X } from "lucide-react";
 
@@ -10,6 +11,8 @@ type Props = {
 };
 
 export default function Header({ menuOpen, toggleMenu, onGoProfile }: Props) {
+  const router = useRouter();
+
   return (
     <>
       <div className={searchStyles.header}>
@@ -26,7 +29,16 @@ export default function Header({ menuOpen, toggleMenu, onGoProfile }: Props) {
       {menuOpen && (
         <div className={searchStyles.dropdown}>
           <ul className={searchStyles.dropdownList}>
-            <li className={searchStyles.dropdownItem}>🏆 ランキング</li>
+            <li
+              className={searchStyles.dropdownItem}
+              onClick={() => {
+                toggleMenu();
+                router.push("/ranking");
+              }}
+              style={{ cursor: "pointer" }}
+            >
+              🏆 ランキング
+            </li>
             <li
               className={searchStyles.dropdownItem}
               onClick={() => {

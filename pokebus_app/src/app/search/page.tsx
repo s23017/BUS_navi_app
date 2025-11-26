@@ -11,7 +11,8 @@ import BusRoutesModal from "./components/BusRoutesModal";
 import RouteDetailSheet from "./components/RouteDetailSheet";
 import { db, auth } from "../../../lib/firebase";
 import { loadStops, loadStopTimes, loadTrips, loadRoutes, loadStopMasterData } from "../../../lib/gtfs";
-import { collection, addDoc, query, where, onSnapshot, Timestamp, orderBy, limit, getDocs, deleteDoc, updateDoc, QueryConstraint } from "firebase/firestore";
+import { POINTS_PER_BUS_STOP, getWeekStart, getMonthStart, getWeekKey, getMonthKey } from "../../lib/points";
+import { collection, addDoc, query, where, onSnapshot, Timestamp, orderBy, limit, getDocs, deleteDoc, updateDoc, QueryConstraint, doc, runTransaction } from "firebase/firestore";
 import { onAuthStateChanged } from "firebase/auth";
 
   // Google Maps API の型定義を追加
@@ -444,27 +445,68 @@ export default function BusSearch() {
     }
   };
 
-  // バス停通過データをFirestoreに保存
-  const saveBusStopPassage = async (tripId: string, stopData: any) => {
+  const awardPointsForBusStopPassage = async (tripId: string, passedStop: any) => {
+    const userId = currentUser?.uid;
+    if (!userId) return;
+
     try {
-      const passageData = {
-        tripId,
-        stopId: stopData.stopId,
-        stopName: stopData.stopName,
-        userId: getEffectiveUserId() || 'anonymous',
-        username: getUserDisplayName(currentUser),
-        passTime: Timestamp.now(),
-        delay: stopData.delay,
-        scheduledTime: stopData.scheduledTime || null,
-        actualTime: Timestamp.now()
-      };
+      const now = new Date();
+      const weekStart = getWeekStart(now);
+      const monthStart = getMonthStart(now);
+      const weekKey = getWeekKey(now);
+      const monthKey = getMonthKey(now);
+      const awardedAt = passedStop?.passTime instanceof Date
+        ? Timestamp.fromDate(passedStop.passTime)
+        : Timestamp.now();
+      const userStatsRef = doc(db, "userStats", userId);
 
-      await addDoc(collection(db, 'busStopPassages'), passageData);
+      await runTransaction(db, async (transaction) => {
+        const snapshot = await transaction.get(userStatsRef);
+        const existing = snapshot.exists() ? snapshot.data() : {};
 
-    } catch (error: any) {
+        let weeklyPoints = existing?.weeklyPoints || 0;
+        if (existing?.weekKey !== weekKey) {
+          weeklyPoints = 0;
+        }
 
-      if (error?.code === 'permission-denied') {
-      }
+        let monthlyPoints = existing?.monthlyPoints || 0;
+        if (existing?.monthKey !== monthKey) {
+          monthlyPoints = 0;
+        }
+
+        const nextWeeklyPoints = weeklyPoints + POINTS_PER_BUS_STOP;
+        const nextMonthlyPoints = monthlyPoints + POINTS_PER_BUS_STOP;
+        const nextTotalPoints = (existing?.totalPoints || 0) + POINTS_PER_BUS_STOP;
+        const nextPassCount = (existing?.busPasses || 0) + 1;
+
+        const lastPassagePayload = {
+          stopId: passedStop.stopId,
+          stopName: passedStop.stopName,
+          tripId,
+          scheduledTime: passedStop.scheduledTime || null,
+          delay: typeof passedStop.delay === "number" ? passedStop.delay : null,
+          points: POINTS_PER_BUS_STOP,
+          awardedAt,
+        };
+
+        transaction.set(userStatsRef, {
+          uid: userId,
+          displayName: getUserDisplayName(currentUser),
+          email: currentUser?.email || "",
+          weeklyPoints: nextWeeklyPoints,
+          monthlyPoints: nextMonthlyPoints,
+          totalPoints: nextTotalPoints,
+          busPasses: nextPassCount,
+          weekKey,
+          monthKey,
+          weekStartAt: Timestamp.fromDate(weekStart),
+          monthStartAt: Timestamp.fromDate(monthStart),
+          lastPassage: lastPassagePayload,
+          lastUpdated: awardedAt,
+        }, { merge: true });
+      });
+    } catch (error) {
+      console.error('Failed to award points for bus stop passage:', error);
     }
   };
 
@@ -1943,23 +1985,35 @@ export default function BusSearch() {
   // バス停通過をFirestoreに保存（他のユーザーにリアルタイム通知）
   const saveBusStopPassageToFirestore = async (tripId: string, passedStop: any) => {
     try {
+      const passTimeTs = passedStop?.passTime instanceof Date
+        ? Timestamp.fromDate(passedStop.passTime)
+        : Timestamp.now();
+      const recordedAt = Timestamp.now();
+      const userId = currentUser?.uid || 'anonymous';
+      const username = passedStop?.username || getUserDisplayName(currentUser);
+
       const passageData = {
         tripId,
         stopId: passedStop.stopId,
         stopName: passedStop.stopName,
-        passTime: Timestamp.now(),
+        passTime: passTimeTs,
         scheduledTime: passedStop.scheduledTime,
         delay: passedStop.delay,
-        username: passedStop.username,
-        userId: currentUser?.uid || 'anonymous',
-        timestamp: Timestamp.now(),
-        inferred: passedStop.inferred || false // 推論による通過判定かどうかを記録
+        username,
+        userId,
+        timestamp: recordedAt,
+        inferred: passedStop.inferred || false,
+        pointsAwarded: !passedStop.inferred && currentUser?.uid ? POINTS_PER_BUS_STOP : 0
       };
 
       await addDoc(collection(db, 'busStopPassages'), passageData);
 
-    } catch (error) {
+      if (!passedStop.inferred) {
+        await awardPointsForBusStopPassage(tripId, passedStop);
+      }
 
+    } catch (error) {
+      console.error('Failed to save bus stop passage:', error);
     }
   };
 
@@ -1967,9 +2021,17 @@ export default function BusSearch() {
   const showBusStopNotification = (passedStop: any) => {
     // 通知権限をチェック
     if ('Notification' in window) {
+      const delayText = passedStop.delay > 0
+        ? `${passedStop.delay}分遅れ`
+        : passedStop.delay < 0
+          ? `${Math.abs(passedStop.delay)}分早く`
+          : '定刻';
+      const pointsText = currentUser?.uid ? `+${POINTS_PER_BUS_STOP}pt` : '';
+      const bodyText = `${pointsText ? `${pointsText} • ` : ''}${delayText} by ${passedStop.username}`;
+
       if (Notification.permission === 'granted') {
         new Notification(`🚏 バス停通過: ${passedStop.stopName}`, {
-          body: `${passedStop.delay > 0 ? `${passedStop.delay}分遅れ` : passedStop.delay < 0 ? `${Math.abs(passedStop.delay)}分早く` : '定刻'} by ${passedStop.username}`,
+          body: bodyText,
           icon: '/bus-icon.png',
           tag: `bus-stop-${passedStop.stopId}`,
           requireInteraction: false
@@ -1979,7 +2041,7 @@ export default function BusSearch() {
         Notification.requestPermission().then(permission => {
           if (permission === 'granted') {
             new Notification(`🚏 バス停通過: ${passedStop.stopName}`, {
-              body: `${passedStop.delay > 0 ? `${passedStop.delay}分遅れ` : passedStop.delay < 0 ? `${Math.abs(passedStop.delay)}分早く` : '定刻'} by ${passedStop.username}`,
+              body: bodyText,
               icon: '/bus-icon.png'
             });
           }
