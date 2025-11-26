@@ -1,13 +1,15 @@
 
 "use client";
 
-import React, { useState, useEffect, useRef } from "react";
-import { Menu, X, Trophy, TrendingUp, Award, Users, ArrowLeft, Star } from "lucide-react";
+import React, { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { Trophy, TrendingUp, Award, Users } from "lucide-react";
 import { db, auth } from "../../../lib/firebase";
 import { collection, query, where, orderBy, limit, onSnapshot, doc, getDoc, Timestamp, runTransaction } from "firebase/firestore";
 import { onAuthStateChanged } from "firebase/auth";
 import styles from './ranking.module.css';
 import { POINTS_PER_BUS_STOP, getWeekStart, getMonthStart, getWeekKey, getMonthKey } from "../../lib/points";
+import SearchHeader from "../search/components/Header";
 
 type RankItem = {
   uid: string;
@@ -83,77 +85,6 @@ const toRankItem = (docId: string, data: any, rank?: number): RankItem => {
   };
 };
 
-// ヘッダーコンポーネント
-function Header() {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  const navigateTo = (path: string) => {
-    window.location.href = path;
-  };
-
-  return (
-    <>
-      {/* ヘッダー */}
-      <div className={styles.appHeader}>
-        <div className={styles.headerContent}>
-          {/* 左側：戻るボタンとタイトル */}
-          <div className={styles.headerLeft}>
-            <button 
-              className={styles.backButton}
-              onClick={() => navigateTo('/search')}
-            >
-              <ArrowLeft className="w-6 h-6" />
-            </button>
-            <div className={styles.headerTitle}>
-              🏆 ランキング
-            </div>
-          </div>
-
-          {/* 右側：メニューボタン */}
-          <button 
-            className={styles.menuButton}
-            onClick={() => setMenuOpen(!menuOpen)}
-          >
-            {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
-        </div>
-
-        {/* ドロップダウンメニュー */}
-        {menuOpen && (
-          <div className={styles.dropdown}>
-            <div className={styles.dropdownContent}>
-              <ul className={styles.dropdownList}>
-                <li 
-                  className={`${styles.dropdownItem} ${styles.dropdownItemOther}`}
-                  onClick={() => navigateTo('/search')}
-                >
-                  <span className={styles.dropdownItemIcon}>🏠</span>
-                  <span className={styles.dropdownItemText}>ホーム</span>
-                </li>
-                <li className={`${styles.dropdownItem} ${styles.dropdownItemActive}`}>
-                  <span className={styles.dropdownItemIcon}>🏆</span>
-                  <span className={styles.dropdownItemTextActive}>ランキング</span>
-                </li>
-                <li 
-                  className={`${styles.dropdownItem} ${styles.dropdownItemOther}`}
-                  onClick={() => navigateTo('/search')}
-                >
-                  <span className={styles.dropdownItemIcon}>📍</span>
-                  <span className={styles.dropdownItemText}>バス停検索</span>
-                </li>
-                <li className={`${styles.dropdownItem} ${styles.dropdownItemOther}`}>
-                  <span className={styles.dropdownItemIcon}>⚙️</span>
-                  <span className={styles.dropdownItemText}>設定</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        )}
-      </div>
-    </>
-  );
-}
-
 // ランキングページコンポーネント
 function RankingPage() {
   const [period, setPeriod] = useState<Period>("weekly");
@@ -162,6 +93,8 @@ function RankingPage() {
   const [currentUser, setCurrentUser] = useState<any>(null);
   const [userStats, setUserStats] = useState<RankItem | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const router = useRouter();
 
   // 認証状態の監視
   useEffect(() => {
@@ -364,7 +297,11 @@ function RankingPage() {
 
   return (
     <div className={styles.rankingContainer}>
-      <Header />
+      <SearchHeader
+        menuOpen={menuOpen}
+        toggleMenu={() => setMenuOpen(!menuOpen)}
+        onGoProfile={() => router.push('/profile')}
+      />
 
       <div className={styles.main}>
         <div className={styles.content}>

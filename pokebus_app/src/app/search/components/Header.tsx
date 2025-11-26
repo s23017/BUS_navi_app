@@ -8,15 +8,29 @@ type Props = {
   menuOpen: boolean;
   toggleMenu: () => void;
   onGoProfile: () => void;
+  onLogoClick?: () => void;
 };
 
-export default function Header({ menuOpen, toggleMenu, onGoProfile }: Props) {
+export default function Header({ menuOpen, toggleMenu, onGoProfile, onLogoClick }: Props) {
   const router = useRouter();
+  const handleLogoClick = () => {
+    if (onLogoClick) {
+      onLogoClick();
+      return;
+    }
+    router.push("/search");
+  };
 
   return (
     <>
       <div className={searchStyles.header}>
-        <img src="/pokebus_icon.png" alt="logo" className={searchStyles.logo} />
+        <img
+          src="/pokebus_icon.png"
+          alt="logo"
+          className={searchStyles.logo}
+          onClick={handleLogoClick}
+          style={{ cursor: "pointer" }}
+        />
         <button
           className={searchStyles.menuButton}
           onClick={toggleMenu}
