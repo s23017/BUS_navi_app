@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import { useRouter } from "next/navigation";
 import searchStyles from "../search.module.css";
 import { Menu, X } from "lucide-react";
 
@@ -7,13 +8,29 @@ type Props = {
   menuOpen: boolean;
   toggleMenu: () => void;
   onGoProfile: () => void;
+  onLogoClick?: () => void;
 };
 
-export default function Header({ menuOpen, toggleMenu, onGoProfile }: Props) {
+export default function Header({ menuOpen, toggleMenu, onGoProfile, onLogoClick }: Props) {
+  const router = useRouter();
+  const handleLogoClick = () => {
+    if (onLogoClick) {
+      onLogoClick();
+      return;
+    }
+    router.push("/search");
+  };
+
   return (
     <>
       <div className={searchStyles.header}>
-        <img src="/pokebus_icon.png" alt="logo" className={searchStyles.logo} />
+        <img
+          src="/pokebus_icon.png"
+          alt="logo"
+          className={searchStyles.logo}
+          onClick={handleLogoClick}
+          style={{ cursor: "pointer" }}
+        />
         <button
           className={searchStyles.menuButton}
           onClick={toggleMenu}
@@ -26,7 +43,16 @@ export default function Header({ menuOpen, toggleMenu, onGoProfile }: Props) {
       {menuOpen && (
         <div className={searchStyles.dropdown}>
           <ul className={searchStyles.dropdownList}>
-            <li className={searchStyles.dropdownItem}>🏆 ランキング</li>
+            <li
+              className={searchStyles.dropdownItem}
+              onClick={() => {
+                toggleMenu();
+                router.push("/ranking");
+              }}
+              style={{ cursor: "pointer" }}
+            >
+              🏆 ランキング
+            </li>
             <li
               className={searchStyles.dropdownItem}
               onClick={() => {

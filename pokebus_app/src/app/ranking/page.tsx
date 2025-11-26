@@ -1,12 +1,15 @@
 
 "use client";
 
-import React, { useState, useEffect, useRef } from "react";
-import { Menu, X, Trophy, TrendingUp, Award, Users, ArrowLeft, Star } from "lucide-react";
+import React, { useState, useEffect } from "react";
+import { useRouter } from "next/navigation";
+import { Trophy, TrendingUp, Award, Users } from "lucide-react";
 import { db, auth } from "../../../lib/firebase";
-import { collection, query, where, orderBy, limit, onSnapshot, doc, setDoc, getDoc, updateDoc, getDocs, Timestamp } from "firebase/firestore";
+import { collection, query, where, orderBy, limit, onSnapshot, doc, getDoc, Timestamp, runTransaction } from "firebase/firestore";
 import { onAuthStateChanged } from "firebase/auth";
 import styles from './ranking.module.css';
+import { POINTS_PER_BUS_STOP, getWeekStart, getMonthStart, getWeekKey, getMonthKey } from "../../lib/points";
+import SearchHeader from "../search/components/Header";
 
 type RankItem = {
   uid: string;
@@ -18,100 +21,68 @@ type RankItem = {
   totalPoints: number;
   busPasses: number;
   lastUpdated: Timestamp;
+  lastPassage?: {
+    stopId: string;
+    stopName: string;
+    tripId?: string;
+    points?: number;
+    awardedAt?: Timestamp;
+    delay?: number | null;
+    scheduledTime?: string | null;
+  };
+  weekKey?: string;
+  monthKey?: string;
   rank?: number;
 };
 
 type Period = "weekly" | "monthly" | "overall";
 
-// ポイント計算設定
-const POINTS_PER_BUS_STOP = 10;
+const normalizeTimestamp = (value: any, fallback?: Timestamp): Timestamp => {
+  if (value instanceof Timestamp) return value;
+  if (value instanceof Date) return Timestamp.fromDate(value);
+  if (value && typeof value === "object" && typeof value.seconds === "number" && typeof value.nanoseconds === "number") {
+    return new Timestamp(value.seconds, value.nanoseconds);
+  }
+  if (typeof value === "string") {
+    const parsed = new Date(value);
+    if (!Number.isNaN(parsed.getTime())) {
+      return Timestamp.fromDate(parsed);
+    }
+  }
+  return fallback ?? Timestamp.now();
+};
 
-// ヘッダーコンポーネント
-function Header() {
-  const [menuOpen, setMenuOpen] = useState(false);
-
-  const navigateTo = (path: string) => {
-    window.location.href = path;
+const normalizeLastPassage = (raw: any): RankItem["lastPassage"] => {
+  if (!raw || typeof raw !== "object") return undefined;
+  const awardedAt = raw.awardedAt ? normalizeTimestamp(raw.awardedAt) : undefined;
+  return {
+    stopId: raw.stopId || "",
+    stopName: raw.stopName || "",
+    tripId: raw.tripId || undefined,
+    points: typeof raw.points === "number" ? raw.points : undefined,
+    awardedAt,
+    delay: typeof raw.delay === "number" ? raw.delay : null,
+    scheduledTime: raw.scheduledTime ?? null,
   };
-
-  return (
-    <>
-      {/* ヘッダー */}
-      <div className={styles.appHeader}>
-        <div className={styles.headerContent}>
-          {/* 左側：戻るボタンとタイトル */}
-          <div className={styles.headerLeft}>
-            <button 
-              className={styles.backButton}
-              onClick={() => navigateTo('/search')}
-            >
-              <ArrowLeft className="w-6 h-6" />
-            </button>
-            <div className={styles.headerTitle}>
-              🏆 ランキング
-            </div>
-          </div>
-
-          {/* 右側：メニューボタン */}
-          <button 
-            className={styles.menuButton}
-            onClick={() => setMenuOpen(!menuOpen)}
-          >
-            {menuOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
-          </button>
-        </div>
-
-        {/* ドロップダウンメニュー */}
-        {menuOpen && (
-          <div className={styles.dropdown}>
-            <div className={styles.dropdownContent}>
-              <ul className={styles.dropdownList}>
-                <li 
-                  className={`${styles.dropdownItem} ${styles.dropdownItemOther}`}
-                  onClick={() => navigateTo('/search')}
-                >
-                  <span className={styles.dropdownItemIcon}>🏠</span>
-                  <span className={styles.dropdownItemText}>ホーム</span>
-                </li>
-                <li className={`${styles.dropdownItem} ${styles.dropdownItemActive}`}>
-                  <span className={styles.dropdownItemIcon}>🏆</span>
-                  <span className={styles.dropdownItemTextActive}>ランキング</span>
-                </li>
-                <li 
-                  className={`${styles.dropdownItem} ${styles.dropdownItemOther}`}
-                  onClick={() => navigateTo('/search')}
-                >
-                  <span className={styles.dropdownItemIcon}>📍</span>
-                  <span className={styles.dropdownItemText}>バス停検索</span>
-                </li>
-                <li className={`${styles.dropdownItem} ${styles.dropdownItemOther}`}>
-                  <span className={styles.dropdownItemIcon}>⚙️</span>
-                  <span className={styles.dropdownItemText}>設定</span>
-                </li>
-              </ul>
-            </div>
-          </div>
-        )}
-      </div>
-    </>
-  );
-}
-
-// ポイント計算関数
-const calculatePointsFromBusPasses = (busPasses: number): number => {
-  return busPasses * POINTS_PER_BUS_STOP;
 };
 
-// 週間・月間の期間判定
-const getWeekStart = (date: Date): Date => {
-  const d = new Date(date);
-  const day = d.getDay();
-  const diff = d.getDate() - day + (day === 0 ? -6 : 1); // Monday start
-  return new Date(d.setDate(diff));
-};
-
-const getMonthStart = (date: Date): Date => {
-  return new Date(date.getFullYear(), date.getMonth(), 1);
+const toRankItem = (docId: string, data: any, rank?: number): RankItem => {
+  const lastUpdated = normalizeTimestamp(data?.lastUpdated, Timestamp.now());
+  return {
+    uid: docId,
+    displayName: data?.displayName || "ゲスト",
+    email: data?.email || "",
+    avatarUrl: data?.avatarUrl || undefined,
+    weeklyPoints: data?.weeklyPoints || 0,
+    monthlyPoints: data?.monthlyPoints || 0,
+    totalPoints: data?.totalPoints || 0,
+    busPasses: data?.busPasses || 0,
+    lastUpdated,
+    lastPassage: normalizeLastPassage(data?.lastPassage),
+    weekKey: data?.weekKey,
+    monthKey: data?.monthKey,
+    rank,
+  };
 };
 
 // ランキングページコンポーネント
@@ -122,6 +93,8 @@ function RankingPage() {
   const [currentUser, setCurrentUser] = useState<any>(null);
   const [userStats, setUserStats] = useState<RankItem | null>(null);
   const [error, setError] = useState<string | null>(null);
+  const [menuOpen, setMenuOpen] = useState(false);
+  const router = useRouter();
 
   // 認証状態の監視
   useEffect(() => {
@@ -140,117 +113,63 @@ function RankingPage() {
     return () => unsubscribe();
   }, []);
 
-  // ユーザーの統計データを更新/取得
-  const updateUserStats = async (userId: string) => {
+  // ユーザードキュメントを同期（週・月の区切りをリセット）
+  const syncUserStatsDocument = async (userId: string) => {
     try {
-      console.log('📊 ユーザー統計データ更新開始:', userId);
+      console.log('📊 ユーザー統計ドキュメント同期開始:', userId);
 
+      const statsRef = doc(db, 'userStats', userId);
       const now = new Date();
+      const weekKey = getWeekKey(now);
+      const monthKey = getMonthKey(now);
       const weekStart = getWeekStart(now);
       const monthStart = getMonthStart(now);
+      const nowTimestamp = Timestamp.now();
 
-      // 全期間のバス停通過数を取得
-      const totalPassagesQuery = query(
-        collection(db, 'busStopPassages'),
-        where('userId', '==', userId)
-      );
+      await runTransaction(db, async (transaction) => {
+        const snapshot = await transaction.get(statsRef);
+        const existing = snapshot.exists() ? snapshot.data() : {};
 
-      // 週間のバス停通過数を取得
-      const weeklyPassagesQuery = query(
-        collection(db, 'busStopPassages'),
-        where('userId', '==', userId),
-        where('passTime', '>=', Timestamp.fromDate(weekStart))
-      );
+        let weeklyPoints = existing?.weeklyPoints || 0;
+        if (existing?.weekKey !== weekKey) {
+          weeklyPoints = 0;
+        }
 
-      // 月間のバス停通過数を取得
-      const monthlyPassagesQuery = query(
-        collection(db, 'busStopPassages'),
-        where('userId', '==', userId),
-        where('passTime', '>=', Timestamp.fromDate(monthStart))
-      );
+        let monthlyPoints = existing?.monthlyPoints || 0;
+        if (existing?.monthKey !== monthKey) {
+          monthlyPoints = 0;
+        }
 
-      const [totalSnapshot, weeklySnapshot, monthlySnapshot] = await Promise.all([
-        getDocs(totalPassagesQuery),
-        getDocs(weeklyPassagesQuery),
-        getDocs(monthlyPassagesQuery)
-      ]);
-
-      const totalPasses = totalSnapshot.docs.length;
-      const weeklyPasses = weeklySnapshot.docs.length;
-      const monthlyPasses = monthlySnapshot.docs.length;
-
-      // ポイント計算
-      const userStats = {
-        uid: userId,
-        displayName: currentUser?.displayName || currentUser?.email?.split('@')[0] || 'ゲスト',
-        email: currentUser?.email || '',
-        weeklyPoints: calculatePointsFromBusPasses(weeklyPasses),
-        monthlyPoints: calculatePointsFromBusPasses(monthlyPasses),
-        totalPoints: calculatePointsFromBusPasses(totalPasses),
-        busPasses: totalPasses,
-        lastUpdated: Timestamp.now()
-      };
-
-      // Firestoreに統計データを保存
-      const userStatsRef = doc(db, 'userStats', userId);
-      await setDoc(userStatsRef, userStats, { merge: true });
-
-      console.log('✅ ユーザー統計データ更新完了:', {
-        totalPasses,
-        weeklyPasses,
-        monthlyPasses,
-        totalPoints: userStats.totalPoints,
-        weeklyPoints: userStats.weeklyPoints,
-        monthlyPoints: userStats.monthlyPoints
+        transaction.set(statsRef, {
+          uid: userId,
+          displayName: currentUser?.displayName || currentUser?.email?.split('@')[0] || 'ゲスト',
+          email: currentUser?.email || '',
+          avatarUrl: existing?.avatarUrl || null,
+          weeklyPoints,
+          monthlyPoints,
+          totalPoints: existing?.totalPoints || 0,
+          busPasses: existing?.busPasses || 0,
+          weekKey,
+          monthKey,
+          weekStartAt: Timestamp.fromDate(weekStart),
+          monthStartAt: Timestamp.fromDate(monthStart),
+          lastPassage: existing?.lastPassage || null,
+          lastUpdated: nowTimestamp,
+        }, { merge: true });
       });
-      
-      return userStats;
+
+      const latestSnapshot = await getDoc(statsRef);
+      if (latestSnapshot.exists()) {
+        const normalized = toRankItem(latestSnapshot.id, latestSnapshot.data());
+        setUserStats(normalized);
+        return normalized;
+      }
+
+      return null;
 
     } catch (error) {
-      console.error('❌ ユーザー統計データ更新エラー:', error);
+      console.error('❌ ユーザー統計ドキュメント同期エラー:', error);
       throw error;
-    }
-  };
-
-  // リアルタイムでバス停通過を監視してランキングを更新
-  const listenToBusStopPassagesForRanking = () => {
-    try {
-      if (!currentUser) return null;
-      
-      const q = query(
-        collection(db, 'busStopPassages'),
-        where('userId', '==', currentUser.uid),
-        orderBy('passTime', 'desc'),
-        limit(1) // 最新の1件のみ監視
-      );
-      
-      const unsubscribe = onSnapshot(q, (querySnapshot) => {
-        console.log('🚏 新しいバス停通過情報を検出:', querySnapshot.docs.length, '件');
-        
-        if (!querySnapshot.empty) {
-          const latestPassage = querySnapshot.docs[0].data();
-          console.log('📊 最新のバス停通過:', latestPassage.stopName, 'at', latestPassage.passTime.toDate());
-          
-          // 統計を再計算（少し遅延させてFirestoreの整合性を保つ）
-          setTimeout(() => {
-            updateUserStats(currentUser.uid)
-              .then(() => {
-                console.log('✅ ランキング統計更新完了');
-              })
-              .catch((error) => {
-                console.error('❌ ランキング統計更新失敗:', error);
-              });
-          }, 1000);
-        }
-        
-      }, (error: any) => {
-        console.error('❌ バス停通過監視エラー:', error);
-      });
-      
-      return unsubscribe;
-    } catch (error: any) {
-      console.error('❌ バス停通過監視の開始に失敗:', error);
-      return null;
     }
   };
 
@@ -284,20 +203,7 @@ function RankingPage() {
       const unsubscribe = onSnapshot(rankingQuery, (snapshot) => {
         console.log('📊 ランキングデータ受信:', snapshot.docs.length, '件');
         
-        const rankingData: RankItem[] = snapshot.docs.map((doc, index) => {
-          const data = doc.data();
-          return {
-            uid: doc.id,
-            displayName: data.displayName || 'ゲスト',
-            email: data.email || '',
-            weeklyPoints: data.weeklyPoints || 0,
-            monthlyPoints: data.monthlyPoints || 0,
-            totalPoints: data.totalPoints || 0,
-            busPasses: data.busPasses || 0,
-            lastUpdated: data.lastUpdated || Timestamp.now(),
-            rank: index + 1 // 順位を追加
-          };
-        });
+        const rankingData: RankItem[] = snapshot.docs.map((docSnap, index) => toRankItem(docSnap.id, docSnap.data(), index + 1));
 
         setRanking(rankingData);
         
@@ -306,6 +212,17 @@ function RankingPage() {
           const currentUserStats = rankingData.find(item => item.uid === currentUser.uid);
           if (currentUserStats) {
             setUserStats(currentUserStats);
+          } else {
+            const statsRef = doc(db, 'userStats', currentUser.uid);
+            getDoc(statsRef)
+              .then(snapshot => {
+                if (snapshot.exists()) {
+                  setUserStats(toRankItem(snapshot.id, snapshot.data()));
+                }
+              })
+              .catch((fetchError: unknown) => {
+                console.error('❌ 自分の統計取得エラー:', fetchError);
+              });
           }
         }
 
@@ -334,31 +251,22 @@ function RankingPage() {
   };
 
   // バス停通過監視のリスナー管理
-  const busStopPassageListenerRef = useRef<(() => void) | null>(null);
-
   // 現在のユーザーの統計データとバス停通過を監視
   useEffect(() => {
     if (currentUser) {
       console.log('🔄 現在のユーザーの統計データとバス停通過監視を開始:', currentUser.uid);
       
       // 統計データの初期更新
-      updateUserStats(currentUser.uid)
+      syncUserStatsDocument(currentUser.uid)
         .then(() => {
           console.log('✅ ユーザー統計データ初期更新完了');
         })
-        .catch((error) => {
+        .catch((error: unknown) => {
           console.error('❌ ユーザー統計データ初期更新失敗:', error);
         });
 
-      // バス停通過のリアルタイム監視開始
-      const busStopUnsubscribe = listenToBusStopPassagesForRanking();
-      busStopPassageListenerRef.current = busStopUnsubscribe;
-
       return () => {
-        if (busStopPassageListenerRef.current) {
-          busStopPassageListenerRef.current();
-          busStopPassageListenerRef.current = null;
-        }
+        // no-op cleanup
       };
     }
   }, [currentUser]);
@@ -389,7 +297,11 @@ function RankingPage() {
 
   return (
     <div className={styles.rankingContainer}>
-      <Header />
+      <SearchHeader
+        menuOpen={menuOpen}
+        toggleMenu={() => setMenuOpen(!menuOpen)}
+        onGoProfile={() => router.push('/profile')}
+      />
 
       <div className={styles.main}>
         <div className={styles.content}>
@@ -457,6 +369,34 @@ function RankingPage() {
                       • 「乗車中」状態でバス停付近を通過すると自動獲得<br/>
                       • リアルタイム位置共有で他のユーザーと競い合おう！
                     </div>
+                    {userStats.lastPassage && (
+                      <div className={styles.lastPassageInfo}>
+                        <div className={styles.lastPassageTitle}>最新通過</div>
+                        <div className={styles.lastPassageBody}>
+                          {userStats.lastPassage.stopName}
+                          {userStats.lastPassage.points ? ` (+${userStats.lastPassage.points}pt)` : ''}
+                        </div>
+                        {userStats.lastPassage.awardedAt && (
+                          <div className={styles.lastPassageSubtext}>
+                            {userStats.lastPassage.awardedAt.toDate().toLocaleString('ja-JP', {
+                              month: 'short',
+                              day: 'numeric',
+                              hour: '2-digit',
+                              minute: '2-digit'
+                            })}
+                            {typeof userStats.lastPassage.delay === 'number' && (
+                              <span>
+                                {' '}• {userStats.lastPassage.delay > 0
+                                  ? `${userStats.lastPassage.delay}分遅れ`
+                                  : userStats.lastPassage.delay < 0
+                                    ? `${Math.abs(userStats.lastPassage.delay)}分早く`
+                                    : '定刻'}
+                              </span>
+                            )}
+                          </div>
+                        )}
+                      </div>
+                    )}
                   </div>
                 </div>
               )}
@@ -554,6 +494,22 @@ function RankingPage() {
                                 {isMe && <span className={styles.itemNameBadge}>(あなた)</span>}
                               </div>
                               <div className={styles.itemEmail}>{r.email}</div>
+                              {r.lastPassage && (
+                                <div className={styles.itemLastPassage}>
+                                  <span className={styles.itemLastPassageStop}>{r.lastPassage.stopName}</span>
+                                  {r.lastPassage.points ? (
+                                    <span className={styles.itemLastPassagePoints}>+{r.lastPassage.points}pt</span>
+                                  ) : null}
+                                  {r.lastPassage.awardedAt && (
+                                    <span className={styles.itemLastPassageTime}>
+                                      {r.lastPassage.awardedAt.toDate().toLocaleTimeString('ja-JP', {
+                                        hour: '2-digit',
+                                        minute: '2-digit'
+                                      })}
+                                    </span>
+                                  )}
+                                </div>
+                              )}
                             </div>
 
                             {/* ポイントとバス通過回数 */}
