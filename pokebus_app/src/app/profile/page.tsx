@@ -387,20 +387,19 @@ function ProfileContent() {
               className={searchStyles.dropdownItem}
               onClick={() => {
                 setMenuOpen(false);
-                router.push('/settings');
+                router.push('/ranking');
               }}
             >
-              ⚙️ 設定
+              🏆 ランキング
             </li>
             <li
               className={searchStyles.dropdownItem}
-              onClick={async () => {
+              onClick={() => {
                 setMenuOpen(false);
-                await signOut(auth);
-                router.push('/');
+                router.push('/profile');
               }}
             >
-              🔒 ログアウト
+              👤 プロフィール
             </li>
           </ul>
         </div>

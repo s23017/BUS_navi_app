@@ -37,6 +37,8 @@ type RankItem = {
 
 type Period = "weekly" | "monthly" | "overall";
 
+const TOP_RANK_LIMIT = 5;
+
 const normalizeTimestamp = (value: any, fallback?: Timestamp): Timestamp => {
   if (value instanceof Timestamp) return value;
   if (value instanceof Date) return Timestamp.fromDate(value);
@@ -92,6 +94,7 @@ function RankingPage() {
   const [loading, setLoading] = useState(true);
   const [currentUser, setCurrentUser] = useState<any>(null);
   const [userStats, setUserStats] = useState<RankItem | null>(null);
+  const [userRankState, setUserRankState] = useState<number | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [menuOpen, setMenuOpen] = useState(false);
   const router = useRouter();
@@ -212,12 +215,17 @@ function RankingPage() {
           const currentUserStats = rankingData.find(item => item.uid === currentUser.uid);
           if (currentUserStats) {
             setUserStats(currentUserStats);
+            const indexInSnapshot = rankingData.findIndex(item => item.uid === currentUser.uid);
+            const resolvedRank = currentUserStats.rank ?? (indexInSnapshot >= 0 ? indexInSnapshot + 1 : null);
+            setUserRankState(resolvedRank);
           } else {
             const statsRef = doc(db, 'userStats', currentUser.uid);
             getDoc(statsRef)
               .then(snapshot => {
                 if (snapshot.exists()) {
-                  setUserStats(toRankItem(snapshot.id, snapshot.data()));
+                  const normalized = toRankItem(snapshot.id, snapshot.data());
+                  setUserStats(normalized);
+                  setUserRankState(normalized.rank ?? null);
                 }
               })
               .catch((fetchError: unknown) => {
@@ -293,7 +301,25 @@ function RankingPage() {
     return null;
   };
 
-  const userRank = userStats?.rank || 0;
+  const userRank = userRankState ?? userStats?.rank ?? null;
+  const isUserRankedTop = typeof userRank === "number" && userRank > 0 && userRank <= TOP_RANK_LIMIT;
+
+  const handleUserProfileNavigation = (item: RankItem, isSelf: boolean) => {
+    if (!item?.uid) return;
+
+    if (isSelf) {
+      router.push('/profile');
+      return;
+    }
+
+    const params = new URLSearchParams();
+    params.set('userId', item.uid);
+    if (item.displayName) {
+      params.set('username', item.displayName);
+    }
+
+    router.push(`/profile?${params.toString()}`);
+  };
 
   return (
     <div className={styles.rankingContainer}>
@@ -333,9 +359,15 @@ function RankingPage() {
                       <div>
                         <div className={styles.rankLabel}>あなたの現在順位</div>
                         <div className={styles.rankValue}>
-                          #{userRank || "-"}
-                          {getRankBadge(userRank) && (
-                            <span className={styles.rankBadge}>{getRankBadge(userRank)}</span>
+                          {isUserRankedTop && userRank ? (
+                            <>
+                              #{userRank}
+                              {getRankBadge(userRank) && (
+                                <span className={styles.rankBadge}>{getRankBadge(userRank)}</span>
+                              )}
+                            </>
+                          ) : (
+                            <span>ランク外</span>
                           )}
                         </div>
                         <div className={styles.userName}>{userStats.displayName}</div>
@@ -453,7 +485,9 @@ function RankingPage() {
                   </div>
                 ) : (
                   <div className={styles.rankingItems}>
-                    {ranking.map((r, idx) => {
+                    {ranking
+                      .filter((_, index) => index < TOP_RANK_LIMIT)
+                      .map((r, idx) => {
                       const isMe = currentUser && r.uid === currentUser.uid;
                       const rank = r.rank || idx + 1;
                       const badge = getRankBadge(rank);
@@ -479,13 +513,16 @@ function RankingPage() {
                             </div>
 
                             {/* アバター */}
-                            <div
+                            <button
+                              type="button"
                               className={`${styles.itemAvatar} ${
                                 isMe ? styles.itemAvatarMe : styles.itemAvatarOther
-                              }`}
+                              } ${styles.itemAvatarButton}`}
+                              onClick={() => handleUserProfileNavigation(r, isMe)}
+                              aria-label={`${r.displayName}のプロフィールを見る`}
                             >
-                              {r.displayName[0]}
-                            </div>
+                              {r.displayName ? r.displayName[0] : '?'}
+                            </button>
 
                             {/* 名前とメール */}
                             <div className={styles.itemInfo}>
@@ -493,7 +530,11 @@ function RankingPage() {
                                 {r.displayName}
                                 {isMe && <span className={styles.itemNameBadge}>(あなた)</span>}
                               </div>
-                              <div className={styles.itemEmail}>{r.email}</div>
+                              {r.email && (
+                                <div className={styles.itemEmail} aria-hidden="true">
+                                  {/* メールアドレスはセキュリティのため表示しない */}
+                                </div>
+                              )}
                               {r.lastPassage && (
                                 <div className={styles.itemLastPassage}>
                                   <span className={styles.itemLastPassageStop}>{r.lastPassage.stopName}</span>
@@ -526,7 +567,7 @@ function RankingPage() {
                           </div>
                         </div>
                       );
-                    })}
+                      })}
                   </div>
                 )}
               </div>
