@@ -301,7 +301,6 @@ function RankingPage() {
         menuOpen={menuOpen}
         toggleMenu={() => setMenuOpen(!menuOpen)}
         onGoProfile={() => router.push('/profile')}
-        layout="contained"
       />
 
       <div className={styles.main}>
