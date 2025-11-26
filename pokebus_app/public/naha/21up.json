@@ -1,0 +1,414 @@
+{
+  "journey": {
+    "start": "西田場",
+    "end": "安慶名"
+  },
+  "routes": [
+    {
+      "option": 1,
+      "summary": {
+        "text": "所要時間:9分 運賃:0円 乗継回数:0",
+        "duration": "9分",
+        "fare": "0円",
+        "transfers": "0",
+        "notes": "時刻表は別ウィンドウで開きます。ポップアップブロックを解除して下さい"
+      },
+      "legs": [
+        {
+          "departure": "16:17",
+          "arrival": "16:20",
+          "fare": "―",
+          "description": "徒歩 (3分)",
+          "mode": "walk"
+        },
+        {
+          "departure": "16:20",
+          "arrival": "16:26",
+          "fare": "―",
+          "description": "徒歩 (6分)",
+          "mode": "walk"
+        }
+      ],
+      "stops": [
+        {
+          "name": "出発地",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.379277765",
+          "lon": "127.855486084",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "西田場／沖縄県路線バス",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.378268860",
+          "lon": "127.854735192",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "西田場／沖縄県路線バス",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.378268860",
+          "lon": "127.854735192",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "目的地",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.377761858",
+          "lon": "127.851534482",
+          "teiryujyoCd": ""
+        }
+      ],
+      "courseSids": [],
+      "keitouSids": [],
+      "passPoints": {}
+    },
+    {
+      "option": 2,
+      "summary": {
+        "text": "所要時間:9分 運賃:0円 乗継回数:0",
+        "duration": "9分",
+        "fare": "0円",
+        "transfers": "0",
+        "notes": "時刻表は別ウィンドウで開きます。ポップアップブロックを解除して下さい"
+      },
+      "legs": [
+        {
+          "departure": "16:17",
+          "arrival": "16:24",
+          "fare": "―",
+          "description": "徒歩 (7分)",
+          "mode": "walk"
+        },
+        {
+          "departure": "16:24",
+          "arrival": "16:26",
+          "fare": "―",
+          "description": "徒歩 (2分)",
+          "mode": "walk"
+        }
+      ],
+      "stops": [
+        {
+          "name": "出発地",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.379277765",
+          "lon": "127.855486084",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "安慶名／沖縄県路線バス",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.378313804",
+          "lon": "127.851802434",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "安慶名／沖縄県路線バス",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.378313804",
+          "lon": "127.851802434",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "目的地",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.377761858",
+          "lon": "127.851534482",
+          "teiryujyoCd": ""
+        }
+      ],
+      "courseSids": [],
+      "keitouSids": [],
+      "passPoints": {}
+    },
+    {
+      "option": 3,
+      "summary": {
+        "text": "所要時間:9分 運賃:190円 乗継回数:0",
+        "duration": "9分",
+        "fare": "190円",
+        "transfers": "0",
+        "notes": "時刻表は別ウィンドウで開きます。ポップアップブロックを解除して下さい"
+      },
+      "legs": [
+        {
+          "departure": "16:22",
+          "arrival": "16:25",
+          "fare": "―",
+          "description": "徒歩 (3分)",
+          "mode": "walk"
+        },
+        {
+          "departure": "16:26",
+          "arrival": "16:28",
+          "fare": "190円",
+          "description": "琉球バス交通・琉球バス交通・６３謝苅線(久茂地経由)・那覇バスターミナル行",
+          "mode": "bus"
+        },
+        {
+          "departure": "16:29",
+          "arrival": "16:31",
+          "fare": "―",
+          "description": "徒歩 (2分)",
+          "mode": "walk"
+        }
+      ],
+      "stops": [
+        {
+          "name": "出発地",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.379277765",
+          "lon": "127.855486084",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "西田場／沖縄県路線バス",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.378268860",
+          "lon": "127.854735192",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "西田場（中部病院・具志川高校向け）",
+          "type": "bus",
+          "sid": "41089aa7-4ee6-4a53-875e-4df738b13b17",
+          "lat": "26.378268860",
+          "lon": "127.854735192",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "安慶名（胡屋向け）",
+          "type": "bus",
+          "sid": "433be1f9-f18f-4dc5-a246-338309c97750",
+          "lat": "26.378313804",
+          "lon": "127.851802434",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "安慶名／沖縄県路線バス",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.378313804",
+          "lon": "127.851802434",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "目的地",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.377761858",
+          "lon": "127.851534482",
+          "teiryujyoCd": ""
+        }
+      ],
+      "courseSids": [
+        "0e218535-f2bd-4f06-a0ea-53511898b850",
+        ""
+      ],
+      "keitouSids": [
+        "043ddd31-3db0-400f-a77b-ad1d3f83f96e",
+        ""
+      ],
+      "passPoints": {}
+    },
+    {
+      "option": 4,
+      "summary": {
+        "text": "所要時間:14分 運賃:190円 乗継回数:0",
+        "duration": "14分",
+        "fare": "190円",
+        "transfers": "0",
+        "notes": "時刻表は別ウィンドウで開きます。ポップアップブロックを解除して下さい"
+      },
+      "legs": [
+        {
+          "departure": "16:20",
+          "arrival": "16:27",
+          "fare": "―",
+          "description": "徒歩 (7分)",
+          "mode": "walk"
+        },
+        {
+          "departure": "16:28",
+          "arrival": "16:29",
+          "fare": "190円",
+          "description": "琉球バス交通・琉球バス交通・６３謝苅線(久茂地経由)・那覇バスターミナル行",
+          "mode": "bus"
+        },
+        {
+          "departure": "16:30",
+          "arrival": "16:34",
+          "fare": "―",
+          "description": "徒歩 (4分)",
+          "mode": "walk"
+        }
+      ],
+      "stops": [
+        {
+          "name": "出発地",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.379277765",
+          "lon": "127.855486084",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "安慶名／沖縄県路線バス",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.378313804",
+          "lon": "127.851802434",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "安慶名（胡屋向け）",
+          "type": "bus",
+          "sid": "433be1f9-f18f-4dc5-a246-338309c97750",
+          "lat": "26.378313804",
+          "lon": "127.851802434",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "中農前（胡屋向け）",
+          "type": "bus",
+          "sid": "e8c8dce5-cee5-4329-8c6f-d790f81f4a89",
+          "lat": "26.375620069",
+          "lon": "127.850463669",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "中農前／沖縄県路線バス",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.375620069",
+          "lon": "127.850463669",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "目的地",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.377761858",
+          "lon": "127.851534482",
+          "teiryujyoCd": ""
+        }
+      ],
+      "courseSids": [
+        "0e218535-f2bd-4f06-a0ea-53511898b850",
+        ""
+      ],
+      "keitouSids": [
+        "043ddd31-3db0-400f-a77b-ad1d3f83f96e",
+        ""
+      ],
+      "passPoints": {}
+    },
+    {
+      "option": 5,
+      "summary": {
+        "text": "所要時間:13分 運賃:190円 乗継回数:0",
+        "duration": "13分",
+        "fare": "190円",
+        "transfers": "0",
+        "notes": "時刻表は別ウィンドウで開きます。ポップアップブロックを解除して下さい"
+      },
+      "legs": [
+        {
+          "departure": "16:23",
+          "arrival": "16:26",
+          "fare": "―",
+          "description": "徒歩 (3分)",
+          "mode": "walk"
+        },
+        {
+          "departure": "16:27",
+          "arrival": "16:33",
+          "fare": "190円",
+          "description": "琉球バス交通・琉球バス交通・１１３具志川空港線(那覇空港経由)・国際線旅客ターミナル前行",
+          "mode": "bus"
+        },
+        {
+          "departure": "16:34",
+          "arrival": "16:36",
+          "fare": "―",
+          "description": "徒歩 (2分)",
+          "mode": "walk"
+        }
+      ],
+      "stops": [
+        {
+          "name": "出発地",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.379277765",
+          "lon": "127.855486084",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "西田場／沖縄県路線バス",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.378268860",
+          "lon": "127.854735192",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "西田場（胡屋向け）",
+          "type": "bus",
+          "sid": "fffe848e-61cf-4829-b7b0-c56230cbffc4",
+          "lat": "26.378268860",
+          "lon": "127.854735192",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "安慶名（胡屋向け）",
+          "type": "bus",
+          "sid": "433be1f9-f18f-4dc5-a246-338309c97750",
+          "lat": "26.378313804",
+          "lon": "127.851802434",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "安慶名／沖縄県路線バス",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.378313804",
+          "lon": "127.851802434",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "目的地",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.377761858",
+          "lon": "127.851534482",
+          "teiryujyoCd": ""
+        }
+      ],
+      "courseSids": [
+        "bb088366-1137-4782-b42e-07fe26b62b69",
+        ""
+      ],
+      "keitouSids": [
+        "db39c118-28ed-4b03-8f12-9440b4cb6e00",
+        ""
+      ],
+      "passPoints": {}
+    }
+  ],
+  "source": {
+    "file": "public/naha/21up.json",
+    "generatedAt": "2025-11-25T00:59:34.086Z"
+  }
+}
