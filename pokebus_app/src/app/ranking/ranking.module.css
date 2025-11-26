@@ -393,6 +393,18 @@
   font-weight: 600;
 }
 
+.itemAvatarButton {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+.itemAvatarButton:focus-visible {
+  outline: 2px solid rgba(79, 70, 229, 0.4);
+  outline-offset: 3px;
+}
+
 .itemAvatarMe {
   background: linear-gradient(135deg, #4f46e5 0%, #7c3aed 100%);
   color: white;
@@ -682,12 +694,6 @@
   min-height: 100vh;
   background: linear-gradient(to bottom right, #eef2ff, #fdf4ff, #fef7f0);
   /* paddingを削除 */
-}
-
-@media (min-width: 640px) {
-  .rankingContainer {
-    /* padding: 1.5rem; */
-  }
 }
 
 .rankingWrapper {

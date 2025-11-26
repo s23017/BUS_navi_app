@@ -295,6 +295,23 @@ function RankingPage() {
 
   const userRank = userStats?.rank || 0;
 
+  const handleUserProfileNavigation = (item: RankItem, isSelf: boolean) => {
+    if (!item?.uid) return;
+
+    if (isSelf) {
+      router.push('/profile');
+      return;
+    }
+
+    const params = new URLSearchParams();
+    params.set('userId', item.uid);
+    if (item.displayName) {
+      params.set('username', item.displayName);
+    }
+
+    router.push(`/profile?${params.toString()}`);
+  };
+
   return (
     <div className={styles.rankingContainer}>
       <SearchHeader
@@ -479,13 +496,16 @@ function RankingPage() {
                             </div>
 
                             {/* アバター */}
-                            <div
+                            <button
+                              type="button"
                               className={`${styles.itemAvatar} ${
                                 isMe ? styles.itemAvatarMe : styles.itemAvatarOther
-                              }`}
+                              } ${styles.itemAvatarButton}`}
+                              onClick={() => handleUserProfileNavigation(r, isMe)}
+                              aria-label={`${r.displayName}のプロフィールを見る`}
                             >
-                              {r.displayName[0]}
-                            </div>
+                              {r.displayName ? r.displayName[0] : '?'}
+                            </button>
 
                             {/* 名前とメール */}
                             <div className={styles.itemInfo}>
