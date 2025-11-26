@@ -1,0 +1,414 @@
+{
+  "journey": {
+    "start": "嘉数(宜野湾市)",
+    "end": "広栄"
+  },
+  "routes": [
+    {
+      "option": 1,
+      "summary": {
+        "text": "所要時間:12分 運賃:0円 乗継回数:0",
+        "duration": "12分",
+        "fare": "0円",
+        "transfers": "0",
+        "notes": "時刻表は別ウィンドウで開きます。ポップアップブロックを解除して下さい"
+      },
+      "legs": [
+        {
+          "departure": "16:51",
+          "arrival": "16:52",
+          "fare": "―",
+          "description": "徒歩 (1分)",
+          "mode": "walk"
+        },
+        {
+          "departure": "16:52",
+          "arrival": "17:03",
+          "fare": "―",
+          "description": "徒歩 (11分)",
+          "mode": "walk"
+        }
+      ],
+      "stops": [
+        {
+          "name": "出発地",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.259149450",
+          "lon": "127.731577906",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "嘉数(宜野湾市)／沖縄県路線バス",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.259207439",
+          "lon": "127.731319924",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "嘉数(宜野湾市)／沖縄県路線バス",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.259207439",
+          "lon": "127.731319924",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "目的地",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.258865589",
+          "lon": "127.737833399",
+          "teiryujyoCd": ""
+        }
+      ],
+      "courseSids": [],
+      "keitouSids": [],
+      "passPoints": {}
+    },
+    {
+      "option": 2,
+      "summary": {
+        "text": "所要時間:12分 運賃:0円 乗継回数:0",
+        "duration": "12分",
+        "fare": "0円",
+        "transfers": "0",
+        "notes": "時刻表は別ウィンドウで開きます。ポップアップブロックを解除して下さい"
+      },
+      "legs": [
+        {
+          "departure": "16:51",
+          "arrival": "16:52",
+          "fare": "―",
+          "description": "徒歩 (1分)",
+          "mode": "walk"
+        },
+        {
+          "departure": "16:52",
+          "arrival": "17:03",
+          "fare": "―",
+          "description": "徒歩 (11分)",
+          "mode": "walk"
+        }
+      ],
+      "stops": [
+        {
+          "name": "出発地",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.259149450",
+          "lon": "127.731577906",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "嘉数(高速・連絡バス)",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.259173446",
+          "lon": "127.731510910",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "嘉数(高速・連絡バス)",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.259173446",
+          "lon": "127.731510910",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "目的地",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.258865589",
+          "lon": "127.737833399",
+          "teiryujyoCd": ""
+        }
+      ],
+      "courseSids": [],
+      "keitouSids": [],
+      "passPoints": {}
+    },
+    {
+      "option": 3,
+      "summary": {
+        "text": "所要時間:6分 運賃:190円 乗継回数:0",
+        "duration": "6分",
+        "fare": "190円",
+        "transfers": "0",
+        "notes": "時刻表は別ウィンドウで開きます。ポップアップブロックを解除して下さい"
+      },
+      "legs": [
+        {
+          "departure": "16:56",
+          "arrival": "16:57",
+          "fare": "―",
+          "description": "徒歩 (1分)",
+          "mode": "walk"
+        },
+        {
+          "departure": "16:58",
+          "arrival": "17:00",
+          "fare": "190円",
+          "description": "琉球バス交通・琉球バス交通・９０知花線・具志川バスターミナル行",
+          "mode": "bus"
+        },
+        {
+          "departure": "17:01",
+          "arrival": "17:02",
+          "fare": "―",
+          "description": "徒歩 (1分)",
+          "mode": "walk"
+        }
+      ],
+      "stops": [
+        {
+          "name": "出発地",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.259149450",
+          "lon": "127.731577906",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "嘉数(宜野湾市)／沖縄県路線バス",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.259207439",
+          "lon": "127.731319924",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "嘉数（宜野湾市）（真栄原向け）",
+          "type": "bus",
+          "sid": "d1ea2b37-c4b7-44ac-b313-dab4b45d9c68",
+          "lat": "26.259207439",
+          "lon": "127.731319924",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "広栄（中部商業・沖国大・真栄原向け）",
+          "type": "bus",
+          "sid": "7d5861a8-a9a4-4ba3-a19d-467f2ad23289",
+          "lat": "26.258785599",
+          "lon": "127.737923395",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "広栄／沖縄県路線バス",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.258785599",
+          "lon": "127.737923395",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "目的地",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.258865589",
+          "lon": "127.737833399",
+          "teiryujyoCd": ""
+        }
+      ],
+      "courseSids": [
+        "9892b808-6876-4b63-9a1d-4bc53bee1123",
+        ""
+      ],
+      "keitouSids": [
+        "864901fa-d3f5-406d-9802-4be7d61d2019",
+        ""
+      ],
+      "passPoints": {}
+    },
+    {
+      "option": 4,
+      "summary": {
+        "text": "所要時間:6分 運賃:190円 乗継回数:0",
+        "duration": "6分",
+        "fare": "190円",
+        "transfers": "0",
+        "notes": "時刻表は別ウィンドウで開きます。ポップアップブロックを解除して下さい"
+      },
+      "legs": [
+        {
+          "departure": "17:18",
+          "arrival": "17:19",
+          "fare": "―",
+          "description": "徒歩 (1分)",
+          "mode": "walk"
+        },
+        {
+          "departure": "17:20",
+          "arrival": "17:22",
+          "fare": "190円",
+          "description": "琉球バス交通・琉球バス交通・２１新都心具志川線(久茂地・ライカム経由)・具志川バスターミナル行",
+          "mode": "bus"
+        },
+        {
+          "departure": "17:23",
+          "arrival": "17:24",
+          "fare": "―",
+          "description": "徒歩 (1分)",
+          "mode": "walk"
+        }
+      ],
+      "stops": [
+        {
+          "name": "出発地",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.259149450",
+          "lon": "127.731577906",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "嘉数(宜野湾市)／沖縄県路線バス",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.259207439",
+          "lon": "127.731319924",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "嘉数（宜野湾市）（真栄原向け）",
+          "type": "bus",
+          "sid": "d1ea2b37-c4b7-44ac-b313-dab4b45d9c68",
+          "lat": "26.259207439",
+          "lon": "127.731319924",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "広栄（中部商業・沖国大・真栄原向け）",
+          "type": "bus",
+          "sid": "7d5861a8-a9a4-4ba3-a19d-467f2ad23289",
+          "lat": "26.258785599",
+          "lon": "127.737923395",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "広栄／沖縄県路線バス",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.258785599",
+          "lon": "127.737923395",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "目的地",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.258865589",
+          "lon": "127.737833399",
+          "teiryujyoCd": ""
+        }
+      ],
+      "courseSids": [
+        "8cce468e-c900-447f-896c-af157ef691f5",
+        ""
+      ],
+      "keitouSids": [
+        "5fb938fb-8618-47d5-b2f5-cd0314d1a453",
+        ""
+      ],
+      "passPoints": {}
+    },
+    {
+      "option": 5,
+      "summary": {
+        "text": "所要時間:5分 運賃:190円 乗継回数:0",
+        "duration": "5分",
+        "fare": "190円",
+        "transfers": "0",
+        "notes": "時刻表は別ウィンドウで開きます。ポップアップブロックを解除して下さい"
+      },
+      "legs": [
+        {
+          "departure": "17:24",
+          "arrival": "17:25",
+          "fare": "―",
+          "description": "徒歩 (1分)",
+          "mode": "walk"
+        },
+        {
+          "departure": "17:26",
+          "arrival": "17:27",
+          "fare": "190円",
+          "description": "琉球バス交通・琉球バス交通・９８琉大線・琉大北口駐車場行",
+          "mode": "bus"
+        },
+        {
+          "departure": "17:28",
+          "arrival": "17:29",
+          "fare": "―",
+          "description": "徒歩 (1分)",
+          "mode": "walk"
+        }
+      ],
+      "stops": [
+        {
+          "name": "出発地",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.259149450",
+          "lon": "127.731577906",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "嘉数(宜野湾市)／沖縄県路線バス",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.259207439",
+          "lon": "127.731319924",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "嘉数（宜野湾市）（真栄原向け）",
+          "type": "bus",
+          "sid": "d1ea2b37-c4b7-44ac-b313-dab4b45d9c68",
+          "lat": "26.259207439",
+          "lon": "127.731319924",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "広栄（中部商業・沖国大・真栄原向け）",
+          "type": "bus",
+          "sid": "7d5861a8-a9a4-4ba3-a19d-467f2ad23289",
+          "lat": "26.258785599",
+          "lon": "127.737923395",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "広栄／沖縄県路線バス",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.258785599",
+          "lon": "127.737923395",
+          "teiryujyoCd": ""
+        },
+        {
+          "name": "目的地",
+          "type": "walk",
+          "sid": "",
+          "lat": "26.258865589",
+          "lon": "127.737833399",
+          "teiryujyoCd": ""
+        }
+      ],
+      "courseSids": [
+        "fba8425a-8901-4744-8da5-78d326cf2598",
+        ""
+      ],
+      "keitouSids": [
+        "ed0ad81d-cd34-43c8-95a9-b8a88cad67a7",
+        ""
+      ],
+      "passPoints": {}
+    }
+  ],
+  "source": {
+    "file": "public/naha/kakazu.json",
+    "generatedAt": "2025-11-25T01:00:25.903Z"
+  }
+}

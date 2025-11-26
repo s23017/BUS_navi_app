@@ -1,0 +1,3803 @@
+{
+  "journey": {
+    "start": "具志川バスターミナル（起点）（胡屋向け）",
+    "end": "那覇バスターミナル　おりば Ｅ"
+  },
+  "routes": [
+    {
+      "option": 1,
+      "summary": {
+        "text": "所要時間:1時間43分 運賃:― 乗継回数:0",
+        "duration": "1時間43分",
+        "fare": "―",
+        "transfers": "0",
+        "notes": "リアルタイムデータから生成 (謝苅線上り久茂地経由那覇向け)"
+      },
+      "legs": [
+        {
+          "departure": "12:10",
+          "arrival": "13:53",
+          "fare": "―",
+          "description": "謝苅線上り久茂地経由那覇向け",
+          "mode": "bus"
+        }
+      ],
+      "stops": [
+        {
+          "name": "具志川バスターミナル（起点）（胡屋向け）",
+          "type": "bus",
+          "sid": "9854d347-9d0d-4805-9d43-8d9be54ce3c4",
+          "lat": "26.368466667",
+          "lon": "127.861200000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "西田場（中部病院・具志川高校向け）",
+          "type": "bus",
+          "sid": "41089aa7-4ee6-4a53-875e-4df738b13b17",
+          "lat": "26.369733333",
+          "lon": "127.858933333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "安慶名（胡屋向け）",
+          "type": "bus",
+          "sid": "433be1f9-f18f-4dc5-a246-338309c97750",
+          "lat": "26.370766667",
+          "lon": "127.855733333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "中農前（胡屋向け）",
+          "type": "bus",
+          "sid": "e8c8dce5-cee5-4329-8c6f-d790f81f4a89",
+          "lat": "26.368266667",
+          "lon": "127.854433333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "具志川郵便局前（胡屋向け）",
+          "type": "bus",
+          "sid": "4cdd2e1d-4dc6-456b-a529-91e595398d30",
+          "lat": "26.364633333",
+          "lon": "127.853083333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "平良川（胡屋向け）",
+          "type": "bus",
+          "sid": "c28e9820-ba71-42e8-a7e0-09837a82b182",
+          "lat": "26.360950000",
+          "lon": "127.851733333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "上平良川（胡屋向け）",
+          "type": "bus",
+          "sid": "4913534a-6440-4fbe-80fe-71e044893505",
+          "lat": "26.359450000",
+          "lon": "127.850266667",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "喜仲入口（胡屋向け）",
+          "type": "bus",
+          "sid": "9f54273a-695e-4aaa-951a-b85b9266e02c",
+          "lat": "26.354600000",
+          "lon": "127.843683333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "志林川（胡屋向け）",
+          "type": "bus",
+          "sid": "4515fda8-ae98-4cae-ab2f-1a660afb2ea2",
+          "lat": "26.353366667",
+          "lon": "127.839633333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "中部病院前（胡屋向け）",
+          "type": "bus",
+          "sid": "b0917892-c872-49fc-a874-ab6d426c0c27",
+          "lat": "26.352416667",
+          "lon": "127.836166667",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "赤道十字路（美里高校向け）",
+          "type": "bus",
+          "sid": "b10ee222-1a62-45a1-b610-7b92e7aa5b2f",
+          "lat": "26.352083333",
+          "lon": "127.832133333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "明道（胡屋向け）",
+          "type": "bus",
+          "sid": "662f5d91-af18-445a-b660-ed81d5fff1a7",
+          "lat": "26.354133333",
+          "lon": "127.827066667",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "法務局入口（胡屋向け）",
+          "type": "bus",
+          "sid": "1bdc6aeb-cda2-4bcd-8ad2-fa93644f0106",
+          "lat": "26.355550000",
+          "lon": "127.822000000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "松本第二団地入口（胡屋向け）",
+          "type": "bus",
+          "sid": "22d932fc-d144-4a40-bdfd-c87672b600a6",
+          "lat": "26.352083333",
+          "lon": "127.819933333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "美里高校入口（胡屋向け）",
+          "type": "bus",
+          "sid": "31420a40-cdf8-4d9c-af7d-cad7fd3e3673",
+          "lat": "26.349600000",
+          "lon": "127.819050000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "美里団地入口（胡屋向け）",
+          "type": "bus",
+          "sid": "91f0a6f4-081b-4447-9838-1697267033ec",
+          "lat": "26.347583333",
+          "lon": "127.819633333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "美里公園前（胡屋向け）",
+          "type": "bus",
+          "sid": "9fe01610-d328-4e78-94e6-c62a6e1fb6fd",
+          "lat": "26.344450000",
+          "lon": "127.820533333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "美里小城原（胡屋向け）",
+          "type": "bus",
+          "sid": "0400dca1-a4fd-4e3f-b5c8-a54b2c32647b",
+          "lat": "26.341933333",
+          "lon": "127.822066667",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "吉原入口（胡屋向け）",
+          "type": "bus",
+          "sid": "09eafdb8-da6a-4fa8-b374-4193aead284b",
+          "lat": "26.338333333",
+          "lon": "127.820933333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "コザ（山里・沖縄南IC向け）",
+          "type": "bus",
+          "sid": "fc6b10dc-ada0-46a3-8801-de04af7bf0bd",
+          "lat": "26.334883333",
+          "lon": "127.816700000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "安慶田（山里・沖縄南IC向け）",
+          "type": "bus",
+          "sid": "11fd5697-0faa-43bb-92e9-c2cc1a14af7b",
+          "lat": "26.334300000",
+          "lon": "127.813600000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "嘉間良（山里・沖縄南IC向け）",
+          "type": "bus",
+          "sid": "8f88a328-4e7d-42a8-9b2e-9cfad3414821",
+          "lat": "26.333650000",
+          "lon": "127.809283333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "胡屋（山里・沖縄南IC向け）",
+          "type": "bus",
+          "sid": "ec096a2e-328b-4a76-9cc5-ffa057aa4c94",
+          "lat": "26.331683333",
+          "lon": "127.802383333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "中の町（山里・沖縄南IC向け）",
+          "type": "bus",
+          "sid": "d7553cd1-f0e5-43e6-b157-7c0cd2a1b5ac",
+          "lat": "26.329383333",
+          "lon": "127.800683333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "園田（山里・沖縄南IC向け）",
+          "type": "bus",
+          "sid": "9787bad0-ff77-4b5e-a394-13e2f6ecf640",
+          "lat": "26.326200000",
+          "lon": "127.797716667",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "諸見（普天間・球陽高校向け）",
+          "type": "bus",
+          "sid": "f2c8de2c-4e74-4ec3-af4f-0c281fd9126a",
+          "lat": "26.324100000",
+          "lon": "127.795916667",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "山里（普天間・球陽高校向け）",
+          "type": "bus",
+          "sid": "3acd0d12-8239-4d67-ad5d-2897af96a259",
+          "lat": "26.320500000",
+          "lon": "127.795050000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "山内（球陽高校向け）",
+          "type": "bus",
+          "sid": "ac31efe9-80b7-423a-b1b7-ce83e70b9082",
+          "lat": "26.318650000",
+          "lon": "127.791750000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "球陽高校前（謝苅入口・山内中向け）",
+          "type": "bus",
+          "sid": "a7c23889-5134-4aba-9eed-400765c653cd",
+          "lat": "26.316200000",
+          "lon": "127.786666667",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "桃原（謝苅入口向け）",
+          "type": "bus",
+          "sid": "dc8f6a58-2133-4ccf-b825-57e95e482ca9",
+          "lat": "26.315733333",
+          "lon": "127.783183333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "吉原入口（北谷町）（謝苅入口向け）",
+          "type": "bus",
+          "sid": "62d358b2-4a4a-4ee6-a5ce-db2850ec540c",
+          "lat": "26.315000000",
+          "lon": "127.781200000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "団地入口（謝苅入口向け）",
+          "type": "bus",
+          "sid": "2e43679b-aeb2-48c6-a0fb-0c6c6ecb3db2",
+          "lat": "26.314633333",
+          "lon": "127.778833333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "謝苅一区（謝苅入口向け）",
+          "type": "bus",
+          "sid": "5ea247e6-6fd1-4b91-ba04-791787bd3e02",
+          "lat": "26.313550000",
+          "lon": "127.778066667",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "謝苅二区（謝苅入口向け）",
+          "type": "bus",
+          "sid": "a85e7503-c839-4943-864d-99c827727625",
+          "lat": "26.313066667",
+          "lon": "127.775700000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "北玉小学校入口（謝苅入口向け）",
+          "type": "bus",
+          "sid": "d18c3645-76be-427c-8df8-8a7f87b73836",
+          "lat": "26.311716667",
+          "lon": "127.774216667",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "謝苅原（那覇・美浜向け）",
+          "type": "bus",
+          "sid": "a2bd459a-47d4-44d5-b6b8-8e91186038ff",
+          "lat": "26.309566667",
+          "lon": "127.772366667",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "宇地原区公民館前（那覇・美浜向け）",
+          "type": "bus",
+          "sid": "8f86a459-ac38-49a0-bbbb-db50a9a09788",
+          "lat": "26.311300000",
+          "lon": "127.770600000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "部隊前（那覇・美浜向け）",
+          "type": "bus",
+          "sid": "bc7e7b84-0316-466a-ace5-02175eaa52a6",
+          "lat": "26.308433333",
+          "lon": "127.767716667",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "謝苅入口（那覇・美浜向け）",
+          "type": "bus",
+          "sid": "376c0dbf-5093-438f-a1c5-df54eed9c6a4",
+          "lat": "26.307083333",
+          "lon": "127.765666667",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "桑江中学校入口（那覇向け）",
+          "type": "bus",
+          "sid": "f609e319-7fde-444b-b3d6-24aac1687aca",
+          "lat": "26.305866667",
+          "lon": "127.763800000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "北谷一丁目（那覇向け）",
+          "type": "bus",
+          "sid": "85e8f524-5604-40ad-b734-8c9de0df86ba",
+          "lat": "26.303666667",
+          "lon": "127.763200000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "北谷二丁目（那覇向け）",
+          "type": "bus",
+          "sid": "f98ff51b-06c7-4949-84a3-380e45604e0e",
+          "lat": "26.301016667",
+          "lon": "127.761983333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "ハンビ－タウン前（那覇向け）",
+          "type": "bus",
+          "sid": "5766c267-63ba-4912-b0eb-598c6de58597",
+          "lat": "26.297683333",
+          "lon": "127.760883333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "北前一丁目（那覇向け）",
+          "type": "bus",
+          "sid": "10ea0362-932b-4ccc-add1-22aa4bdc7d15",
+          "lat": "26.294183333",
+          "lon": "127.761850000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "北前（那覇・コンベンション向け）",
+          "type": "bus",
+          "sid": "cfd30bcf-ee82-4d73-8fb9-186f4af4c73e",
+          "lat": "26.292616667",
+          "lon": "127.762600000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "伊佐浜（那覇・コンベンション向け）",
+          "type": "bus",
+          "sid": "b88f189e-b394-4f11-b56e-770702cf0395",
+          "lat": "26.287166667",
+          "lon": "127.759916667",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "伊佐川（那覇・普天間向け）",
+          "type": "bus",
+          "sid": "80bb82c6-c2d3-4889-862b-383ae254fd8d",
+          "lat": "26.283700000",
+          "lon": "127.758166667",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "伊佐（那覇向け）",
+          "type": "bus",
+          "sid": "92b43df6-f1a0-4249-98b0-832cc8b9605d",
+          "lat": "26.280316667",
+          "lon": "127.756200000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "大山（那覇向け）",
+          "type": "bus",
+          "sid": "2ff9dd31-4ae5-48ea-891b-1f456224f07f",
+          "lat": "26.274933333",
+          "lon": "127.749500000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "第一大山（那覇向け）",
+          "type": "bus",
+          "sid": "9d611c75-d861-4a59-a53c-ae243699f90d",
+          "lat": "26.272516667",
+          "lon": "127.745000000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "真志喜（那覇向け）",
+          "type": "bus",
+          "sid": "d4d7d5dd-13ad-4005-8d3f-b45d536c0967",
+          "lat": "26.268616667",
+          "lon": "127.741383333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "大謝名（牧港向け）",
+          "type": "bus",
+          "sid": "83fbb462-1040-4fe9-86c6-bbd6f9ebe8de",
+          "lat": "26.265150000",
+          "lon": "127.736050000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "宇地泊（安謝・バイパス向け）",
+          "type": "bus",
+          "sid": "cc6b2346-1a24-4566-815c-1a9c2d3ed2b3",
+          "lat": "26.263650000",
+          "lon": "127.730583333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "牧港ブルーシール本店北側（安謝向け）",
+          "type": "bus",
+          "sid": "3dba51f7-1358-48a4-a927-e60863b54744",
+          "lat": "26.262433333",
+          "lon": "127.723883333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "港川（安謝向け）",
+          "type": "bus",
+          "sid": "c993cffd-48ca-4d58-a844-a05f0aea423b",
+          "lat": "26.260500000",
+          "lon": "127.716083333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "ＳＣＳＫ沖縄センター前（安謝向け）",
+          "type": "bus",
+          "sid": "3b36064a-c183-4fc0-acb6-2f0f103c8c79",
+          "lat": "26.256583333",
+          "lon": "127.713750000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "城間（安謝向け）",
+          "type": "bus",
+          "sid": "2622cce1-c7a9-47cf-80fd-c34d6505ccfa",
+          "lat": "26.253700000",
+          "lon": "127.711483333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "屋富祖（安謝向け）",
+          "type": "bus",
+          "sid": "6d674b34-2285-467b-b20a-85020402c9d1",
+          "lat": "26.250583333",
+          "lon": "127.708300000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "宮城（安謝向け）",
+          "type": "bus",
+          "sid": "2f0dd651-d5d3-4762-aad5-36f26dc09f6d",
+          "lat": "26.248516667",
+          "lon": "127.706116667",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "仲西（泊高橋・おもろまち向け）",
+          "type": "bus",
+          "sid": "3bde7482-0658-4d33-9abd-d28aec1b4f1a",
+          "lat": "26.246083333",
+          "lon": "127.702866667",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "第一仲西（泊高橋・おもろまち向け）",
+          "type": "bus",
+          "sid": "c757dc63-891b-490c-91ad-11a089010dc2",
+          "lat": "26.241516667",
+          "lon": "127.697433333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "勢理客（安謝方面）",
+          "type": "bus",
+          "sid": "c2ff0465-b7a3-4569-96db-64a4eee664a8",
+          "lat": "26.239466667",
+          "lon": "127.694200000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "安謝橋（国際通り・久茂地・おもろまち向け）",
+          "type": "bus",
+          "sid": "6d96118b-913a-4a6a-a31d-0036cfe8b425",
+          "lat": "26.236550000",
+          "lon": "127.691700000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "安謝（国際通り・久茂地・おもろまち向け）",
+          "type": "bus",
+          "sid": "8aa87fa9-9983-4133-b263-02dff338f47f",
+          "lat": "26.234000000",
+          "lon": "127.689633333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "天久（国際通り・久茂地・おもろまち向け）",
+          "type": "bus",
+          "sid": "77a0c199-9a98-4805-a9c4-f8a521c571a1",
+          "lat": "26.231500000",
+          "lon": "127.688483333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "第一天久（国際通り・久茂地・おもろまち向け）",
+          "type": "bus",
+          "sid": "8bea2622-5875-4c6a-a6ca-10124e60100c",
+          "lat": "26.228816667",
+          "lon": "127.687583333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "上之屋（国際通り・久茂地向け）",
+          "type": "bus",
+          "sid": "5c3bf1df-2c8c-417c-97b8-ebace1180134",
+          "lat": "26.225033333",
+          "lon": "127.688283333",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "泊高橋（那覇バスターミナル・旭橋向け）",
+          "type": "bus",
+          "sid": "13b8459a-05d8-42fd-b2fe-bd848646a64b",
+          "lat": "26.220483333",
+          "lon": "127.686666667",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "ラ・ジェント・ホテル沖縄那覇前（久茂地方面）",
+          "type": "bus",
+          "sid": "bb03145d-31b7-4656-9cb8-7bd5563e68f6",
+          "lat": "26.214933333",
+          "lon": "127.683400000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "沖縄タイムス前（那覇バスターミナル・旭橋向け）",
+          "type": "bus",
+          "sid": "60be398a-db6e-4468-bf34-2cd4cfd55b77",
+          "lat": "26.212433333",
+          "lon": "127.681200000",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "県庁北口（那覇バスターミナル・旭橋向け）",
+          "type": "bus",
+          "sid": "5e590e2a-a3b1-4678-a32f-5e4848f811f1",
+          "lat": "26.209383333",
+          "lon": "127.681366667",
+          "teiryujyoCd": "1"
+        },
+        {
+          "name": "那覇バスターミナル　おりば Ｅ",
+          "type": "bus",
+          "sid": "e34129f4-8c03-476c-b1d7-3e14c8b5469c",
+          "lat": "26.207616667",
+          "lon": "127.678700000",
+          "teiryujyoCd": "1"
+        }
+      ],
+      "courseSids": [
+        "0e218535-f2bd-4f06-a0ea-53511898b850"
+      ],
+      "keitouSids": [
+        "043ddd31-3db0-400f-a77b-ad1d3f83f96e"
+      ],
+      "passPoints": {
+        "passpointlat1": [
+          "26.368466667",
+          "26.369733333",
+          "26.370766667",
+          "26.368266667",
+          "26.364633333",
+          "26.360950000",
+          "26.359450000",
+          "26.354600000",
+          "26.353366667",
+          "26.352416667",
+          "26.352083333",
+          "26.354133333",
+          "26.355550000",
+          "26.352083333",
+          "26.349600000",
+          "26.347583333",
+          "26.344450000",
+          "26.341933333",
+          "26.338333333",
+          "26.334883333",
+          "26.334300000",
+          "26.333650000",
+          "26.331683333",
+          "26.329383333",
+          "26.326200000",
+          "26.324100000",
+          "26.320500000",
+          "26.318650000",
+          "26.316200000",
+          "26.315733333",
+          "26.315000000",
+          "26.314633333",
+          "26.313550000",
+          "26.313066667",
+          "26.311716667",
+          "26.309566667",
+          "26.311300000",
+          "26.308433333",
+          "26.307083333",
+          "26.305866667",
+          "26.303666667",
+          "26.301016667",
+          "26.297683333",
+          "26.294183333",
+          "26.292616667",
+          "26.287166667",
+          "26.283700000",
+          "26.280316667",
+          "26.274933333",
+          "26.272516667",
+          "26.268616667",
+          "26.265150000",
+          "26.263650000",
+          "26.262433333",
+          "26.260500000",
+          "26.256583333",
+          "26.253700000",
+          "26.250583333",
+          "26.248516667",
+          "26.246083333",
+          "26.241516667",
+          "26.239466667",
+          "26.236550000",
+          "26.234000000",
+          "26.231500000",
+          "26.228816667",
+          "26.225033333",
+          "26.220483333",
+          "26.214933333",
+          "26.212433333",
+          "26.209383333",
+          "26.207616667"
+        ],
+        "passpointlng1": [
+          "127.861200000",
+          "127.858933333",
+          "127.855733333",
+          "127.854433333",
+          "127.853083333",
+          "127.851733333",
+          "127.850266667",
+          "127.843683333",
+          "127.839633333",
+          "127.836166667",
+          "127.832133333",
+          "127.827066667",
+          "127.822000000",
+          "127.819933333",
+          "127.819050000",
+          "127.819633333",
+          "127.820533333",
+          "127.822066667",
+          "127.820933333",
+          "127.816700000",
+          "127.813600000",
+          "127.809283333",
+          "127.802383333",
+          "127.800683333",
+          "127.797716667",
+          "127.795916667",
+          "127.795050000",
+          "127.791750000",
+          "127.786666667",
+          "127.783183333",
+          "127.781200000",
+          "127.778833333",
+          "127.778066667",
+          "127.775700000",
+          "127.774216667",
+          "127.772366667",
+          "127.770600000",
+          "127.767716667",
+          "127.765666667",
+          "127.763800000",
+          "127.763200000",
+          "127.761983333",
+          "127.760883333",
+          "127.761850000",
+          "127.762600000",
+          "127.759916667",
+          "127.758166667",
+          "127.756200000",
+          "127.749500000",
+          "127.745000000",
+          "127.741383333",
+          "127.736050000",
+          "127.730583333",
+          "127.723883333",
+          "127.716083333",
+          "127.713750000",
+          "127.711483333",
+          "127.708300000",
+          "127.706116667",
+          "127.702866667",
+          "127.697433333",
+          "127.694200000",
+          "127.691700000",
+          "127.689633333",
+          "127.688483333",
+          "127.687583333",
+          "127.688283333",
+          "127.686666667",
+          "127.683400000",
+          "127.681200000",
+          "127.681366667",
+          "127.678700000"
+        ]
+      },
+      "metadata": {
+        "bus": {
+          "GpsId": 1067,
+          "Id": 1067,
+          "NumberPlate": "沖縄230あ1608",
+          "Company": {
+            "Id": "2",
+            "Name": "琉球バス交通",
+            "EmptyMainAddress": "pop.ryukyubuskotsu.jp",
+            "EmptyMailAddress": "e_ryukyu@pop.ryukyubuskotsu.jp",
+            "BusNaviURL": "https://www.busnavi-okinawa.com/mobile/"
+          },
+          "StepWell": {
+            "CompanyId": "2",
+            "StepWellCd": 2,
+            "StepWellName": "ﾉﾝｽﾃｯﾌﾟ"
+          },
+          "Office": {
+            "CompanyId": "2",
+            "EigyoshoCd": "1",
+            "EigyoshoName": "営業所１"
+          }
+        },
+        "position": {
+          "Latitude": 26.3555159044435,
+          "Longitude": 127.832461090007,
+          "AdicNumber": 1,
+          "Datum": 1
+        },
+        "serviceState": 1,
+        "gpsTime": "/Date(1764040963953)/",
+        "direction": 236.1,
+        "speed": 7,
+        "driver": {
+          "Id": "32101",
+          "Name": "宜志富　守"
+        },
+        "updateTime": "/Date(1764040964000)/",
+        "onPower": true,
+        "carStatus": 0,
+        "additionalInfo": "<Info><ODWR_Weekday>平日</ODWR_Weekday><ODWR_ActNo>00000</ODWR_ActNo><ODWR_CarNo>1608</ODWR_CarNo><ODWR_TapeNo>10631</ODWR_TapeNo><ODWR_Keiyujun>10</ODWR_Keiyujun><ODWR_Station>1191</ODWR_Station><ODWR_StartTime>12:10</ODWR_StartTime><System_ActNo /><System_TapeNo>10631</System_TapeNo></Info>",
+        "adminOnlyFlg": false,
+        "workStartTime": {
+          "Hour": 3,
+          "Minute": 0,
+          "Value": "03:00"
+        },
+        "tripSid": "f1ff6d27-52d3-4f98-aae5-820b78242072",
+        "companyId": "2",
+        "binNo": 6,
+        "youbiKbn": {
+          "Cd": 1,
+          "IsSunday": false,
+          "IsMonday": true,
+          "IsTuesday": true,
+          "IsWednesday": true,
+          "IsThursday": true,
+          "IsFriday": true,
+          "IsSaturday": false,
+          "IsPublicHoliday": false
+        },
+        "course": {
+          "Sid": "0e218535-f2bd-4f06-a0ea-53511898b850",
+          "Name": "謝苅線上り久茂地経由那覇向け",
+          "JougeKbn": 3,
+          "Keitou": {
+            "Sid": "043ddd31-3db0-400f-a77b-ad1d3f83f96e",
+            "KeitouNo": "63",
+            "Name": "謝苅線",
+            "WebSpecificDisplay": 3
+          },
+          "IsShared": false,
+          "Keiyu": {
+            "Cd": "2",
+            "Name": "久茂地経由",
+            "Mark": "▲"
+          },
+          "Group": {
+            "Sid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+            "Name": "謝苅線上り",
+            "Keitou": {
+              "Sid": "00000000-0000-0000-0000-000000000000",
+              "KeitouNo": null,
+              "Name": null,
+              "WebSpecificDisplay": 0
+            },
+            "YukisakiName": "那覇バスターミナル　おりば Ｅ"
+          }
+        },
+        "raw": {
+          "BusLocationSid": 0,
+          "Bus": {
+            "GpsId": 1067,
+            "Id": 1067,
+            "NumberPlate": "沖縄230あ1608",
+            "Company": {
+              "Id": "2",
+              "Name": "琉球バス交通",
+              "EmptyMainAddress": "pop.ryukyubuskotsu.jp",
+              "EmptyMailAddress": "e_ryukyu@pop.ryukyubuskotsu.jp",
+              "BusNaviURL": "https://www.busnavi-okinawa.com/mobile/"
+            },
+            "StepWell": {
+              "CompanyId": "2",
+              "StepWellCd": 2,
+              "StepWellName": "ﾉﾝｽﾃｯﾌﾟ"
+            },
+            "Office": {
+              "CompanyId": "2",
+              "EigyoshoCd": "1",
+              "EigyoshoName": "営業所１"
+            }
+          },
+          "Position": {
+            "Latitude": 26.3555159044435,
+            "Longitude": 127.832461090007,
+            "AdicNumber": 1,
+            "Datum": 1
+          },
+          "ServiceState": 1,
+          "GpsTime": "/Date(1764040963953)/",
+          "Direction": 236.1,
+          "Speed": 7,
+          "Daiya": {
+            "IsRinji": false,
+            "CompanyId": "2",
+            "SID": "f1ff6d27-52d3-4f98-aae5-820b78242072",
+            "BinNo": 6,
+            "YoubiKbn": {
+              "Cd": 1,
+              "IsSunday": false,
+              "IsMonday": true,
+              "IsTuesday": true,
+              "IsWednesday": true,
+              "IsThursday": true,
+              "IsFriday": true,
+              "IsSaturday": false,
+              "IsPublicHoliday": false
+            },
+            "Course": {
+              "Sid": "0e218535-f2bd-4f06-a0ea-53511898b850",
+              "Name": "謝苅線上り久茂地経由那覇向け",
+              "JougeKbn": 3,
+              "Keitou": {
+                "Sid": "043ddd31-3db0-400f-a77b-ad1d3f83f96e",
+                "KeitouNo": "63",
+                "Name": "謝苅線",
+                "WebSpecificDisplay": 3
+              },
+              "IsShared": false,
+              "Keiyu": {
+                "Cd": "2",
+                "Name": "久茂地経由",
+                "Mark": "▲"
+              },
+              "Group": {
+                "Sid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+                "Name": "謝苅線上り",
+                "Keitou": {
+                  "Sid": "00000000-0000-0000-0000-000000000000",
+                  "KeitouNo": null,
+                  "Name": null,
+                  "WebSpecificDisplay": 0
+                },
+                "YukisakiName": "那覇バスターミナル　おりば Ｅ"
+              }
+            },
+            "PassedSchedules": [
+              {
+                "Station": {
+                  "Sid": "9854d347-9d0d-4805-9d43-8d9be54ce3c4",
+                  "Name": "具志川バスターミナル（起点）（胡屋向け）",
+                  "ShortName": "具志川バスターミナル",
+                  "Yomigana": "グシカワバスターミナル",
+                  "Position": {
+                    "Latitude": 1582108,
+                    "Longitude": 7671672,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0001",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 10,
+                  "Value": "12:10"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 10,
+                  "Value": "12:10"
+                },
+                "OrderNo": 1,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "41089aa7-4ee6-4a53-875e-4df738b13b17",
+                  "Name": "西田場（中部病院・具志川高校向け）",
+                  "ShortName": "西田場",
+                  "Yomigana": "ニシタバ",
+                  "Position": {
+                    "Latitude": 1582184,
+                    "Longitude": 7671536,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0300",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 11,
+                  "Value": "12:11"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 11,
+                  "Value": "12:11"
+                },
+                "OrderNo": 2,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "433be1f9-f18f-4dc5-a246-338309c97750",
+                  "Name": "安慶名（胡屋向け）",
+                  "ShortName": "安慶名",
+                  "Yomigana": "アゲナ",
+                  "Position": {
+                    "Latitude": 1582246,
+                    "Longitude": 7671344,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0101",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 13,
+                  "Value": "12:13"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 13,
+                  "Value": "12:13"
+                },
+                "OrderNo": 3,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "e8c8dce5-cee5-4329-8c6f-d790f81f4a89",
+                  "Name": "中農前（胡屋向け）",
+                  "ShortName": "中農前",
+                  "Yomigana": "チュウノウマエ",
+                  "Position": {
+                    "Latitude": 1582096,
+                    "Longitude": 7671266,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 14,
+                  "Value": "12:14"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 14,
+                  "Value": "12:14"
+                },
+                "OrderNo": 4,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "4cdd2e1d-4dc6-456b-a529-91e595398d30",
+                  "Name": "具志川郵便局前（胡屋向け）",
+                  "ShortName": "具志川郵便局前",
+                  "Yomigana": "グシカワユウビンキョクマエ",
+                  "Position": {
+                    "Latitude": 1581878,
+                    "Longitude": 7671185,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 15,
+                  "Value": "12:15"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 15,
+                  "Value": "12:15"
+                },
+                "OrderNo": 5,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "c28e9820-ba71-42e8-a7e0-09837a82b182",
+                  "Name": "平良川（胡屋向け）",
+                  "ShortName": "平良川",
+                  "Yomigana": "タイラガワ",
+                  "Position": {
+                    "Latitude": 1581657,
+                    "Longitude": 7671104,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 16,
+                  "Value": "12:16"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 16,
+                  "Value": "12:16"
+                },
+                "OrderNo": 6,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "4913534a-6440-4fbe-80fe-71e044893505",
+                  "Name": "上平良川（胡屋向け）",
+                  "ShortName": "上平良川",
+                  "Yomigana": "ウエタイラガワ",
+                  "Position": {
+                    "Latitude": 1581567,
+                    "Longitude": 7671016,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 17,
+                  "Value": "12:17"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 17,
+                  "Value": "12:17"
+                },
+                "OrderNo": 7,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "9f54273a-695e-4aaa-951a-b85b9266e02c",
+                  "Name": "喜仲入口（胡屋向け）",
+                  "ShortName": "喜仲入口",
+                  "Yomigana": "キナカイリグチ",
+                  "Position": {
+                    "Latitude": 1581276,
+                    "Longitude": 7670621,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 19,
+                  "Value": "12:19"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 19,
+                  "Value": "12:19"
+                },
+                "OrderNo": 8,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "4515fda8-ae98-4cae-ab2f-1a660afb2ea2",
+                  "Name": "志林川（胡屋向け）",
+                  "ShortName": "志林川",
+                  "Yomigana": "シリンカー",
+                  "Position": {
+                    "Latitude": 1581202,
+                    "Longitude": 7670378,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 20,
+                  "Value": "12:20"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 20,
+                  "Value": "12:20"
+                },
+                "OrderNo": 9,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "b0917892-c872-49fc-a874-ab6d426c0c27",
+                  "Name": "中部病院前（胡屋向け）",
+                  "ShortName": "中部病院前",
+                  "Yomigana": "チュウブビョウインマエ",
+                  "Position": {
+                    "Latitude": 1581145,
+                    "Longitude": 7670170,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 21,
+                  "Value": "12:21"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 21,
+                  "Value": "12:21"
+                },
+                "OrderNo": 10,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "b10ee222-1a62-45a1-b610-7b92e7aa5b2f",
+                  "Name": "赤道十字路（美里高校向け）",
+                  "ShortName": "赤道十字路",
+                  "Yomigana": "アカミチジュウジロ",
+                  "Position": {
+                    "Latitude": 1581125,
+                    "Longitude": 7669928,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0300",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 23,
+                  "Value": "12:23"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 23,
+                  "Value": "12:23"
+                },
+                "OrderNo": 11,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "662f5d91-af18-445a-b660-ed81d5fff1a7",
+                  "Name": "明道（胡屋向け）",
+                  "ShortName": "明道",
+                  "Yomigana": "アケミチ",
+                  "Position": {
+                    "Latitude": 1581248,
+                    "Longitude": 7669624,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 25,
+                  "Value": "12:25"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 25,
+                  "Value": "12:25"
+                },
+                "OrderNo": 12,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "1bdc6aeb-cda2-4bcd-8ad2-fa93644f0106",
+                  "Name": "法務局入口（胡屋向け）",
+                  "ShortName": "法務局入口",
+                  "Yomigana": "ホウムキョクイリグチ",
+                  "Position": {
+                    "Latitude": 1581333,
+                    "Longitude": 7669320,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 27,
+                  "Value": "12:27"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 27,
+                  "Value": "12:27"
+                },
+                "OrderNo": 13,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "22d932fc-d144-4a40-bdfd-c87672b600a6",
+                  "Name": "松本第二団地入口（胡屋向け）",
+                  "ShortName": "松本第二団地入口",
+                  "Yomigana": "マツモトダイニダンチイリグチ",
+                  "Position": {
+                    "Latitude": 1581125,
+                    "Longitude": 7669196,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 28,
+                  "Value": "12:28"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 28,
+                  "Value": "12:28"
+                },
+                "OrderNo": 14,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "31420a40-cdf8-4d9c-af7d-cad7fd3e3673",
+                  "Name": "美里高校入口（胡屋向け）",
+                  "ShortName": "美里高校入口",
+                  "Yomigana": "ミサトコウコウイリグチ",
+                  "Position": {
+                    "Latitude": 1580976,
+                    "Longitude": 7669143,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 29,
+                  "Value": "12:29"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 29,
+                  "Value": "12:29"
+                },
+                "OrderNo": 15,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "91f0a6f4-081b-4447-9838-1697267033ec",
+                  "Name": "美里団地入口（胡屋向け）",
+                  "ShortName": "美里団地入口",
+                  "Yomigana": "ミサトダンチイリグチ",
+                  "Position": {
+                    "Latitude": 1580855,
+                    "Longitude": 7669178,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 30,
+                  "Value": "12:30"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 30,
+                  "Value": "12:30"
+                },
+                "OrderNo": 16,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "9fe01610-d328-4e78-94e6-c62a6e1fb6fd",
+                  "Name": "美里公園前（胡屋向け）",
+                  "ShortName": "美里公園前",
+                  "Yomigana": "ミサトコウエンマエ",
+                  "Position": {
+                    "Latitude": 1580667,
+                    "Longitude": 7669232,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 31,
+                  "Value": "12:31"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 31,
+                  "Value": "12:31"
+                },
+                "OrderNo": 17,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "0400dca1-a4fd-4e3f-b5c8-a54b2c32647b",
+                  "Name": "美里小城原（胡屋向け）",
+                  "ShortName": "美里小城原",
+                  "Yomigana": "ミサトコジョウバル",
+                  "Position": {
+                    "Latitude": 1580516,
+                    "Longitude": 7669324,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 32,
+                  "Value": "12:32"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 32,
+                  "Value": "12:32"
+                },
+                "OrderNo": 18,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "09eafdb8-da6a-4fa8-b374-4193aead284b",
+                  "Name": "吉原入口（胡屋向け）",
+                  "ShortName": "吉原入口(沖縄市)",
+                  "Yomigana": "ヨシハライリグチ",
+                  "Position": {
+                    "Latitude": 1580300,
+                    "Longitude": 7669256,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 34,
+                  "Value": "12:34"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 34,
+                  "Value": "12:34"
+                },
+                "OrderNo": 19,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "fc6b10dc-ada0-46a3-8801-de04af7bf0bd",
+                  "Name": "コザ（山里・沖縄南IC向け）",
+                  "ShortName": "コザ",
+                  "Yomigana": "コザ",
+                  "Position": {
+                    "Latitude": 1580093,
+                    "Longitude": 7669002,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 36,
+                  "Value": "12:36"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 36,
+                  "Value": "12:36"
+                },
+                "OrderNo": 20,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "11fd5697-0faa-43bb-92e9-c2cc1a14af7b",
+                  "Name": "安慶田（山里・沖縄南IC向け）",
+                  "ShortName": "安慶田",
+                  "Yomigana": "アゲダ",
+                  "Position": {
+                    "Latitude": 1580058,
+                    "Longitude": 7668816,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 37,
+                  "Value": "12:37"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 37,
+                  "Value": "12:37"
+                },
+                "OrderNo": 21,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "8f88a328-4e7d-42a8-9b2e-9cfad3414821",
+                  "Name": "嘉間良（山里・沖縄南IC向け）",
+                  "ShortName": "嘉間良",
+                  "Yomigana": "カマラ",
+                  "Position": {
+                    "Latitude": 1580019,
+                    "Longitude": 7668557,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 38,
+                  "Value": "12:38"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 38,
+                  "Value": "12:38"
+                },
+                "OrderNo": 22,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "ec096a2e-328b-4a76-9cc5-ffa057aa4c94",
+                  "Name": "胡屋（山里・沖縄南IC向け）",
+                  "ShortName": "胡屋",
+                  "Yomigana": "ゴヤ",
+                  "Position": {
+                    "Latitude": 1579901,
+                    "Longitude": 7668143,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 40,
+                  "Value": "12:40"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 40,
+                  "Value": "12:40"
+                },
+                "OrderNo": 23,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "d7553cd1-f0e5-43e6-b157-7c0cd2a1b5ac",
+                  "Name": "中の町（山里・沖縄南IC向け）",
+                  "ShortName": "中の町",
+                  "Yomigana": "ナカノマチ",
+                  "Position": {
+                    "Latitude": 1579763,
+                    "Longitude": 7668041,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 42,
+                  "Value": "12:42"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 42,
+                  "Value": "12:42"
+                },
+                "OrderNo": 24,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "9787bad0-ff77-4b5e-a394-13e2f6ecf640",
+                  "Name": "園田（山里・沖縄南IC向け）",
+                  "ShortName": "園田",
+                  "Yomigana": "ソンダ",
+                  "Position": {
+                    "Latitude": 1579572,
+                    "Longitude": 7667863,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 44,
+                  "Value": "12:44"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 44,
+                  "Value": "12:44"
+                },
+                "OrderNo": 25,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "f2c8de2c-4e74-4ec3-af4f-0c281fd9126a",
+                  "Name": "諸見（普天間・球陽高校向け）",
+                  "ShortName": "諸見",
+                  "Yomigana": "モロミ",
+                  "Position": {
+                    "Latitude": 1579446,
+                    "Longitude": 7667755,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 45,
+                  "Value": "12:45"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 45,
+                  "Value": "12:45"
+                },
+                "OrderNo": 26,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "3acd0d12-8239-4d67-ad5d-2897af96a259",
+                  "Name": "山里（普天間・球陽高校向け）",
+                  "ShortName": "山里",
+                  "Yomigana": "ヤマザト",
+                  "Position": {
+                    "Latitude": 1579230,
+                    "Longitude": 7667703,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 46,
+                  "Value": "12:46"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 46,
+                  "Value": "12:46"
+                },
+                "OrderNo": 27,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "ac31efe9-80b7-423a-b1b7-ce83e70b9082",
+                  "Name": "山内（球陽高校向け）",
+                  "ShortName": "山内",
+                  "Yomigana": "ヤマウチ",
+                  "Position": {
+                    "Latitude": 1579119,
+                    "Longitude": 7667505,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 48,
+                  "Value": "12:48"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 48,
+                  "Value": "12:48"
+                },
+                "OrderNo": 28,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "a7c23889-5134-4aba-9eed-400765c653cd",
+                  "Name": "球陽高校前（謝苅入口・山内中向け）",
+                  "ShortName": "球陽高校前",
+                  "Yomigana": "キュウヨウコウコウマエ",
+                  "Position": {
+                    "Latitude": 1578972,
+                    "Longitude": 7667200,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 50,
+                  "Value": "12:50"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 50,
+                  "Value": "12:50"
+                },
+                "OrderNo": 29,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "dc8f6a58-2133-4ccf-b825-57e95e482ca9",
+                  "Name": "桃原（謝苅入口向け）",
+                  "ShortName": "桃原(沖縄市)",
+                  "Yomigana": "トウバル",
+                  "Position": {
+                    "Latitude": 1578944,
+                    "Longitude": 7666991,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 51,
+                  "Value": "12:51"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 51,
+                  "Value": "12:51"
+                },
+                "OrderNo": 30,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "62d358b2-4a4a-4ee6-a5ce-db2850ec540c",
+                  "Name": "吉原入口（北谷町）（謝苅入口向け）",
+                  "ShortName": "吉原入口",
+                  "Yomigana": "ヨシハライリグチ",
+                  "Position": {
+                    "Latitude": 1578900,
+                    "Longitude": 7666872,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 52,
+                  "Value": "12:52"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 52,
+                  "Value": "12:52"
+                },
+                "OrderNo": 31,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "2e43679b-aeb2-48c6-a0fb-0c6c6ecb3db2",
+                  "Name": "団地入口（謝苅入口向け）",
+                  "ShortName": "団地入口",
+                  "Yomigana": "ダンチイリグチ",
+                  "Position": {
+                    "Latitude": 1578878,
+                    "Longitude": 7666730,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 53,
+                  "Value": "12:53"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 53,
+                  "Value": "12:53"
+                },
+                "OrderNo": 32,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "5ea247e6-6fd1-4b91-ba04-791787bd3e02",
+                  "Name": "謝苅一区（謝苅入口向け）",
+                  "ShortName": "謝苅一区",
+                  "Yomigana": "ジャーガルイック",
+                  "Position": {
+                    "Latitude": 1578813,
+                    "Longitude": 7666684,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 54,
+                  "Value": "12:54"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 54,
+                  "Value": "12:54"
+                },
+                "OrderNo": 33,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "a85e7503-c839-4943-864d-99c827727625",
+                  "Name": "謝苅二区（謝苅入口向け）",
+                  "ShortName": "謝苅二区",
+                  "Yomigana": "ジャーガルニク",
+                  "Position": {
+                    "Latitude": 1578784,
+                    "Longitude": 7666542,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 55,
+                  "Value": "12:55"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 55,
+                  "Value": "12:55"
+                },
+                "OrderNo": 34,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "d18c3645-76be-427c-8df8-8a7f87b73836",
+                  "Name": "北玉小学校入口（謝苅入口向け）",
+                  "ShortName": "北玉小学校入口",
+                  "Yomigana": "キタタマショウガッコウイリグチ",
+                  "Position": {
+                    "Latitude": 1578703,
+                    "Longitude": 7666453,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 56,
+                  "Value": "12:56"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 56,
+                  "Value": "12:56"
+                },
+                "OrderNo": 35,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "a2bd459a-47d4-44d5-b6b8-8e91186038ff",
+                  "Name": "謝苅原（那覇・美浜向け）",
+                  "ShortName": "謝苅原",
+                  "Yomigana": "ジャーガルバル",
+                  "Position": {
+                    "Latitude": 1578574,
+                    "Longitude": 7666342,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 57,
+                  "Value": "12:57"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 57,
+                  "Value": "12:57"
+                },
+                "OrderNo": 36,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "8f86a459-ac38-49a0-bbbb-db50a9a09788",
+                  "Name": "宇地原区公民館前（那覇・美浜向け）",
+                  "ShortName": "宇地原区公民館前",
+                  "Yomigana": "ウジバルクコウミンカンマエ",
+                  "Position": {
+                    "Latitude": 1578678,
+                    "Longitude": 7666236,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 58,
+                  "Value": "12:58"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 58,
+                  "Value": "12:58"
+                },
+                "OrderNo": 37,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "bc7e7b84-0316-466a-ace5-02175eaa52a6",
+                  "Name": "部隊前（那覇・美浜向け）",
+                  "ShortName": "部隊前",
+                  "Yomigana": "ブタイマエ",
+                  "Position": {
+                    "Latitude": 1578506,
+                    "Longitude": 7666063,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 59,
+                  "Value": "12:59"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 59,
+                  "Value": "12:59"
+                },
+                "OrderNo": 38,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "376c0dbf-5093-438f-a1c5-df54eed9c6a4",
+                  "Name": "謝苅入口（那覇・美浜向け）",
+                  "ShortName": "謝苅入口",
+                  "Yomigana": "ジャーガルイリグチ",
+                  "Position": {
+                    "Latitude": 1578425,
+                    "Longitude": 7665940,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0300",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 0,
+                  "Value": "13:00"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 0,
+                  "Value": "13:00"
+                },
+                "OrderNo": 39,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "f609e319-7fde-444b-b3d6-24aac1687aca",
+                  "Name": "桑江中学校入口（那覇向け）",
+                  "ShortName": "桑江中学校入口",
+                  "Yomigana": "クワエチュウガッコウイリグチ",
+                  "Position": {
+                    "Latitude": 1578352,
+                    "Longitude": 7665828,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 2,
+                  "Value": "13:02"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 2,
+                  "Value": "13:02"
+                },
+                "OrderNo": 40,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "85e8f524-5604-40ad-b734-8c9de0df86ba",
+                  "Name": "北谷一丁目（那覇向け）",
+                  "ShortName": "北谷一丁目",
+                  "Yomigana": "チャタンイッチョウメ",
+                  "Position": {
+                    "Latitude": 1578220,
+                    "Longitude": 7665792,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 3,
+                  "Value": "13:03"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 3,
+                  "Value": "13:03"
+                },
+                "OrderNo": 41,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "f98ff51b-06c7-4949-84a3-380e45604e0e",
+                  "Name": "北谷二丁目（那覇向け）",
+                  "ShortName": "北谷二丁目",
+                  "Yomigana": "チャタンニチョウメ",
+                  "Position": {
+                    "Latitude": 1578061,
+                    "Longitude": 7665719,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 4,
+                  "Value": "13:04"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 4,
+                  "Value": "13:04"
+                },
+                "OrderNo": 42,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "5766c267-63ba-4912-b0eb-598c6de58597",
+                  "Name": "ハンビ－タウン前（那覇向け）",
+                  "ShortName": "ハンビ－タウン前",
+                  "Yomigana": "ハンビータウンマエ",
+                  "Position": {
+                    "Latitude": 1577861,
+                    "Longitude": 7665653,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 5,
+                  "Value": "13:05"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 5,
+                  "Value": "13:05"
+                },
+                "OrderNo": 43,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "10ea0362-932b-4ccc-add1-22aa4bdc7d15",
+                  "Name": "北前一丁目（那覇向け）",
+                  "ShortName": "北前一丁目",
+                  "Yomigana": "キタマエイッチョウメ",
+                  "Position": {
+                    "Latitude": 1577651,
+                    "Longitude": 7665711,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 6,
+                  "Value": "13:06"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 6,
+                  "Value": "13:06"
+                },
+                "OrderNo": 44,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "cfd30bcf-ee82-4d73-8fb9-186f4af4c73e",
+                  "Name": "北前（那覇・コンベンション向け）",
+                  "ShortName": "北前",
+                  "Yomigana": "キタマエ",
+                  "Position": {
+                    "Latitude": 1577557,
+                    "Longitude": 7665756,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 8,
+                  "Value": "13:08"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 8,
+                  "Value": "13:08"
+                },
+                "OrderNo": 45,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "b88f189e-b394-4f11-b56e-770702cf0395",
+                  "Name": "伊佐浜（那覇・コンベンション向け）",
+                  "ShortName": "伊佐浜",
+                  "Yomigana": "イサハマ",
+                  "Position": {
+                    "Latitude": 1577230,
+                    "Longitude": 7665595,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 9,
+                  "Value": "13:09"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 9,
+                  "Value": "13:09"
+                },
+                "OrderNo": 46,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "80bb82c6-c2d3-4889-862b-383ae254fd8d",
+                  "Name": "伊佐川（那覇・普天間向け）",
+                  "ShortName": "伊佐川",
+                  "Yomigana": "イサガワ",
+                  "Position": {
+                    "Latitude": 1577022,
+                    "Longitude": 7665490,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 10,
+                  "Value": "13:10"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 10,
+                  "Value": "13:10"
+                },
+                "OrderNo": 47,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "92b43df6-f1a0-4249-98b0-832cc8b9605d",
+                  "Name": "伊佐（那覇向け）",
+                  "ShortName": "伊佐",
+                  "Yomigana": "イサ",
+                  "Position": {
+                    "Latitude": 1576819,
+                    "Longitude": 7665372,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 12,
+                  "Value": "13:12"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 12,
+                  "Value": "13:12"
+                },
+                "OrderNo": 48,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "2ff9dd31-4ae5-48ea-891b-1f456224f07f",
+                  "Name": "大山（那覇向け）",
+                  "ShortName": "大山",
+                  "Yomigana": "オオヤマ",
+                  "Position": {
+                    "Latitude": 1576496,
+                    "Longitude": 7664970,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 14,
+                  "Value": "13:14"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 14,
+                  "Value": "13:14"
+                },
+                "OrderNo": 49,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "9d611c75-d861-4a59-a53c-ae243699f90d",
+                  "Name": "第一大山（那覇向け）",
+                  "ShortName": "第一大山",
+                  "Yomigana": "ダイイチオオヤマ",
+                  "Position": {
+                    "Latitude": 1576351,
+                    "Longitude": 7664700,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 15,
+                  "Value": "13:15"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 15,
+                  "Value": "13:15"
+                },
+                "OrderNo": 50,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "d4d7d5dd-13ad-4005-8d3f-b45d536c0967",
+                  "Name": "真志喜（那覇向け）",
+                  "ShortName": "真志喜",
+                  "Yomigana": "マシキ",
+                  "Position": {
+                    "Latitude": 1576117,
+                    "Longitude": 7664483,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 16,
+                  "Value": "13:16"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 16,
+                  "Value": "13:16"
+                },
+                "OrderNo": 51,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "83fbb462-1040-4fe9-86c6-bbd6f9ebe8de",
+                  "Name": "大謝名（牧港向け）",
+                  "ShortName": "大謝名",
+                  "Yomigana": "オオジャナ",
+                  "Position": {
+                    "Latitude": 1575909,
+                    "Longitude": 7664163,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 18,
+                  "Value": "13:18"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 18,
+                  "Value": "13:18"
+                },
+                "OrderNo": 52,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "cc6b2346-1a24-4566-815c-1a9c2d3ed2b3",
+                  "Name": "宇地泊（安謝・バイパス向け）",
+                  "ShortName": "宇地泊",
+                  "Yomigana": "ウチドマリ",
+                  "Position": {
+                    "Latitude": 1575819,
+                    "Longitude": 7663835,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 20,
+                  "Value": "13:20"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 20,
+                  "Value": "13:20"
+                },
+                "OrderNo": 53,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "3dba51f7-1358-48a4-a927-e60863b54744",
+                  "Name": "牧港ブルーシール本店北側（安謝向け）",
+                  "ShortName": "牧港ブルーシール本店北側",
+                  "Yomigana": "マキミナトブルーシールホンテンキタガワ",
+                  "Position": {
+                    "Latitude": 1575746,
+                    "Longitude": 7663433,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 23,
+                  "Value": "13:23"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 23,
+                  "Value": "13:23"
+                },
+                "OrderNo": 54,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "c993cffd-48ca-4d58-a844-a05f0aea423b",
+                  "Name": "港川（安謝向け）",
+                  "ShortName": "港川(浦添市)",
+                  "Yomigana": "ミナトガワ",
+                  "Position": {
+                    "Latitude": 1575630,
+                    "Longitude": 7662965,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 26,
+                  "Value": "13:26"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 26,
+                  "Value": "13:26"
+                },
+                "OrderNo": 55,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "3b36064a-c183-4fc0-acb6-2f0f103c8c79",
+                  "Name": "ＳＣＳＫ沖縄センター前（安謝向け）",
+                  "ShortName": "ＳＣＳＫ沖縄センター前",
+                  "Yomigana": "エスシーエスケイオキナワセンターマエ",
+                  "Position": {
+                    "Latitude": 1575395,
+                    "Longitude": 7662825,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 27,
+                  "Value": "13:27"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 27,
+                  "Value": "13:27"
+                },
+                "OrderNo": 56,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "2622cce1-c7a9-47cf-80fd-c34d6505ccfa",
+                  "Name": "城間（安謝向け）",
+                  "ShortName": "城間",
+                  "Yomigana": "グスクマ",
+                  "Position": {
+                    "Latitude": 1575222,
+                    "Longitude": 7662689,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 29,
+                  "Value": "13:29"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 29,
+                  "Value": "13:29"
+                },
+                "OrderNo": 57,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "6d674b34-2285-467b-b20a-85020402c9d1",
+                  "Name": "屋富祖（安謝向け）",
+                  "ShortName": "屋富祖",
+                  "Yomigana": "ヤフソ",
+                  "Position": {
+                    "Latitude": 1575035,
+                    "Longitude": 7662498,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 30,
+                  "Value": "13:30"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 30,
+                  "Value": "13:30"
+                },
+                "OrderNo": 58,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "2f0dd651-d5d3-4762-aad5-36f26dc09f6d",
+                  "Name": "宮城（安謝向け）",
+                  "ShortName": "宮城（浦添市）",
+                  "Yomigana": "ミヤギ",
+                  "Position": {
+                    "Latitude": 1574911,
+                    "Longitude": 7662367,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 31,
+                  "Value": "13:31"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 31,
+                  "Value": "13:31"
+                },
+                "OrderNo": 59,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "3bde7482-0658-4d33-9abd-d28aec1b4f1a",
+                  "Name": "仲西（泊高橋・おもろまち向け）",
+                  "ShortName": "仲西",
+                  "Yomigana": "ナカニシ",
+                  "Position": {
+                    "Latitude": 1574765,
+                    "Longitude": 7662172,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 32,
+                  "Value": "13:32"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 32,
+                  "Value": "13:32"
+                },
+                "OrderNo": 60,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "c757dc63-891b-490c-91ad-11a089010dc2",
+                  "Name": "第一仲西（泊高橋・おもろまち向け）",
+                  "ShortName": "第一仲西",
+                  "Yomigana": "ダイイチナカニシ",
+                  "Position": {
+                    "Latitude": 1574491,
+                    "Longitude": 7661846,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 34,
+                  "Value": "13:34"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 34,
+                  "Value": "13:34"
+                },
+                "OrderNo": 61,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "c2ff0465-b7a3-4569-96db-64a4eee664a8",
+                  "Name": "勢理客（安謝方面）",
+                  "ShortName": "勢理客",
+                  "Yomigana": "ジッチャク",
+                  "Position": {
+                    "Latitude": 1574368,
+                    "Longitude": 7661652,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 35,
+                  "Value": "13:35"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 35,
+                  "Value": "13:35"
+                },
+                "OrderNo": 62,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "6d96118b-913a-4a6a-a31d-0036cfe8b425",
+                  "Name": "安謝橋（国際通り・久茂地・おもろまち向け）",
+                  "ShortName": "安謝橋",
+                  "Yomigana": "アジャバシ",
+                  "Position": {
+                    "Latitude": 1574193,
+                    "Longitude": 7661502,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 37,
+                  "Value": "13:37"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 37,
+                  "Value": "13:37"
+                },
+                "OrderNo": 63,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "8aa87fa9-9983-4133-b263-02dff338f47f",
+                  "Name": "安謝（国際通り・久茂地・おもろまち向け）",
+                  "ShortName": "安謝",
+                  "Yomigana": "アジャ",
+                  "Position": {
+                    "Latitude": 1574040,
+                    "Longitude": 7661378,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 38,
+                  "Value": "13:38"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 38,
+                  "Value": "13:38"
+                },
+                "OrderNo": 64,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "77a0c199-9a98-4805-a9c4-f8a521c571a1",
+                  "Name": "天久（国際通り・久茂地・おもろまち向け）",
+                  "ShortName": "天久",
+                  "Yomigana": "アメク",
+                  "Position": {
+                    "Latitude": 1573890,
+                    "Longitude": 7661309,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 39,
+                  "Value": "13:39"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 39,
+                  "Value": "13:39"
+                },
+                "OrderNo": 65,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "8bea2622-5875-4c6a-a6ca-10124e60100c",
+                  "Name": "第一天久（国際通り・久茂地・おもろまち向け）",
+                  "ShortName": "第一天久",
+                  "Yomigana": "ダイイチアメク",
+                  "Position": {
+                    "Latitude": 1573729,
+                    "Longitude": 7661255,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 40,
+                  "Value": "13:40"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 40,
+                  "Value": "13:40"
+                },
+                "OrderNo": 66,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "5c3bf1df-2c8c-417c-97b8-ebace1180134",
+                  "Name": "上之屋（国際通り・久茂地向け）",
+                  "ShortName": "上之屋",
+                  "Yomigana": "ウエノヤ",
+                  "Position": {
+                    "Latitude": 1573502,
+                    "Longitude": 7661297,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 42,
+                  "Value": "13:42"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 42,
+                  "Value": "13:42"
+                },
+                "OrderNo": 67,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "13b8459a-05d8-42fd-b2fe-bd848646a64b",
+                  "Name": "泊高橋（那覇バスターミナル・旭橋向け）",
+                  "ShortName": "泊高橋（58号）",
+                  "Yomigana": "トマリタカハシ",
+                  "Position": {
+                    "Latitude": 1573229,
+                    "Longitude": 7661200,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 44,
+                  "Value": "13:44"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 44,
+                  "Value": "13:44"
+                },
+                "OrderNo": 68,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "bb03145d-31b7-4656-9cb8-7bd5563e68f6",
+                  "Name": "ラ・ジェント・ホテル沖縄那覇前（久茂地方面）",
+                  "ShortName": "ラ・ジェント・ホテル沖縄那覇前",
+                  "Yomigana": "ラ・ジェント・ホテルオキナワナハマエ",
+                  "Position": {
+                    "Latitude": 1572896,
+                    "Longitude": 7661004,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 46,
+                  "Value": "13:46"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 46,
+                  "Value": "13:46"
+                },
+                "OrderNo": 69,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "60be398a-db6e-4468-bf34-2cd4cfd55b77",
+                  "Name": "沖縄タイムス前（那覇バスターミナル・旭橋向け）",
+                  "ShortName": "沖縄タイムス前",
+                  "Yomigana": "オキナワタイムスマエ",
+                  "Position": {
+                    "Latitude": 1572746,
+                    "Longitude": 7660872,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 47,
+                  "Value": "13:47"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 47,
+                  "Value": "13:47"
+                },
+                "OrderNo": 70,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "5e590e2a-a3b1-4678-a32f-5e4848f811f1",
+                  "Name": "県庁北口（那覇バスターミナル・旭橋向け）",
+                  "ShortName": "県庁北口",
+                  "Yomigana": "ケンチョウキタグチ",
+                  "Position": {
+                    "Latitude": 1572563,
+                    "Longitude": 7660882,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 51,
+                  "Value": "13:51"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 51,
+                  "Value": "13:51"
+                },
+                "OrderNo": 71,
+                "JyokoKbnCd": 3
+              },
+              {
+                "Station": {
+                  "Sid": "e34129f4-8c03-476c-b1d7-3e14c8b5469c",
+                  "Name": "那覇バスターミナル　おりば Ｅ",
+                  "ShortName": "那覇バスターミナル",
+                  "Yomigana": "ナハバスターミナル",
+                  "Position": {
+                    "Latitude": 1572457,
+                    "Longitude": 7660722,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "9005",
+                  "RenbanName": "E おりば５",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 13,
+                  "Minute": 53,
+                  "Value": "13:53"
+                },
+                "StartTime": {
+                  "Hour": 13,
+                  "Minute": 53,
+                  "Value": "13:53"
+                },
+                "OrderNo": 72,
+                "JyokoKbnCd": 3
+              }
+            ]
+          },
+          "Passages": [
+            {
+              "Station": {
+                "Sid": "9854d347-9d0d-4805-9d43-8d9be54ce3c4",
+                "Name": "具志川バスターミナル（起点）（胡屋向け）",
+                "ShortName": "具志川バスターミナル",
+                "Yomigana": "グシカワバスターミナル",
+                "Position": {
+                  "Latitude": 1582108,
+                  "Longitude": 7671672,
+                  "AdicNumber": 3,
+                  "Datum": 2
+                },
+                "TeiryujyoKbnCd": 1,
+                "WebSpecificDisplay": 3,
+                "RenbanCd": "0001",
+                "RenbanName": "上り",
+                "OrderNo": null,
+                "Keiyujun": 0
+              },
+              "DaiyaSid": "f1ff6d27-52d3-4f98-aae5-820b78242072",
+              "ArrivalTime": "/Date(1764040200000)/",
+              "StartTime": "/Date(1764040218340)/",
+              "Schedule": {
+                "Station": {
+                  "Sid": "9854d347-9d0d-4805-9d43-8d9be54ce3c4",
+                  "Name": "具志川バスターミナル（起点）（胡屋向け）",
+                  "ShortName": "具志川バスターミナル",
+                  "Yomigana": "グシカワバスターミナル",
+                  "Position": {
+                    "Latitude": 1582108,
+                    "Longitude": 7671672,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0001",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 10,
+                  "Value": "12:10"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 10,
+                  "Value": "12:10"
+                },
+                "OrderNo": 1,
+                "JyokoKbnCd": 3
+              }
+            },
+            {
+              "Station": {
+                "Sid": "41089aa7-4ee6-4a53-875e-4df738b13b17",
+                "Name": "西田場（中部病院・具志川高校向け）",
+                "ShortName": "西田場",
+                "Yomigana": "ニシタバ",
+                "Position": {
+                  "Latitude": 1582184,
+                  "Longitude": 7671536,
+                  "AdicNumber": 3,
+                  "Datum": 2
+                },
+                "TeiryujyoKbnCd": 1,
+                "WebSpecificDisplay": 3,
+                "RenbanCd": "0300",
+                "RenbanName": "上り",
+                "OrderNo": null,
+                "Keiyujun": 0
+              },
+              "DaiyaSid": "f1ff6d27-52d3-4f98-aae5-820b78242072",
+              "ArrivalTime": "/Date(1764040262917)/",
+              "StartTime": "/Date(1764040303433)/",
+              "Schedule": {
+                "Station": {
+                  "Sid": "41089aa7-4ee6-4a53-875e-4df738b13b17",
+                  "Name": "西田場（中部病院・具志川高校向け）",
+                  "ShortName": "西田場",
+                  "Yomigana": "ニシタバ",
+                  "Position": {
+                    "Latitude": 1582184,
+                    "Longitude": 7671536,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0300",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 11,
+                  "Value": "12:11"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 11,
+                  "Value": "12:11"
+                },
+                "OrderNo": 2,
+                "JyokoKbnCd": 3
+              }
+            },
+            {
+              "Station": {
+                "Sid": "433be1f9-f18f-4dc5-a246-338309c97750",
+                "Name": "安慶名（胡屋向け）",
+                "ShortName": "安慶名",
+                "Yomigana": "アゲナ",
+                "Position": {
+                  "Latitude": 1582246,
+                  "Longitude": 7671344,
+                  "AdicNumber": 3,
+                  "Datum": 2
+                },
+                "TeiryujyoKbnCd": 1,
+                "WebSpecificDisplay": 3,
+                "RenbanCd": "0101",
+                "RenbanName": "上り",
+                "OrderNo": null,
+                "Keiyujun": 0
+              },
+              "DaiyaSid": "f1ff6d27-52d3-4f98-aae5-820b78242072",
+              "ArrivalTime": "/Date(1764040335903)/",
+              "StartTime": "/Date(1764040387543)/",
+              "Schedule": {
+                "Station": {
+                  "Sid": "433be1f9-f18f-4dc5-a246-338309c97750",
+                  "Name": "安慶名（胡屋向け）",
+                  "ShortName": "安慶名",
+                  "Yomigana": "アゲナ",
+                  "Position": {
+                    "Latitude": 1582246,
+                    "Longitude": 7671344,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0101",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 13,
+                  "Value": "12:13"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 13,
+                  "Value": "12:13"
+                },
+                "OrderNo": 3,
+                "JyokoKbnCd": 3
+              }
+            },
+            {
+              "Station": {
+                "Sid": "e8c8dce5-cee5-4329-8c6f-d790f81f4a89",
+                "Name": "中農前（胡屋向け）",
+                "ShortName": "中農前",
+                "Yomigana": "チュウノウマエ",
+                "Position": {
+                  "Latitude": 1582096,
+                  "Longitude": 7671266,
+                  "AdicNumber": 3,
+                  "Datum": 2
+                },
+                "TeiryujyoKbnCd": 1,
+                "WebSpecificDisplay": 3,
+                "RenbanCd": "0100",
+                "RenbanName": "上り",
+                "OrderNo": null,
+                "Keiyujun": 0
+              },
+              "DaiyaSid": "f1ff6d27-52d3-4f98-aae5-820b78242072",
+              "ArrivalTime": "/Date(1764040409027)/",
+              "StartTime": "/Date(1764040450997)/",
+              "Schedule": {
+                "Station": {
+                  "Sid": "e8c8dce5-cee5-4329-8c6f-d790f81f4a89",
+                  "Name": "中農前（胡屋向け）",
+                  "ShortName": "中農前",
+                  "Yomigana": "チュウノウマエ",
+                  "Position": {
+                    "Latitude": 1582096,
+                    "Longitude": 7671266,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 14,
+                  "Value": "12:14"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 14,
+                  "Value": "12:14"
+                },
+                "OrderNo": 4,
+                "JyokoKbnCd": 3
+              }
+            },
+            {
+              "Station": {
+                "Sid": "4cdd2e1d-4dc6-456b-a529-91e595398d30",
+                "Name": "具志川郵便局前（胡屋向け）",
+                "ShortName": "具志川郵便局前",
+                "Yomigana": "グシカワユウビンキョクマエ",
+                "Position": {
+                  "Latitude": 1581878,
+                  "Longitude": 7671185,
+                  "AdicNumber": 3,
+                  "Datum": 2
+                },
+                "TeiryujyoKbnCd": 1,
+                "WebSpecificDisplay": 3,
+                "RenbanCd": "0100",
+                "RenbanName": "上り",
+                "OrderNo": null,
+                "Keiyujun": 0
+              },
+              "DaiyaSid": "f1ff6d27-52d3-4f98-aae5-820b78242072",
+              "ArrivalTime": "/Date(1764040459480)/",
+              "StartTime": "/Date(1764040521513)/",
+              "Schedule": {
+                "Station": {
+                  "Sid": "4cdd2e1d-4dc6-456b-a529-91e595398d30",
+                  "Name": "具志川郵便局前（胡屋向け）",
+                  "ShortName": "具志川郵便局前",
+                  "Yomigana": "グシカワユウビンキョクマエ",
+                  "Position": {
+                    "Latitude": 1581878,
+                    "Longitude": 7671185,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 15,
+                  "Value": "12:15"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 15,
+                  "Value": "12:15"
+                },
+                "OrderNo": 5,
+                "JyokoKbnCd": 3
+              }
+            },
+            {
+              "Station": {
+                "Sid": "c28e9820-ba71-42e8-a7e0-09837a82b182",
+                "Name": "平良川（胡屋向け）",
+                "ShortName": "平良川",
+                "Yomigana": "タイラガワ",
+                "Position": {
+                  "Latitude": 1581657,
+                  "Longitude": 7671104,
+                  "AdicNumber": 3,
+                  "Datum": 2
+                },
+                "TeiryujyoKbnCd": 1,
+                "WebSpecificDisplay": 3,
+                "RenbanCd": "0100",
+                "RenbanName": "上り",
+                "OrderNo": null,
+                "Keiyujun": 0
+              },
+              "DaiyaSid": "f1ff6d27-52d3-4f98-aae5-820b78242072",
+              "ArrivalTime": "/Date(1764040550030)/",
+              "StartTime": "/Date(1764040577543)/",
+              "Schedule": {
+                "Station": {
+                  "Sid": "c28e9820-ba71-42e8-a7e0-09837a82b182",
+                  "Name": "平良川（胡屋向け）",
+                  "ShortName": "平良川",
+                  "Yomigana": "タイラガワ",
+                  "Position": {
+                    "Latitude": 1581657,
+                    "Longitude": 7671104,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 16,
+                  "Value": "12:16"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 16,
+                  "Value": "12:16"
+                },
+                "OrderNo": 6,
+                "JyokoKbnCd": 3
+              }
+            },
+            {
+              "Station": {
+                "Sid": "4913534a-6440-4fbe-80fe-71e044893505",
+                "Name": "上平良川（胡屋向け）",
+                "ShortName": "上平良川",
+                "Yomigana": "ウエタイラガワ",
+                "Position": {
+                  "Latitude": 1581567,
+                  "Longitude": 7671016,
+                  "AdicNumber": 3,
+                  "Datum": 2
+                },
+                "TeiryujyoKbnCd": 1,
+                "WebSpecificDisplay": 3,
+                "RenbanCd": "0100",
+                "RenbanName": "上り",
+                "OrderNo": null,
+                "Keiyujun": 0
+              },
+              "DaiyaSid": "f1ff6d27-52d3-4f98-aae5-820b78242072",
+              "ArrivalTime": "/Date(1764040593060)/",
+              "StartTime": "/Date(1764040681997)/",
+              "Schedule": {
+                "Station": {
+                  "Sid": "4913534a-6440-4fbe-80fe-71e044893505",
+                  "Name": "上平良川（胡屋向け）",
+                  "ShortName": "上平良川",
+                  "Yomigana": "ウエタイラガワ",
+                  "Position": {
+                    "Latitude": 1581567,
+                    "Longitude": 7671016,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 17,
+                  "Value": "12:17"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 17,
+                  "Value": "12:17"
+                },
+                "OrderNo": 7,
+                "JyokoKbnCd": 3
+              }
+            },
+            {
+              "Station": {
+                "Sid": "9f54273a-695e-4aaa-951a-b85b9266e02c",
+                "Name": "喜仲入口（胡屋向け）",
+                "ShortName": "喜仲入口",
+                "Yomigana": "キナカイリグチ",
+                "Position": {
+                  "Latitude": 1581276,
+                  "Longitude": 7670621,
+                  "AdicNumber": 3,
+                  "Datum": 2
+                },
+                "TeiryujyoKbnCd": 1,
+                "WebSpecificDisplay": 3,
+                "RenbanCd": "0100",
+                "RenbanName": "上り",
+                "OrderNo": null,
+                "Keiyujun": 0
+              },
+              "DaiyaSid": "f1ff6d27-52d3-4f98-aae5-820b78242072",
+              "ArrivalTime": "/Date(1764040740000)/",
+              "StartTime": "/Date(1764040746513)/",
+              "Schedule": {
+                "Station": {
+                  "Sid": "9f54273a-695e-4aaa-951a-b85b9266e02c",
+                  "Name": "喜仲入口（胡屋向け）",
+                  "ShortName": "喜仲入口",
+                  "Yomigana": "キナカイリグチ",
+                  "Position": {
+                    "Latitude": 1581276,
+                    "Longitude": 7670621,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 19,
+                  "Value": "12:19"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 19,
+                  "Value": "12:19"
+                },
+                "OrderNo": 8,
+                "JyokoKbnCd": 3
+              }
+            },
+            {
+              "Station": {
+                "Sid": "4515fda8-ae98-4cae-ab2f-1a660afb2ea2",
+                "Name": "志林川（胡屋向け）",
+                "ShortName": "志林川",
+                "Yomigana": "シリンカー",
+                "Position": {
+                  "Latitude": 1581202,
+                  "Longitude": 7670378,
+                  "AdicNumber": 3,
+                  "Datum": 2
+                },
+                "TeiryujyoKbnCd": 1,
+                "WebSpecificDisplay": 3,
+                "RenbanCd": "0100",
+                "RenbanName": "上り",
+                "OrderNo": null,
+                "Keiyujun": 0
+              },
+              "DaiyaSid": "f1ff6d27-52d3-4f98-aae5-820b78242072",
+              "ArrivalTime": "/Date(1764040781093)/",
+              "StartTime": "/Date(1764040822500)/",
+              "Schedule": {
+                "Station": {
+                  "Sid": "4515fda8-ae98-4cae-ab2f-1a660afb2ea2",
+                  "Name": "志林川（胡屋向け）",
+                  "ShortName": "志林川",
+                  "Yomigana": "シリンカー",
+                  "Position": {
+                    "Latitude": 1581202,
+                    "Longitude": 7670378,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 20,
+                  "Value": "12:20"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 20,
+                  "Value": "12:20"
+                },
+                "OrderNo": 9,
+                "JyokoKbnCd": 3
+              }
+            },
+            {
+              "Station": {
+                "Sid": "b0917892-c872-49fc-a874-ab6d426c0c27",
+                "Name": "中部病院前（胡屋向け）",
+                "ShortName": "中部病院前",
+                "Yomigana": "チュウブビョウインマエ",
+                "Position": {
+                  "Latitude": 1581145,
+                  "Longitude": 7670170,
+                  "AdicNumber": 3,
+                  "Datum": 2
+                },
+                "TeiryujyoKbnCd": 1,
+                "WebSpecificDisplay": 3,
+                "RenbanCd": "0100",
+                "RenbanName": "上り",
+                "OrderNo": null,
+                "Keiyujun": 0
+              },
+              "DaiyaSid": "f1ff6d27-52d3-4f98-aae5-820b78242072",
+              "ArrivalTime": "/Date(1764040843013)/",
+              "StartTime": "/Date(1764040963953)/",
+              "Schedule": {
+                "Station": {
+                  "Sid": "b0917892-c872-49fc-a874-ab6d426c0c27",
+                  "Name": "中部病院前（胡屋向け）",
+                  "ShortName": "中部病院前",
+                  "Yomigana": "チュウブビョウインマエ",
+                  "Position": {
+                    "Latitude": 1581145,
+                    "Longitude": 7670170,
+                    "AdicNumber": 3,
+                    "Datum": 2
+                  },
+                  "TeiryujyoKbnCd": 1,
+                  "WebSpecificDisplay": 3,
+                  "RenbanCd": "0100",
+                  "RenbanName": "上り",
+                  "OrderNo": null,
+                  "Keiyujun": 0
+                },
+                "ScheduledTime": {
+                  "Hour": 12,
+                  "Minute": 21,
+                  "Value": "12:21"
+                },
+                "StartTime": {
+                  "Hour": 12,
+                  "Minute": 21,
+                  "Value": "12:21"
+                },
+                "OrderNo": 10,
+                "JyokoKbnCd": 3
+              }
+            }
+          ],
+          "Driver": {
+            "Id": "32101",
+            "Name": "宜志富　守"
+          },
+          "UpdateTime": "/Date(1764040964000)/",
+          "OnPower": true,
+          "CarStatus": 0,
+          "AdditionalInfo": "<Info><ODWR_Weekday>平日</ODWR_Weekday><ODWR_ActNo>00000</ODWR_ActNo><ODWR_CarNo>1608</ODWR_CarNo><ODWR_TapeNo>10631</ODWR_TapeNo><ODWR_Keiyujun>10</ODWR_Keiyujun><ODWR_Station>1191</ODWR_Station><ODWR_StartTime>12:10</ODWR_StartTime><System_ActNo /><System_TapeNo>10631</System_TapeNo></Info>",
+          "AdminOnlyFlg": false,
+          "_workStartTime": {
+            "Hour": 3,
+            "Minute": 0,
+            "Value": "03:00"
+          }
+        }
+      }
+    }
+  ]
+}

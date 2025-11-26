@@ -36,7 +36,6 @@ type Props = {
   routeMarkersRef: React.MutableRefObject<any[]>;
   routePolylineRef: React.MutableRefObject<any>;
   getDistance: (a: number, b: number, c: number, d: number) => number;
-  isWithinPastHours: (timeStr: string, hours: number) => boolean;
 };
 
 export default function RouteDetailSheet(props: Props) {
@@ -73,7 +72,6 @@ export default function RouteDetailSheet(props: Props) {
     routeMarkersRef,
     routePolylineRef,
     getDistance,
-    isWithinPastHours,
   } = props;
 
   if (!selectedTripId || routeStops.length === 0) return null;
@@ -278,12 +276,6 @@ export default function RouteDetailSheet(props: Props) {
             <div style={{ fontSize: '13px', fontWeight: 600, marginBottom: '6px' }}>停車順</div>
             <div style={{ maxHeight: '28vh', overflowY: 'auto' }}>
               {routeStops
-                .filter(rs => {
-                  if (rs.isBeforeStart) return true;
-                  const scheduled = rs.arrival_time || rs.departure_time;
-                  if (scheduled && !isWithinPastHours(scheduled, 2)) return false;
-                  return true;
-                })
                 .filter((rs, index, array) => index === array.findIndex(stop => stop.stop_id === rs.stop_id))
                 .map((rs, idx) => {
                   let isNearest = false;
