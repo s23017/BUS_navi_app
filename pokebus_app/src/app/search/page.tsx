@@ -10,7 +10,7 @@ import StopCandidatesModal from "./components/StopCandidatesModal";
 import BusRoutesModal from "./components/BusRoutesModal";
 import RouteDetailSheet from "./components/RouteDetailSheet";
 import { db, auth } from "../../../lib/firebase";
-import { loadStops, loadStopTimes, loadTrips, loadRoutes } from "../../../lib/gtfs";
+import { loadStops, loadStopTimes, loadTrips, loadRoutes, loadStopMasterData } from "../../../lib/gtfs";
 import { collection, addDoc, query, where, onSnapshot, Timestamp, orderBy, limit, getDocs, deleteDoc, updateDoc, QueryConstraint } from "firebase/firestore";
 import { onAuthStateChanged } from "firebase/auth";
 
@@ -60,6 +60,8 @@ export default function BusSearch() {
   const ridersMarkersMapRef = useRef<Map<string, google.maps.Marker>>(new Map()); // ライダーID → マーカーのマップ
   const routePolylineRef = useRef<google.maps.Polyline | null>(null);
   const tripStopsRef = useRef<Record<string, any[]> | null>(null);
+  const masterStopsRef = useRef<any[] | null>(null);
+  const masterStopMapRef = useRef<Map<string, any>>(new Map());
   const [selectedTripId, setSelectedTripId] = useState<string | null>(null);
   const [ridingTripId, setRidingTripId] = useState<string | null>(null);
   const [tripDelays, setTripDelays] = useState<Record<string, number | null>>({});
@@ -111,6 +113,61 @@ export default function BusSearch() {
       sessionUserIdRef.current = generateGuestUserId();
     }
     return sessionUserIdRef.current;
+  };
+
+  const ensureMasterStops = async () => {
+    if (!masterStopsRef.current) {
+      try {
+        const stops = await loadStopMasterData();
+        masterStopsRef.current = Array.isArray(stops) ? stops : [];
+      } catch (error) {
+        masterStopsRef.current = [];
+      }
+      masterStopMapRef.current = new Map((masterStopsRef.current || []).map((stop: any) => [stop.stop_id, stop]));
+    } else if (masterStopMapRef.current.size === 0 && masterStopsRef.current) {
+      masterStopMapRef.current = new Map(masterStopsRef.current.map((stop: any) => [stop.stop_id, stop]));
+    }
+    return masterStopsRef.current || [];
+  };
+
+  const getMasterStopById = async (stopId: string | undefined | null) => {
+    if (!stopId) return null;
+    if (masterStopMapRef.current.size === 0) {
+      await ensureMasterStops();
+    }
+    return masterStopMapRef.current.get(stopId) || null;
+  };
+
+  const getMasterStopSync = (stopId: string | undefined | null) => {
+    if (!stopId) return null;
+    if (masterStopMapRef.current.size === 0 && masterStopsRef.current) {
+      masterStopMapRef.current = new Map(masterStopsRef.current.map((stop: any) => [stop.stop_id, stop]));
+    }
+    return masterStopMapRef.current.get(stopId) || null;
+  };
+
+  const mergeStopWithMaster = (stop: any) => {
+    if (!stop || !stop.stop_id) return stop;
+    if (masterStopMapRef.current.size === 0 && masterStopsRef.current) {
+      masterStopMapRef.current = new Map(masterStopsRef.current.map((s: any) => [s.stop_id, s]));
+    }
+    const master = masterStopMapRef.current.get(stop.stop_id);
+    if (!master) return stop;
+    const lat = master.stop_lat ?? stop.stop_lat;
+    const lon = master.stop_lon ?? stop.stop_lon;
+    if (!lat || !lon) return stop;
+    const aliasName = Array.isArray(master.aliases) && master.aliases.length ? master.aliases[0] : '';
+    const fallbackName = (stop?.stop_desc && stop.stop_desc !== stop.stop_id) ? stop.stop_desc : stop.stop_name;
+    const canonicalName = master.stop_name && master.stop_name !== master.stop_id
+      ? master.stop_name
+      : (aliasName || fallbackName || stop.stop_id);
+    return {
+      ...stop,
+      ...master,
+      stop_lat: lat,
+      stop_lon: lon,
+      stop_name: canonicalName
+    };
   };
 
   // Google Maps APIが読み込まれた後にマップを初期化
@@ -574,7 +631,23 @@ export default function BusSearch() {
     setRouteError(null);
     setLoadingRoute(true);
     try {
-      const stops = await loadStops();
+      await ensureMasterStops();
+      let gtfsStops = await loadStops();
+      gtfsStops = Array.isArray(gtfsStops) ? gtfsStops : [];
+      const gtfsStopMap = new Map<string, any>();
+      gtfsStops.forEach((rawStop: any) => {
+        if (!rawStop) return;
+        const id = String(rawStop.stop_id ?? '').trim();
+        if (!id) return;
+        const latRaw = rawStop.stop_lat ?? rawStop.lat ?? rawStop.stop_latitude ?? rawStop.latitude;
+        const lonRaw = rawStop.stop_lon ?? rawStop.lon ?? rawStop.stop_longitude ?? rawStop.longitude;
+        const normalizedStop = {
+          ...rawStop,
+          stop_lat: typeof latRaw === 'number' ? latRaw.toString() : (latRaw ?? ''),
+          stop_lon: typeof lonRaw === 'number' ? lonRaw.toString() : (lonRaw ?? ''),
+        };
+        gtfsStopMap.set(id, mergeStopWithMaster(normalizedStop));
+      });
       let tripStops: any[] | undefined = tripStopsRef.current ? tripStopsRef.current[tripId] : undefined;
       if (!tripStops) {
         const stopTimes = await loadStopTimes();
@@ -617,7 +690,9 @@ export default function BusSearch() {
             let bestDist = Infinity;
             for (let i = 0; i < tripStops.length; i++) {
               const sId = tripStops[i].stop_id;
-              const stopDef = (await loadStops()).find((st: any) => st.stop_id === sId);
+              const masterStop = getMasterStopSync(sId);
+              const baseStop = masterStop ? mergeStopWithMaster(masterStop) : gtfsStopMap.get(String(sId).trim()) || null;
+              const stopDef = baseStop || null;
               if (!stopDef) continue;
               const lat = parseFloat(stopDef.stop_lat);
               const lon = parseFloat(stopDef.stop_lon);
@@ -645,54 +720,82 @@ export default function BusSearch() {
 
       // 表示用の限定範囲
       const displaySlice = tripStops.slice(adjustedStartIdx, endIdx + 1);
-      
+
       // 位置情報共有用：バス路線全体を対象にする
       const fullRouteSlice = tripStops.slice(0, tripStops.length);
-      
-      // 重複するstop_idを除去（表示用）
-      const uniqueDisplaySlice = displaySlice.filter((stop, index, self) => 
-        index === self.findIndex(s => s.stop_id === stop.stop_id)
-      );
-      
-      // 重複するstop_idを除去（共有用・全路線）
-      const uniqueFullRouteSlice = fullRouteSlice.filter((stop, index, self) => 
-        index === self.findIndex(s => s.stop_id === stop.stop_id)
-      );
+
+      // GTFSデータは往路・復路で同じstop_idを繰り返すことがあるため、
+      // 表示上は直前と同じ停留所だけを圧縮してループ構造は残す。
+      const compressConsecutiveDuplicates = (arr: any[]) => {
+        const result: { data: any; originalIndex: number }[] = [];
+        let lastStopId: string | null = null;
+        arr.forEach((item, idx) => {
+          if (item.stop_id && item.stop_id === lastStopId) return;
+          result.push({ data: item, originalIndex: idx });
+          lastStopId = item.stop_id || null;
+        });
+        return result;
+      };
+
+      const displaySliceCompacted = compressConsecutiveDuplicates(displaySlice);
+      const fullRouteSliceCompacted = compressConsecutiveDuplicates(fullRouteSlice);
       
       // デバッグ情報
       console.log(`Debug: startIdx=${startIdx}, desiredStartIdx=${desiredStartIdx}, adjustedStartIdx=${adjustedStartIdx}, actualPreviousCount=${actualPreviousCount}`);
-      console.log(`displaySlice.length=${displaySlice.length}, uniqueDisplaySlice.length=${uniqueDisplaySlice.length}`);
-      console.log(`fullRouteSlice.length=${fullRouteSlice.length}, uniqueFullRouteSlice.length=${uniqueFullRouteSlice.length}`);
-      console.log('Display slice stop names:', uniqueDisplaySlice.map(s => s.stop_id));
-      console.log('Full route slice stop names:', uniqueFullRouteSlice.map(s => s.stop_id));
+      console.log(`displaySlice.length=${displaySlice.length}, compactedDisplaySlice.length=${displaySliceCompacted.length}`);
+      console.log(`fullRouteSlice.length=${fullRouteSlice.length}, compactedFullRouteSlice.length=${fullRouteSliceCompacted.length}`);
+      console.log('Display slice stop names:', displaySliceCompacted.map(s => s.data.stop_id));
+      console.log('Full route slice stop names:', fullRouteSliceCompacted.map(s => s.data.stop_id));
       
       // 表示用のバス停データ
-      const routeStopsFull = uniqueDisplaySlice.map((s: any, sliceIndex: number) => {
-        const stopDef = stops.find((st: any) => st.stop_id === s.stop_id) || { stop_name: s.stop_id, stop_lat: 0, stop_lon: 0 };
-        const isBeforeStart = sliceIndex < actualPreviousCount;
-        
-        console.log(`Display Stop ${sliceIndex}: ${s.stop_id} (${stopDef.stop_name}), isBeforeStart: ${isBeforeStart}, isStartPoint: ${sliceIndex === actualPreviousCount}`);
-        
-        return { 
-          ...stopDef, 
-          seq: s.seq, 
-          arrival_time: s.arrival_time, 
-          departure_time: s.departure_time,
-          isBeforeStart: isBeforeStart
-        };
-      });
+      const resolveStopDef = (stopId: string) => {
+        const normalizedId = String(stopId ?? '').trim();
+        if (!normalizedId) return null;
+        const masterStop = getMasterStopSync(normalizedId);
+        if (masterStop) return mergeStopWithMaster(masterStop);
+        const baseStop = gtfsStopMap.get(normalizedId);
+        return baseStop || null;
+      };
+
+      const routeStopsFull = displaySliceCompacted
+        .map((entry, sliceIndex: number) => {
+          const s = entry.data;
+          const stopDef = resolveStopDef(s.stop_id);
+          if (!stopDef || !stopDef.stop_lat || !stopDef.stop_lon) {
+            console.warn(`skip stop without coordinates: ${s.stop_id}`);
+            return null;
+          }
+          const isBeforeStart = entry.originalIndex < actualPreviousCount;
+
+          console.log(`Display Stop ${sliceIndex}: ${s.stop_id} (${stopDef.stop_name}), isBeforeStart: ${isBeforeStart}, isStartPoint: ${entry.originalIndex === actualPreviousCount}`);
+
+          return {
+            ...stopDef,
+            seq: s.seq,
+            arrival_time: s.arrival_time,
+            departure_time: s.departure_time,
+            isBeforeStart: isBeforeStart
+          };
+        })
+        .filter((item): item is any => item !== null);
       
       // 位置情報共有用のバス停データ（グローバル変数に保存）
-      const fullRouteStops = uniqueFullRouteSlice.map((s: any) => {
-        const stopDef = stops.find((st: any) => st.stop_id === s.stop_id) || { stop_name: s.stop_id, stop_lat: 0, stop_lon: 0 };
-        return { 
-          ...stopDef, 
-          seq: s.seq, 
-          arrival_time: s.arrival_time, 
-          departure_time: s.departure_time,
-          isBeforeStart: false // 共有用では全て通常バス停として扱う
-        };
-      });
+      const fullRouteStops = fullRouteSliceCompacted
+        .map((entry) => {
+          const s = entry.data;
+          const stopDef = resolveStopDef(s.stop_id);
+          if (!stopDef || !stopDef.stop_lat || !stopDef.stop_lon) {
+            return null;
+          }
+          return {
+            ...stopDef,
+            seq: s.seq,
+            arrival_time: s.arrival_time,
+            departure_time: s.departure_time,
+            isBeforeStart: false
+          };
+        })
+        .filter((item): item is any => item !== null);
 
       // 21番バス用の特別処理: 停車順序を再確認
       const isRoute21 = tripId.includes('naha_trip_') && tripId.includes('21');
@@ -1967,7 +2070,10 @@ export default function BusSearch() {
       const predictions: any[] = [];
       
       // 1. 停留所名での検索
-      const stops = await loadStops();
+      let stops = await ensureMasterStops();
+      if (!stops.length) {
+        stops = await loadStops();
+      }
       let userLat: number | null = null;
       let userLon: number | null = null;
       if (currentLocationRef.current && (window.google && typeof window.google.maps.LatLng === 'function')) {
@@ -2028,10 +2134,13 @@ export default function BusSearch() {
             });
           });
 
-          const placeMatches = placesResults
-            .filter((p: any) => p.description.includes('沖縄') || p.description.includes('那覇') || 
-              p.description.includes('宜野湾') || p.description.includes('浦添') || p.description.includes('具志川'))
-            .slice(0, 3)
+          const okinawaKeywords = ['沖縄', '那覇', '宜野湾', '浦添', '具志川', '北谷', '中頭郡', '嘉手納', '読谷', 'うるま', '名護', '南城', '豊見城', '南風原', '西原'];
+          const baseResults = Array.isArray(placesResults) ? placesResults : [];
+          const filteredResults = baseResults.filter((p: any) => okinawaKeywords.some(keyword => p.description?.includes(keyword)));
+
+          const limitedResults = (filteredResults.length > 0 ? filteredResults : baseResults).slice(0, 3);
+
+          const placeMatches = limitedResults
             .map((p: any, index: number) => ({
               place_id: p.place_id,
               unique_key: `place_${p.place_id}_${index}`,
@@ -2068,7 +2177,9 @@ export default function BusSearch() {
       const predictions: any[] = [];
       
       // 1. 停留所名での検索
-      const stops = await loadStops();
+      await ensureMasterStops();
+      const stopsRaw = await loadStops();
+      const stops = stopsRaw.map((s: any) => mergeStopWithMaster(s));
       let userLat: number | null = null;
       let userLon: number | null = null;
       if (currentLocationRef.current && (window.google && typeof window.google.maps.LatLng === 'function')) {
@@ -2131,10 +2242,13 @@ export default function BusSearch() {
             });
           });
 
-          const placeMatches = placesResults
-            .filter((p: any) => p.description.includes('沖縄') || p.description.includes('那覇') || 
-              p.description.includes('宜野湾') || p.description.includes('浦添') || p.description.includes('具志川'))
-            .slice(0, 3)
+          const okinawaKeywords = ['沖縄', '那覇', '宜野湾', '浦添', '具志川', '北谷', '中頭郡', '嘉手納', '読谷', 'うるま', '名護', '南城', '豊見城', '南風原', '西原'];
+          const baseResults = Array.isArray(placesResults) ? placesResults : [];
+          const filteredResults = baseResults.filter((p: any) => okinawaKeywords.some(keyword => p.description?.includes(keyword)));
+
+          const limitedResults = (filteredResults.length > 0 ? filteredResults : baseResults).slice(0, 3);
+
+          const placeMatches = limitedResults
             .map((p: any, index: number) => ({
               place_id: p.place_id,
               unique_key: `start_place_${p.place_id}_${index}`,
@@ -2228,7 +2342,9 @@ export default function BusSearch() {
       
       // 目的地をstops.txtから見つける（部分一致, 大文字小文字無視）
       const q = searchQuery.replace(/\s*\([^)]*\)/, '').trim().toLowerCase(); // 座標部分を削除
-      const matchedByName = stops.filter((s: any) => (s.stop_name || '').toLowerCase().includes(q));
+      const matchedByName = stops
+        .filter((s: any) => (s.stop_name || '').toLowerCase().includes(q))
+        .map((s: any) => mergeStopWithMaster(s));
 
       // 座標がない場合はジオコーディングを試行（沖縄県内に制限）
       if (!geocodedLocation && matchedByName.length === 0) {
@@ -2280,8 +2396,9 @@ export default function BusSearch() {
 
       // choose a representative dest for display (prefer exact name match)
       const cleanQuery = searchQuery.replace(/\s*\([^)]*\)/, '').trim(); // 座標部分を削除
-      const repDest = matchedByName.length > 0 ? matchedByName[0] : (stops.find((s:any)=>s.stop_id === destIds[0]) || { stop_name: cleanQuery, stop_id: destIds[0] });
-      setSelectedDest(repDest);
+      const fallbackDest = stops.find((s:any)=>s.stop_id === destIds[0]) || { stop_name: cleanQuery, stop_id: destIds[0] };
+      const repDest = matchedByName.length > 0 ? matchedByName[0] : mergeStopWithMaster(fallbackDest);
+      setSelectedDest(mergeStopWithMaster(repDest));
       setSelectedDestIds(destIds);
 
       // 出発地点取得（指定されていれば優先、空欄なら現在地）
@@ -2294,7 +2411,7 @@ export default function BusSearch() {
         // ジオコーディングで取得した座標を使用（最優先）
         pos = { lat: geocodedStart.lat, lon: geocodedStart.lon };
         console.log(`ジオコーディング結果を使用: ${geocodedStart.name} (${geocodedStart.lat}, ${geocodedStart.lon})`);
-      } else if (selectedStart && startSearchQuery.trim() !== '' && startSearchQuery !== '現在地を取得中...') {
+      } else if (selectedStart && startSearchQuery !== '現在地を取得中...') {
         // 事前に選択された出発地点を使用
         const lat = parseFloat(selectedStart.stop_lat);
         const lon = parseFloat(selectedStart.stop_lon);
@@ -2314,11 +2431,20 @@ export default function BusSearch() {
       }
 
       // 距離算出
-      const withDist = stops.map((s: any) => ({ ...s, distance: getDistance(pos.lat, pos.lon, parseFloat(s.stop_lat), parseFloat(s.stop_lon)) }));
+      const withDist = stops.map((s: any) => {
+        const merged = mergeStopWithMaster(s);
+        const latNum = parseFloat(merged.stop_lat);
+        const lonNum = parseFloat(merged.stop_lon);
+        const distance = Number.isFinite(latNum) && Number.isFinite(lonNum)
+          ? getDistance(pos.lat, pos.lon, latNum, lonNum)
+          : Infinity;
+        return { ...merged, distance };
+      });
       const candidates = withDist.filter((s:any) => s.distance < 3000).sort((a:any,b:any)=>a.distance-b.distance).slice(0,100);
 
       // stop_times をロードして trip ごとの停車順を作る
       const stopTimes = await loadStopTimes();
+      console.log(`handleSearch: stopTimes count = ${stopTimes.length}`);
       const tripStops: Record<string, { stop_id: string; seq: number }[]> = {};
       for (const st of stopTimes) {
         if (!tripStops[st.trip_id]) tripStops[st.trip_id] = [];
@@ -2404,7 +2530,12 @@ export default function BusSearch() {
     setStartPredictions([]);
     
     if (p.type === 'stop') {
-      // 停留所の場合は直接選択
+      const masterStop = await getMasterStopById(p.place_id);
+      if (masterStop) {
+        setSelectedStart(masterStop);
+        setStartSearchQuery(masterStop.stop_name || name);
+        return;
+      }
       const stops = await loadStops();
       const selectedStop = stops.find((s: any) => s.stop_id === p.place_id);
       if (selectedStop) {
@@ -2508,8 +2639,9 @@ export default function BusSearch() {
 
   // start 停留所を選択したときに、その停留所から selectedDest まで行くルート（停車順）と該当する便を算出して表示する
   const handleSelectStartStop = async (startStop: any) => {
-    // 選択された出発地点を保存
-    setSelectedStart(startStop);
+    await ensureMasterStops();
+    const canonicalStart = mergeStopWithMaster(startStop);
+    setSelectedStart(canonicalStart);
     setRouteError(null);
     setLoadingRoute(true);
     // 古いモーダル状態をクリア
@@ -2519,10 +2651,13 @@ export default function BusSearch() {
     try {
       if (!selectedDest) throw new Error('目的地が選択されていません');
 
-      const stops = await loadStops();
-      const stopTimes = await loadStopTimes();
-      const trips = await loadTrips();
-      const routes = await loadRoutes();
+      const [stops, stopTimes, trips, routes] = await Promise.all([
+        loadStops(),
+        loadStopTimes(),
+        loadTrips(),
+        loadRoutes()
+      ]);
+      console.log(`handleSelectStartStop: loaded stops=${stops.length}, stopTimes=${stopTimes.length}, trips=${trips.length}, routes=${routes.length}`);
       
       // trip_id -> ordered stop sequence
       const tripStops: Record<string, { stop_id: string; seq: number; arrival_time?: string; departure_time?: string }[]> = {};
@@ -2533,7 +2668,7 @@ export default function BusSearch() {
       for (const k of Object.keys(tripStops)) tripStops[k].sort((a,b)=>a.seq-b.seq);
 
       const destIds = selectedDestIds.length > 0 ? selectedDestIds : [selectedDest.stop_id];
-      const startId = startStop.stop_id;
+      const startId = canonicalStart.stop_id;
       
       const matchingTrips: { tripId: string; stopsSeq: any[]; routeId?: string; routeInfo?: any; startDeparture?: string }[] = [];
 
@@ -2547,6 +2682,9 @@ export default function BusSearch() {
           const slice = seq.slice(idxStart, idxDest + 1);
           const tripDef = trips.find((t: any) => t.trip_id === trip);
           const routeDef = tripDef ? routes.find((r: any) => r.route_id === tripDef.route_id) : null;
+          if (!routeDef && tripDef?.route_id) {
+            console.log(`handleSelectStartStop: missing route definition for ${tripDef.route_id}`);
+          }
           const startDeparture = slice[0]?.departure_time || slice[0]?.arrival_time || undefined;
           matchingTrips.push({ tripId: trip, stopsSeq: slice, routeId: tripDef?.route_id, routeInfo: routeDef, startDeparture });
         }
@@ -3051,7 +3189,6 @@ export default function BusSearch() {
           routeMarkersRef={routeMarkersRef}
           routePolylineRef={routePolylineRef}
           getDistance={getDistance}
-          isWithinPastHours={isWithinPastHours}
         />
 
         {/* Googleマップ */}
