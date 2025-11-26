@@ -19,7 +19,7 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 16px 1rem 48px;
+  padding: 16px 1rem 48px; /* ヘッダーを除く部分のpadding */
   box-sizing: border-box;
 }
 
@@ -681,12 +681,12 @@
 .rankingContainer {
   min-height: 100vh;
   background: linear-gradient(to bottom right, #eef2ff, #fdf4ff, #fef7f0);
-  padding: 1rem;
+  /* paddingを削除 */
 }
 
 @media (min-width: 640px) {
   .rankingContainer {
-    padding: 1.5rem;
+    /* padding: 1.5rem; */
   }
 }
 
