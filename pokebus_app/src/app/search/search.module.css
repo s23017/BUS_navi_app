@@ -16,9 +16,17 @@
   align-items: center;
   padding: calc(0.5rem + env(safe-area-inset-top, 0)) 1rem 0.5rem;
   box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
-  position: sticky;
+  position: fixed;
   top: 0;
-  z-index: 50;
+  left: 0;
+  right: 0;
+  width: 100%;
+  z-index: 1500;
+}
+
+.headerPlaceholder {
+  height: calc(4rem + env(safe-area-inset-top, 0));
+  width: 100%;
 }
 
 .logo {
@@ -37,7 +45,7 @@
 .dropdown {
   position: absolute;
   right: 1rem;
-  top: 3.5rem; /* top-14 */
+  top: calc(3.5rem + env(safe-area-inset-top, 0)); /* align below fixed header */
   background-color: white;
   border-radius: 0.75rem; /* rounded-xl */
   box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
