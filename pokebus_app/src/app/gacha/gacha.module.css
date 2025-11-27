@@ -194,6 +194,210 @@
   width: 100%;
 }
 
+.busScene {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 260px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.busRoad {
+  position: absolute;
+  bottom: 0;
+  left: -10%;
+  width: 120%;
+  height: 70px;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.08), rgba(15, 23, 42, 0.18));
+  border-top: 1px solid rgba(148, 163, 184, 0.25);
+  z-index: 1;
+}
+
+.busWrapper {
+  position: relative;
+  width: 320px;
+  height: 160px;
+  background: none;
+  transform: translateX(-140%);
+  animation: bus-arrive 1.6s ease-out forwards;
+  z-index: 2;
+}
+
+.busBody {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #3b82f6 0%, #1d4ed8 90%);
+  border-radius: 18px 18px 22px 22px;
+  box-shadow: 0 16px 32px rgba(59, 130, 246, 0.28);
+  border: 1px solid rgba(37, 99, 235, 0.4);
+  overflow: hidden;
+}
+
+.busStripe {
+  position: absolute;
+  inset: 16px 12px auto 12px;
+  height: 20px;
+  border-radius: 20px;
+  background: linear-gradient(120deg, rgba(248, 250, 252, 0.95), rgba(191, 219, 254, 0.85));
+}
+
+.busWindows {
+  position: absolute;
+  top: 44px;
+  left: 24px;
+  right: 24px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.busWindow {
+  flex: 1;
+  height: 44px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(148, 163, 184, 0.35), rgba(148, 163, 184, 0.18));
+  border: 1px solid rgba(148, 163, 184, 0.4);
+}
+
+.busDoor {
+  position: absolute;
+  top: 96px;
+  left: 120px;
+  width: 80px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 3;
+}
+
+.busDoorPanel {
+  width: 38px;
+  height: 100%;
+  border-radius: 6px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(226, 232, 240, 0.75));
+  border: 1px solid rgba(148, 163, 184, 0.45);
+  box-shadow: inset 0 0 12px rgba(15, 23, 42, 0.12);
+}
+
+.busDoorPanelLeft {
+  animation: door-open-left 0.8s ease-out 1.2s forwards;
+}
+
+.busDoorPanelRight {
+  animation: door-open-right 0.8s ease-out 1.2s forwards;
+}
+
+.busWheelRow {
+  position: absolute;
+  bottom: -16px;
+  left: 32px;
+  right: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.busWheel {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(15, 23, 42, 0.9) 0%, rgba(15, 23, 42, 0.7) 55%, rgba(15, 23, 42, 0.5) 80%);
+  border: 6px solid rgba(226, 232, 240, 0.7);
+  box-shadow: inset 0 0 10px rgba(15, 23, 42, 0.7);
+}
+
+.busFrontLight,
+.busRearLight {
+  position: absolute;
+  width: 22px;
+  height: 60px;
+  bottom: 42px;
+  border-radius: 12px;
+  filter: blur(1px);
+}
+
+.busFrontLight {
+  right: -12px;
+  background: radial-gradient(circle, rgba(251, 191, 36, 0.75), rgba(251, 191, 36, 0));
+  animation: bus-light 1.2s ease-in-out infinite alternate;
+}
+
+.busRearLight {
+  left: -12px;
+  background: radial-gradient(circle, rgba(248, 113, 113, 0.65), rgba(248, 113, 113, 0));
+}
+
+.busCharacters {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  margin: 1.25rem 0 0;
+  width: 100%;
+}
+
+.busCharacter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.65rem 0.75rem;
+  border-radius: 14px;
+  background: rgba(224, 242, 254, 0.92);
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  box-shadow: 0 14px 22px rgba(148, 163, 184, 0.2);
+  min-width: 120px;
+  opacity: 0;
+  transform: translateY(18px) scale(0.92);
+  animation: character-reveal 0.6s ease-out forwards;
+}
+
+.busCharacterImageWrap {
+  width: 78px;
+  height: 78px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.busCharacterImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.busCharacterName {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1f2937;
+  text-align: center;
+}
+
+.busCharacterRarity {
+  font-size: 0.75rem;
+  color: #2563eb;
+  letter-spacing: 0.05em;
+}
+
+.busWaitingText {
+  font-size: 1rem;
+  color: #1f2937;
+  background: rgba(255, 255, 255, 0.88);
+  border-radius: 999px;
+  padding: 0.45rem 1.25rem;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  box-shadow: 0 10px 18px rgba(148, 163, 184, 0.18);
+}
+
 .animationText {
   font-size: 1.6rem;
   letter-spacing: 0.08em;
@@ -204,6 +408,33 @@
 @keyframes pulse {
   0%, 100% { opacity: 0.4; transform: scale(0.98); }
   50% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes bus-arrive {
+  0% { transform: translateX(-140%) scale(0.96); }
+  55% { transform: translateX(12%) scale(1.03); }
+  75% { transform: translateX(-6%) scale(0.99); }
+  100% { transform: translateX(0) scale(1); }
+}
+
+@keyframes door-open-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-46px); }
+}
+
+@keyframes door-open-right {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(46px); }
+}
+
+@keyframes bus-light {
+  0% { opacity: 0.45; filter: blur(1px); }
+  100% { opacity: 0.9; filter: blur(1.8px); }
+}
+
+@keyframes character-reveal {
+  0% { opacity: 0; transform: translateY(18px) scale(0.92); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
 }
 
 .reelWrapper {
