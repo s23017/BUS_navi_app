@@ -14,7 +14,7 @@ interface UserStats {
   busStopReports: number;
   joinDate: string;
   lastActive: string;
-  totalDistance: number;
+  totalPoints: number;
   favoriteRoute: string;
 }
 
@@ -164,7 +164,7 @@ function ProfileContent() {
           busStopReports: 0,
           joinDate: new Date(isOtherUser ? new Date().toISOString() : (user?.metadata.creationTime || new Date().toISOString())).toLocaleDateString('ja-JP'),
           lastActive: '未記録',
-          totalDistance: 0,
+          totalPoints: 0,
           favoriteRoute: '未記録'
         }
       };
@@ -181,7 +181,7 @@ function ProfileContent() {
       totalShares: 0,
       busStopReports: 0,
       lastActive: '未記録',
-      totalDistance: 0,
+      totalPoints: 0,
       favoriteRoute: '未記録'
     };
 
@@ -195,6 +195,7 @@ function ProfileContent() {
       let busStopReports = 0;
       let lastActive = '未記録';
       let favoriteRoute = '未記録';
+      let totalPoints = 0;
 
       // 位置共有回数を取得（エラー処理付き）
       try {
@@ -273,11 +274,23 @@ function ProfileContent() {
         }
       }
 
+      try {
+        const statsDoc = await getDoc(doc(db, 'userStats', userId));
+        if (statsDoc.exists()) {
+          const data = statsDoc.data();
+          if (typeof data.totalPoints === 'number') {
+            totalPoints = data.totalPoints;
+          }
+        }
+      } catch (error) {
+        console.warn('総合ポイント取得エラー:', error);
+      }
+
       return {
         totalShares,
         busStopReports,
         lastActive,
-        totalDistance: Math.floor(Math.random() * 1000), // 仮の実装
+        totalPoints,
         favoriteRoute
       };
     } catch (error) {
@@ -526,8 +539,8 @@ function ProfileContent() {
                 <span className={styles.statValue}>{userProfile.stats.busStopReports.toLocaleString()}</span>
               </div>
               <div className={styles.statCard}>
-                <span className={styles.statLabel}>累計移動距離</span>
-                <span className={styles.statValue}>{`${userProfile.stats.totalDistance.toLocaleString()}km`}</span>
+                <span className={styles.statLabel}>総獲得ポイント</span>
+                <span className={styles.statValue}>{userProfile.stats.totalPoints.toLocaleString()}</span>
               </div>
               <div className={styles.statCard}>
                 <span className={styles.statLabel}>よく利用するルート</span>
