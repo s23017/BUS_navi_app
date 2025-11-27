@@ -63,6 +63,7 @@ export default function BusSearch() {
   const tripStopsRef = useRef<Record<string, any[]> | null>(null);
   const masterStopsRef = useRef<any[] | null>(null);
   const masterStopMapRef = useRef<Map<string, any>>(new Map());
+  const selectedDestCoordsRef = useRef<{ lat: number; lon: number } | null>(null);
   const [selectedTripId, setSelectedTripId] = useState<string | null>(null);
   const [ridingTripId, setRidingTripId] = useState<string | null>(null);
   const [tripDelays, setTripDelays] = useState<Record<string, number | null>>({});
@@ -2122,7 +2123,9 @@ export default function BusSearch() {
 
   // 目的地検索入力ハンドラ
   const handleSearchChange = async (value: string) => {
+    console.log('[SearchDebug] handleSearchChange', value);
     setSearchQuery(value);
+    selectedDestCoordsRef.current = null;
     setShowPredictions(false);
     setPredictions([]);
     try {
@@ -2335,15 +2338,37 @@ export default function BusSearch() {
     }
   };
 
+  type SearchOverride = {
+    query?: string;
+    coords?: { lat: number; lon: number };
+  };
+
   // 目的地名で検索し、現在地から近くて目的地に行くバスがある停留所のみを nearbyStops に入れる
-  const handleSearch = async () => {
+  const handleSearch = async (override?: SearchOverride) => {
     setStopsError(null);
     setNearbyStops([]);
     setSelectedDest(null);
     setSelectedDestIds([]);
     setLoadingStops(true);
+    console.log('[SearchDebug] handleSearch init', { override, currentSearchQuery: searchQuery });
     try {
-      if (!searchQuery.trim()) throw new Error('目的地名を入力してください');
+      const effectiveQuery = override?.query ?? searchQuery;
+      const activeQuery = effectiveQuery.trim();
+      console.log('[SearchDebug] handleSearch computed queries', {
+        overrideQuery: override?.query,
+        effectiveQuery,
+        activeQuery,
+        previousSearchQuery: searchQuery,
+      });
+      if (effectiveQuery !== searchQuery) {
+        setSearchQuery(effectiveQuery);
+        console.log('[SearchDebug] setSearchQuery from effectiveQuery', effectiveQuery);
+      }
+      if (!override?.query && activeQuery !== searchQuery.trim()) {
+        setSearchQuery(activeQuery);
+        console.log('[SearchDebug] setSearchQuery from activeQuery', activeQuery);
+      }
+      if (!activeQuery) throw new Error('目的地名を入力してください');
 
       // 出発地点の処理：ユーザーが地名を入力したが selectedStart が未設定の場合の処理
       let geocodedStart: {lat: number, lon: number, name: string} | null = null;
@@ -2390,20 +2415,28 @@ export default function BusSearch() {
         }
       }
 
+      if (override?.coords) {
+        selectedDestCoordsRef.current = override.coords;
+        console.log('[SearchDebug] override provided coords', override.coords);
+      }
+
       const stops = await loadStops();
-      let geocodedLocation: { lat: number; lon: number } | null = null;
-      
-      // 座標が含まれている場合の処理（地名選択時）
-      const coordMatch = searchQuery.match(/\((-?\d+\.?\d*),\s*(-?\d+\.?\d*)\)/);
-      if (coordMatch) {
-        geocodedLocation = {
-          lat: parseFloat(coordMatch[1]),
-          lon: parseFloat(coordMatch[2])
-        };
+      let geocodedLocation: { lat: number; lon: number } | null = override?.coords ?? selectedDestCoordsRef.current;
+      console.log('[SearchDebug] initial geocodedLocation', geocodedLocation);
+
+      if (!geocodedLocation) {
+        // 座標が含まれている場合の処理（過去の仕様互換用）
+        const coordMatch = activeQuery.match(/\((-?\d+\.?\d*),\s*(-?\d+\.?\d*)\)/);
+        if (coordMatch) {
+          geocodedLocation = {
+            lat: parseFloat(coordMatch[1]),
+            lon: parseFloat(coordMatch[2])
+          };
+        }
       }
       
       // 目的地をstops.txtから見つける（部分一致, 大文字小文字無視）
-      const q = searchQuery.replace(/\s*\([^)]*\)/, '').trim().toLowerCase(); // 座標部分を削除
+      const q = activeQuery.replace(/\s*\([^)]*\)/, '').trim().toLowerCase(); // 座標部分を削除
       const matchedByName = stops
         .filter((s: any) => (s.stop_name || '').toLowerCase().includes(q))
         .map((s: any) => mergeStopWithMaster(s));
@@ -2432,6 +2465,8 @@ export default function BusSearch() {
               // 沖縄県内の座標かチェック
               if (lat >= 24.0 && lat <= 27.0 && lon >= 122.0 && lon <= 131.0) {
                 geocodedLocation = { lat, lon };
+                selectedDestCoordsRef.current = geocodedLocation;
+                console.log('[SearchDebug] geocoded destination within Okinawa', geocodedLocation);
               }
             }
           }
@@ -2453,11 +2488,12 @@ export default function BusSearch() {
         }
       }
 
-      const destIds = Array.from(destIdsSet);
+        const destIds = Array.from(destIdsSet);
+        console.log('[SearchDebug] destination ids', { destIds, matchedByNameCount: matchedByName.length, geocodedLocation });
       if (destIds.length === 0) throw new Error('目的地が見つかりません');
 
       // choose a representative dest for display (prefer exact name match)
-      const cleanQuery = searchQuery.replace(/\s*\([^)]*\)/, '').trim(); // 座標部分を削除
+      const cleanQuery = activeQuery.replace(/\s*\([^)]*\)/, '').trim(); // 座標部分を削除
       const fallbackDest = stops.find((s:any)=>s.stop_id === destIds[0]) || { stop_name: cleanQuery, stop_id: destIds[0] };
       const repDest = matchedByName.length > 0 ? matchedByName[0] : mergeStopWithMaster(fallbackDest);
       setSelectedDest(mergeStopWithMaster(repDest));
@@ -2541,16 +2577,25 @@ export default function BusSearch() {
       setShowBusRoutes(false);
     } catch (e:any) {
       setStopsError(e.message || '検索でエラーが発生しました');
+      console.error('[SearchDebug] handleSearch error', { error: e, override });
     } finally {
       setLoadingStops(false);
+      console.log('[SearchDebug] handleSearch finished');
     }
   };
 
   // 目的地予測候補クリック
-  const handlePredictionClick = async (p: any) => {
+  const handlePredictionClick = (p: any) => {
     if (!p) return;
     const name = p.structured_formatting?.main_text || '';
+    console.log('[SearchDebug] handlePredictionClick', {
+      type: p.type,
+      placeId: p.place_id,
+      mainText: name,
+    });
     setSearchQuery(name);
+    console.log('[SearchDebug] setSearchQuery from prediction click', name);
+    selectedDestCoordsRef.current = null;
     setShowPredictions(false);
     setPredictions([]);
     
@@ -2560,26 +2605,36 @@ export default function BusSearch() {
       if (placesService.current) {
         placesService.current.getDetails(
           { placeId: p.place_id, fields: ['geometry', 'name'] },
-          async (place, status) => {
+          (place, status) => {
+            console.log('[SearchDebug] placesService.getDetails result', {
+              status,
+              hasPlace: !!place,
+              hasGeometry: !!place?.geometry,
+            });
             if (status === window.google.maps.places.PlacesServiceStatus.OK && place && place.geometry) {
               const location = place.geometry.location;
               if (location) {
-                // 座標を検索クエリとして保存
-                setSearchQuery(`${name} (${location.lat()}, ${location.lng()})`);
-                await handleSearch();
+                selectedDestCoordsRef.current = {
+                  lat: location.lat(),
+                  lon: location.lng(),
+                };
+                console.log('[SearchDebug] set selectedDestCoordsRef from place', selectedDestCoordsRef.current);
+                setSearchQuery(name);
+                console.log('[SearchDebug] setSearchQuery after place lookup', name);
               }
-            } else {
-              // フォールバック：通常の検索を実行
-              await handleSearch();
             }
+            handleSearch({ query: name, coords: selectedDestCoordsRef.current ?? undefined });
           }
         );
       } else {
-        await handleSearch();
+        console.log('[SearchDebug] placesService missing, fallback search');
+        handleSearch({ query: name });
       }
     } else {
       // 停留所の場合は直接検索
-      await handleSearch();
+      selectedDestCoordsRef.current = null;
+      console.log('[SearchDebug] prediction type is stop, run search without coords');
+      handleSearch({ query: name });
     }
   };
 
@@ -2942,8 +2997,8 @@ export default function BusSearch() {
     setSelectedDestIds([]);
     setSelectedTripId(null);
     setSelectedStart(null);
+    selectedDestCoordsRef.current = null;
     setShowStopCandidates(false);
-
     setShowBusRoutes(false);
     
     // 地図上のマーカーをクリア
