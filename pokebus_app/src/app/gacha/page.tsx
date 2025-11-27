@@ -105,6 +105,7 @@ export default function GachaPage() {
   const [results, setResults] = useState<Array<{ character: GachaCharacter; rolledAt: Date }>>([]);
   const [animationKey, setAnimationKey] = useState(0);
   const [collectionEntries, setCollectionEntries] = useState<CollectionEntry[]>([]);
+  const [pendingCharacters, setPendingCharacters] = useState<GachaCharacter[]>([]);
 
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
@@ -115,6 +116,7 @@ export default function GachaPage() {
         setCollectionEntries([]);
         setResults([]);
         setActiveSection("gacha");
+        setPendingCharacters([]);
       }
     });
     return () => unsubscribe();
@@ -248,6 +250,7 @@ export default function GachaPage() {
       setIsRolling(true);
       setHasGlow(true);
       setResults([]);
+      setPendingCharacters(selections);
       setError(null);
 
       await runTransaction(db, async (transaction) => {
@@ -330,10 +333,12 @@ export default function GachaPage() {
         setHasGlow(false);
         setResults(finalResults);
         setIsRolling(false);
-      }, 2400);
+        setPendingCharacters([]);
+      }, 3600);
     } catch (transactionError) {
       setHasGlow(false);
       setIsRolling(false);
+      setPendingCharacters([]);
       if (transactionError instanceof Error) {
         setError(transactionError.message);
       } else {
@@ -345,18 +350,46 @@ export default function GachaPage() {
   const renderAnimation = () => {
     if (isRolling) {
       return (
-        <div key={animationKey} className={styles.reelWrapper}>
-          <div className={styles.reel}>
-            {characters
-              .slice()
-              .sort(() => Math.random() - 0.5)
-              .map((item, index) => (
-                <div key={`${animationKey}-${item.id}-${index}`} className={styles.characterCard} style={{ background: rarityColors[item.rarity] }}>
-                  <img src={item.image} alt={item.name} className={styles.characterImage} onError={handleImageError} />
-                  <div className={styles.characterName}>{item.name}</div>
-                  <div className={styles.characterRarity}>{raritySound[item.rarity]} {rarityLabels[item.rarity]}</div>
+        <div key={animationKey} className={styles.busScene}>
+          <div className={styles.busRoad} />
+          <div className={styles.busWrapper}>
+            <div className={styles.busBody}>
+              <div className={styles.busStripe} />
+              <div className={styles.busWindows}>
+                {Array.from({ length: 4 }).map((_, index) => (
+                  <div key={`window-${index}`} className={styles.busWindow} />
+                ))}
+              </div>
+              <div className={styles.busDoor}>
+                <div className={`${styles.busDoorPanel} ${styles.busDoorPanelLeft}`} />
+                <div className={`${styles.busDoorPanel} ${styles.busDoorPanelRight}`} />
+              </div>
+              <div className={styles.busWheelRow}>
+                <div className={styles.busWheel} />
+                <div className={styles.busWheel} />
+              </div>
+            </div>
+            <div className={styles.busFrontLight} />
+            <div className={styles.busRearLight} />
+          </div>
+          <div className={styles.busCharacters}>
+            {pendingCharacters.length === 0 ? (
+              <div className={styles.busWaitingText}>バスが到着しています...</div>
+            ) : (
+              pendingCharacters.map((item, index) => (
+                <div
+                  key={`${animationKey}-${item.id}-${index}`}
+                  className={styles.busCharacter}
+                  style={{ animationDelay: `${1.5 + index * 0.18}s` }}
+                >
+                  <div className={styles.busCharacterImageWrap}>
+                    <img src={item.image} alt={item.name} className={styles.busCharacterImage} onError={handleImageError} />
+                  </div>
+                  <div className={styles.busCharacterName}>{item.name}</div>
+                  <div className={styles.busCharacterRarity}>{raritySound[item.rarity]} {rarityLabels[item.rarity]}</div>
                 </div>
-              ))}
+              ))
+            )}
           </div>
         </div>
       );
