@@ -1,0 +1,820 @@
+/* Gacha page styles */
+
+.gachaPage {
+  min-height: 100vh;
+  background: linear-gradient(180deg, #e0f2fe 0%, #f8fafc 45%, #ffffff 100%);
+  color: #1f2937;
+  display: flex;
+  flex-direction: column;
+}
+
+.content {
+  flex: 1;
+  width: 100%;
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 4.5rem 1.5rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  box-sizing: border-box;
+}
+
+.titleBlock {
+  text-align: center;
+  margin-bottom: 2.25rem;
+}
+
+.subtitle {
+  font-size: 0.95rem;
+  color: #475569;
+  margin-top: 0.5rem;
+}
+
+.statusCard {
+  background: rgba(255, 255, 255, 0.92);
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  border-radius: 18px;
+  padding: 1.5rem 2rem;
+  margin-bottom: 2rem;
+  width: 100%;
+  max-width: 640px;
+  backdrop-filter: blur(14px);
+  box-shadow: 0 18px 32px rgba(148, 163, 184, 0.25);
+}
+
+.statusHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+}
+
+.sectionNav {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+}
+
+.pointLabel {
+  font-size: 0.95rem;
+  letter-spacing: 0.02em;
+  color: #64748b;
+}
+
+.pointValue {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #2563eb;
+}
+
+.sectionButton {
+  border: none;
+  background: rgba(224, 242, 254, 0.7);
+  color: #0f172a;
+  cursor: pointer;
+  font-size: 0.88rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.45rem 0.95rem;
+  border-radius: 999px;
+  transition: background 0.2s ease, color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.sectionButton:hover {
+  background: rgba(191, 219, 254, 0.85);
+  color: #1d4ed8;
+  box-shadow: 0 12px 18px rgba(148, 163, 184, 0.2);
+}
+
+.sectionButtonActive {
+  background: linear-gradient(120deg, #38bdf8, #2563eb);
+  color: #ffffff;
+  box-shadow: 0 14px 22px rgba(37, 99, 235, 0.25);
+}
+
+.rollModeToggle {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-top: 0.9rem;
+}
+
+.rollModeButton {
+  flex: 1;
+  padding: 0.55rem 1rem;
+  border-radius: 999px;
+  border: 1px solid rgba(148, 163, 184, 0.4);
+  background: rgba(255, 255, 255, 0.75);
+  color: #1f2937;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.rollModeButton:hover {
+  background: rgba(191, 219, 254, 0.75);
+  border-color: rgba(99, 102, 241, 0.55);
+}
+
+.rollModeActive {
+  background: linear-gradient(120deg, #38bdf8, #2563eb);
+  border-color: transparent;
+  color: #ffffff;
+  box-shadow: 0 14px 22px rgba(37, 99, 235, 0.25);
+}
+
+.gachaMachine {
+  position: relative;
+  width: 100%;
+  max-width: 520px;
+  border-radius: 24px;
+  padding: 2.25rem 2rem;
+  background: linear-gradient(160deg, rgba(255, 255, 255, 0.96), rgba(224, 242, 254, 0.96));
+  box-shadow: 0 20px 40px rgba(148, 163, 184, 0.35), inset 0 0 0 1px rgba(148, 163, 184, 0.18);
+  overflow: hidden;
+  min-height: 520px;
+}
+
+.machineGlow {
+  position: absolute;
+  inset: -35%;
+  background: radial-gradient(circle, rgba(59, 130, 246, 0.35), rgba(59, 130, 246, 0) 65%);
+  filter: blur(36px);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 1;
+}
+
+.machineGlowActive {
+  opacity: 1;
+}
+
+.machineInner {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  border-radius: 18px;
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  background: rgba(255, 255, 255, 0.92);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+}
+
+.animationWindow {
+  width: 100%;
+  flex: 1;
+  background: linear-gradient(180deg, rgba(59, 130, 246, 0.08), rgba(226, 232, 240, 0.4));
+  border-radius: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  position: relative;
+  padding: 0.75rem;
+}
+
+.animationWindowRolling {
+  overflow: hidden;
+}
+
+.animationWindowScrollable {
+  overflow-y: auto;
+  justify-content: flex-start;
+  align-items: flex-start;
+  padding: 1rem;
+  max-height: 320px;
+  width: 100%;
+}
+
+.busScene {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 260px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.busRoad {
+  position: absolute;
+  bottom: 0;
+  left: -10%;
+  width: 120%;
+  height: 70px;
+  background: linear-gradient(180deg, rgba(15, 23, 42, 0.08), rgba(15, 23, 42, 0.18));
+  border-top: 1px solid rgba(148, 163, 184, 0.25);
+  z-index: 1;
+}
+
+.busWrapper {
+  position: relative;
+  width: 320px;
+  height: 160px;
+  background: none;
+  transform: translateX(-140%);
+  animation: bus-arrive 1.6s ease-out forwards;
+  z-index: 2;
+}
+
+.busBody {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(180deg, #3b82f6 0%, #1d4ed8 90%);
+  border-radius: 18px 18px 22px 22px;
+  box-shadow: 0 16px 32px rgba(59, 130, 246, 0.28);
+  border: 1px solid rgba(37, 99, 235, 0.4);
+  overflow: hidden;
+}
+
+.busStripe {
+  position: absolute;
+  inset: 16px 12px auto 12px;
+  height: 20px;
+  border-radius: 20px;
+  background: linear-gradient(120deg, rgba(248, 250, 252, 0.95), rgba(191, 219, 254, 0.85));
+}
+
+.busWindows {
+  position: absolute;
+  top: 44px;
+  left: 24px;
+  right: 24px;
+  display: flex;
+  gap: 10px;
+  justify-content: space-between;
+}
+
+.busWindow {
+  flex: 1;
+  height: 44px;
+  border-radius: 10px;
+  background: linear-gradient(180deg, rgba(148, 163, 184, 0.35), rgba(148, 163, 184, 0.18));
+  border: 1px solid rgba(148, 163, 184, 0.4);
+}
+
+.busDoor {
+  position: absolute;
+  top: 96px;
+  left: 120px;
+  width: 80px;
+  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  z-index: 3;
+}
+
+.busDoorPanel {
+  width: 38px;
+  height: 100%;
+  border-radius: 6px;
+  background: linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(226, 232, 240, 0.75));
+  border: 1px solid rgba(148, 163, 184, 0.45);
+  box-shadow: inset 0 0 12px rgba(15, 23, 42, 0.12);
+}
+
+.busDoorPanelLeft {
+  animation: door-open-left 0.8s ease-out 1.2s forwards;
+}
+
+.busDoorPanelRight {
+  animation: door-open-right 0.8s ease-out 1.2s forwards;
+}
+
+.busWheelRow {
+  position: absolute;
+  bottom: -16px;
+  left: 32px;
+  right: 32px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.busWheel {
+  width: 54px;
+  height: 54px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(15, 23, 42, 0.9) 0%, rgba(15, 23, 42, 0.7) 55%, rgba(15, 23, 42, 0.5) 80%);
+  border: 6px solid rgba(226, 232, 240, 0.7);
+  box-shadow: inset 0 0 10px rgba(15, 23, 42, 0.7);
+}
+
+.busFrontLight,
+.busRearLight {
+  position: absolute;
+  width: 22px;
+  height: 60px;
+  bottom: 42px;
+  border-radius: 12px;
+  filter: blur(1px);
+}
+
+.busFrontLight {
+  right: -12px;
+  background: radial-gradient(circle, rgba(251, 191, 36, 0.75), rgba(251, 191, 36, 0));
+  animation: bus-light 1.2s ease-in-out infinite alternate;
+}
+
+.busRearLight {
+  left: -12px;
+  background: radial-gradient(circle, rgba(248, 113, 113, 0.65), rgba(248, 113, 113, 0));
+}
+
+.busCharacters {
+  position: relative;
+  z-index: 3;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  justify-content: center;
+  margin: 1.25rem 0 0;
+  width: 100%;
+}
+
+.busCharacter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.65rem 0.75rem;
+  border-radius: 14px;
+  background: rgba(224, 242, 254, 0.92);
+  border: 1px solid rgba(148, 163, 184, 0.35);
+  box-shadow: 0 14px 22px rgba(148, 163, 184, 0.2);
+  min-width: 120px;
+  opacity: 0;
+  transform: translateY(18px) scale(0.92);
+  animation: character-reveal 0.6s ease-out forwards;
+}
+
+.busCharacterImageWrap {
+  width: 78px;
+  height: 78px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.95);
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.busCharacterImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.busCharacterName {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1f2937;
+  text-align: center;
+}
+
+.busCharacterRarity {
+  font-size: 0.75rem;
+  color: #2563eb;
+  letter-spacing: 0.05em;
+}
+
+.busWaitingText {
+  font-size: 1rem;
+  color: #1f2937;
+  background: rgba(255, 255, 255, 0.88);
+  border-radius: 999px;
+  padding: 0.45rem 1.25rem;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  box-shadow: 0 10px 18px rgba(148, 163, 184, 0.18);
+}
+
+.animationText {
+  font-size: 1.6rem;
+  letter-spacing: 0.08em;
+  color: #1f2937;
+  animation: pulse 1.4s ease-in-out infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.4; transform: scale(0.98); }
+  50% { opacity: 1; transform: scale(1); }
+}
+
+@keyframes bus-arrive {
+  0% { transform: translateX(-140%) scale(0.96); }
+  55% { transform: translateX(12%) scale(1.03); }
+  75% { transform: translateX(-6%) scale(0.99); }
+  100% { transform: translateX(0) scale(1); }
+}
+
+@keyframes door-open-left {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(-46px); }
+}
+
+@keyframes door-open-right {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(46px); }
+}
+
+@keyframes bus-light {
+  0% { opacity: 0.45; filter: blur(1px); }
+  100% { opacity: 0.9; filter: blur(1.8px); }
+}
+
+@keyframes character-reveal {
+  0% { opacity: 0; transform: translateY(18px) scale(0.92); }
+  100% { opacity: 1; transform: translateY(0) scale(1); }
+}
+
+.reelWrapper {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+}
+
+.reel {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.5rem;
+  animation: reel-spin 2.4s ease-in-out;
+}
+
+@keyframes reel-spin {
+  0% { transform: translateY(60%); filter: blur(12px); opacity: 0; }
+  40% { transform: translateY(-20%); filter: blur(6px); opacity: 1; }
+  70% { transform: translateY(10%); filter: blur(1px); }
+  100% { transform: translateY(0); filter: blur(0); }
+}
+
+.characterCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.75rem;
+  text-align: center;
+  background: rgba(224, 242, 254, 0.85);
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  border-radius: 16px;
+  padding: 1.25rem;
+  box-shadow: 0 14px 24px rgba(148, 163, 184, 0.25);
+  min-width: 240px;
+  color: #0f172a;
+}
+
+.characterImage {
+  width: 140px;
+  height: 140px;
+  object-fit: contain;
+  border-radius: 18px;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(148, 163, 184, 0.35);
+}
+
+.characterName {
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.characterRarity {
+  font-size: 0.95rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: #1d4ed8;
+}
+
+.characterDesc {
+  font-size: 0.85rem;
+  color: #334155;
+  line-height: 1.5;
+}
+
+.resultsGrid {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 1rem;
+  padding: 0.25rem;
+  justify-items: center;
+}
+
+.resultMiniCard {
+  background: rgba(224, 242, 254, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  border-radius: 14px;
+  padding: 0.75rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.55rem;
+  text-align: center;
+  box-shadow: 0 10px 20px rgba(148, 163, 184, 0.2);
+}
+
+.resultMiniImageWrap {
+  width: 80px;
+  height: 80px;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(148, 163, 184, 0.3);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.resultMiniImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.resultMiniName {
+  font-size: 0.85rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.resultMiniRarity {
+  font-size: 0.75rem;
+  color: #2563eb;
+  letter-spacing: 0.05em;
+}
+
+.rollButton {
+  width: 100%;
+  margin-top: 1.5rem;
+  background: linear-gradient(120deg, #38bdf8, #2563eb 60%, #1d4ed8);
+  border: none;
+  border-radius: 999px;
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 1.1rem;
+  padding: 0.95rem;
+  cursor: pointer;
+  box-shadow: 0 18px 24px rgba(37, 99, 235, 0.3);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, filter 0.2s ease;
+}
+
+.rollButton:hover:not(:disabled) {
+  transform: translateY(-2px);
+  box-shadow: 0 24px 32px rgba(37, 99, 235, 0.35);
+  filter: brightness(1.05);
+}
+
+.rollButton:disabled {
+  cursor: not-allowed;
+  opacity: 0.55;
+  box-shadow: none;
+}
+
+.costLabel {
+  margin-top: 0.75rem;
+  font-size: 0.9rem;
+  color: #475569;
+}
+
+.history {
+  width: 100%;
+  max-width: 640px;
+  margin-top: 2rem;
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 18px;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  padding: 1.75rem;
+  box-shadow: 0 16px 30px rgba(148, 163, 184, 0.25);
+}
+
+.historyTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+  color: #1f2937;
+}
+
+.historyList {
+  display: flex;
+  flex-direction: column;
+  gap: 0.85rem;
+  max-height: 240px;
+  overflow-y: auto;
+}
+
+.historyItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.85rem 1rem;
+  background: rgba(224, 242, 254, 0.8);
+  border-radius: 12px;
+  border: 1px solid rgba(148, 163, 184, 0.28);
+}
+
+.historyMeta {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.historyThumb {
+  width: 54px;
+  height: 54px;
+  object-fit: contain;
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.9);
+  border: 1px solid rgba(148, 163, 184, 0.28);
+}
+
+.historyName {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.historyRarity {
+  font-size: 0.85rem;
+  color: #2563eb;
+  letter-spacing: 0.04em;
+}
+
+.historyTime {
+  font-size: 0.8rem;
+  color: #64748b;
+}
+
+.collection {
+  width: 100%;
+  max-width: 720px;
+  margin-top: 2rem;
+  background: rgba(255, 255, 255, 0.92);
+  border-radius: 18px;
+  border: 1px solid rgba(148, 163, 184, 0.25);
+  padding: 1.75rem;
+  box-shadow: 0 16px 30px rgba(148, 163, 184, 0.25);
+}
+
+.collectionTitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-bottom: 1.25rem;
+  color: #1f2937;
+}
+
+.collectionGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 1.25rem;
+}
+
+.collectionItem {
+  background: rgba(224, 242, 254, 0.75);
+  border: 1px solid rgba(148, 163, 184, 0.28);
+  border-radius: 16px;
+  padding: 1.15rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.65rem;
+  box-shadow: 0 14px 24px rgba(148, 163, 184, 0.22);
+}
+
+.collectionImageWrap {
+  width: 120px;
+  height: 120px;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.85);
+  border: 1px solid rgba(148, 163, 184, 0.28);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+.collectionImage {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.collectionName {
+  font-weight: 600;
+  color: #1f2937;
+}
+
+.collectionRarity {
+  font-size: 0.85rem;
+  letter-spacing: 0.08em;
+  color: #2563eb;
+}
+
+.collectionCount {
+  font-size: 0.9rem;
+  color: #475569;
+}
+
+.collectionTime {
+  font-size: 0.8rem;
+  color: #64748b;
+}
+
+.error {
+  margin-top: 1rem;
+  color: #ef4444;
+  font-size: 0.9rem;
+}
+
+.emptyState {
+  text-align: center;
+  color: #64748b;
+  font-size: 0.9rem;
+}
+
+.loginPrompt {
+  margin-top: 2rem;
+  text-align: center;
+  font-size: 0.95rem;
+  color: #1f2937;
+}
+
+.loginButton {
+  margin-top: 1rem;
+  border: none;
+  background: linear-gradient(120deg, #38bdf8, #2563eb);
+  color: #ffffff;
+  padding: 0.65rem 1.5rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+  box-shadow: 0 12px 22px rgba(37, 99, 235, 0.28);
+}
+
+.loginButton:hover {
+  transform: translateY(-1px);
+  box-shadow: 0 16px 28px rgba(37, 99, 235, 0.32);
+}
+
+@media (max-width: 820px) {
+  .statusHeader {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+
+  .sectionNav {
+    width: 100%;
+    justify-content: flex-start;
+  }
+}
+
+@media (max-width: 768px) {
+  .content {
+    padding: 4.5rem 1rem 2.5rem;
+  }
+
+  .statusCard {
+    padding: 1.25rem 1.5rem;
+  }
+
+  .collection {
+    padding: 1.5rem;
+  }
+
+  .gachaMachine {
+    padding: 1.75rem 1.5rem;
+    min-height: 0;
+  }
+
+  .machineInner {
+    padding: 1.25rem;
+  }
+
+  .characterCard {
+    min-width: 200px;
+    padding: 1rem;
+  }
+
+  .characterImage {
+    width: 120px;
+    height: 120px;
+  }
+
+  .resultsGrid {
+    grid-template-columns: repeat(auto-fit, minmax(110px, 1fr));
+  }
+}
