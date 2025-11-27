@@ -29,5 +29,18 @@ service cloud.firestore {
       // 書き込みは認証済みユーザーのみ（不正なデータ投稿を防ぐ）
       allow write: if request.auth != null;
     }
+
+    // ユーザーポイント・ランキング情報
+    match /userStats/{userId} {
+      // ランキング表示のため読み取りは誰でも可能
+      allow read: if true;
+      // 書き込みは本人のみ
+      allow write: if request.auth != null && request.auth.uid == userId;
+
+      // ガチャ履歴サブコレクション
+      match /gachaRolls/{rollId} {
+        allow read, write: if request.auth != null && request.auth.uid == userId;
+      }
+    }
   }
 }

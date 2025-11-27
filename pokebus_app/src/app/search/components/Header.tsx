@@ -47,6 +47,16 @@ export default function Header({ menuOpen, toggleMenu, onGoProfile, onLogoClick 
               className={searchStyles.dropdownItem}
               onClick={() => {
                 toggleMenu();
+                router.push("/gacha");
+              }}
+              style={{ cursor: "pointer" }}
+            >
+              🎰 ガチャ
+            </li>
+            <li
+              className={searchStyles.dropdownItem}
+              onClick={() => {
+                toggleMenu();
                 router.push("/ranking");
               }}
               style={{ cursor: "pointer" }}
