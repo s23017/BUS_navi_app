@@ -7,14 +7,14 @@ import { collection, query, where, getDocs, orderBy, limit, doc, getDoc, setDoc 
 import { auth, db } from '../../../lib/firebase';
 import styles from './profile.module.css';
 import searchStyles from '../search/search.module.css';
-import { Menu, X } from 'lucide-react';
+import { Menu, X, Users as UsersIcon } from 'lucide-react';
 
 interface UserStats {
   totalShares: number;
   busStopReports: number;
   joinDate: string;
   lastActive: string;
-  totalDistance: number;
+  totalPoints: number;
   favoriteRoute: string;
 }
 
@@ -164,7 +164,7 @@ function ProfileContent() {
           busStopReports: 0,
           joinDate: new Date(isOtherUser ? new Date().toISOString() : (user?.metadata.creationTime || new Date().toISOString())).toLocaleDateString('ja-JP'),
           lastActive: '未記録',
-          totalDistance: 0,
+          totalPoints: 0,
           favoriteRoute: '未記録'
         }
       };
@@ -181,7 +181,7 @@ function ProfileContent() {
       totalShares: 0,
       busStopReports: 0,
       lastActive: '未記録',
-      totalDistance: 0,
+      totalPoints: 0,
       favoriteRoute: '未記録'
     };
 
@@ -195,6 +195,7 @@ function ProfileContent() {
       let busStopReports = 0;
       let lastActive = '未記録';
       let favoriteRoute = '未記録';
+      let totalPoints = 0;
 
       // 位置共有回数を取得（エラー処理付き）
       try {
@@ -273,11 +274,23 @@ function ProfileContent() {
         }
       }
 
+      try {
+        const statsDoc = await getDoc(doc(db, 'userStats', userId));
+        if (statsDoc.exists()) {
+          const data = statsDoc.data();
+          if (typeof data.totalPoints === 'number') {
+            totalPoints = data.totalPoints;
+          }
+        }
+      } catch (error) {
+        console.warn('総合ポイント取得エラー:', error);
+      }
+
       return {
         totalShares,
         busStopReports,
         lastActive,
-        totalDistance: Math.floor(Math.random() * 1000), // 仮の実装
+        totalPoints,
         favoriteRoute
       };
     } catch (error) {
@@ -339,10 +352,10 @@ function ProfileContent() {
 
   if (loading || isLoading) {
     return (
-      <div className={styles.container}>
+      <div className={styles.profileContainer}>
         <div className={styles.loading}>
           <div className={styles.spinner}></div>
-          <p>プロフィールを読み込んでいます...</p>
+          <p className={styles.loadingMessage}>プロフィールを読み込んでいます...</p>
         </div>
       </div>
     );
@@ -350,10 +363,10 @@ function ProfileContent() {
 
   if (!user || !userProfile) {
     return (
-      <div className={styles.container}>
+      <div className={styles.profileContainer}>
         <div className={styles.error}>
-          <p>プロフィール情報を読み込めませんでした</p>
-          <button onClick={() => router.push('/')} className={styles.button}>
+          <p className={styles.errorMessage}>プロフィール情報を読み込めませんでした</p>
+          <button onClick={() => router.push('/')} className={`${styles.button} ${styles.primaryButton}`}>
             ホームに戻る
           </button>
         </div>
@@ -362,9 +375,8 @@ function ProfileContent() {
   }
 
   return (
-    <div className={styles.container}>
-      {/* search と同じヘッダー表示にする */}
-      <div className={searchStyles.header}>
+    <div className={styles.profileContainer}>
+      <div className={`${searchStyles.header} ${styles.headerBar}`}>
         <img
           src="/pokebus_icon.png"
           alt="logo"
@@ -405,128 +417,160 @@ function ProfileContent() {
         </div>
       )}
 
-      <div className={styles.profileCard}>
-        <div className={styles.avatarSection}>
-          <div className={styles.avatar}>
-            {userProfile.username.charAt(0).toUpperCase()}
+      <div className={searchStyles.headerPlaceholder} aria-hidden="true" />
+
+      <div className={styles.main}>
+        <div className={styles.content}>
+          <div className={styles.pageTitle}>
+            <div className={styles.titleIcon}>
+              <UsersIcon className={styles.titleIconSvg} />
+            </div>
+            <h1 className={styles.titleText}>プロフィール</h1>
+            <p className={styles.titleSubtext}>乗車の履歴やアクティビティはここでチェックできます。</p>
           </div>
-          <div className={styles.userInfo}>
-            {isEditing && !isOtherUser ? (
-              <div className={styles.editSection}>
-                <input
-                  type="text"
-                  value={editedUsername}
-                  onChange={(e) => setEditedUsername(e.target.value)}
-                  className={styles.usernameInput}
-                  placeholder="ユーザー名"
-                />
-                <input
-                  type="url"
-                  value={editedInstagramUrl}
-                  onChange={(e) => setEditedInstagramUrl(e.target.value)}
-                  className={styles.instagramInput}
-                  placeholder="Instagram URL (例: https://instagram.com/username)"
-                />
-                <div className={styles.editButtons}>
-                  <button 
-                    onClick={handleSaveProfile} 
-                    className={`${styles.button} ${styles.saveButton}`}
-                  >
-                    保存
-                  </button>
-                  <button 
-                    onClick={() => {
-                      setIsEditing(false);
-                      setEditedUsername(userProfile.username);
-                      setEditedInstagramUrl(userProfile.instagramUrl || '');
-                    }}
-                    className={`${styles.button} ${styles.cancelButton}`}
-                  >
-                    キャンセル
-                  </button>
+
+          <div className={styles.userCard}>
+            <div className={styles.userCardHeader}>
+              <div className={styles.userCardLeft}>
+                <div className={styles.avatar}>
+                  {userProfile.username.charAt(0).toUpperCase()}
+                </div>
+                <div className={styles.userInfo}>
+                  {isEditing && !isOtherUser ? (
+                    <div className={styles.editForm}>
+                      <label className={styles.inputLabel} htmlFor="profile-username">表示名</label>
+                      <input
+                        id="profile-username"
+                        type="text"
+                        value={editedUsername}
+                        onChange={(e) => setEditedUsername(e.target.value)}
+                        className={styles.input}
+                        placeholder="ユーザー名"
+                      />
+                      <label className={styles.inputLabel} htmlFor="profile-instagram">Instagram</label>
+                      <input
+                        id="profile-instagram"
+                        type="url"
+                        value={editedInstagramUrl}
+                        onChange={(e) => setEditedInstagramUrl(e.target.value)}
+                        className={styles.input}
+                        placeholder="https://instagram.com/username"
+                      />
+                      <div className={styles.formActions}>
+                        <button
+                          type="button"
+                          onClick={handleSaveProfile}
+                          className={`${styles.button} ${styles.primaryButton}`}
+                        >
+                          保存
+                        </button>
+                        <button
+                          type="button"
+                          onClick={() => {
+                            setIsEditing(false);
+                            setEditedUsername(userProfile.username);
+                            setEditedInstagramUrl(userProfile.instagramUrl || '');
+                          }}
+                          className={`${styles.button} ${styles.ghostButton}`}
+                        >
+                          キャンセル
+                        </button>
+                      </div>
+                    </div>
+                  ) : (
+                    <div className={styles.userDetails}>
+                      <h2 className={styles.userName}>{userProfile.username}</h2>
+                      <p className={styles.userEmail}>{userProfile.email}</p>
+                      {userProfile.instagramUrl ? (
+                        <a
+                          href={userProfile.instagramUrl}
+                          target="_blank"
+                          rel="noopener noreferrer"
+                          className={styles.instagramLink}
+                        >
+                          📸 Instagram
+                        </a>
+                      ) : (
+                        !isOtherUser && (
+                          <p className={styles.placeholderText}>Instagramのリンクは未登録です</p>
+                        )
+                      )}
+                    </div>
+                  )}
                 </div>
               </div>
-            ) : (
-              <div className={styles.userDetails}>
-                <h2 className={styles.username}>{userProfile.username}</h2>
-                <p className={styles.email}>{userProfile.email}</p>
-                {/* Instagram リンクは全てのユーザーに表示 */}
-                {userProfile.instagramUrl && (
-                  <a 
-                    href={userProfile.instagramUrl} 
-                    target="_blank" 
-                    rel="noopener noreferrer"
-                    className={styles.instagramLink}
-                  >
-                    📸 Instagram
-                  </a>
-                )}
-                {!isOtherUser && (
-                  <button 
-                    onClick={() => setIsEditing(true)}
-                    className={styles.editButton}
-                  >
-                    編集
-                  </button>
-                )}
+              {!isOtherUser && !isEditing && (
+                <button
+                  type="button"
+                  className={`${styles.button} ${styles.primaryButton}`}
+                  onClick={() => setIsEditing(true)}
+                >
+                  プロフィールを編集
+                </button>
+              )}
+            </div>
+
+            {!isEditing && (
+              <div className={styles.userMetaGrid}>
+                <div className={styles.metaCard}>
+                  <span className={styles.metaLabel}>登録日</span>
+                  <span className={styles.metaValue}>{userProfile.stats.joinDate}</span>
+                </div>
+                <div className={styles.metaCard}>
+                  <span className={styles.metaLabel}>最終利用日</span>
+                  <span className={styles.metaValue}>{userProfile.stats.lastActive}</span>
+                </div>
               </div>
             )}
           </div>
+
+          <section className={styles.section}>
+            <div className={styles.sectionHeader}>
+              <h3 className={styles.sectionTitle}>利用統計</h3>
+              <span className={styles.sectionHint}>最新のアクティビティに応じてリアルタイム更新</span>
+            </div>
+            <div className={styles.statsGrid}>
+              <div className={styles.statCard}>
+                <span className={styles.statLabel}>位置共有回数</span>
+                <span className={styles.statValue}>{userProfile.stats.totalShares.toLocaleString()}</span>
+              </div>
+              <div className={styles.statCard}>
+                <span className={styles.statLabel}>バス停通過報告</span>
+                <span className={styles.statValue}>{userProfile.stats.busStopReports.toLocaleString()}</span>
+              </div>
+              <div className={styles.statCard}>
+                <span className={styles.statLabel}>総獲得ポイント</span>
+                <span className={styles.statValue}>{userProfile.stats.totalPoints.toLocaleString()}</span>
+              </div>
+              <div className={styles.statCard}>
+                <span className={styles.statLabel}>よく利用するルート</span>
+                <span className={styles.statValueAlt}>{userProfile.stats.favoriteRoute || '未記録'}</span>
+              </div>
+            </div>
+          </section>
+
+          {!isOtherUser && (
+            <section className={`${styles.section} ${styles.actionsSection}`}>
+              <div className={styles.actionsStack}>
+                <button
+                  type="button"
+                  onClick={() => router.push('/settings')}
+                  className={`${styles.button} ${styles.secondaryButton}`}
+                >
+                  設定
+                </button>
+                <button
+                  type="button"
+                  onClick={handleSignOut}
+                  className={`${styles.button} ${styles.dangerButton}`}
+                >
+                  ログアウト
+                </button>
+              </div>
+            </section>
+          )}
         </div>
       </div>
-
-      <div className={styles.statsSection}>
-        <h3 className={styles.sectionTitle}>利用統計</h3>
-        <div className={styles.statsGrid}>
-          <div className={styles.statCard}>
-            <div className={styles.statNumber}>{userProfile.stats.totalShares}</div>
-            <div className={styles.statLabel}>位置共有回数</div>
-          </div>
-          <div className={styles.statCard}>
-            <div className={styles.statNumber}>{userProfile.stats.busStopReports}</div>
-            <div className={styles.statLabel}>バス停通過報告</div>
-          </div>
-          <div className={styles.statCard}>
-            <div className={styles.statNumber}>{userProfile.stats.totalDistance}km</div>
-            <div className={styles.statLabel}>累計移動距離</div>
-          </div>
-          <div className={styles.statCard}>
-            <div className={styles.statText}>{userProfile.stats.favoriteRoute}</div>
-            <div className={styles.statLabel}>よく利用するルート</div>
-          </div>
-        </div>
-      </div>
-
-      <div className={styles.infoSection}>
-        <h3 className={styles.sectionTitle}>アカウント情報</h3>
-        <div className={styles.infoList}>
-          <div className={styles.infoItem}>
-            <span className={styles.infoLabel}>登録日</span>
-            <span className={styles.infoValue}>{userProfile.stats.joinDate}</span>
-          </div>
-          <div className={styles.infoItem}>
-            <span className={styles.infoLabel}>最終利用日</span>
-            <span className={styles.infoValue}>{userProfile.stats.lastActive}</span>
-          </div>
-        </div>
-      </div>
-
-      {!isOtherUser && (
-        <div className={styles.actions}>
-          <button 
-            onClick={() => router.push('/settings')}
-            className={`${styles.button} ${styles.secondaryButton}`}
-          >
-            設定
-          </button>
-          <button 
-            onClick={handleSignOut}
-            className={`${styles.button} ${styles.signOutButton}`}
-          >
-            ログアウト
-          </button>
-        </div>
-      )}
     </div>
   );
 }
