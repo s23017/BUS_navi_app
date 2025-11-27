@@ -95,7 +95,7 @@
   border: 1px solid #d1d5db;
   border-radius: 9999px; /* rounded-full */
   padding: 0.5rem 0.75rem; /* px-3 py-2 */
-  font-size: 0.875rem; /* text-sm */
+  font-size: 16px; /* 0.875rem から 16px に変更 */
   outline: none;
   transition: border-color 0.2s;
 }
@@ -740,7 +740,7 @@
 
   .searchInput {
     width: 100%;
-    font-size: 16px;
+    font-size: 16px; /* モバイルでも16pxを維持 */
   }
 
   .searchButton,
@@ -863,11 +863,4 @@
   background-color: #f9fafb;
   border-bottom-left-radius: 0.75rem;
   border-bottom-right-radius: 0.75rem;
-}
-
-.scheduleNote {
-  margin: 0;
-  font-size: 0.75rem;
-  color: #6b7280;
-  text-align: center;
 }
