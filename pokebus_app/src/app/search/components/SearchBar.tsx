@@ -40,6 +40,16 @@ export default function SearchBar(props: Props) {
     setShowPredictions,
   } = props;
 
+  const handlePredictionPointerDown = (event: React.PointerEvent<HTMLDivElement>, prediction: any) => {
+    event.preventDefault();
+    handlePredictionClick(prediction);
+  };
+
+  const handleStartPredictionPointerDown = (event: React.PointerEvent<HTMLDivElement>, prediction: any) => {
+    event.preventDefault();
+    handleStartPredictionClick(prediction);
+  };
+
   return (
     <div className={styles.searchBar}>
       <input
@@ -71,7 +81,7 @@ export default function SearchBar(props: Props) {
         </span>
         現在地
       </button>
-      <button className={styles.searchButton} onClick={handleSearch}>
+      <button className={styles.searchButton} onClick={() => handleSearch()}>
         検索
       </button>
       <button className={styles.clearButton} onClick={clearRoute} title="ルートをクリア">
@@ -84,7 +94,7 @@ export default function SearchBar(props: Props) {
             <div
               key={prediction.unique_key}
               className={styles.predictionItem}
-              onClick={() => handleStartPredictionClick(prediction)}
+              onPointerDown={(event) => handleStartPredictionPointerDown(event, prediction)}
             >
               <MapPin size={16} className={styles.predictionIcon} />
               <div className={styles.predictionText}>
@@ -106,7 +116,7 @@ export default function SearchBar(props: Props) {
             <div
               key={prediction.unique_key}
               className={styles.predictionItem}
-              onClick={() => handlePredictionClick(prediction)}
+              onPointerDown={(event) => handlePredictionPointerDown(event, prediction)}
             >
               <MapPin size={16} className={styles.predictionIcon} />
               <div className={styles.predictionText}>
