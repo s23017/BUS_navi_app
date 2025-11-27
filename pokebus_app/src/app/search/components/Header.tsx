@@ -66,6 +66,8 @@ export default function Header({ menuOpen, toggleMenu, onGoProfile, onLogoClick 
           </ul>
         </div>
       )}
+
+      <div className={searchStyles.headerPlaceholder} aria-hidden="true" />
     </>
   );
 }
