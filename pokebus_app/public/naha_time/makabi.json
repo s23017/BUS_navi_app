@@ -1,0 +1,3222 @@
+[
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "7e44e9f9-31ae-4cce-947a-5b3f5b511e98",
+    "calendar": "weekday",
+    "time": "07:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "6f83a8e5-e908-4709-a3dc-852e699a6fc1",
+    "calendar": "weekday",
+    "time": "06:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "6025d3d3-15e4-4597-a90f-6e42c0e6dd56",
+    "calendar": "weekday",
+    "time": "07:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "8693812d-11ec-408c-bbc9-50f01c93f8ef",
+    "calendar": "weekday",
+    "time": "08:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "e3f98fb1-6f64-4e7e-9b8c-9b8ed4f47d51",
+    "calendar": "weekday",
+    "time": "09:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "b3e7eb61-fd0b-41c1-bc1e-b0be5b1645c2",
+    "calendar": "weekday",
+    "time": "09:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "45a68eef-b3be-4660-8c0a-bc7463819f77",
+    "calendar": "weekday",
+    "time": "09:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "31fed2eb-81db-4d03-b806-59e4039ab474",
+    "calendar": "weekday",
+    "time": "09:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "33228933-280f-4d17-899f-482bf4d52cf6",
+    "calendar": "weekday",
+    "time": "10:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "70a25349-de19-4dda-b051-59c1470f033a",
+    "calendar": "weekday",
+    "time": "10:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "e9c4a00c-3845-4f32-a752-13e426660400",
+    "calendar": "weekday",
+    "time": "11:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "c5d3ef24-bc30-48ee-81ba-8022e87e4f8c",
+    "calendar": "weekday",
+    "time": "11:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "1a86946b-48d5-4518-b5ae-9580f5e067ef",
+    "calendar": "weekday",
+    "time": "13:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "7fda1c58-2dec-474b-814e-e595f5a154e1",
+    "calendar": "weekday",
+    "time": "14:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "133eebd9-a68e-47ff-ae27-4101077e6f44",
+    "calendar": "weekday",
+    "time": "15:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "aad5648f-6c0f-49db-8fdf-648fc75a27ca",
+    "calendar": "weekday",
+    "time": "16:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "e882ac27-d599-4c10-831c-7432a4aad1b4",
+    "calendar": "weekday",
+    "time": "17:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "e24bd0f4-aafb-49ab-aeaf-d8d0d19dbf7b",
+    "calendar": "weekday",
+    "time": "18:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "100ec538-e93f-4873-9f28-eca7d6405b4a",
+    "calendar": "weekday",
+    "time": "19:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "ebe9909d-c888-4efb-b2a4-4545e9582df2",
+    "calendar": "weekday",
+    "time": "20:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "f270a1d3-f0de-44e1-bca6-d70b886def07",
+    "calendar": "weekday",
+    "time": "21:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "94d32739-cbb3-44f0-8430-f35d0bd2409e",
+    "calendar": "saturday",
+    "time": "07:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "d3903439-8bcc-4d2a-a826-53f815dfe062",
+    "calendar": "saturday",
+    "time": "07:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "9a5531de-3543-42d5-b245-d46713304138",
+    "calendar": "saturday",
+    "time": "08:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "ba14af07-f234-4b3c-a55a-9da176e8306c",
+    "calendar": "saturday",
+    "time": "10:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "14e346ec-1e66-4dd5-a71b-b46398c232e7",
+    "calendar": "saturday",
+    "time": "10:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "d02ada6d-1f7b-4017-a23b-90c34a9cf5aa",
+    "calendar": "saturday",
+    "time": "11:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "21b1599f-23a2-4953-b245-14346cfa31fb",
+    "calendar": "saturday",
+    "time": "12:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "b7aa687a-f4a7-4dc8-8ab4-e1f9ddf8ff26",
+    "calendar": "saturday",
+    "time": "12:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "45944c03-c85c-41a4-97c4-2edcf0fce47e",
+    "calendar": "saturday",
+    "time": "13:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "09967de8-4036-48aa-841b-6a5f25ae83a1",
+    "calendar": "saturday",
+    "time": "14:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "1556a806-256d-44f8-bbd0-a599e3972546",
+    "calendar": "saturday",
+    "time": "15:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "0371ac5b-d2d7-4a54-9b10-a7b1a7714e52",
+    "calendar": "saturday",
+    "time": "16:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "83112ed7-41f8-4bed-9b28-e0b756a7d80e",
+    "calendar": "saturday",
+    "time": "18:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "7331bc01-0054-44f6-866a-316f19a1c0dc",
+    "calendar": "saturday",
+    "time": "19:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "759bdb79-4407-46dc-a108-2d4fe8189129",
+    "calendar": "saturday",
+    "time": "20:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "890226c9-f23a-41fb-af98-d17061654df6",
+    "calendar": "saturday",
+    "time": "21:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "04720b97-d21e-4fa7-b0f5-a5312f2e5328",
+    "calendar": "holiday",
+    "time": "07:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "cf79c922-3101-49d9-8a7c-739d0f88892c",
+    "calendar": "holiday",
+    "time": "07:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "1fcd7b86-b5bf-4278-8411-8285f0b6359e",
+    "calendar": "holiday",
+    "time": "08:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "c0083ef6-238d-4a42-a63d-e88e094598c4",
+    "calendar": "holiday",
+    "time": "10:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "5d4170e2-c643-4460-b7c0-5ea7ad1e10af",
+    "calendar": "holiday",
+    "time": "10:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "aa86bdc1-6155-4eab-bd71-90d7c0c854e7",
+    "calendar": "holiday",
+    "time": "11:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "9054499a-e0ac-4d61-bc33-b4be639829dd",
+    "calendar": "holiday",
+    "time": "12:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "87d02659-c20b-4cd1-88fc-759f13646aee",
+    "calendar": "holiday",
+    "time": "12:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "4e9766e5-3867-45fa-8a6b-323f3b73b945",
+    "calendar": "holiday",
+    "time": "13:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "c14a5ec3-5255-4c5f-9bf7-ca508ab086eb",
+    "calendar": "holiday",
+    "time": "14:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "73b32375-a609-4d90-baa8-2a307b136e39",
+    "calendar": "holiday",
+    "time": "15:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "45d061bf-ae65-4658-ae73-69bbdf0405a9",
+    "calendar": "holiday",
+    "time": "16:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "e68b3fbe-44ff-4a1e-982a-d2f055b1efb0",
+    "calendar": "holiday",
+    "time": "18:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "23a871d7-b60c-4081-a305-461b04a24c0f",
+    "calendar": "holiday",
+    "time": "19:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "fabe2cb1-f439-472d-b341-ba7b4fcf0c56",
+    "calendar": "holiday",
+    "time": "20:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "c5302779-701f-4a29-aa98-2e2ecaaee8ab",
+    "calendar": "holiday",
+    "time": "21:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "0862330d-9c0f-41da-a239-035f2d159196",
+    "calendar": "weekday",
+    "time": "06:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "b3857ef7-4f5c-44aa-9439-29cf605ab0f9",
+    "calendar": "weekday",
+    "time": "07:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "950a9cce-d2e1-44bf-a3bb-291e604d810c",
+    "calendar": "weekday",
+    "time": "08:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "737b07c7-b093-4482-9b06-bfbbcd7deeb5",
+    "calendar": "weekday",
+    "time": "08:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "b0a64abb-1db1-497f-9915-a4205e1f5aa8",
+    "calendar": "weekday",
+    "time": "09:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "1d87ece4-6b41-439f-84b1-8c08412d5537",
+    "calendar": "weekday",
+    "time": "10:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "6c57552f-0340-4b83-bfe7-6ca2082fca59",
+    "calendar": "weekday",
+    "time": "11:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "77e468d9-137d-47e2-87e5-ee4a19e1e01d",
+    "calendar": "weekday",
+    "time": "11:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "0de81a12-1182-447a-804b-e5fa1c0b2ee0",
+    "calendar": "weekday",
+    "time": "12:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "8fca0b8b-9177-4a3c-8be4-995926e9bd7e",
+    "calendar": "weekday",
+    "time": "13:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "9414c63d-ed88-446c-8aa7-0b9a4cf130ce",
+    "calendar": "weekday",
+    "time": "14:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "e25e71bb-0aa2-417f-91af-beeac1de1c02",
+    "calendar": "weekday",
+    "time": "14:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "89465290-9a12-41a2-beb4-0db9ceb49c83",
+    "calendar": "weekday",
+    "time": "15:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "019f23cb-c1b8-4d1d-bba6-cff031db7698",
+    "calendar": "weekday",
+    "time": "16:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "0a7cdd1d-afb7-4597-8603-68a16f3b7468",
+    "calendar": "weekday",
+    "time": "17:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "9f91d878-9091-48df-bcd1-8baf0910054b",
+    "calendar": "weekday",
+    "time": "18:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "7f54321d-54f5-40be-bd6a-0a505cc0d916",
+    "calendar": "weekday",
+    "time": "19:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "dc21e7ac-2251-4789-8d15-e4d50cae951d",
+    "calendar": "weekday",
+    "time": "19:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "5f29f473-aed4-409c-90a4-d62888adf398",
+    "calendar": "weekday",
+    "time": "20:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "b5132418-8214-409d-a955-6b4782c7ef1c",
+    "calendar": "weekday",
+    "time": "21:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "0f2794c5-a3c5-46f7-ab33-2b1fbcb800fd",
+    "calendar": "saturday",
+    "time": "07:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "2f76afc6-3abe-434f-ab92-f4a1c37a347e",
+    "calendar": "saturday",
+    "time": "08:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "179ba8cb-491e-471c-8a1b-7cd189fda9f1",
+    "calendar": "saturday",
+    "time": "09:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "502d6020-4a91-457c-b64b-b052b54ded0e",
+    "calendar": "saturday",
+    "time": "10:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "78c305ad-e3ba-479f-9fe0-2d5ca65fa0d2",
+    "calendar": "saturday",
+    "time": "10:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "a527dd3e-8771-4553-b526-cea1085753ad",
+    "calendar": "saturday",
+    "time": "13:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "3d1fe428-e2b3-42f4-99a2-655492fb0075",
+    "calendar": "saturday",
+    "time": "14:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "723af579-8534-48e7-baea-89fb0a978366",
+    "calendar": "saturday",
+    "time": "15:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "73a7233b-4682-483c-886a-0e273e66e8ad",
+    "calendar": "saturday",
+    "time": "16:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "27be1d71-05ef-4c4b-80f9-6e7f1d2c4b2f",
+    "calendar": "saturday",
+    "time": "18:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "c950acf5-58f8-41a7-bde4-92fb6a8ab4ab",
+    "calendar": "saturday",
+    "time": "18:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "a3a008f7-413f-425d-92d2-244fe553acbf",
+    "calendar": "saturday",
+    "time": "20:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "1cc2b910-a5df-4cc1-a353-207f2311779e",
+    "calendar": "saturday",
+    "time": "21:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "aa36bce1-3739-4275-ab8a-1d9ca6e9544d",
+    "calendar": "holiday",
+    "time": "07:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "054c85fa-3d85-437c-86be-6e97530eb0a0",
+    "calendar": "holiday",
+    "time": "08:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "5a14ee3e-00bc-43b1-846a-3412fab050f2",
+    "calendar": "holiday",
+    "time": "09:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "9b20cce5-e55a-4526-8ad3-ce9c48726f1e",
+    "calendar": "holiday",
+    "time": "10:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "3da516e3-0baa-4000-8b5c-9e181f6f9f25",
+    "calendar": "holiday",
+    "time": "10:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "cfe5a21a-a519-4275-a924-65640ffee3c0",
+    "calendar": "holiday",
+    "time": "13:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "1df659db-fbac-4ab7-8991-2923c8030d4e",
+    "calendar": "holiday",
+    "time": "14:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "91306e88-d986-436f-bf02-5382879c0ddd",
+    "calendar": "holiday",
+    "time": "15:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "4efae548-5be7-42ab-91a0-518542e388bf",
+    "calendar": "holiday",
+    "time": "16:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "bd7bc4ef-dfa9-4c84-b0e0-af943642333f",
+    "calendar": "holiday",
+    "time": "18:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "b2d81c4a-1d1e-4648-be5c-5717e790a5eb",
+    "calendar": "holiday",
+    "time": "18:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "92b6e46d-684b-4982-9b71-2230da8483f6",
+    "calendar": "holiday",
+    "time": "20:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "f92f8857-d7eb-495e-9dd0-04f6a4504570",
+    "calendar": "holiday",
+    "time": "21:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "eb0b9260-2db0-4d9a-abd4-f1aa094e4417",
+    "calendar": "weekday",
+    "time": "06:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "d7d3f0a2-f689-4e36-a9cd-b6a809175f4b",
+    "calendar": "weekday",
+    "time": "07:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "4fd44551-ce5c-46dc-a8c0-716356fa1b1b",
+    "calendar": "weekday",
+    "time": "08:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "4e8a2c70-149e-4eee-9f6c-4c381fb21810",
+    "calendar": "weekday",
+    "time": "09:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "319ce548-09e8-4168-8f30-abb1275cbf23",
+    "calendar": "weekday",
+    "time": "09:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "3eb894a9-a068-46b0-a4e0-936b9994c65e",
+    "calendar": "weekday",
+    "time": "10:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "5b577108-e1b5-444f-9c7e-10996adb2122",
+    "calendar": "weekday",
+    "time": "11:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "fd67aba4-930c-47f8-be31-8eda78d21e42",
+    "calendar": "weekday",
+    "time": "11:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "ef96629a-5cea-4321-94f1-650defb1b7b8",
+    "calendar": "weekday",
+    "time": "13:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "5527d39a-cfbe-497d-8396-b68895ae451e",
+    "calendar": "weekday",
+    "time": "13:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "4d41c4a6-15d0-47cb-be83-ab29c343bc26",
+    "calendar": "weekday",
+    "time": "15:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "876ccce9-19d8-4078-bd8a-94dd142bc53b",
+    "calendar": "weekday",
+    "time": "17:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "3b9701c3-f87e-4f8c-bf22-d1d74de66502",
+    "calendar": "weekday",
+    "time": "20:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "c953d5bb-6e6c-4f50-8931-edc4fc4b7acc",
+    "calendar": "weekday",
+    "time": "21:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "20571bf5-54db-403a-8f5b-5bcc04626f2c",
+    "calendar": "saturday",
+    "time": "07:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "1b2453ae-0386-4255-a553-6852d6bf312f",
+    "calendar": "saturday",
+    "time": "08:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "36aaf74f-1768-48d7-9630-b09a061dfc54",
+    "calendar": "saturday",
+    "time": "09:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "f73fa321-9a32-4afd-902b-8db0c2fa3d2e",
+    "calendar": "saturday",
+    "time": "10:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "2939a7fb-534b-44b3-a5a3-289321c0920e",
+    "calendar": "saturday",
+    "time": "11:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "3a9dedac-ba77-492a-8d35-9fffee755451",
+    "calendar": "saturday",
+    "time": "12:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "dfc10331-cc4b-460a-82ad-814407b5eba7",
+    "calendar": "saturday",
+    "time": "13:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "ec4443b7-904d-42b8-a8a8-7c074f4cab31",
+    "calendar": "saturday",
+    "time": "14:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "e0ea54e7-cca5-4c36-90e8-a7fac1625be0",
+    "calendar": "saturday",
+    "time": "15:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "ec4e68a3-43f9-4bb0-b894-1b85a072ab19",
+    "calendar": "saturday",
+    "time": "17:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "b91ce4df-1adf-43ac-81e2-979ce86147db",
+    "calendar": "saturday",
+    "time": "18:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "5f8c9421-27e2-4204-93f1-6acf5d1deade",
+    "calendar": "saturday",
+    "time": "19:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "1bdc0487-0f30-4ebe-87a7-6cf23b1914e2",
+    "calendar": "saturday",
+    "time": "21:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "45564d5c-a21e-43c7-b810-2018bd27fd6e",
+    "calendar": "holiday",
+    "time": "07:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "a5bb68e7-84e4-4e9d-8675-0fb89df4181e",
+    "calendar": "holiday",
+    "time": "08:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "c7dadcad-6c04-4571-8736-77ab6e19ba6e",
+    "calendar": "holiday",
+    "time": "09:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "8575674e-2a8d-433e-8f16-a38fcb4f224a",
+    "calendar": "holiday",
+    "time": "10:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "1b7e216c-27cb-4cb9-a843-39b8eda55a8f",
+    "calendar": "holiday",
+    "time": "11:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "44095aa5-ef66-4af4-86ee-dc9a8683433f",
+    "calendar": "holiday",
+    "time": "12:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "fcaba808-1096-410d-9192-c1880052531f",
+    "calendar": "holiday",
+    "time": "12:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "699ca627-8275-41d0-9040-6060a514b7b6",
+    "calendar": "holiday",
+    "time": "13:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "3fd1ce74-ed85-4919-900c-0175cef02641",
+    "calendar": "holiday",
+    "time": "13:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "f278f0fa-a61f-4e09-b1de-6f7fd3f9ac7d",
+    "calendar": "holiday",
+    "time": "14:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "3d585b44-8dc4-45e3-91b8-07f6eeadaa03",
+    "calendar": "holiday",
+    "time": "14:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "759c0cca-064f-4147-95ea-56ba2e08048d",
+    "calendar": "holiday",
+    "time": "15:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "3174f765-9949-4c72-a704-91e0deb74108",
+    "calendar": "holiday",
+    "time": "15:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "0d172a3f-b78b-4e20-b2b8-a5e47dcbca99",
+    "calendar": "holiday",
+    "time": "17:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "90066a76-dfab-4d24-b9b4-3bfcb3f23dff",
+    "calendar": "holiday",
+    "time": "17:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "4f489ea5-a039-4091-b938-18a27198bab3",
+    "calendar": "holiday",
+    "time": "18:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "00e23c9a-f9fb-4159-8270-1bbaf5f67f4a",
+    "calendar": "holiday",
+    "time": "19:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "0b3281b2-e79e-4d74-8cf4-edd23aae44b6",
+    "calendar": "holiday",
+    "time": "21:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "88",
+    "courseSid": "c2456be2-238b-4343-ba3c-2df74520eb88",
+    "tripSid": "49582013-d3ba-4e39-8615-b807888ac47d",
+    "calendar": "weekday",
+    "time": "07:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "88",
+    "courseSid": "c2456be2-238b-4343-ba3c-2df74520eb88",
+    "tripSid": "d6eb81ae-a187-42c2-b61f-947d4d5e0e66",
+    "calendar": "weekday",
+    "time": "13:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "88",
+    "courseSid": "c2456be2-238b-4343-ba3c-2df74520eb88",
+    "tripSid": "34076310-a50d-44bd-a86b-6222cacca4b0",
+    "calendar": "weekday",
+    "time": "15:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "c08732ba-af48-490e-b0a5-6f0ea6717c77",
+    "calendar": "weekday",
+    "time": "06:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "3edf34a8-23db-4545-b499-1ce00a600569",
+    "calendar": "weekday",
+    "time": "06:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "b95bed2c-d2b6-48a5-b045-228d9d621e4d",
+    "calendar": "weekday",
+    "time": "07:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "fbeb5e45-4e7e-416b-8f0f-1d48ff681b34",
+    "calendar": "weekday",
+    "time": "07:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "acc81893-3b74-42ec-9c3f-d1c4cfdbc7f4",
+    "calendar": "weekday",
+    "time": "07:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "f2fafbe5-dd06-45b1-93cb-3ab5f565e949",
+    "calendar": "weekday",
+    "time": "08:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "8bad4853-be5c-447b-b605-b87b3488b8b2",
+    "calendar": "weekday",
+    "time": "09:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "1d59d1ed-f8dd-41aa-9449-e4a2b5990609",
+    "calendar": "weekday",
+    "time": "09:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "9063b5b2-1a15-487f-bb8b-c995c7c67340",
+    "calendar": "weekday",
+    "time": "09:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "417a2968-60e3-48df-8f3b-0d43d5a27927",
+    "calendar": "weekday",
+    "time": "10:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "1f7526e1-4448-49b4-8b57-b994c6fca326",
+    "calendar": "weekday",
+    "time": "10:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "fce7c169-f219-4bc5-84e4-96579a2089d9",
+    "calendar": "weekday",
+    "time": "16:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "ce0c746a-4a15-43e3-b2c6-f8b601989a9e",
+    "calendar": "weekday",
+    "time": "17:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "2a11b151-5966-4678-867e-6a07485824d2",
+    "calendar": "weekday",
+    "time": "17:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "fb83f6e6-fc14-4867-b76a-6fd8f1a6ed99",
+    "calendar": "weekday",
+    "time": "17:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "29cfe0f9-efcd-40c1-ab65-48383c5369a2",
+    "calendar": "weekday",
+    "time": "18:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "78b4e282-88d5-481c-99df-cb814ba8295d",
+    "calendar": "weekday",
+    "time": "18:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "be41ff9f-46c5-42ee-843b-d5fd9a17b3b3",
+    "calendar": "weekday",
+    "time": "18:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "bde538ba-c933-4652-b917-b883cf9f756c",
+    "calendar": "weekday",
+    "time": "19:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "b281206f-95cf-4059-8d1e-f8707aad8fa4",
+    "calendar": "weekday",
+    "time": "20:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "aaef71db-e689-4e6b-b4c5-6a52dd75e6db",
+    "calendar": "weekday",
+    "time": "20:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "9db35541-ae65-4042-a060-b9ef9ef2a443",
+    "calendar": "weekday",
+    "time": "21:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "4d989813-9e15-4960-9a2f-bb9e0744795a",
+    "calendar": "saturday",
+    "time": "06:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "fe951c04-0af5-4508-bcf0-b832b18013ae",
+    "calendar": "saturday",
+    "time": "07:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "79613e5a-9064-4871-95db-ad191be293eb",
+    "calendar": "saturday",
+    "time": "07:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "e9033e6a-6840-4460-ae0c-a3b1b42b3788",
+    "calendar": "saturday",
+    "time": "08:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "4b0bb85d-0546-498e-9a65-ad855794b7d0",
+    "calendar": "saturday",
+    "time": "08:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "b3711920-a1d8-49c7-b15e-b73901e56ce1",
+    "calendar": "saturday",
+    "time": "09:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "7ea642da-ed7a-4dec-ba5d-425810462afb",
+    "calendar": "saturday",
+    "time": "09:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "44ff641b-5638-4cf1-a64e-d0419cf3da7a",
+    "calendar": "saturday",
+    "time": "10:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "5614e8a0-1bcc-4bae-be30-5083639257d8",
+    "calendar": "saturday",
+    "time": "13:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "72e71691-abad-488e-8273-0b2bd6e8a5b3",
+    "calendar": "saturday",
+    "time": "14:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "9ab5fb49-e318-4834-a4bc-4015bd5c3e45",
+    "calendar": "saturday",
+    "time": "14:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "e6c4303d-180c-4939-aaf1-e03c9114042b",
+    "calendar": "saturday",
+    "time": "15:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "f584c21b-2e63-462b-8bf7-1f8baea15162",
+    "calendar": "saturday",
+    "time": "15:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "f452f020-63ae-4ade-b560-89d88b147342",
+    "calendar": "saturday",
+    "time": "16:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "9a26bb95-11cf-4d86-9f5b-584a4e9cadb1",
+    "calendar": "saturday",
+    "time": "17:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "413b7c61-c705-4c73-8504-5a9caa72f36e",
+    "calendar": "saturday",
+    "time": "17:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "e16424cb-566f-43c1-b7df-3d6e47f49874",
+    "calendar": "saturday",
+    "time": "18:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "bba6577d-4405-44b0-91b3-886103cff3b2",
+    "calendar": "saturday",
+    "time": "18:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "33a76efc-378d-40e4-9aea-a97f966b517a",
+    "calendar": "saturday",
+    "time": "19:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "137ae22d-d317-4d9d-ab42-ea02c6adbc5a",
+    "calendar": "saturday",
+    "time": "19:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "412977da-38a6-4a83-af0d-fd0335e997f4",
+    "calendar": "saturday",
+    "time": "20:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "5b588c9f-d19a-4b51-adb9-4d327e631416",
+    "calendar": "saturday",
+    "time": "21:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "63aedfa8-1444-45b0-8487-dbb550218423",
+    "calendar": "holiday",
+    "time": "06:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "d6d55239-f3a8-40a8-85fd-b4eb60ded86f",
+    "calendar": "holiday",
+    "time": "07:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "1ab7a953-9cdc-47d4-b5ec-df1bd7bb8008",
+    "calendar": "holiday",
+    "time": "07:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "404b2d30-f54a-491a-8276-2a332855595d",
+    "calendar": "holiday",
+    "time": "08:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "67f6ccf7-5490-48ea-a9d1-6820fc001efd",
+    "calendar": "holiday",
+    "time": "08:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "a4dec8b6-3280-42d3-93cf-c847ed53cf1f",
+    "calendar": "holiday",
+    "time": "09:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "b15c2d87-edfb-4e0c-9d59-abf46aece1e7",
+    "calendar": "holiday",
+    "time": "09:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "91a0248d-7c35-4bd0-92b0-6d0ac833d46f",
+    "calendar": "holiday",
+    "time": "10:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "b73663e4-ff00-4c4d-b5cd-57bfae4b0c79",
+    "calendar": "holiday",
+    "time": "13:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "ab670463-5c24-44b7-b84a-0ec8a07d8f68",
+    "calendar": "holiday",
+    "time": "13:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "eae84d6e-1d4d-4ecf-afed-061674072d3f",
+    "calendar": "holiday",
+    "time": "14:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "f063baa3-0127-4709-ba3f-2b996f356761",
+    "calendar": "holiday",
+    "time": "14:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "6c16d194-a1b1-4fe6-adf4-ea3074b0f339",
+    "calendar": "holiday",
+    "time": "14:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "b533d06a-9221-4378-b028-5a2449aaabd9",
+    "calendar": "holiday",
+    "time": "14:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "b10cb896-e0fb-4493-9d2a-2a238507591f",
+    "calendar": "holiday",
+    "time": "15:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "9f01cbd8-8d26-4bb7-a475-3e659db98a65",
+    "calendar": "holiday",
+    "time": "15:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "8526a6e6-46c9-4521-aaea-60e95910b0dc",
+    "calendar": "holiday",
+    "time": "15:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "c986a83e-6b17-416c-aeb8-e293037c38f9",
+    "calendar": "holiday",
+    "time": "15:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "a29942fa-734b-47ea-9c87-30ba052a6b98",
+    "calendar": "holiday",
+    "time": "16:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "aa85f140-7012-4701-9718-1bda063c66bf",
+    "calendar": "holiday",
+    "time": "16:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "2d7d8b16-2468-42bf-bd46-8353a42597ff",
+    "calendar": "holiday",
+    "time": "17:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "c248cf92-784f-4759-b11f-a256f0cb35fd",
+    "calendar": "holiday",
+    "time": "17:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "d8dd8d96-a152-4781-8b67-7777ebac72d3",
+    "calendar": "holiday",
+    "time": "17:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "17ce01c5-c541-42be-8058-12a5463305a3",
+    "calendar": "holiday",
+    "time": "17:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "e6fef154-5415-439b-9e08-fdb5ad0b6880",
+    "calendar": "holiday",
+    "time": "18:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "ec1d4bef-3a6c-440c-9a3d-c2383019bfe2",
+    "calendar": "holiday",
+    "time": "18:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "fc4fb957-d1bd-4c36-be1d-c075659d1b78",
+    "calendar": "holiday",
+    "time": "19:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "4c2a94e7-dbfa-40d4-95ee-cd3c75337ad5",
+    "calendar": "holiday",
+    "time": "19:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "9a49d5f4-3b3b-4619-ad72-a94ab930e555",
+    "calendar": "holiday",
+    "time": "20:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "cdbe951b-7f32-4e26-bdb2-9a2ad91e1365",
+    "calendar": "holiday",
+    "time": "21:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "02375b7b-516d-4cb6-aeaf-3d9e58a2484d",
+    "calendar": "weekday",
+    "time": "06:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "dd094859-671b-4de8-9242-c8cfcbbf6c34",
+    "calendar": "weekday",
+    "time": "07:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "0496e0fd-8a6f-4287-988b-1f22d9614f70",
+    "calendar": "weekday",
+    "time": "07:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "80c4b6c3-a7e4-473c-b1cc-625fef4826e0",
+    "calendar": "weekday",
+    "time": "08:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "f4cf3b09-6f75-4a28-b28b-8db82c99c12f",
+    "calendar": "weekday",
+    "time": "08:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "339fb8d4-869f-4e86-8267-d0509ab2fc1e",
+    "calendar": "weekday",
+    "time": "09:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "560bbe79-d427-42d8-9e25-6584ff91afea",
+    "calendar": "weekday",
+    "time": "09:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "71a439cc-8d8d-4930-963e-3bb8720e81d7",
+    "calendar": "weekday",
+    "time": "10:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "bbc4b9b7-eb70-48f9-8f7e-f682d55716ff",
+    "calendar": "weekday",
+    "time": "10:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "93243fb2-51c3-49e2-b74f-1f339ee450fc",
+    "calendar": "weekday",
+    "time": "11:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "efb8b679-a72f-4021-bc68-8f968257ca82",
+    "calendar": "weekday",
+    "time": "11:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "6fdee445-209a-4bb1-9571-6f8bf633865a",
+    "calendar": "weekday",
+    "time": "12:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "081cfa38-334b-4d89-92b2-63a00553dc2c",
+    "calendar": "weekday",
+    "time": "13:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "7dd4c6b1-c9c3-44e0-b038-a5b7688fc38f",
+    "calendar": "weekday",
+    "time": "14:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "947b2063-5d59-4e49-abe5-2aefe6dfd20b",
+    "calendar": "weekday",
+    "time": "14:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "387b1339-b520-4c78-a02e-5f4fa98c5e71",
+    "calendar": "weekday",
+    "time": "16:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "b55ccfab-9fc2-4745-bc54-97f40b99026c",
+    "calendar": "weekday",
+    "time": "16:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "372daaeb-b00f-4943-aef1-0ea00cec5d87",
+    "calendar": "weekday",
+    "time": "17:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "0947f65a-2633-449f-bc03-dcd9c686ace8",
+    "calendar": "weekday",
+    "time": "18:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "d4e45cfd-bfd4-4420-970b-7cacdb43cf4d",
+    "calendar": "weekday",
+    "time": "19:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "1030e699-8255-4a9e-be1e-afd395c29f11",
+    "calendar": "weekday",
+    "time": "20:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "585312de-bf25-404e-b646-db832690a0bf",
+    "calendar": "weekday",
+    "time": "21:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "889a8632-65ff-4f27-b183-716767c75e4b",
+    "calendar": "weekday",
+    "time": "22:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "2f4b63a0-f69c-4e86-a3fd-a64c393d1423",
+    "calendar": "saturday",
+    "time": "07:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "f39f086c-0961-4952-957b-299ed755e67a",
+    "calendar": "saturday",
+    "time": "08:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "84636a20-2a04-4db8-94b5-84067adad623",
+    "calendar": "saturday",
+    "time": "09:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "4282ebd8-1f21-4ec9-8c37-247981913c35",
+    "calendar": "saturday",
+    "time": "09:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "884ad5e9-ffd1-4e2e-aabf-521f96b528af",
+    "calendar": "saturday",
+    "time": "10:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "cd46971a-96a7-4f8f-bd08-97d5dc804bda",
+    "calendar": "saturday",
+    "time": "11:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "e7479a54-612b-4ea9-a8e6-b0fd40b3ad7b",
+    "calendar": "saturday",
+    "time": "13:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "3d469e0f-107e-4a94-a7b6-71352e5f3e30",
+    "calendar": "saturday",
+    "time": "14:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "cc832a96-4229-422f-9bb8-14a8fef88278",
+    "calendar": "saturday",
+    "time": "15:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "28791287-46e5-4e2d-8b76-990d13cf3b82",
+    "calendar": "saturday",
+    "time": "15:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "b102ebee-ae66-4a11-884c-78e7b0b77ff9",
+    "calendar": "saturday",
+    "time": "16:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "460a523e-8044-4889-a7d6-6d17fd2fcfd2",
+    "calendar": "saturday",
+    "time": "17:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "5938fc16-2823-4e32-b47b-e80dc8d459a0",
+    "calendar": "saturday",
+    "time": "19:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "abaee0f4-7379-451f-9d99-9042d0933ecd",
+    "calendar": "saturday",
+    "time": "20:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "698db64d-d397-4b16-b72f-3ea33e3e3947",
+    "calendar": "saturday",
+    "time": "21:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "fa94971e-6b99-49b6-aac2-0885ec650219",
+    "calendar": "holiday",
+    "time": "07:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "4b85d682-7cd8-4752-88de-26db9efd2690",
+    "calendar": "holiday",
+    "time": "08:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "a89f1ff3-5bef-4792-8145-5109f38fb7c4",
+    "calendar": "holiday",
+    "time": "09:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "76caf29d-15f1-49ab-9c59-33e0f4b025e3",
+    "calendar": "holiday",
+    "time": "09:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "7d644976-8bcb-4eb1-aa93-eb2066781bb4",
+    "calendar": "holiday",
+    "time": "10:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "67ebb254-ffe6-4a35-b009-ee6df50665ed",
+    "calendar": "holiday",
+    "time": "11:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "16f7aa4c-504b-4540-a9cf-2bcfb6182bcf",
+    "calendar": "holiday",
+    "time": "13:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "3d42152c-9c95-4db6-945a-dc99ec6a9121",
+    "calendar": "holiday",
+    "time": "13:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "901e71bb-d945-4464-8355-5e2f52ad5ceb",
+    "calendar": "holiday",
+    "time": "14:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "7cbb96b6-30bc-4afc-ac48-0fbc90d5f5d0",
+    "calendar": "holiday",
+    "time": "14:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "3fe2a31c-52bc-4007-93cc-c7d7221ebf93",
+    "calendar": "holiday",
+    "time": "15:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "712cfba1-1435-4120-811f-23d731ec573b",
+    "calendar": "holiday",
+    "time": "15:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "cb1397e8-322b-46e2-9cf0-6b7272f6a394",
+    "calendar": "holiday",
+    "time": "15:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "9a0d5357-bf12-477e-b1b6-789c41ba7904",
+    "calendar": "holiday",
+    "time": "16:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "75143900-9ed5-485e-99b3-d695f72a1c8d",
+    "calendar": "holiday",
+    "time": "16:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "c84c9e4f-40f9-4c64-82e4-4f1b48d2a47e",
+    "calendar": "holiday",
+    "time": "16:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "cfd9f566-afc1-4174-aea6-bfbefadcba9f",
+    "calendar": "holiday",
+    "time": "17:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "1f92428b-213b-460e-a876-ec10a1196c01",
+    "calendar": "holiday",
+    "time": "17:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "0bbcc646-4ad2-42d4-9e19-267f1fb871b5",
+    "calendar": "holiday",
+    "time": "19:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "22da49e3-6706-40aa-8081-f88e41325e4d",
+    "calendar": "holiday",
+    "time": "20:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "6b1be31d-c782-43d1-ad24-943b99509770",
+    "calendar": "holiday",
+    "time": "21:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "ea0bb622-e2a4-4803-ad26-f53d8a605abf",
+    "calendar": "weekday",
+    "time": "06:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "20fb696c-8d7a-440f-b3db-76c242729719",
+    "calendar": "weekday",
+    "time": "07:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "3b06e9d9-703c-445e-86ba-c2f969bff215",
+    "calendar": "weekday",
+    "time": "08:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "362d8830-28bc-4d84-985c-6ec56d6d80e0",
+    "calendar": "weekday",
+    "time": "09:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "64babc7e-eda7-4212-8d81-e5b61be4f959",
+    "calendar": "weekday",
+    "time": "16:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "398487ba-38d1-4e81-affd-bebdf82547ec",
+    "calendar": "weekday",
+    "time": "18:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "8866e926-28b2-4cb2-9fdf-5cb0de92f9d4",
+    "calendar": "weekday",
+    "time": "19:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "d7dac08c-4a7c-4f95-8e34-08da4df0ece2",
+    "calendar": "saturday",
+    "time": "07:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "b0fd700b-9d63-4384-a378-a710c1309bff",
+    "calendar": "saturday",
+    "time": "09:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "e4213db8-30a6-4377-8bb5-a0fee3337936",
+    "calendar": "saturday",
+    "time": "18:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "da15b6dd-8830-411f-9f7f-772a6339c38d",
+    "calendar": "holiday",
+    "time": "07:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "d276a277-f1d3-4841-bd49-3452bcf92f2b",
+    "calendar": "holiday",
+    "time": "09:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "aaf479c0-ffa6-46da-81d5-657e296ab04f",
+    "calendar": "holiday",
+    "time": "18:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "0ba3030e-8df9-47d3-b9e2-517be14dfadf",
+    "calendar": "weekday",
+    "time": "10:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "91035729-b375-4b14-904d-7d906d77a975",
+    "calendar": "weekday",
+    "time": "10:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "bed122e4-21a1-4b05-aa57-97955afdfe3a",
+    "calendar": "weekday",
+    "time": "10:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "ac742c72-2a7a-4b0b-a436-5311707e81c3",
+    "calendar": "weekday",
+    "time": "10:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "876d835d-b8db-4ea6-bc6b-8bde178a6a13",
+    "calendar": "weekday",
+    "time": "11:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "cb157a66-19b4-48c2-8bb5-49360e7554b7",
+    "calendar": "weekday",
+    "time": "12:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "bc73fa6d-9507-487f-a066-cd3a524f5f21",
+    "calendar": "weekday",
+    "time": "12:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "e7bd99f6-74dd-436f-8ce4-9a5733793720",
+    "calendar": "weekday",
+    "time": "13:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "30fac460-ba7a-465c-9b47-67fe149db101",
+    "calendar": "weekday",
+    "time": "14:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "747fcdea-06d0-48ec-8d13-75043a48165a",
+    "calendar": "weekday",
+    "time": "15:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "ff5ec5f3-18b2-4d03-9a62-c9b6b18f0393",
+    "calendar": "weekday",
+    "time": "16:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "d04b48e1-c74d-419e-826e-0090b88a825a",
+    "calendar": "saturday",
+    "time": "10:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "d62bd87a-038e-49df-a432-57b7cebcfe24",
+    "calendar": "saturday",
+    "time": "11:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "f52e1614-1e51-43c3-9738-a0e013648fad",
+    "calendar": "saturday",
+    "time": "12:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "3dcaca78-a48e-4820-9728-dcdcda4487a1",
+    "calendar": "saturday",
+    "time": "12:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "aee41650-6825-4540-b986-55671b56995f",
+    "calendar": "saturday",
+    "time": "13:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "4645c6ec-3ca6-44a3-9b4b-1ff7f5a48b5e",
+    "calendar": "saturday",
+    "time": "13:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "c8e4ef32-0600-4567-9c11-1ecb542c00dc",
+    "calendar": "holiday",
+    "time": "10:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "1c5a204d-aedd-4598-bea4-8fd23ef0f71c",
+    "calendar": "holiday",
+    "time": "11:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "e304f725-0ae3-4c0c-a275-9a4580f8e908",
+    "calendar": "holiday",
+    "time": "12:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "50d84e52-8409-4aef-bd25-25bcedb41d6f",
+    "calendar": "holiday",
+    "time": "12:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "921357d4-2217-4c1a-b75a-a2a64069df1a",
+    "calendar": "holiday",
+    "time": "12:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "d6b406a4-6243-461a-83e7-780fddac664d",
+    "calendar": "holiday",
+    "time": "13:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "681e72ff-104e-47cc-92d1-b49801bf2cce",
+    "calendar": "holiday",
+    "time": "13:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "d4ae9b5d-a46a-4c74-bf60-32affd24163e",
+    "calendar": "holiday",
+    "time": "13:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "2ca76b2b-1cae-4f60-9d4e-32c8735fe914",
+    "calendar": "holiday",
+    "time": "13:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "256",
+    "courseSid": "b87b932f-c6ed-489e-86e8-d1f604c3c750",
+    "tripSid": "f3da0852-806e-4eed-b3d9-ae7539abf7f5",
+    "calendar": "weekday",
+    "time": "07:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "256",
+    "courseSid": "b87b932f-c6ed-489e-86e8-d1f604c3c750",
+    "tripSid": "bc1e3850-ddba-4b79-afc8-a4f375c6caea",
+    "calendar": "weekday",
+    "time": "14:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "真嘉比",
+    "routeNo": "256",
+    "courseSid": "b87b932f-c6ed-489e-86e8-d1f604c3c750",
+    "tripSid": "23bc4bf8-9dc8-4ef2-918e-a500b2311b30",
+    "calendar": "weekday",
+    "time": "18:47",
+    "parentCompanyCode": "8000"
+  }
+]

@@ -1,0 +1,532 @@
+[
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "c50fe8b4-394f-4c2b-88d7-339fc950188a",
+    "calendar": "weekday",
+    "time": "06:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "97932668-510f-4358-addb-4a49ed8cc3db",
+    "calendar": "weekday",
+    "time": "06:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "4d043725-3e05-4c69-9db3-d43620963228",
+    "calendar": "weekday",
+    "time": "07:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "f2009b3a-437c-4270-b5c8-be3e6bdf42e2",
+    "calendar": "weekday",
+    "time": "08:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "fb9cda7f-4376-4acc-90fb-478f5d5f0227",
+    "calendar": "weekday",
+    "time": "09:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "526e90ab-f29c-42b9-885e-6dff3f0225cb",
+    "calendar": "weekday",
+    "time": "10:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "7dcfaf26-5f8b-46e5-afd7-88099cb8add2",
+    "calendar": "weekday",
+    "time": "10:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "49100c1b-ff1b-442c-ae5d-45c338991d04",
+    "calendar": "weekday",
+    "time": "12:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "3e161fd0-a48b-4158-a9a0-427b781ac77d",
+    "calendar": "weekday",
+    "time": "13:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "7ef1b50d-7e03-4f7e-8988-0a4142546f0b",
+    "calendar": "weekday",
+    "time": "13:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "adbbfba7-e1f5-422e-8106-5fa1744efe14",
+    "calendar": "weekday",
+    "time": "14:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "bf603022-684b-4074-88f6-8472fdea866b",
+    "calendar": "weekday",
+    "time": "15:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "2cb88469-64de-4553-92a6-ac730160d887",
+    "calendar": "weekday",
+    "time": "16:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "4fc26a87-0834-4e78-81ad-97c09475fbec",
+    "calendar": "weekday",
+    "time": "16:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "4f90b01b-361b-4d48-91b3-4ff7527b140f",
+    "calendar": "weekday",
+    "time": "17:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "b6d94efa-5afe-4c65-a23f-c676e85ead67",
+    "calendar": "weekday",
+    "time": "18:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "2ac90427-0090-412a-abfd-a7bddceafe36",
+    "calendar": "weekday",
+    "time": "20:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "0f460808-973a-4757-a037-d71c79138441",
+    "calendar": "weekday",
+    "time": "21:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "72c2d71f-46ae-4049-9528-e467848b80cf",
+    "calendar": "saturday",
+    "time": "08:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "94cae06a-a1d4-4fbd-95f0-78ef25dfdf88",
+    "calendar": "saturday",
+    "time": "09:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "9315358b-0665-4f6e-8a21-d156df1ae823",
+    "calendar": "saturday",
+    "time": "10:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "41cdcfe0-2b81-4ab7-8dd4-14d85e885b1f",
+    "calendar": "saturday",
+    "time": "11:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "a66f0e95-88fa-4ed5-abfb-0e33fb06c249",
+    "calendar": "saturday",
+    "time": "12:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "ffbd4ee0-764e-4120-b437-bf2f2fb32df9",
+    "calendar": "saturday",
+    "time": "13:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "ebbf8c6e-47eb-4065-ad5f-83373557bf97",
+    "calendar": "saturday",
+    "time": "14:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "a10c7f9a-529a-4123-b68a-0eef895ea745",
+    "calendar": "saturday",
+    "time": "15:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "25414b5e-d133-41f5-8aa8-be7dec12423d",
+    "calendar": "saturday",
+    "time": "16:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "efe888cd-a46e-4e6b-8226-547975f350e5",
+    "calendar": "saturday",
+    "time": "18:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "c0667c8c-6dca-416c-878e-a4f8d59e8000",
+    "calendar": "saturday",
+    "time": "19:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "1195a274-6ece-48cb-bc59-1305d1358950",
+    "calendar": "holiday",
+    "time": "08:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "7526527c-f5b4-4ab0-8d1b-1b3f29a49df6",
+    "calendar": "holiday",
+    "time": "09:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "c00ace4a-27c0-4f0c-9b6b-d9ef89757539",
+    "calendar": "holiday",
+    "time": "10:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "9b8d5e79-9e2f-46d1-b54c-56fd535e101f",
+    "calendar": "holiday",
+    "time": "11:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "1c578be6-84fa-40ad-8aaa-596298ee5b9c",
+    "calendar": "holiday",
+    "time": "12:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "ed1c9830-47da-47fd-a047-5b57eb7853e0",
+    "calendar": "holiday",
+    "time": "13:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "757f843e-7f40-4d2a-8b3b-e3970c274112",
+    "calendar": "holiday",
+    "time": "14:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "27b5682a-ac75-44e6-ae95-3ac290be1c6e",
+    "calendar": "holiday",
+    "time": "15:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "7bc9d417-c31a-41bb-bf7f-c159e7e23109",
+    "calendar": "holiday",
+    "time": "16:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "4955fd25-0d6a-43b6-a752-f13488defb77",
+    "calendar": "holiday",
+    "time": "18:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "6d9f5253-c3ff-49e6-a29b-8f248ac4b740",
+    "calendar": "holiday",
+    "time": "19:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "ea0bb622-e2a4-4803-ad26-f53d8a605abf",
+    "calendar": "weekday",
+    "time": "07:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "20fb696c-8d7a-440f-b3db-76c242729719",
+    "calendar": "weekday",
+    "time": "07:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "3b06e9d9-703c-445e-86ba-c2f969bff215",
+    "calendar": "weekday",
+    "time": "08:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "362d8830-28bc-4d84-985c-6ec56d6d80e0",
+    "calendar": "weekday",
+    "time": "09:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "64babc7e-eda7-4212-8d81-e5b61be4f959",
+    "calendar": "weekday",
+    "time": "16:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "398487ba-38d1-4e81-affd-bebdf82547ec",
+    "calendar": "weekday",
+    "time": "18:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "8866e926-28b2-4cb2-9fdf-5cb0de92f9d4",
+    "calendar": "weekday",
+    "time": "19:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "d7dac08c-4a7c-4f95-8e34-08da4df0ece2",
+    "calendar": "saturday",
+    "time": "07:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "b0fd700b-9d63-4384-a378-a710c1309bff",
+    "calendar": "saturday",
+    "time": "10:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "e4213db8-30a6-4377-8bb5-a0fee3337936",
+    "calendar": "saturday",
+    "time": "19:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "da15b6dd-8830-411f-9f7f-772a6339c38d",
+    "calendar": "holiday",
+    "time": "07:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "d276a277-f1d3-4841-bd49-3452bcf92f2b",
+    "calendar": "holiday",
+    "time": "10:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "第二真志喜",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "aaf479c0-ffa6-46da-81d5-657e296ab04f",
+    "calendar": "holiday",
+    "time": "19:14",
+    "parentCompanyCode": "8000"
+  }
+]
