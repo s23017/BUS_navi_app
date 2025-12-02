@@ -1,0 +1,580 @@
+{
+  "journey": {
+    "start": "新川営業所（起点）",
+    "end": "新川営業所（終点）"
+  },
+  "routes": [
+    {
+      "option": "default",
+      "summary": "牧志開南循環線左循環牧志開南循環線",
+      "legs": [
+        {
+          "steps": [
+            {
+              "instruction": "新川営業所（起点） 発 → 新川営業所（終点） 着（牧志開南循環線 左循環）",
+              "distance": null,
+              "duration": null
+            }
+          ]
+        }
+      ],
+      "stops": [
+        {
+          "stop_id": "0649244c-4c74-4314-9f27-d8cbe9d14f07",
+          "stop_name": "新川営業所（起点）",
+          "stop_lat": 15.72008,
+          "stop_lon": 76.63661,
+          "arrival_time": "11:55",
+          "departure_time": "11:55",
+          "seq": 1
+        },
+        {
+          "stop_id": "e4fb2d47-dcf9-422d-ab7f-d71e0a3123df",
+          "stop_name": "県立医療センター（東口向け）",
+          "stop_lat": 15.72085,
+          "stop_lon": 76.63565,
+          "arrival_time": "11:56",
+          "departure_time": "11:56",
+          "seq": 2
+        },
+        {
+          "stop_id": "d0084f98-7e3a-4938-8699-b027f835b22a",
+          "stop_name": "県立医療センター東口",
+          "stop_lat": 15.72138,
+          "stop_lon": 76.63584,
+          "arrival_time": "11:57",
+          "departure_time": "11:57",
+          "seq": 3
+        },
+        {
+          "stop_id": "57ebdd2a-1a25-4f4a-a24e-ca6aa40b9aea",
+          "stop_name": "県立医療センター前（那覇バスターミナル向け）",
+          "stop_lat": 15.72115,
+          "stop_lon": 76.63478,
+          "arrival_time": "11:59",
+          "departure_time": "11:59",
+          "seq": 4
+        },
+        {
+          "stop_id": "f1617fd7-fdfe-4b8e-8df1-969821f96cf6",
+          "stop_name": "真和志高校前（真地向け）",
+          "stop_lat": 15.72021,
+          "stop_lon": 76.63361,
+          "arrival_time": "12:01",
+          "departure_time": "12:01",
+          "seq": 5
+        },
+        {
+          "stop_id": "8c1c8280-cf6b-4bd4-925b-a87daad8f70f",
+          "stop_name": "真地（識名園向け）",
+          "stop_lat": 15.72048,
+          "stop_lon": 76.63138,
+          "arrival_time": "12:02",
+          "departure_time": "12:02",
+          "seq": 6
+        },
+        {
+          "stop_id": "f269f96f-5649-4d14-9a86-a527085520b1",
+          "stop_name": "識名園前（繁多川向け）",
+          "stop_lat": 15.72144,
+          "stop_lon": 76.62994,
+          "arrival_time": "12:03",
+          "departure_time": "12:03",
+          "seq": 7
+        },
+        {
+          "stop_id": "dfce87aa-246f-4c6a-a770-6b38fb80cca2",
+          "stop_name": "繁多川（大道向け）",
+          "stop_lat": 15.72348,
+          "stop_lon": 76.62889,
+          "arrival_time": "12:04",
+          "departure_time": "12:04",
+          "seq": 8
+        },
+        {
+          "stop_id": "c5b32371-e324-445f-a5c5-6b4c0adaf6be",
+          "stop_name": "石田中学校前（大道向け）",
+          "stop_lat": 15.72381,
+          "stop_lon": 76.62765,
+          "arrival_time": "12:05",
+          "departure_time": "12:05",
+          "seq": 9
+        },
+        {
+          "stop_id": "99933330-52bb-4b2a-b661-c3fba25acbf7",
+          "stop_name": "石田（大道向け）",
+          "stop_lat": 15.7241,
+          "stop_lon": 76.62656,
+          "arrival_time": "12:06",
+          "departure_time": "12:06",
+          "seq": 10
+        },
+        {
+          "stop_id": "12522884-f871-4f5e-bc5a-1564d52559b9",
+          "stop_name": "識名小学校前（大道向け）",
+          "stop_lat": 15.72401,
+          "stop_lon": 76.6256,
+          "arrival_time": "12:07",
+          "departure_time": "12:07",
+          "seq": 11
+        },
+        {
+          "stop_id": "d4952085-bc69-4f21-b50f-e476bb7831d1",
+          "stop_name": "繁多川入口（大道向け）",
+          "stop_lat": 15.72423,
+          "stop_lon": 76.62336,
+          "arrival_time": "12:08",
+          "departure_time": "12:08",
+          "seq": 12
+        },
+        {
+          "stop_id": "9028ad67-5458-4736-8503-50cd5628343e",
+          "stop_name": "三原二丁目（真和志向け）",
+          "stop_lat": 15.72436,
+          "stop_lon": 76.62298,
+          "arrival_time": "12:08",
+          "departure_time": "12:08",
+          "seq": 13
+        },
+        {
+          "stop_id": "1529d1d3-2544-4176-9657-7fb88d59aa66",
+          "stop_name": "三原三丁目（真和志向け）",
+          "stop_lat": 15.72383,
+          "stop_lon": 76.62185,
+          "arrival_time": "12:08",
+          "departure_time": "12:08",
+          "seq": 14
+        },
+        {
+          "stop_id": "16349ecb-2c50-42fb-94a3-c9b89dafcef4",
+          "stop_name": "真和志支所前（寄宮向け）",
+          "stop_lat": 15.72321,
+          "stop_lon": 76.62024,
+          "arrival_time": "12:10",
+          "departure_time": "12:10",
+          "seq": 15
+        },
+        {
+          "stop_id": "44fe76d4-8718-4725-8aae-9bf003cdde3d",
+          "stop_name": "真和志小学校前（与儀向け）",
+          "stop_lat": 15.721,
+          "stop_lon": 76.62019,
+          "arrival_time": "12:12",
+          "departure_time": "12:12",
+          "seq": 16
+        },
+        {
+          "stop_id": "b8dcb8f4-d806-484e-aa7b-42b2025a7be0",
+          "stop_name": "県立看護大学前（与儀向け）",
+          "stop_lat": 15.72137,
+          "stop_lon": 76.61838,
+          "arrival_time": "12:13",
+          "departure_time": "12:13",
+          "seq": 17
+        },
+        {
+          "stop_id": "b7f554e6-60d8-45d7-877f-f02896e5f1b4",
+          "stop_name": "赤十字病院前（開南向け）",
+          "stop_lat": 15.72217,
+          "stop_lon": 76.61644,
+          "arrival_time": "12:15",
+          "departure_time": "12:15",
+          "seq": 18
+        },
+        {
+          "stop_id": "6dbbf145-5693-4812-828c-2c43ec802020",
+          "stop_name": "開南（那覇バスターミナル・旭橋向け）",
+          "stop_lat": 15.72447,
+          "stop_lon": 76.61392,
+          "arrival_time": "12:19",
+          "departure_time": "12:19",
+          "seq": 19
+        },
+        {
+          "stop_id": "ad64545f-dde6-4372-b38d-9d1c6e86897f",
+          "stop_name": "那覇高校前（那覇バスターミナル・旭橋向け）",
+          "stop_lat": 15.72408,
+          "stop_lon": 76.61188,
+          "arrival_time": "12:20",
+          "departure_time": "12:20",
+          "seq": 20
+        },
+        {
+          "stop_id": "b8121312-f8da-452b-bf13-75edfe18f8bf",
+          "stop_name": "県庁前（パレット向け）",
+          "stop_lat": 15.72557,
+          "stop_lon": 76.60975,
+          "arrival_time": "12:22",
+          "departure_time": "12:22",
+          "seq": 21
+        },
+        {
+          "stop_id": "9a779ec7-a677-4e77-adf5-c5c082573213",
+          "stop_name": "バスターミナル前（センター行き）",
+          "stop_lat": 15.72485,
+          "stop_lon": 76.6074,
+          "arrival_time": "12:24",
+          "departure_time": "12:24",
+          "seq": 22
+        },
+        {
+          "stop_id": "6b5cd465-1a63-432d-959c-a700b1600c30",
+          "stop_name": "旭橋駅前（久茂地向け）",
+          "stop_lat": 15.72511,
+          "stop_lon": 76.60624,
+          "arrival_time": "12:28",
+          "departure_time": "12:28",
+          "seq": 23
+        },
+        {
+          "stop_id": "3dd49b9a-2815-4ba9-9b90-d009747ed266",
+          "stop_name": "久茂地",
+          "stop_lat": 15.7264,
+          "stop_lon": 76.6072,
+          "arrival_time": "12:29",
+          "departure_time": "12:29",
+          "seq": 24
+        },
+        {
+          "stop_id": "3df0d612-b4b5-4155-964a-15f80a298d96",
+          "stop_name": "沖銀本店前",
+          "stop_lat": 15.72624,
+          "stop_lon": 76.60921,
+          "arrival_time": "12:31",
+          "departure_time": "12:31",
+          "seq": 25
+        },
+        {
+          "stop_id": "4998b77f-1ba6-488d-9cfc-d60812b40a80",
+          "stop_name": "松尾一丁目（安里方面行き）",
+          "stop_lat": 15.7264,
+          "stop_lon": 76.61082,
+          "arrival_time": "12:33",
+          "departure_time": "12:33",
+          "seq": 26
+        },
+        {
+          "stop_id": "06fe6b6b-ed4f-45a3-b73a-dea71ea81c7a",
+          "stop_name": "てんぶす前（安里方面行き）",
+          "stop_lat": 15.72757,
+          "stop_lon": 76.61456,
+          "arrival_time": "12:38",
+          "departure_time": "12:38",
+          "seq": 27
+        },
+        {
+          "stop_id": "70e0f896-17d5-474e-bd24-265dc5cefb81",
+          "stop_name": "安里（バイパス向け）",
+          "stop_lat": 15.72842,
+          "stop_lon": 76.61685,
+          "arrival_time": "12:40",
+          "departure_time": "12:40",
+          "seq": 28
+        },
+        {
+          "stop_id": "3b1a2f18-b422-4dec-b5ea-a5451074ff8c",
+          "stop_name": "メディカルプラザ大道中央（首里向け）",
+          "stop_lat": 15.72819,
+          "stop_lon": 76.61986,
+          "arrival_time": "12:44",
+          "departure_time": "12:44",
+          "seq": 29
+        },
+        {
+          "stop_id": "104d900f-fea4-4b60-855e-50e8dd6263d2",
+          "stop_name": "坂下琉生病院前（首里・寒川向け）",
+          "stop_lat": 15.72814,
+          "stop_lon": 76.62186,
+          "arrival_time": "12:46",
+          "departure_time": "12:46",
+          "seq": 30
+        },
+        {
+          "stop_id": "07f1b82a-6f4a-41f2-b3f0-52be903583ae",
+          "stop_name": "ノボテル沖縄那覇前（首里山川方面）",
+          "stop_lat": 15.72955,
+          "stop_lon": 76.6251,
+          "arrival_time": "12:48",
+          "departure_time": "12:48",
+          "seq": 31
+        },
+        {
+          "stop_id": "f283b481-0c62-40f2-8b04-c7c008e271d9",
+          "stop_name": "首里高校前（首里城向け）",
+          "stop_lat": 15.7296,
+          "stop_lon": 76.62908,
+          "arrival_time": "12:50",
+          "departure_time": "12:50",
+          "seq": 32
+        },
+        {
+          "stop_id": "a7b15ce9-8475-4254-aa9a-a75ecfc3ae2e",
+          "stop_name": "首里城公園入口（当蔵向け）",
+          "stop_lat": 15.72967,
+          "stop_lon": 76.6308,
+          "arrival_time": "12:51",
+          "departure_time": "12:51",
+          "seq": 33
+        },
+        {
+          "stop_id": "054cf588-240f-466e-b7ec-6a23a4ede338",
+          "stop_name": "当蔵（首里公民館向け）",
+          "stop_lat": 15.72958,
+          "stop_lon": 76.63284,
+          "arrival_time": "12:52",
+          "departure_time": "12:52",
+          "seq": 34
+        },
+        {
+          "stop_id": "421b9a2a-64d1-4991-ab6b-a011e8d1f0bb",
+          "stop_name": "首里公民館前（鳥堀一丁目向け）",
+          "stop_lat": 15.72928,
+          "stop_lon": 76.63382,
+          "arrival_time": "12:52",
+          "departure_time": "12:52",
+          "seq": 35
+        },
+        {
+          "stop_id": "9bb49562-2366-4118-9cf1-6f7cb5d3c9cd",
+          "stop_name": "鳥堀一丁目（鳥堀交差点向け）",
+          "stop_lat": 15.72852,
+          "stop_lon": 76.63492,
+          "arrival_time": "12:52",
+          "departure_time": "12:52",
+          "seq": 36
+        },
+        {
+          "stop_id": "6c98422c-a546-48b7-9632-77a1f50d2913",
+          "stop_name": "首里駅前（西原・崎山向け）",
+          "stop_lat": 15.729,
+          "stop_lon": 76.63608,
+          "arrival_time": "12:54",
+          "departure_time": "12:54",
+          "seq": 37
+        },
+        {
+          "stop_id": "dca2dc68-b166-4b5f-87ee-4df5073a9b8f",
+          "stop_name": "鳥堀公民館前（崎山向け）",
+          "stop_lat": 15.72726,
+          "stop_lon": 76.63637,
+          "arrival_time": "12:58",
+          "departure_time": "12:58",
+          "seq": 38
+        },
+        {
+          "stop_id": "db5194de-9240-4c2e-9a0c-c55527bfe5b2",
+          "stop_name": "崎山（那覇インター向け）",
+          "stop_lat": 15.72552,
+          "stop_lon": 76.63615,
+          "arrival_time": "13:01",
+          "departure_time": "13:01",
+          "seq": 39
+        },
+        {
+          "stop_id": "7e49169b-fe7d-45ae-af40-1d5403026921",
+          "stop_name": "那覇インター前（那覇バスターミナル向け）",
+          "stop_lat": 15.72312,
+          "stop_lon": 76.63485,
+          "arrival_time": "13:03",
+          "departure_time": "13:03",
+          "seq": 40
+        },
+        {
+          "stop_id": "ac4c456c-3585-43ad-8cc3-3488b4b361b9",
+          "stop_name": "県立医療センター東口（与那原・南風原向け）",
+          "stop_lat": 15.72075,
+          "stop_lon": 76.63634,
+          "arrival_time": "13:05",
+          "departure_time": "13:05",
+          "seq": 41
+        },
+        {
+          "stop_id": "e8f7695a-9ad8-49b8-8a66-3b081ecbded7",
+          "stop_name": "新川営業所（終点）",
+          "stop_lat": 15.71998,
+          "stop_lon": 76.6367,
+          "arrival_time": "13:06",
+          "departure_time": "13:06",
+          "seq": 42
+        }
+      ],
+      "courseSids": [
+        "3da0d67f-474e-49b2-aab3-ed213aef35b8"
+      ],
+      "keitouSids": [
+        "e7b0f7a6-ef5a-4c41-b822-6de65d1e9544"
+      ],
+      "passPoints": [
+        {
+          "lat": 15.72008,
+          "lon": 76.63661
+        },
+        {
+          "lat": 15.72085,
+          "lon": 76.63565
+        },
+        {
+          "lat": 15.72138,
+          "lon": 76.63584
+        },
+        {
+          "lat": 15.72115,
+          "lon": 76.63478
+        },
+        {
+          "lat": 15.72021,
+          "lon": 76.63361
+        },
+        {
+          "lat": 15.72048,
+          "lon": 76.63138
+        },
+        {
+          "lat": 15.72144,
+          "lon": 76.62994
+        },
+        {
+          "lat": 15.72348,
+          "lon": 76.62889
+        },
+        {
+          "lat": 15.72381,
+          "lon": 76.62765
+        },
+        {
+          "lat": 15.7241,
+          "lon": 76.62656
+        },
+        {
+          "lat": 15.72401,
+          "lon": 76.6256
+        },
+        {
+          "lat": 15.72423,
+          "lon": 76.62336
+        },
+        {
+          "lat": 15.72436,
+          "lon": 76.62298
+        },
+        {
+          "lat": 15.72383,
+          "lon": 76.62185
+        },
+        {
+          "lat": 15.72321,
+          "lon": 76.62024
+        },
+        {
+          "lat": 15.721,
+          "lon": 76.62019
+        },
+        {
+          "lat": 15.72137,
+          "lon": 76.61838
+        },
+        {
+          "lat": 15.72217,
+          "lon": 76.61644
+        },
+        {
+          "lat": 15.72447,
+          "lon": 76.61392
+        },
+        {
+          "lat": 15.72408,
+          "lon": 76.61188
+        },
+        {
+          "lat": 15.72557,
+          "lon": 76.60975
+        },
+        {
+          "lat": 15.72485,
+          "lon": 76.6074
+        },
+        {
+          "lat": 15.72511,
+          "lon": 76.60624
+        },
+        {
+          "lat": 15.7264,
+          "lon": 76.6072
+        },
+        {
+          "lat": 15.72624,
+          "lon": 76.60921
+        },
+        {
+          "lat": 15.7264,
+          "lon": 76.61082
+        },
+        {
+          "lat": 15.72757,
+          "lon": 76.61456
+        },
+        {
+          "lat": 15.72842,
+          "lon": 76.61685
+        },
+        {
+          "lat": 15.72819,
+          "lon": 76.61986
+        },
+        {
+          "lat": 15.72814,
+          "lon": 76.62186
+        },
+        {
+          "lat": 15.72955,
+          "lon": 76.6251
+        },
+        {
+          "lat": 15.7296,
+          "lon": 76.62908
+        },
+        {
+          "lat": 15.72967,
+          "lon": 76.6308
+        },
+        {
+          "lat": 15.72958,
+          "lon": 76.63284
+        },
+        {
+          "lat": 15.72928,
+          "lon": 76.63382
+        },
+        {
+          "lat": 15.72852,
+          "lon": 76.63492
+        },
+        {
+          "lat": 15.729,
+          "lon": 76.63608
+        },
+        {
+          "lat": 15.72726,
+          "lon": 76.63637
+        },
+        {
+          "lat": 15.72552,
+          "lon": 76.63615
+        },
+        {
+          "lat": 15.72312,
+          "lon": 76.63485
+        },
+        {
+          "lat": 15.72075,
+          "lon": 76.63634
+        },
+        {
+          "lat": 15.71998,
+          "lon": 76.6367
+        }
+      ]
+    }
+  ],
+  "source": "naha_12up"
+}
