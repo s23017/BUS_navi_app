@@ -1,4 +1,6 @@
 #!/bin/bash
+#実行権限を追加してから実行してください。↓
+#chmod +x command/kakumei.sh 
 cd "$(dirname "$0")/.."
 
 if [ -d "$1" ]; then
