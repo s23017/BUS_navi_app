@@ -84,3 +84,13 @@ export function loadKentyouminamiTimeTable(appRootDir?: string): NahaTimeIndex {
 export function loadNahakoukouTimeTable(appRootDir?: string): NahaTimeIndex {
   return loadNahaTimeTable('nahakoukou.json', appRootDir);
 }
+
+// 開南 (kainan.json)
+export function loadKainanTimeTable(appRootDir?: string): NahaTimeIndex {
+  return loadNahaTimeTable('kainan.json', appRootDir);
+}
+
+// 与儀十字路（古島向け）(yogijuuziro.json)
+export function loadYogijuuziroTimeTable(appRootDir?: string): NahaTimeIndex {
+  return loadNahaTimeTable('yogijuuziro.json', appRootDir);
+}
