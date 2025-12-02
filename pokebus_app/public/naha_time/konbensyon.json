@@ -1,0 +1,1112 @@
+[
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "26",
+    "courseSid": "e0a6c2cf-c8a3-4991-b4b4-dde0a8141ba8",
+    "tripSid": "d1d6c73b-3518-42be-be90-fac605dcf7f8",
+    "calendar": "weekday",
+    "time": "07:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "26",
+    "courseSid": "e0a6c2cf-c8a3-4991-b4b4-dde0a8141ba8",
+    "tripSid": "14eae186-0181-4673-8f3e-f73e2f4fc6d0",
+    "calendar": "weekday",
+    "time": "10:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "26",
+    "courseSid": "e0a6c2cf-c8a3-4991-b4b4-dde0a8141ba8",
+    "tripSid": "0fbcd9e0-c891-47fb-bc0a-a4d341d16180",
+    "calendar": "weekday",
+    "time": "11:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "26",
+    "courseSid": "e0a6c2cf-c8a3-4991-b4b4-dde0a8141ba8",
+    "tripSid": "347f3ada-97a8-485c-9bda-7976e4d67c74",
+    "calendar": "weekday",
+    "time": "13:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "26",
+    "courseSid": "e0a6c2cf-c8a3-4991-b4b4-dde0a8141ba8",
+    "tripSid": "fd764caa-d463-4284-b321-c28f0f737248",
+    "calendar": "weekday",
+    "time": "13:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "26",
+    "courseSid": "e0a6c2cf-c8a3-4991-b4b4-dde0a8141ba8",
+    "tripSid": "03e3b85a-14eb-4eb9-b42e-48e084c94e2f",
+    "calendar": "saturday",
+    "time": "11:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "26",
+    "courseSid": "e0a6c2cf-c8a3-4991-b4b4-dde0a8141ba8",
+    "tripSid": "96465886-b7fa-498e-be90-9f7aaf5feb5b",
+    "calendar": "saturday",
+    "time": "16:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "26",
+    "courseSid": "e0a6c2cf-c8a3-4991-b4b4-dde0a8141ba8",
+    "tripSid": "92b292f1-08d6-4d28-b8a7-08ce6763d161",
+    "calendar": "holiday",
+    "time": "11:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "26",
+    "courseSid": "e0a6c2cf-c8a3-4991-b4b4-dde0a8141ba8",
+    "tripSid": "79507407-70eb-4c5e-8274-ac29c26e9694",
+    "calendar": "holiday",
+    "time": "16:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "0862330d-9c0f-41da-a239-035f2d159196",
+    "calendar": "weekday",
+    "time": "07:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "b3857ef7-4f5c-44aa-9439-29cf605ab0f9",
+    "calendar": "weekday",
+    "time": "08:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "950a9cce-d2e1-44bf-a3bb-291e604d810c",
+    "calendar": "weekday",
+    "time": "09:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "737b07c7-b093-4482-9b06-bfbbcd7deeb5",
+    "calendar": "weekday",
+    "time": "09:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "b0a64abb-1db1-497f-9915-a4205e1f5aa8",
+    "calendar": "weekday",
+    "time": "09:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "1d87ece4-6b41-439f-84b1-8c08412d5537",
+    "calendar": "weekday",
+    "time": "10:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "6c57552f-0340-4b83-bfe7-6ca2082fca59",
+    "calendar": "weekday",
+    "time": "11:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "77e468d9-137d-47e2-87e5-ee4a19e1e01d",
+    "calendar": "weekday",
+    "time": "12:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "0de81a12-1182-447a-804b-e5fa1c0b2ee0",
+    "calendar": "weekday",
+    "time": "13:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "8fca0b8b-9177-4a3c-8be4-995926e9bd7e",
+    "calendar": "weekday",
+    "time": "14:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "9414c63d-ed88-446c-8aa7-0b9a4cf130ce",
+    "calendar": "weekday",
+    "time": "14:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "e25e71bb-0aa2-417f-91af-beeac1de1c02",
+    "calendar": "weekday",
+    "time": "15:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "89465290-9a12-41a2-beb4-0db9ceb49c83",
+    "calendar": "weekday",
+    "time": "16:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "019f23cb-c1b8-4d1d-bba6-cff031db7698",
+    "calendar": "weekday",
+    "time": "17:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "0a7cdd1d-afb7-4597-8603-68a16f3b7468",
+    "calendar": "weekday",
+    "time": "18:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "9f91d878-9091-48df-bcd1-8baf0910054b",
+    "calendar": "weekday",
+    "time": "19:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "7f54321d-54f5-40be-bd6a-0a505cc0d916",
+    "calendar": "weekday",
+    "time": "19:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "dc21e7ac-2251-4789-8d15-e4d50cae951d",
+    "calendar": "weekday",
+    "time": "20:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "5f29f473-aed4-409c-90a4-d62888adf398",
+    "calendar": "weekday",
+    "time": "21:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "b5132418-8214-409d-a955-6b4782c7ef1c",
+    "calendar": "weekday",
+    "time": "22:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "0f2794c5-a3c5-46f7-ab33-2b1fbcb800fd",
+    "calendar": "saturday",
+    "time": "07:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "2f76afc6-3abe-434f-ab92-f4a1c37a347e",
+    "calendar": "saturday",
+    "time": "08:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "179ba8cb-491e-471c-8a1b-7cd189fda9f1",
+    "calendar": "saturday",
+    "time": "10:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "502d6020-4a91-457c-b64b-b052b54ded0e",
+    "calendar": "saturday",
+    "time": "10:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "78c305ad-e3ba-479f-9fe0-2d5ca65fa0d2",
+    "calendar": "saturday",
+    "time": "11:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "a527dd3e-8771-4553-b526-cea1085753ad",
+    "calendar": "saturday",
+    "time": "13:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "3d1fe428-e2b3-42f4-99a2-655492fb0075",
+    "calendar": "saturday",
+    "time": "15:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "723af579-8534-48e7-baea-89fb0a978366",
+    "calendar": "saturday",
+    "time": "16:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "73a7233b-4682-483c-886a-0e273e66e8ad",
+    "calendar": "saturday",
+    "time": "17:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "27be1d71-05ef-4c4b-80f9-6e7f1d2c4b2f",
+    "calendar": "saturday",
+    "time": "18:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "c950acf5-58f8-41a7-bde4-92fb6a8ab4ab",
+    "calendar": "saturday",
+    "time": "19:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "a3a008f7-413f-425d-92d2-244fe553acbf",
+    "calendar": "saturday",
+    "time": "20:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "1cc2b910-a5df-4cc1-a353-207f2311779e",
+    "calendar": "saturday",
+    "time": "21:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "aa36bce1-3739-4275-ab8a-1d9ca6e9544d",
+    "calendar": "holiday",
+    "time": "07:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "054c85fa-3d85-437c-86be-6e97530eb0a0",
+    "calendar": "holiday",
+    "time": "08:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "5a14ee3e-00bc-43b1-846a-3412fab050f2",
+    "calendar": "holiday",
+    "time": "10:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "9b20cce5-e55a-4526-8ad3-ce9c48726f1e",
+    "calendar": "holiday",
+    "time": "10:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "3da516e3-0baa-4000-8b5c-9e181f6f9f25",
+    "calendar": "holiday",
+    "time": "11:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "cfe5a21a-a519-4275-a924-65640ffee3c0",
+    "calendar": "holiday",
+    "time": "13:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "1df659db-fbac-4ab7-8991-2923c8030d4e",
+    "calendar": "holiday",
+    "time": "15:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "91306e88-d986-436f-bf02-5382879c0ddd",
+    "calendar": "holiday",
+    "time": "16:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "4efae548-5be7-42ab-91a0-518542e388bf",
+    "calendar": "holiday",
+    "time": "17:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "bd7bc4ef-dfa9-4c84-b0e0-af943642333f",
+    "calendar": "holiday",
+    "time": "18:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "b2d81c4a-1d1e-4648-be5c-5717e790a5eb",
+    "calendar": "holiday",
+    "time": "19:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "92b6e46d-684b-4982-9b71-2230da8483f6",
+    "calendar": "holiday",
+    "time": "20:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "f92f8857-d7eb-495e-9dd0-04f6a4504570",
+    "calendar": "holiday",
+    "time": "21:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "88",
+    "courseSid": "26da18d2-1658-41f2-89f8-a9c9b1dc4087",
+    "tripSid": "6195a483-2cfe-4f35-8aba-ea24c506f2c9",
+    "calendar": "weekday",
+    "time": "09:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "88",
+    "courseSid": "26da18d2-1658-41f2-89f8-a9c9b1dc4087",
+    "tripSid": "a46c8ab8-5340-4022-8764-34fdc7c3b924",
+    "calendar": "weekday",
+    "time": "16:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "88",
+    "courseSid": "26da18d2-1658-41f2-89f8-a9c9b1dc4087",
+    "tripSid": "51230b45-6600-4b4d-81e5-e5fa8bcb90b9",
+    "calendar": "weekday",
+    "time": "20:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "c50fe8b4-394f-4c2b-88d7-339fc950188a",
+    "calendar": "weekday",
+    "time": "06:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "97932668-510f-4358-addb-4a49ed8cc3db",
+    "calendar": "weekday",
+    "time": "06:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "4d043725-3e05-4c69-9db3-d43620963228",
+    "calendar": "weekday",
+    "time": "07:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "f2009b3a-437c-4270-b5c8-be3e6bdf42e2",
+    "calendar": "weekday",
+    "time": "08:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "fb9cda7f-4376-4acc-90fb-478f5d5f0227",
+    "calendar": "weekday",
+    "time": "09:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "526e90ab-f29c-42b9-885e-6dff3f0225cb",
+    "calendar": "weekday",
+    "time": "10:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "7dcfaf26-5f8b-46e5-afd7-88099cb8add2",
+    "calendar": "weekday",
+    "time": "10:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "49100c1b-ff1b-442c-ae5d-45c338991d04",
+    "calendar": "weekday",
+    "time": "12:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "3e161fd0-a48b-4158-a9a0-427b781ac77d",
+    "calendar": "weekday",
+    "time": "13:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "7ef1b50d-7e03-4f7e-8988-0a4142546f0b",
+    "calendar": "weekday",
+    "time": "13:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "adbbfba7-e1f5-422e-8106-5fa1744efe14",
+    "calendar": "weekday",
+    "time": "14:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "bf603022-684b-4074-88f6-8472fdea866b",
+    "calendar": "weekday",
+    "time": "15:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "2cb88469-64de-4553-92a6-ac730160d887",
+    "calendar": "weekday",
+    "time": "16:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "4fc26a87-0834-4e78-81ad-97c09475fbec",
+    "calendar": "weekday",
+    "time": "16:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "4f90b01b-361b-4d48-91b3-4ff7527b140f",
+    "calendar": "weekday",
+    "time": "17:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "b6d94efa-5afe-4c65-a23f-c676e85ead67",
+    "calendar": "weekday",
+    "time": "18:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "2ac90427-0090-412a-abfd-a7bddceafe36",
+    "calendar": "weekday",
+    "time": "20:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "0f460808-973a-4757-a037-d71c79138441",
+    "calendar": "weekday",
+    "time": "21:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "72c2d71f-46ae-4049-9528-e467848b80cf",
+    "calendar": "saturday",
+    "time": "08:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "94cae06a-a1d4-4fbd-95f0-78ef25dfdf88",
+    "calendar": "saturday",
+    "time": "09:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "9315358b-0665-4f6e-8a21-d156df1ae823",
+    "calendar": "saturday",
+    "time": "10:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "41cdcfe0-2b81-4ab7-8dd4-14d85e885b1f",
+    "calendar": "saturday",
+    "time": "11:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "a66f0e95-88fa-4ed5-abfb-0e33fb06c249",
+    "calendar": "saturday",
+    "time": "12:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "ffbd4ee0-764e-4120-b437-bf2f2fb32df9",
+    "calendar": "saturday",
+    "time": "13:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "ebbf8c6e-47eb-4065-ad5f-83373557bf97",
+    "calendar": "saturday",
+    "time": "14:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "a10c7f9a-529a-4123-b68a-0eef895ea745",
+    "calendar": "saturday",
+    "time": "15:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "25414b5e-d133-41f5-8aa8-be7dec12423d",
+    "calendar": "saturday",
+    "time": "16:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "efe888cd-a46e-4e6b-8226-547975f350e5",
+    "calendar": "saturday",
+    "time": "18:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "c0667c8c-6dca-416c-878e-a4f8d59e8000",
+    "calendar": "saturday",
+    "time": "19:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "1195a274-6ece-48cb-bc59-1305d1358950",
+    "calendar": "holiday",
+    "time": "08:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "7526527c-f5b4-4ab0-8d1b-1b3f29a49df6",
+    "calendar": "holiday",
+    "time": "09:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "c00ace4a-27c0-4f0c-9b6b-d9ef89757539",
+    "calendar": "holiday",
+    "time": "10:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "9b8d5e79-9e2f-46d1-b54c-56fd535e101f",
+    "calendar": "holiday",
+    "time": "11:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "1c578be6-84fa-40ad-8aaa-596298ee5b9c",
+    "calendar": "holiday",
+    "time": "12:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "ed1c9830-47da-47fd-a047-5b57eb7853e0",
+    "calendar": "holiday",
+    "time": "13:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "757f843e-7f40-4d2a-8b3b-e3970c274112",
+    "calendar": "holiday",
+    "time": "14:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "27b5682a-ac75-44e6-ae95-3ac290be1c6e",
+    "calendar": "holiday",
+    "time": "15:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "7bc9d417-c31a-41bb-bf7f-c159e7e23109",
+    "calendar": "holiday",
+    "time": "16:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "4955fd25-0d6a-43b6-a752-f13488defb77",
+    "calendar": "holiday",
+    "time": "18:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "99",
+    "courseSid": "962f5a37-230e-46ac-9b4f-9f325e04f038",
+    "tripSid": "6d9f5253-c3ff-49e6-a29b-8f248ac4b740",
+    "calendar": "holiday",
+    "time": "19:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "ea0bb622-e2a4-4803-ad26-f53d8a605abf",
+    "calendar": "weekday",
+    "time": "07:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "20fb696c-8d7a-440f-b3db-76c242729719",
+    "calendar": "weekday",
+    "time": "07:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "3b06e9d9-703c-445e-86ba-c2f969bff215",
+    "calendar": "weekday",
+    "time": "08:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "362d8830-28bc-4d84-985c-6ec56d6d80e0",
+    "calendar": "weekday",
+    "time": "09:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "64babc7e-eda7-4212-8d81-e5b61be4f959",
+    "calendar": "weekday",
+    "time": "16:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "398487ba-38d1-4e81-affd-bebdf82547ec",
+    "calendar": "weekday",
+    "time": "19:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "8866e926-28b2-4cb2-9fdf-5cb0de92f9d4",
+    "calendar": "weekday",
+    "time": "19:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "d7dac08c-4a7c-4f95-8e34-08da4df0ece2",
+    "calendar": "saturday",
+    "time": "07:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "b0fd700b-9d63-4384-a378-a710c1309bff",
+    "calendar": "saturday",
+    "time": "10:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "e4213db8-30a6-4377-8bb5-a0fee3337936",
+    "calendar": "saturday",
+    "time": "19:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "da15b6dd-8830-411f-9f7f-772a6339c38d",
+    "calendar": "holiday",
+    "time": "07:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "d276a277-f1d3-4841-bd49-3452bcf92f2b",
+    "calendar": "holiday",
+    "time": "10:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "コンベンション前",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "aaf479c0-ffa6-46da-81d5-657e296ab04f",
+    "calendar": "holiday",
+    "time": "19:17",
+    "parentCompanyCode": "8000"
+  }
+]

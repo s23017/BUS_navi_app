@@ -1,0 +1,1352 @@
+[
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "5",
+    "courseSid": "14dc6358-10e4-4cdd-947a-8245657b3a01",
+    "tripSid": "3d66a7a9-fc70-45fa-9ca0-d8603edc230e",
+    "calendar": "holiday",
+    "time": "12:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "5",
+    "courseSid": "14dc6358-10e4-4cdd-947a-8245657b3a01",
+    "tripSid": "13aa42a4-d07e-467e-adb2-f5b151443c2f",
+    "calendar": "holiday",
+    "time": "12:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "5",
+    "courseSid": "14dc6358-10e4-4cdd-947a-8245657b3a01",
+    "tripSid": "fb4d0b9f-fb59-4a47-9dbc-d78a98b70639",
+    "calendar": "holiday",
+    "time": "13:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "5",
+    "courseSid": "14dc6358-10e4-4cdd-947a-8245657b3a01",
+    "tripSid": "86e81179-7f69-45da-adca-4b0d8d0c8e1a",
+    "calendar": "holiday",
+    "time": "14:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "5",
+    "courseSid": "14dc6358-10e4-4cdd-947a-8245657b3a01",
+    "tripSid": "05fd6a5f-7015-4bf6-89b9-079123a8941c",
+    "calendar": "holiday",
+    "time": "14:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "5",
+    "courseSid": "14dc6358-10e4-4cdd-947a-8245657b3a01",
+    "tripSid": "a68ff35a-8f9b-4b23-8a8c-e8f55e083364",
+    "calendar": "holiday",
+    "time": "15:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "5",
+    "courseSid": "14dc6358-10e4-4cdd-947a-8245657b3a01",
+    "tripSid": "3fdea22d-7c1a-4172-8945-2ba2d88378f5",
+    "calendar": "holiday",
+    "time": "16:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "5",
+    "courseSid": "14dc6358-10e4-4cdd-947a-8245657b3a01",
+    "tripSid": "2ad009ce-be02-4335-8b0e-834516c368ef",
+    "calendar": "holiday",
+    "time": "16:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "5",
+    "courseSid": "14dc6358-10e4-4cdd-947a-8245657b3a01",
+    "tripSid": "ea4287cd-eef0-4167-93e0-ca3d908df800",
+    "calendar": "holiday",
+    "time": "17:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "9",
+    "courseSid": "eb5db3ea-ae14-4388-bc6f-743695da0e78",
+    "tripSid": "ea2c61ce-e47e-4723-9974-4778bd7d2c5b",
+    "calendar": "holiday",
+    "time": "12:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "9",
+    "courseSid": "eb5db3ea-ae14-4388-bc6f-743695da0e78",
+    "tripSid": "b3390203-950e-4571-a83e-c404def7e43d",
+    "calendar": "holiday",
+    "time": "12:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "9",
+    "courseSid": "eb5db3ea-ae14-4388-bc6f-743695da0e78",
+    "tripSid": "9821cdca-2d83-4f43-919b-f9d6d469b57f",
+    "calendar": "holiday",
+    "time": "13:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "9",
+    "courseSid": "eb5db3ea-ae14-4388-bc6f-743695da0e78",
+    "tripSid": "6d57813d-d20d-408f-8267-17c379d1028c",
+    "calendar": "holiday",
+    "time": "14:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "9",
+    "courseSid": "eb5db3ea-ae14-4388-bc6f-743695da0e78",
+    "tripSid": "d33066b9-8ae7-4156-b331-4332f4946ddb",
+    "calendar": "holiday",
+    "time": "14:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "9",
+    "courseSid": "eb5db3ea-ae14-4388-bc6f-743695da0e78",
+    "tripSid": "a39434d1-ba03-484b-bf2d-49e6eee1ebcd",
+    "calendar": "holiday",
+    "time": "15:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "9",
+    "courseSid": "eb5db3ea-ae14-4388-bc6f-743695da0e78",
+    "tripSid": "f9d13b4c-8ea2-45ad-9f30-08e40f59aec5",
+    "calendar": "holiday",
+    "time": "16:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "9",
+    "courseSid": "eb5db3ea-ae14-4388-bc6f-743695da0e78",
+    "tripSid": "c54e4a50-ae1c-4ed2-ba87-4643406c7f9c",
+    "calendar": "holiday",
+    "time": "16:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "9",
+    "courseSid": "eb5db3ea-ae14-4388-bc6f-743695da0e78",
+    "tripSid": "8eba76e7-2fe0-4f39-8045-1a444f849d81",
+    "calendar": "holiday",
+    "time": "17:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "15",
+    "courseSid": "af7fc5d5-9855-4533-9a46-0f2872ab111f",
+    "tripSid": "0bc6a771-33d0-466b-896a-043622a2d801",
+    "calendar": "holiday",
+    "time": "17:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "678883e9-6c1d-4197-b303-23f1c7b033d9",
+    "calendar": "weekday",
+    "time": "06:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "5821fee2-eac7-4ad7-90ab-ea8ee71d6654",
+    "calendar": "weekday",
+    "time": "07:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "06b186b4-077a-4d35-83d5-a80e79daf00d",
+    "calendar": "weekday",
+    "time": "08:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "e3927405-78a8-4a7c-a367-340e6cbbe9d2",
+    "calendar": "weekday",
+    "time": "09:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "47db4d34-1036-4f4b-b3d3-240e568696ce",
+    "calendar": "weekday",
+    "time": "09:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "891fc78b-4bcd-4d3a-aef7-6fb1c64226b6",
+    "calendar": "weekday",
+    "time": "13:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "235dc334-c953-4333-b95c-82fbfbf82458",
+    "calendar": "weekday",
+    "time": "14:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "97a0b164-7b6f-4fc7-abf3-c3373dfe717c",
+    "calendar": "weekday",
+    "time": "15:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "66c73b1f-4eaa-41ec-ba78-a2c53ffd3d3b",
+    "calendar": "weekday",
+    "time": "15:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "58f19bc2-255b-4ffe-8298-1b769340ae57",
+    "calendar": "weekday",
+    "time": "16:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "df6ba847-0bf2-4df6-b150-3a084fb697c0",
+    "calendar": "weekday",
+    "time": "17:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "222f78e3-c9e6-49c7-be80-b1356781b61f",
+    "calendar": "weekday",
+    "time": "18:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "43c5c4cc-a818-4236-9e81-dc8d49d5b6b6",
+    "calendar": "weekday",
+    "time": "19:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "29b88305-2644-4848-a682-9b06b944cebf",
+    "calendar": "saturday",
+    "time": "07:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "81585461-b0c9-4a16-af91-9a3f6dfeb790",
+    "calendar": "saturday",
+    "time": "09:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "83961f49-c3d7-4522-81ea-a95c6eab9f2c",
+    "calendar": "saturday",
+    "time": "11:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "7727fcf8-cea9-4753-8672-efa28a4e16b0",
+    "calendar": "saturday",
+    "time": "13:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "728fc329-3928-4574-84d9-555fe5ce59ab",
+    "calendar": "saturday",
+    "time": "15:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "921a6f48-c406-455e-b773-29cb040de1db",
+    "calendar": "saturday",
+    "time": "18:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "31d354ec-3420-4ceb-8a69-7ab81c4ae00a",
+    "calendar": "holiday",
+    "time": "07:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "8ba18725-6f86-42ff-8a17-28252fd6993e",
+    "calendar": "holiday",
+    "time": "09:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "973b1d93-b041-4b03-b347-4acd70c439e9",
+    "calendar": "holiday",
+    "time": "11:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "7dee025b-778b-45b9-8c1d-3238343da40f",
+    "calendar": "holiday",
+    "time": "13:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "4875ffe8-d550-4391-9d8e-84b1a7106f31",
+    "calendar": "holiday",
+    "time": "15:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "4993ebc7-7c0b-4ca8-94a3-e5114ade02a1",
+    "calendar": "holiday",
+    "time": "18:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "0862330d-9c0f-41da-a239-035f2d159196",
+    "calendar": "weekday",
+    "time": "06:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "b3857ef7-4f5c-44aa-9439-29cf605ab0f9",
+    "calendar": "weekday",
+    "time": "07:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "950a9cce-d2e1-44bf-a3bb-291e604d810c",
+    "calendar": "weekday",
+    "time": "08:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "737b07c7-b093-4482-9b06-bfbbcd7deeb5",
+    "calendar": "weekday",
+    "time": "08:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "b0a64abb-1db1-497f-9915-a4205e1f5aa8",
+    "calendar": "weekday",
+    "time": "09:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "1d87ece4-6b41-439f-84b1-8c08412d5537",
+    "calendar": "weekday",
+    "time": "09:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "6c57552f-0340-4b83-bfe7-6ca2082fca59",
+    "calendar": "weekday",
+    "time": "11:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "77e468d9-137d-47e2-87e5-ee4a19e1e01d",
+    "calendar": "weekday",
+    "time": "11:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "0de81a12-1182-447a-804b-e5fa1c0b2ee0",
+    "calendar": "weekday",
+    "time": "12:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "8fca0b8b-9177-4a3c-8be4-995926e9bd7e",
+    "calendar": "weekday",
+    "time": "13:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "9414c63d-ed88-446c-8aa7-0b9a4cf130ce",
+    "calendar": "weekday",
+    "time": "14:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "e25e71bb-0aa2-417f-91af-beeac1de1c02",
+    "calendar": "weekday",
+    "time": "14:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "89465290-9a12-41a2-beb4-0db9ceb49c83",
+    "calendar": "weekday",
+    "time": "15:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "019f23cb-c1b8-4d1d-bba6-cff031db7698",
+    "calendar": "weekday",
+    "time": "16:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "0a7cdd1d-afb7-4597-8603-68a16f3b7468",
+    "calendar": "weekday",
+    "time": "17:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "9f91d878-9091-48df-bcd1-8baf0910054b",
+    "calendar": "weekday",
+    "time": "18:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "7f54321d-54f5-40be-bd6a-0a505cc0d916",
+    "calendar": "weekday",
+    "time": "18:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "dc21e7ac-2251-4789-8d15-e4d50cae951d",
+    "calendar": "weekday",
+    "time": "19:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "5f29f473-aed4-409c-90a4-d62888adf398",
+    "calendar": "weekday",
+    "time": "20:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "b5132418-8214-409d-a955-6b4782c7ef1c",
+    "calendar": "weekday",
+    "time": "21:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "0f2794c5-a3c5-46f7-ab33-2b1fbcb800fd",
+    "calendar": "saturday",
+    "time": "07:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "2f76afc6-3abe-434f-ab92-f4a1c37a347e",
+    "calendar": "saturday",
+    "time": "08:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "179ba8cb-491e-471c-8a1b-7cd189fda9f1",
+    "calendar": "saturday",
+    "time": "09:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "502d6020-4a91-457c-b64b-b052b54ded0e",
+    "calendar": "saturday",
+    "time": "09:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "78c305ad-e3ba-479f-9fe0-2d5ca65fa0d2",
+    "calendar": "saturday",
+    "time": "10:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "a527dd3e-8771-4553-b526-cea1085753ad",
+    "calendar": "saturday",
+    "time": "12:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "3d1fe428-e2b3-42f4-99a2-655492fb0075",
+    "calendar": "saturday",
+    "time": "14:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "723af579-8534-48e7-baea-89fb0a978366",
+    "calendar": "saturday",
+    "time": "15:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "73a7233b-4682-483c-886a-0e273e66e8ad",
+    "calendar": "saturday",
+    "time": "16:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "27be1d71-05ef-4c4b-80f9-6e7f1d2c4b2f",
+    "calendar": "saturday",
+    "time": "17:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "c950acf5-58f8-41a7-bde4-92fb6a8ab4ab",
+    "calendar": "saturday",
+    "time": "18:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "a3a008f7-413f-425d-92d2-244fe553acbf",
+    "calendar": "saturday",
+    "time": "19:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "1cc2b910-a5df-4cc1-a353-207f2311779e",
+    "calendar": "saturday",
+    "time": "21:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "aa36bce1-3739-4275-ab8a-1d9ca6e9544d",
+    "calendar": "holiday",
+    "time": "07:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "054c85fa-3d85-437c-86be-6e97530eb0a0",
+    "calendar": "holiday",
+    "time": "08:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "5a14ee3e-00bc-43b1-846a-3412fab050f2",
+    "calendar": "holiday",
+    "time": "09:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "9b20cce5-e55a-4526-8ad3-ce9c48726f1e",
+    "calendar": "holiday",
+    "time": "09:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "3da516e3-0baa-4000-8b5c-9e181f6f9f25",
+    "calendar": "holiday",
+    "time": "10:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "cfe5a21a-a519-4275-a924-65640ffee3c0",
+    "calendar": "holiday",
+    "time": "12:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "1df659db-fbac-4ab7-8991-2923c8030d4e",
+    "calendar": "holiday",
+    "time": "14:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "91306e88-d986-436f-bf02-5382879c0ddd",
+    "calendar": "holiday",
+    "time": "15:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "4efae548-5be7-42ab-91a0-518542e388bf",
+    "calendar": "holiday",
+    "time": "16:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "bd7bc4ef-dfa9-4c84-b0e0-af943642333f",
+    "calendar": "holiday",
+    "time": "17:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "b2d81c4a-1d1e-4648-be5c-5717e790a5eb",
+    "calendar": "holiday",
+    "time": "18:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "92b6e46d-684b-4982-9b71-2230da8483f6",
+    "calendar": "holiday",
+    "time": "19:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "f92f8857-d7eb-495e-9dd0-04f6a4504570",
+    "calendar": "holiday",
+    "time": "21:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "fcaba808-1096-410d-9192-c1880052531f",
+    "calendar": "holiday",
+    "time": "12:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "3fd1ce74-ed85-4919-900c-0175cef02641",
+    "calendar": "holiday",
+    "time": "13:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "3d585b44-8dc4-45e3-91b8-07f6eeadaa03",
+    "calendar": "holiday",
+    "time": "14:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "3174f765-9949-4c72-a704-91e0deb74108",
+    "calendar": "holiday",
+    "time": "15:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "90066a76-dfab-4d24-b9b4-3bfcb3f23dff",
+    "calendar": "holiday",
+    "time": "16:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "ab670463-5c24-44b7-b84a-0ec8a07d8f68",
+    "calendar": "holiday",
+    "time": "13:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "f063baa3-0127-4709-ba3f-2b996f356761",
+    "calendar": "holiday",
+    "time": "14:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "b533d06a-9221-4378-b028-5a2449aaabd9",
+    "calendar": "holiday",
+    "time": "14:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "9f01cbd8-8d26-4bb7-a475-3e659db98a65",
+    "calendar": "holiday",
+    "time": "15:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "c986a83e-6b17-416c-aeb8-e293037c38f9",
+    "calendar": "holiday",
+    "time": "15:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "aa85f140-7012-4701-9718-1bda063c66bf",
+    "calendar": "holiday",
+    "time": "16:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "c248cf92-784f-4759-b11f-a256f0cb35fd",
+    "calendar": "holiday",
+    "time": "17:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "17ce01c5-c541-42be-8058-12a5463305a3",
+    "calendar": "holiday",
+    "time": "17:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "237a728f-0776-4f74-b630-81aef1580017",
+    "calendar": "holiday",
+    "time": "12:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "af4c8993-3495-4b1b-a758-b02f9cb8b3e8",
+    "calendar": "holiday",
+    "time": "13:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "eb00794e-3518-485e-9e27-8094ab762b79",
+    "calendar": "holiday",
+    "time": "14:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "161d2486-3701-465d-a6a2-9f6b72b35a89",
+    "calendar": "holiday",
+    "time": "15:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "f8cd3de7-c8f9-4e76-997a-634cd474af0e",
+    "calendar": "holiday",
+    "time": "16:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "63328296-55ef-4a22-a846-2fb39919de71",
+    "calendar": "holiday",
+    "time": "17:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "3d42152c-9c95-4db6-945a-dc99ec6a9121",
+    "calendar": "holiday",
+    "time": "13:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "7cbb96b6-30bc-4afc-ac48-0fbc90d5f5d0",
+    "calendar": "holiday",
+    "time": "14:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "712cfba1-1435-4120-811f-23d731ec573b",
+    "calendar": "holiday",
+    "time": "15:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "9a0d5357-bf12-477e-b1b6-789c41ba7904",
+    "calendar": "holiday",
+    "time": "15:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "c84c9e4f-40f9-4c64-82e4-4f1b48d2a47e",
+    "calendar": "holiday",
+    "time": "16:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "1f92428b-213b-460e-a876-ec10a1196c01",
+    "calendar": "holiday",
+    "time": "17:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "ea0bb622-e2a4-4803-ad26-f53d8a605abf",
+    "calendar": "weekday",
+    "time": "06:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "20fb696c-8d7a-440f-b3db-76c242729719",
+    "calendar": "weekday",
+    "time": "07:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "3b06e9d9-703c-445e-86ba-c2f969bff215",
+    "calendar": "weekday",
+    "time": "08:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "362d8830-28bc-4d84-985c-6ec56d6d80e0",
+    "calendar": "weekday",
+    "time": "09:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "64babc7e-eda7-4212-8d81-e5b61be4f959",
+    "calendar": "weekday",
+    "time": "16:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "398487ba-38d1-4e81-affd-bebdf82547ec",
+    "calendar": "weekday",
+    "time": "18:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "8866e926-28b2-4cb2-9fdf-5cb0de92f9d4",
+    "calendar": "weekday",
+    "time": "19:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "d7dac08c-4a7c-4f95-8e34-08da4df0ece2",
+    "calendar": "saturday",
+    "time": "06:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "b0fd700b-9d63-4384-a378-a710c1309bff",
+    "calendar": "saturday",
+    "time": "09:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "e4213db8-30a6-4377-8bb5-a0fee3337936",
+    "calendar": "saturday",
+    "time": "18:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "da15b6dd-8830-411f-9f7f-772a6339c38d",
+    "calendar": "holiday",
+    "time": "06:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "d276a277-f1d3-4841-bd49-3452bcf92f2b",
+    "calendar": "holiday",
+    "time": "09:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "aaf479c0-ffa6-46da-81d5-657e296ab04f",
+    "calendar": "holiday",
+    "time": "18:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "c7ec2763-97e1-46df-8f81-b1faa0b28142",
+    "calendar": "holiday",
+    "time": "13:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "3c68a7d4-b23b-4999-a07c-811b94775dda",
+    "calendar": "holiday",
+    "time": "14:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "9c2198da-2454-400b-9f4a-dfa28d32439c",
+    "calendar": "holiday",
+    "time": "16:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "444e48e1-fed2-4a38-9eb7-0187193963c5",
+    "calendar": "holiday",
+    "time": "17:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "921357d4-2217-4c1a-b75a-a2a64069df1a",
+    "calendar": "holiday",
+    "time": "12:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "681e72ff-104e-47cc-92d1-b49801bf2cce",
+    "calendar": "holiday",
+    "time": "13:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "（ここに stationSid を入れる）",
+    "stopName": "壺屋",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "2ca76b2b-1cae-4f60-9d4e-32c8735fe914",
+    "calendar": "holiday",
+    "time": "13:17",
+    "parentCompanyCode": "8000"
+  }
+]

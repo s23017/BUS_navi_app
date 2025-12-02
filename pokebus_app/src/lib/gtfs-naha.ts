@@ -1,4 +1,4 @@
-import { loadHanabusTimeTable, loadKamiizumiTimeTable, loadKentyouminamiTimeTable, loadNahakoukouTimeTable, NahaTimeIndex } from './nahaTime';
+import { loadHanabusTimeTable, loadKamiizumiTimeTable, loadKentyouminamiTimeTable, loadNahakoukouTimeTable, loadKainanTimeTable, loadYogijuuziroTimeTable, NahaTimeIndex } from './nahaTime';
 
 export type GTFSData = {
   stops: any[];
@@ -13,6 +13,8 @@ let nahaHanabusTimeCache: NahaTimeIndex | null = null;
 let nahaKamiizumiTimeCache: NahaTimeIndex | null = null;
 let nahaKentyouminamiTimeCache: NahaTimeIndex | null = null;
 let nahaNahakoukouTimeCache: NahaTimeIndex | null = null;
+let nahaKainanTimeCache: NahaTimeIndex | null = null;
+let nahaYogijuuziroTimeCache: NahaTimeIndex | null = null;
 
 const resolvePublicUrl = (relativePath: string) => {
   if (typeof window !== 'undefined') {
@@ -115,6 +117,28 @@ export function getNahakoukouTimeTable(): NahaTimeIndex {
     }
   }
   return nahaNahakoukouTimeCache;
+}
+
+export function getKainanTimeTable(): NahaTimeIndex {
+  if (!nahaKainanTimeCache) {
+    try {
+      nahaKainanTimeCache = loadKainanTimeTable();
+    } catch {
+      nahaKainanTimeCache = {};
+    }
+  }
+  return nahaKainanTimeCache;
+}
+
+export function getYogijuuziroTimeTable(): NahaTimeIndex {
+  if (!nahaYogijuuziroTimeCache) {
+    try {
+      nahaYogijuuziroTimeCache = loadYogijuuziroTimeTable();
+    } catch {
+      nahaYogijuuziroTimeCache = {};
+    }
+  }
+  return nahaYogijuuziroTimeCache;
 }
 
 async function appendNahaExtraRoutes(gtfs: GTFSData) {
@@ -574,6 +598,97 @@ export async function loadNahaData(): Promise<GTFSData> {
             // 仮に、この系統の最初の那覇停留所の時刻を「那覇高校前」とみなして上書き
             const st = gtfs.stopTimes.find(
               t => t.trip_id === tripId && typeof t.stop_id === 'string' && t.stop_id.startsWith('naha_'),
+            );
+            if (!st) continue;
+            st.departure_time = hhmmss;
+            st.arrival_time = hhmmss;
+          }
+        }
+      }
+    }
+  } catch {
+    // ignore
+  }
+
+  // 開南 (Sid 不明: stationSid が null のため、時間だけ利用)
+  // 那覇高校前と同様に、系統ごとに最初の那覇停留所の時刻を上書き
+  try {
+    const kainan = getKainanTimeTable();
+
+    const routeIdByKeito: Record<string, string> = {};
+    for (const route of gtfs.routes) {
+      const id = route?.route_id as string | undefined;
+      const short = route?.route_short_name as string | undefined;
+      if (!id || !short) continue;
+      if (id.startsWith('naha_')) {
+        routeIdByKeito[short] = id;
+      }
+    }
+
+    for (const routeNo of Object.keys(kainan)) {
+      const timesByCal = kainan[routeNo];
+      const routeId = routeIdByKeito[routeNo];
+      if (!routeId) continue;
+
+      for (const calKey of Object.keys(timesByCal)) {
+        const records = timesByCal[calKey];
+        for (const rec of records) {
+          const targetTime = rec.time;
+          if (!targetTime) continue;
+
+          const hhmmss = `${targetTime}:00`;
+
+          for (const trip of gtfs.trips) {
+            if (trip.route_id !== routeId) continue;
+            const tripId = trip.trip_id;
+
+            const st = gtfs.stopTimes.find(
+              t => t.trip_id === tripId && typeof t.stop_id === 'string' && t.stop_id.startsWith('naha_'),
+            );
+            if (!st) continue;
+            st.departure_time = hhmmss;
+            st.arrival_time = hhmmss;
+          }
+        }
+      }
+    }
+  } catch {
+    // ignore
+  }
+
+  // 与儀十字路（古島向け）(Sid=40800200) の公式時刻表を反映
+  try {
+    const yogijuuziro = getYogijuuziroTimeTable();
+    const stationStopId = 'naha_40800200';
+
+    const routeIdByKeito: Record<string, string> = {};
+    for (const route of gtfs.routes) {
+      const id = route?.route_id as string | undefined;
+      const short = route?.route_short_name as string | undefined;
+      if (!id || !short) continue;
+      if (id.startsWith('naha_')) {
+        routeIdByKeito[short] = id;
+      }
+    }
+
+    for (const routeNo of Object.keys(yogijuuziro)) {
+      const timesByCal = yogijuuziro[routeNo];
+      const routeId = routeIdByKeito[routeNo];
+      if (!routeId) continue;
+
+      for (const calKey of Object.keys(timesByCal)) {
+        const records = timesByCal[calKey];
+        for (const rec of records) {
+          const targetTime = rec.time;
+          if (!targetTime) continue;
+
+          const hhmmss = `${targetTime}:00`;
+
+          for (const trip of gtfs.trips) {
+            if (trip.route_id !== routeId) continue;
+            const tripId = trip.trip_id;
+            const st = gtfs.stopTimes.find(
+              t => t.trip_id === tripId && t.stop_id === stationStopId,
             );
             if (!st) continue;
             st.departure_time = hhmmss;
