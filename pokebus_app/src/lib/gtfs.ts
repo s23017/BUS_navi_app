@@ -137,7 +137,7 @@ async function ensureBaseStopIndex() {
   const aliasMap = new Map<string, BaseStopEntry[]>();
   const list: BaseStopEntry[] = [];
   const seen = new Set<string>();
-  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni'];
+  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni', 'naha'];
 
   for (const company of companies) {
     try {
@@ -378,7 +378,11 @@ async function appendNahaExtraRoutes(gtfs: GTFSData) {
     '55.json',
     '75.json',
     '120.json',
-    '120down.json'
+    '120down.json',
+    '446.json',
+    '446up.json',
+    '24.json',
+    '24up.json',
   ];
 
   const existingStopIds = new Set(gtfs.stops.map(stop => stop.stop_id));
@@ -962,7 +966,7 @@ export async function loadStopMasterData() {
 
 export async function loadStops() {
   if (stopsCache) return stopsCache;
-  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni'];
+  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni', 'naha'];
   const merged: any[] = [];
   const seen = new Map<string, any>();
 
@@ -1008,7 +1012,7 @@ export async function loadStops() {
 
 export async function loadStopTimes() {
   if (stopTimesCache) return stopTimesCache;
-  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni'];
+  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni', 'naha'];
   const allStopTimes: any[] = [];
 
   for (const company of companies) {
@@ -1033,7 +1037,7 @@ export async function loadStopTimes() {
 
 export async function loadTrips() {
   if (tripsCache) return tripsCache;
-  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni'];
+  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni', 'naha'];
   const allTrips: any[] = [];
 
   for (const company of companies) {
@@ -1058,7 +1062,7 @@ export async function loadTrips() {
 
 export async function loadRoutes() {
   if (routesCache) return routesCache;
-  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni'];
+  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni', 'naha'];
   const allRoutes: any[] = [];
 
   for (const company of companies) {
