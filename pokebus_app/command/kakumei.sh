@@ -1,6 +1,8 @@
 #!/bin/bash
 #実行権限を追加してから実行してください。↓
 #chmod +x command/kakumei.sh 
+#実行コマンド↓
+#./command/kakumei.sh ./public/naha_time/xxx.json
 cd "$(dirname "$0")/.."
 
 if [ -d "$1" ]; then
