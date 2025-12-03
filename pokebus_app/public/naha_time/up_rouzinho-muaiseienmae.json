@@ -1,0 +1,172 @@
+[
+  {
+    "stationSid": "15640100",
+    "stopName": "老人ホーム愛誠園前（コンベンション向け）",
+    "routeNo": "88",
+    "courseSid": "c2456be2-238b-4343-ba3c-2df74520eb88",
+    "tripSid": "49582013-d3ba-4e39-8615-b807888ac47d",
+    "calendar": "weekday",
+    "time": "08:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15640100",
+    "stopName": "老人ホーム愛誠園前（コンベンション向け）",
+    "routeNo": "88",
+    "courseSid": "c2456be2-238b-4343-ba3c-2df74520eb88",
+    "tripSid": "d6eb81ae-a187-42c2-b61f-947d4d5e0e66",
+    "calendar": "weekday",
+    "time": "14:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15640100",
+    "stopName": "老人ホーム愛誠園前（コンベンション向け）",
+    "routeNo": "88",
+    "courseSid": "c2456be2-238b-4343-ba3c-2df74520eb88",
+    "tripSid": "34076310-a50d-44bd-a86b-6222cacca4b0",
+    "calendar": "weekday",
+    "time": "15:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15640100",
+    "stopName": "老人ホーム愛誠園前（コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "9fe116fb-f124-4cc2-8293-ef8efb5da244",
+    "calendar": "weekday",
+    "time": "07:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15640100",
+    "stopName": "老人ホーム愛誠園前（コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "7611b095-6dd3-44ed-8f05-a460c5574f8d",
+    "calendar": "weekday",
+    "time": "07:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15640100",
+    "stopName": "老人ホーム愛誠園前（コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "648e820c-0b30-4965-9f5b-b6cd533e69c3",
+    "calendar": "weekday",
+    "time": "08:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15640100",
+    "stopName": "老人ホーム愛誠園前（コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "e36d8fb6-79b2-4343-9da4-1938bc1fe4ef",
+    "calendar": "weekday",
+    "time": "14:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15640100",
+    "stopName": "老人ホーム愛誠園前（コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "02dd0ba1-5b86-4dd9-8e00-f156ded5ccc9",
+    "calendar": "weekday",
+    "time": "15:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15640100",
+    "stopName": "老人ホーム愛誠園前（コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "4a4e3238-1377-45eb-8b0e-c23bbb244d3f",
+    "calendar": "weekday",
+    "time": "16:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15640100",
+    "stopName": "老人ホーム愛誠園前（コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "e2157736-a598-4ff7-bb70-ece926647f59",
+    "calendar": "weekday",
+    "time": "17:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15640100",
+    "stopName": "老人ホーム愛誠園前（コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "4fad1e91-851e-412a-b1c6-526e084dbea2",
+    "calendar": "weekday",
+    "time": "20:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15640100",
+    "stopName": "老人ホーム愛誠園前（コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "d2e6ee10-e494-4089-b26f-dc709ef28d80",
+    "calendar": "saturday",
+    "time": "06:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15640100",
+    "stopName": "老人ホーム愛誠園前（コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "0f26c380-b3cb-406b-9ad7-c37b6b375a2d",
+    "calendar": "saturday",
+    "time": "10:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15640100",
+    "stopName": "老人ホーム愛誠園前（コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "66a7df71-abd6-4a28-a343-e80ff0e70de8",
+    "calendar": "saturday",
+    "time": "15:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15640100",
+    "stopName": "老人ホーム愛誠園前（コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "0ab60357-9c61-4ee2-8183-d65432b3829a",
+    "calendar": "holiday",
+    "time": "06:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15640100",
+    "stopName": "老人ホーム愛誠園前（コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "ac48bd31-6e91-426f-a8a3-8589a49377f8",
+    "calendar": "holiday",
+    "time": "10:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15640100",
+    "stopName": "老人ホーム愛誠園前（コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "93199b11-0083-4649-9780-77e035dd3b48",
+    "calendar": "holiday",
+    "time": "15:16",
+    "parentCompanyCode": "8000"
+  }
+]

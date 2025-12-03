@@ -1,0 +1,4672 @@
+[
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "d0dc4033-6800-4727-af18-24ed6cc3827b",
+    "calendar": "weekday",
+    "time": "06:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "4fea21dd-5bc0-4650-a386-41af05e47b06",
+    "calendar": "weekday",
+    "time": "06:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "77247d89-4f81-4a28-a14f-bedbb10649e6",
+    "calendar": "weekday",
+    "time": "07:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "e05a503e-8ec2-4626-b272-859007f32588",
+    "calendar": "weekday",
+    "time": "08:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "ed0aaa6b-7a94-4a20-bbc5-f9a6485a971a",
+    "calendar": "weekday",
+    "time": "09:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "d7228c1b-1420-4aa2-ab6d-5ad3282b7a55",
+    "calendar": "weekday",
+    "time": "09:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "5b16a519-783e-418b-8518-d9874ac3cda5",
+    "calendar": "weekday",
+    "time": "10:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "5bdc0f28-3d7e-4e61-95e7-1234b03a33e7",
+    "calendar": "weekday",
+    "time": "10:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "3961052a-cb15-4a12-b872-215f5940bb5e",
+    "calendar": "weekday",
+    "time": "11:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "5e1f40a7-8d45-478a-bdc6-e3e107623948",
+    "calendar": "weekday",
+    "time": "12:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "0999c0b8-59b5-47f2-9683-413a44b5a4a7",
+    "calendar": "weekday",
+    "time": "12:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "5ac2b3d9-2e2c-4a2d-9160-5ffbfde44941",
+    "calendar": "weekday",
+    "time": "13:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "e1d5b33e-9635-4fbb-9114-b9940cb959fa",
+    "calendar": "weekday",
+    "time": "14:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "bac73ae9-0899-48e7-9605-061523a023ae",
+    "calendar": "weekday",
+    "time": "14:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "721e8b24-f33f-42db-89ef-b4feea69781a",
+    "calendar": "weekday",
+    "time": "15:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "ec51ebae-e923-4813-b79c-ec3b82c7cfbc",
+    "calendar": "weekday",
+    "time": "15:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "83880d45-3782-4c8d-aeab-a8c23d36ab68",
+    "calendar": "weekday",
+    "time": "16:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "3f2f1551-6080-48f1-9489-2ef760a41732",
+    "calendar": "weekday",
+    "time": "18:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "a718cac4-c416-4597-a677-089618c6076c",
+    "calendar": "weekday",
+    "time": "20:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "d25accdf-ac0a-4ad1-9418-ff50d81c5fa6",
+    "calendar": "saturday",
+    "time": "06:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "5f042e39-6b5c-4b44-b0f3-ad22619e76d8",
+    "calendar": "saturday",
+    "time": "07:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "9ebccca8-98ea-4e7f-b2b9-d07cbcbc7818",
+    "calendar": "saturday",
+    "time": "09:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "be0b7336-73a5-46ec-bf06-edad544aa8a9",
+    "calendar": "saturday",
+    "time": "11:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "723599f5-4eaa-4419-897e-0a5bd5ebdf0c",
+    "calendar": "saturday",
+    "time": "12:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "7aa20e0c-22a5-4027-9d02-ffe4dd9126b9",
+    "calendar": "saturday",
+    "time": "14:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "9eb9f624-47bf-4d7c-8d4e-292618e21237",
+    "calendar": "saturday",
+    "time": "15:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "eeebe879-cea6-49f0-94c1-f3b4598df3f9",
+    "calendar": "saturday",
+    "time": "16:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "a51c893c-0f2e-47f4-8eb2-c7f738dadd65",
+    "calendar": "saturday",
+    "time": "16:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "8df74825-1415-4430-a6da-bfac339a89c7",
+    "calendar": "saturday",
+    "time": "20:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "ea11b829-ce36-4578-94e4-7335ddc1d30a",
+    "calendar": "holiday",
+    "time": "06:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "5b42c568-8a19-438e-aa28-3ec1c1339049",
+    "calendar": "holiday",
+    "time": "07:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "989205c5-b34d-4a36-a393-973afabe6511",
+    "calendar": "holiday",
+    "time": "09:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "8c8bb890-c0f7-42aa-8c41-56ed9bb765e9",
+    "calendar": "holiday",
+    "time": "11:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "9bfc3908-b6c5-4d0b-9953-4063a93bd8d0",
+    "calendar": "holiday",
+    "time": "12:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "064d4423-72be-4fe2-bea1-74d91f3465fd",
+    "calendar": "holiday",
+    "time": "14:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "bb599fe0-0ff6-4994-ad00-4ae9d15939b1",
+    "calendar": "holiday",
+    "time": "15:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "6ad92e26-837f-4cea-8eff-a532bcf8bb0d",
+    "calendar": "holiday",
+    "time": "16:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "9755520f-c584-4c82-a62a-deec9d9888db",
+    "calendar": "holiday",
+    "time": "16:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "21",
+    "courseSid": "64454a3e-1174-4756-b59f-d44f8fb760a6",
+    "tripSid": "a142b23a-b1d0-4510-9d1d-46fed46eeacf",
+    "calendar": "holiday",
+    "time": "20:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "42e9cb4e-b449-474a-8909-d70dbf793aa8",
+    "calendar": "weekday",
+    "time": "05:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "821fbc84-6b2a-4e96-83bb-26d56e4b84ca",
+    "calendar": "weekday",
+    "time": "06:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "9fc4a5a5-a6b2-4e55-b6d6-27e962857d8b",
+    "calendar": "weekday",
+    "time": "06:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "8f77400f-2d43-4233-8ddc-c4cf92132430",
+    "calendar": "weekday",
+    "time": "06:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "eb5058e0-1ec5-4d82-a894-fc8a8f6e8c51",
+    "calendar": "weekday",
+    "time": "06:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "f0bd3c96-98ef-4827-80cc-4496b8ceea31",
+    "calendar": "weekday",
+    "time": "06:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "a89b90cc-feda-4d6b-b23c-20e5654532d5",
+    "calendar": "weekday",
+    "time": "06:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "e478de4c-8327-43e1-b11d-85d67c349a5e",
+    "calendar": "weekday",
+    "time": "07:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "130e99f9-94c6-4f09-b9e4-6204b9022e13",
+    "calendar": "weekday",
+    "time": "07:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "f3a2a644-c7b8-432d-ae8f-11a24339a116",
+    "calendar": "weekday",
+    "time": "07:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "1499845f-a0fd-453c-ac86-fe8d3731d23b",
+    "calendar": "weekday",
+    "time": "08:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "06e33b8a-c37f-47bd-ac9f-3f6a0544c640",
+    "calendar": "weekday",
+    "time": "08:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "ac654379-ac52-4572-b16d-91f4158b712c",
+    "calendar": "weekday",
+    "time": "08:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "920109f3-5f99-4cea-8e53-1f06c3126c07",
+    "calendar": "weekday",
+    "time": "09:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "1598ccb5-70f5-48c6-9d7e-92f7d4ecca06",
+    "calendar": "weekday",
+    "time": "09:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "60d6e842-36ac-4c71-9300-f7712a28f0a6",
+    "calendar": "weekday",
+    "time": "10:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "6173db83-091d-417f-adeb-db4751942baa",
+    "calendar": "weekday",
+    "time": "11:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "3c0246b9-5d56-4912-a794-ba1bcac35444",
+    "calendar": "weekday",
+    "time": "12:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "b94ac4b8-07c8-4f8b-a705-5aac07288dbb",
+    "calendar": "weekday",
+    "time": "13:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "a4b1b249-d837-41ea-afd6-0783e33d0bf6",
+    "calendar": "weekday",
+    "time": "13:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "5b5d7afe-1dc4-439d-a556-c8eab1433f9c",
+    "calendar": "weekday",
+    "time": "13:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "80d61347-6b84-4d9f-8510-822183dae5c9",
+    "calendar": "weekday",
+    "time": "14:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "26145007-c583-45c4-8ef7-4393b896e414",
+    "calendar": "weekday",
+    "time": "14:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "c202e25f-e079-42f8-8f07-5cffb1026532",
+    "calendar": "weekday",
+    "time": "15:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "f8d2034a-7108-41e9-a8ff-42860460b97e",
+    "calendar": "weekday",
+    "time": "15:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "30d10214-8484-49be-adc7-49f242c758ec",
+    "calendar": "weekday",
+    "time": "15:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "3b23ce27-d579-4750-9b99-ba6fbde0a8de",
+    "calendar": "weekday",
+    "time": "16:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "84b1f0df-e5cb-4f8f-8863-5537994416e2",
+    "calendar": "weekday",
+    "time": "16:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "3690d449-2356-4696-aeca-fbabe468a5e8",
+    "calendar": "weekday",
+    "time": "17:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "b7380203-557d-4a0c-8da1-6eca66931886",
+    "calendar": "weekday",
+    "time": "17:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "fe69541f-db7d-4316-ba9c-599b632fba52",
+    "calendar": "weekday",
+    "time": "17:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "864db5fe-2182-49f2-a1d8-ec058c1d7d7d",
+    "calendar": "weekday",
+    "time": "18:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "43f6329d-4c24-43aa-a123-603ad2d8e609",
+    "calendar": "weekday",
+    "time": "19:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "b5ada7c4-08e6-465b-8c97-9d041b731d72",
+    "calendar": "weekday",
+    "time": "19:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "a108771b-a278-4597-9522-f1b50725c5e4",
+    "calendar": "weekday",
+    "time": "20:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "b4c9f746-e4a1-4d05-9245-bef685f339d1",
+    "calendar": "weekday",
+    "time": "21:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "a7cfb936-1db1-430a-b3dd-b5d5ba0740c1",
+    "calendar": "saturday",
+    "time": "06:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "5cf125c9-9bb6-41e5-990f-8aa3bf0ee68d",
+    "calendar": "saturday",
+    "time": "06:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "5715f645-41cc-4c54-9552-7edd98daa234",
+    "calendar": "saturday",
+    "time": "06:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "8a248717-c0ff-45bf-8e8a-c7e9b5c05f88",
+    "calendar": "saturday",
+    "time": "07:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "54c9be98-39e1-4036-b429-b1d58e0a3a19",
+    "calendar": "saturday",
+    "time": "07:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "d032c918-502a-4809-a12f-6f631f9cf16f",
+    "calendar": "saturday",
+    "time": "08:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "3cdf28de-b150-4aae-a87f-6f9cc621f58f",
+    "calendar": "saturday",
+    "time": "08:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "5ee20034-b514-491b-a8b8-588288799a37",
+    "calendar": "saturday",
+    "time": "09:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "456b3f7e-033b-49b0-b174-df72928c09c9",
+    "calendar": "saturday",
+    "time": "09:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "055ea056-b322-40fe-aa63-be2e84aa3864",
+    "calendar": "saturday",
+    "time": "10:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "074946f8-0de5-4ba5-8069-2e415879eca2",
+    "calendar": "saturday",
+    "time": "11:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "e68892c0-ca44-4248-ad7b-04ef97917b4e",
+    "calendar": "saturday",
+    "time": "11:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "fc710b96-1af1-4659-8d62-1e44eb5039b1",
+    "calendar": "saturday",
+    "time": "12:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "0c04e81f-56f5-4cfb-9df4-7143f584ad8d",
+    "calendar": "saturday",
+    "time": "12:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "945af103-ed9e-4e9f-8cc8-1a344e17a51a",
+    "calendar": "saturday",
+    "time": "13:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "8b5c68cb-80ce-4f39-b1f6-2bc23879dfc8",
+    "calendar": "saturday",
+    "time": "13:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "0f4150cb-ac36-4d67-862e-75a6fcc3bd0f",
+    "calendar": "saturday",
+    "time": "14:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "f9b233d0-764c-430f-ab7a-0f1ec632a7f5",
+    "calendar": "saturday",
+    "time": "15:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "a5a60a79-b5ad-4492-abe4-9755102ea758",
+    "calendar": "saturday",
+    "time": "15:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "bbeac53f-3d58-40be-8c29-a454997e2653",
+    "calendar": "saturday",
+    "time": "15:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "4adff33e-b61b-43df-9e44-825d6ec22c72",
+    "calendar": "saturday",
+    "time": "16:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "d2a434ce-779c-4cec-b5cb-31960fa64c6f",
+    "calendar": "saturday",
+    "time": "16:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "e76aad96-51b4-4ef0-94ea-35a8b45864de",
+    "calendar": "saturday",
+    "time": "17:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "6ca8dc47-24ad-48bb-a9c3-a21fa6d2543e",
+    "calendar": "saturday",
+    "time": "17:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "37310c27-72fa-414b-8100-b2f1f953d7d6",
+    "calendar": "saturday",
+    "time": "18:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "c9782c3e-ac4a-4adf-a41f-25cc596472e1",
+    "calendar": "saturday",
+    "time": "18:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "3ac9da1e-4d13-437f-9ff6-afcfc149c468",
+    "calendar": "saturday",
+    "time": "19:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "68fe1298-9a13-4110-b577-8350085a240c",
+    "calendar": "saturday",
+    "time": "19:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "48bb2ce1-dfce-4924-ad12-0b752314e5b3",
+    "calendar": "saturday",
+    "time": "20:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "1c336002-1c3e-41d3-b254-f3310e16ee7a",
+    "calendar": "saturday",
+    "time": "20:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "e5d0c997-6df0-4ede-9249-dc5d10449530",
+    "calendar": "saturday",
+    "time": "20:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "149bf1ee-9a95-4f10-a014-77e8741c727e",
+    "calendar": "holiday",
+    "time": "06:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "9bedfdbe-4ee0-4b2f-87dc-1023de19c2b3",
+    "calendar": "holiday",
+    "time": "06:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "203e48cf-733a-4ad6-bace-3c5d7b13531f",
+    "calendar": "holiday",
+    "time": "06:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "4b1cc6dc-05d9-494f-8f9f-84110bff87a1",
+    "calendar": "holiday",
+    "time": "07:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "b1059b67-5d7a-4fcd-959d-c88638b4b32a",
+    "calendar": "holiday",
+    "time": "07:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "41e9c904-061c-4c6c-8efd-01b06964fea3",
+    "calendar": "holiday",
+    "time": "08:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "17a8892d-7066-4b03-a9ae-1ddd27a14d86",
+    "calendar": "holiday",
+    "time": "08:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "0adf9682-9f14-4fc4-bc52-03d29b2cd967",
+    "calendar": "holiday",
+    "time": "09:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "400d0be0-b765-4f28-b20a-84be4907a463",
+    "calendar": "holiday",
+    "time": "09:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "3f6bc4cd-0f2f-4fca-b3e6-a32b9cf670ba",
+    "calendar": "holiday",
+    "time": "10:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "fd2c730d-faf0-42f0-a897-4b3bfa59ea27",
+    "calendar": "holiday",
+    "time": "11:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "d526f449-83a7-482d-93a3-06cb555cfbf3",
+    "calendar": "holiday",
+    "time": "11:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "db4ce16c-e77a-4001-828b-a097ad933c9f",
+    "calendar": "holiday",
+    "time": "12:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "40cf1369-fd90-4b17-a16c-184f7ce7b923",
+    "calendar": "holiday",
+    "time": "12:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "2426208e-0384-495d-86f6-b1266c9523e7",
+    "calendar": "holiday",
+    "time": "13:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "f9f0864a-519e-47ac-be73-c4ebbda1f48e",
+    "calendar": "holiday",
+    "time": "13:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "2f33513b-f782-4796-8485-f04e3eabadbb",
+    "calendar": "holiday",
+    "time": "14:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "4bb2763c-dab5-4b04-bc17-09839e610615",
+    "calendar": "holiday",
+    "time": "15:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "919a6eef-7aa7-4107-b9f1-6f7f9e2660d1",
+    "calendar": "holiday",
+    "time": "15:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "c0e04f70-bc35-457f-94cf-fef6b666e470",
+    "calendar": "holiday",
+    "time": "15:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "27099bc3-9c52-457c-8249-f0eeaec40f71",
+    "calendar": "holiday",
+    "time": "15:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "eb114776-9789-448f-980e-fd48411f37cf",
+    "calendar": "holiday",
+    "time": "16:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "faca747b-c64f-4b7c-88a1-b8bc947e9e05",
+    "calendar": "holiday",
+    "time": "16:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "ad5cbf97-590b-4d34-8840-23d15bb596e0",
+    "calendar": "holiday",
+    "time": "17:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "aec18c62-965a-493d-98a2-9f964b90ea43",
+    "calendar": "holiday",
+    "time": "17:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "7a78dcf7-26ca-4ee5-be7e-00f344f2bd1e",
+    "calendar": "holiday",
+    "time": "18:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "51b52f20-1998-4456-b638-59cbb75af64d",
+    "calendar": "holiday",
+    "time": "18:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "76504772-a04f-4727-b7a9-d59db86e247c",
+    "calendar": "holiday",
+    "time": "19:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "f27985bc-90e6-4656-b2ba-72572a90aa63",
+    "calendar": "holiday",
+    "time": "19:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "b7289d26-516f-4de4-b380-c651a1b068e2",
+    "calendar": "holiday",
+    "time": "20:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "83d62123-8bae-4b48-a0a6-1a72a62ebfc4",
+    "calendar": "holiday",
+    "time": "20:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "01c38199-ebf7-4611-86f4-8d9905f56a1f",
+    "calendar": "holiday",
+    "time": "20:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "8b12e13b-1f04-441e-9218-55a53d00f58a",
+    "calendar": "weekday",
+    "time": "06:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "f4433971-d8e3-4f84-a9f7-faf6c91d384b",
+    "calendar": "weekday",
+    "time": "06:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "1d31eebd-1cb9-4578-aa65-374b918e3e43",
+    "calendar": "weekday",
+    "time": "07:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "1bb0cc7b-6a95-4d0b-8cfc-4a250b7204e6",
+    "calendar": "weekday",
+    "time": "07:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "bf82bb91-23a5-4592-a000-643486c71463",
+    "calendar": "weekday",
+    "time": "09:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "a1e48521-eeea-4a4e-bebc-b5fd719db0c5",
+    "calendar": "weekday",
+    "time": "09:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "b9f18bf6-0178-4e9d-9942-12579ea0ba37",
+    "calendar": "weekday",
+    "time": "11:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "766594ab-7160-4288-b03f-61a4a33fc6aa",
+    "calendar": "weekday",
+    "time": "13:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "b86a02fb-8112-438c-8f69-69b14bec6efb",
+    "calendar": "weekday",
+    "time": "14:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "dbed8595-636d-4ff2-86fc-6d67c7f4f34a",
+    "calendar": "weekday",
+    "time": "14:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "5e6ff988-fc3f-4b75-b56d-445bb54073b7",
+    "calendar": "weekday",
+    "time": "14:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "9082f820-5702-4f13-a7c7-10f46fed1317",
+    "calendar": "weekday",
+    "time": "15:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "6120c030-93db-4954-9d0e-d4b5ffc6d408",
+    "calendar": "weekday",
+    "time": "16:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "6a92b1d4-f775-47b3-af39-4063bdf8f415",
+    "calendar": "weekday",
+    "time": "17:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "0bbaff91-309d-4e97-9218-e00c3878dba2",
+    "calendar": "weekday",
+    "time": "18:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "b2fad86e-4b40-46aa-9343-0a4d1f925ad4",
+    "calendar": "saturday",
+    "time": "07:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "4d1dc8be-9a45-4c8c-a209-af6d32abfb33",
+    "calendar": "saturday",
+    "time": "07:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "6d4b039f-f8d4-4c3b-aead-259a99d4c087",
+    "calendar": "saturday",
+    "time": "08:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "e01445fe-00d7-49dd-b458-c2b0f2e6c663",
+    "calendar": "saturday",
+    "time": "09:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "88b77fc8-0980-4df5-8492-194bb4092a06",
+    "calendar": "saturday",
+    "time": "11:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "7b9efece-ca44-4af9-b039-4d2f6e4f6aa0",
+    "calendar": "saturday",
+    "time": "12:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "53b15452-cfa9-4db4-a3ed-251e3900f539",
+    "calendar": "saturday",
+    "time": "13:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "34d6ce59-5d26-471d-9319-37557aa76a67",
+    "calendar": "saturday",
+    "time": "15:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "493426c1-9567-4e6f-b736-a068e93bf3cd",
+    "calendar": "saturday",
+    "time": "16:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "aeb9836a-d125-4a59-be8d-d4dc5ebf4498",
+    "calendar": "saturday",
+    "time": "17:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "eb82f5da-5b56-4734-b452-738b7b4ec925",
+    "calendar": "holiday",
+    "time": "07:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "7c4888a3-0ce1-4513-8c17-af28d97ec7d5",
+    "calendar": "holiday",
+    "time": "07:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "98e33605-2626-470e-866d-3ac4c2b14e9c",
+    "calendar": "holiday",
+    "time": "08:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "9d602e75-0b0e-406e-9e62-680fb9190250",
+    "calendar": "holiday",
+    "time": "09:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "17b1cb76-7ba8-4854-a859-f88f68ad773c",
+    "calendar": "holiday",
+    "time": "11:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "2838ba3d-8d85-445d-95c4-bfa933923481",
+    "calendar": "holiday",
+    "time": "12:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "96a65f08-3d49-424e-832c-d73364f52685",
+    "calendar": "holiday",
+    "time": "13:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "eae29019-6da5-4ab4-8180-cad652189665",
+    "calendar": "holiday",
+    "time": "15:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "74dbadf3-e20e-43da-85c7-bbb45da20c33",
+    "calendar": "holiday",
+    "time": "16:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "364211c5-2f39-4a01-b925-2c690011f50f",
+    "calendar": "holiday",
+    "time": "17:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "0711f876-8153-4fb7-919d-7fd03358f30a",
+    "calendar": "weekday",
+    "time": "06:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "7008cbfb-dd1e-4379-bbca-5afb854b56bb",
+    "calendar": "weekday",
+    "time": "06:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "1009b6c9-9f01-4eda-8113-45ee6a81a6b2",
+    "calendar": "weekday",
+    "time": "07:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "016ceb82-908d-4d70-88e1-28b3ff481f8c",
+    "calendar": "weekday",
+    "time": "07:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "9ab08dfb-06e7-40d0-960b-eab22ab3b435",
+    "calendar": "weekday",
+    "time": "08:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "13444796-5c90-434b-9236-6ca545084c28",
+    "calendar": "weekday",
+    "time": "08:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "8508c186-4d84-4197-b2ed-19718ca8a884",
+    "calendar": "weekday",
+    "time": "09:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "aef48820-75e7-4419-b381-5819f92c1f81",
+    "calendar": "weekday",
+    "time": "10:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "0ae44901-9432-4985-ab4c-e2193046193a",
+    "calendar": "weekday",
+    "time": "10:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "4b8692c5-6889-4689-9c33-b03416ff4fad",
+    "calendar": "weekday",
+    "time": "11:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "bff0f1cb-4f92-45fd-b79d-6c65e3a716e8",
+    "calendar": "weekday",
+    "time": "13:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "880c8d26-f2ce-40ba-a540-176e38c16bb6",
+    "calendar": "weekday",
+    "time": "13:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "4dd72e09-acb2-4855-93d8-2483a311b374",
+    "calendar": "weekday",
+    "time": "14:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "c889c87f-75da-4f98-b15d-9bc60b827542",
+    "calendar": "weekday",
+    "time": "14:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "980681c9-9041-46cf-80c5-a448e42f5cc0",
+    "calendar": "weekday",
+    "time": "15:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "80c40958-e9b5-4b56-b038-68be47fb1bd1",
+    "calendar": "weekday",
+    "time": "15:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "a28838fb-451a-43d8-82a7-beec222bc65d",
+    "calendar": "weekday",
+    "time": "16:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "ace23755-07f0-46c1-aa90-0ce10cdd0bcb",
+    "calendar": "weekday",
+    "time": "16:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "b58429fb-3f4c-4ec2-b5b5-4f1514a378b7",
+    "calendar": "weekday",
+    "time": "17:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "0ec60707-af51-49d4-afbc-229ca8373db0",
+    "calendar": "weekday",
+    "time": "18:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "bb1a17ff-11a8-42e4-b27a-17e045f47bc0",
+    "calendar": "weekday",
+    "time": "19:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "95334b20-7072-4bee-a3ac-6b5c2ed52298",
+    "calendar": "weekday",
+    "time": "20:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "1f7671a9-7bbb-48da-bd09-636fc97ce18b",
+    "calendar": "saturday",
+    "time": "07:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "b4a36228-4326-4c4b-95c5-a3290fc1aff7",
+    "calendar": "saturday",
+    "time": "08:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "6cd33179-3482-49a4-abec-5a216b3afe4e",
+    "calendar": "saturday",
+    "time": "09:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "f135770e-9240-4766-8946-3422eb69a21e",
+    "calendar": "saturday",
+    "time": "09:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "3314e9f1-4b0f-41ce-984e-3f4ccd779347",
+    "calendar": "saturday",
+    "time": "10:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "7c412c5e-63dc-4058-b314-245ae20a90a4",
+    "calendar": "saturday",
+    "time": "11:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "f7793c87-9adc-4121-af00-2cf3768e0c22",
+    "calendar": "saturday",
+    "time": "12:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "4c531c1f-ce35-44a5-a6e1-561c0dab9ee6",
+    "calendar": "saturday",
+    "time": "13:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "79388d8b-efb4-4c4c-a7ee-8738cbecbd81",
+    "calendar": "saturday",
+    "time": "14:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "65b55e87-7613-4646-b899-9bba3bb99e94",
+    "calendar": "saturday",
+    "time": "15:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "6c25faa1-91a7-42dd-beed-0139b4f95d29",
+    "calendar": "saturday",
+    "time": "16:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "0d903800-311d-42e5-aea9-0901a02cbd19",
+    "calendar": "saturday",
+    "time": "17:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "89de88c2-52d4-4323-b457-a3c629e26935",
+    "calendar": "saturday",
+    "time": "18:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "b87ca72e-fb34-4404-9f70-e67a567427a9",
+    "calendar": "saturday",
+    "time": "19:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "f56d87a1-cb44-4ab3-9c87-02a64eb095e8",
+    "calendar": "saturday",
+    "time": "20:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "ccfc0bae-d413-4a10-94ef-6878140b71b9",
+    "calendar": "holiday",
+    "time": "07:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "d518f7de-1196-4264-a868-e176b2138432",
+    "calendar": "holiday",
+    "time": "08:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "fbe1bd18-3fc6-4f9f-a2fc-9077206e4714",
+    "calendar": "holiday",
+    "time": "09:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "b52cfc13-51ad-4ccf-959d-93efeb7b19c1",
+    "calendar": "holiday",
+    "time": "09:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "2fe53ffa-31eb-4168-8f1b-b2bc50596252",
+    "calendar": "holiday",
+    "time": "10:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "5a0651e7-95d2-49a3-8e48-5c601476ceed",
+    "calendar": "holiday",
+    "time": "11:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "dcea4a1c-a935-459c-bff7-fbff57c24bb9",
+    "calendar": "holiday",
+    "time": "12:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "b619566b-a620-45c6-a58d-74e070595c85",
+    "calendar": "holiday",
+    "time": "13:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "b48033f3-bc31-420c-ac92-595666bf6aa1",
+    "calendar": "holiday",
+    "time": "14:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "6650093a-5bb5-4426-9cb0-966dfe88a250",
+    "calendar": "holiday",
+    "time": "15:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "07e4e3df-f64e-4e58-aaee-65ad109d656f",
+    "calendar": "holiday",
+    "time": "16:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "061552ea-9e66-4627-9836-85f9245a316b",
+    "calendar": "holiday",
+    "time": "17:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "41b90b00-c931-4018-86e5-25dae026137d",
+    "calendar": "holiday",
+    "time": "18:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "b47f85b4-17a8-4b10-bbd4-655c2a7b2360",
+    "calendar": "holiday",
+    "time": "19:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "f2d6af2c-1ad8-4030-91ed-868c347b2ad7",
+    "calendar": "holiday",
+    "time": "20:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "474f40d8-a1d6-45bf-828c-98afeff27a53",
+    "calendar": "weekday",
+    "time": "06:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "69c03963-4480-49aa-bffe-1c3ee416bb49",
+    "calendar": "weekday",
+    "time": "07:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "4e44279c-143b-4595-b645-a62137e7cd5e",
+    "calendar": "weekday",
+    "time": "07:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "20027398-9e31-47a2-ae93-c5339e3e1fa0",
+    "calendar": "weekday",
+    "time": "08:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "2d2c3734-de94-4b26-956a-2a96adaee457",
+    "calendar": "weekday",
+    "time": "09:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "e73ac16d-e607-4ebd-8135-42ce0737794d",
+    "calendar": "weekday",
+    "time": "09:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "4cddf6dc-a690-4a05-a762-2939b2852f49",
+    "calendar": "weekday",
+    "time": "11:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "f1ff6d27-52d3-4f98-aae5-820b78242072",
+    "calendar": "weekday",
+    "time": "12:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "3e4b1625-0066-4472-9af1-989171a51015",
+    "calendar": "weekday",
+    "time": "13:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "3c53bc92-a40e-41a8-84ff-413fc8cef4c5",
+    "calendar": "weekday",
+    "time": "14:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "dfea54a9-74c4-4194-931e-9198a150f019",
+    "calendar": "weekday",
+    "time": "15:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "5e66b2ea-608e-4fa8-9636-d20bdca7243d",
+    "calendar": "weekday",
+    "time": "17:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "eb608a6b-2760-493f-8565-c092575e7c38",
+    "calendar": "weekday",
+    "time": "17:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "f5c83bdd-499b-4ef2-94db-c346f6aff3c0",
+    "calendar": "weekday",
+    "time": "18:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "4bfca611-c86c-42b3-bca1-7f914d38dfd1",
+    "calendar": "weekday",
+    "time": "19:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "1b6f1ca2-5aec-4029-80e8-733dfc3cc588",
+    "calendar": "weekday",
+    "time": "20:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "10efe22d-6038-42d6-aeb8-0b524251bb3a",
+    "calendar": "saturday",
+    "time": "06:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "3e50d36d-ecb4-4b05-9530-a7eb0c22613c",
+    "calendar": "saturday",
+    "time": "07:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "c07c19e3-6f75-4daf-85c0-151d19847646",
+    "calendar": "saturday",
+    "time": "08:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "a761ca41-81a7-4c45-9418-502c7e21ee61",
+    "calendar": "saturday",
+    "time": "08:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "e772b438-586d-4de2-a38d-061e705a9951",
+    "calendar": "saturday",
+    "time": "09:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "d707b295-9a70-4682-9b4a-6a68886cda50",
+    "calendar": "saturday",
+    "time": "10:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "c0c71614-48ae-4060-8b8d-34efb04437ea",
+    "calendar": "saturday",
+    "time": "11:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "e51f4022-39fc-4641-b451-c459dd0ed5d6",
+    "calendar": "saturday",
+    "time": "11:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "678080e3-161c-44a3-85f9-14abf23b07db",
+    "calendar": "saturday",
+    "time": "12:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "90efce02-8761-41a1-8391-ff9593142d5b",
+    "calendar": "saturday",
+    "time": "14:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "286ed51f-15d3-4834-bba1-73b50bbeb0a1",
+    "calendar": "saturday",
+    "time": "15:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "c7b1221a-cc20-487a-aa51-608ffd38c6b9",
+    "calendar": "saturday",
+    "time": "16:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "78a6eb23-26d3-47e6-ad0f-0d940d83a4a3",
+    "calendar": "saturday",
+    "time": "17:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "41bc54a0-a2a4-4694-b766-d141fab578ac",
+    "calendar": "saturday",
+    "time": "18:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "40cc78d1-68c0-433c-8b07-ed9d333e6be7",
+    "calendar": "saturday",
+    "time": "19:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "14d31ff9-0965-4221-860c-92984a95c263",
+    "calendar": "holiday",
+    "time": "07:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "ccbfd7ca-1f68-4ece-a485-869aafe78514",
+    "calendar": "holiday",
+    "time": "07:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "f14beb74-9753-410c-a92e-dfbce2052ccd",
+    "calendar": "holiday",
+    "time": "09:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "420a98b0-5f08-4804-971d-ebc9e1d3c1ff",
+    "calendar": "holiday",
+    "time": "09:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "91534441-1a74-4731-a239-e0f9fd2e8350",
+    "calendar": "holiday",
+    "time": "11:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "486d0e54-5223-44de-a77d-6e61df98eac1",
+    "calendar": "holiday",
+    "time": "11:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "e43fff0b-ae95-4919-9125-ec077be38fcb",
+    "calendar": "holiday",
+    "time": "12:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "b40d66b0-0904-4703-9c6c-e783aa51bbb8",
+    "calendar": "holiday",
+    "time": "14:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "b88150f2-e846-4357-8327-32fcd42c589c",
+    "calendar": "holiday",
+    "time": "15:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "40ff5e1d-7e61-41d4-bf21-2116fe66abe1",
+    "calendar": "holiday",
+    "time": "17:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "701db34c-685f-43ea-9846-27657049c061",
+    "calendar": "holiday",
+    "time": "18:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "aa8f08aa-0a41-456d-97a7-ab6b38d584bb",
+    "calendar": "holiday",
+    "time": "19:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "4685898c-53ac-471a-a7c7-edb601e2d2f3",
+    "calendar": "weekday",
+    "time": "06:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "e0860ece-873e-464e-a875-2c8c11f29e3f",
+    "calendar": "weekday",
+    "time": "07:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "29c57477-9471-4290-9f77-3a4d97ea8fe9",
+    "calendar": "weekday",
+    "time": "08:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "e6afea7f-a65c-4fde-88b0-aa7d7f9d156f",
+    "calendar": "weekday",
+    "time": "09:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "fc9e9508-40db-47df-b8c2-014a58e3bb64",
+    "calendar": "weekday",
+    "time": "12:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "117516cf-15b1-44f0-922b-b7c28bbbc011",
+    "calendar": "weekday",
+    "time": "13:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "129487f6-45c1-4b74-83f2-7142fc31017b",
+    "calendar": "weekday",
+    "time": "14:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "45a4a8d1-6ee8-4246-989b-cd433671e75c",
+    "calendar": "weekday",
+    "time": "15:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "649a878e-ae89-44e0-9aef-8cd10d2f4b5a",
+    "calendar": "weekday",
+    "time": "16:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "ffccd502-f421-4c98-9e9a-df6326377057",
+    "calendar": "weekday",
+    "time": "17:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "b3ce6139-7d71-4bc4-890d-1a92962540a8",
+    "calendar": "weekday",
+    "time": "18:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "7bb2cb69-29f6-46f2-b6c0-914a1d6c1a6d",
+    "calendar": "weekday",
+    "time": "19:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "875b485c-59ae-466f-978b-f96692ab74cd",
+    "calendar": "weekday",
+    "time": "20:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "b48014bd-06ee-4303-95c6-37a7e632b791",
+    "calendar": "saturday",
+    "time": "07:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "09256126-a94d-462d-af71-8a879a8afe5c",
+    "calendar": "saturday",
+    "time": "09:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "592fe21f-9c9d-4a1a-8ee1-0d8f4c0d10bc",
+    "calendar": "saturday",
+    "time": "12:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "7313f014-93d2-4fca-938d-51b84b90b11d",
+    "calendar": "saturday",
+    "time": "14:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "aa39eda1-8a17-4f12-82bd-8396e882790d",
+    "calendar": "saturday",
+    "time": "15:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "d7a38ef1-3ace-4415-8230-e4c82354ead7",
+    "calendar": "saturday",
+    "time": "17:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "d3a88a06-a17d-4fff-821b-5ee3fde5eee3",
+    "calendar": "saturday",
+    "time": "18:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "0e4108e2-3904-4b94-b29a-bed37935d1c7",
+    "calendar": "saturday",
+    "time": "20:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "4f324044-4689-4e50-94ef-102eb09ae7f3",
+    "calendar": "holiday",
+    "time": "07:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "039c2155-1109-457a-91ad-40e2ce4f20a7",
+    "calendar": "holiday",
+    "time": "09:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "295101c8-e7ff-48e7-ba19-6f7c2deb2916",
+    "calendar": "holiday",
+    "time": "12:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "53cc4aa2-6606-4e3d-9483-6bf256eb34d6",
+    "calendar": "holiday",
+    "time": "14:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "a735ed96-cf4b-413d-b14f-331fb44ea903",
+    "calendar": "holiday",
+    "time": "15:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "9f6cfe33-1945-49c7-a8b6-e73d2ec6c105",
+    "calendar": "holiday",
+    "time": "17:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "0e00344c-8916-459b-904b-ea66de64b988",
+    "calendar": "holiday",
+    "time": "18:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "58124bbe-0c85-4b8f-af85-b8b9b9c06c07",
+    "calendar": "holiday",
+    "time": "20:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "bf565965-a284-4181-869f-06844bc59920",
+    "calendar": "weekday",
+    "time": "06:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "e10f28c3-cb0a-4714-ab47-59e15a1d5348",
+    "calendar": "weekday",
+    "time": "06:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "8887fd66-6c2a-4a0b-82fa-fb56328b1cd2",
+    "calendar": "weekday",
+    "time": "06:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "740a707a-6570-4d8b-9215-38eb7bd6f1d3",
+    "calendar": "weekday",
+    "time": "07:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "0d80b3b5-9a8d-4447-b31b-2a644b235a8d",
+    "calendar": "weekday",
+    "time": "07:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "87b739b9-5d1e-4e00-83bd-bd0ca0fd696c",
+    "calendar": "weekday",
+    "time": "08:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "0f9237bc-c4ce-47f8-8f3b-1f20f2c37bf6",
+    "calendar": "weekday",
+    "time": "14:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "dae91f0b-444d-4d96-bbc2-e9d01f8dce13",
+    "calendar": "weekday",
+    "time": "15:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "1e0b9868-2149-42f7-863e-0c2daf17f22d",
+    "calendar": "weekday",
+    "time": "15:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "ff176584-2196-474c-be91-d2f7502b7c00",
+    "calendar": "weekday",
+    "time": "16:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "778d4f2b-0d3b-47ef-b5e9-100410c1ec40",
+    "calendar": "weekday",
+    "time": "16:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "0867489c-856b-47b3-8e3b-d0e7768d849f",
+    "calendar": "weekday",
+    "time": "17:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "144e5f0b-201f-49fc-9c18-af120c1a32e9",
+    "calendar": "weekday",
+    "time": "18:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "ffdd3913-2480-4d45-ac0a-8f3607be1879",
+    "calendar": "weekday",
+    "time": "19:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "d7edac7a-2632-44d2-99f7-5efbb575a909",
+    "calendar": "weekday",
+    "time": "20:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "59be36e2-855d-499e-ab5b-ea4ca1d597be",
+    "calendar": "weekday",
+    "time": "21:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "8f106484-a7ce-40d0-891c-ea23011df8ae",
+    "calendar": "saturday",
+    "time": "07:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "aeab2517-29e8-4a94-bf13-48e7ca222e6d",
+    "calendar": "saturday",
+    "time": "07:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "32c7785c-5d36-4a76-be34-35e5aaacad00",
+    "calendar": "saturday",
+    "time": "08:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "a8662e7a-140a-44d6-8ff0-45c60927ac47",
+    "calendar": "saturday",
+    "time": "09:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "b1af5ecf-7014-4920-9e32-6725b9538513",
+    "calendar": "saturday",
+    "time": "10:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "5fb89ff7-832d-4c1b-ae89-f1c07a46f6fd",
+    "calendar": "saturday",
+    "time": "11:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "69529e4e-06f1-40e1-9839-dca04551e110",
+    "calendar": "saturday",
+    "time": "12:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "dfc9cd79-3666-44c0-b7f8-c3eae564fce1",
+    "calendar": "saturday",
+    "time": "12:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "c2650b4c-f278-4a51-aa5b-8fb1dce3cce5",
+    "calendar": "saturday",
+    "time": "13:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "9fb9e5e5-28d2-43a0-982e-79eb3d5ab21b",
+    "calendar": "saturday",
+    "time": "13:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "dd057971-60ca-44fe-8571-6f78a4df26a1",
+    "calendar": "saturday",
+    "time": "14:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "41def7bd-8798-495a-aa17-9e116887aa23",
+    "calendar": "saturday",
+    "time": "14:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "ea5060f4-fa9f-4a88-ba65-c7d089464ffb",
+    "calendar": "saturday",
+    "time": "15:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "7da6234f-0fd0-425d-a840-978dc4787420",
+    "calendar": "saturday",
+    "time": "15:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "e7571c88-af6d-4880-af58-1a860f6d6b55",
+    "calendar": "saturday",
+    "time": "16:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "8bb5322a-a6cf-4819-93f2-1f6685f14246",
+    "calendar": "saturday",
+    "time": "17:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "15022043-9e4f-477d-aa75-cfe7cf996ca3",
+    "calendar": "saturday",
+    "time": "18:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "6a9dcb24-3e09-4305-a63f-9b1525e23859",
+    "calendar": "saturday",
+    "time": "19:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "673ff08a-d22f-4422-a9e1-47bca6bf1ff4",
+    "calendar": "saturday",
+    "time": "19:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "00f51043-0fc2-4ddc-83a9-464b48f8eed4",
+    "calendar": "saturday",
+    "time": "20:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "01406c57-28fa-41b9-ac63-7dd6a0c35efd",
+    "calendar": "saturday",
+    "time": "20:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "793d4102-5cc5-4e63-97f4-7309af477c1c",
+    "calendar": "saturday",
+    "time": "21:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "d5ab8f6f-2c8e-4430-9212-b756d033cb65",
+    "calendar": "holiday",
+    "time": "07:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "2d6881a6-fe55-4aeb-b1a2-ddbbd37f4729",
+    "calendar": "holiday",
+    "time": "07:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "a5438030-e076-473f-8648-4ac72b483242",
+    "calendar": "holiday",
+    "time": "08:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "3b57ee72-72d8-4f4a-93f9-60b9db28a867",
+    "calendar": "holiday",
+    "time": "09:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "0f3fa379-7d8b-409a-8291-a73c7b7a6b09",
+    "calendar": "holiday",
+    "time": "10:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "e80c2bb7-ae02-4b12-b1e4-38faa3c50414",
+    "calendar": "holiday",
+    "time": "11:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "47f49d38-b5b2-4e24-80eb-da3bd9937322",
+    "calendar": "holiday",
+    "time": "11:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "ed29c665-c981-4501-b6a8-cdcecef68c16",
+    "calendar": "holiday",
+    "time": "12:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "bca974f1-9148-40d7-9431-a5016924a3e0",
+    "calendar": "holiday",
+    "time": "12:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "3d57e84b-167c-4ef0-b4a2-0444ee3ea2a0",
+    "calendar": "holiday",
+    "time": "12:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "2efb55ac-6bb5-489e-9e42-48b1264df7e5",
+    "calendar": "holiday",
+    "time": "12:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "f5b8ee9d-16cf-4dd6-9f08-888a2f46f8df",
+    "calendar": "holiday",
+    "time": "13:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "c2dc7b4c-19c9-428a-9a79-266ab6e43da4",
+    "calendar": "holiday",
+    "time": "13:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "987c45e6-c501-49f6-b898-078063992d25",
+    "calendar": "holiday",
+    "time": "13:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "a6431be2-7941-45e4-b41d-e07984421db9",
+    "calendar": "holiday",
+    "time": "13:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "e73e6077-a2b1-4da6-9a26-0945e08776bd",
+    "calendar": "holiday",
+    "time": "14:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "bdbcdc3b-8d64-46fe-a59c-a099ad97a9db",
+    "calendar": "holiday",
+    "time": "14:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "964509d5-f331-4f4c-9ed7-f57ed8c088c6",
+    "calendar": "holiday",
+    "time": "14:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "b6894db8-1c4c-40a2-bb16-f9c1bbb2db13",
+    "calendar": "holiday",
+    "time": "14:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "f2906cb5-c0f5-466f-b80a-fb4492e57f9a",
+    "calendar": "holiday",
+    "time": "15:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "4b77c52e-6ccf-4a2a-b899-308bc73237a5",
+    "calendar": "holiday",
+    "time": "15:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "f44ef0f2-8146-4635-81cf-978f98b36ff1",
+    "calendar": "holiday",
+    "time": "15:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "a7729c6d-2a25-4958-8396-ba864b5410ab",
+    "calendar": "holiday",
+    "time": "15:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "80c3d82e-8623-45c8-ad63-d52a9041a6af",
+    "calendar": "holiday",
+    "time": "16:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "5f2dd201-0a53-4dc3-a1f9-f285df7653ba",
+    "calendar": "holiday",
+    "time": "16:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "dfb300d7-b706-4073-b73c-b6b972d4bf7c",
+    "calendar": "holiday",
+    "time": "17:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "5cbdd5f6-9fa1-43ca-ac3c-a419800eb78f",
+    "calendar": "holiday",
+    "time": "18:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "81cc853f-3939-4498-a4f2-bac40d0bbd82",
+    "calendar": "holiday",
+    "time": "19:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "353ec039-5e89-4357-8dff-2cdbc4a2dbda",
+    "calendar": "holiday",
+    "time": "19:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "9590361b-e960-4e69-bf79-d4bcf1a9b799",
+    "calendar": "holiday",
+    "time": "20:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "ce1ee7f6-3f47-46e8-b9d3-f83d05775cb6",
+    "calendar": "holiday",
+    "time": "20:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "b90700c5-a7d4-40cb-9d3a-2f81dfabf323",
+    "calendar": "holiday",
+    "time": "21:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "2c671712-c72d-4028-9e1e-5e8431a8fd2a",
+    "calendar": "weekday",
+    "time": "06:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "37365f83-2323-4662-832e-857a0d17f25c",
+    "calendar": "weekday",
+    "time": "07:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "2527ed0e-69d4-42c8-a73f-cbdb3456cdbb",
+    "calendar": "weekday",
+    "time": "07:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "6ccd8731-3837-43b5-8cce-75e700c1d594",
+    "calendar": "weekday",
+    "time": "08:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "2db0a8b8-d9d2-4918-849e-4024b2f7acb9",
+    "calendar": "weekday",
+    "time": "08:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "a78b903a-6517-4bcf-8009-26c97fda68e2",
+    "calendar": "weekday",
+    "time": "09:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "572a5420-1d8c-403c-b0fa-7606e4d24811",
+    "calendar": "weekday",
+    "time": "10:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "89740b43-4dfd-48f9-b67c-2da054dbcf11",
+    "calendar": "weekday",
+    "time": "10:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "d76e31a0-14dd-4fea-ad4f-168cbb0d0e00",
+    "calendar": "weekday",
+    "time": "12:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "f8c4bcfd-602d-48a4-9be5-3f5df18b4266",
+    "calendar": "weekday",
+    "time": "12:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "f3a16b8d-b092-4652-8bac-13e2f3ff0a26",
+    "calendar": "weekday",
+    "time": "13:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "fab41333-a2cc-4c72-a90f-6831fcd2fdd4",
+    "calendar": "weekday",
+    "time": "14:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "8f47944f-6239-4e40-83fb-f3b182793049",
+    "calendar": "weekday",
+    "time": "14:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "8e6f0192-f4b1-4114-b42b-be576f587a6b",
+    "calendar": "weekday",
+    "time": "14:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "15f3e3ad-03eb-465f-9512-88af353a2d25",
+    "calendar": "weekday",
+    "time": "15:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "91d7b572-b22a-4f5e-8079-a6220d3a6fac",
+    "calendar": "weekday",
+    "time": "16:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "677375fa-77eb-423c-a6bf-b57956c17c2f",
+    "calendar": "weekday",
+    "time": "17:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "27eedf7b-4d7f-4401-99b3-66e4c6b49214",
+    "calendar": "weekday",
+    "time": "18:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "a30947c8-2ffc-48d9-bc90-3c6827e6f740",
+    "calendar": "weekday",
+    "time": "19:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "f70833dc-f585-410e-814c-dd396b7a3525",
+    "calendar": "saturday",
+    "time": "06:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "80dd09d5-01b4-48be-9c82-94fcc77f7351",
+    "calendar": "saturday",
+    "time": "07:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "7e19da4b-84de-4ed7-a14e-f914e2a330f3",
+    "calendar": "saturday",
+    "time": "07:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "d1b04c4b-bdd3-4cb4-ac03-d872620f0ea2",
+    "calendar": "saturday",
+    "time": "09:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "6c8f892f-8383-4a07-aa1e-d1f8f128793e",
+    "calendar": "saturday",
+    "time": "12:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "6a55706d-48f2-47b7-8892-57df3f070837",
+    "calendar": "saturday",
+    "time": "14:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "dd1793c9-1f9f-45f1-934e-ad0b5587a9f7",
+    "calendar": "saturday",
+    "time": "14:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "7a901fc4-3041-4c3a-8aef-0da230935acc",
+    "calendar": "saturday",
+    "time": "15:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "9319c413-cbe2-4641-9214-78f516bd4cf2",
+    "calendar": "saturday",
+    "time": "17:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "8c42430c-fc9e-4ba3-b4d6-6e8fca6f2248",
+    "calendar": "saturday",
+    "time": "18:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "4417e1cb-39ae-4d58-8844-97552095eabb",
+    "calendar": "saturday",
+    "time": "19:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "8731bcd3-bbbb-4401-bd52-5da971dfda3e",
+    "calendar": "holiday",
+    "time": "06:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "80cffc37-ea8a-4a11-9b29-d2ba80496489",
+    "calendar": "holiday",
+    "time": "07:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "e4fce2bc-a53f-4072-91f1-82aa6d4ede8b",
+    "calendar": "holiday",
+    "time": "07:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "75fe4b03-d6b9-4a18-80aa-b38f00f407c3",
+    "calendar": "holiday",
+    "time": "09:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "9ebd5d20-4f4d-4928-970c-3d2efc0ca0a9",
+    "calendar": "holiday",
+    "time": "12:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "d0cec962-9ba4-4831-ac61-63831832cd3f",
+    "calendar": "holiday",
+    "time": "14:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "af846f5e-2979-4e83-916c-79847b8acbd2",
+    "calendar": "holiday",
+    "time": "14:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "c897eb77-047f-478b-95e9-490541ae70da",
+    "calendar": "holiday",
+    "time": "15:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "0a4ae2a7-8f5d-445d-8133-9a49d83d3a87",
+    "calendar": "holiday",
+    "time": "17:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "b21c9c5d-77c3-4bd7-8311-af0b59390f57",
+    "calendar": "holiday",
+    "time": "18:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "18f18450-6e98-438b-9f47-e681898f5174",
+    "calendar": "holiday",
+    "time": "19:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "9fe116fb-f124-4cc2-8293-ef8efb5da244",
+    "calendar": "weekday",
+    "time": "06:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "7611b095-6dd3-44ed-8f05-a460c5574f8d",
+    "calendar": "weekday",
+    "time": "07:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "648e820c-0b30-4965-9f5b-b6cd533e69c3",
+    "calendar": "weekday",
+    "time": "07:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "e36d8fb6-79b2-4343-9da4-1938bc1fe4ef",
+    "calendar": "weekday",
+    "time": "13:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "02dd0ba1-5b86-4dd9-8e00-f156ded5ccc9",
+    "calendar": "weekday",
+    "time": "14:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "4a4e3238-1377-45eb-8b0e-c23bbb244d3f",
+    "calendar": "weekday",
+    "time": "16:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "e2157736-a598-4ff7-bb70-ece926647f59",
+    "calendar": "weekday",
+    "time": "16:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "4fad1e91-851e-412a-b1c6-526e084dbea2",
+    "calendar": "weekday",
+    "time": "19:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "d2e6ee10-e494-4089-b26f-dc709ef28d80",
+    "calendar": "saturday",
+    "time": "06:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "0f26c380-b3cb-406b-9ad7-c37b6b375a2d",
+    "calendar": "saturday",
+    "time": "10:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "66a7df71-abd6-4a28-a343-e80ff0e70de8",
+    "calendar": "saturday",
+    "time": "14:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "0ab60357-9c61-4ee2-8183-d65432b3829a",
+    "calendar": "holiday",
+    "time": "06:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "ac48bd31-6e91-426f-a8a3-8589a49377f8",
+    "calendar": "holiday",
+    "time": "10:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "93199b11-0083-4649-9780-77e035dd3b48",
+    "calendar": "holiday",
+    "time": "14:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "3f2102c2-26ba-4cc9-b32f-7871130f77b7",
+    "calendar": "weekday",
+    "time": "06:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "f5f840c2-4871-4e54-bc49-fc115c5cb654",
+    "calendar": "weekday",
+    "time": "06:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "35307fd9-af22-4c08-8ce7-1a4318d68893",
+    "calendar": "weekday",
+    "time": "14:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "ad34e781-c079-401e-b56c-e5516de63cee",
+    "calendar": "weekday",
+    "time": "16:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "5ad08742-9b49-4cf8-90c0-1c50b2741898",
+    "calendar": "weekday",
+    "time": "16:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "549c2118-6939-46b1-a1c6-2943ba49d975",
+    "calendar": "saturday",
+    "time": "06:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "cf4bb9d8-484f-4a35-a7fd-618061512323",
+    "calendar": "saturday",
+    "time": "06:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "116ee681-f053-42f5-bf67-4f0683998461",
+    "calendar": "saturday",
+    "time": "07:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "eaaea64c-d062-4c37-ac19-351c387395ff",
+    "calendar": "saturday",
+    "time": "14:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "dd0314a2-bc11-4f01-96b8-a9706f0e6caa",
+    "calendar": "saturday",
+    "time": "15:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "4c9e79b9-9ccd-4877-87c9-e71f99777d0f",
+    "calendar": "saturday",
+    "time": "16:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "123",
+    "courseSid": "d15097d1-60f3-472c-894c-68ff4c6451df",
+    "tripSid": "0ef7c8f2-bf99-4d2d-bd06-a16a6cad8d2b",
+    "calendar": "weekday",
+    "time": "07:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "d0c41f2b-cd5e-4d08-aab3-4e785ad6b99b",
+    "calendar": "weekday",
+    "time": "06:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "148bff59-035d-4dc5-ae48-e5fe381bb775",
+    "calendar": "weekday",
+    "time": "07:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "548dc0d7-c290-4eec-9197-29563893e962",
+    "calendar": "weekday",
+    "time": "07:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "b0baa2f1-f3ba-4512-b46a-03ea07d69abe",
+    "calendar": "weekday",
+    "time": "08:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "2bff073d-b271-4a66-93bf-07482730d9c6",
+    "calendar": "weekday",
+    "time": "08:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "e1101195-f667-491d-8133-08755a68827e",
+    "calendar": "weekday",
+    "time": "09:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "b29d5704-a9e0-40fb-b5e4-786c835d4a51",
+    "calendar": "weekday",
+    "time": "09:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "da14b006-d4ef-49aa-84a5-1231e44abd78",
+    "calendar": "weekday",
+    "time": "10:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "564710b6-f79b-4f5d-ae6d-246f871f49c1",
+    "calendar": "weekday",
+    "time": "10:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "1e4ae35f-e58d-4205-9923-db053cb372b9",
+    "calendar": "weekday",
+    "time": "10:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "6f026c2b-4e29-4b74-ace0-a63818fc1003",
+    "calendar": "weekday",
+    "time": "11:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "ad7c183a-a8a9-43fa-a1f6-c0dea8f6e47f",
+    "calendar": "weekday",
+    "time": "11:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "784a7b52-8364-48e9-8bba-f410bb13492d",
+    "calendar": "weekday",
+    "time": "12:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "14f4a011-4f58-40b6-9d2e-f7e672b10270",
+    "calendar": "weekday",
+    "time": "13:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "08916b2a-c983-4b0e-a854-bacd11183a9a",
+    "calendar": "weekday",
+    "time": "14:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "b86f038b-1525-4035-ac4b-c58754af2bdd",
+    "calendar": "saturday",
+    "time": "07:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "e5a10fc2-0a2f-4dd6-9bd6-bb78e3b5da04",
+    "calendar": "saturday",
+    "time": "08:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "54e08d1c-70ba-487b-8fbe-9cf3596f9793",
+    "calendar": "saturday",
+    "time": "09:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "0360a5d9-9049-4cc9-8e8a-369786fe9290",
+    "calendar": "saturday",
+    "time": "10:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "5b90354c-b8ed-4a5d-8543-c61362d80ac6",
+    "calendar": "holiday",
+    "time": "07:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "0a132416-2709-4226-9893-a31b3c91623d",
+    "calendar": "holiday",
+    "time": "08:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "599708ea-eddb-4c74-aaa5-bf112ff5ba1d",
+    "calendar": "holiday",
+    "time": "09:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "127f9251-e5d2-450c-ac83-92c4381a0a2a",
+    "calendar": "holiday",
+    "time": "10:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "223",
+    "courseSid": "c0ea39ac-b9e4-4254-af0f-b0392e81ae4a",
+    "tripSid": "8bdd6aba-83ee-4ccb-895f-a177f7ad7d62",
+    "calendar": "weekday",
+    "time": "10:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "223",
+    "courseSid": "c0ea39ac-b9e4-4254-af0f-b0392e81ae4a",
+    "tripSid": "0869cacc-c5d8-4cfd-8941-e3fb35ed1a89",
+    "calendar": "weekday",
+    "time": "12:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "223",
+    "courseSid": "c0ea39ac-b9e4-4254-af0f-b0392e81ae4a",
+    "tripSid": "6da7acc4-0677-4ace-9940-c4095e81c964",
+    "calendar": "saturday",
+    "time": "08:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "223",
+    "courseSid": "c0ea39ac-b9e4-4254-af0f-b0392e81ae4a",
+    "tripSid": "dc36c0f0-15af-4581-8340-f831fb498152",
+    "calendar": "holiday",
+    "time": "08:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "263",
+    "courseSid": "accb1306-2b57-4932-9dca-8013112887ba",
+    "tripSid": "fe7377c4-70b9-4781-9d66-047dad88576a",
+    "calendar": "weekday",
+    "time": "13:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "263",
+    "courseSid": "accb1306-2b57-4932-9dca-8013112887ba",
+    "tripSid": "47e49410-c25a-4d93-b471-21f98e6a2d1a",
+    "calendar": "weekday",
+    "time": "16:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "263",
+    "courseSid": "accb1306-2b57-4932-9dca-8013112887ba",
+    "tripSid": "97e09de9-e6c4-4cdb-83f9-cad6204d9a28",
+    "calendar": "saturday",
+    "time": "13:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "263",
+    "courseSid": "accb1306-2b57-4932-9dca-8013112887ba",
+    "tripSid": "1b93134e-9120-4a19-98e7-a0b27064e12f",
+    "calendar": "saturday",
+    "time": "15:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "263",
+    "courseSid": "accb1306-2b57-4932-9dca-8013112887ba",
+    "tripSid": "b6f1d72a-d3ee-419f-a40e-3b75152fb084",
+    "calendar": "holiday",
+    "time": "13:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11760100",
+    "stopName": "安慶田（山里・沖縄南IC向け）",
+    "routeNo": "263",
+    "courseSid": "accb1306-2b57-4932-9dca-8013112887ba",
+    "tripSid": "ade0ce9c-bbd8-4287-9b94-c24009f2515a",
+    "calendar": "holiday",
+    "time": "16:07",
+    "parentCompanyCode": "8000"
+  }
+]
