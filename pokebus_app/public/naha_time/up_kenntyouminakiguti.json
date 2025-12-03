@@ -1,0 +1,5292 @@
+[
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "4",
+    "courseSid": "3e045bd1-4a5f-4e9d-b0fe-077790b02b3e",
+    "tripSid": "27338570-5a19-4096-8448-65068199e785",
+    "calendar": "weekday",
+    "time": "07:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "4",
+    "courseSid": "3e045bd1-4a5f-4e9d-b0fe-077790b02b3e",
+    "tripSid": "c529dfae-748f-436c-b4fe-bd9c14695a57",
+    "calendar": "weekday",
+    "time": "08:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "4",
+    "courseSid": "3e045bd1-4a5f-4e9d-b0fe-077790b02b3e",
+    "tripSid": "cae704f1-37ad-4cde-aae7-c3fd78ce52de",
+    "calendar": "weekday",
+    "time": "08:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "4",
+    "courseSid": "3e045bd1-4a5f-4e9d-b0fe-077790b02b3e",
+    "tripSid": "eb296629-cbf8-4578-a0f7-af282016adaa",
+    "calendar": "weekday",
+    "time": "09:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "4",
+    "courseSid": "3e045bd1-4a5f-4e9d-b0fe-077790b02b3e",
+    "tripSid": "c6ba7529-5f6b-4578-ad0c-4413f299be68",
+    "calendar": "weekday",
+    "time": "16:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "4",
+    "courseSid": "3e045bd1-4a5f-4e9d-b0fe-077790b02b3e",
+    "tripSid": "efb6fa31-a9a2-4f67-9c8a-0bebd7307b49",
+    "calendar": "weekday",
+    "time": "18:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "4",
+    "courseSid": "3e045bd1-4a5f-4e9d-b0fe-077790b02b3e",
+    "tripSid": "00bfff8e-9c6c-407a-84ec-dfe7ec6604e2",
+    "calendar": "saturday",
+    "time": "07:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "4",
+    "courseSid": "3e045bd1-4a5f-4e9d-b0fe-077790b02b3e",
+    "tripSid": "ebe5606e-2623-4809-926b-a63cd4f38ccb",
+    "calendar": "saturday",
+    "time": "09:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "4",
+    "courseSid": "3e045bd1-4a5f-4e9d-b0fe-077790b02b3e",
+    "tripSid": "c653215e-eae4-4a59-9f72-8736dc61ff10",
+    "calendar": "saturday",
+    "time": "11:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "4",
+    "courseSid": "3e045bd1-4a5f-4e9d-b0fe-077790b02b3e",
+    "tripSid": "d576d7e3-76a1-4290-b1fd-67b3f1402327",
+    "calendar": "saturday",
+    "time": "13:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "4",
+    "courseSid": "3e045bd1-4a5f-4e9d-b0fe-077790b02b3e",
+    "tripSid": "1bd1d330-74bb-4791-a403-f69ade75c4d6",
+    "calendar": "saturday",
+    "time": "15:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "4",
+    "courseSid": "3e045bd1-4a5f-4e9d-b0fe-077790b02b3e",
+    "tripSid": "a5f1ef75-a83d-4b19-bdfe-5f91578872f4",
+    "calendar": "holiday",
+    "time": "07:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "4",
+    "courseSid": "3e045bd1-4a5f-4e9d-b0fe-077790b02b3e",
+    "tripSid": "8961dd12-17bd-4204-835b-5be37d5da57d",
+    "calendar": "holiday",
+    "time": "09:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "4",
+    "courseSid": "3e045bd1-4a5f-4e9d-b0fe-077790b02b3e",
+    "tripSid": "2e4a6331-4c5e-41b5-9ebc-84d297f96f57",
+    "calendar": "holiday",
+    "time": "11:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "4",
+    "courseSid": "3e045bd1-4a5f-4e9d-b0fe-077790b02b3e",
+    "tripSid": "9e9ddebd-cac8-483b-a91b-202458d1eef7",
+    "calendar": "holiday",
+    "time": "11:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "4",
+    "courseSid": "3e045bd1-4a5f-4e9d-b0fe-077790b02b3e",
+    "tripSid": "4c8c913b-c94b-452d-9326-0a38acfdc4ed",
+    "calendar": "holiday",
+    "time": "13:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "4",
+    "courseSid": "3e045bd1-4a5f-4e9d-b0fe-077790b02b3e",
+    "tripSid": "a632803f-bfc7-4e87-b5dd-3f2b015104ff",
+    "calendar": "holiday",
+    "time": "13:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "4",
+    "courseSid": "3e045bd1-4a5f-4e9d-b0fe-077790b02b3e",
+    "tripSid": "82abca98-de74-4434-8a11-275e5ca300e5",
+    "calendar": "holiday",
+    "time": "15:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "4",
+    "courseSid": "3e045bd1-4a5f-4e9d-b0fe-077790b02b3e",
+    "tripSid": "5aa709f0-456f-4971-9742-37083e08c71d",
+    "calendar": "holiday",
+    "time": "15:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "d25c7792-3257-4b66-ab58-c8698fa6d668",
+    "calendar": "weekday",
+    "time": "06:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "bb55bb94-69d7-4b5c-933f-454d213ecc93",
+    "calendar": "weekday",
+    "time": "06:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "55131bd2-899f-44ab-b704-a9523030a39f",
+    "calendar": "weekday",
+    "time": "06:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "dac41d80-5b4c-41f8-b3c5-d7368692475e",
+    "calendar": "weekday",
+    "time": "06:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "663c5801-9888-40d6-828f-4aadcfff27b0",
+    "calendar": "weekday",
+    "time": "07:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "f8940884-535c-4386-9e27-0f85e80032d8",
+    "calendar": "weekday",
+    "time": "07:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "a1044389-7054-4ffd-9075-881d758d9356",
+    "calendar": "weekday",
+    "time": "07:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "7d07969b-817a-43a2-a89b-1620e72c8d1d",
+    "calendar": "weekday",
+    "time": "08:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "3e9d960a-27c1-482a-85da-09cdab69bc08",
+    "calendar": "weekday",
+    "time": "08:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "b9c89552-86bb-4bf7-9cde-91e8abe29325",
+    "calendar": "weekday",
+    "time": "09:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "6b327819-944e-4238-b5b4-a67e910aa6e7",
+    "calendar": "weekday",
+    "time": "09:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "993be20d-7d47-4e22-bc55-591bcbdb8122",
+    "calendar": "weekday",
+    "time": "10:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "501c3c8d-0f13-4f05-8c2c-d6656a54dc7c",
+    "calendar": "weekday",
+    "time": "10:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "27aa628e-0ca8-4657-9251-b56e63c3f35a",
+    "calendar": "weekday",
+    "time": "11:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "d6ea3bd7-400d-4052-a7eb-cfd922ce8638",
+    "calendar": "weekday",
+    "time": "12:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "a249632c-ec9a-4a04-bc52-3cb471fef4c0",
+    "calendar": "weekday",
+    "time": "13:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "4f24b126-1a99-4d65-bf3e-320f0fe06a8a",
+    "calendar": "weekday",
+    "time": "13:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "db2531de-b85e-4bbd-92ea-32673f7b1607",
+    "calendar": "weekday",
+    "time": "14:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "bd3d59cc-7af1-4e19-b1ad-a0f500d006c7",
+    "calendar": "weekday",
+    "time": "14:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "a1cad452-f9a0-46f5-8ec7-767b78556057",
+    "calendar": "weekday",
+    "time": "15:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "43bfa5f3-3b17-4248-bafd-d7569f33c3a5",
+    "calendar": "weekday",
+    "time": "15:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "d5eceada-dc33-49dd-8e43-61502b66f165",
+    "calendar": "weekday",
+    "time": "16:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "759e1a8c-1f54-4eb7-a45e-7b8a5b179840",
+    "calendar": "weekday",
+    "time": "16:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "87e606b4-f6d8-4e2f-842b-b7692223c2de",
+    "calendar": "weekday",
+    "time": "17:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "ea92dd9b-dc42-4964-ada3-2d467c064177",
+    "calendar": "weekday",
+    "time": "17:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "a1a3a0f7-48aa-4562-b463-b8584f63ac45",
+    "calendar": "weekday",
+    "time": "17:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "de5b469a-465d-4c2c-b38e-f417a24ce3ed",
+    "calendar": "weekday",
+    "time": "18:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "0d197fd4-5a61-46da-8fcd-f0ce81075728",
+    "calendar": "weekday",
+    "time": "18:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "8e434170-2961-457d-81fd-9d90a3c24c24",
+    "calendar": "weekday",
+    "time": "19:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "7f6eb451-f1a6-47bc-b41c-939c6ccef1e8",
+    "calendar": "weekday",
+    "time": "20:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "8d3ca972-677e-4ce0-b610-bd5d72f1dc48",
+    "calendar": "saturday",
+    "time": "06:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "5c863579-2e64-4c33-aa7d-6620af9462c2",
+    "calendar": "saturday",
+    "time": "07:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "0b364d01-1d94-463e-9365-f980e57cfe23",
+    "calendar": "saturday",
+    "time": "07:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "1d996a20-d06c-4df2-8826-3dd433c6ac8f",
+    "calendar": "saturday",
+    "time": "08:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "822a4710-42ff-4095-a50f-9af07eb2f4bc",
+    "calendar": "saturday",
+    "time": "09:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "3dd2f0b8-2191-4774-8e03-c5f4015e9ca6",
+    "calendar": "saturday",
+    "time": "10:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "5f21b798-89f3-4297-9f70-b5617f344650",
+    "calendar": "saturday",
+    "time": "11:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "aeffb1bb-72c0-44b6-9242-3d250c0744bc",
+    "calendar": "saturday",
+    "time": "11:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "216ac1a5-33ef-4a84-8913-90f9868ac12b",
+    "calendar": "saturday",
+    "time": "12:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "04ec3ee3-40f3-4437-ade8-6c56f7d61030",
+    "calendar": "saturday",
+    "time": "13:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "19ad8c3e-870c-43c7-8bde-30babc604e9e",
+    "calendar": "saturday",
+    "time": "14:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "6f9a4ba5-0445-4b44-a230-1a4d40263b67",
+    "calendar": "saturday",
+    "time": "15:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "8472c05f-8b51-400c-86df-293a7b4ac0b9",
+    "calendar": "saturday",
+    "time": "16:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "11ea9a3f-fea0-441f-97d0-40d6d5089bac",
+    "calendar": "saturday",
+    "time": "17:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "c2088a0c-ef9a-452b-a4d3-2cc85075e494",
+    "calendar": "saturday",
+    "time": "18:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "1276de03-8a1c-43ca-ba77-d2162a2f95e5",
+    "calendar": "saturday",
+    "time": "19:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "eb70f82c-9c84-4a50-9226-f674ae6163f9",
+    "calendar": "saturday",
+    "time": "20:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "cc1fe0c5-b6bb-40e8-88d6-6f403afe7707",
+    "calendar": "saturday",
+    "time": "20:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "49ffb7c2-f88f-40f0-a83f-1b83616516b5",
+    "calendar": "holiday",
+    "time": "06:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "22b75076-8513-46d2-960f-08abb2378b76",
+    "calendar": "holiday",
+    "time": "07:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "2043deac-b828-4e64-9379-b91f8d873730",
+    "calendar": "holiday",
+    "time": "07:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "7c059336-5da9-4932-9c7a-891341eb1ba4",
+    "calendar": "holiday",
+    "time": "08:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "47077da3-6d8d-47a8-b7a4-e8170cceef2b",
+    "calendar": "holiday",
+    "time": "09:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "2187576e-901c-40e3-85b6-aa49d37c6c33",
+    "calendar": "holiday",
+    "time": "10:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "b315246d-d7f5-4fbb-beae-bfbc741508db",
+    "calendar": "holiday",
+    "time": "11:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "04638323-209d-48c6-9add-4d5ba04ef46f",
+    "calendar": "holiday",
+    "time": "11:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "9ae5f6d8-dd83-4bff-9c9b-bade93894663",
+    "calendar": "holiday",
+    "time": "12:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "0991a7f9-9f4b-4070-8b7c-72debf6ebe1b",
+    "calendar": "holiday",
+    "time": "13:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "0b375d72-a722-4dbd-91cc-27f9b3ee8154",
+    "calendar": "holiday",
+    "time": "14:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "43e0ee7e-f223-4d23-aa78-71e951fb2c88",
+    "calendar": "holiday",
+    "time": "15:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "51d7299c-67d4-4eb6-bbe8-44fcf1137710",
+    "calendar": "holiday",
+    "time": "16:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "0c143462-fd79-418c-bfd3-e6f13de37c3e",
+    "calendar": "holiday",
+    "time": "17:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "6210edf6-cd7e-4120-944d-7a4ce04591e9",
+    "calendar": "holiday",
+    "time": "18:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "8d0b266c-91d8-4845-9e91-37f0522c40e3",
+    "calendar": "holiday",
+    "time": "19:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "65a9b8a4-9917-4062-8c95-c5e944fc3e27",
+    "calendar": "holiday",
+    "time": "20:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "ac9d37ed-09c1-4037-b84c-fe2a4d2bfdd1",
+    "calendar": "holiday",
+    "time": "20:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "91a60c67-760c-4e12-a65b-55371546a90c",
+    "calendar": "weekday",
+    "time": "07:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "a75e6e25-be00-4868-811c-0b3a9183f430",
+    "calendar": "weekday",
+    "time": "07:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "6b74e8e3-d75d-4a7b-be1b-33f45cbf5553",
+    "calendar": "weekday",
+    "time": "07:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "6050185b-8aa8-4e0a-80b0-efae35552254",
+    "calendar": "weekday",
+    "time": "08:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "2e888159-6200-4a32-ab61-7434a0cbf518",
+    "calendar": "weekday",
+    "time": "08:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "2d99740f-c83b-4c92-876f-0c921b48e3ad",
+    "calendar": "weekday",
+    "time": "08:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "f38f77a6-05cc-41e2-bc34-968d35f03a4b",
+    "calendar": "weekday",
+    "time": "09:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "30169b4d-d63b-4539-9482-d9a045bc7793",
+    "calendar": "weekday",
+    "time": "09:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "e4b7c191-35f2-4913-ad76-9510e88cd03a",
+    "calendar": "weekday",
+    "time": "10:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "42c8a652-f17a-4b62-baaa-61990f47b5e4",
+    "calendar": "weekday",
+    "time": "10:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "003d890f-5472-4e84-87b9-df03b71de0dd",
+    "calendar": "weekday",
+    "time": "11:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "9a0de4f7-c914-4514-a5f5-6de166ccca65",
+    "calendar": "weekday",
+    "time": "12:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "79ef2dcc-ddf6-4f67-b226-cafc75c7ec7a",
+    "calendar": "weekday",
+    "time": "13:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "3e6f8e96-a84b-4b7e-a15b-c6ff6831f9b5",
+    "calendar": "weekday",
+    "time": "14:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "7d0febbd-0dab-48e6-b6e9-96ff1c4464de",
+    "calendar": "weekday",
+    "time": "14:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "5141d369-401a-49e0-abf0-beb4cba9c4b0",
+    "calendar": "weekday",
+    "time": "15:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "464b922e-2d97-4dbc-94f1-31e9fc864a00",
+    "calendar": "weekday",
+    "time": "16:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "7c16d163-582e-40eb-ad4d-37b232ecfef6",
+    "calendar": "weekday",
+    "time": "16:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "b5271602-fe36-4370-b8a1-e35b859fa92a",
+    "calendar": "weekday",
+    "time": "17:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "ab71d4f6-ef32-4adc-b1cf-c4d2a0d20796",
+    "calendar": "weekday",
+    "time": "17:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "efc5eed4-c5c8-4440-9ea0-eed3bcc1b99f",
+    "calendar": "weekday",
+    "time": "18:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "155d5aad-180b-43b8-ad07-fd8c3d83b49c",
+    "calendar": "weekday",
+    "time": "18:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "4e09804e-c46a-441b-96fa-5dabd72ee754",
+    "calendar": "weekday",
+    "time": "19:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "07113ac2-68a2-42ff-a8a9-c7413ca44dcc",
+    "calendar": "weekday",
+    "time": "20:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "751839e4-016f-4f1e-8c47-5254975c9e2b",
+    "calendar": "weekday",
+    "time": "20:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "45d9653e-5493-472a-87d9-26c45e69eb35",
+    "calendar": "weekday",
+    "time": "21:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "1d27f2f7-fce8-4b9d-a5ab-6847a1e3fd91",
+    "calendar": "saturday",
+    "time": "07:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "d73fdd5c-45c0-4a4a-b08f-edbd269285d4",
+    "calendar": "saturday",
+    "time": "08:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "04c0afca-1768-47d3-b801-d3b475b88cce",
+    "calendar": "saturday",
+    "time": "09:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "c808c447-6ba7-45a5-b29d-7ff2ff385864",
+    "calendar": "saturday",
+    "time": "09:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "69ba5a80-5dbe-4dc6-bc63-319fe7c56405",
+    "calendar": "saturday",
+    "time": "10:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "aaba7ca5-20c2-4662-9967-ed5178b1cff9",
+    "calendar": "saturday",
+    "time": "11:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "bbb719ba-21b5-4588-91fc-c219f8ce665f",
+    "calendar": "saturday",
+    "time": "12:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "c25d1d82-cecc-436b-a185-e452577fb9ad",
+    "calendar": "saturday",
+    "time": "12:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "23a3e3ae-e35b-4702-989a-b3f8320344b4",
+    "calendar": "saturday",
+    "time": "13:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "0d8b9eb3-8826-4e8f-a354-662dd0c116a5",
+    "calendar": "saturday",
+    "time": "14:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "91e38ab9-8e93-4fa8-a2f4-9c6e13d9747a",
+    "calendar": "saturday",
+    "time": "15:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "bf9c9807-52aa-4f72-94e3-20a8a1fa480c",
+    "calendar": "saturday",
+    "time": "15:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "bad2e491-31ae-4d8d-9066-7ac897198f0c",
+    "calendar": "saturday",
+    "time": "16:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "02fa01ea-b0e2-4fc2-9828-613e2271e9ad",
+    "calendar": "saturday",
+    "time": "17:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "60bcf386-2dd6-41d4-a956-458e1717a54f",
+    "calendar": "saturday",
+    "time": "17:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "2a02b6b4-027a-4332-af9a-c44fbd77cd29",
+    "calendar": "saturday",
+    "time": "18:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "c756a145-32ef-4cd3-9544-e6b3a0e96eaa",
+    "calendar": "saturday",
+    "time": "19:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "074febad-4349-481c-8c41-d343bebb32fe",
+    "calendar": "saturday",
+    "time": "19:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "e2a22863-f0c9-4acb-b1cf-0852306b4b9d",
+    "calendar": "saturday",
+    "time": "20:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "824ceee1-3a2f-4e6e-a4e7-90b57298e30f",
+    "calendar": "holiday",
+    "time": "07:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "a28e737a-ad60-4635-abb2-728a5b471ecf",
+    "calendar": "holiday",
+    "time": "08:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "884a3817-be4c-4cb6-b566-2eef7540b263",
+    "calendar": "holiday",
+    "time": "09:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "0f557c76-4952-4aa2-a6aa-b599a90e554e",
+    "calendar": "holiday",
+    "time": "09:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "ccf36713-0d4c-43cf-aee5-eb73e6075893",
+    "calendar": "holiday",
+    "time": "10:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "166d5460-efbc-4f1b-a4e2-3ad4020ad68b",
+    "calendar": "holiday",
+    "time": "11:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "3af3fabf-fcaa-4a77-b562-55c02ae6e35e",
+    "calendar": "holiday",
+    "time": "12:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "f7f2301b-0fdb-457e-9f97-9438edc57e19",
+    "calendar": "holiday",
+    "time": "12:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "33a7c49c-24ce-4f0a-9db3-9753163a2aa2",
+    "calendar": "holiday",
+    "time": "13:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "957aef5e-c2b2-4001-926a-7f84d4db32b3",
+    "calendar": "holiday",
+    "time": "14:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "71463e9e-d434-4370-a16a-861399865ab4",
+    "calendar": "holiday",
+    "time": "15:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "cef60f48-e7f5-4a71-9172-a1a34a6e178f",
+    "calendar": "holiday",
+    "time": "15:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "4a43b705-034e-4d69-a443-72a5fc4d674e",
+    "calendar": "holiday",
+    "time": "16:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "7fa3c836-169e-4812-8490-cae10771eb91",
+    "calendar": "holiday",
+    "time": "17:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "7e90e1a4-e6a4-49ca-932c-e6df4247969c",
+    "calendar": "holiday",
+    "time": "17:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "20dea631-4e76-4599-bda8-8e668fc7fdd6",
+    "calendar": "holiday",
+    "time": "18:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "2feb9efa-f2bf-4dd9-afc0-2e361114936a",
+    "calendar": "holiday",
+    "time": "19:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "3bf51b2d-8d47-4569-835c-bf93e2b242a1",
+    "calendar": "holiday",
+    "time": "19:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "a1c644f1-34fd-4c3d-8b9f-dd20d9c842bd",
+    "calendar": "holiday",
+    "time": "20:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "12",
+    "courseSid": "aa3374bb-0298-4b05-a605-be51bcc63e8c",
+    "tripSid": "8877176d-e14b-459f-b8e1-b1a10a43b810",
+    "calendar": "weekday",
+    "time": "20:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "12",
+    "courseSid": "aa3374bb-0298-4b05-a605-be51bcc63e8c",
+    "tripSid": "b4c31310-22bd-4f17-8773-d91c2d9b0621",
+    "calendar": "weekday",
+    "time": "21:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "12",
+    "courseSid": "aa3374bb-0298-4b05-a605-be51bcc63e8c",
+    "tripSid": "eb020ad7-22ff-45e0-bc22-471f5f5ee1e3",
+    "calendar": "saturday",
+    "time": "19:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "12",
+    "courseSid": "aa3374bb-0298-4b05-a605-be51bcc63e8c",
+    "tripSid": "5af8f0d7-982e-4fd3-9f52-e2836fd15ee5",
+    "calendar": "saturday",
+    "time": "20:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "12",
+    "courseSid": "aa3374bb-0298-4b05-a605-be51bcc63e8c",
+    "tripSid": "8182a26e-ba1b-4911-8794-69120e00eaa8",
+    "calendar": "holiday",
+    "time": "19:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "12",
+    "courseSid": "aa3374bb-0298-4b05-a605-be51bcc63e8c",
+    "tripSid": "1cd0d945-7f3a-4e2b-b6bc-13f7ec709d68",
+    "calendar": "holiday",
+    "time": "19:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "d7b31ddd-b4f9-47ed-b041-f9ab4de9801c",
+    "calendar": "weekday",
+    "time": "06:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "a719125c-ca80-4d54-b4bc-575612b63a7d",
+    "calendar": "weekday",
+    "time": "07:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "0f7a75ec-fb73-4dce-8660-cef2f016e00b",
+    "calendar": "weekday",
+    "time": "07:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "a4b40dd4-1d40-4170-834d-7d789f42ece1",
+    "calendar": "weekday",
+    "time": "09:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "b1f8c273-0801-482c-bf37-3880c0418f0d",
+    "calendar": "weekday",
+    "time": "10:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "fe9464f1-9e7c-47dc-9b46-986c078052df",
+    "calendar": "weekday",
+    "time": "12:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "9362018d-2fe7-4f24-be96-0ab1fa20682f",
+    "calendar": "weekday",
+    "time": "14:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "f1a9bfc9-b5d6-4f42-9337-0d0c928c3b62",
+    "calendar": "weekday",
+    "time": "15:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "934ffd9a-ca3a-4b55-a1aa-f2c138e4cb51",
+    "calendar": "weekday",
+    "time": "16:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "43f18429-d25e-4377-8ba0-49d5967a06ce",
+    "calendar": "weekday",
+    "time": "17:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "8e59ae64-7508-4d61-9bd3-4488eb76b68e",
+    "calendar": "weekday",
+    "time": "19:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "2930efb2-e14a-4c16-8477-d1af4a2798b9",
+    "calendar": "weekday",
+    "time": "19:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "f288324f-8156-4228-92a9-337f75bae802",
+    "calendar": "saturday",
+    "time": "06:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "d7fa71f7-d7dd-4351-bb49-ce787381339e",
+    "calendar": "saturday",
+    "time": "09:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "acc280f5-3463-4fcc-9a09-61f76008a3ad",
+    "calendar": "saturday",
+    "time": "11:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "1390feae-4ae1-42c3-bc38-38e330c238c2",
+    "calendar": "saturday",
+    "time": "13:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "bf4c2e3a-0b51-4e87-bc10-5d1fabb1ae2e",
+    "calendar": "saturday",
+    "time": "16:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "7177d9e4-3331-4c9d-a25a-af9f63bdeea0",
+    "calendar": "saturday",
+    "time": "18:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "b56674b8-c67d-4bf9-a4fb-c576c588561f",
+    "calendar": "holiday",
+    "time": "06:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "9f6c55db-4355-4545-b908-49853ff4b9cb",
+    "calendar": "holiday",
+    "time": "09:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "b273daf3-8c57-4384-9379-e55c239a17e4",
+    "calendar": "holiday",
+    "time": "11:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "96e76cab-7541-4cba-84cb-0a4f62a03d01",
+    "calendar": "holiday",
+    "time": "13:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "13f68116-5074-43b1-8b9d-c41784050b6d",
+    "calendar": "holiday",
+    "time": "16:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "17",
+    "courseSid": "0de7f842-d0ee-4a7e-be23-0dd3e000b2df",
+    "tripSid": "71b36caf-6c3c-449e-ad34-0a06d28413b3",
+    "calendar": "holiday",
+    "time": "18:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "dc6caca0-f7a0-4d16-b97e-92751a5f066c",
+    "calendar": "weekday",
+    "time": "07:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "a69e902e-4db8-47a5-bf3c-c2a27f2a4a30",
+    "calendar": "weekday",
+    "time": "07:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "319644f2-4ccf-4f6a-8a77-49ba531d4580",
+    "calendar": "weekday",
+    "time": "08:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "30e9d726-d4f3-4141-b3f6-384b1a2490d1",
+    "calendar": "weekday",
+    "time": "08:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "2c3bda6c-144b-4856-bd68-c54fb374e5d7",
+    "calendar": "weekday",
+    "time": "08:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "a603cd82-930f-4e75-a276-712ad3770ae9",
+    "calendar": "weekday",
+    "time": "09:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "9d387f9c-17fa-452f-8aa3-da43c1d74ac4",
+    "calendar": "weekday",
+    "time": "09:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "05c20069-d807-4d07-8d6f-5a219998aae9",
+    "calendar": "weekday",
+    "time": "10:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "84bd9539-9716-4204-ac9d-847f32006668",
+    "calendar": "weekday",
+    "time": "11:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "2746891e-225b-4399-8dce-decb84fcc944",
+    "calendar": "weekday",
+    "time": "12:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "d14037ae-d46d-4038-8bd5-95481b4f918e",
+    "calendar": "weekday",
+    "time": "12:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "be71f742-dea0-4409-a414-4868e0e619dc",
+    "calendar": "weekday",
+    "time": "13:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "911add73-48c1-4530-acd2-2cb6421c7385",
+    "calendar": "weekday",
+    "time": "14:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "8b12d8d4-11fc-4a7b-9ba6-7a49d9144d4c",
+    "calendar": "weekday",
+    "time": "15:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "9bcf8701-7e0f-4491-9716-8d2597b9a37e",
+    "calendar": "weekday",
+    "time": "15:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "b350f563-e87d-4640-994d-568e296f1368",
+    "calendar": "weekday",
+    "time": "16:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "0c92e4cb-aec0-4d43-918d-848bc5d9b393",
+    "calendar": "weekday",
+    "time": "17:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "42810255-de34-4906-b84e-dffed027190e",
+    "calendar": "weekday",
+    "time": "17:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "aea2ce48-3b17-4d9d-b2aa-ebb9c18ba6ed",
+    "calendar": "weekday",
+    "time": "18:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "4d90e361-9534-4f8c-b852-00c1ee404aa7",
+    "calendar": "weekday",
+    "time": "18:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "f1919f8d-5b89-4832-a82e-4789ddf2c29f",
+    "calendar": "weekday",
+    "time": "19:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "4ae8a1dd-437a-4ba7-9158-3bedc68740f2",
+    "calendar": "weekday",
+    "time": "19:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "39baeaed-7254-4deb-a2f1-479c08b471f3",
+    "calendar": "weekday",
+    "time": "20:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "91841eba-3d04-4891-ab95-5aa2816b6ba5",
+    "calendar": "saturday",
+    "time": "07:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "62df9756-deed-479c-ac08-5e8860de8017",
+    "calendar": "saturday",
+    "time": "08:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "4ca77331-4613-4c86-868b-41e3acf28cb3",
+    "calendar": "saturday",
+    "time": "08:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "d4e2cce0-9989-4e71-873a-0765d9d021d8",
+    "calendar": "saturday",
+    "time": "09:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "84ec4fa5-11b6-401a-a561-a7482eb8d1fb",
+    "calendar": "saturday",
+    "time": "10:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "a6c60b49-7a9f-4ed7-84c4-2b8fd0fd1017",
+    "calendar": "saturday",
+    "time": "10:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "60d05825-823b-4054-8af2-60e9174355a9",
+    "calendar": "saturday",
+    "time": "11:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "246b2a15-2b6b-43e7-b852-a8d24581aa98",
+    "calendar": "saturday",
+    "time": "12:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "5c2d91a9-e01c-4e4b-b7b0-6c0200ca2b12",
+    "calendar": "saturday",
+    "time": "13:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "4a38a83f-8ce1-4ca3-b675-967fd41e8a37",
+    "calendar": "saturday",
+    "time": "14:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "aa56dd61-8157-4e0c-ae47-a1ba81bdd3da",
+    "calendar": "saturday",
+    "time": "15:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "7c002495-0de4-48ee-be08-71f0ff0bf1c7",
+    "calendar": "saturday",
+    "time": "15:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "01f288c3-ac17-42f0-ac7d-2e7029281fbe",
+    "calendar": "saturday",
+    "time": "16:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "aa0efe90-47f8-42cc-953d-709e20e20149",
+    "calendar": "saturday",
+    "time": "17:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "31876f58-17ac-49fb-9f2e-79d315d3fdd8",
+    "calendar": "saturday",
+    "time": "17:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "3848b4bb-3ddb-4e9f-ba1f-d6792dfa56b7",
+    "calendar": "saturday",
+    "time": "18:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "039e1e6d-c9d6-4677-afca-0cc7c9a02f3a",
+    "calendar": "saturday",
+    "time": "19:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "62ec6809-9dca-4684-8c3c-46c2abbef78b",
+    "calendar": "saturday",
+    "time": "20:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "55483b2c-ac39-477f-8563-4a135e154135",
+    "calendar": "holiday",
+    "time": "07:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "68053d6f-260a-4306-9fa7-b7b25ab6d7f0",
+    "calendar": "holiday",
+    "time": "09:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "96e7e44f-3edc-4ccf-810d-fa58e44bd886",
+    "calendar": "holiday",
+    "time": "10:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "e44fd71e-5924-490f-a8d4-fd1ed4b88444",
+    "calendar": "holiday",
+    "time": "11:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "92f2621a-a518-4be5-ad5f-743cd83f886e",
+    "calendar": "holiday",
+    "time": "13:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "a8ad03de-2521-4fcd-aa62-1ea79e602b3c",
+    "calendar": "holiday",
+    "time": "14:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "73028452-08aa-443d-bdf2-ee86789ed8a1",
+    "calendar": "holiday",
+    "time": "15:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "0733e23b-a4f7-483c-8e69-597029aec1a4",
+    "calendar": "holiday",
+    "time": "16:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "fc5ae92d-26a3-46f2-8249-e2917240c57a",
+    "calendar": "holiday",
+    "time": "17:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "5ed44c0a-32c2-4bf0-93d0-7a658ffb4e6d",
+    "calendar": "holiday",
+    "time": "18:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "bc0f51ff-e775-4c00-8e65-512fdb156303",
+    "calendar": "holiday",
+    "time": "19:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "9646a6bc-e4f8-4987-883b-46bfb454c63d",
+    "calendar": "holiday",
+    "time": "20:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "12239313-5e09-47f7-9fcc-577457961605",
+    "calendar": "weekday",
+    "time": "07:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "e1cba1c2-e028-484e-9dd0-c7e0d050a571",
+    "calendar": "weekday",
+    "time": "07:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "2af19f76-e40e-4751-99c0-80e7e955cfdc",
+    "calendar": "weekday",
+    "time": "08:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "c6f3b7a8-ada1-4cf6-9c2b-fdd968fc28cc",
+    "calendar": "weekday",
+    "time": "08:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "78a5c258-58ef-46ed-a511-455b73e637f9",
+    "calendar": "weekday",
+    "time": "09:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "09fa05b9-470b-48eb-95e3-6a317ddec6f0",
+    "calendar": "weekday",
+    "time": "09:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "ce426b62-e365-4c43-8064-254c4315dd99",
+    "calendar": "weekday",
+    "time": "10:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "9ea75a95-b0b8-447d-8126-6d595861127c",
+    "calendar": "weekday",
+    "time": "12:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "e7a1153c-8a14-438a-b941-419bd3bb43e9",
+    "calendar": "weekday",
+    "time": "12:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "598606df-75b9-4e4b-96d5-91e1e1896f1b",
+    "calendar": "weekday",
+    "time": "13:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "27c8a023-24ae-408b-a127-9af365cdc27b",
+    "calendar": "weekday",
+    "time": "14:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "f5210391-bfab-405a-9ddb-0bcc193be7e9",
+    "calendar": "weekday",
+    "time": "16:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "0772995e-f287-4b05-a9d3-ff3cbc4d9a9f",
+    "calendar": "weekday",
+    "time": "18:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "1313afd3-2ba3-4ce4-b001-a6d3ec7467ac",
+    "calendar": "saturday",
+    "time": "07:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "d149f445-8dae-479b-bf11-3cd72e81ff1e",
+    "calendar": "saturday",
+    "time": "08:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "488574b2-fae4-4e3d-83b2-d7dcdd596ae2",
+    "calendar": "saturday",
+    "time": "09:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "70f2f28b-f2c4-4107-87aa-e06aee54c520",
+    "calendar": "saturday",
+    "time": "12:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "01461422-d4db-4883-b46e-1add6dd3821c",
+    "calendar": "saturday",
+    "time": "18:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "74c0cf9b-354d-4770-ae7f-35608ab630b7",
+    "calendar": "saturday",
+    "time": "19:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "c92d9812-6394-4694-ba0d-499877f549cf",
+    "calendar": "holiday",
+    "time": "07:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "efde6e4f-88a8-421c-9e15-376b142ae0ff",
+    "calendar": "holiday",
+    "time": "08:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "9fbcbfd8-e2df-44bc-86ae-9e24d3d7f17e",
+    "calendar": "holiday",
+    "time": "10:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "13fab4dc-a254-47e6-acae-fe15d1e92b65",
+    "calendar": "holiday",
+    "time": "15:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "b375569b-6b34-4834-a738-1416bea9f832",
+    "calendar": "holiday",
+    "time": "16:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "755dc644-8583-45af-a1a1-35ce3079aa4d",
+    "calendar": "holiday",
+    "time": "18:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "60743c65-1826-400e-9a34-f37f78f8680a",
+    "calendar": "holiday",
+    "time": "19:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "1213b4a4-2ef5-465e-9a07-c9f6f456d364",
+    "calendar": "weekday",
+    "time": "07:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "160416f2-51e0-490d-bb5c-09d01d170a9b",
+    "calendar": "weekday",
+    "time": "10:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "cc86dbcc-ea69-4027-bc4b-1cdfb6407b29",
+    "calendar": "weekday",
+    "time": "16:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "1d4d6946-6420-4499-8796-0018325f161b",
+    "calendar": "weekday",
+    "time": "19:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "b46f2025-4b56-46c1-9f07-0be48020bc2f",
+    "calendar": "saturday",
+    "time": "07:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "3b14b95e-46d5-4f51-bdcf-9824bb43f7d8",
+    "calendar": "saturday",
+    "time": "09:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "ff7d1c10-180e-4f18-a3cf-8149f8841d8c",
+    "calendar": "holiday",
+    "time": "07:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "709c41d4-d227-472e-8735-114fe38ac167",
+    "calendar": "holiday",
+    "time": "09:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "ef3cd179-ca25-412b-8974-bffb42bd7d13",
+    "calendar": "weekday",
+    "time": "06:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "31989451-3f46-41b3-a8be-fe143b6a5027",
+    "calendar": "weekday",
+    "time": "07:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "27ee43d0-bdf9-40a9-ac2a-e8b7b5610ace",
+    "calendar": "weekday",
+    "time": "08:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "b4d8522e-eaa4-4be1-b7ae-c72bdec969d9",
+    "calendar": "weekday",
+    "time": "08:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "b8a32f4a-ff67-41ad-83aa-2f7a243ba7b5",
+    "calendar": "weekday",
+    "time": "09:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "af97e7b2-60d0-4591-b721-f0c19cf66cbb",
+    "calendar": "weekday",
+    "time": "10:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "bd316043-f244-4bbb-8802-ef019fbcc11e",
+    "calendar": "weekday",
+    "time": "10:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "6648b32b-b135-4733-9e15-cfd6f82bbd82",
+    "calendar": "weekday",
+    "time": "11:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "66250f11-bed7-42db-942b-8433723e99f4",
+    "calendar": "weekday",
+    "time": "12:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "8c6c3e9b-419f-438b-b09c-fc3f9e200f57",
+    "calendar": "weekday",
+    "time": "13:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "6e45f78f-eab3-4cf2-a6c6-cc03a53394f4",
+    "calendar": "weekday",
+    "time": "13:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "c441079a-10b4-40e1-b0ac-49af95d4f31a",
+    "calendar": "weekday",
+    "time": "14:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "acc227e9-1a4c-4b8d-ba31-6381d5d53677",
+    "calendar": "weekday",
+    "time": "15:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "c629e926-48f2-456b-9882-a53f4dbbcf84",
+    "calendar": "weekday",
+    "time": "15:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "15b10c80-6609-45a6-a26c-f90f76cd0c25",
+    "calendar": "weekday",
+    "time": "16:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "0a4f5e2d-444c-4881-bcf5-a59d4d9b85ab",
+    "calendar": "weekday",
+    "time": "17:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "6b505fde-908b-4554-b437-9f58fdebed09",
+    "calendar": "weekday",
+    "time": "18:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "f303bae2-e863-46d3-a4b3-016f47fec202",
+    "calendar": "weekday",
+    "time": "19:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "d8b35f14-d658-4868-bf0f-70655ec3ed1b",
+    "calendar": "weekday",
+    "time": "20:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "19ade2f1-d0f4-4457-8731-b1f3bdf9609c",
+    "calendar": "weekday",
+    "time": "20:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "9e1c37d0-c3e6-4401-837a-b660bd288950",
+    "calendar": "weekday",
+    "time": "21:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "a75b5c51-4e89-4efd-a82b-445cc438c4ea",
+    "calendar": "saturday",
+    "time": "07:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "fa22d361-b3b1-4736-8459-fc0563a29fb2",
+    "calendar": "saturday",
+    "time": "08:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "e44239e4-8fff-42f9-b2fe-1f65ff858172",
+    "calendar": "saturday",
+    "time": "09:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "a0c31a2f-708d-423a-b4d0-12d0f4f9d8c3",
+    "calendar": "saturday",
+    "time": "10:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "b91098ef-1b4f-4d1f-8243-a03c8abc4606",
+    "calendar": "saturday",
+    "time": "11:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "ef0c1d41-1964-4b82-b1f9-29e4c9be9a63",
+    "calendar": "saturday",
+    "time": "13:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "019015df-b0a8-4750-81a0-94830477bdc7",
+    "calendar": "saturday",
+    "time": "13:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "497ca5df-7f50-464a-8643-455a60e30315",
+    "calendar": "saturday",
+    "time": "14:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "57b4556e-35bb-4c4b-bce7-4fab77d242e6",
+    "calendar": "saturday",
+    "time": "15:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "71dcbc96-a22a-4a80-af2b-38b063c590ba",
+    "calendar": "saturday",
+    "time": "16:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "5885e744-4a5f-45c8-97bc-8be0d16c68cd",
+    "calendar": "saturday",
+    "time": "18:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "926ebb38-4d39-4570-8d96-a5044ce7f2fa",
+    "calendar": "saturday",
+    "time": "19:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "95863e54-a505-45e5-8f0b-c4145c89bb0b",
+    "calendar": "saturday",
+    "time": "19:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "3e4cde51-7544-48ec-ab85-6196fb014cf4",
+    "calendar": "saturday",
+    "time": "20:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "b3ea5917-a0e5-4f89-84c0-6c94bc86d257",
+    "calendar": "saturday",
+    "time": "21:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "cd617548-8393-4283-a7e1-7bc101d452ba",
+    "calendar": "holiday",
+    "time": "07:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "bd8388ec-ab09-40a4-9484-2099e38674be",
+    "calendar": "holiday",
+    "time": "08:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "384707c7-1fe1-43af-99f7-c45ccfe1204c",
+    "calendar": "holiday",
+    "time": "09:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "e9c32940-d499-4766-9210-87c1ffd5d6ff",
+    "calendar": "holiday",
+    "time": "10:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "d0f2af4e-fb71-44a9-9796-9905068813cf",
+    "calendar": "holiday",
+    "time": "11:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "bdd98d4b-6fcf-4254-9127-18ac16af6d32",
+    "calendar": "holiday",
+    "time": "13:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "f5296ada-b0e4-4b87-9f6a-4fda802f8772",
+    "calendar": "holiday",
+    "time": "13:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "0488622f-31e0-4fac-a9eb-a6887f5fc960",
+    "calendar": "holiday",
+    "time": "14:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "4595ca6a-bd41-46e4-b9ef-40659e7e34fb",
+    "calendar": "holiday",
+    "time": "15:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "cb5604d2-1f82-4dfb-8e49-d65553609206",
+    "calendar": "holiday",
+    "time": "16:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "cfe8239a-f72b-440a-9fcf-f2a100503d3c",
+    "calendar": "holiday",
+    "time": "18:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "008061ca-aa99-4490-bc96-88a3c59c499d",
+    "calendar": "holiday",
+    "time": "19:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "7dbfada1-22e4-4b0a-a2cc-4ac951a151b6",
+    "calendar": "holiday",
+    "time": "19:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "46a37288-ec61-4398-9223-108f458a9010",
+    "calendar": "holiday",
+    "time": "20:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "55",
+    "courseSid": "e204aa51-304f-43f6-a623-d7acee22dc99",
+    "tripSid": "c2638fa6-9262-46ba-89c3-9a6091a70d7f",
+    "calendar": "holiday",
+    "time": "21:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "7135f0c1-35e7-41ad-bf50-0ea699cd65c8",
+    "calendar": "weekday",
+    "time": "10:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "d7f268f0-7988-4381-b5e2-282ed63f9d0f",
+    "calendar": "weekday",
+    "time": "11:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "83c18e90-2e8d-4768-8b24-e1d33ac4dba4",
+    "calendar": "weekday",
+    "time": "14:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "9e9c1b26-2e98-429e-b5d7-5287d82aa7d4",
+    "calendar": "weekday",
+    "time": "16:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "2e69a549-ed4c-4266-9fe6-b31afbad38d3",
+    "calendar": "weekday",
+    "time": "17:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "54b148cc-dd38-4aff-a3fe-358a875d00a3",
+    "calendar": "weekday",
+    "time": "19:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "10495368-02f1-4c2a-bec7-1f24745843e0",
+    "calendar": "saturday",
+    "time": "12:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "01ef0151-e3ac-437e-8237-baf0efe2b405",
+    "calendar": "saturday",
+    "time": "13:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "10118b4e-93b6-4a75-944f-c5a04a6c94e0",
+    "calendar": "saturday",
+    "time": "16:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "419b7418-16ac-42e2-9a48-9d81a6808fe6",
+    "calendar": "saturday",
+    "time": "16:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "d43e57fc-4ea6-4273-bb2d-d76d3117589e",
+    "calendar": "saturday",
+    "time": "19:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "9e83ce6c-2ca4-411b-9672-80c937320dbe",
+    "calendar": "holiday",
+    "time": "12:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "82198da2-92d4-4f1c-a72b-719beb0c461d",
+    "calendar": "holiday",
+    "time": "14:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "2f3bcbb9-4f9a-4e65-ba31-1e7592326d3e",
+    "calendar": "holiday",
+    "time": "16:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "d2e0b03e-3ba7-4366-a630-ce881dc4e75f",
+    "calendar": "weekday",
+    "time": "06:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "1448cbe7-a768-4819-8021-c07b94d5ba39",
+    "calendar": "weekday",
+    "time": "06:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "dcfaee98-cd1a-4107-b96d-db4ecc6ba2ce",
+    "calendar": "weekday",
+    "time": "07:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "2ff4dafb-1d8e-4fe7-9266-9ce08d28a5f1",
+    "calendar": "weekday",
+    "time": "07:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "ce4a53b7-7b19-47cb-8fc8-31a9aeb0b92a",
+    "calendar": "weekday",
+    "time": "07:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "a07680c5-1af0-49b2-9b85-9c45d8197849",
+    "calendar": "weekday",
+    "time": "08:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "1daee70c-2347-48e5-bdf8-57ba00add635",
+    "calendar": "weekday",
+    "time": "08:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "76378996-d9ff-47b8-9a5a-876ce15faa35",
+    "calendar": "weekday",
+    "time": "08:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "98dae1b4-141e-4ec0-95c1-5d348bb53b6a",
+    "calendar": "weekday",
+    "time": "08:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "d7110c06-ec18-4a70-92b8-dbb17cb7091b",
+    "calendar": "weekday",
+    "time": "08:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "5cc23353-ed48-4ca5-a882-2d9898422d93",
+    "calendar": "weekday",
+    "time": "09:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "ca466ad5-d9f3-416e-89a3-91e9c38b93bd",
+    "calendar": "weekday",
+    "time": "09:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "991f173f-6410-482b-bd95-58aef33613e2",
+    "calendar": "weekday",
+    "time": "09:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "b422a8aa-20a7-43ed-b941-5d4d9b68ad7e",
+    "calendar": "weekday",
+    "time": "10:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "f8163ca6-1177-4288-b578-b99ed43a6b79",
+    "calendar": "weekday",
+    "time": "10:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "affbadb0-8ce3-4537-adbd-6035e6ae986f",
+    "calendar": "weekday",
+    "time": "10:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "8538f20f-358a-47a2-a7c8-9b041cd862d0",
+    "calendar": "weekday",
+    "time": "11:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "650662a2-de22-4093-9c9a-d5fc51d22b21",
+    "calendar": "weekday",
+    "time": "11:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "b1aa2cd4-bca3-420d-871f-65d1f5a8fcc2",
+    "calendar": "weekday",
+    "time": "11:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "7306e612-8e4c-4219-b4ae-1788bf3cd726",
+    "calendar": "weekday",
+    "time": "11:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "b8608683-bd6a-434c-9ac0-8ef7016a1b83",
+    "calendar": "weekday",
+    "time": "12:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "f74757be-8b8a-46d3-afe2-b5694a4844b1",
+    "calendar": "weekday",
+    "time": "12:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "7d68f562-a148-4132-9c96-d1f5564d4108",
+    "calendar": "weekday",
+    "time": "12:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "d1e20c6e-7711-4bfd-b038-88ef75c55edd",
+    "calendar": "weekday",
+    "time": "12:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "34c7c552-74f8-476c-929a-d1a831539841",
+    "calendar": "weekday",
+    "time": "13:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "594d9aa6-d801-46d2-8f6a-77d454782d36",
+    "calendar": "weekday",
+    "time": "13:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "65027781-d0e1-46e4-926c-27d6800a4f25",
+    "calendar": "weekday",
+    "time": "13:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "2f510689-7159-403e-853d-29a9466bedc6",
+    "calendar": "weekday",
+    "time": "14:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "1e047419-5fb6-461d-960f-ae0cd8a17c69",
+    "calendar": "weekday",
+    "time": "14:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "33190d4a-f02b-481d-afe2-77625ea4cd86",
+    "calendar": "weekday",
+    "time": "14:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "6c853772-cb4d-4936-abda-4a4848403291",
+    "calendar": "weekday",
+    "time": "15:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "2b416763-72f5-48c3-871e-4b96e597974c",
+    "calendar": "weekday",
+    "time": "15:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "9b0961ae-1894-4e06-8728-aa42f089b8a8",
+    "calendar": "weekday",
+    "time": "15:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "3aae2ee4-dd12-4713-9f7e-1023210219f3",
+    "calendar": "weekday",
+    "time": "16:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "df8be3fb-e28d-4a47-b8bb-4afe888e1657",
+    "calendar": "weekday",
+    "time": "16:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "8cd8547c-ee72-45b9-b136-5cc5e00b58c4",
+    "calendar": "weekday",
+    "time": "16:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "de9021f1-50a0-49dd-91b2-4589b3bb62de",
+    "calendar": "weekday",
+    "time": "17:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "cf3dd821-632f-4f48-ba29-9120ed2aec47",
+    "calendar": "weekday",
+    "time": "17:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "89822a4d-b620-4261-90c2-a1f66867c5d8",
+    "calendar": "weekday",
+    "time": "17:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "6ed86153-5233-4967-bc9e-89ed558d85d4",
+    "calendar": "weekday",
+    "time": "18:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "6523a945-97e3-4436-9c64-e21087c4867c",
+    "calendar": "weekday",
+    "time": "18:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "c250cb3f-e159-4c59-a523-ccdf9c3adbba",
+    "calendar": "weekday",
+    "time": "18:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "584079f3-b2f9-4135-b22c-681bb8acc7c7",
+    "calendar": "weekday",
+    "time": "19:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "962a8114-0367-4023-bad6-bc87d04684a8",
+    "calendar": "weekday",
+    "time": "19:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "485d59e8-9573-4d80-bf74-3c3455b68c7d",
+    "calendar": "weekday",
+    "time": "19:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "b48f9fcd-073c-4717-90a8-dc5189ab4f54",
+    "calendar": "weekday",
+    "time": "20:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "6853ad52-79c1-4976-880f-348b17dcbc27",
+    "calendar": "weekday",
+    "time": "20:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "bd0185f3-9af5-4409-83a7-49d61fd39408",
+    "calendar": "weekday",
+    "time": "21:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "725b97fd-544f-4af8-b3e4-5e0f2a8d67cf",
+    "calendar": "saturday",
+    "time": "07:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "6ce3ad2f-949a-40f8-acf6-8ebfa158e1ee",
+    "calendar": "saturday",
+    "time": "07:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "2597f100-3c62-409a-8f44-23a6fa5cd655",
+    "calendar": "saturday",
+    "time": "08:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "1a5e02fd-38a2-4438-ac05-3fb8e66057db",
+    "calendar": "saturday",
+    "time": "08:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "d92fd58e-2c50-480c-a5b8-2f9e749ea076",
+    "calendar": "saturday",
+    "time": "09:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "77768194-e42c-4f22-aac9-316100f9023e",
+    "calendar": "saturday",
+    "time": "09:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "6b9101f2-2108-4bd5-8534-6c4909b6cc43",
+    "calendar": "saturday",
+    "time": "09:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "cab194dc-f6b4-4285-995e-80dc28e32cee",
+    "calendar": "saturday",
+    "time": "10:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "dde5c514-8ecc-4232-af95-da12cc347758",
+    "calendar": "saturday",
+    "time": "10:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "e6ac464b-bdcb-4f89-921c-7ce49cc0055b",
+    "calendar": "saturday",
+    "time": "10:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "b0bd0700-0c87-40c9-a467-d3802ce27da2",
+    "calendar": "saturday",
+    "time": "11:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "4c66c392-fbf0-4566-bfff-cf21b86b6b9f",
+    "calendar": "saturday",
+    "time": "11:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "4e82dcf4-bcdb-4fa3-aa29-444a039702df",
+    "calendar": "saturday",
+    "time": "12:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "f8f87382-4c05-43f3-8a90-24c12a7675d4",
+    "calendar": "saturday",
+    "time": "12:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "37b0c13d-d4cf-4f3f-9bc2-4df875972fb9",
+    "calendar": "saturday",
+    "time": "12:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "f57fa3e6-527f-40a6-b89a-2edc9e48d7da",
+    "calendar": "saturday",
+    "time": "12:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "cabe0f9b-acc3-4941-ae62-1a311647509e",
+    "calendar": "saturday",
+    "time": "13:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "814c842e-7bb0-45f7-bea0-29e9e553893b",
+    "calendar": "saturday",
+    "time": "13:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "8581ddd2-9007-4275-a38c-f7687c5ecc6d",
+    "calendar": "saturday",
+    "time": "14:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "8ba495cf-fabe-47fe-b87e-286690a49d07",
+    "calendar": "saturday",
+    "time": "14:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "1abb5d0f-6fee-4782-8c11-af24c1d59fb6",
+    "calendar": "saturday",
+    "time": "14:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "7453b33a-948d-4995-9632-3df988dc6311",
+    "calendar": "saturday",
+    "time": "15:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "ed00985a-96ae-4107-9241-5059f2608d3d",
+    "calendar": "saturday",
+    "time": "15:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "1b3242c1-2eb0-43cd-af5a-9607e4ae6081",
+    "calendar": "saturday",
+    "time": "16:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "be071aad-72a2-46ff-88a5-1769c39d900b",
+    "calendar": "saturday",
+    "time": "16:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "f49258bb-f78c-443c-b55a-2e062614f220",
+    "calendar": "saturday",
+    "time": "16:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "48ef908d-11e9-43f9-91da-1c5597cc652e",
+    "calendar": "saturday",
+    "time": "17:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "406b7469-686c-4a27-9ddd-e3f3792e10ad",
+    "calendar": "saturday",
+    "time": "17:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "c9decda8-d5eb-4b4e-9704-c0344739ae44",
+    "calendar": "saturday",
+    "time": "18:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "b4605af5-3aac-4a05-a676-638a9dd10f06",
+    "calendar": "saturday",
+    "time": "18:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "4e076f23-5d94-4268-bd19-24b74b9a7760",
+    "calendar": "saturday",
+    "time": "18:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "8fd070d0-8cdc-4e1b-b788-9ae0e24c7996",
+    "calendar": "saturday",
+    "time": "19:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "2eb44ec5-2f1e-4d98-93e1-0578952a34a9",
+    "calendar": "saturday",
+    "time": "19:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "3114e942-af52-4a07-8db7-de0ea6ccd18b",
+    "calendar": "saturday",
+    "time": "20:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "1c3b5a9a-b114-435f-b37f-8a0c8df5db32",
+    "calendar": "saturday",
+    "time": "20:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "d8cf5b18-322d-4a57-8d01-f68465d9a966",
+    "calendar": "saturday",
+    "time": "20:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "852c8849-743b-4789-ab71-2145b57a3c7f",
+    "calendar": "holiday",
+    "time": "07:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "72114f68-880b-467f-855f-0df3f6d4e8f4",
+    "calendar": "holiday",
+    "time": "07:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "b4f2b266-dc04-4d56-ab9b-61762d3841b7",
+    "calendar": "holiday",
+    "time": "08:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "ba08a641-fa5c-4d53-a306-44805c666385",
+    "calendar": "holiday",
+    "time": "08:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "cf6f49e8-2861-4187-a9a8-521d50362174",
+    "calendar": "holiday",
+    "time": "09:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "a2ce8da1-9ce2-4680-a22c-8de8f7a0b35b",
+    "calendar": "holiday",
+    "time": "09:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "7966c957-05b7-4a3c-be1b-afe1cdc2c647",
+    "calendar": "holiday",
+    "time": "09:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "8aea2b1e-ffff-433b-bc11-d714461e6459",
+    "calendar": "holiday",
+    "time": "10:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "1d8179e0-82a6-49df-90fe-6b15d893c4fd",
+    "calendar": "holiday",
+    "time": "10:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "467df6a5-fff2-4f26-8164-0e7ecf347da6",
+    "calendar": "holiday",
+    "time": "10:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "ff271538-17a8-4db9-a249-7a0c445c75c2",
+    "calendar": "holiday",
+    "time": "11:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "425fe516-9e09-4995-bf4b-7cd878375875",
+    "calendar": "holiday",
+    "time": "11:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "dcf3f9b4-c59e-4b25-a718-93944625bcfc",
+    "calendar": "holiday",
+    "time": "12:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "b069b2da-34e6-4ceb-b007-989c3547bb92",
+    "calendar": "holiday",
+    "time": "12:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "298deff8-84e8-4ff2-ad0c-da9469685d81",
+    "calendar": "holiday",
+    "time": "12:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "89c6feac-c6ce-4359-a6e7-7e12ff90cc07",
+    "calendar": "holiday",
+    "time": "12:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "7dca3771-aa4b-45a6-887b-16e72aac054f",
+    "calendar": "holiday",
+    "time": "13:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "2aee8961-5f97-407b-83a0-4f3146d28ca6",
+    "calendar": "holiday",
+    "time": "13:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "8d05fba5-006e-481f-a7c4-fba24025e14d",
+    "calendar": "holiday",
+    "time": "14:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "b7ad2662-d574-4eb3-bb92-aa89a57536e9",
+    "calendar": "holiday",
+    "time": "14:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "a64f1851-02f0-48ab-bcbe-0980c0e18f92",
+    "calendar": "holiday",
+    "time": "14:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "55614b2f-6282-408c-93b1-f0c7e4aec8de",
+    "calendar": "holiday",
+    "time": "15:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "5023f6e6-e3cd-4983-aed5-5eee3806844d",
+    "calendar": "holiday",
+    "time": "15:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "7719667b-f5ea-4553-af25-8a6f04703bf2",
+    "calendar": "holiday",
+    "time": "16:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "82b4010f-8014-4387-9ffa-1ce4ffc36b46",
+    "calendar": "holiday",
+    "time": "16:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "5674e39b-e787-41f6-ad03-ef0ecb2f5385",
+    "calendar": "holiday",
+    "time": "16:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "0651414c-7b22-40ec-9862-ceca99e679a7",
+    "calendar": "holiday",
+    "time": "17:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "c4ff4eb4-40fa-4a89-b131-a4c943cf4ea3",
+    "calendar": "holiday",
+    "time": "17:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "77724524-07d5-4037-ab9b-f52c1fb9163f",
+    "calendar": "holiday",
+    "time": "18:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "1a517ffb-43ed-47b7-848c-4a62d28527a4",
+    "calendar": "holiday",
+    "time": "18:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "3ec76987-0ff7-4d9e-86db-4416e42627a5",
+    "calendar": "holiday",
+    "time": "18:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "1f6bf22a-d18e-4a4d-91aa-1cd935058300",
+    "calendar": "holiday",
+    "time": "19:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "8f95167a-8e73-4a49-960e-e5362527339c",
+    "calendar": "holiday",
+    "time": "19:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "711e8fdc-eb0f-42fd-ad05-03ad26a5500c",
+    "calendar": "holiday",
+    "time": "20:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "229c493c-366b-4119-b9fe-1daf96368f74",
+    "calendar": "holiday",
+    "time": "20:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "89",
+    "courseSid": "37e827b7-aab1-4971-afa2-7e3d915e722d",
+    "tripSid": "48d0b306-03c1-4e27-bb57-824b38a05d2c",
+    "calendar": "holiday",
+    "time": "20:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "9fe116fb-f124-4cc2-8293-ef8efb5da244",
+    "calendar": "weekday",
+    "time": "08:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "7611b095-6dd3-44ed-8f05-a460c5574f8d",
+    "calendar": "weekday",
+    "time": "08:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "648e820c-0b30-4965-9f5b-b6cd533e69c3",
+    "calendar": "weekday",
+    "time": "09:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "e36d8fb6-79b2-4343-9da4-1938bc1fe4ef",
+    "calendar": "weekday",
+    "time": "15:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "02dd0ba1-5b86-4dd9-8e00-f156ded5ccc9",
+    "calendar": "weekday",
+    "time": "15:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "4a4e3238-1377-45eb-8b0e-c23bbb244d3f",
+    "calendar": "weekday",
+    "time": "17:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "e2157736-a598-4ff7-bb70-ece926647f59",
+    "calendar": "weekday",
+    "time": "18:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "4fad1e91-851e-412a-b1c6-526e084dbea2",
+    "calendar": "weekday",
+    "time": "20:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "d2e6ee10-e494-4089-b26f-dc709ef28d80",
+    "calendar": "saturday",
+    "time": "07:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "0f26c380-b3cb-406b-9ad7-c37b6b375a2d",
+    "calendar": "saturday",
+    "time": "11:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "66a7df71-abd6-4a28-a343-e80ff0e70de8",
+    "calendar": "saturday",
+    "time": "16:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "0ab60357-9c61-4ee2-8183-d65432b3829a",
+    "calendar": "holiday",
+    "time": "07:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "ac48bd31-6e91-426f-a8a3-8589a49377f8",
+    "calendar": "holiday",
+    "time": "11:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "93199b11-0083-4649-9780-77e035dd3b48",
+    "calendar": "holiday",
+    "time": "16:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "b0c1baa4-f415-48ec-ac9a-2d2bccdb81fe",
+    "calendar": "weekday",
+    "time": "06:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "d3409630-b8dc-4f7e-9234-a1aae2065126",
+    "calendar": "weekday",
+    "time": "07:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "e570c9ba-7814-47d2-9d7d-08719578a1ce",
+    "calendar": "weekday",
+    "time": "07:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "4a7cba48-a0b1-48a3-852e-162b6301e542",
+    "calendar": "weekday",
+    "time": "08:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "c26874a8-1bf6-423d-82bb-6a7bd3c0e026",
+    "calendar": "weekday",
+    "time": "08:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "764e8062-0d91-4e79-bcbf-7f6816e49c75",
+    "calendar": "weekday",
+    "time": "08:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "51bf0708-01fe-4374-b601-82f7102b9959",
+    "calendar": "weekday",
+    "time": "08:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "42600a4f-f7db-4130-af40-29f8c53658c9",
+    "calendar": "weekday",
+    "time": "09:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "9d25d1a0-1ce0-4c3d-9c78-f26253c20517",
+    "calendar": "weekday",
+    "time": "10:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "b0b6ee08-683b-4a22-b5fc-60b0d31fef76",
+    "calendar": "weekday",
+    "time": "10:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "29e9d470-1ff5-4f40-bd96-3b436b2e9000",
+    "calendar": "weekday",
+    "time": "11:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "9d13c9d3-9d9b-44d6-8bf1-3cbc834944d7",
+    "calendar": "weekday",
+    "time": "12:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "172e4995-12c8-42b3-86a0-02124c044c87",
+    "calendar": "weekday",
+    "time": "13:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "a96b586f-ac44-46d5-8fbe-19a18a1ef514",
+    "calendar": "weekday",
+    "time": "13:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "49f92fb8-8299-43d5-ac40-fc38504da9ca",
+    "calendar": "weekday",
+    "time": "14:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "a87f6f77-c24e-45e3-97d6-52a4a33d98bc",
+    "calendar": "weekday",
+    "time": "14:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "dc3c76c3-64c5-4389-abfc-6b5d7158a673",
+    "calendar": "weekday",
+    "time": "15:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "5e04ec4a-51fa-490b-bd16-6486c08ef8b7",
+    "calendar": "weekday",
+    "time": "15:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "1d9e7ce4-b76e-4db7-a4c6-b3efd68a234a",
+    "calendar": "weekday",
+    "time": "16:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "6e4511d8-08bb-4d00-a1e2-3d31e508c321",
+    "calendar": "weekday",
+    "time": "17:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "adb8d49c-9f11-4cf6-aad1-59f73aad3fca",
+    "calendar": "weekday",
+    "time": "17:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "69e585e3-456a-4f47-80a6-439a5cf1e984",
+    "calendar": "weekday",
+    "time": "18:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "da832a10-bbae-45a6-9c30-a1a5ad055bcc",
+    "calendar": "weekday",
+    "time": "19:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "b67a95d0-3236-4b73-9419-f7370dd9f531",
+    "calendar": "weekday",
+    "time": "19:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "491dccd1-4995-49cb-be81-0f953b84dced",
+    "calendar": "weekday",
+    "time": "20:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "e1c49c6e-3471-4716-af92-4cd638190af2",
+    "calendar": "saturday",
+    "time": "07:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "97e3bc32-219b-43f6-babc-dab700da2335",
+    "calendar": "saturday",
+    "time": "07:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "7d7cdbcc-21f2-49cc-bd32-7cdd9d7d0a23",
+    "calendar": "saturday",
+    "time": "08:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "cd1e0091-dc4f-4f93-8901-e832cd3b163f",
+    "calendar": "saturday",
+    "time": "09:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "bbc77902-c101-4133-8730-839cbf1d73f5",
+    "calendar": "saturday",
+    "time": "09:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "617ec615-8698-408f-be81-d36b10163cdc",
+    "calendar": "saturday",
+    "time": "10:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "ed478449-01f4-4eee-bb1e-a7a1566a67ae",
+    "calendar": "saturday",
+    "time": "10:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "f56c9dd3-b47c-4379-893a-a20633d87617",
+    "calendar": "saturday",
+    "time": "11:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "c71768e7-3caf-4142-94c2-23d7b1ece77c",
+    "calendar": "saturday",
+    "time": "13:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "527c0ab5-f5f3-4272-98c5-ce14aa15f324",
+    "calendar": "saturday",
+    "time": "13:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "80f25719-2006-4a3f-ab5b-72250bf3bc6c",
+    "calendar": "saturday",
+    "time": "14:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "d8e52072-af56-43dd-8317-efff76d71993",
+    "calendar": "saturday",
+    "time": "14:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "1b511ecd-8f35-4170-b1bf-cd70c29c5196",
+    "calendar": "saturday",
+    "time": "15:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "15a7a511-1a22-43e8-a74e-e438d251bf65",
+    "calendar": "saturday",
+    "time": "16:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "3a9cfe87-102c-44da-bfb9-d3850ac74961",
+    "calendar": "saturday",
+    "time": "16:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "e5b032a0-4aa4-471b-a7a3-24a64dcbeabd",
+    "calendar": "saturday",
+    "time": "17:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "86e20e0b-e2e6-452e-a907-a89ab1a0f0cc",
+    "calendar": "saturday",
+    "time": "17:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "67c0fc5b-8cee-4926-bc04-96329472ed36",
+    "calendar": "saturday",
+    "time": "18:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "c85653d3-c439-4dc2-adc8-7e675433d82d",
+    "calendar": "saturday",
+    "time": "19:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "22979e7c-8743-4e8b-aca9-af2d02b55f25",
+    "calendar": "saturday",
+    "time": "20:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "b1975176-402b-414b-a04b-49dfdf00abb8",
+    "calendar": "holiday",
+    "time": "07:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "1b778558-b261-4554-ae27-aab51b083107",
+    "calendar": "holiday",
+    "time": "07:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "1e2d2e89-472c-41f7-adbb-da1daf94fd14",
+    "calendar": "holiday",
+    "time": "08:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "e34ba392-1f3e-4c64-8c79-2d3612cb0bac",
+    "calendar": "holiday",
+    "time": "08:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "92f9a2f4-3692-43a4-b82f-dcebcc4887d7",
+    "calendar": "holiday",
+    "time": "10:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "e51bb944-2954-4304-838e-9e6de2139f0e",
+    "calendar": "holiday",
+    "time": "10:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "82767b17-3f95-42b2-b0ab-1e303aed85c8",
+    "calendar": "holiday",
+    "time": "11:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "d84883a0-5d64-4c4e-8fba-7599d9fd5bb3",
+    "calendar": "holiday",
+    "time": "11:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "381e0343-fbc7-4e63-911b-3b7af8b22d83",
+    "calendar": "holiday",
+    "time": "13:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "c43f5fcc-eb34-461c-8bab-57de20dc97e0",
+    "calendar": "holiday",
+    "time": "14:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "491d11fa-3e74-4cc7-a790-08cc4f040fbf",
+    "calendar": "holiday",
+    "time": "14:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "f0a591fc-cda8-4283-9b5e-80c492bf0f71",
+    "calendar": "holiday",
+    "time": "15:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "2a64e809-c4d2-461f-a81d-57c6b05d6759",
+    "calendar": "holiday",
+    "time": "15:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "1b7414fb-2cb8-49f4-b29c-4c7a6a380c97",
+    "calendar": "holiday",
+    "time": "16:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "a9a643e8-7cee-4065-b469-84666dfd918f",
+    "calendar": "holiday",
+    "time": "17:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "2a99e98e-1108-4ec4-a35e-b62e5ca03571",
+    "calendar": "holiday",
+    "time": "17:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "ac750814-b43b-48af-b3cf-6468e9cccfe1",
+    "calendar": "holiday",
+    "time": "18:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "5cf009e7-ae00-43ef-a35e-5973a407d459",
+    "calendar": "holiday",
+    "time": "18:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010100",
+    "stopName": "県庁南口（那覇バスターミナル・旭橋向け）",
+    "routeNo": "446",
+    "courseSid": "8018a0a4-a2a8-498c-a0c1-e84b8236d43a",
+    "tripSid": "e6fe4489-d919-4262-aaf5-6df668ef54f1",
+    "calendar": "holiday",
+    "time": "20:30",
+    "parentCompanyCode": "8000"
+  }
+]
