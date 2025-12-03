@@ -1,0 +1,1282 @@
+[
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "42e9cb4e-b449-474a-8909-d70dbf793aa8",
+    "calendar": "weekday",
+    "time": "05:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "821fbc84-6b2a-4e96-83bb-26d56e4b84ca",
+    "calendar": "weekday",
+    "time": "05:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "9fc4a5a5-a6b2-4e55-b6d6-27e962857d8b",
+    "calendar": "weekday",
+    "time": "05:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "8f77400f-2d43-4233-8ddc-c4cf92132430",
+    "calendar": "weekday",
+    "time": "06:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "eb5058e0-1ec5-4d82-a894-fc8a8f6e8c51",
+    "calendar": "weekday",
+    "time": "06:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "f0bd3c96-98ef-4827-80cc-4496b8ceea31",
+    "calendar": "weekday",
+    "time": "06:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "a89b90cc-feda-4d6b-b23c-20e5654532d5",
+    "calendar": "weekday",
+    "time": "06:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "e478de4c-8327-43e1-b11d-85d67c349a5e",
+    "calendar": "weekday",
+    "time": "06:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "130e99f9-94c6-4f09-b9e4-6204b9022e13",
+    "calendar": "weekday",
+    "time": "07:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "f3a2a644-c7b8-432d-ae8f-11a24339a116",
+    "calendar": "weekday",
+    "time": "07:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "1499845f-a0fd-453c-ac86-fe8d3731d23b",
+    "calendar": "weekday",
+    "time": "07:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "06e33b8a-c37f-47bd-ac9f-3f6a0544c640",
+    "calendar": "weekday",
+    "time": "08:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "ac654379-ac52-4572-b16d-91f4158b712c",
+    "calendar": "weekday",
+    "time": "08:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "920109f3-5f99-4cea-8e53-1f06c3126c07",
+    "calendar": "weekday",
+    "time": "09:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "1598ccb5-70f5-48c6-9d7e-92f7d4ecca06",
+    "calendar": "weekday",
+    "time": "09:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "60d6e842-36ac-4c71-9300-f7712a28f0a6",
+    "calendar": "weekday",
+    "time": "09:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "6173db83-091d-417f-adeb-db4751942baa",
+    "calendar": "weekday",
+    "time": "10:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "3c0246b9-5d56-4912-a794-ba1bcac35444",
+    "calendar": "weekday",
+    "time": "11:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "b94ac4b8-07c8-4f8b-a705-5aac07288dbb",
+    "calendar": "weekday",
+    "time": "12:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "a4b1b249-d837-41ea-afd6-0783e33d0bf6",
+    "calendar": "weekday",
+    "time": "13:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "5b5d7afe-1dc4-439d-a556-c8eab1433f9c",
+    "calendar": "weekday",
+    "time": "13:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "80d61347-6b84-4d9f-8510-822183dae5c9",
+    "calendar": "weekday",
+    "time": "14:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "26145007-c583-45c4-8ef7-4393b896e414",
+    "calendar": "weekday",
+    "time": "14:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "c202e25f-e079-42f8-8f07-5cffb1026532",
+    "calendar": "weekday",
+    "time": "14:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "f8d2034a-7108-41e9-a8ff-42860460b97e",
+    "calendar": "weekday",
+    "time": "15:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "30d10214-8484-49be-adc7-49f242c758ec",
+    "calendar": "weekday",
+    "time": "15:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "3b23ce27-d579-4750-9b99-ba6fbde0a8de",
+    "calendar": "weekday",
+    "time": "15:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "84b1f0df-e5cb-4f8f-8863-5537994416e2",
+    "calendar": "weekday",
+    "time": "16:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "3690d449-2356-4696-aeca-fbabe468a5e8",
+    "calendar": "weekday",
+    "time": "16:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "b7380203-557d-4a0c-8da1-6eca66931886",
+    "calendar": "weekday",
+    "time": "16:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "fe69541f-db7d-4316-ba9c-599b632fba52",
+    "calendar": "weekday",
+    "time": "17:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "864db5fe-2182-49f2-a1d8-ec058c1d7d7d",
+    "calendar": "weekday",
+    "time": "18:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "43f6329d-4c24-43aa-a123-603ad2d8e609",
+    "calendar": "weekday",
+    "time": "19:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "b5ada7c4-08e6-465b-8c97-9d041b731d72",
+    "calendar": "weekday",
+    "time": "19:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "a108771b-a278-4597-9522-f1b50725c5e4",
+    "calendar": "weekday",
+    "time": "20:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "b4c9f746-e4a1-4d05-9245-bef685f339d1",
+    "calendar": "weekday",
+    "time": "21:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "a7cfb936-1db1-430a-b3dd-b5d5ba0740c1",
+    "calendar": "saturday",
+    "time": "05:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "5cf125c9-9bb6-41e5-990f-8aa3bf0ee68d",
+    "calendar": "saturday",
+    "time": "06:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "5715f645-41cc-4c54-9552-7edd98daa234",
+    "calendar": "saturday",
+    "time": "06:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "8a248717-c0ff-45bf-8e8a-c7e9b5c05f88",
+    "calendar": "saturday",
+    "time": "07:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "54c9be98-39e1-4036-b429-b1d58e0a3a19",
+    "calendar": "saturday",
+    "time": "07:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "d032c918-502a-4809-a12f-6f631f9cf16f",
+    "calendar": "saturday",
+    "time": "07:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "3cdf28de-b150-4aae-a87f-6f9cc621f58f",
+    "calendar": "saturday",
+    "time": "08:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "5ee20034-b514-491b-a8b8-588288799a37",
+    "calendar": "saturday",
+    "time": "08:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "456b3f7e-033b-49b0-b174-df72928c09c9",
+    "calendar": "saturday",
+    "time": "09:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "055ea056-b322-40fe-aa63-be2e84aa3864",
+    "calendar": "saturday",
+    "time": "09:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "074946f8-0de5-4ba5-8069-2e415879eca2",
+    "calendar": "saturday",
+    "time": "10:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "e68892c0-ca44-4248-ad7b-04ef97917b4e",
+    "calendar": "saturday",
+    "time": "11:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "fc710b96-1af1-4659-8d62-1e44eb5039b1",
+    "calendar": "saturday",
+    "time": "11:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "0c04e81f-56f5-4cfb-9df4-7143f584ad8d",
+    "calendar": "saturday",
+    "time": "12:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "945af103-ed9e-4e9f-8cc8-1a344e17a51a",
+    "calendar": "saturday",
+    "time": "12:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "8b5c68cb-80ce-4f39-b1f6-2bc23879dfc8",
+    "calendar": "saturday",
+    "time": "13:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "0f4150cb-ac36-4d67-862e-75a6fcc3bd0f",
+    "calendar": "saturday",
+    "time": "14:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "f9b233d0-764c-430f-ab7a-0f1ec632a7f5",
+    "calendar": "saturday",
+    "time": "14:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "a5a60a79-b5ad-4492-abe4-9755102ea758",
+    "calendar": "saturday",
+    "time": "15:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "bbeac53f-3d58-40be-8c29-a454997e2653",
+    "calendar": "saturday",
+    "time": "15:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "4adff33e-b61b-43df-9e44-825d6ec22c72",
+    "calendar": "saturday",
+    "time": "16:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "d2a434ce-779c-4cec-b5cb-31960fa64c6f",
+    "calendar": "saturday",
+    "time": "16:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "e76aad96-51b4-4ef0-94ea-35a8b45864de",
+    "calendar": "saturday",
+    "time": "16:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "6ca8dc47-24ad-48bb-a9c3-a21fa6d2543e",
+    "calendar": "saturday",
+    "time": "17:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "37310c27-72fa-414b-8100-b2f1f953d7d6",
+    "calendar": "saturday",
+    "time": "17:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "c9782c3e-ac4a-4adf-a41f-25cc596472e1",
+    "calendar": "saturday",
+    "time": "18:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "3ac9da1e-4d13-437f-9ff6-afcfc149c468",
+    "calendar": "saturday",
+    "time": "18:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "68fe1298-9a13-4110-b577-8350085a240c",
+    "calendar": "saturday",
+    "time": "19:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "48bb2ce1-dfce-4924-ad12-0b752314e5b3",
+    "calendar": "saturday",
+    "time": "19:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "1c336002-1c3e-41d3-b254-f3310e16ee7a",
+    "calendar": "saturday",
+    "time": "20:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "e5d0c997-6df0-4ede-9249-dc5d10449530",
+    "calendar": "saturday",
+    "time": "20:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "149bf1ee-9a95-4f10-a014-77e8741c727e",
+    "calendar": "holiday",
+    "time": "05:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "9bedfdbe-4ee0-4b2f-87dc-1023de19c2b3",
+    "calendar": "holiday",
+    "time": "06:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "203e48cf-733a-4ad6-bace-3c5d7b13531f",
+    "calendar": "holiday",
+    "time": "06:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "4b1cc6dc-05d9-494f-8f9f-84110bff87a1",
+    "calendar": "holiday",
+    "time": "07:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "b1059b67-5d7a-4fcd-959d-c88638b4b32a",
+    "calendar": "holiday",
+    "time": "07:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "41e9c904-061c-4c6c-8efd-01b06964fea3",
+    "calendar": "holiday",
+    "time": "07:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "17a8892d-7066-4b03-a9ae-1ddd27a14d86",
+    "calendar": "holiday",
+    "time": "08:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "0adf9682-9f14-4fc4-bc52-03d29b2cd967",
+    "calendar": "holiday",
+    "time": "08:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "400d0be0-b765-4f28-b20a-84be4907a463",
+    "calendar": "holiday",
+    "time": "09:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "3f6bc4cd-0f2f-4fca-b3e6-a32b9cf670ba",
+    "calendar": "holiday",
+    "time": "09:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "fd2c730d-faf0-42f0-a897-4b3bfa59ea27",
+    "calendar": "holiday",
+    "time": "10:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "d526f449-83a7-482d-93a3-06cb555cfbf3",
+    "calendar": "holiday",
+    "time": "11:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "db4ce16c-e77a-4001-828b-a097ad933c9f",
+    "calendar": "holiday",
+    "time": "11:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "40cf1369-fd90-4b17-a16c-184f7ce7b923",
+    "calendar": "holiday",
+    "time": "12:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "2426208e-0384-495d-86f6-b1266c9523e7",
+    "calendar": "holiday",
+    "time": "12:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "f9f0864a-519e-47ac-be73-c4ebbda1f48e",
+    "calendar": "holiday",
+    "time": "13:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "2f33513b-f782-4796-8485-f04e3eabadbb",
+    "calendar": "holiday",
+    "time": "14:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "4bb2763c-dab5-4b04-bc17-09839e610615",
+    "calendar": "holiday",
+    "time": "14:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "919a6eef-7aa7-4107-b9f1-6f7f9e2660d1",
+    "calendar": "holiday",
+    "time": "15:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "c0e04f70-bc35-457f-94cf-fef6b666e470",
+    "calendar": "holiday",
+    "time": "15:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "27099bc3-9c52-457c-8249-f0eeaec40f71",
+    "calendar": "holiday",
+    "time": "15:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "eb114776-9789-448f-980e-fd48411f37cf",
+    "calendar": "holiday",
+    "time": "16:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "faca747b-c64f-4b7c-88a1-b8bc947e9e05",
+    "calendar": "holiday",
+    "time": "16:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "ad5cbf97-590b-4d34-8840-23d15bb596e0",
+    "calendar": "holiday",
+    "time": "16:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "aec18c62-965a-493d-98a2-9f964b90ea43",
+    "calendar": "holiday",
+    "time": "17:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "7a78dcf7-26ca-4ee5-be7e-00f344f2bd1e",
+    "calendar": "holiday",
+    "time": "17:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "51b52f20-1998-4456-b638-59cbb75af64d",
+    "calendar": "holiday",
+    "time": "18:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "76504772-a04f-4727-b7a9-d59db86e247c",
+    "calendar": "holiday",
+    "time": "18:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "f27985bc-90e6-4656-b2ba-72572a90aa63",
+    "calendar": "holiday",
+    "time": "19:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "b7289d26-516f-4de4-b380-c651a1b068e2",
+    "calendar": "holiday",
+    "time": "19:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "83d62123-8bae-4b48-a0a6-1a72a62ebfc4",
+    "calendar": "holiday",
+    "time": "20:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "01c38199-ebf7-4611-86f4-8d9905f56a1f",
+    "calendar": "holiday",
+    "time": "20:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "9fe116fb-f124-4cc2-8293-ef8efb5da244",
+    "calendar": "weekday",
+    "time": "06:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "7611b095-6dd3-44ed-8f05-a460c5574f8d",
+    "calendar": "weekday",
+    "time": "06:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "648e820c-0b30-4965-9f5b-b6cd533e69c3",
+    "calendar": "weekday",
+    "time": "07:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "e36d8fb6-79b2-4343-9da4-1938bc1fe4ef",
+    "calendar": "weekday",
+    "time": "13:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "02dd0ba1-5b86-4dd9-8e00-f156ded5ccc9",
+    "calendar": "weekday",
+    "time": "13:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "4a4e3238-1377-45eb-8b0e-c23bbb244d3f",
+    "calendar": "weekday",
+    "time": "15:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "e2157736-a598-4ff7-bb70-ece926647f59",
+    "calendar": "weekday",
+    "time": "16:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "4fad1e91-851e-412a-b1c6-526e084dbea2",
+    "calendar": "weekday",
+    "time": "18:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "d2e6ee10-e494-4089-b26f-dc709ef28d80",
+    "calendar": "saturday",
+    "time": "06:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "0f26c380-b3cb-406b-9ad7-c37b6b375a2d",
+    "calendar": "saturday",
+    "time": "09:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "66a7df71-abd6-4a28-a343-e80ff0e70de8",
+    "calendar": "saturday",
+    "time": "14:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "0ab60357-9c61-4ee2-8183-d65432b3829a",
+    "calendar": "holiday",
+    "time": "06:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "ac48bd31-6e91-426f-a8a3-8589a49377f8",
+    "calendar": "holiday",
+    "time": "09:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "93199b11-0083-4649-9780-77e035dd3b48",
+    "calendar": "holiday",
+    "time": "14:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "3f2102c2-26ba-4cc9-b32f-7871130f77b7",
+    "calendar": "weekday",
+    "time": "06:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "f5f840c2-4871-4e54-bc49-fc115c5cb654",
+    "calendar": "weekday",
+    "time": "06:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "35307fd9-af22-4c08-8ce7-1a4318d68893",
+    "calendar": "weekday",
+    "time": "14:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "ad34e781-c079-401e-b56c-e5516de63cee",
+    "calendar": "weekday",
+    "time": "15:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "5ad08742-9b49-4cf8-90c0-1c50b2741898",
+    "calendar": "weekday",
+    "time": "16:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "549c2118-6939-46b1-a1c6-2943ba49d975",
+    "calendar": "saturday",
+    "time": "06:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "cf4bb9d8-484f-4a35-a7fd-618061512323",
+    "calendar": "saturday",
+    "time": "06:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "116ee681-f053-42f5-bf67-4f0683998461",
+    "calendar": "saturday",
+    "time": "06:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "eaaea64c-d062-4c37-ac19-351c387395ff",
+    "calendar": "saturday",
+    "time": "14:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "dd0314a2-bc11-4f01-96b8-a9706f0e6caa",
+    "calendar": "saturday",
+    "time": "15:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "4c9e79b9-9ccd-4877-87c9-e71f99777d0f",
+    "calendar": "saturday",
+    "time": "15:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "223",
+    "courseSid": "c0ea39ac-b9e4-4254-af0f-b0392e81ae4a",
+    "tripSid": "8bdd6aba-83ee-4ccb-895f-a177f7ad7d62",
+    "calendar": "weekday",
+    "time": "10:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "223",
+    "courseSid": "c0ea39ac-b9e4-4254-af0f-b0392e81ae4a",
+    "tripSid": "0869cacc-c5d8-4cfd-8941-e3fb35ed1a89",
+    "calendar": "weekday",
+    "time": "11:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "223",
+    "courseSid": "c0ea39ac-b9e4-4254-af0f-b0392e81ae4a",
+    "tripSid": "6da7acc4-0677-4ace-9940-c4095e81c964",
+    "calendar": "saturday",
+    "time": "08:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "12700100",
+    "stopName": "具志川商業高校入口（胡屋向け）",
+    "routeNo": "223",
+    "courseSid": "c0ea39ac-b9e4-4254-af0f-b0392e81ae4a",
+    "tripSid": "dc36c0f0-15af-4581-8340-f831fb498152",
+    "calendar": "holiday",
+    "time": "08:33",
+    "parentCompanyCode": "8000"
+  }
+]
