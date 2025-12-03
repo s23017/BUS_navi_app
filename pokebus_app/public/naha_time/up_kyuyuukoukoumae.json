@@ -1,0 +1,1462 @@
+[
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "21",
+    "courseSid": "42aaa0ec-1dc8-4954-912e-d0490abbecdd",
+    "tripSid": "6f83a8e5-e908-4709-a3dc-852e699a6fc1",
+    "calendar": "weekday",
+    "time": "07:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "0711f876-8153-4fb7-919d-7fd03358f30a",
+    "calendar": "weekday",
+    "time": "06:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "7008cbfb-dd1e-4379-bbca-5afb854b56bb",
+    "calendar": "weekday",
+    "time": "07:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "1009b6c9-9f01-4eda-8113-45ee6a81a6b2",
+    "calendar": "weekday",
+    "time": "07:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "016ceb82-908d-4d70-88e1-28b3ff481f8c",
+    "calendar": "weekday",
+    "time": "07:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "9ab08dfb-06e7-40d0-960b-eab22ab3b435",
+    "calendar": "weekday",
+    "time": "08:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "13444796-5c90-434b-9236-6ca545084c28",
+    "calendar": "weekday",
+    "time": "09:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "8508c186-4d84-4197-b2ed-19718ca8a884",
+    "calendar": "weekday",
+    "time": "09:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "aef48820-75e7-4419-b381-5819f92c1f81",
+    "calendar": "weekday",
+    "time": "10:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "0ae44901-9432-4985-ab4c-e2193046193a",
+    "calendar": "weekday",
+    "time": "11:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "4b8692c5-6889-4689-9c33-b03416ff4fad",
+    "calendar": "weekday",
+    "time": "12:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "bff0f1cb-4f92-45fd-b79d-6c65e3a716e8",
+    "calendar": "weekday",
+    "time": "13:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "880c8d26-f2ce-40ba-a540-176e38c16bb6",
+    "calendar": "weekday",
+    "time": "14:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "4dd72e09-acb2-4855-93d8-2483a311b374",
+    "calendar": "weekday",
+    "time": "14:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "c889c87f-75da-4f98-b15d-9bc60b827542",
+    "calendar": "weekday",
+    "time": "15:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "980681c9-9041-46cf-80c5-a448e42f5cc0",
+    "calendar": "weekday",
+    "time": "15:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "80c40958-e9b5-4b56-b038-68be47fb1bd1",
+    "calendar": "weekday",
+    "time": "16:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "a28838fb-451a-43d8-82a7-beec222bc65d",
+    "calendar": "weekday",
+    "time": "16:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "ace23755-07f0-46c1-aa90-0ce10cdd0bcb",
+    "calendar": "weekday",
+    "time": "17:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "b58429fb-3f4c-4ec2-b5b5-4f1514a378b7",
+    "calendar": "weekday",
+    "time": "17:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "0ec60707-af51-49d4-afbc-229ca8373db0",
+    "calendar": "weekday",
+    "time": "18:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "bb1a17ff-11a8-42e4-b27a-17e045f47bc0",
+    "calendar": "weekday",
+    "time": "19:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "95334b20-7072-4bee-a3ac-6b5c2ed52298",
+    "calendar": "weekday",
+    "time": "20:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "1f7671a9-7bbb-48da-bd09-636fc97ce18b",
+    "calendar": "saturday",
+    "time": "07:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "b4a36228-4326-4c4b-95c5-a3290fc1aff7",
+    "calendar": "saturday",
+    "time": "08:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "6cd33179-3482-49a4-abec-5a216b3afe4e",
+    "calendar": "saturday",
+    "time": "09:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "f135770e-9240-4766-8946-3422eb69a21e",
+    "calendar": "saturday",
+    "time": "10:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "3314e9f1-4b0f-41ce-984e-3f4ccd779347",
+    "calendar": "saturday",
+    "time": "11:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "7c412c5e-63dc-4058-b314-245ae20a90a4",
+    "calendar": "saturday",
+    "time": "12:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "f7793c87-9adc-4121-af00-2cf3768e0c22",
+    "calendar": "saturday",
+    "time": "13:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "4c531c1f-ce35-44a5-a6e1-561c0dab9ee6",
+    "calendar": "saturday",
+    "time": "14:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "79388d8b-efb4-4c4c-a7ee-8738cbecbd81",
+    "calendar": "saturday",
+    "time": "15:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "65b55e87-7613-4646-b899-9bba3bb99e94",
+    "calendar": "saturday",
+    "time": "15:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "6c25faa1-91a7-42dd-beed-0139b4f95d29",
+    "calendar": "saturday",
+    "time": "16:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "0d903800-311d-42e5-aea9-0901a02cbd19",
+    "calendar": "saturday",
+    "time": "17:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "89de88c2-52d4-4323-b457-a3c629e26935",
+    "calendar": "saturday",
+    "time": "18:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "b87ca72e-fb34-4404-9f70-e67a567427a9",
+    "calendar": "saturday",
+    "time": "19:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "f56d87a1-cb44-4ab3-9c87-02a64eb095e8",
+    "calendar": "saturday",
+    "time": "20:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "ccfc0bae-d413-4a10-94ef-6878140b71b9",
+    "calendar": "holiday",
+    "time": "07:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "d518f7de-1196-4264-a868-e176b2138432",
+    "calendar": "holiday",
+    "time": "08:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "fbe1bd18-3fc6-4f9f-a2fc-9077206e4714",
+    "calendar": "holiday",
+    "time": "09:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "b52cfc13-51ad-4ccf-959d-93efeb7b19c1",
+    "calendar": "holiday",
+    "time": "10:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "2fe53ffa-31eb-4168-8f1b-b2bc50596252",
+    "calendar": "holiday",
+    "time": "11:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "5a0651e7-95d2-49a3-8e48-5c601476ceed",
+    "calendar": "holiday",
+    "time": "12:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "dcea4a1c-a935-459c-bff7-fbff57c24bb9",
+    "calendar": "holiday",
+    "time": "13:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "b619566b-a620-45c6-a58d-74e070595c85",
+    "calendar": "holiday",
+    "time": "14:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "b48033f3-bc31-420c-ac92-595666bf6aa1",
+    "calendar": "holiday",
+    "time": "15:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "6650093a-5bb5-4426-9cb0-966dfe88a250",
+    "calendar": "holiday",
+    "time": "15:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "07e4e3df-f64e-4e58-aaee-65ad109d656f",
+    "calendar": "holiday",
+    "time": "16:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "061552ea-9e66-4627-9836-85f9245a316b",
+    "calendar": "holiday",
+    "time": "17:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "41b90b00-c931-4018-86e5-25dae026137d",
+    "calendar": "holiday",
+    "time": "18:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "b47f85b4-17a8-4b10-bbd4-655c2a7b2360",
+    "calendar": "holiday",
+    "time": "19:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "62",
+    "courseSid": "ac61cd69-49d5-4c1b-bc60-3a24747d12bd",
+    "tripSid": "f2d6af2c-1ad8-4030-91ed-868c347b2ad7",
+    "calendar": "holiday",
+    "time": "20:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "474f40d8-a1d6-45bf-828c-98afeff27a53",
+    "calendar": "weekday",
+    "time": "06:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "69c03963-4480-49aa-bffe-1c3ee416bb49",
+    "calendar": "weekday",
+    "time": "07:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "4e44279c-143b-4595-b645-a62137e7cd5e",
+    "calendar": "weekday",
+    "time": "07:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "20027398-9e31-47a2-ae93-c5339e3e1fa0",
+    "calendar": "weekday",
+    "time": "08:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "2d2c3734-de94-4b26-956a-2a96adaee457",
+    "calendar": "weekday",
+    "time": "09:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "e73ac16d-e607-4ebd-8135-42ce0737794d",
+    "calendar": "weekday",
+    "time": "10:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "4cddf6dc-a690-4a05-a762-2939b2852f49",
+    "calendar": "weekday",
+    "time": "12:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "f1ff6d27-52d3-4f98-aae5-820b78242072",
+    "calendar": "weekday",
+    "time": "12:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "3e4b1625-0066-4472-9af1-989171a51015",
+    "calendar": "weekday",
+    "time": "13:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "3c53bc92-a40e-41a8-84ff-413fc8cef4c5",
+    "calendar": "weekday",
+    "time": "14:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "dfea54a9-74c4-4194-931e-9198a150f019",
+    "calendar": "weekday",
+    "time": "15:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "5e66b2ea-608e-4fa8-9636-d20bdca7243d",
+    "calendar": "weekday",
+    "time": "17:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "eb608a6b-2760-493f-8565-c092575e7c38",
+    "calendar": "weekday",
+    "time": "18:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "f5c83bdd-499b-4ef2-94db-c346f6aff3c0",
+    "calendar": "weekday",
+    "time": "18:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "4bfca611-c86c-42b3-bca1-7f914d38dfd1",
+    "calendar": "weekday",
+    "time": "19:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "1b6f1ca2-5aec-4029-80e8-733dfc3cc588",
+    "calendar": "weekday",
+    "time": "20:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "10efe22d-6038-42d6-aeb8-0b524251bb3a",
+    "calendar": "saturday",
+    "time": "07:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "3e50d36d-ecb4-4b05-9530-a7eb0c22613c",
+    "calendar": "saturday",
+    "time": "07:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "c07c19e3-6f75-4daf-85c0-151d19847646",
+    "calendar": "saturday",
+    "time": "08:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "a761ca41-81a7-4c45-9418-502c7e21ee61",
+    "calendar": "saturday",
+    "time": "09:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "e772b438-586d-4de2-a38d-061e705a9951",
+    "calendar": "saturday",
+    "time": "10:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "d707b295-9a70-4682-9b4a-6a68886cda50",
+    "calendar": "saturday",
+    "time": "10:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "c0c71614-48ae-4060-8b8d-34efb04437ea",
+    "calendar": "saturday",
+    "time": "11:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "e51f4022-39fc-4641-b451-c459dd0ed5d6",
+    "calendar": "saturday",
+    "time": "12:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "678080e3-161c-44a3-85f9-14abf23b07db",
+    "calendar": "saturday",
+    "time": "12:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "90efce02-8761-41a1-8391-ff9593142d5b",
+    "calendar": "saturday",
+    "time": "14:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "286ed51f-15d3-4834-bba1-73b50bbeb0a1",
+    "calendar": "saturday",
+    "time": "15:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "c7b1221a-cc20-487a-aa51-608ffd38c6b9",
+    "calendar": "saturday",
+    "time": "16:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "78a6eb23-26d3-47e6-ad0f-0d940d83a4a3",
+    "calendar": "saturday",
+    "time": "17:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "41bc54a0-a2a4-4694-b766-d141fab578ac",
+    "calendar": "saturday",
+    "time": "18:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "40cc78d1-68c0-433c-8b07-ed9d333e6be7",
+    "calendar": "saturday",
+    "time": "19:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "14d31ff9-0965-4221-860c-92984a95c263",
+    "calendar": "holiday",
+    "time": "07:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "ccbfd7ca-1f68-4ece-a485-869aafe78514",
+    "calendar": "holiday",
+    "time": "08:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "f14beb74-9753-410c-a92e-dfbce2052ccd",
+    "calendar": "holiday",
+    "time": "09:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "420a98b0-5f08-4804-971d-ebc9e1d3c1ff",
+    "calendar": "holiday",
+    "time": "10:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "91534441-1a74-4731-a239-e0f9fd2e8350",
+    "calendar": "holiday",
+    "time": "11:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "486d0e54-5223-44de-a77d-6e61df98eac1",
+    "calendar": "holiday",
+    "time": "12:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "e43fff0b-ae95-4919-9125-ec077be38fcb",
+    "calendar": "holiday",
+    "time": "13:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "b40d66b0-0904-4703-9c6c-e783aa51bbb8",
+    "calendar": "holiday",
+    "time": "14:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "b88150f2-e846-4357-8327-32fcd42c589c",
+    "calendar": "holiday",
+    "time": "15:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "40ff5e1d-7e61-41d4-bf21-2116fe66abe1",
+    "calendar": "holiday",
+    "time": "17:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "701db34c-685f-43ea-9846-27657049c061",
+    "calendar": "holiday",
+    "time": "18:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "aa8f08aa-0a41-456d-97a7-ab6b38d584bb",
+    "calendar": "holiday",
+    "time": "19:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "4685898c-53ac-471a-a7c7-edb601e2d2f3",
+    "calendar": "weekday",
+    "time": "07:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "e0860ece-873e-464e-a875-2c8c11f29e3f",
+    "calendar": "weekday",
+    "time": "08:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "29c57477-9471-4290-9f77-3a4d97ea8fe9",
+    "calendar": "weekday",
+    "time": "08:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "e6afea7f-a65c-4fde-88b0-aa7d7f9d156f",
+    "calendar": "weekday",
+    "time": "10:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "fc9e9508-40db-47df-b8c2-014a58e3bb64",
+    "calendar": "weekday",
+    "time": "12:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "117516cf-15b1-44f0-922b-b7c28bbbc011",
+    "calendar": "weekday",
+    "time": "13:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "129487f6-45c1-4b74-83f2-7142fc31017b",
+    "calendar": "weekday",
+    "time": "14:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "45a4a8d1-6ee8-4246-989b-cd433671e75c",
+    "calendar": "weekday",
+    "time": "15:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "649a878e-ae89-44e0-9aef-8cd10d2f4b5a",
+    "calendar": "weekday",
+    "time": "16:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "ffccd502-f421-4c98-9e9a-df6326377057",
+    "calendar": "weekday",
+    "time": "17:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "b3ce6139-7d71-4bc4-890d-1a92962540a8",
+    "calendar": "weekday",
+    "time": "19:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "7bb2cb69-29f6-46f2-b6c0-914a1d6c1a6d",
+    "calendar": "weekday",
+    "time": "20:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "875b485c-59ae-466f-978b-f96692ab74cd",
+    "calendar": "weekday",
+    "time": "20:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "b48014bd-06ee-4303-95c6-37a7e632b791",
+    "calendar": "saturday",
+    "time": "07:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "09256126-a94d-462d-af71-8a879a8afe5c",
+    "calendar": "saturday",
+    "time": "09:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "592fe21f-9c9d-4a1a-8ee1-0d8f4c0d10bc",
+    "calendar": "saturday",
+    "time": "12:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "7313f014-93d2-4fca-938d-51b84b90b11d",
+    "calendar": "saturday",
+    "time": "14:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "aa39eda1-8a17-4f12-82bd-8396e882790d",
+    "calendar": "saturday",
+    "time": "15:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "d7a38ef1-3ace-4415-8230-e4c82354ead7",
+    "calendar": "saturday",
+    "time": "17:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "d3a88a06-a17d-4fff-821b-5ee3fde5eee3",
+    "calendar": "saturday",
+    "time": "18:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "0e4108e2-3904-4b94-b29a-bed37935d1c7",
+    "calendar": "saturday",
+    "time": "20:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "4f324044-4689-4e50-94ef-102eb09ae7f3",
+    "calendar": "holiday",
+    "time": "07:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "039c2155-1109-457a-91ad-40e2ce4f20a7",
+    "calendar": "holiday",
+    "time": "09:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "295101c8-e7ff-48e7-ba19-6f7c2deb2916",
+    "calendar": "holiday",
+    "time": "12:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "53cc4aa2-6606-4e3d-9483-6bf256eb34d6",
+    "calendar": "holiday",
+    "time": "14:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "a735ed96-cf4b-413d-b14f-331fb44ea903",
+    "calendar": "holiday",
+    "time": "15:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "9f6cfe33-1945-49c7-a8b6-e73d2ec6c105",
+    "calendar": "holiday",
+    "time": "17:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "0e00344c-8916-459b-904b-ea66de64b988",
+    "calendar": "holiday",
+    "time": "18:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "75",
+    "courseSid": "e1e0e97c-15f0-4c72-84a1-f15768ef6862",
+    "tripSid": "58124bbe-0c85-4b8f-af85-b8b9b9c06c07",
+    "calendar": "holiday",
+    "time": "20:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "9fe116fb-f124-4cc2-8293-ef8efb5da244",
+    "calendar": "weekday",
+    "time": "06:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "7611b095-6dd3-44ed-8f05-a460c5574f8d",
+    "calendar": "weekday",
+    "time": "07:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "648e820c-0b30-4965-9f5b-b6cd533e69c3",
+    "calendar": "weekday",
+    "time": "08:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "e36d8fb6-79b2-4343-9da4-1938bc1fe4ef",
+    "calendar": "weekday",
+    "time": "13:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "02dd0ba1-5b86-4dd9-8e00-f156ded5ccc9",
+    "calendar": "weekday",
+    "time": "14:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "4a4e3238-1377-45eb-8b0e-c23bbb244d3f",
+    "calendar": "weekday",
+    "time": "16:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "e2157736-a598-4ff7-bb70-ece926647f59",
+    "calendar": "weekday",
+    "time": "16:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "4fad1e91-851e-412a-b1c6-526e084dbea2",
+    "calendar": "weekday",
+    "time": "19:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "d2e6ee10-e494-4089-b26f-dc709ef28d80",
+    "calendar": "saturday",
+    "time": "06:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "0f26c380-b3cb-406b-9ad7-c37b6b375a2d",
+    "calendar": "saturday",
+    "time": "10:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "66a7df71-abd6-4a28-a343-e80ff0e70de8",
+    "calendar": "saturday",
+    "time": "14:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "0ab60357-9c61-4ee2-8183-d65432b3829a",
+    "calendar": "holiday",
+    "time": "06:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "ac48bd31-6e91-426f-a8a3-8589a49377f8",
+    "calendar": "holiday",
+    "time": "10:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "93199b11-0083-4649-9780-77e035dd3b48",
+    "calendar": "holiday",
+    "time": "14:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "123",
+    "courseSid": "d15097d1-60f3-472c-894c-68ff4c6451df",
+    "tripSid": "0ef7c8f2-bf99-4d2d-bd06-a16a6cad8d2b",
+    "calendar": "weekday",
+    "time": "07:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "263",
+    "courseSid": "accb1306-2b57-4932-9dca-8013112887ba",
+    "tripSid": "fe7377c4-70b9-4781-9d66-047dad88576a",
+    "calendar": "weekday",
+    "time": "13:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "263",
+    "courseSid": "accb1306-2b57-4932-9dca-8013112887ba",
+    "tripSid": "47e49410-c25a-4d93-b471-21f98e6a2d1a",
+    "calendar": "weekday",
+    "time": "16:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "263",
+    "courseSid": "accb1306-2b57-4932-9dca-8013112887ba",
+    "tripSid": "97e09de9-e6c4-4cdb-83f9-cad6204d9a28",
+    "calendar": "saturday",
+    "time": "13:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "263",
+    "courseSid": "accb1306-2b57-4932-9dca-8013112887ba",
+    "tripSid": "1b93134e-9120-4a19-98e7-a0b27064e12f",
+    "calendar": "saturday",
+    "time": "16:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "263",
+    "courseSid": "accb1306-2b57-4932-9dca-8013112887ba",
+    "tripSid": "b6f1d72a-d3ee-419f-a40e-3b75152fb084",
+    "calendar": "holiday",
+    "time": "14:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "14700100",
+    "stopName": "球陽高校前（謝苅入口・山内中向け）",
+    "routeNo": "263",
+    "courseSid": "accb1306-2b57-4932-9dca-8013112887ba",
+    "tripSid": "ade0ce9c-bbd8-4287-9b94-c24009f2515a",
+    "calendar": "holiday",
+    "time": "16:18",
+    "parentCompanyCode": "8000"
+  }
+]

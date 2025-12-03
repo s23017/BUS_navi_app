@@ -1,0 +1,432 @@
+[
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "42b87b6e-a2ed-42d8-8c2f-c2412e57e23d",
+    "calendar": "weekday",
+    "time": "07:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "b89841c3-f189-491c-988f-b2178c8ebb02",
+    "calendar": "weekday",
+    "time": "09:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "5fb38dcd-3eb7-4b18-a2d3-f03f252587ab",
+    "calendar": "weekday",
+    "time": "09:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "3787c188-8ef3-4902-83f9-b6537c43fc19",
+    "calendar": "weekday",
+    "time": "10:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "45be3b75-8b65-460c-9147-a106b842d86c",
+    "calendar": "weekday",
+    "time": "13:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "e8572abc-baea-41ab-9f45-35fce926920d",
+    "calendar": "weekday",
+    "time": "14:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "a2f9241d-2600-47a9-b8c0-d34cdef83824",
+    "calendar": "weekday",
+    "time": "15:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "940e2db7-a41c-4a75-8c48-3ac6dce9d69d",
+    "calendar": "weekday",
+    "time": "16:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "e67dd720-bd2c-49da-a15e-9fc2d36c6f6a",
+    "calendar": "weekday",
+    "time": "17:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "344cc0f8-11de-458d-97de-f0821ac58c2e",
+    "calendar": "weekday",
+    "time": "18:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "3b7e2b4c-2df4-454a-bfff-a8832a9a112c",
+    "calendar": "weekday",
+    "time": "19:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "aa9c2574-6eb0-43a6-be01-490f969557cc",
+    "calendar": "weekday",
+    "time": "20:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "d8f301ec-c61c-44dd-87bc-752466c9cd93",
+    "calendar": "weekday",
+    "time": "21:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "fde9cc92-8e14-4349-aaf3-030893c8a078",
+    "calendar": "saturday",
+    "time": "07:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "681ba1b8-24b2-4aab-bc2e-eedcf70bef11",
+    "calendar": "saturday",
+    "time": "10:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "8c45ab4c-9b16-4a39-8637-fd718e529ff2",
+    "calendar": "saturday",
+    "time": "13:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "927b09bd-89ea-43bb-84e6-81ad1e29a392",
+    "calendar": "saturday",
+    "time": "15:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "ad62e05f-40a4-48d4-8b63-59cc58d11d34",
+    "calendar": "saturday",
+    "time": "16:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "1530409d-00d7-43e5-b8b7-a2d927e8ac86",
+    "calendar": "saturday",
+    "time": "18:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "ae97dfb0-7216-4d49-ac5b-0f59d1713d93",
+    "calendar": "saturday",
+    "time": "19:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "1d411291-504b-491c-846e-017ad8b78340",
+    "calendar": "saturday",
+    "time": "21:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "757e9962-da09-4f77-9bf2-0b7cd7cbc20a",
+    "calendar": "holiday",
+    "time": "07:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "16ea1723-266d-43a3-b09b-7ba8a742b9f4",
+    "calendar": "holiday",
+    "time": "10:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "a8feb318-538d-4a12-9da3-828f841d46b0",
+    "calendar": "holiday",
+    "time": "13:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "636a544b-6b4d-4adf-87c5-6459271c6591",
+    "calendar": "holiday",
+    "time": "15:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "b4d25798-e31e-41b2-8c51-36e193af22f7",
+    "calendar": "holiday",
+    "time": "16:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "0a1ffbef-bedc-4902-8fcf-1d151a78648e",
+    "calendar": "holiday",
+    "time": "18:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "e709a53d-c51d-49e8-841f-6de7c3dc9813",
+    "calendar": "holiday",
+    "time": "19:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "75",
+    "courseSid": "a0fcc0d2-8b8c-49b0-bdaf-19760ca01a70",
+    "tripSid": "12a3a6ee-dd7a-4a43-ac3b-bc7a4cb78bea",
+    "calendar": "holiday",
+    "time": "21:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "ea0bb622-e2a4-4803-ad26-f53d8a605abf",
+    "calendar": "weekday",
+    "time": "07:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "20fb696c-8d7a-440f-b3db-76c242729719",
+    "calendar": "weekday",
+    "time": "08:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "3b06e9d9-703c-445e-86ba-c2f969bff215",
+    "calendar": "weekday",
+    "time": "09:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "362d8830-28bc-4d84-985c-6ec56d6d80e0",
+    "calendar": "weekday",
+    "time": "10:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "64babc7e-eda7-4212-8d81-e5b61be4f959",
+    "calendar": "weekday",
+    "time": "17:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "398487ba-38d1-4e81-affd-bebdf82547ec",
+    "calendar": "weekday",
+    "time": "19:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "8866e926-28b2-4cb2-9fdf-5cb0de92f9d4",
+    "calendar": "weekday",
+    "time": "20:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "d7dac08c-4a7c-4f95-8e34-08da4df0ece2",
+    "calendar": "saturday",
+    "time": "07:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "b0fd700b-9d63-4384-a378-a710c1309bff",
+    "calendar": "saturday",
+    "time": "10:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "e4213db8-30a6-4377-8bb5-a0fee3337936",
+    "calendar": "saturday",
+    "time": "19:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "da15b6dd-8830-411f-9f7f-772a6339c38d",
+    "calendar": "holiday",
+    "time": "07:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "d276a277-f1d3-4841-bd49-3452bcf92f2b",
+    "calendar": "holiday",
+    "time": "10:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "aaf479c0-ffa6-46da-81d5-657e296ab04f",
+    "calendar": "holiday",
+    "time": "19:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15070000",
+    "stopName": "山内中学校前（胡屋向け）",
+    "routeNo": "123",
+    "courseSid": "d89f2108-5ddf-4af1-abe7-a4e2aa954068",
+    "tripSid": "fbd1fa0a-a0b6-4d79-ad98-2ea4079afba5",
+    "calendar": "weekday",
+    "time": "19:41",
+    "parentCompanyCode": "8000"
+  }
+]
