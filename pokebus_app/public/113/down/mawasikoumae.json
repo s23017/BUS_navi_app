@@ -1,0 +1,252 @@
+[
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "15",
+    "courseSid": "af7fc5d5-9855-4533-9a46-0f2872ab111f",
+    "tripSid": "5aa73264-79f0-4870-959c-3264f838e3e9",
+    "calendar": "weekday",
+    "time": "07:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "15",
+    "courseSid": "af7fc5d5-9855-4533-9a46-0f2872ab111f",
+    "tripSid": "350bedf2-d7df-4eba-8110-39f889b42595",
+    "calendar": "weekday",
+    "time": "09:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "15",
+    "courseSid": "af7fc5d5-9855-4533-9a46-0f2872ab111f",
+    "tripSid": "f8bb57a9-4690-4413-8fd0-88e9494ea57d",
+    "calendar": "weekday",
+    "time": "16:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "15",
+    "courseSid": "af7fc5d5-9855-4533-9a46-0f2872ab111f",
+    "tripSid": "5e913601-a339-4d40-ba8e-91f6928bd401",
+    "calendar": "weekday",
+    "time": "19:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "15",
+    "courseSid": "af7fc5d5-9855-4533-9a46-0f2872ab111f",
+    "tripSid": "4d79f8aa-5776-469d-a972-41a66da1d762",
+    "calendar": "saturday",
+    "time": "07:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "15",
+    "courseSid": "af7fc5d5-9855-4533-9a46-0f2872ab111f",
+    "tripSid": "357363a0-26ae-46ff-ad6e-6f09ee0c42e5",
+    "calendar": "saturday",
+    "time": "10:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "15",
+    "courseSid": "af7fc5d5-9855-4533-9a46-0f2872ab111f",
+    "tripSid": "302f2cd3-b2fd-4445-a2a1-0b6e1a719c3a",
+    "calendar": "saturday",
+    "time": "16:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "15",
+    "courseSid": "af7fc5d5-9855-4533-9a46-0f2872ab111f",
+    "tripSid": "237a929b-6386-4ca9-bf46-904c7155c496",
+    "calendar": "saturday",
+    "time": "19:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "15",
+    "courseSid": "af7fc5d5-9855-4533-9a46-0f2872ab111f",
+    "tripSid": "36510f4c-f126-44c8-955b-5827230b3ebb",
+    "calendar": "holiday",
+    "time": "07:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "15",
+    "courseSid": "af7fc5d5-9855-4533-9a46-0f2872ab111f",
+    "tripSid": "eb128163-1717-486d-a31e-ccc2d264557c",
+    "calendar": "holiday",
+    "time": "10:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "15",
+    "courseSid": "af7fc5d5-9855-4533-9a46-0f2872ab111f",
+    "tripSid": "0bc6a771-33d0-466b-896a-043622a2d801",
+    "calendar": "holiday",
+    "time": "16:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "15",
+    "courseSid": "af7fc5d5-9855-4533-9a46-0f2872ab111f",
+    "tripSid": "837f2a5e-cea2-4e2b-b3dd-dcde73ab9757",
+    "calendar": "holiday",
+    "time": "16:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "15",
+    "courseSid": "af7fc5d5-9855-4533-9a46-0f2872ab111f",
+    "tripSid": "f3f08a6b-19d3-4015-93ff-64bc28da19fc",
+    "calendar": "holiday",
+    "time": "19:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "113",
+    "courseSid": "1b0fe798-bef7-4618-9574-c47a68ef27bd",
+    "tripSid": "fb34c393-b9fa-4513-9c84-6af3f638f773",
+    "calendar": "weekday",
+    "time": "08:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "113",
+    "courseSid": "1b0fe798-bef7-4618-9574-c47a68ef27bd",
+    "tripSid": "c2d2e5ec-031a-4db4-a8ca-41ab98527200",
+    "calendar": "weekday",
+    "time": "09:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "113",
+    "courseSid": "1b0fe798-bef7-4618-9574-c47a68ef27bd",
+    "tripSid": "1665ea98-6728-4e65-b13c-fdbe262e85e2",
+    "calendar": "weekday",
+    "time": "09:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "113",
+    "courseSid": "1b0fe798-bef7-4618-9574-c47a68ef27bd",
+    "tripSid": "c7f7d19f-fe40-40e6-b3cf-29b12db9bebb",
+    "calendar": "weekday",
+    "time": "17:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "113",
+    "courseSid": "1b0fe798-bef7-4618-9574-c47a68ef27bd",
+    "tripSid": "43033146-c5d2-418f-b9c8-44ca83c17fca",
+    "calendar": "weekday",
+    "time": "18:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "113",
+    "courseSid": "1b0fe798-bef7-4618-9574-c47a68ef27bd",
+    "tripSid": "df64c2b7-711b-466b-8bb4-da7ed04037cf",
+    "calendar": "saturday",
+    "time": "08:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "113",
+    "courseSid": "1b0fe798-bef7-4618-9574-c47a68ef27bd",
+    "tripSid": "94b31e46-f84b-4112-b43e-dcf42fc53d54",
+    "calendar": "saturday",
+    "time": "08:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "113",
+    "courseSid": "1b0fe798-bef7-4618-9574-c47a68ef27bd",
+    "tripSid": "2d071d57-517f-42a1-937c-51836c1e2feb",
+    "calendar": "saturday",
+    "time": "09:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "113",
+    "courseSid": "1b0fe798-bef7-4618-9574-c47a68ef27bd",
+    "tripSid": "c826b9e5-a081-4748-887a-b5e91c3299a0",
+    "calendar": "saturday",
+    "time": "16:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "113",
+    "courseSid": "1b0fe798-bef7-4618-9574-c47a68ef27bd",
+    "tripSid": "e2ed883a-5da4-414e-ae14-e5c34d184406",
+    "calendar": "saturday",
+    "time": "17:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "113",
+    "courseSid": "1b0fe798-bef7-4618-9574-c47a68ef27bd",
+    "tripSid": "f3afa1b4-581b-4ed5-9871-5c3bf4ae298c",
+    "calendar": "saturday",
+    "time": "18:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": null,
+    "stopName": null,
+    "routeNo": "123",
+    "courseSid": "d89f2108-5ddf-4af1-abe7-a4e2aa954068",
+    "tripSid": "fbd1fa0a-a0b6-4d79-ad98-2ea4079afba5",
+    "calendar": "weekday",
+    "time": "19:13",
+    "parentCompanyCode": "8000"
+  }
+]

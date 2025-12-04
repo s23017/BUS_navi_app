@@ -1,0 +1,112 @@
+[
+  {
+    "stationSid": "15180100",
+    "stopName": "ナショナルクレジット前（沖縄自動車道向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "3f2102c2-26ba-4cc9-b32f-7871130f77b7",
+    "calendar": "weekday",
+    "time": "06:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15180100",
+    "stopName": "ナショナルクレジット前（沖縄自動車道向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "f5f840c2-4871-4e54-bc49-fc115c5cb654",
+    "calendar": "weekday",
+    "time": "06:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15180100",
+    "stopName": "ナショナルクレジット前（沖縄自動車道向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "35307fd9-af22-4c08-8ce7-1a4318d68893",
+    "calendar": "weekday",
+    "time": "15:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15180100",
+    "stopName": "ナショナルクレジット前（沖縄自動車道向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "ad34e781-c079-401e-b56c-e5516de63cee",
+    "calendar": "weekday",
+    "time": "16:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15180100",
+    "stopName": "ナショナルクレジット前（沖縄自動車道向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "5ad08742-9b49-4cf8-90c0-1c50b2741898",
+    "calendar": "weekday",
+    "time": "17:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15180100",
+    "stopName": "ナショナルクレジット前（沖縄自動車道向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "549c2118-6939-46b1-a1c6-2943ba49d975",
+    "calendar": "saturday",
+    "time": "06:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15180100",
+    "stopName": "ナショナルクレジット前（沖縄自動車道向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "cf4bb9d8-484f-4a35-a7fd-618061512323",
+    "calendar": "saturday",
+    "time": "06:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15180100",
+    "stopName": "ナショナルクレジット前（沖縄自動車道向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "116ee681-f053-42f5-bf67-4f0683998461",
+    "calendar": "saturday",
+    "time": "07:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15180100",
+    "stopName": "ナショナルクレジット前（沖縄自動車道向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "eaaea64c-d062-4c37-ac19-351c387395ff",
+    "calendar": "saturday",
+    "time": "14:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15180100",
+    "stopName": "ナショナルクレジット前（沖縄自動車道向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "dd0314a2-bc11-4f01-96b8-a9706f0e6caa",
+    "calendar": "saturday",
+    "time": "15:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15180100",
+    "stopName": "ナショナルクレジット前（沖縄自動車道向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "4c9e79b9-9ccd-4877-87c9-e71f99777d0f",
+    "calendar": "saturday",
+    "time": "16:11",
+    "parentCompanyCode": "8000"
+  }
+]
