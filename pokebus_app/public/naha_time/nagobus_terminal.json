@@ -1,0 +1,2812 @@
+[
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "8f866ed9-5830-435f-a32d-d2b7d1c212d9",
+    "calendar": "weekday",
+    "time": "08:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "169e42ed-6564-4d37-900f-fa17087bc4cd",
+    "calendar": "weekday",
+    "time": "08:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "5a146b11-3cea-4d5f-ab74-3b3d655ed859",
+    "calendar": "weekday",
+    "time": "09:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "1c1b008c-8408-489c-a9b1-b253f7656f2d",
+    "calendar": "weekday",
+    "time": "09:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "59fff9c3-7dc0-47e0-bfb6-7b9a4e348493",
+    "calendar": "weekday",
+    "time": "10:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "0cedd6fa-43ef-445b-8b3d-fa7515c323bf",
+    "calendar": "saturday",
+    "time": "08:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "f9f0a33d-ad94-41c5-b69b-379fea2440c6",
+    "calendar": "saturday",
+    "time": "08:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "c77631f0-4781-4535-aac7-81078fce9c55",
+    "calendar": "saturday",
+    "time": "09:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "0dbd8950-9737-4371-9d27-306982280c6f",
+    "calendar": "saturday",
+    "time": "09:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "50b357a2-c3ba-447f-b9b1-0dc8e5dff262",
+    "calendar": "saturday",
+    "time": "10:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "9ba774ab-7761-422b-86f6-15038f8858fb",
+    "calendar": "holiday",
+    "time": "07:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "bf868ea0-ddf5-4117-b0b7-8cf0fe8663eb",
+    "calendar": "holiday",
+    "time": "08:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "0d4bac9c-784a-4705-880e-29b6ab27299c",
+    "calendar": "holiday",
+    "time": "08:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "7dbdbf2d-c9eb-48c3-ba10-61d8bc1e1dfd",
+    "calendar": "holiday",
+    "time": "08:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "9a53f354-9b8b-4895-a888-9f0b18f316ca",
+    "calendar": "holiday",
+    "time": "08:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "06f7ff96-6d87-41e7-8eb5-59d771018d6e",
+    "calendar": "holiday",
+    "time": "09:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "6f41439f-e8ba-476d-89e5-43802cc65b0d",
+    "calendar": "holiday",
+    "time": "09:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "986e9b5e-90bc-4d2b-85fb-e98ce692ea9a",
+    "calendar": "holiday",
+    "time": "09:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "0b62b4e6-de03-41d9-858c-ddffd51cf210",
+    "calendar": "holiday",
+    "time": "10:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "c73205d9-a8c4-4a3e-ad62-ce017e03a2c1",
+    "calendar": "holiday",
+    "time": "10:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "89733e43-4c6f-49cf-a6df-38fc427b8d48",
+    "calendar": "weekday",
+    "time": "08:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "9d387db7-8d80-499c-b929-1be8cae9293d",
+    "calendar": "weekday",
+    "time": "09:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "248ff834-8e39-4d4a-b59e-c34cd1912d40",
+    "calendar": "weekday",
+    "time": "09:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "d4216b05-5d23-4cc5-96a0-82dd3d88b81e",
+    "calendar": "weekday",
+    "time": "10:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "c6c92aa3-0024-4b95-98eb-903983b235c1",
+    "calendar": "weekday",
+    "time": "11:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "da74f81a-1367-4439-b402-541c6c52d5a5",
+    "calendar": "weekday",
+    "time": "12:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "25fd594f-f242-4cc5-beb5-7c2ca6a0deda",
+    "calendar": "weekday",
+    "time": "14:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "f10cc0b0-24be-4154-951c-3e7169d03632",
+    "calendar": "weekday",
+    "time": "15:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "e6003da5-5247-49a6-b2ad-9df6f69ec54c",
+    "calendar": "weekday",
+    "time": "16:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "66cf26db-25d9-4257-9c8a-5a9296f1a477",
+    "calendar": "weekday",
+    "time": "17:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "327854d9-4915-467e-91b6-a2d1dc86d300",
+    "calendar": "weekday",
+    "time": "18:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "b398dd0f-338c-42b9-992d-c752e225acf9",
+    "calendar": "weekday",
+    "time": "20:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "cf3369e7-b091-4ab3-8f4e-adeeca12ae9b",
+    "calendar": "weekday",
+    "time": "21:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "5e0a6990-9117-48dd-8f11-6a5eca476823",
+    "calendar": "saturday",
+    "time": "08:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "b1f11d9c-2293-401a-a09c-eac2f23bdf33",
+    "calendar": "saturday",
+    "time": "09:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "3b423a64-483b-49c4-a318-09d6dc37eed2",
+    "calendar": "saturday",
+    "time": "09:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "331e255d-9b01-4288-be18-cef2d09644e1",
+    "calendar": "saturday",
+    "time": "10:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "5499ca43-b11f-4a70-affd-d8d68a542b32",
+    "calendar": "saturday",
+    "time": "11:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "de295180-6217-437a-9be8-3812082a1b12",
+    "calendar": "saturday",
+    "time": "13:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "581e0ea9-818f-4fdd-bc17-88745a25af0f",
+    "calendar": "saturday",
+    "time": "14:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "31ac4b48-99b0-41f6-8ec9-900a39e889b9",
+    "calendar": "saturday",
+    "time": "15:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "d60780a5-5aab-4975-9f7e-2e0ba0f830b9",
+    "calendar": "saturday",
+    "time": "16:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "3129773d-7aed-4484-a18f-afda6de96678",
+    "calendar": "saturday",
+    "time": "17:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "7e899687-18bb-4f7a-babe-3ae2aa520df1",
+    "calendar": "saturday",
+    "time": "18:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "f75c45ac-3306-4660-a729-94e6fd0d9b0f",
+    "calendar": "saturday",
+    "time": "20:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "3f20113c-a032-4ea4-beae-b37e444f6c08",
+    "calendar": "saturday",
+    "time": "21:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "4f8f72d6-c854-46d7-83c0-a8785acdffc9",
+    "calendar": "holiday",
+    "time": "08:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "fecf8e37-74b9-4fa9-a47d-c2e2e6103447",
+    "calendar": "holiday",
+    "time": "09:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "86610560-38a9-4bf8-a196-d38cdade247e",
+    "calendar": "holiday",
+    "time": "09:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "9de55188-8a26-4f17-9529-9bddf82b9505",
+    "calendar": "holiday",
+    "time": "10:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "6e66008c-7d85-4015-820a-da333f377242",
+    "calendar": "holiday",
+    "time": "11:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "f893f051-2879-435c-8cbd-5131ad3a141d",
+    "calendar": "holiday",
+    "time": "13:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "cb57f6a1-00c8-4b3b-aad0-c89961abb649",
+    "calendar": "holiday",
+    "time": "14:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "425fa9d5-9f9f-4e85-8ac0-5e70915d8dbe",
+    "calendar": "holiday",
+    "time": "15:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "f1d0ed8c-5692-490b-9779-c34dbfe96c42",
+    "calendar": "holiday",
+    "time": "16:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "980e24cd-c1c6-4eb5-8b68-5952807d36e8",
+    "calendar": "holiday",
+    "time": "17:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "c097834a-44bf-466b-9eab-b5a41a61f1d0",
+    "calendar": "holiday",
+    "time": "18:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "f8682c29-2b80-4b19-8314-d3573a90a06c",
+    "calendar": "holiday",
+    "time": "20:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "68dbcba5-c4d1-461c-9728-49b0dc2ee8d2",
+    "calendar": "holiday",
+    "time": "21:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "3b35251e-aa9c-45d0-bcbc-b0208a0f5622",
+    "calendar": "weekday",
+    "time": "07:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "2cc5ebf4-720a-457f-97e6-4846bd8addfe",
+    "calendar": "weekday",
+    "time": "08:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "a4c94169-992a-4187-abb5-c77a1ae770a2",
+    "calendar": "weekday",
+    "time": "09:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "30861968-8b01-4d91-b47a-dc2d65a265d1",
+    "calendar": "weekday",
+    "time": "10:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "dc8afaac-76c8-4d1a-b4b6-6b5c0a16d69a",
+    "calendar": "weekday",
+    "time": "12:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "85ae61a0-f455-4f4d-a15b-c73c2d9b1742",
+    "calendar": "weekday",
+    "time": "13:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "dd1ca424-1ac9-4a24-8dd3-d12a3b1f0033",
+    "calendar": "weekday",
+    "time": "13:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "9ed81d0c-b34e-4d4d-b5e7-91fa5ed9aeb1",
+    "calendar": "weekday",
+    "time": "15:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "6c98377d-5874-4af6-b961-1a399544a9a3",
+    "calendar": "weekday",
+    "time": "16:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "1364babf-384b-43e2-81b5-f87956d7da40",
+    "calendar": "weekday",
+    "time": "17:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "4d2b5b58-79f0-4cfd-9b01-ac298b9f5025",
+    "calendar": "weekday",
+    "time": "18:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "6e9d2024-e07a-438b-b06e-e7d42c477de0",
+    "calendar": "weekday",
+    "time": "19:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "49df07ab-d8bb-4a48-a63b-cdc50aa526a1",
+    "calendar": "weekday",
+    "time": "20:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "db013920-fd4e-4b66-8218-f8b873f536ff",
+    "calendar": "weekday",
+    "time": "21:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "1f4f9509-04f8-4ae1-a54a-2790a0a70bcf",
+    "calendar": "saturday",
+    "time": "07:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "7bd4f257-6382-4365-a77b-292da99d2839",
+    "calendar": "saturday",
+    "time": "08:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "3754a3ed-b32c-4ad8-a631-6c98ce3faa9e",
+    "calendar": "saturday",
+    "time": "09:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "9083e9ad-eeaa-49a3-8610-57c76236ef0b",
+    "calendar": "saturday",
+    "time": "10:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "64900daf-eddc-4479-90d5-9895048c23ca",
+    "calendar": "saturday",
+    "time": "12:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "8d29c199-d6f2-48fc-991c-dd71789762d5",
+    "calendar": "saturday",
+    "time": "13:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "a52609dd-f03f-421a-aebd-bb9cfecd21d9",
+    "calendar": "saturday",
+    "time": "15:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "a7bb35b1-1e8b-4d92-be79-2716f9d5658f",
+    "calendar": "saturday",
+    "time": "16:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "3063dc57-4dca-424b-bf3f-09613ed52945",
+    "calendar": "saturday",
+    "time": "17:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "1e95a2bb-8b29-4281-9b09-8b164d9a8c76",
+    "calendar": "saturday",
+    "time": "18:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "de5b6027-399b-44aa-9df2-bfd9d27a7a6a",
+    "calendar": "saturday",
+    "time": "19:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "68eca6e9-1b35-4eca-ab40-b1ffd5772a9b",
+    "calendar": "saturday",
+    "time": "20:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "dfbe8158-52f4-497b-b617-45935934b35e",
+    "calendar": "saturday",
+    "time": "21:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "1a9c2bfe-e870-465a-819f-b00cbf27a4f9",
+    "calendar": "holiday",
+    "time": "07:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "76639e5c-e494-46bc-a7a6-a2745c44408c",
+    "calendar": "holiday",
+    "time": "08:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "fbff95db-d0b7-419e-89ae-d3b05a585484",
+    "calendar": "holiday",
+    "time": "09:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "42adfda7-dd43-4f3b-9394-67f5164ff81e",
+    "calendar": "holiday",
+    "time": "10:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "68614f24-bfc2-45f6-acf1-cce78b750ce3",
+    "calendar": "holiday",
+    "time": "12:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "437ceef4-47d8-4cd2-9f8e-a9c6f286068e",
+    "calendar": "holiday",
+    "time": "13:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "ba13f9fd-d12b-4b9d-98bc-20b7170eddeb",
+    "calendar": "holiday",
+    "time": "15:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "6bc73daf-b9bf-414b-90c7-a5fb654e0e0c",
+    "calendar": "holiday",
+    "time": "16:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "759b55da-3da0-4fd9-9ea3-63a0c3f40504",
+    "calendar": "holiday",
+    "time": "17:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "d3b03eda-b274-4f7f-b445-c0546d2e0e6f",
+    "calendar": "holiday",
+    "time": "18:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "1ab4e662-b441-40ca-834d-203b92cab491",
+    "calendar": "holiday",
+    "time": "19:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "85defa62-b702-4d0d-8834-c10ea89b332f",
+    "calendar": "holiday",
+    "time": "20:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "9f680e3e-d089-4d12-9be2-584d1d85bcb0",
+    "calendar": "holiday",
+    "time": "21:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "2bbcb6a9-cab4-40ae-9b73-a30428c7dd32",
+    "calendar": "weekday",
+    "time": "07:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "20a30dd4-42bd-479d-a880-6e0872c8bd3f",
+    "calendar": "weekday",
+    "time": "08:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "d9e36ea6-7f95-4dba-8025-2fa700fc5a3a",
+    "calendar": "weekday",
+    "time": "09:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "8ca266cb-676f-478f-9d91-d40cedb7c257",
+    "calendar": "weekday",
+    "time": "10:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "7c746f34-f656-4592-b938-9c3af8667ed9",
+    "calendar": "weekday",
+    "time": "11:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "7b4902db-e36e-4694-8435-48f1678e9cf3",
+    "calendar": "weekday",
+    "time": "13:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "861ef6e0-62af-4f79-a065-90125f1e5774",
+    "calendar": "weekday",
+    "time": "15:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "047c2fa2-6fb5-4a56-863a-9c9178d57266",
+    "calendar": "weekday",
+    "time": "15:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "4360e405-e954-40b4-9713-2bb67af7d220",
+    "calendar": "weekday",
+    "time": "16:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "08e9555f-634a-4487-ac3e-4868fe1a75b6",
+    "calendar": "weekday",
+    "time": "17:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "e0b349e8-f000-43c2-aaa1-366a67d816ac",
+    "calendar": "weekday",
+    "time": "19:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "6251638b-020f-4352-a813-2cc0a736ec7d",
+    "calendar": "weekday",
+    "time": "20:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "d14624a4-5462-47a0-b6d4-f96d48d86d4c",
+    "calendar": "saturday",
+    "time": "07:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "9e8bb6b4-4ca1-434b-8b91-1c410278a1bf",
+    "calendar": "saturday",
+    "time": "08:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "08bad2ff-809a-4323-9cd7-4ad71be4686e",
+    "calendar": "saturday",
+    "time": "09:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "cc521fde-8a79-437e-9c55-d9f38164517a",
+    "calendar": "saturday",
+    "time": "10:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "d041e9cf-6e32-4f1a-94c3-113edcd1ba81",
+    "calendar": "saturday",
+    "time": "11:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "1c99bc63-028c-4b0c-9cec-1ee1ace0ab37",
+    "calendar": "saturday",
+    "time": "13:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "44497a25-f25c-4c29-9475-7ec47af50b51",
+    "calendar": "saturday",
+    "time": "14:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "4357e2cb-e4c7-4ac7-94b7-ab0468a1f79e",
+    "calendar": "saturday",
+    "time": "16:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "7858da5e-cb03-414e-86d0-7027469478ab",
+    "calendar": "saturday",
+    "time": "17:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "3bcef54e-6daa-4bad-b4c5-153b7b9ac049",
+    "calendar": "saturday",
+    "time": "19:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "9df7db3f-1487-40b4-a74a-8f798a836ff2",
+    "calendar": "saturday",
+    "time": "20:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "afef049e-0d0a-4c6a-989b-aaa5143aaf56",
+    "calendar": "holiday",
+    "time": "07:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "0c7ca820-c9f9-496a-9b6c-66abcbf4b0da",
+    "calendar": "holiday",
+    "time": "08:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "7ddebf5f-91d3-4747-a4eb-339d04dd52c3",
+    "calendar": "holiday",
+    "time": "09:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "ad213a62-88dc-4290-9ea6-0dff0e706d28",
+    "calendar": "holiday",
+    "time": "10:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "21640daf-b29c-42ce-b173-b6e63286418a",
+    "calendar": "holiday",
+    "time": "11:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "471c2d59-6574-4f56-818b-7f186c6d7423",
+    "calendar": "holiday",
+    "time": "13:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "1a20055d-c9e7-4104-b531-a0b21f409a67",
+    "calendar": "holiday",
+    "time": "14:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "08918ebb-c483-4b95-a172-477c9f77e250",
+    "calendar": "holiday",
+    "time": "16:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "dd80cb7f-b1c0-422f-92c0-d900161667d0",
+    "calendar": "holiday",
+    "time": "17:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "8bb1567e-f847-4d53-9aeb-23730b3a87f9",
+    "calendar": "holiday",
+    "time": "19:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "957e8dc2-6af7-4d81-9cac-9ca906ed4d64",
+    "calendar": "holiday",
+    "time": "20:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "70",
+    "courseSid": "211a480d-6b64-4cbf-8361-c9425eb7d529",
+    "tripSid": "ad0ec10a-d850-435e-9669-c3d5ac01da0d",
+    "calendar": "weekday",
+    "time": "11:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "70",
+    "courseSid": "211a480d-6b64-4cbf-8361-c9425eb7d529",
+    "tripSid": "365d8a7e-a5c8-47db-a17d-ec839a57db8f",
+    "calendar": "saturday",
+    "time": "11:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "70",
+    "courseSid": "211a480d-6b64-4cbf-8361-c9425eb7d529",
+    "tripSid": "d92656bb-0a94-4a70-ba42-df1897bbbce6",
+    "calendar": "holiday",
+    "time": "11:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "76",
+    "courseSid": "7f8336c1-8553-43a9-81bc-9c01696444f0",
+    "tripSid": "a3f19e67-a5ba-4a13-9d81-4f668d493e25",
+    "calendar": "weekday",
+    "time": "08:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "76",
+    "courseSid": "7f8336c1-8553-43a9-81bc-9c01696444f0",
+    "tripSid": "bf4ea48a-0de4-4860-8ef4-51c763636894",
+    "calendar": "weekday",
+    "time": "19:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "76",
+    "courseSid": "7f8336c1-8553-43a9-81bc-9c01696444f0",
+    "tripSid": "4984eea4-e8e8-4e06-bdf8-16c97ce0e208",
+    "calendar": "saturday",
+    "time": "08:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "76",
+    "courseSid": "7f8336c1-8553-43a9-81bc-9c01696444f0",
+    "tripSid": "b45947c9-fc6d-4645-8769-01045ab30e83",
+    "calendar": "saturday",
+    "time": "20:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "76",
+    "courseSid": "7f8336c1-8553-43a9-81bc-9c01696444f0",
+    "tripSid": "b8e15a82-01d1-4c42-8043-4dd6142da1cf",
+    "calendar": "holiday",
+    "time": "08:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "76",
+    "courseSid": "7f8336c1-8553-43a9-81bc-9c01696444f0",
+    "tripSid": "512b052c-96fa-4ae5-9945-8511985b0218",
+    "calendar": "holiday",
+    "time": "20:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "12d47850-d17b-47a9-8622-42a1a0eced8b",
+    "calendar": "weekday",
+    "time": "07:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "164c07e6-b3c4-40d9-ae88-2e1a4348a5d0",
+    "calendar": "weekday",
+    "time": "08:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "f7e10075-1b8c-4921-be42-5990a55eab4b",
+    "calendar": "weekday",
+    "time": "09:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "ce545cc3-c0ee-4f39-9f53-405e25ad691a",
+    "calendar": "weekday",
+    "time": "13:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "4090c74a-2438-4f37-9145-278d4b8666f8",
+    "calendar": "weekday",
+    "time": "14:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "3d88394f-72a6-442f-b309-eb7a37b2a415",
+    "calendar": "weekday",
+    "time": "17:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "127a0727-a3ac-44dd-8cba-44f98c0645f1",
+    "calendar": "weekday",
+    "time": "17:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "5f56a566-4897-4dfe-a6a6-3ca5047a4e1d",
+    "calendar": "weekday",
+    "time": "18:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "a4925dc1-f6cd-492b-a62a-c631ef321146",
+    "calendar": "weekday",
+    "time": "18:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "8a9ec1f6-6052-4653-b993-2f065299e000",
+    "calendar": "weekday",
+    "time": "20:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "8a1c22c8-9083-4489-9226-2cadba95b207",
+    "calendar": "weekday",
+    "time": "20:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "fcb07a22-6cf9-4ec8-83ee-e066e17efef7",
+    "calendar": "weekday",
+    "time": "21:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "11466080-4749-4be9-97f7-967de86cc5e4",
+    "calendar": "weekday",
+    "time": "22:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "709e7952-9006-4ca2-be30-6ab653c250db",
+    "calendar": "saturday",
+    "time": "07:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "78d49f02-e2a9-4797-8dc3-b889b4c7b88d",
+    "calendar": "saturday",
+    "time": "08:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "a70408db-3321-4262-9c45-808558b416d7",
+    "calendar": "saturday",
+    "time": "09:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "1adb1397-b578-41e9-9444-8cf9cee6bc9e",
+    "calendar": "saturday",
+    "time": "13:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "304a0747-3f83-4012-a005-5e5ccec6656d",
+    "calendar": "saturday",
+    "time": "14:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "cc3ea2f4-1777-453a-86f2-a7fa9bf3bc21",
+    "calendar": "saturday",
+    "time": "17:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "069b0ee5-33da-4bbe-a4ef-d7a1b213c0d0",
+    "calendar": "saturday",
+    "time": "17:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "f2ede3c3-54aa-464e-99e9-dc4931e92183",
+    "calendar": "saturday",
+    "time": "18:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "8f8a5fbd-6c98-4815-9842-5f454e7ad8cc",
+    "calendar": "saturday",
+    "time": "18:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "bdd1f2ec-a8bc-451f-b8cb-d6c8e269e05a",
+    "calendar": "saturday",
+    "time": "20:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "f4d92c9d-69dc-40a6-a1ae-25ef5465c9e2",
+    "calendar": "saturday",
+    "time": "20:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "0925328d-924c-4b60-95f5-40b059d9138e",
+    "calendar": "saturday",
+    "time": "21:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "679593e5-c8c4-469d-bdde-8b8996c66bcb",
+    "calendar": "saturday",
+    "time": "22:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "e2e6f780-c0a4-4c1c-942e-940692164979",
+    "calendar": "holiday",
+    "time": "07:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "d84204f9-0f9d-4141-aeac-c35aa5dfcbfa",
+    "calendar": "holiday",
+    "time": "08:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "f389c561-aa42-445b-a8dc-178e0b96c9bc",
+    "calendar": "holiday",
+    "time": "09:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "55d53d6f-f645-4f6d-8b45-5376cdd94955",
+    "calendar": "holiday",
+    "time": "13:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "c65ab246-bfb9-4901-84d2-e8720e9bbca5",
+    "calendar": "holiday",
+    "time": "14:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "8c2ae215-34e0-409d-bf81-b882ffaab42e",
+    "calendar": "holiday",
+    "time": "17:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "c59c7a92-d481-4412-a9e9-881454872ca1",
+    "calendar": "holiday",
+    "time": "17:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "d8c6d4ee-e009-45a5-9e95-627dfd2eb946",
+    "calendar": "holiday",
+    "time": "18:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "aea31b47-a15e-4b3b-808d-2ab696830e63",
+    "calendar": "holiday",
+    "time": "18:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "1e7f9b04-aeb4-4d9a-aca0-7e06ef1a92d8",
+    "calendar": "holiday",
+    "time": "20:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "37a320b4-a3b5-4c25-b5bc-42ee1d94f2eb",
+    "calendar": "holiday",
+    "time": "20:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "ed830577-5d62-4328-aa79-f3470f030430",
+    "calendar": "holiday",
+    "time": "21:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "111",
+    "courseSid": "b60d5cfd-b45f-4640-a04b-4e4f880213bf",
+    "tripSid": "d972eb35-aaf0-4da7-8bc3-16508b839ed9",
+    "calendar": "holiday",
+    "time": "22:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "8b579ae9-9b49-4ea9-9c3e-8ca9b3aa14aa",
+    "calendar": "weekday",
+    "time": "08:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "6c53aa11-258a-4afb-b46d-fea88ba53681",
+    "calendar": "weekday",
+    "time": "10:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "cbf13e7c-9c1f-4abc-8dac-936192fd18f4",
+    "calendar": "weekday",
+    "time": "11:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "540a9967-15a7-4095-9d54-470e2e2d3db3",
+    "calendar": "weekday",
+    "time": "11:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "14fe3854-92c9-484d-af56-b3584a4eb465",
+    "calendar": "weekday",
+    "time": "11:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "0109e0fe-dde7-4d10-a4d7-a2df07967d11",
+    "calendar": "weekday",
+    "time": "13:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "5ae5d952-cc93-4b42-9c13-4616b98045a7",
+    "calendar": "weekday",
+    "time": "14:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "63b226ea-b135-4867-b55c-758a07520b28",
+    "calendar": "weekday",
+    "time": "15:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "b3bec487-d771-4885-9c1d-6c3ba2beb50a",
+    "calendar": "saturday",
+    "time": "08:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "5b3b8ffc-7836-4b4e-bd3e-0701155a0e1b",
+    "calendar": "saturday",
+    "time": "10:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "96f14f80-9fc3-4559-b93c-1042ebbb6eab",
+    "calendar": "saturday",
+    "time": "11:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "f4dcefe6-52a0-42f8-82d0-da9a55fe50c8",
+    "calendar": "saturday",
+    "time": "11:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "b738c5e4-4349-4657-b42b-70cf0ceecca3",
+    "calendar": "saturday",
+    "time": "11:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "74a6f608-22a1-4f68-abf3-036d3d5143f6",
+    "calendar": "saturday",
+    "time": "13:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "f41815d0-92c4-4b10-9dab-8b730ce219b6",
+    "calendar": "saturday",
+    "time": "14:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "7cc7f128-3da1-441e-990b-4d90526f82e3",
+    "calendar": "saturday",
+    "time": "15:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "81aaa175-063e-40a8-a333-17201e8e15a7",
+    "calendar": "holiday",
+    "time": "08:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "3e843697-5731-499f-93fb-c7cc244967eb",
+    "calendar": "holiday",
+    "time": "10:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "a4dda7f7-4db1-4877-bccd-5caeaf2696f0",
+    "calendar": "holiday",
+    "time": "11:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "38da8f6c-ba73-4d0c-b813-8bc9c2d83fb7",
+    "calendar": "holiday",
+    "time": "11:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "df1b0cf8-912c-4949-9045-d45202ade481",
+    "calendar": "holiday",
+    "time": "11:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "558bb0b3-1464-4273-957b-0d51b3a1a36d",
+    "calendar": "holiday",
+    "time": "13:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "f16892a5-6c89-472c-a209-2b84b9737bf2",
+    "calendar": "holiday",
+    "time": "14:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "117",
+    "courseSid": "ec838a41-9279-49db-b37c-63d82b0fe3df",
+    "tripSid": "734afdcd-ae0f-4b50-8268-8bf3ce0759ee",
+    "calendar": "holiday",
+    "time": "15:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "785ee02f-55f1-4c67-852a-be72a1a2ccfc",
+    "calendar": "weekday",
+    "time": "11:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "771a5192-3108-4e66-b175-c506192a3183",
+    "calendar": "weekday",
+    "time": "11:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "e6986ba3-09f7-4f6a-9403-ce2a814a6344",
+    "calendar": "weekday",
+    "time": "12:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "2085bec2-fb06-4708-8fc0-952004c43c0a",
+    "calendar": "weekday",
+    "time": "13:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "e0870979-8cdb-4c40-9a55-bc79f25d2b42",
+    "calendar": "weekday",
+    "time": "13:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "f7fe2fc4-d179-4671-831a-6940a71ea3bd",
+    "calendar": "weekday",
+    "time": "14:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "56e3369c-8196-4462-a738-d7cd72a92b30",
+    "calendar": "weekday",
+    "time": "14:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "c15ed006-7d3d-46a1-b48f-923115a91d00",
+    "calendar": "weekday",
+    "time": "15:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "534a86d9-e3c5-46f2-881c-a33fd1b14ed4",
+    "calendar": "weekday",
+    "time": "16:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "1b1ccec8-f484-42e6-adcc-ffa47e7dfdd3",
+    "calendar": "weekday",
+    "time": "16:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "d0aae0f1-f436-4d60-9d2e-461e6f738b3c",
+    "calendar": "weekday",
+    "time": "17:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "0dfc3631-093f-46d0-8b52-0ab6fd15d7fa",
+    "calendar": "weekday",
+    "time": "18:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "956e8083-9c74-4120-b880-d1f5a0ad6e80",
+    "calendar": "weekday",
+    "time": "19:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "dc0a48ca-8da4-43b1-81b8-b605c60db9e7",
+    "calendar": "weekday",
+    "time": "19:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "d68aa3b5-1222-4d96-ac49-c02e4d435a6c",
+    "calendar": "weekday",
+    "time": "20:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "8ca5cff3-90d2-4fca-ba6b-71df1fa950b9",
+    "calendar": "weekday",
+    "time": "21:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "d0c5d63c-c3f7-4cde-9f73-7dfe8206efcc",
+    "calendar": "weekday",
+    "time": "21:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "5308d67f-9167-48d4-b9a7-25789fe85086",
+    "calendar": "weekday",
+    "time": "22:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "188e9d3e-faa1-4e0c-a4c0-a3c7004ae3c2",
+    "calendar": "saturday",
+    "time": "11:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "9cd5e88a-1825-4067-9a13-a89e7580d7f0",
+    "calendar": "saturday",
+    "time": "11:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "ff0e9ef2-949c-48bc-9bc6-aceb79e05f12",
+    "calendar": "saturday",
+    "time": "12:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "477fdf8e-3886-446e-b7b7-5586194dbd5b",
+    "calendar": "saturday",
+    "time": "13:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "4349be21-bf46-4915-a625-cc1847361244",
+    "calendar": "saturday",
+    "time": "13:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "9af9a567-bd0d-480d-ae87-26942cd70a37",
+    "calendar": "saturday",
+    "time": "14:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "eaadcfcc-e7f6-4a6e-bf6f-b18c4a75a2bf",
+    "calendar": "saturday",
+    "time": "14:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "e8365e27-d993-4923-9f47-39453179bfaf",
+    "calendar": "saturday",
+    "time": "15:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "bd1b176a-90a1-484c-b35e-4dcc62f8cc59",
+    "calendar": "saturday",
+    "time": "15:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "0860a1a1-6ca7-4f8c-930d-078218c1eea6",
+    "calendar": "saturday",
+    "time": "16:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "90175c8b-52ed-4c97-ad3b-040af77e2b53",
+    "calendar": "saturday",
+    "time": "16:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "75ba90b7-2049-4f4c-aa02-8e312ad43db3",
+    "calendar": "saturday",
+    "time": "17:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "dda62e8b-f46b-4f63-af83-1ba5b675820f",
+    "calendar": "saturday",
+    "time": "18:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "42b1c26c-557b-4836-9f70-422ab7b004b3",
+    "calendar": "saturday",
+    "time": "18:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "23bd4cd1-c767-4336-94f9-5623874da706",
+    "calendar": "saturday",
+    "time": "19:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "551c1f98-1e26-42a8-afcc-f36d09393953",
+    "calendar": "saturday",
+    "time": "20:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "b4a4524e-031e-4198-b69f-52c959f0e7be",
+    "calendar": "saturday",
+    "time": "20:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "2072ef57-7d7d-4d1d-a805-15ae0486ffe5",
+    "calendar": "saturday",
+    "time": "21:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "c4dc0fe2-0e60-4bcd-97e3-7b75aaedfebc",
+    "calendar": "saturday",
+    "time": "22:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "73520a3d-b7ff-46c2-a6e0-146e543c52ed",
+    "calendar": "holiday",
+    "time": "11:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "3b10311c-415e-4deb-bfdc-a8a55eb80686",
+    "calendar": "holiday",
+    "time": "11:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "d8a056d9-236f-4bf8-949f-db4792b7a2f8",
+    "calendar": "holiday",
+    "time": "11:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "47d92dd5-b7d2-4ea4-8363-0fbb478a94c1",
+    "calendar": "holiday",
+    "time": "11:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "80adf8d5-4187-4a02-9676-241eeee35c7b",
+    "calendar": "holiday",
+    "time": "12:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "3b7ab7f1-aef1-41e7-8fc7-df99c42c7e6a",
+    "calendar": "holiday",
+    "time": "12:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "018306eb-1a0d-48a5-a031-1edef286b5dd",
+    "calendar": "holiday",
+    "time": "13:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "c1dc5d87-ff2e-4b3b-9caa-851e393100e0",
+    "calendar": "holiday",
+    "time": "13:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "cc47aef9-1136-4337-8b89-133e884aa8c4",
+    "calendar": "holiday",
+    "time": "13:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "b5254fd3-3fc3-4c9b-b420-94f0bee957d9",
+    "calendar": "holiday",
+    "time": "13:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "d43b0b1a-8665-4f05-9536-c8d49a5505b1",
+    "calendar": "holiday",
+    "time": "13:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "8a5b2c6f-f46b-4e16-ab04-578bb4edaee0",
+    "calendar": "holiday",
+    "time": "14:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "c07c350b-30ad-4c52-b2fe-254729fd8c75",
+    "calendar": "holiday",
+    "time": "14:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "54510f45-8b99-43f2-b78f-e150ce37dd08",
+    "calendar": "holiday",
+    "time": "14:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "b9c447de-69ec-48c8-b216-5f0f2c06bba6",
+    "calendar": "holiday",
+    "time": "14:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "d466b02b-5647-491f-b8d4-b5d5bbdd96ae",
+    "calendar": "holiday",
+    "time": "15:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "271e3a00-aa8f-414a-9df9-d81e0efcf0ea",
+    "calendar": "holiday",
+    "time": "15:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "f2af89e0-2945-4ba3-9ad7-9a6141685675",
+    "calendar": "holiday",
+    "time": "15:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "9ff6ea88-4a75-462e-827c-5e8cf0bdebdd",
+    "calendar": "holiday",
+    "time": "15:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "6764a2d7-ed15-4c0f-b39e-763569ee6abe",
+    "calendar": "holiday",
+    "time": "16:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "999f4f93-1c2f-4487-ac63-ead499fc66e9",
+    "calendar": "holiday",
+    "time": "16:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "47ddc011-ad12-4549-a9ed-00323e571b8d",
+    "calendar": "holiday",
+    "time": "16:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "805c23f9-9d38-47bc-81f5-cdc9486f66a0",
+    "calendar": "holiday",
+    "time": "17:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "80a1cfe4-c34f-41c2-8006-b2ae11e073d4",
+    "calendar": "holiday",
+    "time": "17:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "b8ad25ae-119f-4ea9-950f-7de1807f7103",
+    "calendar": "holiday",
+    "time": "17:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "ce84b32d-dd0d-42ee-bd96-87502407d2f4",
+    "calendar": "holiday",
+    "time": "18:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "61954020-88fa-4c4c-96a8-74b5e33c0365",
+    "calendar": "holiday",
+    "time": "18:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "5fe2a4b3-a2a0-40e9-b277-56f44190493f",
+    "calendar": "holiday",
+    "time": "18:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "88f20d6c-5d51-4be1-98f2-fdae10188800",
+    "calendar": "holiday",
+    "time": "19:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "5fff979e-1e02-4bc5-a873-196e0af3cf93",
+    "calendar": "holiday",
+    "time": "19:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "50613ec2-17e1-418b-9ee2-fdef990546c1",
+    "calendar": "holiday",
+    "time": "19:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "90f99d61-9806-4aa7-b0b9-d43a431b2aa2",
+    "calendar": "holiday",
+    "time": "20:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "f79a308a-772a-4a4b-9e2f-412c889489a4",
+    "calendar": "holiday",
+    "time": "20:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "c96a90b1-77e1-40ac-9487-22bbbd28305c",
+    "calendar": "holiday",
+    "time": "20:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "46d883f0-b022-479f-afcf-7809f0f6c3c3",
+    "calendar": "holiday",
+    "time": "21:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "3ef71c11-f4d5-42f6-8c26-161ac3122f7f",
+    "calendar": "holiday",
+    "time": "21:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "a46a0954-fe16-4391-9768-1b0b498abaaa",
+    "calendar": "holiday",
+    "time": "22:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "01a44d8c-beb3-4307-a825-58b5337e810f",
+    "calendar": "holiday",
+    "time": "22:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11320200",
+    "stopName": "名護バスターミナル",
+    "routeNo": "772",
+    "courseSid": "bd69e611-9bfc-4dc1-ab1e-46ee8b804ac4",
+    "tripSid": "dd7d9163-eaf8-4de2-a3a3-912a30744494",
+    "calendar": "weekday",
+    "time": "22:42",
+    "parentCompanyCode": "8000"
+  }
+]

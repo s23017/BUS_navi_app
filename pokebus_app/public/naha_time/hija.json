@@ -1,0 +1,2542 @@
+[
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "8f866ed9-5830-435f-a32d-d2b7d1c212d9",
+    "calendar": "weekday",
+    "time": "06:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "169e42ed-6564-4d37-900f-fa17087bc4cd",
+    "calendar": "weekday",
+    "time": "07:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "5a146b11-3cea-4d5f-ab74-3b3d655ed859",
+    "calendar": "weekday",
+    "time": "08:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "1c1b008c-8408-489c-a9b1-b253f7656f2d",
+    "calendar": "weekday",
+    "time": "08:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "59fff9c3-7dc0-47e0-bfb6-7b9a4e348493",
+    "calendar": "weekday",
+    "time": "09:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "0cedd6fa-43ef-445b-8b3d-fa7515c323bf",
+    "calendar": "saturday",
+    "time": "06:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "f9f0a33d-ad94-41c5-b69b-379fea2440c6",
+    "calendar": "saturday",
+    "time": "07:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "c77631f0-4781-4535-aac7-81078fce9c55",
+    "calendar": "saturday",
+    "time": "07:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "0dbd8950-9737-4371-9d27-306982280c6f",
+    "calendar": "saturday",
+    "time": "08:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "50b357a2-c3ba-447f-b9b1-0dc8e5dff262",
+    "calendar": "saturday",
+    "time": "09:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "9ba774ab-7761-422b-86f6-15038f8858fb",
+    "calendar": "holiday",
+    "time": "06:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "bf868ea0-ddf5-4117-b0b7-8cf0fe8663eb",
+    "calendar": "holiday",
+    "time": "06:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "0d4bac9c-784a-4705-880e-29b6ab27299c",
+    "calendar": "holiday",
+    "time": "07:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "7dbdbf2d-c9eb-48c3-ba10-61d8bc1e1dfd",
+    "calendar": "holiday",
+    "time": "07:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "9a53f354-9b8b-4895-a888-9f0b18f316ca",
+    "calendar": "holiday",
+    "time": "07:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "06f7ff96-6d87-41e7-8eb5-59d771018d6e",
+    "calendar": "holiday",
+    "time": "07:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "6f41439f-e8ba-476d-89e5-43802cc65b0d",
+    "calendar": "holiday",
+    "time": "08:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "986e9b5e-90bc-4d2b-85fb-e98ce692ea9a",
+    "calendar": "holiday",
+    "time": "08:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "0b62b4e6-de03-41d9-858c-ddffd51cf210",
+    "calendar": "holiday",
+    "time": "08:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "c73205d9-a8c4-4a3e-ad62-ce017e03a2c1",
+    "calendar": "holiday",
+    "time": "09:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "d0492093-b69c-4667-a4f8-a3f906ff85e7",
+    "calendar": "weekday",
+    "time": "07:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "bedd8dc6-b171-4132-aeb4-37fc21ec80f4",
+    "calendar": "weekday",
+    "time": "07:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "689c5b47-57e4-450e-a945-70e17c4d8af4",
+    "calendar": "weekday",
+    "time": "08:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "463cbb67-8f12-4682-a027-a94fc7903a98",
+    "calendar": "weekday",
+    "time": "08:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "b7576774-5833-42c7-a4ba-121dd592453a",
+    "calendar": "weekday",
+    "time": "09:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "63a947a3-5412-4fef-8800-9ffa2ff912d7",
+    "calendar": "weekday",
+    "time": "09:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "33fa3a02-8476-4246-a935-ff59a9f9b164",
+    "calendar": "weekday",
+    "time": "10:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "43eb4e7f-f077-4f8e-8425-3e60c579728d",
+    "calendar": "weekday",
+    "time": "10:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "60ba9f62-72f1-452d-ae6b-c3417f44cb5c",
+    "calendar": "weekday",
+    "time": "10:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "86751aef-85f9-4b67-85b3-e63ad659abad",
+    "calendar": "weekday",
+    "time": "11:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "d76a08d5-e77a-4fe2-af2d-5c9f0a41de0d",
+    "calendar": "weekday",
+    "time": "12:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "f2eeb179-5a35-4a35-b8a5-5d693b1f1fab",
+    "calendar": "weekday",
+    "time": "12:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "ed638975-258f-4441-9dcf-469b437f3263",
+    "calendar": "weekday",
+    "time": "13:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "5503560e-e077-4c1d-9911-ceabede01953",
+    "calendar": "weekday",
+    "time": "14:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "51fa1a1e-6265-46bf-91b8-b6fa9b762172",
+    "calendar": "weekday",
+    "time": "14:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "12d6d65b-2fe2-4957-a17a-a2267b0e69b5",
+    "calendar": "weekday",
+    "time": "14:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "c047f2ca-dbb2-49bd-8bd7-cd472cd98522",
+    "calendar": "weekday",
+    "time": "15:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "11040671-d066-43cc-8a9b-82bcdc367de6",
+    "calendar": "weekday",
+    "time": "16:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "a9faba0f-14c3-4311-bf5d-d1c93b7095a0",
+    "calendar": "weekday",
+    "time": "17:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "1723939c-b974-436c-8533-8cda2b6873b0",
+    "calendar": "weekday",
+    "time": "18:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "3e7cbb7f-fca9-463d-b1b5-fe1a1b02dbe4",
+    "calendar": "weekday",
+    "time": "20:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "72016d20-7c59-4549-ad5c-4d5150c6cae8",
+    "calendar": "weekday",
+    "time": "20:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "f2157214-e53e-4ccb-88ce-e53acd61af29",
+    "calendar": "weekday",
+    "time": "21:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "1aa52b09-7ffe-4411-9355-84efad636a96",
+    "calendar": "weekday",
+    "time": "21:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "24260e9d-c322-4542-adeb-db20d15b0db3",
+    "calendar": "weekday",
+    "time": "21:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "9376c0e4-a495-4126-bd45-7f238a917b9b",
+    "calendar": "weekday",
+    "time": "22:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "d595f4c4-7915-4fef-8b13-78e9df5c3719",
+    "calendar": "saturday",
+    "time": "07:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "9879781c-68cd-4fae-8df6-4a0f51620eab",
+    "calendar": "saturday",
+    "time": "08:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "fe95b353-b7bc-4043-b6e7-72ad3ddceb13",
+    "calendar": "saturday",
+    "time": "09:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "5b1047e4-06bf-402f-8c58-5a7ad0822cc6",
+    "calendar": "saturday",
+    "time": "09:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "4344ab6f-ed9a-4644-a895-fcdbfd37911e",
+    "calendar": "saturday",
+    "time": "10:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "5b02f8cc-5b9c-4a95-89c0-7635b2a46978",
+    "calendar": "saturday",
+    "time": "11:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "d94f2970-468e-4883-aecc-4ec002bb64d4",
+    "calendar": "saturday",
+    "time": "11:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "90855509-300b-4fe1-9e59-246fb319e48c",
+    "calendar": "saturday",
+    "time": "13:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "e0569b0e-fa9c-4774-9c30-eba87620a5f9",
+    "calendar": "saturday",
+    "time": "14:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "61627163-7d8c-49a1-861f-4110b7dc92ca",
+    "calendar": "saturday",
+    "time": "14:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "0b54bad1-4a60-40df-8143-ea799dc3780b",
+    "calendar": "saturday",
+    "time": "15:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "377b6d92-0314-4e8c-a129-00b375699786",
+    "calendar": "saturday",
+    "time": "16:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "15aeb416-2131-48f0-b441-c028cd8f3075",
+    "calendar": "saturday",
+    "time": "17:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "4e631472-cdff-4244-92e4-fbdd54ac5c41",
+    "calendar": "saturday",
+    "time": "18:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "25aee67a-2758-48c5-aadd-0a7d654db3a6",
+    "calendar": "saturday",
+    "time": "19:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "e73ee1b2-9cff-4c13-8b89-3b33a745a54e",
+    "calendar": "saturday",
+    "time": "20:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "04db5f6a-0558-4685-ab86-260efc3cac66",
+    "calendar": "saturday",
+    "time": "21:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "b074115b-5836-42e3-897b-4a0c3a2eb7be",
+    "calendar": "saturday",
+    "time": "22:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "eca00eac-4825-46d3-ae94-72a23b4bef1b",
+    "calendar": "saturday",
+    "time": "22:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "110df6b0-5a40-480c-a03b-70e20d27176f",
+    "calendar": "holiday",
+    "time": "07:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "39626bd4-c3ed-43e4-964c-243fee27530a",
+    "calendar": "holiday",
+    "time": "08:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "d71e3add-e7fa-4ab8-b5ea-b96a11e64721",
+    "calendar": "holiday",
+    "time": "09:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "42463bf6-5c0e-44f4-a475-38cb341bf271",
+    "calendar": "holiday",
+    "time": "09:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "a55c770b-cc7f-4f38-b7ca-bf39c0d4f485",
+    "calendar": "holiday",
+    "time": "10:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "ca4df9c9-d6ff-4877-bbd8-d16588d32205",
+    "calendar": "holiday",
+    "time": "11:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "66467a33-64ba-4d85-a20b-17b051157511",
+    "calendar": "holiday",
+    "time": "11:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "113db8ce-e644-4949-9861-aecd02641877",
+    "calendar": "holiday",
+    "time": "13:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "9ecf5b84-9275-44bf-8a01-8a33db785ca6",
+    "calendar": "holiday",
+    "time": "14:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "e84211e7-4d36-49cb-83cc-b7b022ce9300",
+    "calendar": "holiday",
+    "time": "14:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "993d9383-b6c9-4e8e-8db4-f55a30188f55",
+    "calendar": "holiday",
+    "time": "15:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "f3813676-b5c0-4609-928c-b6cd223da993",
+    "calendar": "holiday",
+    "time": "16:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "3c86ff9c-b8d9-4f8f-8dcf-b8a63775c253",
+    "calendar": "holiday",
+    "time": "17:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "12b7e2a8-0442-4b2d-b5c3-89914da01a31",
+    "calendar": "holiday",
+    "time": "18:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "8d0b1667-58bb-43e6-93b9-0b807c71c7ff",
+    "calendar": "holiday",
+    "time": "19:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "359d294f-1729-4f8d-bf75-9cd05ae5048d",
+    "calendar": "holiday",
+    "time": "20:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "ba96eb1b-3a4f-46cb-8075-6574fbe276ee",
+    "calendar": "holiday",
+    "time": "21:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "f2e8476a-8389-4a12-b626-1422e84502f2",
+    "calendar": "holiday",
+    "time": "22:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "6fc2c396-1948-42e1-b322-09bb066c6b79",
+    "calendar": "holiday",
+    "time": "22:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "29",
+    "courseSid": "9ab15289-77a9-4032-b136-5f049299c218",
+    "tripSid": "546581fd-6b29-48bd-aa70-d50c799d59a5",
+    "calendar": "weekday",
+    "time": "08:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "29",
+    "courseSid": "9ab15289-77a9-4032-b136-5f049299c218",
+    "tripSid": "8be77bbe-10a4-4a05-8d8a-81a333efa5f9",
+    "calendar": "weekday",
+    "time": "17:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "29",
+    "courseSid": "9ab15289-77a9-4032-b136-5f049299c218",
+    "tripSid": "1ba4a14c-1796-4014-8544-63b5f67bd029",
+    "calendar": "weekday",
+    "time": "19:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "29",
+    "courseSid": "9ab15289-77a9-4032-b136-5f049299c218",
+    "tripSid": "197e8d7f-8ce1-4cd9-ba65-3548593d6149",
+    "calendar": "weekday",
+    "time": "19:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "29",
+    "courseSid": "9ab15289-77a9-4032-b136-5f049299c218",
+    "tripSid": "3d1f4839-dec7-49fd-ba39-d5355a813deb",
+    "calendar": "saturday",
+    "time": "08:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "29",
+    "courseSid": "9ab15289-77a9-4032-b136-5f049299c218",
+    "tripSid": "54d88e1e-7545-4274-a605-d6d2ced6c3dd",
+    "calendar": "saturday",
+    "time": "12:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "29",
+    "courseSid": "9ab15289-77a9-4032-b136-5f049299c218",
+    "tripSid": "c4f0f84b-755f-4480-bf96-a0e2b8dc741d",
+    "calendar": "saturday",
+    "time": "15:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "29",
+    "courseSid": "9ab15289-77a9-4032-b136-5f049299c218",
+    "tripSid": "bee03670-8f03-4850-96cb-5c5819c36f79",
+    "calendar": "saturday",
+    "time": "17:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "29",
+    "courseSid": "9ab15289-77a9-4032-b136-5f049299c218",
+    "tripSid": "2875b809-eee4-4837-a60e-b7abf4ff94f5",
+    "calendar": "saturday",
+    "time": "18:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "29",
+    "courseSid": "9ab15289-77a9-4032-b136-5f049299c218",
+    "tripSid": "ac018fbf-20b0-469c-bd5d-f521e6a7092e",
+    "calendar": "holiday",
+    "time": "08:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "29",
+    "courseSid": "9ab15289-77a9-4032-b136-5f049299c218",
+    "tripSid": "52ce283c-da5d-45a5-b998-662e4bccc89d",
+    "calendar": "holiday",
+    "time": "12:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "29",
+    "courseSid": "9ab15289-77a9-4032-b136-5f049299c218",
+    "tripSid": "1b3230c8-a4cf-490a-9ddd-005a72ecb665",
+    "calendar": "holiday",
+    "time": "15:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "29",
+    "courseSid": "9ab15289-77a9-4032-b136-5f049299c218",
+    "tripSid": "ed423def-8b61-4478-bc30-4d717e0586b4",
+    "calendar": "holiday",
+    "time": "17:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "29",
+    "courseSid": "9ab15289-77a9-4032-b136-5f049299c218",
+    "tripSid": "9adc5a10-fe94-4ee0-8d0b-1847ab822232",
+    "calendar": "holiday",
+    "time": "18:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "f75d79dd-9a8f-4f19-bf8c-f1799b6d463d",
+    "calendar": "weekday",
+    "time": "07:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "30303bcc-d6ed-4e40-b087-0a76ce335be5",
+    "calendar": "weekday",
+    "time": "08:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "dfdbda09-0d3e-4cdd-9a96-b502b89f6e35",
+    "calendar": "weekday",
+    "time": "09:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "9cf6d090-7e8b-4c9b-af97-0f5881fd61a2",
+    "calendar": "weekday",
+    "time": "09:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "f4e88484-5df5-4578-b9c7-ad3611c9576d",
+    "calendar": "weekday",
+    "time": "10:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "09baf8fd-66fd-4b6b-930b-719033768aef",
+    "calendar": "weekday",
+    "time": "10:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "4cadeef3-27ba-436b-bdc4-635d6244990d",
+    "calendar": "weekday",
+    "time": "11:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "783d976b-d8f3-43c8-92fe-8f2ed2983956",
+    "calendar": "weekday",
+    "time": "11:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "0634ceef-0625-44a8-a4a1-aa38f789fdde",
+    "calendar": "weekday",
+    "time": "12:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "5a5a1303-e151-45d7-860b-a01aacc7772e",
+    "calendar": "weekday",
+    "time": "13:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "cc14f65b-4763-4fa9-b0ec-e1e16f387a52",
+    "calendar": "weekday",
+    "time": "13:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "b659c679-52dc-41ef-aae9-c604ec3a396a",
+    "calendar": "weekday",
+    "time": "15:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "b39939e7-32eb-401a-aebc-dde98f1448d0",
+    "calendar": "weekday",
+    "time": "16:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "7e4e3325-f5b5-41f9-996d-dd6ef265608b",
+    "calendar": "weekday",
+    "time": "16:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "44b4acf8-e18e-47df-a0ff-c8b0795ba1d6",
+    "calendar": "weekday",
+    "time": "17:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "0f11a758-c41b-496d-8feb-4cd5e96daca1",
+    "calendar": "weekday",
+    "time": "18:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "5bda4a44-bb75-4033-9af0-819c54c76c40",
+    "calendar": "weekday",
+    "time": "18:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "70c85a17-01bd-4c45-a10f-23ecfa88222b",
+    "calendar": "weekday",
+    "time": "19:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "15db9128-b75c-489f-a9d9-b395cd8e36b2",
+    "calendar": "weekday",
+    "time": "19:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "95a2ca03-05eb-410a-8c24-6e82a843aad0",
+    "calendar": "weekday",
+    "time": "20:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "21a32e0a-b388-45e9-9b32-046d052c3439",
+    "calendar": "weekday",
+    "time": "20:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "efdc69af-afac-4823-8272-84d9aa5c6ec8",
+    "calendar": "weekday",
+    "time": "21:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "62ca4682-7614-44f0-91d5-b7afe949bc35",
+    "calendar": "weekday",
+    "time": "22:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "0bc735c7-edad-42fb-a48d-f58bb2318112",
+    "calendar": "saturday",
+    "time": "08:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "4f8ca2f0-d574-47ea-9130-158c7034e4ff",
+    "calendar": "saturday",
+    "time": "09:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "e6611738-7e60-40c7-a4bb-c1a917ed1525",
+    "calendar": "saturday",
+    "time": "10:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "2c52de2b-6eda-4b7f-8e62-9572bf04e997",
+    "calendar": "saturday",
+    "time": "11:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "e40ccde3-d1a8-46ee-a128-f47fe35d282c",
+    "calendar": "saturday",
+    "time": "12:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "98adaf9a-4846-4b17-86a6-8185358b8f33",
+    "calendar": "saturday",
+    "time": "13:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "d480fa01-2094-48b0-8254-dd1e2ebca6c5",
+    "calendar": "saturday",
+    "time": "14:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "ed0b383d-cd02-48bf-b464-ad11a99ac881",
+    "calendar": "saturday",
+    "time": "15:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "2a6356ff-7177-4970-a0d8-1992fbcd7452",
+    "calendar": "saturday",
+    "time": "16:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "d55e400f-6d5c-43e3-b301-59adcd5ec675",
+    "calendar": "saturday",
+    "time": "17:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "22781798-762d-4efb-ba6f-12746a0f04f6",
+    "calendar": "saturday",
+    "time": "18:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "e33e359b-3b0b-4dc8-b1b3-8edaf59860a2",
+    "calendar": "saturday",
+    "time": "18:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "587cf4c8-9e46-432a-87a5-1adc76c0aa15",
+    "calendar": "saturday",
+    "time": "19:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "c1a69f4a-b03e-44e2-91ba-9c81daf02f70",
+    "calendar": "saturday",
+    "time": "20:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "f5f6d74e-a53e-45ef-aa8c-1f6486faf92b",
+    "calendar": "saturday",
+    "time": "21:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "d04e7d58-c7b7-40f2-9439-394cad64de0e",
+    "calendar": "saturday",
+    "time": "22:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "3dc3eb89-656b-4e70-b9e4-d499f0d07cd8",
+    "calendar": "holiday",
+    "time": "08:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "79434239-e965-4e92-a1b0-735e139de0ea",
+    "calendar": "holiday",
+    "time": "09:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "436f3c6c-ebdc-4443-b06f-3126ad8ab5ea",
+    "calendar": "holiday",
+    "time": "10:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "3a236e2b-4bf5-4ea9-9ab2-023b98bf0097",
+    "calendar": "holiday",
+    "time": "11:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "bb3bd066-e3ea-4cc5-94ae-33e6cb038da9",
+    "calendar": "holiday",
+    "time": "12:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "3b71278b-665b-46b8-8029-0c53f7c5c4e0",
+    "calendar": "holiday",
+    "time": "13:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "ded7512f-5202-4090-bbd1-b06c28dbffa9",
+    "calendar": "holiday",
+    "time": "14:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "ae125bee-4c7d-488a-8ded-30387396555b",
+    "calendar": "holiday",
+    "time": "15:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "6886aec5-5290-4715-9b8b-0b052bc6b784",
+    "calendar": "holiday",
+    "time": "16:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "f6f56258-ba3f-41f5-8712-33fdf2686600",
+    "calendar": "holiday",
+    "time": "17:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "ca10ae8b-afa3-4e57-8403-a5181d2bb4d8",
+    "calendar": "holiday",
+    "time": "18:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "c32f0828-de9e-4eeb-a35a-1bbaf0eb1087",
+    "calendar": "holiday",
+    "time": "18:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "4eebf607-1612-49ea-8e09-c20a0aff0fcf",
+    "calendar": "holiday",
+    "time": "19:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "83476cc2-7ba2-40d7-a648-38a277d139f7",
+    "calendar": "holiday",
+    "time": "20:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "8444457e-7a96-4ccd-a691-aac8a566f40d",
+    "calendar": "holiday",
+    "time": "21:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "62",
+    "courseSid": "126a9e46-c631-4687-b241-4b33e92cdea2",
+    "tripSid": "9499c323-0817-484d-87c9-ba7153c76484",
+    "calendar": "holiday",
+    "time": "22:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "785ee02f-55f1-4c67-852a-be72a1a2ccfc",
+    "calendar": "weekday",
+    "time": "09:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "771a5192-3108-4e66-b175-c506192a3183",
+    "calendar": "weekday",
+    "time": "10:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "e6986ba3-09f7-4f6a-9403-ce2a814a6344",
+    "calendar": "weekday",
+    "time": "11:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "2085bec2-fb06-4708-8fc0-952004c43c0a",
+    "calendar": "weekday",
+    "time": "11:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "e0870979-8cdb-4c40-9a55-bc79f25d2b42",
+    "calendar": "weekday",
+    "time": "12:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "f7fe2fc4-d179-4671-831a-6940a71ea3bd",
+    "calendar": "weekday",
+    "time": "12:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "56e3369c-8196-4462-a738-d7cd72a92b30",
+    "calendar": "weekday",
+    "time": "13:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "c15ed006-7d3d-46a1-b48f-923115a91d00",
+    "calendar": "weekday",
+    "time": "13:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "534a86d9-e3c5-46f2-881c-a33fd1b14ed4",
+    "calendar": "weekday",
+    "time": "14:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "1b1ccec8-f484-42e6-adcc-ffa47e7dfdd3",
+    "calendar": "weekday",
+    "time": "15:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "d0aae0f1-f436-4d60-9d2e-461e6f738b3c",
+    "calendar": "weekday",
+    "time": "16:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "0dfc3631-093f-46d0-8b52-0ab6fd15d7fa",
+    "calendar": "weekday",
+    "time": "17:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "956e8083-9c74-4120-b880-d1f5a0ad6e80",
+    "calendar": "weekday",
+    "time": "17:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "dc0a48ca-8da4-43b1-81b8-b605c60db9e7",
+    "calendar": "weekday",
+    "time": "18:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "d68aa3b5-1222-4d96-ac49-c02e4d435a6c",
+    "calendar": "weekday",
+    "time": "19:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "8ca5cff3-90d2-4fca-ba6b-71df1fa950b9",
+    "calendar": "weekday",
+    "time": "19:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "d0c5d63c-c3f7-4cde-9f73-7dfe8206efcc",
+    "calendar": "weekday",
+    "time": "20:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "5308d67f-9167-48d4-b9a7-25789fe85086",
+    "calendar": "weekday",
+    "time": "20:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "188e9d3e-faa1-4e0c-a4c0-a3c7004ae3c2",
+    "calendar": "saturday",
+    "time": "09:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "9cd5e88a-1825-4067-9a13-a89e7580d7f0",
+    "calendar": "saturday",
+    "time": "10:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "ff0e9ef2-949c-48bc-9bc6-aceb79e05f12",
+    "calendar": "saturday",
+    "time": "11:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "477fdf8e-3886-446e-b7b7-5586194dbd5b",
+    "calendar": "saturday",
+    "time": "11:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "4349be21-bf46-4915-a625-cc1847361244",
+    "calendar": "saturday",
+    "time": "12:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "9af9a567-bd0d-480d-ae87-26942cd70a37",
+    "calendar": "saturday",
+    "time": "12:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "eaadcfcc-e7f6-4a6e-bf6f-b18c4a75a2bf",
+    "calendar": "saturday",
+    "time": "13:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "e8365e27-d993-4923-9f47-39453179bfaf",
+    "calendar": "saturday",
+    "time": "13:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "bd1b176a-90a1-484c-b35e-4dcc62f8cc59",
+    "calendar": "saturday",
+    "time": "14:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "0860a1a1-6ca7-4f8c-930d-078218c1eea6",
+    "calendar": "saturday",
+    "time": "14:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "90175c8b-52ed-4c97-ad3b-040af77e2b53",
+    "calendar": "saturday",
+    "time": "15:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "75ba90b7-2049-4f4c-aa02-8e312ad43db3",
+    "calendar": "saturday",
+    "time": "16:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "dda62e8b-f46b-4f63-af83-1ba5b675820f",
+    "calendar": "saturday",
+    "time": "16:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "42b1c26c-557b-4836-9f70-422ab7b004b3",
+    "calendar": "saturday",
+    "time": "17:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "23bd4cd1-c767-4336-94f9-5623874da706",
+    "calendar": "saturday",
+    "time": "18:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "551c1f98-1e26-42a8-afcc-f36d09393953",
+    "calendar": "saturday",
+    "time": "18:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "b4a4524e-031e-4198-b69f-52c959f0e7be",
+    "calendar": "saturday",
+    "time": "19:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "2072ef57-7d7d-4d1d-a805-15ae0486ffe5",
+    "calendar": "saturday",
+    "time": "19:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "c4dc0fe2-0e60-4bcd-97e3-7b75aaedfebc",
+    "calendar": "saturday",
+    "time": "20:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "3b10311c-415e-4deb-bfdc-a8a55eb80686",
+    "calendar": "holiday",
+    "time": "09:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "73520a3d-b7ff-46c2-a6e0-146e543c52ed",
+    "calendar": "holiday",
+    "time": "09:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "d8a056d9-236f-4bf8-949f-db4792b7a2f8",
+    "calendar": "holiday",
+    "time": "10:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "47d92dd5-b7d2-4ea4-8363-0fbb478a94c1",
+    "calendar": "holiday",
+    "time": "10:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "80adf8d5-4187-4a02-9676-241eeee35c7b",
+    "calendar": "holiday",
+    "time": "11:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "3b7ab7f1-aef1-41e7-8fc7-df99c42c7e6a",
+    "calendar": "holiday",
+    "time": "11:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "018306eb-1a0d-48a5-a031-1edef286b5dd",
+    "calendar": "holiday",
+    "time": "11:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "c1dc5d87-ff2e-4b3b-9caa-851e393100e0",
+    "calendar": "holiday",
+    "time": "11:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "b5254fd3-3fc3-4c9b-b420-94f0bee957d9",
+    "calendar": "holiday",
+    "time": "12:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "cc47aef9-1136-4337-8b89-133e884aa8c4",
+    "calendar": "holiday",
+    "time": "12:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "d43b0b1a-8665-4f05-9536-c8d49a5505b1",
+    "calendar": "holiday",
+    "time": "12:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "8a5b2c6f-f46b-4e16-ab04-578bb4edaee0",
+    "calendar": "holiday",
+    "time": "12:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "c07c350b-30ad-4c52-b2fe-254729fd8c75",
+    "calendar": "holiday",
+    "time": "12:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "54510f45-8b99-43f2-b78f-e150ce37dd08",
+    "calendar": "holiday",
+    "time": "13:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "b9c447de-69ec-48c8-b216-5f0f2c06bba6",
+    "calendar": "holiday",
+    "time": "13:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "d466b02b-5647-491f-b8d4-b5d5bbdd96ae",
+    "calendar": "holiday",
+    "time": "13:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "271e3a00-aa8f-414a-9df9-d81e0efcf0ea",
+    "calendar": "holiday",
+    "time": "13:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "f2af89e0-2945-4ba3-9ad7-9a6141685675",
+    "calendar": "holiday",
+    "time": "14:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "9ff6ea88-4a75-462e-827c-5e8cf0bdebdd",
+    "calendar": "holiday",
+    "time": "14:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "6764a2d7-ed15-4c0f-b39e-763569ee6abe",
+    "calendar": "holiday",
+    "time": "14:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "999f4f93-1c2f-4487-ac63-ead499fc66e9",
+    "calendar": "holiday",
+    "time": "15:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "47ddc011-ad12-4549-a9ed-00323e571b8d",
+    "calendar": "holiday",
+    "time": "15:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "805c23f9-9d38-47bc-81f5-cdc9486f66a0",
+    "calendar": "holiday",
+    "time": "15:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "80a1cfe4-c34f-41c2-8006-b2ae11e073d4",
+    "calendar": "holiday",
+    "time": "16:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "b8ad25ae-119f-4ea9-950f-7de1807f7103",
+    "calendar": "holiday",
+    "time": "16:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "ce84b32d-dd0d-42ee-bd96-87502407d2f4",
+    "calendar": "holiday",
+    "time": "16:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "61954020-88fa-4c4c-96a8-74b5e33c0365",
+    "calendar": "holiday",
+    "time": "17:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "5fe2a4b3-a2a0-40e9-b277-56f44190493f",
+    "calendar": "holiday",
+    "time": "17:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "88f20d6c-5d51-4be1-98f2-fdae10188800",
+    "calendar": "holiday",
+    "time": "17:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "5fff979e-1e02-4bc5-a873-196e0af3cf93",
+    "calendar": "holiday",
+    "time": "18:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "50613ec2-17e1-418b-9ee2-fdef990546c1",
+    "calendar": "holiday",
+    "time": "18:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "90f99d61-9806-4aa7-b0b9-d43a431b2aa2",
+    "calendar": "holiday",
+    "time": "18:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "c96a90b1-77e1-40ac-9487-22bbbd28305c",
+    "calendar": "holiday",
+    "time": "19:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "f79a308a-772a-4a4b-9e2f-412c889489a4",
+    "calendar": "holiday",
+    "time": "19:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "3ef71c11-f4d5-42f6-8c26-161ac3122f7f",
+    "calendar": "holiday",
+    "time": "19:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "46d883f0-b022-479f-afcf-7809f0f6c3c3",
+    "calendar": "holiday",
+    "time": "19:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "01a44d8c-beb3-4307-a825-58b5337e810f",
+    "calendar": "holiday",
+    "time": "20:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "a46a0954-fe16-4391-9768-1b0b498abaaa",
+    "calendar": "holiday",
+    "time": "20:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "8df30b1a-5892-4e19-85bd-12fb138b43d1",
+    "calendar": "weekday",
+    "time": "09:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "245dd5f7-dff1-47a9-b2ac-b4713a54245c",
+    "calendar": "weekday",
+    "time": "10:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "3f561015-9c8e-4197-ba91-54f2f84b6585",
+    "calendar": "weekday",
+    "time": "11:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "68fb8840-38ae-444f-9161-cd688a4f2797",
+    "calendar": "weekday",
+    "time": "13:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "98624083-e20b-4211-8aa1-899756c17e6d",
+    "calendar": "weekday",
+    "time": "14:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "d87a8dc3-8b0e-4bea-9c90-7c79061b1e15",
+    "calendar": "weekday",
+    "time": "15:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "8c5e20cc-6ef6-4989-8803-ec9fbfbdfedc",
+    "calendar": "weekday",
+    "time": "16:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "daf289d2-ef35-43af-9dcb-c7433d2cb121",
+    "calendar": "weekday",
+    "time": "18:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "3719a01c-6c6e-42ad-b3af-180ddb7b41e3",
+    "calendar": "weekday",
+    "time": "19:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "1d85b7cc-6dee-475d-88c0-c4caad84f618",
+    "calendar": "weekday",
+    "time": "20:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "ada1deaa-7eed-4c49-b591-39f9c2268309",
+    "calendar": "saturday",
+    "time": "09:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "2c8f4365-cf5b-4255-956f-73d26859e9fa",
+    "calendar": "saturday",
+    "time": "10:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "d09e5d2d-ae35-4406-a3f8-e05b21c2094f",
+    "calendar": "saturday",
+    "time": "12:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "d4367d13-3feb-4de4-bf19-52bb4c5b6472",
+    "calendar": "saturday",
+    "time": "13:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "273aedc1-df01-4690-b7f3-7657e3adb37c",
+    "calendar": "saturday",
+    "time": "14:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "5a328b00-a847-4550-9064-1f2709c0831b",
+    "calendar": "saturday",
+    "time": "17:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "2e5621b7-876b-4c5d-a673-070a45daf19f",
+    "calendar": "saturday",
+    "time": "19:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "9361cb45-b215-4d32-931c-839b36081547",
+    "calendar": "saturday",
+    "time": "20:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "7a1755ab-92c6-42fe-a493-3fab8d309d39",
+    "calendar": "holiday",
+    "time": "09:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "e55f5ad7-867e-4b78-8a27-a3b9572f9c30",
+    "calendar": "holiday",
+    "time": "10:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "5affaecc-d0f0-47f4-beba-b135d2f093ea",
+    "calendar": "holiday",
+    "time": "12:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "876ac3e7-9864-4034-b36b-10578c2f80ec",
+    "calendar": "holiday",
+    "time": "13:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "22f82c87-f793-40d6-b501-07572693e47d",
+    "calendar": "holiday",
+    "time": "14:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "cf0f6e79-e6b8-450d-ad16-ef8d65d4cf7c",
+    "calendar": "holiday",
+    "time": "17:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "aaa9f95c-4f60-4a8c-a1c4-df59e87e1e57",
+    "calendar": "holiday",
+    "time": "19:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10620000",
+    "stopName": "比謝（名護・楚辺・座喜味向け）",
+    "routeNo": "228",
+    "courseSid": "18c2b50e-6278-49fd-a052-c18c2f29f705",
+    "tripSid": "1c72666f-6580-4b2b-a6d1-d693cb8156bc",
+    "calendar": "holiday",
+    "time": "20:39",
+    "parentCompanyCode": "8000"
+  }
+]

@@ -1,0 +1,952 @@
+[
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "8f866ed9-5830-435f-a32d-d2b7d1c212d9",
+    "calendar": "weekday",
+    "time": "07:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "169e42ed-6564-4d37-900f-fa17087bc4cd",
+    "calendar": "weekday",
+    "time": "07:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "5a146b11-3cea-4d5f-ab74-3b3d655ed859",
+    "calendar": "weekday",
+    "time": "08:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "1c1b008c-8408-489c-a9b1-b253f7656f2d",
+    "calendar": "weekday",
+    "time": "08:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "59fff9c3-7dc0-47e0-bfb6-7b9a4e348493",
+    "calendar": "weekday",
+    "time": "09:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "0cedd6fa-43ef-445b-8b3d-fa7515c323bf",
+    "calendar": "saturday",
+    "time": "07:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "f9f0a33d-ad94-41c5-b69b-379fea2440c6",
+    "calendar": "saturday",
+    "time": "07:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "c77631f0-4781-4535-aac7-81078fce9c55",
+    "calendar": "saturday",
+    "time": "08:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "0dbd8950-9737-4371-9d27-306982280c6f",
+    "calendar": "saturday",
+    "time": "08:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "50b357a2-c3ba-447f-b9b1-0dc8e5dff262",
+    "calendar": "saturday",
+    "time": "09:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "9ba774ab-7761-422b-86f6-15038f8858fb",
+    "calendar": "holiday",
+    "time": "06:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "bf868ea0-ddf5-4117-b0b7-8cf0fe8663eb",
+    "calendar": "holiday",
+    "time": "07:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "0d4bac9c-784a-4705-880e-29b6ab27299c",
+    "calendar": "holiday",
+    "time": "07:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "7dbdbf2d-c9eb-48c3-ba10-61d8bc1e1dfd",
+    "calendar": "holiday",
+    "time": "07:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "9a53f354-9b8b-4895-a888-9f0b18f316ca",
+    "calendar": "holiday",
+    "time": "08:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "06f7ff96-6d87-41e7-8eb5-59d771018d6e",
+    "calendar": "holiday",
+    "time": "08:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "6f41439f-e8ba-476d-89e5-43802cc65b0d",
+    "calendar": "holiday",
+    "time": "08:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "986e9b5e-90bc-4d2b-85fb-e98ce692ea9a",
+    "calendar": "holiday",
+    "time": "08:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "0b62b4e6-de03-41d9-858c-ddffd51cf210",
+    "calendar": "holiday",
+    "time": "09:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "c73205d9-a8c4-4a3e-ad62-ce017e03a2c1",
+    "calendar": "holiday",
+    "time": "09:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "785ee02f-55f1-4c67-852a-be72a1a2ccfc",
+    "calendar": "weekday",
+    "time": "10:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "771a5192-3108-4e66-b175-c506192a3183",
+    "calendar": "weekday",
+    "time": "10:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "e6986ba3-09f7-4f6a-9403-ce2a814a6344",
+    "calendar": "weekday",
+    "time": "11:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "2085bec2-fb06-4708-8fc0-952004c43c0a",
+    "calendar": "weekday",
+    "time": "12:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "e0870979-8cdb-4c40-9a55-bc79f25d2b42",
+    "calendar": "weekday",
+    "time": "12:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "f7fe2fc4-d179-4671-831a-6940a71ea3bd",
+    "calendar": "weekday",
+    "time": "13:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "56e3369c-8196-4462-a738-d7cd72a92b30",
+    "calendar": "weekday",
+    "time": "13:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "c15ed006-7d3d-46a1-b48f-923115a91d00",
+    "calendar": "weekday",
+    "time": "14:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "534a86d9-e3c5-46f2-881c-a33fd1b14ed4",
+    "calendar": "weekday",
+    "time": "15:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "1b1ccec8-f484-42e6-adcc-ffa47e7dfdd3",
+    "calendar": "weekday",
+    "time": "15:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "d0aae0f1-f436-4d60-9d2e-461e6f738b3c",
+    "calendar": "weekday",
+    "time": "16:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "0dfc3631-093f-46d0-8b52-0ab6fd15d7fa",
+    "calendar": "weekday",
+    "time": "17:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "956e8083-9c74-4120-b880-d1f5a0ad6e80",
+    "calendar": "weekday",
+    "time": "18:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "dc0a48ca-8da4-43b1-81b8-b605c60db9e7",
+    "calendar": "weekday",
+    "time": "18:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "d68aa3b5-1222-4d96-ac49-c02e4d435a6c",
+    "calendar": "weekday",
+    "time": "19:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "8ca5cff3-90d2-4fca-ba6b-71df1fa950b9",
+    "calendar": "weekday",
+    "time": "20:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "d0c5d63c-c3f7-4cde-9f73-7dfe8206efcc",
+    "calendar": "weekday",
+    "time": "20:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "5308d67f-9167-48d4-b9a7-25789fe85086",
+    "calendar": "weekday",
+    "time": "21:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "188e9d3e-faa1-4e0c-a4c0-a3c7004ae3c2",
+    "calendar": "saturday",
+    "time": "10:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "9cd5e88a-1825-4067-9a13-a89e7580d7f0",
+    "calendar": "saturday",
+    "time": "10:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "ff0e9ef2-949c-48bc-9bc6-aceb79e05f12",
+    "calendar": "saturday",
+    "time": "11:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "477fdf8e-3886-446e-b7b7-5586194dbd5b",
+    "calendar": "saturday",
+    "time": "12:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "4349be21-bf46-4915-a625-cc1847361244",
+    "calendar": "saturday",
+    "time": "12:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "9af9a567-bd0d-480d-ae87-26942cd70a37",
+    "calendar": "saturday",
+    "time": "12:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "eaadcfcc-e7f6-4a6e-bf6f-b18c4a75a2bf",
+    "calendar": "saturday",
+    "time": "13:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "e8365e27-d993-4923-9f47-39453179bfaf",
+    "calendar": "saturday",
+    "time": "14:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "bd1b176a-90a1-484c-b35e-4dcc62f8cc59",
+    "calendar": "saturday",
+    "time": "14:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "0860a1a1-6ca7-4f8c-930d-078218c1eea6",
+    "calendar": "saturday",
+    "time": "15:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "90175c8b-52ed-4c97-ad3b-040af77e2b53",
+    "calendar": "saturday",
+    "time": "15:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "75ba90b7-2049-4f4c-aa02-8e312ad43db3",
+    "calendar": "saturday",
+    "time": "16:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "dda62e8b-f46b-4f63-af83-1ba5b675820f",
+    "calendar": "saturday",
+    "time": "17:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "42b1c26c-557b-4836-9f70-422ab7b004b3",
+    "calendar": "saturday",
+    "time": "17:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "23bd4cd1-c767-4336-94f9-5623874da706",
+    "calendar": "saturday",
+    "time": "18:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "551c1f98-1e26-42a8-afcc-f36d09393953",
+    "calendar": "saturday",
+    "time": "18:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "b4a4524e-031e-4198-b69f-52c959f0e7be",
+    "calendar": "saturday",
+    "time": "19:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "2072ef57-7d7d-4d1d-a805-15ae0486ffe5",
+    "calendar": "saturday",
+    "time": "20:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "c4dc0fe2-0e60-4bcd-97e3-7b75aaedfebc",
+    "calendar": "saturday",
+    "time": "21:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "3b10311c-415e-4deb-bfdc-a8a55eb80686",
+    "calendar": "holiday",
+    "time": "09:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "73520a3d-b7ff-46c2-a6e0-146e543c52ed",
+    "calendar": "holiday",
+    "time": "10:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "d8a056d9-236f-4bf8-949f-db4792b7a2f8",
+    "calendar": "holiday",
+    "time": "10:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "47d92dd5-b7d2-4ea4-8363-0fbb478a94c1",
+    "calendar": "holiday",
+    "time": "10:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "80adf8d5-4187-4a02-9676-241eeee35c7b",
+    "calendar": "holiday",
+    "time": "11:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "3b7ab7f1-aef1-41e7-8fc7-df99c42c7e6a",
+    "calendar": "holiday",
+    "time": "11:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "018306eb-1a0d-48a5-a031-1edef286b5dd",
+    "calendar": "holiday",
+    "time": "12:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "c1dc5d87-ff2e-4b3b-9caa-851e393100e0",
+    "calendar": "holiday",
+    "time": "12:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "cc47aef9-1136-4337-8b89-133e884aa8c4",
+    "calendar": "holiday",
+    "time": "12:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "b5254fd3-3fc3-4c9b-b420-94f0bee957d9",
+    "calendar": "holiday",
+    "time": "12:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "d43b0b1a-8665-4f05-9536-c8d49a5505b1",
+    "calendar": "holiday",
+    "time": "12:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "8a5b2c6f-f46b-4e16-ab04-578bb4edaee0",
+    "calendar": "holiday",
+    "time": "12:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "c07c350b-30ad-4c52-b2fe-254729fd8c75",
+    "calendar": "holiday",
+    "time": "13:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "54510f45-8b99-43f2-b78f-e150ce37dd08",
+    "calendar": "holiday",
+    "time": "13:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "b9c447de-69ec-48c8-b216-5f0f2c06bba6",
+    "calendar": "holiday",
+    "time": "13:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "d466b02b-5647-491f-b8d4-b5d5bbdd96ae",
+    "calendar": "holiday",
+    "time": "14:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "271e3a00-aa8f-414a-9df9-d81e0efcf0ea",
+    "calendar": "holiday",
+    "time": "14:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "f2af89e0-2945-4ba3-9ad7-9a6141685675",
+    "calendar": "holiday",
+    "time": "14:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "9ff6ea88-4a75-462e-827c-5e8cf0bdebdd",
+    "calendar": "holiday",
+    "time": "14:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "6764a2d7-ed15-4c0f-b39e-763569ee6abe",
+    "calendar": "holiday",
+    "time": "15:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "999f4f93-1c2f-4487-ac63-ead499fc66e9",
+    "calendar": "holiday",
+    "time": "15:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "47ddc011-ad12-4549-a9ed-00323e571b8d",
+    "calendar": "holiday",
+    "time": "15:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "805c23f9-9d38-47bc-81f5-cdc9486f66a0",
+    "calendar": "holiday",
+    "time": "16:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "80a1cfe4-c34f-41c2-8006-b2ae11e073d4",
+    "calendar": "holiday",
+    "time": "16:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "b8ad25ae-119f-4ea9-950f-7de1807f7103",
+    "calendar": "holiday",
+    "time": "16:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "ce84b32d-dd0d-42ee-bd96-87502407d2f4",
+    "calendar": "holiday",
+    "time": "17:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "61954020-88fa-4c4c-96a8-74b5e33c0365",
+    "calendar": "holiday",
+    "time": "17:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "5fe2a4b3-a2a0-40e9-b277-56f44190493f",
+    "calendar": "holiday",
+    "time": "17:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "88f20d6c-5d51-4be1-98f2-fdae10188800",
+    "calendar": "holiday",
+    "time": "18:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "5fff979e-1e02-4bc5-a873-196e0af3cf93",
+    "calendar": "holiday",
+    "time": "18:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "50613ec2-17e1-418b-9ee2-fdef990546c1",
+    "calendar": "holiday",
+    "time": "18:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "90f99d61-9806-4aa7-b0b9-d43a431b2aa2",
+    "calendar": "holiday",
+    "time": "18:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "c96a90b1-77e1-40ac-9487-22bbbd28305c",
+    "calendar": "holiday",
+    "time": "19:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "f79a308a-772a-4a4b-9e2f-412c889489a4",
+    "calendar": "holiday",
+    "time": "19:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "3ef71c11-f4d5-42f6-8c26-161ac3122f7f",
+    "calendar": "holiday",
+    "time": "20:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "46d883f0-b022-479f-afcf-7809f0f6c3c3",
+    "calendar": "holiday",
+    "time": "20:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "01a44d8c-beb3-4307-a825-58b5337e810f",
+    "calendar": "holiday",
+    "time": "21:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10740000",
+    "stopName": "久良波（名護向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "a46a0954-fe16-4391-9768-1b0b498abaaa",
+    "calendar": "holiday",
+    "time": "21:03",
+    "parentCompanyCode": "8000"
+  }
+]

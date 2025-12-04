@@ -1,0 +1,4272 @@
+[
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "8f866ed9-5830-435f-a32d-d2b7d1c212d9",
+    "calendar": "weekday",
+    "time": "06:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "169e42ed-6564-4d37-900f-fa17087bc4cd",
+    "calendar": "weekday",
+    "time": "06:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "5a146b11-3cea-4d5f-ab74-3b3d655ed859",
+    "calendar": "weekday",
+    "time": "07:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "1c1b008c-8408-489c-a9b1-b253f7656f2d",
+    "calendar": "weekday",
+    "time": "07:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "59fff9c3-7dc0-47e0-bfb6-7b9a4e348493",
+    "calendar": "weekday",
+    "time": "08:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "0cedd6fa-43ef-445b-8b3d-fa7515c323bf",
+    "calendar": "saturday",
+    "time": "06:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "f9f0a33d-ad94-41c5-b69b-379fea2440c6",
+    "calendar": "saturday",
+    "time": "06:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "c77631f0-4781-4535-aac7-81078fce9c55",
+    "calendar": "saturday",
+    "time": "07:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "0dbd8950-9737-4371-9d27-306982280c6f",
+    "calendar": "saturday",
+    "time": "07:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "50b357a2-c3ba-447f-b9b1-0dc8e5dff262",
+    "calendar": "saturday",
+    "time": "08:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "9ba774ab-7761-422b-86f6-15038f8858fb",
+    "calendar": "holiday",
+    "time": "05:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "bf868ea0-ddf5-4117-b0b7-8cf0fe8663eb",
+    "calendar": "holiday",
+    "time": "06:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "0d4bac9c-784a-4705-880e-29b6ab27299c",
+    "calendar": "holiday",
+    "time": "06:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "7dbdbf2d-c9eb-48c3-ba10-61d8bc1e1dfd",
+    "calendar": "holiday",
+    "time": "06:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "9a53f354-9b8b-4895-a888-9f0b18f316ca",
+    "calendar": "holiday",
+    "time": "06:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "06f7ff96-6d87-41e7-8eb5-59d771018d6e",
+    "calendar": "holiday",
+    "time": "07:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "6f41439f-e8ba-476d-89e5-43802cc65b0d",
+    "calendar": "holiday",
+    "time": "07:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "986e9b5e-90bc-4d2b-85fb-e98ce692ea9a",
+    "calendar": "holiday",
+    "time": "07:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "0b62b4e6-de03-41d9-858c-ddffd51cf210",
+    "calendar": "holiday",
+    "time": "08:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "20",
+    "courseSid": "4c165d22-0363-4655-91e0-f11a8cc777c0",
+    "tripSid": "c73205d9-a8c4-4a3e-ad62-ce017e03a2c1",
+    "calendar": "holiday",
+    "time": "08:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "23",
+    "courseSid": "38edce47-b63b-4f99-8723-a6e9108038b9",
+    "tripSid": "0df80e93-8f58-433b-bcc0-8a20ed719daf",
+    "calendar": "weekday",
+    "time": "09:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "23",
+    "courseSid": "38edce47-b63b-4f99-8723-a6e9108038b9",
+    "tripSid": "a34cbbf7-5ffb-45ca-86ff-535ef2b3b88c",
+    "calendar": "weekday",
+    "time": "10:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "23",
+    "courseSid": "38edce47-b63b-4f99-8723-a6e9108038b9",
+    "tripSid": "d7c8885e-c2f2-4a29-9992-1da5993e23cd",
+    "calendar": "weekday",
+    "time": "13:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "23",
+    "courseSid": "38edce47-b63b-4f99-8723-a6e9108038b9",
+    "tripSid": "cc245ba9-b49d-4079-8e9c-758abd9f98b8",
+    "calendar": "weekday",
+    "time": "16:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "23",
+    "courseSid": "38edce47-b63b-4f99-8723-a6e9108038b9",
+    "tripSid": "96d8feac-e836-4d92-a9b4-0abd7484e844",
+    "calendar": "weekday",
+    "time": "22:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "23",
+    "courseSid": "38edce47-b63b-4f99-8723-a6e9108038b9",
+    "tripSid": "66500cbe-638d-4080-9c08-0579d5040a49",
+    "calendar": "saturday",
+    "time": "13:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "23",
+    "courseSid": "38edce47-b63b-4f99-8723-a6e9108038b9",
+    "tripSid": "2269f78d-fa64-45df-9b43-7d3a0fd3ce15",
+    "calendar": "saturday",
+    "time": "19:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "23",
+    "courseSid": "38edce47-b63b-4f99-8723-a6e9108038b9",
+    "tripSid": "f703cc33-5107-4616-b2e3-284d40e03c5a",
+    "calendar": "saturday",
+    "time": "20:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "23",
+    "courseSid": "38edce47-b63b-4f99-8723-a6e9108038b9",
+    "tripSid": "014a422c-a972-4e99-9ff3-5dade7fc4f74",
+    "calendar": "holiday",
+    "time": "13:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "23",
+    "courseSid": "38edce47-b63b-4f99-8723-a6e9108038b9",
+    "tripSid": "91920891-4508-4385-84a4-554ebb04071e",
+    "calendar": "holiday",
+    "time": "19:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "23",
+    "courseSid": "38edce47-b63b-4f99-8723-a6e9108038b9",
+    "tripSid": "622f8c1b-8c02-4d5e-973b-0dcc969f05b0",
+    "calendar": "holiday",
+    "time": "20:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "25",
+    "courseSid": "7412676b-e391-4d6b-9ca8-8f8fe18df0b7",
+    "tripSid": "b4477293-f2fe-47f9-b37c-4430abbbbf2d",
+    "calendar": "weekday",
+    "time": "06:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "25",
+    "courseSid": "7412676b-e391-4d6b-9ca8-8f8fe18df0b7",
+    "tripSid": "a8276609-f825-4391-ab36-d7c3daf4e459",
+    "calendar": "weekday",
+    "time": "07:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "25",
+    "courseSid": "7412676b-e391-4d6b-9ca8-8f8fe18df0b7",
+    "tripSid": "23d95267-a8cc-4c96-a3c0-fbc571b8d960",
+    "calendar": "weekday",
+    "time": "08:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "25",
+    "courseSid": "7412676b-e391-4d6b-9ca8-8f8fe18df0b7",
+    "tripSid": "64a6ae73-c8c8-4f0a-af3a-6d09f4db8ca4",
+    "calendar": "weekday",
+    "time": "08:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "25",
+    "courseSid": "7412676b-e391-4d6b-9ca8-8f8fe18df0b7",
+    "tripSid": "5d622f50-e503-41dd-8917-281a0daeac13",
+    "calendar": "weekday",
+    "time": "09:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "25",
+    "courseSid": "7412676b-e391-4d6b-9ca8-8f8fe18df0b7",
+    "tripSid": "109fda74-a161-49b4-b20c-6c9af3ab64a2",
+    "calendar": "weekday",
+    "time": "10:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "25",
+    "courseSid": "7412676b-e391-4d6b-9ca8-8f8fe18df0b7",
+    "tripSid": "f7f2093f-dd00-4bdd-9354-69c35092ade5",
+    "calendar": "weekday",
+    "time": "10:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "25",
+    "courseSid": "7412676b-e391-4d6b-9ca8-8f8fe18df0b7",
+    "tripSid": "52bcb8e0-11c1-4ebe-be1a-2b2043e719d9",
+    "calendar": "saturday",
+    "time": "07:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "25",
+    "courseSid": "7412676b-e391-4d6b-9ca8-8f8fe18df0b7",
+    "tripSid": "7b8c29fe-e72a-4c16-b06c-34da07ff7893",
+    "calendar": "saturday",
+    "time": "08:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "25",
+    "courseSid": "7412676b-e391-4d6b-9ca8-8f8fe18df0b7",
+    "tripSid": "59dfffa4-6e9c-4177-b0e8-23cf165094ed",
+    "calendar": "saturday",
+    "time": "09:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "25",
+    "courseSid": "7412676b-e391-4d6b-9ca8-8f8fe18df0b7",
+    "tripSid": "286c34f7-19a0-4fb0-92f7-229a548c1407",
+    "calendar": "saturday",
+    "time": "09:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "25",
+    "courseSid": "7412676b-e391-4d6b-9ca8-8f8fe18df0b7",
+    "tripSid": "a23f2bf9-49f6-4040-9a97-ef59edeee1ab",
+    "calendar": "holiday",
+    "time": "08:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "25",
+    "courseSid": "7412676b-e391-4d6b-9ca8-8f8fe18df0b7",
+    "tripSid": "dbd18b42-6a7c-4a84-a35c-ebdf6b971e4a",
+    "calendar": "holiday",
+    "time": "09:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "25",
+    "courseSid": "7412676b-e391-4d6b-9ca8-8f8fe18df0b7",
+    "tripSid": "2a68b1db-7a51-464a-8012-4c2448cf1c2c",
+    "calendar": "holiday",
+    "time": "10:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "33fa3a02-8476-4246-a935-ff59a9f9b164",
+    "calendar": "weekday",
+    "time": "09:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "60ba9f62-72f1-452d-ae6b-c3417f44cb5c",
+    "calendar": "weekday",
+    "time": "09:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "86751aef-85f9-4b67-85b3-e63ad659abad",
+    "calendar": "weekday",
+    "time": "10:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "d76a08d5-e77a-4fe2-af2d-5c9f0a41de0d",
+    "calendar": "weekday",
+    "time": "10:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "ed638975-258f-4441-9dcf-469b437f3263",
+    "calendar": "weekday",
+    "time": "12:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "5503560e-e077-4c1d-9911-ceabede01953",
+    "calendar": "weekday",
+    "time": "13:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "51fa1a1e-6265-46bf-91b8-b6fa9b762172",
+    "calendar": "weekday",
+    "time": "13:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "12d6d65b-2fe2-4957-a17a-a2267b0e69b5",
+    "calendar": "weekday",
+    "time": "13:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "c047f2ca-dbb2-49bd-8bd7-cd472cd98522",
+    "calendar": "weekday",
+    "time": "14:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "1aa52b09-7ffe-4411-9355-84efad636a96",
+    "calendar": "weekday",
+    "time": "20:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "9879781c-68cd-4fae-8df6-4a0f51620eab",
+    "calendar": "saturday",
+    "time": "07:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "28",
+    "courseSid": "ff24c716-9e07-431e-92f5-515e0865ab43",
+    "tripSid": "39626bd4-c3ed-43e4-964c-243fee27530a",
+    "calendar": "holiday",
+    "time": "07:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "29",
+    "courseSid": "9ab15289-77a9-4032-b136-5f049299c218",
+    "tripSid": "546581fd-6b29-48bd-aa70-d50c799d59a5",
+    "calendar": "weekday",
+    "time": "07:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "eb0b9260-2db0-4d9a-abd4-f1aa094e4417",
+    "calendar": "weekday",
+    "time": "06:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "d7d3f0a2-f689-4e36-a9cd-b6a809175f4b",
+    "calendar": "weekday",
+    "time": "07:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "4fd44551-ce5c-46dc-a8c0-716356fa1b1b",
+    "calendar": "weekday",
+    "time": "08:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "4e8a2c70-149e-4eee-9f6c-4c381fb21810",
+    "calendar": "weekday",
+    "time": "08:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "319ce548-09e8-4168-8f30-abb1275cbf23",
+    "calendar": "weekday",
+    "time": "09:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "3eb894a9-a068-46b0-a4e0-936b9994c65e",
+    "calendar": "weekday",
+    "time": "10:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "5b577108-e1b5-444f-9c7e-10996adb2122",
+    "calendar": "weekday",
+    "time": "11:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "fd67aba4-930c-47f8-be31-8eda78d21e42",
+    "calendar": "weekday",
+    "time": "11:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "ef96629a-5cea-4321-94f1-650defb1b7b8",
+    "calendar": "weekday",
+    "time": "13:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "5527d39a-cfbe-497d-8396-b68895ae451e",
+    "calendar": "weekday",
+    "time": "13:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "4d41c4a6-15d0-47cb-be83-ab29c343bc26",
+    "calendar": "weekday",
+    "time": "15:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "876ccce9-19d8-4078-bd8a-94dd142bc53b",
+    "calendar": "weekday",
+    "time": "17:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "3b9701c3-f87e-4f8c-bf22-d1d74de66502",
+    "calendar": "weekday",
+    "time": "20:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "c953d5bb-6e6c-4f50-8931-edc4fc4b7acc",
+    "calendar": "weekday",
+    "time": "21:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "20571bf5-54db-403a-8f5b-5bcc04626f2c",
+    "calendar": "saturday",
+    "time": "07:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "1b2453ae-0386-4255-a553-6852d6bf312f",
+    "calendar": "saturday",
+    "time": "08:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "36aaf74f-1768-48d7-9630-b09a061dfc54",
+    "calendar": "saturday",
+    "time": "09:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "f73fa321-9a32-4afd-902b-8db0c2fa3d2e",
+    "calendar": "saturday",
+    "time": "10:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "2939a7fb-534b-44b3-a5a3-289321c0920e",
+    "calendar": "saturday",
+    "time": "11:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "3a9dedac-ba77-492a-8d35-9fffee755451",
+    "calendar": "saturday",
+    "time": "12:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "dfc10331-cc4b-460a-82ad-814407b5eba7",
+    "calendar": "saturday",
+    "time": "13:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "ec4443b7-904d-42b8-a8a8-7c074f4cab31",
+    "calendar": "saturday",
+    "time": "14:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "e0ea54e7-cca5-4c36-90e8-a7fac1625be0",
+    "calendar": "saturday",
+    "time": "15:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "ec4e68a3-43f9-4bb0-b894-1b85a072ab19",
+    "calendar": "saturday",
+    "time": "16:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "b91ce4df-1adf-43ac-81e2-979ce86147db",
+    "calendar": "saturday",
+    "time": "18:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "5f8c9421-27e2-4204-93f1-6acf5d1deade",
+    "calendar": "saturday",
+    "time": "19:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "1bdc0487-0f30-4ebe-87a7-6cf23b1914e2",
+    "calendar": "saturday",
+    "time": "21:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "45564d5c-a21e-43c7-b810-2018bd27fd6e",
+    "calendar": "holiday",
+    "time": "07:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "a5bb68e7-84e4-4e9d-8675-0fb89df4181e",
+    "calendar": "holiday",
+    "time": "08:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "c7dadcad-6c04-4571-8736-77ab6e19ba6e",
+    "calendar": "holiday",
+    "time": "09:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "8575674e-2a8d-433e-8f16-a38fcb4f224a",
+    "calendar": "holiday",
+    "time": "10:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "1b7e216c-27cb-4cb9-a843-39b8eda55a8f",
+    "calendar": "holiday",
+    "time": "11:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "44095aa5-ef66-4af4-86ee-dc9a8683433f",
+    "calendar": "holiday",
+    "time": "12:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "699ca627-8275-41d0-9040-6060a514b7b6",
+    "calendar": "holiday",
+    "time": "13:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "f278f0fa-a61f-4e09-b1de-6f7fd3f9ac7d",
+    "calendar": "holiday",
+    "time": "14:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "759c0cca-064f-4147-95ea-56ba2e08048d",
+    "calendar": "holiday",
+    "time": "15:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "0d172a3f-b78b-4e20-b2b8-a5e47dcbca99",
+    "calendar": "holiday",
+    "time": "16:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "4f489ea5-a039-4091-b938-18a27198bab3",
+    "calendar": "holiday",
+    "time": "18:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "00e23c9a-f9fb-4159-8270-1bbaf5f67f4a",
+    "calendar": "holiday",
+    "time": "19:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "56",
+    "courseSid": "071b89f9-ac1e-454b-8c48-cb884ffbac43",
+    "tripSid": "0b3281b2-e79e-4d74-8cf4-edd23aae44b6",
+    "calendar": "holiday",
+    "time": "21:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "63",
+    "courseSid": "c18ba8f4-9edf-489b-b093-91497c93711a",
+    "tripSid": "53637820-837b-42c9-a77a-567682f85073",
+    "calendar": "weekday",
+    "time": "11:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "63",
+    "courseSid": "c18ba8f4-9edf-489b-b093-91497c93711a",
+    "tripSid": "6d46028f-d2c0-459e-a28d-d163a658e896",
+    "calendar": "saturday",
+    "time": "18:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "63",
+    "courseSid": "c18ba8f4-9edf-489b-b093-91497c93711a",
+    "tripSid": "fbc87fdc-cedd-45c0-a43e-d847210bc76c",
+    "calendar": "holiday",
+    "time": "19:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "88",
+    "courseSid": "c2456be2-238b-4343-ba3c-2df74520eb88",
+    "tripSid": "49582013-d3ba-4e39-8615-b807888ac47d",
+    "calendar": "weekday",
+    "time": "07:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "88",
+    "courseSid": "c2456be2-238b-4343-ba3c-2df74520eb88",
+    "tripSid": "d6eb81ae-a187-42c2-b61f-947d4d5e0e66",
+    "calendar": "weekday",
+    "time": "13:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "88",
+    "courseSid": "c2456be2-238b-4343-ba3c-2df74520eb88",
+    "tripSid": "34076310-a50d-44bd-a86b-6222cacca4b0",
+    "calendar": "weekday",
+    "time": "15:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "c08732ba-af48-490e-b0a5-6f0ea6717c77",
+    "calendar": "weekday",
+    "time": "06:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "3edf34a8-23db-4545-b499-1ce00a600569",
+    "calendar": "weekday",
+    "time": "06:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "b95bed2c-d2b6-48a5-b045-228d9d621e4d",
+    "calendar": "weekday",
+    "time": "06:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "fbeb5e45-4e7e-416b-8f0f-1d48ff681b34",
+    "calendar": "weekday",
+    "time": "07:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "acc81893-3b74-42ec-9c3f-d1c4cfdbc7f4",
+    "calendar": "weekday",
+    "time": "07:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "f2fafbe5-dd06-45b1-93cb-3ab5f565e949",
+    "calendar": "weekday",
+    "time": "08:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "8bad4853-be5c-447b-b605-b87b3488b8b2",
+    "calendar": "weekday",
+    "time": "08:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "1d59d1ed-f8dd-41aa-9449-e4a2b5990609",
+    "calendar": "weekday",
+    "time": "09:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "9063b5b2-1a15-487f-bb8b-c995c7c67340",
+    "calendar": "weekday",
+    "time": "09:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "417a2968-60e3-48df-8f3b-0d43d5a27927",
+    "calendar": "weekday",
+    "time": "09:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "1f7526e1-4448-49b4-8b57-b994c6fca326",
+    "calendar": "weekday",
+    "time": "10:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "fce7c169-f219-4bc5-84e4-96579a2089d9",
+    "calendar": "weekday",
+    "time": "16:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "ce0c746a-4a15-43e3-b2c6-f8b601989a9e",
+    "calendar": "weekday",
+    "time": "17:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "2a11b151-5966-4678-867e-6a07485824d2",
+    "calendar": "weekday",
+    "time": "17:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "fb83f6e6-fc14-4867-b76a-6fd8f1a6ed99",
+    "calendar": "weekday",
+    "time": "17:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "29cfe0f9-efcd-40c1-ab65-48383c5369a2",
+    "calendar": "weekday",
+    "time": "18:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "78b4e282-88d5-481c-99df-cb814ba8295d",
+    "calendar": "weekday",
+    "time": "18:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "be41ff9f-46c5-42ee-843b-d5fd9a17b3b3",
+    "calendar": "weekday",
+    "time": "18:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "bde538ba-c933-4652-b917-b883cf9f756c",
+    "calendar": "weekday",
+    "time": "19:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "b281206f-95cf-4059-8d1e-f8707aad8fa4",
+    "calendar": "weekday",
+    "time": "20:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "aaef71db-e689-4e6b-b4c5-6a52dd75e6db",
+    "calendar": "weekday",
+    "time": "20:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "9db35541-ae65-4042-a060-b9ef9ef2a443",
+    "calendar": "weekday",
+    "time": "21:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "4d989813-9e15-4960-9a2f-bb9e0744795a",
+    "calendar": "saturday",
+    "time": "06:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "fe951c04-0af5-4508-bcf0-b832b18013ae",
+    "calendar": "saturday",
+    "time": "06:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "79613e5a-9064-4871-95db-ad191be293eb",
+    "calendar": "saturday",
+    "time": "07:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "e9033e6a-6840-4460-ae0c-a3b1b42b3788",
+    "calendar": "saturday",
+    "time": "08:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "4b0bb85d-0546-498e-9a65-ad855794b7d0",
+    "calendar": "saturday",
+    "time": "08:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "b3711920-a1d8-49c7-b15e-b73901e56ce1",
+    "calendar": "saturday",
+    "time": "09:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "7ea642da-ed7a-4dec-ba5d-425810462afb",
+    "calendar": "saturday",
+    "time": "09:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "44ff641b-5638-4cf1-a64e-d0419cf3da7a",
+    "calendar": "saturday",
+    "time": "10:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "5614e8a0-1bcc-4bae-be30-5083639257d8",
+    "calendar": "saturday",
+    "time": "13:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "72e71691-abad-488e-8273-0b2bd6e8a5b3",
+    "calendar": "saturday",
+    "time": "14:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "9ab5fb49-e318-4834-a4bc-4015bd5c3e45",
+    "calendar": "saturday",
+    "time": "14:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "e6c4303d-180c-4939-aaf1-e03c9114042b",
+    "calendar": "saturday",
+    "time": "15:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "f584c21b-2e63-462b-8bf7-1f8baea15162",
+    "calendar": "saturday",
+    "time": "15:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "f452f020-63ae-4ade-b560-89d88b147342",
+    "calendar": "saturday",
+    "time": "16:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "9a26bb95-11cf-4d86-9f5b-584a4e9cadb1",
+    "calendar": "saturday",
+    "time": "17:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "413b7c61-c705-4c73-8504-5a9caa72f36e",
+    "calendar": "saturday",
+    "time": "17:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "e16424cb-566f-43c1-b7df-3d6e47f49874",
+    "calendar": "saturday",
+    "time": "18:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "bba6577d-4405-44b0-91b3-886103cff3b2",
+    "calendar": "saturday",
+    "time": "18:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "33a76efc-378d-40e4-9aea-a97f966b517a",
+    "calendar": "saturday",
+    "time": "19:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "137ae22d-d317-4d9d-ab42-ea02c6adbc5a",
+    "calendar": "saturday",
+    "time": "19:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "412977da-38a6-4a83-af0d-fd0335e997f4",
+    "calendar": "saturday",
+    "time": "20:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "5b588c9f-d19a-4b51-adb9-4d327e631416",
+    "calendar": "saturday",
+    "time": "21:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "63aedfa8-1444-45b0-8487-dbb550218423",
+    "calendar": "holiday",
+    "time": "06:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "d6d55239-f3a8-40a8-85fd-b4eb60ded86f",
+    "calendar": "holiday",
+    "time": "06:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "1ab7a953-9cdc-47d4-b5ec-df1bd7bb8008",
+    "calendar": "holiday",
+    "time": "07:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "404b2d30-f54a-491a-8276-2a332855595d",
+    "calendar": "holiday",
+    "time": "08:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "67f6ccf7-5490-48ea-a9d1-6820fc001efd",
+    "calendar": "holiday",
+    "time": "08:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "a4dec8b6-3280-42d3-93cf-c847ed53cf1f",
+    "calendar": "holiday",
+    "time": "09:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "b15c2d87-edfb-4e0c-9d59-abf46aece1e7",
+    "calendar": "holiday",
+    "time": "09:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "91a0248d-7c35-4bd0-92b0-6d0ac833d46f",
+    "calendar": "holiday",
+    "time": "10:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "b73663e4-ff00-4c4d-b5cd-57bfae4b0c79",
+    "calendar": "holiday",
+    "time": "13:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "eae84d6e-1d4d-4ecf-afed-061674072d3f",
+    "calendar": "holiday",
+    "time": "14:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "6c16d194-a1b1-4fe6-adf4-ea3074b0f339",
+    "calendar": "holiday",
+    "time": "14:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "b10cb896-e0fb-4493-9d2a-2a238507591f",
+    "calendar": "holiday",
+    "time": "15:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "8526a6e6-46c9-4521-aaea-60e95910b0dc",
+    "calendar": "holiday",
+    "time": "15:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "a29942fa-734b-47ea-9c87-30ba052a6b98",
+    "calendar": "holiday",
+    "time": "16:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "2d7d8b16-2468-42bf-bd46-8353a42597ff",
+    "calendar": "holiday",
+    "time": "17:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "d8dd8d96-a152-4781-8b67-7777ebac72d3",
+    "calendar": "holiday",
+    "time": "17:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "e6fef154-5415-439b-9e08-fdb5ad0b6880",
+    "calendar": "holiday",
+    "time": "18:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "ec1d4bef-3a6c-440c-9a3d-c2383019bfe2",
+    "calendar": "holiday",
+    "time": "18:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "fc4fb957-d1bd-4c36-be1d-c075659d1b78",
+    "calendar": "holiday",
+    "time": "19:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "4c2a94e7-dbfa-40d4-95ee-cd3c75337ad5",
+    "calendar": "holiday",
+    "time": "19:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "9a49d5f4-3b3b-4619-ad72-a94ab930e555",
+    "calendar": "holiday",
+    "time": "20:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "90",
+    "courseSid": "48f1e73c-4003-4380-8b74-68dd1f702911",
+    "tripSid": "cdbe951b-7f32-4e26-bdb2-9a2ad91e1365",
+    "calendar": "holiday",
+    "time": "21:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "8a54e511-b533-4343-9fe5-b0d17df2e27e",
+    "calendar": "weekday",
+    "time": "06:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "a7b581d9-2a5f-416c-ad90-7ebf4117d722",
+    "calendar": "weekday",
+    "time": "06:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "8cb95af0-8485-4a6b-92f9-11fc7c18952d",
+    "calendar": "weekday",
+    "time": "07:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "6a3e9b05-2c4e-4224-8437-3ea1c41d1ac2",
+    "calendar": "weekday",
+    "time": "07:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "dee7aae2-a074-42de-a754-fefb1a07e029",
+    "calendar": "weekday",
+    "time": "08:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "86b538b5-82dd-4723-b177-c34ae1167b9b",
+    "calendar": "weekday",
+    "time": "08:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "501523ec-a1ca-413b-b2c1-5774c7e9dbe7",
+    "calendar": "weekday",
+    "time": "09:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "f806197d-2c3f-4c8f-abef-732172a6366b",
+    "calendar": "weekday",
+    "time": "09:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "35b09b1f-082d-4c76-a1ca-3330568c1ea5",
+    "calendar": "weekday",
+    "time": "10:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "d7a9267f-f8b8-494c-aaaf-9a650f442d3d",
+    "calendar": "weekday",
+    "time": "11:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "2879e25c-ea8c-43d4-88ae-d5c2ddf8783a",
+    "calendar": "weekday",
+    "time": "12:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "ad7c148b-9d0a-4265-ae46-bb0c1e1b4bd0",
+    "calendar": "weekday",
+    "time": "12:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "ad8b02c3-ec61-4620-81cf-cfc2ef7c2ef5",
+    "calendar": "weekday",
+    "time": "13:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "13edc8f5-6b37-458d-a8f7-67f4f2e91613",
+    "calendar": "weekday",
+    "time": "14:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "38ef342b-4e57-4d5f-b36e-d79ce0dcf654",
+    "calendar": "weekday",
+    "time": "14:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "90cdf2ac-cd58-4f52-b4c1-9ff9c94cdf34",
+    "calendar": "weekday",
+    "time": "15:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "48da40b6-cdf6-40b1-b777-6f7b1a682495",
+    "calendar": "weekday",
+    "time": "16:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "0b796eb7-8f73-48bc-9292-a8481b121553",
+    "calendar": "weekday",
+    "time": "16:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "48137cfe-7630-4fbf-80cf-793287fd7d83",
+    "calendar": "weekday",
+    "time": "17:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "817d3d2e-c1ae-4350-b621-780d3da3a6fa",
+    "calendar": "weekday",
+    "time": "17:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "58651687-cf00-45f6-beaa-8fa1e3d4735a",
+    "calendar": "weekday",
+    "time": "18:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "428fa148-55ef-484e-a97b-7a9a0f5c7e25",
+    "calendar": "weekday",
+    "time": "19:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "cf7cceda-53aa-49ae-b419-666207acc98c",
+    "calendar": "weekday",
+    "time": "20:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "6a9ac29f-8f95-467c-a6fa-cc6214bef279",
+    "calendar": "weekday",
+    "time": "21:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "2d038d14-5e26-4861-b709-06c80250b559",
+    "calendar": "saturday",
+    "time": "06:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "f048678d-e62d-4bbd-8287-0c81b6f70510",
+    "calendar": "saturday",
+    "time": "07:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "ecdd88b3-ca5a-4788-aa34-5b32d86d2235",
+    "calendar": "saturday",
+    "time": "08:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "a096c9fb-7df6-4c8e-b0a7-6be3f498ca29",
+    "calendar": "saturday",
+    "time": "09:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "72ff29fb-cbdf-4a27-9f7c-75d9a5a6b464",
+    "calendar": "saturday",
+    "time": "10:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "a3030471-39f8-48cc-a981-7eb34c8db0d2",
+    "calendar": "saturday",
+    "time": "11:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "aac39923-2584-4c25-a05c-396c02378618",
+    "calendar": "saturday",
+    "time": "12:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "aaf12519-0e08-4479-bfb3-1c8df0e18fd3",
+    "calendar": "saturday",
+    "time": "13:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "d12c8095-14a4-459b-8224-51e934061cf8",
+    "calendar": "saturday",
+    "time": "14:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "9a25af88-7386-4f6d-b39d-01c99c84d82a",
+    "calendar": "saturday",
+    "time": "15:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "b97cbd8e-f72d-4920-af26-13328fd7ba7f",
+    "calendar": "saturday",
+    "time": "16:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "02dbbf98-b5c3-484a-9b7c-9cd001714223",
+    "calendar": "saturday",
+    "time": "17:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "8c17498b-ac90-49af-88de-39affc4ef027",
+    "calendar": "saturday",
+    "time": "18:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "a17b676c-0217-4f98-aecc-8ed88942d9ee",
+    "calendar": "saturday",
+    "time": "20:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "10968b5c-593f-439d-aaca-72496dea087d",
+    "calendar": "holiday",
+    "time": "06:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "5002f5d0-0989-404d-a31d-582026ae76c3",
+    "calendar": "holiday",
+    "time": "07:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "3945fb25-5437-4aac-ba08-67a7bb0dff70",
+    "calendar": "holiday",
+    "time": "08:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "f20cedc4-5d02-4dc3-b189-1139cbcc78cd",
+    "calendar": "holiday",
+    "time": "09:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "dac698dc-7c57-44fe-8835-ed020ca3849e",
+    "calendar": "holiday",
+    "time": "10:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "594a37dc-95ef-4736-93d7-7603c21ef193",
+    "calendar": "holiday",
+    "time": "11:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "3c537854-54d8-442a-85f9-6663ac1137a8",
+    "calendar": "holiday",
+    "time": "12:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "4e3d1f8f-8414-4a10-b75c-b3cb610e3137",
+    "calendar": "holiday",
+    "time": "13:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "dfa2a288-4984-4d07-973e-ec753e085cb4",
+    "calendar": "holiday",
+    "time": "14:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "d5253e87-eb25-49fa-b24e-18975e20be70",
+    "calendar": "holiday",
+    "time": "15:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "9c0cccf2-7a56-4982-9198-8c4bd6532da9",
+    "calendar": "holiday",
+    "time": "16:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "641d0451-a7f0-450e-b355-8562c2f7321f",
+    "calendar": "holiday",
+    "time": "17:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "9513825a-a84a-48e8-af65-bdb451623a6f",
+    "calendar": "holiday",
+    "time": "18:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "97",
+    "courseSid": "2a7f499b-3693-41c3-98d7-9249d35c28ac",
+    "tripSid": "d0470e5c-754c-45a0-8163-64b03cd054db",
+    "calendar": "holiday",
+    "time": "20:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "02375b7b-516d-4cb6-aeaf-3d9e58a2484d",
+    "calendar": "weekday",
+    "time": "06:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "dd094859-671b-4de8-9242-c8cfcbbf6c34",
+    "calendar": "weekday",
+    "time": "07:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "0496e0fd-8a6f-4287-988b-1f22d9614f70",
+    "calendar": "weekday",
+    "time": "07:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "80c4b6c3-a7e4-473c-b1cc-625fef4826e0",
+    "calendar": "weekday",
+    "time": "08:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "f4cf3b09-6f75-4a28-b28b-8db82c99c12f",
+    "calendar": "weekday",
+    "time": "08:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "339fb8d4-869f-4e86-8267-d0509ab2fc1e",
+    "calendar": "weekday",
+    "time": "08:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "560bbe79-d427-42d8-9e25-6584ff91afea",
+    "calendar": "weekday",
+    "time": "09:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "71a439cc-8d8d-4930-963e-3bb8720e81d7",
+    "calendar": "weekday",
+    "time": "10:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "bbc4b9b7-eb70-48f9-8f7e-f682d55716ff",
+    "calendar": "weekday",
+    "time": "10:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "93243fb2-51c3-49e2-b74f-1f339ee450fc",
+    "calendar": "weekday",
+    "time": "11:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "efb8b679-a72f-4021-bc68-8f968257ca82",
+    "calendar": "weekday",
+    "time": "11:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "6fdee445-209a-4bb1-9571-6f8bf633865a",
+    "calendar": "weekday",
+    "time": "12:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "081cfa38-334b-4d89-92b2-63a00553dc2c",
+    "calendar": "weekday",
+    "time": "13:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "7dd4c6b1-c9c3-44e0-b038-a5b7688fc38f",
+    "calendar": "weekday",
+    "time": "14:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "947b2063-5d59-4e49-abe5-2aefe6dfd20b",
+    "calendar": "weekday",
+    "time": "14:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "387b1339-b520-4c78-a02e-5f4fa98c5e71",
+    "calendar": "weekday",
+    "time": "15:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "b55ccfab-9fc2-4745-bc54-97f40b99026c",
+    "calendar": "weekday",
+    "time": "16:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "372daaeb-b00f-4943-aef1-0ea00cec5d87",
+    "calendar": "weekday",
+    "time": "17:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "0947f65a-2633-449f-bc03-dcd9c686ace8",
+    "calendar": "weekday",
+    "time": "18:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "d4e45cfd-bfd4-4420-970b-7cacdb43cf4d",
+    "calendar": "weekday",
+    "time": "19:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "1030e699-8255-4a9e-be1e-afd395c29f11",
+    "calendar": "weekday",
+    "time": "20:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "585312de-bf25-404e-b646-db832690a0bf",
+    "calendar": "weekday",
+    "time": "21:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "889a8632-65ff-4f27-b183-716767c75e4b",
+    "calendar": "weekday",
+    "time": "22:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "2f4b63a0-f69c-4e86-a3fd-a64c393d1423",
+    "calendar": "saturday",
+    "time": "07:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "f39f086c-0961-4952-957b-299ed755e67a",
+    "calendar": "saturday",
+    "time": "08:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "84636a20-2a04-4db8-94b5-84067adad623",
+    "calendar": "saturday",
+    "time": "08:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "4282ebd8-1f21-4ec9-8c37-247981913c35",
+    "calendar": "saturday",
+    "time": "09:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "884ad5e9-ffd1-4e2e-aabf-521f96b528af",
+    "calendar": "saturday",
+    "time": "10:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "cd46971a-96a7-4f8f-bd08-97d5dc804bda",
+    "calendar": "saturday",
+    "time": "11:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "e7479a54-612b-4ea9-a8e6-b0fd40b3ad7b",
+    "calendar": "saturday",
+    "time": "13:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "3d469e0f-107e-4a94-a7b6-71352e5f3e30",
+    "calendar": "saturday",
+    "time": "14:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "cc832a96-4229-422f-9bb8-14a8fef88278",
+    "calendar": "saturday",
+    "time": "14:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "28791287-46e5-4e2d-8b76-990d13cf3b82",
+    "calendar": "saturday",
+    "time": "15:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "b102ebee-ae66-4a11-884c-78e7b0b77ff9",
+    "calendar": "saturday",
+    "time": "16:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "460a523e-8044-4889-a7d6-6d17fd2fcfd2",
+    "calendar": "saturday",
+    "time": "17:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "5938fc16-2823-4e32-b47b-e80dc8d459a0",
+    "calendar": "saturday",
+    "time": "18:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "abaee0f4-7379-451f-9d99-9042d0933ecd",
+    "calendar": "saturday",
+    "time": "20:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "698db64d-d397-4b16-b72f-3ea33e3e3947",
+    "calendar": "saturday",
+    "time": "21:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "fa94971e-6b99-49b6-aac2-0885ec650219",
+    "calendar": "holiday",
+    "time": "07:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "4b85d682-7cd8-4752-88de-26db9efd2690",
+    "calendar": "holiday",
+    "time": "08:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "a89f1ff3-5bef-4792-8145-5109f38fb7c4",
+    "calendar": "holiday",
+    "time": "08:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "76caf29d-15f1-49ab-9c59-33e0f4b025e3",
+    "calendar": "holiday",
+    "time": "09:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "7d644976-8bcb-4eb1-aa93-eb2066781bb4",
+    "calendar": "holiday",
+    "time": "10:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "67ebb254-ffe6-4a35-b009-ee6df50665ed",
+    "calendar": "holiday",
+    "time": "11:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "16f7aa4c-504b-4540-a9cf-2bcfb6182bcf",
+    "calendar": "holiday",
+    "time": "13:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "901e71bb-d945-4464-8355-5e2f52ad5ceb",
+    "calendar": "holiday",
+    "time": "14:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "3fe2a31c-52bc-4007-93cc-c7d7221ebf93",
+    "calendar": "holiday",
+    "time": "14:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "cb1397e8-322b-46e2-9cf0-6b7272f6a394",
+    "calendar": "holiday",
+    "time": "15:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "75143900-9ed5-485e-99b3-d695f72a1c8d",
+    "calendar": "holiday",
+    "time": "16:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "cfd9f566-afc1-4174-aea6-bfbefadcba9f",
+    "calendar": "holiday",
+    "time": "17:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "0bbcc646-4ad2-42d4-9e19-267f1fb871b5",
+    "calendar": "holiday",
+    "time": "18:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "22da49e3-6706-40aa-8081-f88e41325e4d",
+    "calendar": "holiday",
+    "time": "20:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "98",
+    "courseSid": "96934d7c-87f3-4c1b-aebd-2ea1c2ccb015",
+    "tripSid": "6b1be31d-c782-43d1-ad24-943b99509770",
+    "calendar": "holiday",
+    "time": "21:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "2085bec2-fb06-4708-8fc0-952004c43c0a",
+    "calendar": "weekday",
+    "time": "10:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "f7fe2fc4-d179-4671-831a-6940a71ea3bd",
+    "calendar": "weekday",
+    "time": "11:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "c15ed006-7d3d-46a1-b48f-923115a91d00",
+    "calendar": "weekday",
+    "time": "12:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "534a86d9-e3c5-46f2-881c-a33fd1b14ed4",
+    "calendar": "weekday",
+    "time": "13:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "d0aae0f1-f436-4d60-9d2e-461e6f738b3c",
+    "calendar": "weekday",
+    "time": "15:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "956e8083-9c74-4120-b880-d1f5a0ad6e80",
+    "calendar": "weekday",
+    "time": "16:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "d68aa3b5-1222-4d96-ac49-c02e4d435a6c",
+    "calendar": "weekday",
+    "time": "17:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "8ca5cff3-90d2-4fca-ba6b-71df1fa950b9",
+    "calendar": "weekday",
+    "time": "18:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "d0c5d63c-c3f7-4cde-9f73-7dfe8206efcc",
+    "calendar": "weekday",
+    "time": "19:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "5308d67f-9167-48d4-b9a7-25789fe85086",
+    "calendar": "weekday",
+    "time": "19:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "188e9d3e-faa1-4e0c-a4c0-a3c7004ae3c2",
+    "calendar": "saturday",
+    "time": "08:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "9cd5e88a-1825-4067-9a13-a89e7580d7f0",
+    "calendar": "saturday",
+    "time": "09:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "ff0e9ef2-949c-48bc-9bc6-aceb79e05f12",
+    "calendar": "saturday",
+    "time": "10:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "477fdf8e-3886-446e-b7b7-5586194dbd5b",
+    "calendar": "saturday",
+    "time": "10:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "4349be21-bf46-4915-a625-cc1847361244",
+    "calendar": "saturday",
+    "time": "11:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "9af9a567-bd0d-480d-ae87-26942cd70a37",
+    "calendar": "saturday",
+    "time": "11:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "eaadcfcc-e7f6-4a6e-bf6f-b18c4a75a2bf",
+    "calendar": "saturday",
+    "time": "11:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "e8365e27-d993-4923-9f47-39453179bfaf",
+    "calendar": "saturday",
+    "time": "12:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "bd1b176a-90a1-484c-b35e-4dcc62f8cc59",
+    "calendar": "saturday",
+    "time": "13:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "0860a1a1-6ca7-4f8c-930d-078218c1eea6",
+    "calendar": "saturday",
+    "time": "13:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "90175c8b-52ed-4c97-ad3b-040af77e2b53",
+    "calendar": "saturday",
+    "time": "14:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "75ba90b7-2049-4f4c-aa02-8e312ad43db3",
+    "calendar": "saturday",
+    "time": "15:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "dda62e8b-f46b-4f63-af83-1ba5b675820f",
+    "calendar": "saturday",
+    "time": "15:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "42b1c26c-557b-4836-9f70-422ab7b004b3",
+    "calendar": "saturday",
+    "time": "16:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "23bd4cd1-c767-4336-94f9-5623874da706",
+    "calendar": "saturday",
+    "time": "16:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "551c1f98-1e26-42a8-afcc-f36d09393953",
+    "calendar": "saturday",
+    "time": "17:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "b4a4524e-031e-4198-b69f-52c959f0e7be",
+    "calendar": "saturday",
+    "time": "18:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "2072ef57-7d7d-4d1d-a805-15ae0486ffe5",
+    "calendar": "saturday",
+    "time": "18:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "c4dc0fe2-0e60-4bcd-97e3-7b75aaedfebc",
+    "calendar": "saturday",
+    "time": "19:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "73520a3d-b7ff-46c2-a6e0-146e543c52ed",
+    "calendar": "holiday",
+    "time": "08:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "3b10311c-415e-4deb-bfdc-a8a55eb80686",
+    "calendar": "holiday",
+    "time": "08:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "d8a056d9-236f-4bf8-949f-db4792b7a2f8",
+    "calendar": "holiday",
+    "time": "09:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "47d92dd5-b7d2-4ea4-8363-0fbb478a94c1",
+    "calendar": "holiday",
+    "time": "09:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "80adf8d5-4187-4a02-9676-241eeee35c7b",
+    "calendar": "holiday",
+    "time": "10:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "3b7ab7f1-aef1-41e7-8fc7-df99c42c7e6a",
+    "calendar": "holiday",
+    "time": "10:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "018306eb-1a0d-48a5-a031-1edef286b5dd",
+    "calendar": "holiday",
+    "time": "10:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "c1dc5d87-ff2e-4b3b-9caa-851e393100e0",
+    "calendar": "holiday",
+    "time": "10:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "b5254fd3-3fc3-4c9b-b420-94f0bee957d9",
+    "calendar": "holiday",
+    "time": "11:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "cc47aef9-1136-4337-8b89-133e884aa8c4",
+    "calendar": "holiday",
+    "time": "11:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "8a5b2c6f-f46b-4e16-ab04-578bb4edaee0",
+    "calendar": "holiday",
+    "time": "11:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "d43b0b1a-8665-4f05-9536-c8d49a5505b1",
+    "calendar": "holiday",
+    "time": "11:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "54510f45-8b99-43f2-b78f-e150ce37dd08",
+    "calendar": "holiday",
+    "time": "11:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "271e3a00-aa8f-414a-9df9-d81e0efcf0ea",
+    "calendar": "holiday",
+    "time": "12:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "f2af89e0-2945-4ba3-9ad7-9a6141685675",
+    "calendar": "holiday",
+    "time": "13:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "6764a2d7-ed15-4c0f-b39e-763569ee6abe",
+    "calendar": "holiday",
+    "time": "13:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "47ddc011-ad12-4549-a9ed-00323e571b8d",
+    "calendar": "holiday",
+    "time": "14:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "80a1cfe4-c34f-41c2-8006-b2ae11e073d4",
+    "calendar": "holiday",
+    "time": "15:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "ce84b32d-dd0d-42ee-bd96-87502407d2f4",
+    "calendar": "holiday",
+    "time": "15:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "5fe2a4b3-a2a0-40e9-b277-56f44190493f",
+    "calendar": "holiday",
+    "time": "16:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "5fff979e-1e02-4bc5-a873-196e0af3cf93",
+    "calendar": "holiday",
+    "time": "16:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "90f99d61-9806-4aa7-b0b9-d43a431b2aa2",
+    "calendar": "holiday",
+    "time": "17:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "c96a90b1-77e1-40ac-9487-22bbbd28305c",
+    "calendar": "holiday",
+    "time": "18:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "f79a308a-772a-4a4b-9e2f-412c889489a4",
+    "calendar": "holiday",
+    "time": "18:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "3ef71c11-f4d5-42f6-8c26-161ac3122f7f",
+    "calendar": "holiday",
+    "time": "18:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "46d883f0-b022-479f-afcf-7809f0f6c3c3",
+    "calendar": "holiday",
+    "time": "18:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "01a44d8c-beb3-4307-a825-58b5337e810f",
+    "calendar": "holiday",
+    "time": "19:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "120",
+    "courseSid": "fc7e91c2-5273-4db8-82d6-af5b3f396f77",
+    "tripSid": "a46a0954-fe16-4391-9768-1b0b498abaaa",
+    "calendar": "holiday",
+    "time": "19:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "0bb4422e-4b10-4578-bfb4-131e9b2522b5",
+    "calendar": "weekday",
+    "time": "12:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "a39529a5-a088-4396-89d9-160e5ed17587",
+    "calendar": "weekday",
+    "time": "13:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "64b75f39-ca8c-458b-9b81-31cfdb4593f1",
+    "calendar": "weekday",
+    "time": "13:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "ea7a5c2f-722f-4c85-a013-a16876db2c9b",
+    "calendar": "weekday",
+    "time": "14:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "4d004b2a-76fc-4ef4-acfc-2e958f1267e2",
+    "calendar": "weekday",
+    "time": "15:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "638483fd-73e0-437f-84b1-b7b057859003",
+    "calendar": "weekday",
+    "time": "16:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "823d9b61-750d-4a63-b9cf-2361f3be3984",
+    "calendar": "weekday",
+    "time": "17:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "831fbf91-2c7b-440a-8fc0-d792ae20cc85",
+    "calendar": "weekday",
+    "time": "17:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "7fd82972-334e-4277-9b55-b4a8fd905a64",
+    "calendar": "weekday",
+    "time": "18:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "06985734-fbd5-4961-8e95-7b976890de8c",
+    "calendar": "weekday",
+    "time": "19:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "26ad3df0-7abc-4e63-b501-d60f90e2f35b",
+    "calendar": "saturday",
+    "time": "11:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "ce14542c-90e7-464b-9862-e6c2f6374403",
+    "calendar": "saturday",
+    "time": "12:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "5a74e543-4e18-4c56-8a7b-9dc61031a8fa",
+    "calendar": "saturday",
+    "time": "13:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "b377e128-05ab-4f19-a256-a530a986312c",
+    "calendar": "saturday",
+    "time": "14:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "0f2b1039-86d9-4ac6-99c3-f707110aef5f",
+    "calendar": "saturday",
+    "time": "15:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "9462c3eb-ce56-4400-a53c-ac583ac362ec",
+    "calendar": "saturday",
+    "time": "16:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "d92a047f-5926-4079-a761-64d6d19594c7",
+    "calendar": "saturday",
+    "time": "17:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "73202daa-3f63-407c-b66e-ffb5ea3d2a7a",
+    "calendar": "saturday",
+    "time": "18:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "956989cc-9899-4dec-b7c3-6bab0a55093c",
+    "calendar": "holiday",
+    "time": "11:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "356178c6-abc5-475e-9aec-8b30091504fb",
+    "calendar": "holiday",
+    "time": "13:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "a7b46784-3036-4d6b-a420-7dea20ffccd1",
+    "calendar": "holiday",
+    "time": "14:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "d85a2ff4-8024-4bee-a918-c593929757f3",
+    "calendar": "holiday",
+    "time": "16:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "2015900a-3ad6-49cb-a1dc-6421c238c072",
+    "calendar": "holiday",
+    "time": "17:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "125",
+    "courseSid": "d7671887-a2e4-4118-abac-4555cc70b7d8",
+    "tripSid": "f4c7729d-e256-4f3c-9950-c85977d7693d",
+    "calendar": "holiday",
+    "time": "18:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "0ba3030e-8df9-47d3-b9e2-517be14dfadf",
+    "calendar": "weekday",
+    "time": "10:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "91035729-b375-4b14-904d-7d906d77a975",
+    "calendar": "weekday",
+    "time": "10:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "bed122e4-21a1-4b05-aa57-97955afdfe3a",
+    "calendar": "weekday",
+    "time": "10:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "ac742c72-2a7a-4b0b-a436-5311707e81c3",
+    "calendar": "weekday",
+    "time": "10:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "876d835d-b8db-4ea6-bc6b-8bde178a6a13",
+    "calendar": "weekday",
+    "time": "11:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "cb157a66-19b4-48c2-8bb5-49360e7554b7",
+    "calendar": "weekday",
+    "time": "12:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "bc73fa6d-9507-487f-a066-cd3a524f5f21",
+    "calendar": "weekday",
+    "time": "12:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "e7bd99f6-74dd-436f-8ce4-9a5733793720",
+    "calendar": "weekday",
+    "time": "13:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "30fac460-ba7a-465c-9b47-67fe149db101",
+    "calendar": "weekday",
+    "time": "14:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "747fcdea-06d0-48ec-8d13-75043a48165a",
+    "calendar": "weekday",
+    "time": "15:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "ff5ec5f3-18b2-4d03-9a62-c9b6b18f0393",
+    "calendar": "weekday",
+    "time": "16:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "d04b48e1-c74d-419e-826e-0090b88a825a",
+    "calendar": "saturday",
+    "time": "10:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "d62bd87a-038e-49df-a432-57b7cebcfe24",
+    "calendar": "saturday",
+    "time": "11:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "f52e1614-1e51-43c3-9738-a0e013648fad",
+    "calendar": "saturday",
+    "time": "11:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "3dcaca78-a48e-4820-9728-dcdcda4487a1",
+    "calendar": "saturday",
+    "time": "12:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "aee41650-6825-4540-b986-55671b56995f",
+    "calendar": "saturday",
+    "time": "13:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "4645c6ec-3ca6-44a3-9b4b-1ff7f5a48b5e",
+    "calendar": "saturday",
+    "time": "13:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "c8e4ef32-0600-4567-9c11-1ecb542c00dc",
+    "calendar": "holiday",
+    "time": "10:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "1c5a204d-aedd-4598-bea4-8fd23ef0f71c",
+    "calendar": "holiday",
+    "time": "11:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "e304f725-0ae3-4c0c-a275-9a4580f8e908",
+    "calendar": "holiday",
+    "time": "11:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "50d84e52-8409-4aef-bd25-25bcedb41d6f",
+    "calendar": "holiday",
+    "time": "12:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "d6b406a4-6243-461a-83e7-780fddac664d",
+    "calendar": "holiday",
+    "time": "13:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "190",
+    "courseSid": "00cf98e6-a780-4f96-8541-abbc354829e9",
+    "tripSid": "d4ae9b5d-a46a-4c74-bf60-32affd24163e",
+    "calendar": "holiday",
+    "time": "13:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "256",
+    "courseSid": "b87b932f-c6ed-489e-86e8-d1f604c3c750",
+    "tripSid": "f3da0852-806e-4eed-b3d9-ae7539abf7f5",
+    "calendar": "weekday",
+    "time": "07:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "256",
+    "courseSid": "b87b932f-c6ed-489e-86e8-d1f604c3c750",
+    "tripSid": "bc1e3850-ddba-4b79-afc8-a4f375c6caea",
+    "calendar": "weekday",
+    "time": "14:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "256",
+    "courseSid": "b87b932f-c6ed-489e-86e8-d1f604c3c750",
+    "tripSid": "23bc4bf8-9dc8-4ef2-918e-a500b2311b30",
+    "calendar": "weekday",
+    "time": "18:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "94f6ebc2-1dfa-4136-9aaa-33feea2d93c9",
+    "calendar": "weekday",
+    "time": "07:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "255412d5-8c57-45c5-bec0-3d7526be7dd7",
+    "calendar": "weekday",
+    "time": "08:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "b8a7e5e2-256b-4a1c-87cd-99de48aac6dc",
+    "calendar": "weekday",
+    "time": "09:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "d1f2617d-7dfd-425b-9ef7-ebbfe27a01ba",
+    "calendar": "weekday",
+    "time": "09:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "1c3634ff-60b8-4672-b4a0-8e9d26dac3da",
+    "calendar": "weekday",
+    "time": "11:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "169609e5-bd26-4cb5-acb3-4449ba61b838",
+    "calendar": "weekday",
+    "time": "11:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "3ed4f853-16be-44c7-b055-e84a942f8181",
+    "calendar": "weekday",
+    "time": "12:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "95fb5281-ca5c-4876-8a36-886ef72e27e8",
+    "calendar": "weekday",
+    "time": "12:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "9b563e8e-3d2c-4ff6-9f2e-2d46cafd069c",
+    "calendar": "weekday",
+    "time": "13:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "a8fd91ec-bdb7-41a8-bcec-ced66edd730b",
+    "calendar": "weekday",
+    "time": "14:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "d3591009-d3d1-40b0-9b80-a5cb66fe89a9",
+    "calendar": "weekday",
+    "time": "15:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "1be4a283-df47-48fd-b879-932e1d73886c",
+    "calendar": "weekday",
+    "time": "16:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "5f158043-bd0b-4b9d-871d-dc945ebf549d",
+    "calendar": "weekday",
+    "time": "17:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "45b10734-ac3b-4b33-bad0-39325d855994",
+    "calendar": "weekday",
+    "time": "18:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "744f09f8-3358-4673-867e-460a327290bc",
+    "calendar": "weekday",
+    "time": "19:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "fa035e22-a8b1-4bcb-a620-d4ce69594bf0",
+    "calendar": "weekday",
+    "time": "20:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "41b16eb2-d463-4aa2-a531-2055b2289501",
+    "calendar": "weekday",
+    "time": "21:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "ca4d8898-b315-4d4f-b3b0-2e617e3ddc30",
+    "calendar": "saturday",
+    "time": "08:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "a80d43a7-65d4-4af1-8b91-762fd2b40527",
+    "calendar": "saturday",
+    "time": "09:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "4e11c49b-63fc-4ab9-b020-c2ae0411de37",
+    "calendar": "saturday",
+    "time": "10:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "a7696062-8860-4eea-b37a-e03144af72b2",
+    "calendar": "saturday",
+    "time": "11:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "b8b365d5-31d8-4a41-aa95-07a72f326b5e",
+    "calendar": "saturday",
+    "time": "11:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "09fd3cec-aa32-416d-8825-6126631f2deb",
+    "calendar": "saturday",
+    "time": "12:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "e25884e2-16e1-4711-9f61-7f57bbc5317d",
+    "calendar": "saturday",
+    "time": "13:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "fc6ce38a-94bf-47c0-8c35-0c52f3ce3c98",
+    "calendar": "saturday",
+    "time": "14:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "92c6890c-5613-4184-860b-67c0de486994",
+    "calendar": "saturday",
+    "time": "15:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "80dac83a-4c3c-4a83-815c-d86b9ecdb323",
+    "calendar": "saturday",
+    "time": "16:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "1b6e91f5-0155-4c72-afa9-d8a2760e6456",
+    "calendar": "saturday",
+    "time": "17:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "cfb69710-1bb0-4759-8ea9-075ae1282311",
+    "calendar": "saturday",
+    "time": "18:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "f40f26c2-ae22-4b14-88de-1ff8085db043",
+    "calendar": "saturday",
+    "time": "19:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "2b88ff98-b32c-4437-b64a-d00e37168d65",
+    "calendar": "saturday",
+    "time": "20:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "56f8d100-f990-473c-90a1-cf5d9d21b1b0",
+    "calendar": "holiday",
+    "time": "08:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "80077ec9-20e4-4ed7-a370-43bc0d4a29ea",
+    "calendar": "holiday",
+    "time": "09:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "7dc88877-7cf1-4783-ae8d-07dfc0bd40dc",
+    "calendar": "holiday",
+    "time": "10:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "4c3d095a-d5ef-442a-b97e-e81b5330989b",
+    "calendar": "holiday",
+    "time": "11:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "61910cbe-3672-40a8-8954-8d616e508b47",
+    "calendar": "holiday",
+    "time": "11:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "6d745e9e-d372-4a4a-a89a-9b3b388b0d63",
+    "calendar": "holiday",
+    "time": "12:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "41a0745e-b91b-4f61-9a3b-ec5ead100a1b",
+    "calendar": "holiday",
+    "time": "13:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "7c47c807-e930-4e2b-a08c-f10604118f5a",
+    "calendar": "holiday",
+    "time": "14:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "58088c54-5a60-4ad6-b573-549a26bb7945",
+    "calendar": "holiday",
+    "time": "15:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "26c88179-a97b-414c-8e0c-8090d2d58230",
+    "calendar": "holiday",
+    "time": "16:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "91ff5756-eda3-4edb-88ae-1172ecf5181d",
+    "calendar": "holiday",
+    "time": "17:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "2537d5f8-720f-49c7-82fb-2007acc132a4",
+    "calendar": "holiday",
+    "time": "18:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "ec77c429-e15a-48ba-8cae-b39bae5e5ae1",
+    "calendar": "holiday",
+    "time": "19:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040000",
+    "stopName": "牧志（安謝・古島向け）",
+    "routeNo": "346",
+    "courseSid": "a0b323c7-9c09-47e7-a728-07c556c9d12b",
+    "tripSid": "f0025c6d-cbdb-40ec-b684-1e572aa3cc8a",
+    "calendar": "holiday",
+    "time": "20:31",
+    "parentCompanyCode": "8000"
+  }
+]
