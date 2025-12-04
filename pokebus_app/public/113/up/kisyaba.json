@@ -1,0 +1,752 @@
+[
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "40eb6092-0f3b-4630-a185-16b7cbb5149d",
+    "calendar": "weekday",
+    "time": "06:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "4d599355-d4db-465d-af63-bdf297b00628",
+    "calendar": "weekday",
+    "time": "07:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "16469c04-2ced-4ed9-b670-189421242edb",
+    "calendar": "weekday",
+    "time": "08:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "3668375f-f717-457d-a8e8-eda530611fc4",
+    "calendar": "weekday",
+    "time": "09:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "7206d0fb-5d6c-43e4-bb8b-3670208569a7",
+    "calendar": "weekday",
+    "time": "10:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "d18ce499-4c40-4624-8561-c7541d5203ba",
+    "calendar": "weekday",
+    "time": "10:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "a00a8b0d-b45e-4eab-86c5-0c0614791267",
+    "calendar": "weekday",
+    "time": "11:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "b35f0612-c712-4436-8177-88628f3a3444",
+    "calendar": "weekday",
+    "time": "15:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "d5c72cbf-828b-4950-8a89-4b89e966d7a6",
+    "calendar": "weekday",
+    "time": "16:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "a36f44ee-567b-426c-a804-224bdc672c32",
+    "calendar": "weekday",
+    "time": "17:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "a3968a24-15ea-4b5a-b811-b676fe99e35a",
+    "calendar": "weekday",
+    "time": "19:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "4dac32cb-55c9-4566-be00-0cf5fbbfec23",
+    "calendar": "weekday",
+    "time": "20:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "0f5bd64e-a144-401d-97b9-62c28899162e",
+    "calendar": "saturday",
+    "time": "06:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "992f8c2f-00f3-4ae1-bada-b7a3343f7027",
+    "calendar": "saturday",
+    "time": "07:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "471cbb39-522a-4d54-a013-71a41cb0cca0",
+    "calendar": "saturday",
+    "time": "08:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "52890fcc-7330-4931-b3b6-b93c04bc9240",
+    "calendar": "saturday",
+    "time": "09:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "b18da731-d4cb-4fc5-af0c-edeb06d6a6f2",
+    "calendar": "saturday",
+    "time": "10:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "9f39bd4f-9e44-4a12-98d5-f9fd1c078816",
+    "calendar": "saturday",
+    "time": "10:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "ae580232-1325-48de-a8c1-1ec0a9d56f32",
+    "calendar": "saturday",
+    "time": "11:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "a327718a-67b3-4ac2-8615-61400eeff5b3",
+    "calendar": "saturday",
+    "time": "15:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "7bd7544f-496a-4574-97d1-7890d520555c",
+    "calendar": "saturday",
+    "time": "16:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "1b573601-dcff-4448-a68b-51c429b1087d",
+    "calendar": "saturday",
+    "time": "17:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "5da27bca-4701-4eb7-ae42-3c77f8b6a85d",
+    "calendar": "saturday",
+    "time": "19:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "1bcc842d-5d74-4daa-9dde-2661d477a4a3",
+    "calendar": "saturday",
+    "time": "20:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "5969fde1-f81f-4482-a450-5be72713a929",
+    "calendar": "holiday",
+    "time": "06:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "1096ecb7-cd2a-49a5-9327-d7ac85a6705e",
+    "calendar": "holiday",
+    "time": "07:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "93e53b7f-2566-40bd-b24f-cca6bdc942f7",
+    "calendar": "holiday",
+    "time": "08:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "4d98a417-2b53-4870-8065-684e73054830",
+    "calendar": "holiday",
+    "time": "09:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "598e4bee-1fcd-48ea-9283-706e0eeaa62b",
+    "calendar": "holiday",
+    "time": "10:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "85edb6bf-39b1-4d24-bc75-586921391751",
+    "calendar": "holiday",
+    "time": "10:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "4f8abb40-ae36-4142-a39b-5e3ca3cdf3b7",
+    "calendar": "holiday",
+    "time": "11:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "db693aff-2438-4be6-8ef0-da368852ee24",
+    "calendar": "holiday",
+    "time": "15:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "74aea567-9fee-493a-870f-c50ae21da0a7",
+    "calendar": "holiday",
+    "time": "16:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "c5020b02-314e-476c-bf4d-432578cca0f7",
+    "calendar": "holiday",
+    "time": "17:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "c3cf50bb-f1d9-43c3-bfdd-bebf532615fb",
+    "calendar": "holiday",
+    "time": "19:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "7b0e00b5-7d53-4001-b40f-3fb074b0cddc",
+    "calendar": "holiday",
+    "time": "20:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "3f2102c2-26ba-4cc9-b32f-7871130f77b7",
+    "calendar": "weekday",
+    "time": "06:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "f5f840c2-4871-4e54-bc49-fc115c5cb654",
+    "calendar": "weekday",
+    "time": "07:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "35307fd9-af22-4c08-8ce7-1a4318d68893",
+    "calendar": "weekday",
+    "time": "15:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "ad34e781-c079-401e-b56c-e5516de63cee",
+    "calendar": "weekday",
+    "time": "16:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "5ad08742-9b49-4cf8-90c0-1c50b2741898",
+    "calendar": "weekday",
+    "time": "17:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "549c2118-6939-46b1-a1c6-2943ba49d975",
+    "calendar": "saturday",
+    "time": "06:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "cf4bb9d8-484f-4a35-a7fd-618061512323",
+    "calendar": "saturday",
+    "time": "07:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "116ee681-f053-42f5-bf67-4f0683998461",
+    "calendar": "saturday",
+    "time": "07:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "eaaea64c-d062-4c37-ac19-351c387395ff",
+    "calendar": "saturday",
+    "time": "14:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "dd0314a2-bc11-4f01-96b8-a9706f0e6caa",
+    "calendar": "saturday",
+    "time": "15:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "4c9e79b9-9ccd-4877-87c9-e71f99777d0f",
+    "calendar": "saturday",
+    "time": "16:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "d29faf14-d6d5-49b9-a24c-285c80183b8a",
+    "calendar": "weekday",
+    "time": "11:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "8bfbd5bb-dfef-466b-93a2-2e85f28d99db",
+    "calendar": "weekday",
+    "time": "13:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "672066aa-dd7d-48d7-94fc-5e9ea8bf4091",
+    "calendar": "weekday",
+    "time": "14:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "0d11fd25-06cc-4358-bb68-bb9db445d6dc",
+    "calendar": "weekday",
+    "time": "14:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "0289c1a2-767b-4ad2-9c9e-dba9b21b134d",
+    "calendar": "weekday",
+    "time": "16:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "233b0fe5-e59e-43f9-b2dc-e1f361fc743f",
+    "calendar": "weekday",
+    "time": "17:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "d7eccb8c-0a5d-4388-b476-0fcad168a9c4",
+    "calendar": "weekday",
+    "time": "17:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "9fe4e4b7-0a55-456c-9abb-a9343c3153e7",
+    "calendar": "weekday",
+    "time": "18:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "25d98e91-7271-4b28-a347-05160492ba53",
+    "calendar": "weekday",
+    "time": "18:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "77ebd979-0202-4743-a137-819c0b72c7b3",
+    "calendar": "saturday",
+    "time": "11:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "b43c0f32-c6fa-4cba-917e-282ecf323b53",
+    "calendar": "saturday",
+    "time": "13:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "b8ab54ab-6bdf-4016-9648-7f47dde04485",
+    "calendar": "saturday",
+    "time": "14:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "9c6f4c1c-cf5b-4a94-ac0a-2e8f67693108",
+    "calendar": "saturday",
+    "time": "14:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "e3f8fc6b-e9d2-4072-9504-470e8c28310d",
+    "calendar": "saturday",
+    "time": "16:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "16a0a82f-4cb2-4abc-ac4b-f605275b0921",
+    "calendar": "saturday",
+    "time": "17:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "12c2b425-065d-4e47-8929-f5016eb9637e",
+    "calendar": "saturday",
+    "time": "17:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "84bcac5b-fc00-4c28-afda-98dfd04f41ef",
+    "calendar": "saturday",
+    "time": "18:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "eeec77d6-36eb-4b87-bb57-12c792a1b83d",
+    "calendar": "saturday",
+    "time": "18:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "b5fcd36d-f099-4f62-aa0c-29a642eaabee",
+    "calendar": "holiday",
+    "time": "11:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "a5ea5dab-cc1c-485a-8f80-59ed66cf8051",
+    "calendar": "holiday",
+    "time": "13:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "0f157298-73a8-45d2-85d4-615e40f5d45d",
+    "calendar": "holiday",
+    "time": "14:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "78393b35-fd54-4bfc-9f62-4aa4e65835a4",
+    "calendar": "holiday",
+    "time": "14:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "ee5dc266-c570-4939-a4e3-706d130e8524",
+    "calendar": "holiday",
+    "time": "16:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "52ebcebc-c007-495f-8ce0-60cb708f8ace",
+    "calendar": "holiday",
+    "time": "17:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "c9ad2165-dcfd-4019-a3f0-fe66174c3cda",
+    "calendar": "holiday",
+    "time": "17:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "0f55211e-4b85-4407-be83-fbcc284e850f",
+    "calendar": "holiday",
+    "time": "18:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "d25fa917-e5eb-4ab8-b111-bde1a7cb83f0",
+    "calendar": "holiday",
+    "time": "18:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "15930100",
+    "stopName": "喜舎場（那覇空港向け）",
+    "routeNo": "123",
+    "courseSid": "d15097d1-60f3-472c-894c-68ff4c6451df",
+    "tripSid": "0ef7c8f2-bf99-4d2d-bd06-a16a6cad8d2b",
+    "calendar": "weekday",
+    "time": "07:38",
+    "parentCompanyCode": "8000"
+  }
+]

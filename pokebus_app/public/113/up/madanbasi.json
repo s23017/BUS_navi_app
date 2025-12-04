@@ -1,0 +1,2372 @@
+[
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "c41a83e9-37b5-4f18-a34c-851232e4e6c3",
+    "calendar": "weekday",
+    "time": "07:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "67664c02-8341-4f7e-b521-d60328269b25",
+    "calendar": "weekday",
+    "time": "07:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "cc2f4442-8c97-4ba5-bbd3-77171cc25237",
+    "calendar": "weekday",
+    "time": "08:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "dc2bf455-028f-46e0-95f6-efb826866f8b",
+    "calendar": "weekday",
+    "time": "08:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "8399df03-09f3-42f1-92ee-634739a5edc0",
+    "calendar": "weekday",
+    "time": "09:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "65d2f79f-365b-44a7-b36a-996ec37123d1",
+    "calendar": "weekday",
+    "time": "09:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "ed1681de-3770-4a88-a0f7-8cace67eddef",
+    "calendar": "weekday",
+    "time": "09:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "2b6ea805-7062-407f-921d-e43425a026ac",
+    "calendar": "weekday",
+    "time": "10:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "34f7d65a-c29e-4bd9-9f4f-7b72252deb8a",
+    "calendar": "weekday",
+    "time": "10:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "87728b1f-9a7c-47fe-a948-b8bd63f4301e",
+    "calendar": "weekday",
+    "time": "11:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "368854c6-8feb-4644-afbe-91529085af19",
+    "calendar": "weekday",
+    "time": "11:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "a86eaa1a-6895-4188-b63e-04948fb17c23",
+    "calendar": "weekday",
+    "time": "12:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "5689361a-fec7-47d2-ab11-55350dc2f3aa",
+    "calendar": "weekday",
+    "time": "13:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "3b4f215f-78a7-41a6-adf1-a02c511f157c",
+    "calendar": "weekday",
+    "time": "14:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "99cd1e6f-5ad0-45c8-831d-f5d64d77619b",
+    "calendar": "weekday",
+    "time": "15:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "e3b65586-e8f6-4c8a-a4d3-f5eb293316b4",
+    "calendar": "weekday",
+    "time": "15:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "9c31d355-f9d0-40f7-abbf-23b7b9f251c9",
+    "calendar": "weekday",
+    "time": "16:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "52e226f4-d86a-4a37-8004-cb2b410ae265",
+    "calendar": "weekday",
+    "time": "16:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "f3feb2e3-287e-44d8-89c9-1573eb1c11fa",
+    "calendar": "weekday",
+    "time": "17:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "ab339563-02d3-4848-905a-b8ab24c05aab",
+    "calendar": "weekday",
+    "time": "17:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "b4aae476-2013-44db-ac4a-87bfb47a0a7d",
+    "calendar": "weekday",
+    "time": "18:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "4266475f-88dd-474c-9cd4-4544834a4195",
+    "calendar": "weekday",
+    "time": "18:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "79b1815b-44b0-41e6-9a18-b69724b05a66",
+    "calendar": "weekday",
+    "time": "19:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "885c0a55-a585-4c5a-b1cd-ce9d3e87e4f7",
+    "calendar": "weekday",
+    "time": "19:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "327a63d0-f3b0-4a25-b0a9-8dcbafd98907",
+    "calendar": "weekday",
+    "time": "19:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "d7c8fbba-d906-4286-ac25-4657215a5b01",
+    "calendar": "weekday",
+    "time": "20:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "4d96cc4b-cc8d-48dd-a080-7dba1520b411",
+    "calendar": "weekday",
+    "time": "20:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "95a13e46-0732-4b1b-bc9b-5d229a31261e",
+    "calendar": "weekday",
+    "time": "21:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "d4498a69-9741-454f-b752-f79299cbb538",
+    "calendar": "weekday",
+    "time": "22:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "8e27edab-bd43-4e5a-b168-140f51a0ca92",
+    "calendar": "saturday",
+    "time": "07:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "67b52168-a0c8-4106-8ef4-fc54a41ca43c",
+    "calendar": "saturday",
+    "time": "08:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "125ca815-94f7-4e98-bf81-dd9fcea6327e",
+    "calendar": "saturday",
+    "time": "09:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "96561858-e651-402b-bc13-9e8b5af30c42",
+    "calendar": "saturday",
+    "time": "10:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "29a84b4a-b5d1-4f69-8182-2c58fd0dbd76",
+    "calendar": "saturday",
+    "time": "10:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "faf70488-a498-49b4-8396-2589d868ad87",
+    "calendar": "saturday",
+    "time": "11:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "8e487b26-66b7-46f7-815d-ffdcd8750fd7",
+    "calendar": "saturday",
+    "time": "12:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "29c53f5c-884f-4f97-b959-9a1791fef5cd",
+    "calendar": "saturday",
+    "time": "13:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "7c6903ba-a800-4e1e-9637-59251c70f033",
+    "calendar": "saturday",
+    "time": "14:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "8793b9a7-84b2-4e66-8183-fab251a7d67f",
+    "calendar": "saturday",
+    "time": "15:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "4a594514-3535-4b37-99fe-c3ccbfa3ba65",
+    "calendar": "saturday",
+    "time": "16:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "a16a5f2e-56c6-4a57-8b10-1f608901d5a3",
+    "calendar": "saturday",
+    "time": "17:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "7f3b8610-397a-4fbb-8ab2-e68dd08ad229",
+    "calendar": "saturday",
+    "time": "18:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "f6f70c50-78c9-4708-93f5-523818d18668",
+    "calendar": "saturday",
+    "time": "19:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "fd7ba7b8-181d-49f7-aff5-bde514cd84ee",
+    "calendar": "saturday",
+    "time": "19:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "1f8167eb-8bc5-48af-b96d-9e5ef7735dc6",
+    "calendar": "saturday",
+    "time": "20:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "5051cc60-10e7-445d-bbf9-3ceae0ac8959",
+    "calendar": "saturday",
+    "time": "21:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "37e1e658-7488-4b91-aeae-986ba65bf33a",
+    "calendar": "saturday",
+    "time": "22:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "f5a3f12d-28f3-4870-90d0-0c894726caaa",
+    "calendar": "holiday",
+    "time": "07:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "a9a413a1-e201-4af9-88f8-855d52c017d9",
+    "calendar": "holiday",
+    "time": "08:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "106fb9c5-a8a3-46f1-9a5d-431768a86e45",
+    "calendar": "holiday",
+    "time": "09:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "e9e7e7fc-429e-4077-a914-cdf9873ebf08",
+    "calendar": "holiday",
+    "time": "10:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "ddeca3d2-f257-4335-b972-3024f114fa1d",
+    "calendar": "holiday",
+    "time": "10:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "31ec82a4-e709-420e-aff9-f8bd9289c88b",
+    "calendar": "holiday",
+    "time": "11:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "3df3728b-d746-451b-91f2-7f327e48e373",
+    "calendar": "holiday",
+    "time": "12:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "3a13e1f6-76b0-4e19-b06c-534fafac416d",
+    "calendar": "holiday",
+    "time": "13:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "41cae878-d2c8-4986-b159-421510bf072f",
+    "calendar": "holiday",
+    "time": "14:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "94ba72ea-5153-48c5-811b-fcc53987842d",
+    "calendar": "holiday",
+    "time": "15:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "44e91559-96f8-442e-a6da-27addf783420",
+    "calendar": "holiday",
+    "time": "16:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "3e34daaf-cc2b-46de-b54f-89f5c86267b8",
+    "calendar": "holiday",
+    "time": "17:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "c9b056dd-2d0c-468f-aa53-c3ee20859676",
+    "calendar": "holiday",
+    "time": "18:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "44eefc38-7696-4161-9949-d2a8376a908f",
+    "calendar": "holiday",
+    "time": "19:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "ac42de21-2d3e-4a3f-bef9-4acd514c1581",
+    "calendar": "holiday",
+    "time": "19:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "5e214ccb-4d7e-4b70-a56c-3c8d54110731",
+    "calendar": "holiday",
+    "time": "20:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "96a52394-a7da-41d3-9029-01d5e7f485eb",
+    "calendar": "holiday",
+    "time": "21:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "dedb734a-cd0b-4941-90de-3fa2937b7bd8",
+    "calendar": "holiday",
+    "time": "22:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "12",
+    "courseSid": "61456100-ebb9-404c-847f-d500b366a8fc",
+    "tripSid": "9fe22e9f-36ba-4d60-a47c-a21c80cf72d4",
+    "calendar": "weekday",
+    "time": "06:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "12",
+    "courseSid": "61456100-ebb9-404c-847f-d500b366a8fc",
+    "tripSid": "8430dbc4-92ce-4238-8ec3-10deaab14767",
+    "calendar": "weekday",
+    "time": "07:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "12",
+    "courseSid": "61456100-ebb9-404c-847f-d500b366a8fc",
+    "tripSid": "9b54f918-a0bf-4958-8205-8fd77dfe7d5f",
+    "calendar": "weekday",
+    "time": "07:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "12",
+    "courseSid": "61456100-ebb9-404c-847f-d500b366a8fc",
+    "tripSid": "e202ec78-e636-45e3-b4e4-88691da84fdf",
+    "calendar": "saturday",
+    "time": "07:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "12",
+    "courseSid": "61456100-ebb9-404c-847f-d500b366a8fc",
+    "tripSid": "7c1565b1-cc75-4bf4-9eeb-85e4360231b1",
+    "calendar": "saturday",
+    "time": "08:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "12",
+    "courseSid": "61456100-ebb9-404c-847f-d500b366a8fc",
+    "tripSid": "79381c8f-f74c-434e-be74-8c710562f04f",
+    "calendar": "holiday",
+    "time": "07:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "12",
+    "courseSid": "61456100-ebb9-404c-847f-d500b366a8fc",
+    "tripSid": "984f2a36-e0ea-4262-812c-4a2312142579",
+    "calendar": "holiday",
+    "time": "08:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "1786baee-4a5b-4214-834a-8092a74fccb9",
+    "calendar": "weekday",
+    "time": "06:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "861787a5-d29b-4762-873b-f778c80fe1f7",
+    "calendar": "weekday",
+    "time": "07:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "8fad702a-6ba5-42b7-95af-0a565bd7b993",
+    "calendar": "weekday",
+    "time": "07:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "019a536d-268b-4493-9506-01df39517228",
+    "calendar": "weekday",
+    "time": "07:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "603d1a48-51d0-4c56-adad-b392114d1ef7",
+    "calendar": "weekday",
+    "time": "08:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "f70d4224-df0c-4140-9dc8-548643259ca1",
+    "calendar": "weekday",
+    "time": "09:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "dbb73eaf-9481-442a-a694-e4987105d351",
+    "calendar": "weekday",
+    "time": "09:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "b17fb712-b050-4f74-9f1c-b6c1a75c9eb5",
+    "calendar": "weekday",
+    "time": "10:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "b4c26761-c9c1-4a32-9182-4a27da417607",
+    "calendar": "weekday",
+    "time": "11:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "5238e543-4bde-48a5-8115-73f7115a9b4e",
+    "calendar": "weekday",
+    "time": "12:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "8d849d49-9d0d-4fbf-b783-73aa97cc4799",
+    "calendar": "weekday",
+    "time": "12:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "462a83da-a9fb-4db1-8293-9c5caae7b747",
+    "calendar": "weekday",
+    "time": "13:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "1a477d59-7e17-4a45-9314-cd3f68170345",
+    "calendar": "weekday",
+    "time": "13:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "d508f201-d903-437d-aeea-eaea861b4b6e",
+    "calendar": "weekday",
+    "time": "14:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "6397ea07-d2a7-445f-9add-a2ea7063a3de",
+    "calendar": "weekday",
+    "time": "14:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "a1e296b1-6b91-4c09-9cf2-cab2c6e7aa0d",
+    "calendar": "weekday",
+    "time": "15:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "fadf955d-7e31-4d1c-a5e8-16a3e6535737",
+    "calendar": "weekday",
+    "time": "15:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "98aa8538-24bc-42d6-a788-5c2f5594a83e",
+    "calendar": "weekday",
+    "time": "17:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "8637da0b-abac-42a4-802e-d88b9d9f865b",
+    "calendar": "weekday",
+    "time": "18:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "89cf0cc7-3106-404e-a0e7-63e6c43c9a21",
+    "calendar": "weekday",
+    "time": "18:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "51310ef3-4e1a-4539-be53-283feb8d3635",
+    "calendar": "weekday",
+    "time": "19:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "c144433c-5964-4797-ba17-1064c6259b2f",
+    "calendar": "saturday",
+    "time": "06:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "ba2db531-6af8-4a7b-834d-94334667391f",
+    "calendar": "saturday",
+    "time": "07:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "e34cf39b-0b7b-4f01-9ef7-9bfccb09a052",
+    "calendar": "saturday",
+    "time": "08:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "cb003ce1-7ebc-40f8-b70c-55698c83d252",
+    "calendar": "saturday",
+    "time": "09:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "767015e8-93b6-4127-a239-b581df6d6722",
+    "calendar": "saturday",
+    "time": "10:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "5cf6ae75-0df0-4443-b23c-6aaf72f69821",
+    "calendar": "saturday",
+    "time": "11:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "0e9d0d88-0ce8-4e21-8862-7fe4ca727944",
+    "calendar": "saturday",
+    "time": "12:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "3cf89a6b-4733-4644-bb7c-677bc7b94d7d",
+    "calendar": "saturday",
+    "time": "13:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "e3262a24-973b-4631-a9ac-a14d35702466",
+    "calendar": "saturday",
+    "time": "13:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "fd0139f9-966d-4cf3-be1e-217c7af8b720",
+    "calendar": "saturday",
+    "time": "14:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "d194a8b5-8f24-4510-b2ad-edec94e47ff5",
+    "calendar": "saturday",
+    "time": "15:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "b3363e62-3a15-43e7-88a7-ea3d91e22859",
+    "calendar": "saturday",
+    "time": "16:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "f615d220-47a6-40ce-a451-f779039e4fcd",
+    "calendar": "saturday",
+    "time": "17:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "d056d8b9-d71d-4ebd-baf5-d6989ba2f993",
+    "calendar": "saturday",
+    "time": "18:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "654179b2-ab5b-475a-8425-d41ad23edeec",
+    "calendar": "saturday",
+    "time": "19:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "b75fbb9f-f239-4fdf-a719-b856bb42bd0f",
+    "calendar": "holiday",
+    "time": "06:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "6c11123d-9f2a-4387-bb15-06202758dbf0",
+    "calendar": "holiday",
+    "time": "07:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "1785760d-775c-49de-a2d6-587f21d20ac3",
+    "calendar": "holiday",
+    "time": "08:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "1ae6e21c-9385-45ed-acb2-51acd56fd53c",
+    "calendar": "holiday",
+    "time": "09:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "0127855c-8300-485c-863c-121595a7cded",
+    "calendar": "holiday",
+    "time": "10:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "43fa692f-98a0-4312-bfb4-9214fddc9deb",
+    "calendar": "holiday",
+    "time": "11:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "46af950e-d355-44a5-bb21-656820bc716d",
+    "calendar": "holiday",
+    "time": "12:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "e9c2db9a-8d19-4486-a000-47eeaf3ea776",
+    "calendar": "holiday",
+    "time": "13:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "671b2298-9a93-4db7-8add-f235cc828a19",
+    "calendar": "holiday",
+    "time": "13:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "9ccac0fa-7d22-4bfb-aafd-b80d39494ebf",
+    "calendar": "holiday",
+    "time": "14:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "211748dd-7ea2-4974-a09b-70fb052b68f5",
+    "calendar": "holiday",
+    "time": "15:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "c0eb9f76-3d61-4648-b85f-52543dab4ed7",
+    "calendar": "holiday",
+    "time": "16:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "c864d4d6-c63f-414d-a5db-6afad33df1a4",
+    "calendar": "holiday",
+    "time": "17:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "c582f667-8d96-4cc7-ab06-b589126a9132",
+    "calendar": "holiday",
+    "time": "18:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "f2d29b67-d894-4bb3-9866-503c3b3586b8",
+    "calendar": "holiday",
+    "time": "19:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "dc6caca0-f7a0-4d16-b97e-92751a5f066c",
+    "calendar": "weekday",
+    "time": "06:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "a69e902e-4db8-47a5-bf3c-c2a27f2a4a30",
+    "calendar": "weekday",
+    "time": "07:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "44e4713d-ae50-407d-9e79-9ef6687fee4a",
+    "calendar": "weekday",
+    "time": "07:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "319644f2-4ccf-4f6a-8a77-49ba531d4580",
+    "calendar": "weekday",
+    "time": "07:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "30e9d726-d4f3-4141-b3f6-384b1a2490d1",
+    "calendar": "weekday",
+    "time": "07:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "2c3bda6c-144b-4856-bd68-c54fb374e5d7",
+    "calendar": "weekday",
+    "time": "08:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "a603cd82-930f-4e75-a276-712ad3770ae9",
+    "calendar": "weekday",
+    "time": "08:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "9d387f9c-17fa-452f-8aa3-da43c1d74ac4",
+    "calendar": "weekday",
+    "time": "09:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "05c20069-d807-4d07-8d6f-5a219998aae9",
+    "calendar": "weekday",
+    "time": "10:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "84bd9539-9716-4204-ac9d-847f32006668",
+    "calendar": "weekday",
+    "time": "11:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "2746891e-225b-4399-8dce-decb84fcc944",
+    "calendar": "weekday",
+    "time": "12:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "d14037ae-d46d-4038-8bd5-95481b4f918e",
+    "calendar": "weekday",
+    "time": "12:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "be71f742-dea0-4409-a414-4868e0e619dc",
+    "calendar": "weekday",
+    "time": "12:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "911add73-48c1-4530-acd2-2cb6421c7385",
+    "calendar": "weekday",
+    "time": "14:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "8b12d8d4-11fc-4a7b-9ba6-7a49d9144d4c",
+    "calendar": "weekday",
+    "time": "15:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "9bcf8701-7e0f-4491-9716-8d2597b9a37e",
+    "calendar": "weekday",
+    "time": "15:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "b350f563-e87d-4640-994d-568e296f1368",
+    "calendar": "weekday",
+    "time": "16:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "0c92e4cb-aec0-4d43-918d-848bc5d9b393",
+    "calendar": "weekday",
+    "time": "16:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "42810255-de34-4906-b84e-dffed027190e",
+    "calendar": "weekday",
+    "time": "17:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "aea2ce48-3b17-4d9d-b2aa-ebb9c18ba6ed",
+    "calendar": "weekday",
+    "time": "17:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "4d90e361-9534-4f8c-b852-00c1ee404aa7",
+    "calendar": "weekday",
+    "time": "18:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "f1919f8d-5b89-4832-a82e-4789ddf2c29f",
+    "calendar": "weekday",
+    "time": "19:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "4ae8a1dd-437a-4ba7-9158-3bedc68740f2",
+    "calendar": "weekday",
+    "time": "19:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "39baeaed-7254-4deb-a2f1-479c08b471f3",
+    "calendar": "weekday",
+    "time": "20:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "91841eba-3d04-4891-ab95-5aa2816b6ba5",
+    "calendar": "saturday",
+    "time": "07:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "62df9756-deed-479c-ac08-5e8860de8017",
+    "calendar": "saturday",
+    "time": "08:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "4ca77331-4613-4c86-868b-41e3acf28cb3",
+    "calendar": "saturday",
+    "time": "08:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "d4e2cce0-9989-4e71-873a-0765d9d021d8",
+    "calendar": "saturday",
+    "time": "09:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "84ec4fa5-11b6-401a-a561-a7482eb8d1fb",
+    "calendar": "saturday",
+    "time": "10:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "a6c60b49-7a9f-4ed7-84c4-2b8fd0fd1017",
+    "calendar": "saturday",
+    "time": "10:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "60d05825-823b-4054-8af2-60e9174355a9",
+    "calendar": "saturday",
+    "time": "11:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "246b2a15-2b6b-43e7-b852-a8d24581aa98",
+    "calendar": "saturday",
+    "time": "12:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "5c2d91a9-e01c-4e4b-b7b0-6c0200ca2b12",
+    "calendar": "saturday",
+    "time": "13:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "4a38a83f-8ce1-4ca3-b675-967fd41e8a37",
+    "calendar": "saturday",
+    "time": "14:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "aa56dd61-8157-4e0c-ae47-a1ba81bdd3da",
+    "calendar": "saturday",
+    "time": "14:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "7c002495-0de4-48ee-be08-71f0ff0bf1c7",
+    "calendar": "saturday",
+    "time": "15:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "01f288c3-ac17-42f0-ac7d-2e7029281fbe",
+    "calendar": "saturday",
+    "time": "16:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "aa0efe90-47f8-42cc-953d-709e20e20149",
+    "calendar": "saturday",
+    "time": "16:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "31876f58-17ac-49fb-9f2e-79d315d3fdd8",
+    "calendar": "saturday",
+    "time": "17:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "3848b4bb-3ddb-4e9f-ba1f-d6792dfa56b7",
+    "calendar": "saturday",
+    "time": "18:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "039e1e6d-c9d6-4677-afca-0cc7c9a02f3a",
+    "calendar": "saturday",
+    "time": "19:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "62ec6809-9dca-4684-8c3c-46c2abbef78b",
+    "calendar": "saturday",
+    "time": "20:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "55483b2c-ac39-477f-8563-4a135e154135",
+    "calendar": "holiday",
+    "time": "07:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "68053d6f-260a-4306-9fa7-b7b25ab6d7f0",
+    "calendar": "holiday",
+    "time": "09:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "96e7e44f-3edc-4ccf-810d-fa58e44bd886",
+    "calendar": "holiday",
+    "time": "10:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "e44fd71e-5924-490f-a8d4-fd1ed4b88444",
+    "calendar": "holiday",
+    "time": "11:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "92f2621a-a518-4be5-ad5f-743cd83f886e",
+    "calendar": "holiday",
+    "time": "13:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "a8ad03de-2521-4fcd-aa62-1ea79e602b3c",
+    "calendar": "holiday",
+    "time": "14:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "73028452-08aa-443d-bdf2-ee86789ed8a1",
+    "calendar": "holiday",
+    "time": "15:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "0733e23b-a4f7-483c-8e69-597029aec1a4",
+    "calendar": "holiday",
+    "time": "16:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "fc5ae92d-26a3-46f2-8249-e2917240c57a",
+    "calendar": "holiday",
+    "time": "17:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "5ed44c0a-32c2-4bf0-93d0-7a658ffb4e6d",
+    "calendar": "holiday",
+    "time": "18:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "bc0f51ff-e775-4c00-8e65-512fdb156303",
+    "calendar": "holiday",
+    "time": "18:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "50",
+    "courseSid": "6bd51795-6718-4c54-8025-1f150ba974aa",
+    "tripSid": "9646a6bc-e4f8-4987-883b-46bfb454c63d",
+    "calendar": "holiday",
+    "time": "19:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "12239313-5e09-47f7-9fcc-577457961605",
+    "calendar": "weekday",
+    "time": "07:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "e1cba1c2-e028-484e-9dd0-c7e0d050a571",
+    "calendar": "weekday",
+    "time": "07:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "2af19f76-e40e-4751-99c0-80e7e955cfdc",
+    "calendar": "weekday",
+    "time": "08:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "c6f3b7a8-ada1-4cf6-9c2b-fdd968fc28cc",
+    "calendar": "weekday",
+    "time": "08:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "78a5c258-58ef-46ed-a511-455b73e637f9",
+    "calendar": "weekday",
+    "time": "08:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "09fa05b9-470b-48eb-95e3-6a317ddec6f0",
+    "calendar": "weekday",
+    "time": "09:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "ce426b62-e365-4c43-8064-254c4315dd99",
+    "calendar": "weekday",
+    "time": "10:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "9ea75a95-b0b8-447d-8126-6d595861127c",
+    "calendar": "weekday",
+    "time": "11:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "e7a1153c-8a14-438a-b941-419bd3bb43e9",
+    "calendar": "weekday",
+    "time": "12:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "598606df-75b9-4e4b-96d5-91e1e1896f1b",
+    "calendar": "weekday",
+    "time": "13:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "27c8a023-24ae-408b-a127-9af365cdc27b",
+    "calendar": "weekday",
+    "time": "14:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "f5210391-bfab-405a-9ddb-0bcc193be7e9",
+    "calendar": "weekday",
+    "time": "15:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "0772995e-f287-4b05-a9d3-ff3cbc4d9a9f",
+    "calendar": "weekday",
+    "time": "18:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "1313afd3-2ba3-4ce4-b001-a6d3ec7467ac",
+    "calendar": "saturday",
+    "time": "07:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "d149f445-8dae-479b-bf11-3cd72e81ff1e",
+    "calendar": "saturday",
+    "time": "08:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "488574b2-fae4-4e3d-83b2-d7dcdd596ae2",
+    "calendar": "saturday",
+    "time": "09:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "70f2f28b-f2c4-4107-87aa-e06aee54c520",
+    "calendar": "saturday",
+    "time": "12:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "01461422-d4db-4883-b46e-1add6dd3821c",
+    "calendar": "saturday",
+    "time": "17:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "74c0cf9b-354d-4770-ae7f-35608ab630b7",
+    "calendar": "saturday",
+    "time": "19:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "c92d9812-6394-4694-ba0d-499877f549cf",
+    "calendar": "holiday",
+    "time": "07:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "efde6e4f-88a8-421c-9e15-376b142ae0ff",
+    "calendar": "holiday",
+    "time": "08:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "9fbcbfd8-e2df-44bc-86ae-9e24d3d7f17e",
+    "calendar": "holiday",
+    "time": "10:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "13fab4dc-a254-47e6-acae-fe15d1e92b65",
+    "calendar": "holiday",
+    "time": "15:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "b375569b-6b34-4834-a738-1416bea9f832",
+    "calendar": "holiday",
+    "time": "16:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "755dc644-8583-45af-a1a1-35ce3079aa4d",
+    "calendar": "holiday",
+    "time": "18:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "51",
+    "courseSid": "0369b1ca-6e2a-4f51-ae1b-96e8f1f29766",
+    "tripSid": "60743c65-1826-400e-9a34-f37f78f8680a",
+    "calendar": "holiday",
+    "time": "19:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "1213b4a4-2ef5-465e-9a07-c9f6f456d364",
+    "calendar": "weekday",
+    "time": "07:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "160416f2-51e0-490d-bb5c-09d01d170a9b",
+    "calendar": "weekday",
+    "time": "09:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "cc86dbcc-ea69-4027-bc4b-1cdfb6407b29",
+    "calendar": "weekday",
+    "time": "16:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "1d4d6946-6420-4499-8796-0018325f161b",
+    "calendar": "weekday",
+    "time": "19:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "b46f2025-4b56-46c1-9f07-0be48020bc2f",
+    "calendar": "saturday",
+    "time": "07:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "3b14b95e-46d5-4f51-bdcf-9824bb43f7d8",
+    "calendar": "saturday",
+    "time": "09:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "ff7d1c10-180e-4f18-a3cf-8149f8841d8c",
+    "calendar": "holiday",
+    "time": "07:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "709c41d4-d227-472e-8735-114fe38ac167",
+    "calendar": "holiday",
+    "time": "09:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "7135f0c1-35e7-41ad-bf50-0ea699cd65c8",
+    "calendar": "weekday",
+    "time": "10:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "d7f268f0-7988-4381-b5e2-282ed63f9d0f",
+    "calendar": "weekday",
+    "time": "11:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "83c18e90-2e8d-4768-8b24-e1d33ac4dba4",
+    "calendar": "weekday",
+    "time": "14:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "9e9c1b26-2e98-429e-b5d7-5287d82aa7d4",
+    "calendar": "weekday",
+    "time": "15:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "2e69a549-ed4c-4266-9fe6-b31afbad38d3",
+    "calendar": "weekday",
+    "time": "16:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "54b148cc-dd38-4aff-a3fe-358a875d00a3",
+    "calendar": "weekday",
+    "time": "19:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "10495368-02f1-4c2a-bec7-1f24745843e0",
+    "calendar": "saturday",
+    "time": "11:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "01ef0151-e3ac-437e-8237-baf0efe2b405",
+    "calendar": "saturday",
+    "time": "13:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "10118b4e-93b6-4a75-944f-c5a04a6c94e0",
+    "calendar": "saturday",
+    "time": "15:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "419b7418-16ac-42e2-9a48-9d81a6808fe6",
+    "calendar": "saturday",
+    "time": "16:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "d43e57fc-4ea6-4273-bb2d-d76d3117589e",
+    "calendar": "saturday",
+    "time": "18:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "9e83ce6c-2ca4-411b-9672-80c937320dbe",
+    "calendar": "holiday",
+    "time": "12:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "82198da2-92d4-4f1c-a72b-719beb0c461d",
+    "calendar": "holiday",
+    "time": "13:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "2f3bcbb9-4f9a-4e65-ba31-1e7592326d3e",
+    "calendar": "holiday",
+    "time": "16:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "3f2102c2-26ba-4cc9-b32f-7871130f77b7",
+    "calendar": "weekday",
+    "time": "06:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "f5f840c2-4871-4e54-bc49-fc115c5cb654",
+    "calendar": "weekday",
+    "time": "07:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "35307fd9-af22-4c08-8ce7-1a4318d68893",
+    "calendar": "weekday",
+    "time": "15:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "ad34e781-c079-401e-b56c-e5516de63cee",
+    "calendar": "weekday",
+    "time": "16:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "5ad08742-9b49-4cf8-90c0-1c50b2741898",
+    "calendar": "weekday",
+    "time": "17:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "549c2118-6939-46b1-a1c6-2943ba49d975",
+    "calendar": "saturday",
+    "time": "06:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "cf4bb9d8-484f-4a35-a7fd-618061512323",
+    "calendar": "saturday",
+    "time": "07:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "116ee681-f053-42f5-bf67-4f0683998461",
+    "calendar": "saturday",
+    "time": "07:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "eaaea64c-d062-4c37-ac19-351c387395ff",
+    "calendar": "saturday",
+    "time": "15:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "dd0314a2-bc11-4f01-96b8-a9706f0e6caa",
+    "calendar": "saturday",
+    "time": "16:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "4c9e79b9-9ccd-4877-87c9-e71f99777d0f",
+    "calendar": "saturday",
+    "time": "16:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090100",
+    "stopName": "真玉橋（開南・那覇空港向け）",
+    "routeNo": "123",
+    "courseSid": "d15097d1-60f3-472c-894c-68ff4c6451df",
+    "tripSid": "0ef7c8f2-bf99-4d2d-bd06-a16a6cad8d2b",
+    "calendar": "weekday",
+    "time": "08:16",
+    "parentCompanyCode": "8000"
+  }
+]
