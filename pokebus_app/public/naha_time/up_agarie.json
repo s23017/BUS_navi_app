@@ -1,0 +1,962 @@
+[
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "cf1fea9b-d898-474d-94c2-fdf9366cdfd9",
+    "calendar": "weekday",
+    "time": "18:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "9247f558-0ea9-43a7-ac99-312b261a89a6",
+    "calendar": "weekday",
+    "time": "18:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "32d9249c-b19b-4788-b6e3-773687e1c3a0",
+    "calendar": "weekday",
+    "time": "19:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "b5095eef-d6b3-436b-bd0b-4b4cb02b58d3",
+    "calendar": "saturday",
+    "time": "18:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "bda381ae-014e-4522-89b5-c2bb5afbf0d7",
+    "calendar": "saturday",
+    "time": "19:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "d119138b-e3bf-4c27-bfa4-ff9ade3fd471",
+    "calendar": "saturday",
+    "time": "19:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "83d09207-4c98-4753-aa47-4d856e203880",
+    "calendar": "holiday",
+    "time": "18:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "0886b7bb-9470-4020-8c25-0e561a97f259",
+    "calendar": "holiday",
+    "time": "18:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "05131c65-38ef-49a1-bd82-fa42534e27c7",
+    "calendar": "holiday",
+    "time": "18:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "011a4f5d-e491-4408-ad25-9b9664fd33dc",
+    "calendar": "holiday",
+    "time": "19:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "3227c086-7984-4394-b9d3-775c2933af1c",
+    "calendar": "holiday",
+    "time": "19:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "136ae0ba-1516-4166-b772-812fe257ef77",
+    "calendar": "holiday",
+    "time": "19:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "630d4225-ed1b-4536-80c1-5b8abb0a4a1b",
+    "calendar": "weekday",
+    "time": "05:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "711141a9-27e6-441c-839f-bb5d36d925c9",
+    "calendar": "weekday",
+    "time": "06:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "97c4fba1-9b68-4d28-ba80-8b9c38254a1a",
+    "calendar": "weekday",
+    "time": "06:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "41ee7e48-3613-48eb-ab34-ec439ad79dba",
+    "calendar": "weekday",
+    "time": "07:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "f30130c5-0467-4039-b2d8-3c0fbf21d0ae",
+    "calendar": "weekday",
+    "time": "07:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ef0c7c07-3a13-409a-9900-06c17847f24f",
+    "calendar": "weekday",
+    "time": "08:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "83c65530-fa6a-4096-b0b5-523d7dde9cfd",
+    "calendar": "weekday",
+    "time": "09:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2ec1155d-8f10-4311-9aae-fa1289b24e36",
+    "calendar": "weekday",
+    "time": "10:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5ed58e11-5031-4dc9-bc31-e9e95caa8008",
+    "calendar": "weekday",
+    "time": "10:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5c3ad1db-6a44-448d-9925-8d13a8b11ee8",
+    "calendar": "weekday",
+    "time": "11:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ebfa89c9-079f-4089-8ff0-9ff82a7ebef7",
+    "calendar": "weekday",
+    "time": "11:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "e339de21-0ace-4d97-a3eb-49d75e1f2551",
+    "calendar": "weekday",
+    "time": "12:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "76ee88bf-b545-4984-abf7-9ab4842c53c8",
+    "calendar": "weekday",
+    "time": "12:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d94b06b4-dd6c-4f91-8da6-ff6a24142420",
+    "calendar": "weekday",
+    "time": "13:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "935f3c88-1993-4ed0-8529-e6beb83709d2",
+    "calendar": "weekday",
+    "time": "13:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "7eb903f1-7a5f-4ebe-b245-e1438180ea7b",
+    "calendar": "weekday",
+    "time": "14:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "288b6b1a-8fc9-42c6-8b12-d6f84cc166fb",
+    "calendar": "weekday",
+    "time": "14:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d79669b8-b66c-4dbe-852f-99ff430cc375",
+    "calendar": "weekday",
+    "time": "15:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5388715f-e66f-4d06-b04f-14c46fa25a4d",
+    "calendar": "weekday",
+    "time": "16:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "117af7b3-9022-49d4-90ff-a783e028bf6c",
+    "calendar": "weekday",
+    "time": "17:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "65f58f1d-cdbc-47e8-bfda-fa63a9c1a9de",
+    "calendar": "saturday",
+    "time": "05:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "b2a2b72e-6da6-4615-b43b-8cad28b4a55c",
+    "calendar": "saturday",
+    "time": "06:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "939371e2-4c59-4a97-bc90-2ce6dd9fd56f",
+    "calendar": "saturday",
+    "time": "06:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5f1c058c-0cac-47fb-9c6a-711ff7c4fff2",
+    "calendar": "saturday",
+    "time": "07:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "705c3ac7-6421-4123-97f6-b53d09b9d7b8",
+    "calendar": "saturday",
+    "time": "07:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "a32f75f0-83bc-43e9-8447-681388e189a7",
+    "calendar": "saturday",
+    "time": "08:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5eef7bf1-d8fc-4887-85f2-66b63ab87552",
+    "calendar": "saturday",
+    "time": "09:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "07d6209d-c879-4cef-b90c-1d2bca05a11d",
+    "calendar": "saturday",
+    "time": "09:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2ecec279-afd7-4bcd-979a-869cac46beaa",
+    "calendar": "saturday",
+    "time": "10:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "52896c8a-cbbe-4563-b5de-8df489d9e323",
+    "calendar": "saturday",
+    "time": "10:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "cfdb11a3-1143-4829-825e-9b91fc5f9f64",
+    "calendar": "saturday",
+    "time": "11:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d6f08561-4e99-46e9-b3b1-48675fedc64e",
+    "calendar": "saturday",
+    "time": "11:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "0fd23527-40ef-42b8-88e5-4884000eaea6",
+    "calendar": "saturday",
+    "time": "12:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "e809db33-1764-4e88-8d7f-ddefc30b6fb2",
+    "calendar": "saturday",
+    "time": "12:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2e4c1b4d-efe6-47fe-96cb-ce2d8efe723b",
+    "calendar": "saturday",
+    "time": "12:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "f1c4cd30-81f2-4e4a-8129-bdf6e7cb230b",
+    "calendar": "saturday",
+    "time": "13:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "fd11a45a-7caf-49c3-b995-a7b5cd4a836f",
+    "calendar": "saturday",
+    "time": "14:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ddb57b72-37a0-4d4a-9015-6405a23c617d",
+    "calendar": "saturday",
+    "time": "14:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ba1255c4-5e5e-4d89-9f8d-2067df5a0131",
+    "calendar": "saturday",
+    "time": "15:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ddd4b119-5242-4b88-ba20-5b3fc676a512",
+    "calendar": "saturday",
+    "time": "16:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "a503c0d8-29c5-4122-947f-c7d95b8a2d49",
+    "calendar": "saturday",
+    "time": "17:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "c3a257f2-3905-4d39-aac0-e773577d3b9c",
+    "calendar": "holiday",
+    "time": "05:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d6ce2689-866a-48c3-a94e-6b922a52670f",
+    "calendar": "holiday",
+    "time": "05:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "6cdd5ffc-9256-4a73-a44d-456938cd0bb4",
+    "calendar": "holiday",
+    "time": "06:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "652a58d7-bda9-4578-99eb-720c5a52f69b",
+    "calendar": "holiday",
+    "time": "06:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "fe9bc8d3-8ed1-4766-939c-c72bd456e026",
+    "calendar": "holiday",
+    "time": "06:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "8f99e8db-4307-43ae-bafd-5502da5ca9ad",
+    "calendar": "holiday",
+    "time": "06:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "532f0c25-fb56-4400-a5ea-bee7a878c09d",
+    "calendar": "holiday",
+    "time": "07:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "16f5a95a-e6fe-46aa-b3c3-172210d3a3f7",
+    "calendar": "holiday",
+    "time": "07:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2597de63-2966-460d-a9d8-c688e6fd87eb",
+    "calendar": "holiday",
+    "time": "07:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2f2c572a-9da4-4fbe-ac12-6328680f3219",
+    "calendar": "holiday",
+    "time": "08:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "680bca6b-6ac8-409e-9aaf-55548d28ba4d",
+    "calendar": "holiday",
+    "time": "08:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "42b8795a-2731-4a78-a9a3-f809e3771745",
+    "calendar": "holiday",
+    "time": "08:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "37c9f1b7-699d-4039-8df2-ce3c71e4bac5",
+    "calendar": "holiday",
+    "time": "09:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "962e753d-5100-4bd7-923b-ff7698bc37be",
+    "calendar": "holiday",
+    "time": "09:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "7a4e36d7-65d1-4138-8d9b-41af8491f68d",
+    "calendar": "holiday",
+    "time": "09:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "27efc12c-4013-4db7-a8db-5687a85590d9",
+    "calendar": "holiday",
+    "time": "09:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "9e9ce592-fea5-48fd-b423-6e9f511b9e49",
+    "calendar": "holiday",
+    "time": "10:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "bd5fc94d-b514-46c9-b4d1-283d51bb7d1a",
+    "calendar": "holiday",
+    "time": "10:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "cb5a1421-7db8-4688-8b74-f6ce0835e841",
+    "calendar": "holiday",
+    "time": "10:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "33751651-79d7-4cfd-a57c-92ae6c38b88f",
+    "calendar": "holiday",
+    "time": "10:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "7777de19-4fc3-4500-8e62-e42d736aea66",
+    "calendar": "holiday",
+    "time": "11:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "acc57ef9-2d87-416d-b79f-c12ba5b5dd2d",
+    "calendar": "holiday",
+    "time": "11:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "f108c7d8-4d4a-4c96-8a63-55cf366db6a2",
+    "calendar": "holiday",
+    "time": "11:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d629d8ed-770e-4e8d-b9fb-93b680fc3db4",
+    "calendar": "holiday",
+    "time": "11:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "dfc207fb-0235-420d-9bf1-a2f26a75ce77",
+    "calendar": "holiday",
+    "time": "12:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "3e375449-bac1-49c6-8c2d-eea82794cd31",
+    "calendar": "holiday",
+    "time": "12:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "f3f82ec0-bed5-4fc7-95fa-54bf6af4d366",
+    "calendar": "holiday",
+    "time": "12:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2cfa92ab-1edf-476c-93c1-6cfb0937d1c9",
+    "calendar": "holiday",
+    "time": "12:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5839cf74-a034-49ee-a413-189e7906d8ca",
+    "calendar": "holiday",
+    "time": "12:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "7603d576-9372-4937-ab8c-3561e5d007d9",
+    "calendar": "holiday",
+    "time": "12:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "df7c7b67-c512-4286-b46c-a045765e2128",
+    "calendar": "holiday",
+    "time": "13:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "f56f985f-2944-4f68-acc1-979f01f2a7d4",
+    "calendar": "holiday",
+    "time": "13:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "8e5e96b4-cc2f-4219-bc60-407ed3a16fe3",
+    "calendar": "holiday",
+    "time": "14:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "eba672a3-023a-4f9e-ac36-dbbc6bc1a901",
+    "calendar": "holiday",
+    "time": "14:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "62866405-0a8f-4bc4-b581-d7b851d78083",
+    "calendar": "holiday",
+    "time": "14:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "389c7f65-8bfa-49ab-8ec2-e3a440481eaa",
+    "calendar": "holiday",
+    "time": "14:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ad4a18ee-bb39-4de2-9f69-85b3509664b8",
+    "calendar": "holiday",
+    "time": "15:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "20174d4c-0ecf-4c2b-8120-5718a4d10cdd",
+    "calendar": "holiday",
+    "time": "15:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "eea98159-d77a-4408-9c86-6bfafb2d8244",
+    "calendar": "holiday",
+    "time": "16:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "474d5cb4-75f7-4aa9-b42e-3f763fd98ca0",
+    "calendar": "holiday",
+    "time": "16:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "1ef613f0-24db-4f9c-a083-06352ec7e128",
+    "calendar": "holiday",
+    "time": "17:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "0e756c57-3005-4074-9e1b-f2686a21d96c",
+    "calendar": "holiday",
+    "time": "17:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11240100",
+    "stopName": "東江（那覇・二見向け）",
+    "routeNo": "772",
+    "courseSid": "8efd4193-5a82-4d30-be8a-85184d86cec0",
+    "tripSid": "d48c2cba-73c6-4d3a-b7ef-8433547b3b6f",
+    "calendar": "weekday",
+    "time": "19:58",
+    "parentCompanyCode": "8000"
+  }
+]

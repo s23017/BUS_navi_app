@@ -1,0 +1,4132 @@
+[
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "cf1fea9b-d898-474d-94c2-fdf9366cdfd9",
+    "calendar": "weekday",
+    "time": "20:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "9247f558-0ea9-43a7-ac99-312b261a89a6",
+    "calendar": "weekday",
+    "time": "21:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "32d9249c-b19b-4788-b6e3-773687e1c3a0",
+    "calendar": "weekday",
+    "time": "22:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "b5095eef-d6b3-436b-bd0b-4b4cb02b58d3",
+    "calendar": "saturday",
+    "time": "20:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "bda381ae-014e-4522-89b5-c2bb5afbf0d7",
+    "calendar": "saturday",
+    "time": "21:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "d119138b-e3bf-4c27-bfa4-ff9ade3fd471",
+    "calendar": "saturday",
+    "time": "21:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "83d09207-4c98-4753-aa47-4d856e203880",
+    "calendar": "holiday",
+    "time": "20:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "0886b7bb-9470-4020-8c25-0e561a97f259",
+    "calendar": "holiday",
+    "time": "20:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "05131c65-38ef-49a1-bd82-fa42534e27c7",
+    "calendar": "holiday",
+    "time": "20:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "011a4f5d-e491-4408-ad25-9b9664fd33dc",
+    "calendar": "holiday",
+    "time": "21:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "3227c086-7984-4394-b9d3-775c2933af1c",
+    "calendar": "holiday",
+    "time": "21:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "136ae0ba-1516-4166-b772-812fe257ef77",
+    "calendar": "holiday",
+    "time": "21:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "42e9cb4e-b449-474a-8909-d70dbf793aa8",
+    "calendar": "weekday",
+    "time": "06:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "1499845f-a0fd-453c-ac86-fe8d3731d23b",
+    "calendar": "weekday",
+    "time": "09:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "ac654379-ac52-4572-b16d-91f4158b712c",
+    "calendar": "weekday",
+    "time": "09:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "1598ccb5-70f5-48c6-9d7e-92f7d4ecca06",
+    "calendar": "weekday",
+    "time": "10:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "b94ac4b8-07c8-4f8b-a705-5aac07288dbb",
+    "calendar": "weekday",
+    "time": "14:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "f8d2034a-7108-41e9-a8ff-42860460b97e",
+    "calendar": "weekday",
+    "time": "16:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "b7380203-557d-4a0c-8da1-6eca66931886",
+    "calendar": "weekday",
+    "time": "18:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "a7cfb936-1db1-430a-b3dd-b5d5ba0740c1",
+    "calendar": "saturday",
+    "time": "07:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "8a248717-c0ff-45bf-8e8a-c7e9b5c05f88",
+    "calendar": "saturday",
+    "time": "08:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "d032c918-502a-4809-a12f-6f631f9cf16f",
+    "calendar": "saturday",
+    "time": "09:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "a5a60a79-b5ad-4492-abe4-9755102ea758",
+    "calendar": "saturday",
+    "time": "16:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "37310c27-72fa-414b-8100-b2f1f953d7d6",
+    "calendar": "saturday",
+    "time": "19:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "149bf1ee-9a95-4f10-a014-77e8741c727e",
+    "calendar": "holiday",
+    "time": "07:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "4b1cc6dc-05d9-494f-8f9f-84110bff87a1",
+    "calendar": "holiday",
+    "time": "08:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "41e9c904-061c-4c6c-8efd-01b06964fea3",
+    "calendar": "holiday",
+    "time": "09:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "c0e04f70-bc35-457f-94cf-fef6b666e470",
+    "calendar": "holiday",
+    "time": "16:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "7a78dcf7-26ca-4ee5-be7e-00f344f2bd1e",
+    "calendar": "holiday",
+    "time": "19:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "e01445fe-00d7-49dd-b458-c2b0f2e6c663",
+    "calendar": "saturday",
+    "time": "10:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "9d602e75-0b0e-406e-9e62-680fb9190250",
+    "calendar": "holiday",
+    "time": "10:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "25",
+    "courseSid": "6b05e26a-e12e-4db8-b0cf-0a221b2a83e9",
+    "tripSid": "52648d7c-21d6-46d9-9e5c-b1cd0aeca289",
+    "calendar": "weekday",
+    "time": "07:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "25",
+    "courseSid": "6b05e26a-e12e-4db8-b0cf-0a221b2a83e9",
+    "tripSid": "a81f9b35-d2d4-4d5f-959f-dcae0faca012",
+    "calendar": "weekday",
+    "time": "08:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "25",
+    "courseSid": "6b05e26a-e12e-4db8-b0cf-0a221b2a83e9",
+    "tripSid": "9111df03-2bdd-4148-a9fe-843b8aa49f93",
+    "calendar": "weekday",
+    "time": "08:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "25",
+    "courseSid": "6b05e26a-e12e-4db8-b0cf-0a221b2a83e9",
+    "tripSid": "90e8afc6-b702-4c4f-9831-15fcace7cfb9",
+    "calendar": "weekday",
+    "time": "09:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "25",
+    "courseSid": "6b05e26a-e12e-4db8-b0cf-0a221b2a83e9",
+    "tripSid": "e6642a1f-5a07-48d2-908b-f827f34b7026",
+    "calendar": "saturday",
+    "time": "08:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "25",
+    "courseSid": "6b05e26a-e12e-4db8-b0cf-0a221b2a83e9",
+    "tripSid": "847da5e9-00c1-43fe-bfe6-87eb0ac2eb47",
+    "calendar": "saturday",
+    "time": "08:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "25",
+    "courseSid": "6b05e26a-e12e-4db8-b0cf-0a221b2a83e9",
+    "tripSid": "0901894e-0235-4080-866b-24a0be682f1a",
+    "calendar": "holiday",
+    "time": "08:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "25",
+    "courseSid": "6b05e26a-e12e-4db8-b0cf-0a221b2a83e9",
+    "tripSid": "fce68215-2272-469c-af42-de22c65cd9eb",
+    "calendar": "holiday",
+    "time": "09:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "76010f19-08fa-4e8b-83ef-2439d3ef46f3",
+    "calendar": "weekday",
+    "time": "09:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "9c1c50e3-233e-4e8a-b328-6545d75ffbff",
+    "calendar": "weekday",
+    "time": "10:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "abe06cb2-76a7-4554-a9c0-993d7c6e1868",
+    "calendar": "weekday",
+    "time": "10:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "1b6da6d7-ef59-4367-88e3-5a1fc7bb8e19",
+    "calendar": "weekday",
+    "time": "11:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "d4d04539-b040-4d91-aae1-2d8a04320e15",
+    "calendar": "weekday",
+    "time": "11:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "50e01592-f9cc-4535-9a8f-7abc8a036115",
+    "calendar": "weekday",
+    "time": "12:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "282484df-7108-45c8-a2a2-105d8457747c",
+    "calendar": "weekday",
+    "time": "13:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "aa212139-c123-4bd6-9feb-162b78bd3ff1",
+    "calendar": "weekday",
+    "time": "13:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "2d3193bd-86ed-4ccc-a0da-baca01cf7eb6",
+    "calendar": "weekday",
+    "time": "15:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "24be1331-3bee-434d-8aa8-7209aa5737e4",
+    "calendar": "weekday",
+    "time": "16:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "7cec0faa-0007-4a61-9f1d-43d950264a58",
+    "calendar": "weekday",
+    "time": "17:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "2664ef86-c2db-43bc-bbcf-60ba18b8fb03",
+    "calendar": "weekday",
+    "time": "20:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "6ccb4122-e2b5-4cbf-9a96-3000f03d957c",
+    "calendar": "saturday",
+    "time": "08:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "032d2b50-052f-4a83-a42a-317e0edfc9e8",
+    "calendar": "saturday",
+    "time": "20:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "2d56c6ad-e47c-4387-bd2e-99bee195f9c5",
+    "calendar": "holiday",
+    "time": "08:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "e90fe303-30a9-4e59-bd11-c9e46a571206",
+    "calendar": "holiday",
+    "time": "20:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "0464f8e2-5d0e-441d-8106-4a951b42b968",
+    "calendar": "weekday",
+    "time": "09:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "3f3f89ed-69e6-4c5a-994d-44131716f8ce",
+    "calendar": "saturday",
+    "time": "10:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "b0be595f-e89d-447e-833b-0a0d1b975e2c",
+    "calendar": "holiday",
+    "time": "10:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "74126ffa-a86f-4c31-8e37-d176e110c7a0",
+    "calendar": "weekday",
+    "time": "06:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "8789c7d6-92bb-4b69-86ed-a914761b5e13",
+    "calendar": "weekday",
+    "time": "07:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "971e2ae5-da58-4876-9aa7-0f415da76398",
+    "calendar": "weekday",
+    "time": "07:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "beed5411-fc2b-49d1-904f-98396f874d2a",
+    "calendar": "weekday",
+    "time": "08:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "70beedbf-5e1c-42d4-84ba-8fa4d10cc962",
+    "calendar": "weekday",
+    "time": "09:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "5d7f004f-c546-4281-a8d7-afc98653a92d",
+    "calendar": "weekday",
+    "time": "10:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "5f7a28be-4291-4006-9c31-eb715c813870",
+    "calendar": "weekday",
+    "time": "10:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "d45c164d-fdd0-4bee-a841-ce113d4051fd",
+    "calendar": "weekday",
+    "time": "11:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "529db5f2-f1a9-4aa4-92f4-d161538fe653",
+    "calendar": "weekday",
+    "time": "11:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "9712a6a4-bc00-4601-8e11-9c5ff3377b20",
+    "calendar": "weekday",
+    "time": "12:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "b4745253-ba18-4796-b04b-eecc2e38f821",
+    "calendar": "weekday",
+    "time": "13:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "b662545d-90bc-44a5-bb89-4ad058e47e6d",
+    "calendar": "weekday",
+    "time": "14:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "c675e78e-1f17-49dc-881c-4ad864085518",
+    "calendar": "weekday",
+    "time": "15:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "99509e94-f73f-4411-9890-7e8cf04d3e5c",
+    "calendar": "weekday",
+    "time": "17:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "80fae7be-2678-4279-984d-334875598109",
+    "calendar": "weekday",
+    "time": "18:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "b800d1b5-ba2f-4137-8944-58ec40a30d6a",
+    "calendar": "weekday",
+    "time": "19:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "f8361bab-a15f-48f6-8918-b68581d51887",
+    "calendar": "saturday",
+    "time": "07:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "8e8fa2cc-395e-46da-906a-abf9306cf73f",
+    "calendar": "saturday",
+    "time": "08:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "831cdbfc-8a0d-4972-aa1b-1c9eb959b4b2",
+    "calendar": "saturday",
+    "time": "09:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "2a315747-8eff-435a-8241-1c688dfc4bb5",
+    "calendar": "saturday",
+    "time": "10:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "d066feb7-12a8-4028-b6ab-b29d8849f957",
+    "calendar": "saturday",
+    "time": "12:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "dee37440-58a8-48dd-8e56-c1d7ed96e0fe",
+    "calendar": "saturday",
+    "time": "14:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "97cba009-1f6f-4be7-a914-01c8103c08ea",
+    "calendar": "saturday",
+    "time": "15:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "bfc42cc7-c4bd-41f8-a02f-d8eb08345ed7",
+    "calendar": "saturday",
+    "time": "17:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "32b43757-a43a-4be9-b5dc-dd7ef6501a65",
+    "calendar": "saturday",
+    "time": "19:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "49d9f031-1fc1-4664-be7b-5b93c1dab9d9",
+    "calendar": "saturday",
+    "time": "20:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "2a2ed6e7-699d-4376-b7a4-c7ae853e6378",
+    "calendar": "holiday",
+    "time": "07:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "5860ada3-8c57-48f9-bcef-b66e3f2e043b",
+    "calendar": "holiday",
+    "time": "08:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "da6cdf75-0002-480f-bc53-7f4dd8c8b2d6",
+    "calendar": "holiday",
+    "time": "09:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "9b1e9969-be98-4935-aca8-724674ff9b3e",
+    "calendar": "holiday",
+    "time": "10:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "311938f4-d87c-4024-b5e3-30eeb864e20c",
+    "calendar": "holiday",
+    "time": "12:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "b774a532-dcaf-485d-a20e-219fe0f58d09",
+    "calendar": "holiday",
+    "time": "14:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "26865599-3b15-4ed8-b260-65b5ebbfc903",
+    "calendar": "holiday",
+    "time": "15:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "b5770f6b-462c-4a3e-9aca-ec235ce78812",
+    "calendar": "holiday",
+    "time": "17:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "7c1e8591-a5a6-4c0a-9dc6-914bb7f6e570",
+    "calendar": "holiday",
+    "time": "19:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "56",
+    "courseSid": "73d8e01d-66d8-4fab-8a19-375153d1b581",
+    "tripSid": "f6b1f92a-cc60-4e90-b100-cbff54b16361",
+    "calendar": "holiday",
+    "time": "20:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "2d2c3734-de94-4b26-956a-2a96adaee457",
+    "calendar": "weekday",
+    "time": "10:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "4cddf6dc-a690-4a05-a762-2939b2852f49",
+    "calendar": "weekday",
+    "time": "13:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "c07c19e3-6f75-4daf-85c0-151d19847646",
+    "calendar": "saturday",
+    "time": "09:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "e772b438-586d-4de2-a38d-061e705a9951",
+    "calendar": "saturday",
+    "time": "10:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "420a98b0-5f08-4804-971d-ebc9e1d3c1ff",
+    "calendar": "holiday",
+    "time": "11:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "88",
+    "courseSid": "26da18d2-1658-41f2-89f8-a9c9b1dc4087",
+    "tripSid": "6195a483-2cfe-4f35-8aba-ea24c506f2c9",
+    "calendar": "weekday",
+    "time": "10:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "88",
+    "courseSid": "26da18d2-1658-41f2-89f8-a9c9b1dc4087",
+    "tripSid": "a46c8ab8-5340-4022-8764-34fdc7c3b924",
+    "calendar": "weekday",
+    "time": "18:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "88",
+    "courseSid": "26da18d2-1658-41f2-89f8-a9c9b1dc4087",
+    "tripSid": "51230b45-6600-4b4d-81e5-e5fa8bcb90b9",
+    "calendar": "weekday",
+    "time": "21:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "bf565965-a284-4181-869f-06844bc59920",
+    "calendar": "weekday",
+    "time": "07:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "e10f28c3-cb0a-4714-ab47-59e15a1d5348",
+    "calendar": "weekday",
+    "time": "07:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "8887fd66-6c2a-4a0b-82fa-fb56328b1cd2",
+    "calendar": "weekday",
+    "time": "08:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "740a707a-6570-4d8b-9215-38eb7bd6f1d3",
+    "calendar": "weekday",
+    "time": "08:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "0d80b3b5-9a8d-4447-b31b-2a644b235a8d",
+    "calendar": "weekday",
+    "time": "09:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "87b739b9-5d1e-4e00-83bd-bd0ca0fd696c",
+    "calendar": "weekday",
+    "time": "09:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "0f9237bc-c4ce-47f8-8f3b-1f20f2c37bf6",
+    "calendar": "weekday",
+    "time": "16:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "dae91f0b-444d-4d96-bbc2-e9d01f8dce13",
+    "calendar": "weekday",
+    "time": "16:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "1e0b9868-2149-42f7-863e-0c2daf17f22d",
+    "calendar": "weekday",
+    "time": "17:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "ff176584-2196-474c-be91-d2f7502b7c00",
+    "calendar": "weekday",
+    "time": "17:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "778d4f2b-0d3b-47ef-b5e9-100410c1ec40",
+    "calendar": "weekday",
+    "time": "18:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "0867489c-856b-47b3-8e3b-d0e7768d849f",
+    "calendar": "weekday",
+    "time": "18:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "144e5f0b-201f-49fc-9c18-af120c1a32e9",
+    "calendar": "weekday",
+    "time": "20:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "ffdd3913-2480-4d45-ac0a-8f3607be1879",
+    "calendar": "weekday",
+    "time": "20:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "d7edac7a-2632-44d2-99f7-5efbb575a909",
+    "calendar": "weekday",
+    "time": "21:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "59be36e2-855d-499e-ab5b-ea4ca1d597be",
+    "calendar": "weekday",
+    "time": "22:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "8f106484-a7ce-40d0-891c-ea23011df8ae",
+    "calendar": "saturday",
+    "time": "08:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "aeab2517-29e8-4a94-bf13-48e7ca222e6d",
+    "calendar": "saturday",
+    "time": "08:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "32c7785c-5d36-4a76-be34-35e5aaacad00",
+    "calendar": "saturday",
+    "time": "09:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "a8662e7a-140a-44d6-8ff0-45c60927ac47",
+    "calendar": "saturday",
+    "time": "10:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "b1af5ecf-7014-4920-9e32-6725b9538513",
+    "calendar": "saturday",
+    "time": "11:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "5fb89ff7-832d-4c1b-ae89-f1c07a46f6fd",
+    "calendar": "saturday",
+    "time": "12:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "69529e4e-06f1-40e1-9839-dca04551e110",
+    "calendar": "saturday",
+    "time": "13:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "dfc9cd79-3666-44c0-b7f8-c3eae564fce1",
+    "calendar": "saturday",
+    "time": "13:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "c2650b4c-f278-4a51-aa5b-8fb1dce3cce5",
+    "calendar": "saturday",
+    "time": "14:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "9fb9e5e5-28d2-43a0-982e-79eb3d5ab21b",
+    "calendar": "saturday",
+    "time": "14:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "dd057971-60ca-44fe-8571-6f78a4df26a1",
+    "calendar": "saturday",
+    "time": "15:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "41def7bd-8798-495a-aa17-9e116887aa23",
+    "calendar": "saturday",
+    "time": "15:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "ea5060f4-fa9f-4a88-ba65-c7d089464ffb",
+    "calendar": "saturday",
+    "time": "16:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "7da6234f-0fd0-425d-a840-978dc4787420",
+    "calendar": "saturday",
+    "time": "17:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "e7571c88-af6d-4880-af58-1a860f6d6b55",
+    "calendar": "saturday",
+    "time": "18:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "8bb5322a-a6cf-4819-93f2-1f6685f14246",
+    "calendar": "saturday",
+    "time": "18:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "15022043-9e4f-477d-aa75-cfe7cf996ca3",
+    "calendar": "saturday",
+    "time": "19:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "6a9dcb24-3e09-4305-a63f-9b1525e23859",
+    "calendar": "saturday",
+    "time": "20:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "673ff08a-d22f-4422-a9e1-47bca6bf1ff4",
+    "calendar": "saturday",
+    "time": "20:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "00f51043-0fc2-4ddc-83a9-464b48f8eed4",
+    "calendar": "saturday",
+    "time": "21:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "01406c57-28fa-41b9-ac63-7dd6a0c35efd",
+    "calendar": "saturday",
+    "time": "21:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "793d4102-5cc5-4e63-97f4-7309af477c1c",
+    "calendar": "saturday",
+    "time": "22:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "d5ab8f6f-2c8e-4430-9212-b756d033cb65",
+    "calendar": "holiday",
+    "time": "08:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "2d6881a6-fe55-4aeb-b1a2-ddbbd37f4729",
+    "calendar": "holiday",
+    "time": "08:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "a5438030-e076-473f-8648-4ac72b483242",
+    "calendar": "holiday",
+    "time": "09:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "3b57ee72-72d8-4f4a-93f9-60b9db28a867",
+    "calendar": "holiday",
+    "time": "10:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "0f3fa379-7d8b-409a-8291-a73c7b7a6b09",
+    "calendar": "holiday",
+    "time": "11:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "47f49d38-b5b2-4e24-80eb-da3bd9937322",
+    "calendar": "holiday",
+    "time": "12:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "bca974f1-9148-40d7-9431-a5016924a3e0",
+    "calendar": "holiday",
+    "time": "13:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "2efb55ac-6bb5-489e-9e42-48b1264df7e5",
+    "calendar": "holiday",
+    "time": "13:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "c2dc7b4c-19c9-428a-9a79-266ab6e43da4",
+    "calendar": "holiday",
+    "time": "14:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "a6431be2-7941-45e4-b41d-e07984421db9",
+    "calendar": "holiday",
+    "time": "14:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "bdbcdc3b-8d64-46fe-a59c-a099ad97a9db",
+    "calendar": "holiday",
+    "time": "15:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "b6894db8-1c4c-40a2-bb16-f9c1bbb2db13",
+    "calendar": "holiday",
+    "time": "15:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "f2906cb5-c0f5-466f-b80a-fb4492e57f9a",
+    "calendar": "holiday",
+    "time": "16:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "a7729c6d-2a25-4958-8396-ba864b5410ab",
+    "calendar": "holiday",
+    "time": "17:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "80c3d82e-8623-45c8-ad63-d52a9041a6af",
+    "calendar": "holiday",
+    "time": "18:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "dfb300d7-b706-4073-b73c-b6b972d4bf7c",
+    "calendar": "holiday",
+    "time": "18:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "5cbdd5f6-9fa1-43ca-ac3c-a419800eb78f",
+    "calendar": "holiday",
+    "time": "19:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "81cc853f-3939-4498-a4f2-bac40d0bbd82",
+    "calendar": "holiday",
+    "time": "20:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "353ec039-5e89-4357-8dff-2cdbc4a2dbda",
+    "calendar": "holiday",
+    "time": "20:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "9590361b-e960-4e69-bf79-d4bcf1a9b799",
+    "calendar": "holiday",
+    "time": "21:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "ce1ee7f6-3f47-46e8-b9d3-f83d05775cb6",
+    "calendar": "holiday",
+    "time": "21:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "90",
+    "courseSid": "0e51a3f8-79ca-45a0-9a7f-1097b65e0439",
+    "tripSid": "b90700c5-a7d4-40cb-9d3a-2f81dfabf323",
+    "calendar": "holiday",
+    "time": "22:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "e926d9ff-72cd-4d9b-af3b-ca3b616b42c1",
+    "calendar": "weekday",
+    "time": "07:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "2c8862ee-302d-4957-9933-d3553f3c2d88",
+    "calendar": "weekday",
+    "time": "07:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "cc04955c-9b31-49ac-af56-f8fa01530379",
+    "calendar": "weekday",
+    "time": "08:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "d90a82d4-ff33-484a-acae-74088b38e0bd",
+    "calendar": "weekday",
+    "time": "08:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "3a7e44bf-1402-46f6-affb-a902b37771db",
+    "calendar": "weekday",
+    "time": "09:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "449d2374-7e56-447e-af21-b6e45c864796",
+    "calendar": "weekday",
+    "time": "10:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "8c364da9-17d9-4e0d-b06a-303a8bc821b7",
+    "calendar": "weekday",
+    "time": "10:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "e170dc96-161e-42be-8078-a8aa864cfec4",
+    "calendar": "weekday",
+    "time": "11:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "1dda7e6a-f679-4931-b6e7-e3c9cef005a1",
+    "calendar": "weekday",
+    "time": "12:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "5d9bfb5e-4d58-47b3-9210-c9cae360293e",
+    "calendar": "weekday",
+    "time": "13:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "50b8cef9-b522-485a-a8fc-e521fbdd5ee5",
+    "calendar": "weekday",
+    "time": "13:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "ada3c12e-a154-4da7-b0da-095ce1b5c4e0",
+    "calendar": "weekday",
+    "time": "14:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "9bfe876e-ba1e-4c00-9ba4-054c492e5622",
+    "calendar": "weekday",
+    "time": "14:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "e4e66802-9a2a-40bc-b51e-d9f15171e459",
+    "calendar": "weekday",
+    "time": "15:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "eb503e8d-e9d1-4953-8e60-2d8cdb366254",
+    "calendar": "weekday",
+    "time": "15:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "3184040a-5557-4571-9f37-ca0af039710a",
+    "calendar": "weekday",
+    "time": "16:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "6db19b15-5452-4968-8116-d35e2ee32365",
+    "calendar": "weekday",
+    "time": "17:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "06d606b1-edc2-4f49-9eb9-5cbba74d882f",
+    "calendar": "weekday",
+    "time": "17:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "74a29251-8388-4595-a3f2-b5e6045009ac",
+    "calendar": "weekday",
+    "time": "18:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "81b14659-d663-480d-b9fe-bc614034d079",
+    "calendar": "weekday",
+    "time": "19:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "e211570a-ffc5-481b-bc13-38871a63e909",
+    "calendar": "weekday",
+    "time": "19:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "f13f819f-4201-45a2-8134-12753bfee7da",
+    "calendar": "weekday",
+    "time": "20:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "6345d764-8410-4ff1-9e0c-6af4e4ba33a0",
+    "calendar": "weekday",
+    "time": "21:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "3f5af9dc-0eae-4c0d-b49f-e051b96aec4b",
+    "calendar": "saturday",
+    "time": "07:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "e235ea19-46cc-4deb-a2ea-b135b969a419",
+    "calendar": "saturday",
+    "time": "08:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "bdd4364a-5415-424e-b612-1a97693a39b6",
+    "calendar": "saturday",
+    "time": "09:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "927912bc-171b-405b-ad1a-2f9f08b750fd",
+    "calendar": "saturday",
+    "time": "10:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "68601005-cbcb-41eb-b387-b66be6aeb16f",
+    "calendar": "saturday",
+    "time": "11:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "18ac2797-43c7-465c-b6b6-64121a13605f",
+    "calendar": "saturday",
+    "time": "12:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "5b076499-95c4-4ec2-a2fd-8808f6c5aafa",
+    "calendar": "saturday",
+    "time": "13:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "6459135f-3998-4a0c-8bb6-0349c5d4efbf",
+    "calendar": "saturday",
+    "time": "14:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "60c8a985-5050-4c7f-81fd-f852f633854f",
+    "calendar": "saturday",
+    "time": "15:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "34e16a23-d4b8-4766-b5d0-ac71073814e5",
+    "calendar": "saturday",
+    "time": "15:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "95e1060f-ef6d-443f-b1a5-c65f1927073f",
+    "calendar": "saturday",
+    "time": "16:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "2d676748-a5a0-4246-91ee-65c276180cfb",
+    "calendar": "saturday",
+    "time": "17:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "e986142d-a854-48eb-8f27-301a78a8d280",
+    "calendar": "saturday",
+    "time": "18:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "4494b087-cb4d-4134-9f4d-247e9240b4ef",
+    "calendar": "saturday",
+    "time": "19:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "3f48c992-fefa-4d06-ba74-12ffec22509f",
+    "calendar": "saturday",
+    "time": "20:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "6c41bb6a-6744-4bfe-9eb2-064f29d52148",
+    "calendar": "holiday",
+    "time": "07:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "4747900d-fa32-4efa-8c8f-dec07e865adf",
+    "calendar": "holiday",
+    "time": "08:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "8d2273c4-cff8-410b-a084-2a295f2cdd5a",
+    "calendar": "holiday",
+    "time": "09:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "78c1523a-3c9f-4457-ab6a-1bf00b4bcab7",
+    "calendar": "holiday",
+    "time": "10:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "3f9c4759-e103-4de8-a533-219024798fc3",
+    "calendar": "holiday",
+    "time": "11:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "49edbf0c-75b7-465b-8a4e-56383b4c24de",
+    "calendar": "holiday",
+    "time": "12:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "19a4c0f6-ba91-459f-a0e9-0f5971ded51e",
+    "calendar": "holiday",
+    "time": "13:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "a5699f6b-c43f-4c81-ba8e-e1d0e67e646b",
+    "calendar": "holiday",
+    "time": "14:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "e55ed731-7901-44c6-9f97-cfc42f7c0e5a",
+    "calendar": "holiday",
+    "time": "15:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "c776ab17-9b0c-46c5-8aa1-1b0181d9656a",
+    "calendar": "holiday",
+    "time": "15:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "5a186c1e-1153-4f89-b2d3-073631d3849e",
+    "calendar": "holiday",
+    "time": "16:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "4a703eeb-8cef-4a41-8ce4-33bec5684adb",
+    "calendar": "holiday",
+    "time": "17:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "b79108ec-485c-478e-8150-76711963845d",
+    "calendar": "holiday",
+    "time": "18:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "07e897ce-462a-4357-8860-0eed4f402ba9",
+    "calendar": "holiday",
+    "time": "19:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "97",
+    "courseSid": "6e3f1c03-cc11-4c43-aaad-e529917b7249",
+    "tripSid": "a3a9bf21-7caf-46c6-9d11-75a7ae785c5b",
+    "calendar": "holiday",
+    "time": "20:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "0fab68aa-5239-458a-9fdd-81fb5af09b89",
+    "calendar": "weekday",
+    "time": "06:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "754dd9f3-2961-447d-83df-70b68467111e",
+    "calendar": "weekday",
+    "time": "07:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "6e21a608-8ad7-4b69-a5e6-4a900ef565aa",
+    "calendar": "weekday",
+    "time": "07:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "f46a7460-aeaa-487e-a670-479a0a1d0a0e",
+    "calendar": "weekday",
+    "time": "08:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "5d9633ca-7e4d-4832-8c7a-562dcb99559e",
+    "calendar": "weekday",
+    "time": "08:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "6bf383dd-3397-4e78-9afc-3710db505b90",
+    "calendar": "weekday",
+    "time": "09:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "cf4717d6-d23f-4eea-9edc-70e900eb8ed7",
+    "calendar": "weekday",
+    "time": "09:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "0e559fa1-7bc6-4ae0-a89c-4aadd73486a1",
+    "calendar": "weekday",
+    "time": "10:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "fcaf6091-55a2-4c3a-8e1c-53be2edf845c",
+    "calendar": "weekday",
+    "time": "11:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "326b0ce8-8860-49ca-8d64-1ab63dc4913e",
+    "calendar": "weekday",
+    "time": "11:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "33c1efb9-c631-47d6-bc36-9e59531a7990",
+    "calendar": "weekday",
+    "time": "12:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "74d6a36c-464d-4a1e-ba67-6a94560e18d4",
+    "calendar": "weekday",
+    "time": "13:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "f9e3bec6-fc0f-42d2-97de-3945ae659ae6",
+    "calendar": "weekday",
+    "time": "13:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "283bf38e-c3a6-4aa9-ae70-4752ffb73653",
+    "calendar": "weekday",
+    "time": "14:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "b701608e-8629-4e9a-8a9f-ceb0595e9d38",
+    "calendar": "weekday",
+    "time": "14:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "072f20e0-0e6e-45bf-831b-db1d7e6f699e",
+    "calendar": "weekday",
+    "time": "15:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "c8363abe-770e-4bc1-b5c6-d04537be90a3",
+    "calendar": "weekday",
+    "time": "16:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "ed0b6118-a619-4d9d-9031-5b7cc7b119bc",
+    "calendar": "weekday",
+    "time": "17:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "fc379a63-8b59-4114-91a6-cfe62300fa0f",
+    "calendar": "weekday",
+    "time": "18:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "e6120361-3fde-46f4-a657-3e605936886c",
+    "calendar": "weekday",
+    "time": "18:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "805babfb-49e5-40dc-9b29-7a73e6e8d893",
+    "calendar": "weekday",
+    "time": "19:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "ff75b0da-8f12-4e97-b01b-26d3868522fd",
+    "calendar": "weekday",
+    "time": "20:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "de6cf68f-b56d-4aec-9ee0-bd56621ac029",
+    "calendar": "weekday",
+    "time": "21:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "01fd0009-e2d1-4780-b784-d22f06a53818",
+    "calendar": "weekday",
+    "time": "22:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "60d26405-4e5d-4ebd-9ce6-8955d0bebd66",
+    "calendar": "saturday",
+    "time": "07:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "6e13faeb-db98-4e69-9be4-825aafefb65f",
+    "calendar": "saturday",
+    "time": "07:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "1c68fb97-6ea7-4f55-be7d-47d9f21fe04e",
+    "calendar": "saturday",
+    "time": "08:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "5d80e2f7-3e18-4ef1-801d-89a145d4da0b",
+    "calendar": "saturday",
+    "time": "09:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "dc1313a9-6ee5-46c7-95e1-87703a044b8b",
+    "calendar": "saturday",
+    "time": "09:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "98a74995-8cfc-495e-a2e3-a548d37734eb",
+    "calendar": "saturday",
+    "time": "10:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "ccff6e25-633b-40ff-b3b8-b82ee00444dd",
+    "calendar": "saturday",
+    "time": "11:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "b5cd0000-9276-4c12-8bd5-143783a892b1",
+    "calendar": "saturday",
+    "time": "12:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "ccee1d38-a5f2-4def-affe-711ec003130d",
+    "calendar": "saturday",
+    "time": "13:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "0f8b2221-e0ec-4fc1-b00f-f1746362d3df",
+    "calendar": "saturday",
+    "time": "14:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "1ceceeec-75c0-449c-9398-362c3b159985",
+    "calendar": "saturday",
+    "time": "15:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "c1296a44-be11-4aa7-b6c9-235e97338118",
+    "calendar": "saturday",
+    "time": "16:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "fb5267b3-1d04-46bb-8573-81e5bfa3163e",
+    "calendar": "saturday",
+    "time": "17:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "e789de45-0865-407c-a79d-2671087bb822",
+    "calendar": "saturday",
+    "time": "17:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "ef724088-3bb7-4e93-9192-30c6e230c40a",
+    "calendar": "saturday",
+    "time": "18:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "6b005831-b369-44c5-8ac4-4269839a62fe",
+    "calendar": "saturday",
+    "time": "19:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "cc1373ba-572a-4331-9779-e88f5774f5b4",
+    "calendar": "saturday",
+    "time": "21:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "d50a110c-36df-42f8-b41c-7dc1a271fa89",
+    "calendar": "holiday",
+    "time": "07:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "12c8ba7e-e23f-4ca2-afda-becabecccdad",
+    "calendar": "holiday",
+    "time": "07:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "897e2420-f689-4964-aa50-34a333f2caf6",
+    "calendar": "holiday",
+    "time": "08:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "3f2c1f9d-5c52-44a9-99f5-159f23d62847",
+    "calendar": "holiday",
+    "time": "09:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "d0fa578e-b402-4657-a4f9-8e9d592e2b94",
+    "calendar": "holiday",
+    "time": "09:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "0aa3a99c-9994-4e6b-8147-6dba1683bca7",
+    "calendar": "holiday",
+    "time": "10:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "8a468464-a744-435f-931c-05c96d30bfd3",
+    "calendar": "holiday",
+    "time": "11:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "92a426f0-bbd0-4812-9405-2f6665f3dfcd",
+    "calendar": "holiday",
+    "time": "12:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "facac220-7591-4b92-b809-ade8d0837537",
+    "calendar": "holiday",
+    "time": "13:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "b31253d6-6c6b-4e2e-9c35-c890f5c37405",
+    "calendar": "holiday",
+    "time": "14:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "89b50475-b0b9-4678-8c3f-b8508c833b13",
+    "calendar": "holiday",
+    "time": "15:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "d7474de1-3a0c-4a61-8f44-3cb6b209371b",
+    "calendar": "holiday",
+    "time": "16:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "c209bcf0-0ed9-4ead-a6ca-2bca77a218c1",
+    "calendar": "holiday",
+    "time": "17:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "e0fce1f6-3173-4e14-bce6-a9db5a50519f",
+    "calendar": "holiday",
+    "time": "17:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "98fe8c80-877a-4055-b893-da4db8201367",
+    "calendar": "holiday",
+    "time": "18:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "9c1b22f8-223a-4f0c-a83b-325131119bb4",
+    "calendar": "holiday",
+    "time": "19:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "98",
+    "courseSid": "a57af64c-6c6f-439e-951c-46fb5ef4f804",
+    "tripSid": "da5512ab-7af5-4f46-a84f-48c8ab01804b",
+    "calendar": "holiday",
+    "time": "21:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "572a5420-1d8c-403c-b0fa-7606e4d24811",
+    "calendar": "weekday",
+    "time": "11:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "83c65530-fa6a-4096-b0b5-523d7dde9cfd",
+    "calendar": "weekday",
+    "time": "11:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5ed58e11-5031-4dc9-bc31-e9e95caa8008",
+    "calendar": "weekday",
+    "time": "12:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ebfa89c9-079f-4089-8ff0-9ff82a7ebef7",
+    "calendar": "weekday",
+    "time": "13:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "76ee88bf-b545-4984-abf7-9ab4842c53c8",
+    "calendar": "weekday",
+    "time": "14:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "935f3c88-1993-4ed0-8529-e6beb83709d2",
+    "calendar": "weekday",
+    "time": "15:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "288b6b1a-8fc9-42c6-8b12-d6f84cc166fb",
+    "calendar": "weekday",
+    "time": "17:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5388715f-e66f-4d06-b04f-14c46fa25a4d",
+    "calendar": "weekday",
+    "time": "19:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "117af7b3-9022-49d4-90ff-a783e028bf6c",
+    "calendar": "weekday",
+    "time": "19:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "07d6209d-c879-4cef-b90c-1d2bca05a11d",
+    "calendar": "saturday",
+    "time": "11:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2ecec279-afd7-4bcd-979a-869cac46beaa",
+    "calendar": "saturday",
+    "time": "12:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "52896c8a-cbbe-4563-b5de-8df489d9e323",
+    "calendar": "saturday",
+    "time": "13:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "cfdb11a3-1143-4829-825e-9b91fc5f9f64",
+    "calendar": "saturday",
+    "time": "13:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d6f08561-4e99-46e9-b3b1-48675fedc64e",
+    "calendar": "saturday",
+    "time": "14:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "0fd23527-40ef-42b8-88e5-4884000eaea6",
+    "calendar": "saturday",
+    "time": "14:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "e809db33-1764-4e88-8d7f-ddefc30b6fb2",
+    "calendar": "saturday",
+    "time": "14:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2e4c1b4d-efe6-47fe-96cb-ce2d8efe723b",
+    "calendar": "saturday",
+    "time": "15:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "f1c4cd30-81f2-4e4a-8129-bdf6e7cb230b",
+    "calendar": "saturday",
+    "time": "15:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "fd11a45a-7caf-49c3-b995-a7b5cd4a836f",
+    "calendar": "saturday",
+    "time": "16:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ddb57b72-37a0-4d4a-9015-6405a23c617d",
+    "calendar": "saturday",
+    "time": "17:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ba1255c4-5e5e-4d89-9f8d-2067df5a0131",
+    "calendar": "saturday",
+    "time": "18:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ddd4b119-5242-4b88-ba20-5b3fc676a512",
+    "calendar": "saturday",
+    "time": "19:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "a503c0d8-29c5-4122-947f-c7d95b8a2d49",
+    "calendar": "saturday",
+    "time": "19:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "7a4e36d7-65d1-4138-8d9b-41af8491f68d",
+    "calendar": "holiday",
+    "time": "11:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "bd5fc94d-b514-46c9-b4d1-283d51bb7d1a",
+    "calendar": "holiday",
+    "time": "12:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "33751651-79d7-4cfd-a57c-92ae6c38b88f",
+    "calendar": "holiday",
+    "time": "13:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "acc57ef9-2d87-416d-b79f-c12ba5b5dd2d",
+    "calendar": "holiday",
+    "time": "13:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d629d8ed-770e-4e8d-b9fb-93b680fc3db4",
+    "calendar": "holiday",
+    "time": "14:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "3e375449-bac1-49c6-8c2d-eea82794cd31",
+    "calendar": "holiday",
+    "time": "14:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2cfa92ab-1edf-476c-93c1-6cfb0937d1c9",
+    "calendar": "holiday",
+    "time": "14:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5839cf74-a034-49ee-a413-189e7906d8ca",
+    "calendar": "holiday",
+    "time": "15:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "df7c7b67-c512-4286-b46c-a045765e2128",
+    "calendar": "holiday",
+    "time": "15:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "8e5e96b4-cc2f-4219-bc60-407ed3a16fe3",
+    "calendar": "holiday",
+    "time": "16:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "62866405-0a8f-4bc4-b581-d7b851d78083",
+    "calendar": "holiday",
+    "time": "17:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "20174d4c-0ecf-4c2b-8120-5718a4d10cdd",
+    "calendar": "holiday",
+    "time": "18:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ad4a18ee-bb39-4de2-9f69-85b3509664b8",
+    "calendar": "holiday",
+    "time": "18:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "eea98159-d77a-4408-9c86-6bfafb2d8244",
+    "calendar": "holiday",
+    "time": "18:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "474d5cb4-75f7-4aa9-b42e-3f763fd98ca0",
+    "calendar": "holiday",
+    "time": "19:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "1ef613f0-24db-4f9c-a083-06352ec7e128",
+    "calendar": "holiday",
+    "time": "19:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "0e756c57-3005-4074-9e1b-f2686a21d96c",
+    "calendar": "holiday",
+    "time": "19:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "45bc024e-dfe9-49a7-a90b-6938ff3b7b7c",
+    "calendar": "weekday",
+    "time": "10:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "6336236d-491a-4302-ad73-fb33c9844dff",
+    "calendar": "weekday",
+    "time": "10:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "cefd7875-cd87-4a9f-9b95-92e296db02ad",
+    "calendar": "weekday",
+    "time": "11:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "b152e671-43b7-4c36-935b-14e17b1fa5a5",
+    "calendar": "weekday",
+    "time": "12:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "e7a5478f-6d3c-4160-a8f6-4a960220b782",
+    "calendar": "weekday",
+    "time": "12:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "8a111679-83a8-4b0d-8d66-2180544eb8d6",
+    "calendar": "weekday",
+    "time": "13:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "a67cb19b-115c-4142-a61d-b0fafdc7cdab",
+    "calendar": "weekday",
+    "time": "15:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "483c6055-a763-4477-9e28-e2d7db301e7a",
+    "calendar": "weekday",
+    "time": "16:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "0901ff34-24bd-4843-9e8e-b6cb1d4cfa57",
+    "calendar": "weekday",
+    "time": "16:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "a98969a9-29e9-4029-b2fc-ca26185838c4",
+    "calendar": "weekday",
+    "time": "17:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "f9689864-1a6a-413c-91da-3ae98ae1b11a",
+    "calendar": "weekday",
+    "time": "18:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "1a70b5e2-6add-4090-9204-e9b11372875a",
+    "calendar": "weekday",
+    "time": "19:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "c887a16b-0a8a-480a-838f-bc11109be266",
+    "calendar": "weekday",
+    "time": "19:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "47fb7878-1d71-4a9f-bb12-f18b5089c425",
+    "calendar": "saturday",
+    "time": "10:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "fec13853-cbf7-4975-84f3-b4ac7a3e89ed",
+    "calendar": "saturday",
+    "time": "10:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "139dea64-d2b3-48db-98ce-fad6f7e47cd0",
+    "calendar": "saturday",
+    "time": "11:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "87ccaf80-53d6-43fc-974a-9286768e7ead",
+    "calendar": "saturday",
+    "time": "12:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "cb842857-4ffd-498c-8bd2-dae1ea868db6",
+    "calendar": "saturday",
+    "time": "14:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "3352c001-85be-42c5-9891-0789966c77e5",
+    "calendar": "saturday",
+    "time": "15:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "27419d2b-1444-4e62-864a-c143b5515eaf",
+    "calendar": "saturday",
+    "time": "16:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "5f83600b-75ff-44ba-afff-69861e4eeae2",
+    "calendar": "saturday",
+    "time": "17:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "041f2a32-5627-4771-be8e-bc59ef1bc2a5",
+    "calendar": "saturday",
+    "time": "18:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "a648b07b-2536-4fcc-b08a-9b3f3b6fadc9",
+    "calendar": "saturday",
+    "time": "19:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "ab899a9a-e07f-4a92-9cc7-54f052e0e5ec",
+    "calendar": "holiday",
+    "time": "10:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "ad2b25ff-6ffe-49d6-965a-da89e66d1c4f",
+    "calendar": "holiday",
+    "time": "12:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "4c1cb3c1-7903-4b92-bd94-e52af18f2be5",
+    "calendar": "holiday",
+    "time": "12:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "1ef19de5-0396-4e56-9f77-efc1d72022b6",
+    "calendar": "holiday",
+    "time": "14:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "1d10e375-c5a0-40ba-8a59-48321e21ef0e",
+    "calendar": "holiday",
+    "time": "15:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "c269fe8e-06a2-4bf2-abe1-edf6369f28a1",
+    "calendar": "holiday",
+    "time": "16:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "61431e27-069e-493d-ae59-364cb8fca14c",
+    "calendar": "holiday",
+    "time": "18:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "d0c41f2b-cd5e-4d08-aab3-4e785ad6b99b",
+    "calendar": "weekday",
+    "time": "08:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "148bff59-035d-4dc5-ae48-e5fe381bb775",
+    "calendar": "weekday",
+    "time": "08:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "548dc0d7-c290-4eec-9197-29563893e962",
+    "calendar": "weekday",
+    "time": "09:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "b0baa2f1-f3ba-4512-b46a-03ea07d69abe",
+    "calendar": "weekday",
+    "time": "09:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "2bff073d-b271-4a66-93bf-07482730d9c6",
+    "calendar": "weekday",
+    "time": "09:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "e1101195-f667-491d-8133-08755a68827e",
+    "calendar": "weekday",
+    "time": "10:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "b29d5704-a9e0-40fb-b5e4-786c835d4a51",
+    "calendar": "weekday",
+    "time": "10:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "da14b006-d4ef-49aa-84a5-1231e44abd78",
+    "calendar": "weekday",
+    "time": "11:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "564710b6-f79b-4f5d-ae6d-246f871f49c1",
+    "calendar": "weekday",
+    "time": "11:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "1e4ae35f-e58d-4205-9923-db053cb372b9",
+    "calendar": "weekday",
+    "time": "11:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "6f026c2b-4e29-4b74-ace0-a63818fc1003",
+    "calendar": "weekday",
+    "time": "12:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "ad7c183a-a8a9-43fa-a1f6-c0dea8f6e47f",
+    "calendar": "weekday",
+    "time": "12:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "784a7b52-8364-48e9-8bba-f410bb13492d",
+    "calendar": "weekday",
+    "time": "14:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "14f4a011-4f58-40b6-9d2e-f7e672b10270",
+    "calendar": "weekday",
+    "time": "14:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "08916b2a-c983-4b0e-a854-bacd11183a9a",
+    "calendar": "weekday",
+    "time": "15:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "b86f038b-1525-4035-ac4b-c58754af2bdd",
+    "calendar": "saturday",
+    "time": "08:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "e5a10fc2-0a2f-4dd6-9bd6-bb78e3b5da04",
+    "calendar": "saturday",
+    "time": "09:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "54e08d1c-70ba-487b-8fbe-9cf3596f9793",
+    "calendar": "saturday",
+    "time": "10:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "0360a5d9-9049-4cc9-8e8a-369786fe9290",
+    "calendar": "saturday",
+    "time": "11:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "5b90354c-b8ed-4a5d-8543-c61362d80ac6",
+    "calendar": "holiday",
+    "time": "08:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "0a132416-2709-4226-9893-a31b3c91623d",
+    "calendar": "holiday",
+    "time": "09:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "599708ea-eddb-4c74-aaa5-bf112ff5ba1d",
+    "calendar": "holiday",
+    "time": "10:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "127f9251-e5d2-450c-ac83-92c4381a0a2a",
+    "calendar": "holiday",
+    "time": "11:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "256",
+    "courseSid": "c19ccb55-269a-47c1-896a-7b0efa11376b",
+    "tripSid": "3f486435-18e5-4e86-861b-ce8fb7f64ca4",
+    "calendar": "weekday",
+    "time": "09:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "256",
+    "courseSid": "c19ccb55-269a-47c1-896a-7b0efa11376b",
+    "tripSid": "98cb1246-e993-4bae-bb64-cefc4e66597a",
+    "calendar": "weekday",
+    "time": "16:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "256",
+    "courseSid": "c19ccb55-269a-47c1-896a-7b0efa11376b",
+    "tripSid": "5ee08df1-306d-450a-aa7d-728580bec579",
+    "calendar": "weekday",
+    "time": "20:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "333",
+    "courseSid": "8d69e8bc-ead9-4f0f-a957-a74ba33b396b",
+    "tripSid": "4e20e3fa-77c6-454f-81a5-c8dc295aecec",
+    "calendar": "weekday",
+    "time": "07:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "c91b53bc-27d4-40ce-9c6f-608e1d6e9996",
+    "calendar": "weekday",
+    "time": "06:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "c27a36a8-6e89-4e90-a45b-0f68eddad084",
+    "calendar": "weekday",
+    "time": "07:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "2d10f4e2-5c6a-4827-a185-11fa5ff176fe",
+    "calendar": "weekday",
+    "time": "07:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "826a317f-ebc8-4667-bdab-ee6dd38ff783",
+    "calendar": "weekday",
+    "time": "08:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "fb484962-afeb-4558-9c45-6e66d34d21ea",
+    "calendar": "weekday",
+    "time": "08:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "18300ac0-54e2-4555-aa35-2e6e65470933",
+    "calendar": "weekday",
+    "time": "09:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "85e2ca91-5e0b-44f8-8a67-b59fd469c648",
+    "calendar": "weekday",
+    "time": "10:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "db0a2c3f-87d2-46f2-b7f4-92256cdce3a2",
+    "calendar": "weekday",
+    "time": "11:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "5ba547a0-7344-468d-9d9d-652326c3a2df",
+    "calendar": "weekday",
+    "time": "12:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "65ba0758-341c-4253-ba37-21e697528fca",
+    "calendar": "weekday",
+    "time": "13:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "e9bb1611-98e7-4347-947d-668e085ec2a0",
+    "calendar": "weekday",
+    "time": "14:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "82677b70-9b54-4d7d-99d4-b3bf28c56b7d",
+    "calendar": "weekday",
+    "time": "14:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "4f5ebf0f-d95e-4147-bdb2-58cabbe08f89",
+    "calendar": "weekday",
+    "time": "15:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "e57b8e13-3ab2-4709-ac8b-45e835f647af",
+    "calendar": "weekday",
+    "time": "16:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "46f79d8e-2ace-4d05-a09a-6e6b2f02077f",
+    "calendar": "weekday",
+    "time": "17:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "d1d31eee-e518-4567-8a6b-671c24aa8ebe",
+    "calendar": "weekday",
+    "time": "18:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "d93b9fd4-877d-40c6-980c-a84d49ebec47",
+    "calendar": "weekday",
+    "time": "19:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "b713cefa-5e11-470f-acff-e540c9bbf135",
+    "calendar": "saturday",
+    "time": "07:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "d29319c1-30c3-44c6-abfe-34ea2268f0f8",
+    "calendar": "saturday",
+    "time": "08:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "676f36cb-d89b-49f7-b704-27fb29ea0923",
+    "calendar": "saturday",
+    "time": "09:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "eedb84c1-e1af-496d-adec-996f709a720b",
+    "calendar": "saturday",
+    "time": "10:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "4eea0b8e-c408-4c64-b303-33ddf0fea171",
+    "calendar": "saturday",
+    "time": "11:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "19cf5392-ebde-496a-a5e8-e73cd31695a0",
+    "calendar": "saturday",
+    "time": "12:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "45b2ae43-3db2-4b59-9997-fcb178a55f8d",
+    "calendar": "saturday",
+    "time": "13:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "8efb6eb3-3ffc-4813-b05b-99a2763bbea2",
+    "calendar": "saturday",
+    "time": "14:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "e3db911a-2cb8-48e1-be58-cfd71263a8e8",
+    "calendar": "saturday",
+    "time": "15:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "3d1c277c-8468-4646-895e-0620fdd18352",
+    "calendar": "saturday",
+    "time": "16:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "bc0ba94a-ce2b-4ea3-812a-be718b0bd31f",
+    "calendar": "saturday",
+    "time": "17:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "4cf8050b-f345-44aa-adcd-e443b564bca2",
+    "calendar": "saturday",
+    "time": "18:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "11f9489c-2fc5-40e7-bbec-abf132ae2e89",
+    "calendar": "saturday",
+    "time": "19:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "8eb9d26b-442d-4296-a965-0c2b42a2c974",
+    "calendar": "holiday",
+    "time": "07:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "ffe103cb-be1e-450f-9156-e90dd0ecb920",
+    "calendar": "holiday",
+    "time": "08:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "441a4cf5-f1c4-4ad1-992f-d11a6c48bd20",
+    "calendar": "holiday",
+    "time": "09:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "1d737f05-8fdb-44da-87c5-e56833e5bb57",
+    "calendar": "holiday",
+    "time": "10:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "720d0983-8c4c-440c-a39b-0786210fbfa0",
+    "calendar": "holiday",
+    "time": "11:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "efb1d35b-5ac0-4dd2-a127-3ab113330d54",
+    "calendar": "holiday",
+    "time": "12:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "6b3bd7e0-bcae-4cfc-b5f0-ae0e157cebb7",
+    "calendar": "holiday",
+    "time": "13:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "772370a8-0ca4-42fa-9022-0748f0db1250",
+    "calendar": "holiday",
+    "time": "14:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "64e85b5a-e4ad-4730-bbe1-1d8c4506b3e2",
+    "calendar": "holiday",
+    "time": "15:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "9fa4ac55-6db0-4a82-9395-dcf2ea846e4b",
+    "calendar": "holiday",
+    "time": "16:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "1cb106ae-0836-4d91-8924-1d1c978e779d",
+    "calendar": "holiday",
+    "time": "17:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "18693d5c-6ef7-41b8-a964-d7ff5b6b757f",
+    "calendar": "holiday",
+    "time": "18:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5040100",
+    "stopName": "牧志（那覇バスターミナル・旭橋向け）",
+    "routeNo": "346",
+    "courseSid": "9278b639-8a99-4824-b508-70bc8a232862",
+    "tripSid": "2c540b28-e041-4add-93fd-e8a359f2e384",
+    "calendar": "holiday",
+    "time": "19:29",
+    "parentCompanyCode": "8000"
+  }
+]

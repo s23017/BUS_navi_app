@@ -1,0 +1,172 @@
+[
+  {
+    "stationSid": "11400100",
+    "stopName": "第二名座喜原（名護十字路・名護高校向け）",
+    "routeNo": "67",
+    "courseSid": "68c8f8ad-0eca-47bc-b0a0-2e17a6f6fd63",
+    "tripSid": "7c5e1679-b482-44fc-82f1-04c1902e64df",
+    "calendar": "weekday",
+    "time": "16:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11400100",
+    "stopName": "第二名座喜原（名護十字路・名護高校向け）",
+    "routeNo": "70",
+    "courseSid": "c30ddd05-7357-4593-ae91-b413c17f0003",
+    "tripSid": "3968e578-a980-4b28-9a2b-39e9ff98e880",
+    "calendar": "weekday",
+    "time": "17:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11400100",
+    "stopName": "第二名座喜原（名護十字路・名護高校向け）",
+    "routeNo": "70",
+    "courseSid": "c30ddd05-7357-4593-ae91-b413c17f0003",
+    "tripSid": "7a39081e-0d63-41d0-9378-785447ff6e55",
+    "calendar": "weekday",
+    "time": "18:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11400100",
+    "stopName": "第二名座喜原（名護十字路・名護高校向け）",
+    "routeNo": "70",
+    "courseSid": "c30ddd05-7357-4593-ae91-b413c17f0003",
+    "tripSid": "462ef3d1-2ce1-4151-b2b1-21116f49e661",
+    "calendar": "saturday",
+    "time": "17:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11400100",
+    "stopName": "第二名座喜原（名護十字路・名護高校向け）",
+    "routeNo": "70",
+    "courseSid": "c30ddd05-7357-4593-ae91-b413c17f0003",
+    "tripSid": "35204ee7-6906-4b06-beff-5cd3654175d7",
+    "calendar": "saturday",
+    "time": "18:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11400100",
+    "stopName": "第二名座喜原（名護十字路・名護高校向け）",
+    "routeNo": "70",
+    "courseSid": "c30ddd05-7357-4593-ae91-b413c17f0003",
+    "tripSid": "671d08f5-aa2e-43b4-9756-b31a9072c495",
+    "calendar": "holiday",
+    "time": "17:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11400100",
+    "stopName": "第二名座喜原（名護十字路・名護高校向け）",
+    "routeNo": "70",
+    "courseSid": "c30ddd05-7357-4593-ae91-b413c17f0003",
+    "tripSid": "b1e0f3cb-84b7-4f11-ac4e-ba8f81fb4927",
+    "calendar": "holiday",
+    "time": "18:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11400100",
+    "stopName": "第二名座喜原（名護十字路・名護高校向け）",
+    "routeNo": "70",
+    "courseSid": "211a480d-6b64-4cbf-8361-c9425eb7d529",
+    "tripSid": "ad0ec10a-d850-435e-9669-c3d5ac01da0d",
+    "calendar": "weekday",
+    "time": "10:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11400100",
+    "stopName": "第二名座喜原（名護十字路・名護高校向け）",
+    "routeNo": "70",
+    "courseSid": "211a480d-6b64-4cbf-8361-c9425eb7d529",
+    "tripSid": "365d8a7e-a5c8-47db-a17d-ec839a57db8f",
+    "calendar": "saturday",
+    "time": "10:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11400100",
+    "stopName": "第二名座喜原（名護十字路・名護高校向け）",
+    "routeNo": "70",
+    "courseSid": "211a480d-6b64-4cbf-8361-c9425eb7d529",
+    "tripSid": "d92656bb-0a94-4a70-ba42-df1897bbbce6",
+    "calendar": "holiday",
+    "time": "10:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11400100",
+    "stopName": "第二名座喜原（名護十字路・名護高校向け）",
+    "routeNo": "76",
+    "courseSid": "7f8336c1-8553-43a9-81bc-9c01696444f0",
+    "tripSid": "a3f19e67-a5ba-4a13-9d81-4f668d493e25",
+    "calendar": "weekday",
+    "time": "08:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11400100",
+    "stopName": "第二名座喜原（名護十字路・名護高校向け）",
+    "routeNo": "76",
+    "courseSid": "7f8336c1-8553-43a9-81bc-9c01696444f0",
+    "tripSid": "bf4ea48a-0de4-4860-8ef4-51c763636894",
+    "calendar": "weekday",
+    "time": "19:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11400100",
+    "stopName": "第二名座喜原（名護十字路・名護高校向け）",
+    "routeNo": "76",
+    "courseSid": "7f8336c1-8553-43a9-81bc-9c01696444f0",
+    "tripSid": "4984eea4-e8e8-4e06-bdf8-16c97ce0e208",
+    "calendar": "saturday",
+    "time": "08:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11400100",
+    "stopName": "第二名座喜原（名護十字路・名護高校向け）",
+    "routeNo": "76",
+    "courseSid": "7f8336c1-8553-43a9-81bc-9c01696444f0",
+    "tripSid": "b45947c9-fc6d-4645-8769-01045ab30e83",
+    "calendar": "saturday",
+    "time": "19:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11400100",
+    "stopName": "第二名座喜原（名護十字路・名護高校向け）",
+    "routeNo": "76",
+    "courseSid": "7f8336c1-8553-43a9-81bc-9c01696444f0",
+    "tripSid": "b8e15a82-01d1-4c42-8043-4dd6142da1cf",
+    "calendar": "holiday",
+    "time": "08:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11400100",
+    "stopName": "第二名座喜原（名護十字路・名護高校向け）",
+    "routeNo": "76",
+    "courseSid": "7f8336c1-8553-43a9-81bc-9c01696444f0",
+    "tripSid": "512b052c-96fa-4ae5-9945-8511985b0218",
+    "calendar": "holiday",
+    "time": "19:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11400100",
+    "stopName": "第二名座喜原（名護十字路・名護高校向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5388715f-e66f-4d06-b04f-14c46fa25a4d",
+    "calendar": "weekday",
+    "time": "16:29",
+    "parentCompanyCode": "8000"
+  }
+]
