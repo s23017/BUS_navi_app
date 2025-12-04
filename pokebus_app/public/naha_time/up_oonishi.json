@@ -1,0 +1,42 @@
+[
+  {
+    "stationSid": "11410100",
+    "stopName": "大西五丁目（名護十字路・辺土名向け）",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "2cc5ebf4-720a-457f-97e6-4846bd8addfe",
+    "calendar": "weekday",
+    "time": "07:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11410100",
+    "stopName": "大西五丁目（名護十字路・辺土名向け）",
+    "routeNo": "67",
+    "courseSid": "68c8f8ad-0eca-47bc-b0a0-2e17a6f6fd63",
+    "tripSid": "7c5e1679-b482-44fc-82f1-04c1902e64df",
+    "calendar": "weekday",
+    "time": "16:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11410100",
+    "stopName": "大西五丁目（名護十字路・辺土名向け）",
+    "routeNo": "76",
+    "courseSid": "7f8336c1-8553-43a9-81bc-9c01696444f0",
+    "tripSid": "a3f19e67-a5ba-4a13-9d81-4f668d493e25",
+    "calendar": "weekday",
+    "time": "08:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11410100",
+    "stopName": "大西五丁目（名護十字路・辺土名向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5388715f-e66f-4d06-b04f-14c46fa25a4d",
+    "calendar": "weekday",
+    "time": "16:31",
+    "parentCompanyCode": "8000"
+  }
+]
