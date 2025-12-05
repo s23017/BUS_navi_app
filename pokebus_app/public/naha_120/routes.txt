@@ -1,0 +1,2 @@
+route_id,route_short_name,route_long_name,route_type,agency_id
+naha120_1,120,120 名護西空港線,3,naha_bus

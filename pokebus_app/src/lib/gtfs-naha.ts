@@ -1,4 +1,4 @@
-import { loadHanabusTimeTable, loadKamiizumiTimeTable, loadKentyouminamiTimeTable, loadNahakoukouTimeTable, loadKainanTimeTable, loadYogijuuziroTimeTable, NahaTimeIndex } from './nahaTime';
+import { loadHanabusTimeTable, loadKamiizumiTimeTable, loadKentyouminamiTimeTable, loadNahakoukouTimeTable, loadKainanTimeTable, loadYogijuuziroTimeTable, loadGinowankoukouTimeTable, NahaTimeIndex } from './nahaTime';
 
 export type GTFSData = {
   stops: any[];
@@ -15,6 +15,7 @@ let nahaKentyouminamiTimeCache: NahaTimeIndex | null = null;
 let nahaNahakoukouTimeCache: NahaTimeIndex | null = null;
 let nahaKainanTimeCache: NahaTimeIndex | null = null;
 let nahaYogijuuziroTimeCache: NahaTimeIndex | null = null;
+let nahaGinowankoukouTimeCache: NahaTimeIndex | null = null;
 
 const resolvePublicUrl = (relativePath: string) => {
   if (typeof window !== 'undefined') {
@@ -141,6 +142,150 @@ export function getYogijuuziroTimeTable(): NahaTimeIndex {
   return nahaYogijuuziroTimeCache;
 }
 
+export function getGinowankoukouTimeTable(): NahaTimeIndex {
+  if (!nahaGinowankoukouTimeCache) {
+    try {
+      nahaGinowankoukouTimeCache = loadGinowankoukouTimeTable();
+    } catch {
+      nahaGinowankoukouTimeCache = {};
+    }
+  }
+  return nahaGinowankoukouTimeCache;
+}
+
+type NahaTimeRecord = {
+  stationSid?: string;
+  stopName?: string;
+  routeNo?: string;
+  courseSid?: string;
+  tripSid?: string;
+  calendar?: string;
+  time?: string;
+  parentCompanyCode?: string;
+};
+
+type NahaTimeIndexByStation = Record<string, Record<string, Record<string, NahaTimeRecord[]>>>;
+
+function buildNahaTimeIndexByStation(index: NahaTimeIndex): NahaTimeIndexByStation {
+  const byStation: NahaTimeIndexByStation = {};
+
+  for (const routeNo of Object.keys(index)) {
+    const byCal = index[routeNo];
+    for (const cal of Object.keys(byCal)) {
+      const records = byCal[cal] as NahaTimeRecord[];
+      for (const rec of records) {
+        const sid = rec.stationSid;
+        if (!sid) continue;
+        if (!byStation[sid]) byStation[sid] = {};
+        if (!byStation[sid][routeNo]) byStation[sid][routeNo] = {};
+        if (!byStation[sid][routeNo][cal]) byStation[sid][routeNo][cal] = [];
+        byStation[sid][routeNo][cal].push(rec);
+      }
+    }
+  }
+
+  return byStation;
+}
+
+function normalizeStopName(name: string | undefined | null): string {
+  if (!name) return '';
+  let s = name.toString();
+  s = s.replace(/[\s　]+/g, '');
+  s = s.replace(/（.*?）/g, '').replace(/\(.*?\)/g, '');
+  return s;
+}
+
+function findNahaStopIdByName(gtfs: GTFSData, stopName: string | undefined | null): string | undefined {
+  const target = normalizeStopName(stopName);
+  if (!target) return undefined;
+
+  const candidates: string[] = [];
+  for (const stop of gtfs.stops) {
+    const id = stop?.stop_id as string | undefined;
+    if (!id || typeof id !== 'string') continue;
+    if (!id.startsWith('naha_')) continue;
+    const name = stop?.stop_name as string | undefined;
+    const norm = normalizeStopName(name);
+    if (!norm) continue;
+    if (norm === target) {
+      candidates.push(id);
+    }
+  }
+
+  if (candidates.length === 1) return candidates[0];
+  return undefined;
+}
+
+function buildRouteIdByKeito(gtfs: GTFSData): Record<string, string> {
+  const map: Record<string, string> = {};
+  for (const route of gtfs.routes) {
+    const id = route?.route_id as string | undefined;
+    const short = route?.route_short_name as string | undefined;
+    if (!id || !short) continue;
+    if (id.startsWith('naha_') || id.startsWith('naha_extra_')) {
+      map[short] = id;
+    }
+  }
+  return map;
+}
+
+function applyNahaTimeToStation(
+  gtfs: GTFSData,
+  nahaIndex: NahaTimeIndex,
+  stationSid: string,
+  options?: {
+    routeFilter?: (routeNo: string) => boolean;
+    allowFallbackFirstNahaStop?: boolean;
+  },
+): void {
+  const byStation = buildNahaTimeIndexByStation(nahaIndex);
+  const routeIdByKeito = buildRouteIdByKeito(gtfs);
+
+  const stationStopId = stationSid && stationSid !== 'dummy' ? `naha_${stationSid}` : undefined;
+
+  for (const routeNo of Object.keys(nahaIndex)) {
+    if (options?.routeFilter && !options.routeFilter(routeNo)) continue;
+    const routeId = routeIdByKeito[routeNo];
+    if (!routeId) continue;
+
+    const byCal = byStation[stationSid]?.[routeNo] ?? {};
+    for (const cal of Object.keys(byCal)) {
+      const records = byCal[cal];
+      for (const rec of records) {
+        const targetTime = rec.time;
+        if (!targetTime) continue;
+        const hhmmss = `${targetTime}:00`;
+
+        for (const trip of gtfs.trips) {
+          if (trip.route_id !== routeId) continue;
+          const tripId = trip.trip_id;
+
+          let resolvedStopId: string | undefined = stationStopId;
+          if (!resolvedStopId) {
+            resolvedStopId = findNahaStopIdByName(gtfs, rec.stopName);
+          }
+
+          let st = resolvedStopId
+            ? gtfs.stopTimes.find(
+                t => t.trip_id === tripId && t.stop_id === resolvedStopId,
+              )
+            : undefined;
+
+          if (!st && options?.allowFallbackFirstNahaStop) {
+            st = gtfs.stopTimes.find(
+              t => t.trip_id === tripId && typeof t.stop_id === 'string' && t.stop_id.startsWith('naha_'),
+            );
+          }
+
+          if (!st) continue;
+          st.departure_time = hhmmss;
+          st.arrival_time = hhmmss;
+        }
+      }
+    }
+  }
+}
+
 async function appendNahaExtraRoutes(gtfs: GTFSData) {
   if (nahaExtrasLoaded) return;
 
@@ -184,8 +329,12 @@ async function appendNahaExtraRoutes(gtfs: GTFSData) {
       }, [] as number[]);
       if (busIndices.length === 0) continue;
 
+      const keitouNo = route?.Course?.Keitou?.KeitouNo
+        ? route.Course.Keitou.KeitouNo.toString().trim()
+        : sourceKey.match(/^(\d+)/)?.[1];
+
       const descriptor = {
-        shortName: route.summary?.text || `${sourceKey} route`,
+        shortName: keitouNo || route.summary?.text || `${sourceKey} route`,
         longName: route.summary?.text || `${sourceKey} route`,
         headsign: route.summary?.text || `${sourceKey} route`,
       };
@@ -197,9 +346,11 @@ async function appendNahaExtraRoutes(gtfs: GTFSData) {
         ? route.courseSids.find((sid: string) => sid && sid.trim().length > 0)
         : undefined;
 
-      const routeId = keitouSid
-        ? `naha_extra_${keitouSid}`
-        : `naha_extra_${sourceKey}_${routeIdx + 1}`;
+      const routeId = keitouNo
+        ? `naha_extra_${keitouNo}`
+        : keitouSid
+          ? `naha_extra_${keitouSid}`
+          : `naha_extra_${sourceKey}_${routeIdx + 1}`;
       const tripId = courseSid
         ? `naha_extra_trip_${courseSid}`
         : `${routeId}_trip_${routeIdx + 1}`;
@@ -230,10 +381,10 @@ async function appendNahaExtraRoutes(gtfs: GTFSData) {
       const addStopByIndex = async (idx: number | undefined, times?: { arrival?: string; departure?: string }) => {
         if (typeof idx !== 'number' || idx < 0 || idx >= stopsArray.length) return;
         const stopObj = stopsArray[idx] || {};
-        const sidRaw = (stopObj.sid ?? stopObj.stop_id ?? '').toString().trim();
-        const fallbackId = sidRaw
-          ? `naha_${sidRaw}`
-          : `naha_extra_stop_${sourceKey}_${routeIdx + 1}_${stopSequence}`;
+        const existingStopId = (stopObj.stop_id ?? stopObj.stopId ?? '').toString().trim();
+        const sidRaw = (stopObj.sid ?? '').toString().trim();
+        const fallbackId = existingStopId
+          || (sidRaw ? `naha_${sidRaw}` : `naha_extra_stop_${sourceKey}_${routeIdx + 1}_${stopSequence}`);
         const stopNameRaw = (stopObj.name ?? stopObj.stop_name ?? fallbackId).toString().trim() || fallbackId;
 
         if (!existingStopIds.has(fallbackId)) {
@@ -307,6 +458,35 @@ async function appendNahaExtraRoutes(gtfs: GTFSData) {
       nahaExtrasLoaded = true;
     }
   }
+}
+
+async function loadMergedNahaTimeIndex(): Promise<NahaTimeIndex | null> {
+  const data = (await fetchJson('/naha_time_index_all.json')) as NahaTimeIndex | null;
+  if (!data || typeof data !== 'object') return null;
+  return data;
+}
+
+type TimeRecord113 = {
+  stationSid?: string;
+  stopName?: string;
+  routeNo?: string;
+  courseSid?: string;
+  tripSid?: string;
+  calendar?: string;
+  time?: string;
+  parentCompanyCode?: string;
+};
+
+type TimeIndex113 = {
+  [routeNo: string]: {
+    [calendar: string]: TimeRecord113[];
+  };
+};
+
+async function load113TimeIndex(): Promise<TimeIndex113 | null> {
+  const data = (await fetchJson('/time_index_113_all.json')) as TimeIndex113 | null;
+  if (!data || typeof data !== 'object') return null;
+  return data;
 }
 
 export async function loadNahaData(): Promise<GTFSData> {
@@ -427,43 +607,42 @@ export async function loadNahaData(): Promise<GTFSData> {
     // ignore
   }
 
-  // 那覇BT (Sid=5019101) の公式時刻表を反映
+  // 全 naha_time_index_all を使って那覇系 stop_times を一括で上書き
   try {
-    const hanabus = getHanabusTimeTable();
-    const stationStopId = 'naha_5019101';
+    const mergedIndex = await loadMergedNahaTimeIndex();
+    if (mergedIndex) {
+      const routeIdByKeito = buildRouteIdByKeito(gtfs);
 
-    const routeIdByKeito: Record<string, string> = {};
-    for (const route of gtfs.routes) {
-      const id = route?.route_id as string | undefined;
-      const short = route?.route_short_name as string | undefined;
-      if (!id || !short) continue;
-      if (id.startsWith('naha_')) {
-        routeIdByKeito[short] = id;
-      }
-    }
+      for (const routeNo of Object.keys(mergedIndex)) {
+        const routeId = routeIdByKeito[routeNo];
+        if (!routeId) continue;
 
-    for (const routeNo of Object.keys(hanabus)) {
-      const timesByCal = hanabus[routeNo];
-      const routeId = routeIdByKeito[routeNo];
-      if (!routeId) continue;
+        const byCal = mergedIndex[routeNo] || {};
+        for (const cal of Object.keys(byCal)) {
+          const records = byCal[cal] as NahaTimeRecord[];
+          for (const rec of records) {
+            const targetTime = rec.time;
+            if (!targetTime) continue;
+            const hhmmss = `${targetTime}:00`;
 
-      for (const calKey of Object.keys(timesByCal)) {
-        const records = timesByCal[calKey];
-        for (const rec of records) {
-          const targetTime = rec.time;
-          if (!targetTime) continue;
+            let resolvedStopId: string | undefined;
+            if (rec.stationSid) {
+              resolvedStopId = `naha_${rec.stationSid}`;
+            } else {
+              resolvedStopId = findNahaStopIdByName(gtfs, rec.stopName);
+            }
+            if (!resolvedStopId) continue;
 
-          const hhmmss = `${targetTime}:00`;
-
-          for (const trip of gtfs.trips) {
-            if (trip.route_id !== routeId) continue;
-            const tripId = trip.trip_id;
-            const st = gtfs.stopTimes.find(
-              t => t.trip_id === tripId && t.stop_id === stationStopId,
-            );
-            if (!st) continue;
-            st.departure_time = hhmmss;
-            st.arrival_time = hhmmss;
+            for (const trip of gtfs.trips) {
+              if (trip.route_id !== routeId) continue;
+              const tripId = trip.trip_id;
+              const st = gtfs.stopTimes.find(
+                t => t.trip_id === tripId && t.stop_id === resolvedStopId,
+              );
+              if (!st) continue;
+              st.departure_time = hhmmss;
+              st.arrival_time = hhmmss;
+            }
           }
         }
       }
@@ -472,43 +651,42 @@ export async function loadNahaData(): Promise<GTFSData> {
     // ignore
   }
 
-  // 上泉 (Sid=1020000) の公式時刻表を反映
+  // 113 系統の time_index_113_all を使って stop_times を上書き
   try {
-    const kamiizumi = getKamiizumiTimeTable();
-    const stationStopId = 'naha_1020000';
+    const idx113 = await load113TimeIndex();
+    if (idx113) {
+      const routeIdByKeito = buildRouteIdByKeito(gtfs);
 
-    const routeIdByKeito: Record<string, string> = {};
-    for (const route of gtfs.routes) {
-      const id = route?.route_id as string | undefined;
-      const short = route?.route_short_name as string | undefined;
-      if (!id || !short) continue;
-      if (id.startsWith('naha_')) {
-        routeIdByKeito[short] = id;
-      }
-    }
+      for (const routeNo of Object.keys(idx113)) {
+        const routeId = routeIdByKeito[routeNo];
+        if (!routeId) continue;
 
-    for (const routeNo of Object.keys(kamiizumi)) {
-      const timesByCal = kamiizumi[routeNo];
-      const routeId = routeIdByKeito[routeNo];
-      if (!routeId) continue;
+        const byCal = idx113[routeNo] || {};
+        for (const cal of Object.keys(byCal)) {
+          const records = byCal[cal] as TimeRecord113[];
+          for (const rec of records) {
+            const targetTime = rec.time;
+            if (!targetTime) continue;
+            const hhmmss = `${targetTime}:00`;
 
-      for (const calKey of Object.keys(timesByCal)) {
-        const records = timesByCal[calKey];
-        for (const rec of records) {
-          const targetTime = rec.time;
-          if (!targetTime) continue;
+            let resolvedStopId: string | undefined;
+            if (rec.stationSid) {
+              resolvedStopId = `naha_${rec.stationSid}`;
+            } else {
+              resolvedStopId = findNahaStopIdByName(gtfs, rec.stopName);
+            }
+            if (!resolvedStopId) continue;
 
-          const hhmmss = `${targetTime}:00`;
-
-          for (const trip of gtfs.trips) {
-            if (trip.route_id !== routeId) continue;
-            const tripId = trip.trip_id;
-            const st = gtfs.stopTimes.find(
-              t => t.trip_id === tripId && t.stop_id === stationStopId,
-            );
-            if (!st) continue;
-            st.departure_time = hhmmss;
-            st.arrival_time = hhmmss;
+            for (const trip of gtfs.trips) {
+              if (trip.route_id !== routeId) continue;
+              const tripId = trip.trip_id;
+              const st = gtfs.stopTimes.find(
+                t => t.trip_id === tripId && t.stop_id === resolvedStopId,
+              );
+              if (!st) continue;
+              st.departure_time = hhmmss;
+              st.arrival_time = hhmmss;
+            }
           }
         }
       }
@@ -517,186 +695,31 @@ export async function loadNahaData(): Promise<GTFSData> {
     // ignore
   }
 
-  // 県庁南口 (Sid=1010000) の公式時刻表を反映
+  // naha_time を使って、那覇系停留所の時刻を公式時刻表で上書きする
   try {
-    const kentyouminami = getKentyouminamiTimeTable();
-    const stationStopId = 'naha_1010000';
+    // 那覇BT (Sid=5019101)
+    applyNahaTimeToStation(gtfs, getHanabusTimeTable(), '5019101');
 
-    const routeIdByKeito: Record<string, string> = {};
-    for (const route of gtfs.routes) {
-      const id = route?.route_id as string | undefined;
-      const short = route?.route_short_name as string | undefined;
-      if (!id || !short) continue;
-      if (id.startsWith('naha_')) {
-        routeIdByKeito[short] = id;
-      }
-    }
+    // 上泉 (Sid=1020000)
+    applyNahaTimeToStation(gtfs, getKamiizumiTimeTable(), '1020000');
 
-    for (const routeNo of Object.keys(kentyouminami)) {
-      const timesByCal = kentyouminami[routeNo];
-      const routeId = routeIdByKeito[routeNo];
-      if (!routeId) continue;
+    // 県庁南口 (Sid=1010000)
+    applyNahaTimeToStation(gtfs, getKentyouminamiTimeTable(), '1010000');
 
-      for (const calKey of Object.keys(timesByCal)) {
-        const records = timesByCal[calKey];
-        for (const rec of records) {
-          const targetTime = rec.time;
-          if (!targetTime) continue;
+    // 与儀十字路（古島向け）(Sid=40800200)
+    applyNahaTimeToStation(gtfs, getYogijuuziroTimeTable(), '40800200');
 
-          const hhmmss = `${targetTime}:00`;
+    // 宜野湾高校前 (Sid は naha_time 側の stationSid を利用)
+    applyNahaTimeToStation(gtfs, getGinowankoukouTimeTable(), '40810300');
 
-          for (const trip of gtfs.trips) {
-            if (trip.route_id !== routeId) continue;
-            const tripId = trip.trip_id;
-            const st = gtfs.stopTimes.find(
-              t => t.trip_id === tripId && t.stop_id === stationStopId,
-            );
-            if (!st) continue;
-            st.departure_time = hhmmss;
-            st.arrival_time = hhmmss;
-          }
-        }
-      }
-    }
-  } catch {
-    // ignore
-  }
-
-  // 那覇高校前 (Sid 不明: stationSid が null のため、時間だけ利用)
-  // route_short_name に対応する routeNo ごとに、那覇高校前に最も近い那覇系停留所の時刻として上書きする
-  try {
-    const nahakoukou = getNahakoukouTimeTable();
-
-    // 系統番号 -> route_id
-    const routeIdByKeito: Record<string, string> = {};
-    for (const route of gtfs.routes) {
-      const id = route?.route_id as string | undefined;
-      const short = route?.route_short_name as string | undefined;
-      if (!id || !short) continue;
-      if (id.startsWith('naha_')) {
-        routeIdByKeito[short] = id;
-      }
-    }
-
-    for (const routeNo of Object.keys(nahakoukou)) {
-      const timesByCal = nahakoukou[routeNo];
-      const routeId = routeIdByKeito[routeNo];
-      if (!routeId) continue;
-
-      for (const calKey of Object.keys(timesByCal)) {
-        const records = timesByCal[calKey];
-        for (const rec of records) {
-          const targetTime = rec.time;
-          if (!targetTime) continue;
-
-          const hhmmss = `${targetTime}:00`;
-
-          for (const trip of gtfs.trips) {
-            if (trip.route_id !== routeId) continue;
-            const tripId = trip.trip_id;
-
-            // 仮に、この系統の最初の那覇停留所の時刻を「那覇高校前」とみなして上書き
-            const st = gtfs.stopTimes.find(
-              t => t.trip_id === tripId && typeof t.stop_id === 'string' && t.stop_id.startsWith('naha_'),
-            );
-            if (!st) continue;
-            st.departure_time = hhmmss;
-            st.arrival_time = hhmmss;
-          }
-        }
-      }
-    }
-  } catch {
-    // ignore
-  }
-
-  // 開南 (Sid 不明: stationSid が null のため、時間だけ利用)
-  // 那覇高校前と同様に、系統ごとに最初の那覇停留所の時刻を上書き
-  try {
-    const kainan = getKainanTimeTable();
-
-    const routeIdByKeito: Record<string, string> = {};
-    for (const route of gtfs.routes) {
-      const id = route?.route_id as string | undefined;
-      const short = route?.route_short_name as string | undefined;
-      if (!id || !short) continue;
-      if (id.startsWith('naha_')) {
-        routeIdByKeito[short] = id;
-      }
-    }
-
-    for (const routeNo of Object.keys(kainan)) {
-      const timesByCal = kainan[routeNo];
-      const routeId = routeIdByKeito[routeNo];
-      if (!routeId) continue;
-
-      for (const calKey of Object.keys(timesByCal)) {
-        const records = timesByCal[calKey];
-        for (const rec of records) {
-          const targetTime = rec.time;
-          if (!targetTime) continue;
-
-          const hhmmss = `${targetTime}:00`;
-
-          for (const trip of gtfs.trips) {
-            if (trip.route_id !== routeId) continue;
-            const tripId = trip.trip_id;
-
-            const st = gtfs.stopTimes.find(
-              t => t.trip_id === tripId && typeof t.stop_id === 'string' && t.stop_id.startsWith('naha_'),
-            );
-            if (!st) continue;
-            st.departure_time = hhmmss;
-            st.arrival_time = hhmmss;
-          }
-        }
-      }
-    }
-  } catch {
-    // ignore
-  }
-
-  // 与儀十字路（古島向け）(Sid=40800200) の公式時刻表を反映
-  try {
-    const yogijuuziro = getYogijuuziroTimeTable();
-    const stationStopId = 'naha_40800200';
-
-    const routeIdByKeito: Record<string, string> = {};
-    for (const route of gtfs.routes) {
-      const id = route?.route_id as string | undefined;
-      const short = route?.route_short_name as string | undefined;
-      if (!id || !short) continue;
-      if (id.startsWith('naha_')) {
-        routeIdByKeito[short] = id;
-      }
-    }
-
-    for (const routeNo of Object.keys(yogijuuziro)) {
-      const timesByCal = yogijuuziro[routeNo];
-      const routeId = routeIdByKeito[routeNo];
-      if (!routeId) continue;
-
-      for (const calKey of Object.keys(timesByCal)) {
-        const records = timesByCal[calKey];
-        for (const rec of records) {
-          const targetTime = rec.time;
-          if (!targetTime) continue;
-
-          const hhmmss = `${targetTime}:00`;
-
-          for (const trip of gtfs.trips) {
-            if (trip.route_id !== routeId) continue;
-            const tripId = trip.trip_id;
-            const st = gtfs.stopTimes.find(
-              t => t.trip_id === tripId && t.stop_id === stationStopId,
-            );
-            if (!st) continue;
-            st.departure_time = hhmmss;
-            st.arrival_time = hhmmss;
-          }
-        }
-      }
-    }
+    // 那覇高校前・開南は stationSid がないため、
+    // それぞれの系統の最初の那覇停留所に対して時刻を当てる形を維持する
+    applyNahaTimeToStation(gtfs, getNahakoukouTimeTable(), 'dummy', {
+      allowFallbackFirstNahaStop: true,
+    });
+    applyNahaTimeToStation(gtfs, getKainanTimeTable(), 'dummy', {
+      allowFallbackFirstNahaStop: true,
+    });
   } catch {
     // ignore
   }

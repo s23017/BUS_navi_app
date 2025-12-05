@@ -56,7 +56,12 @@ export default function BusRoutesModal({ visible, onClose, selectedStart, select
           )}
           {routeBuses.length > 0 && (
             <div className={styles.busList}>
-              {routeBuses.map((b: Bus) => (
+              {routeBuses.map((b: Bus) => {
+                const lineId = b.route_short_name || b.route_id;
+                const detail = b.route_long_name || '';
+                const routeLabel = detail ? `${lineId} ${detail}` : lineId;
+
+                return (
                 <div key={b.trip_id}
                   className={`${styles.busCard} ${selectedTripId === b.trip_id ? styles.selectedBus : ''}`}
                   onClick={() => handleSelectBus(b.trip_id)}
@@ -65,7 +70,7 @@ export default function BusRoutesModal({ visible, onClose, selectedStart, select
                   onMouseLeave={(e) => { if (selectedTripId !== b.trip_id) { (e.currentTarget as HTMLElement).style.backgroundColor = 'white'; (e.currentTarget as HTMLElement).style.borderColor = '#e0e0e0'; } }}
                 >
                   <div className={styles.busHeader} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: '12px' }}>
-                    <div className={styles.busNumber} style={{ fontSize: '18px', fontWeight: '600', color: '#007bff' }}>🚌 {b.route_short_name || b.route_long_name || b.route_id}</div>
+                    <div className={styles.busNumber} style={{ fontSize: '18px', fontWeight: '600', color: '#007bff' }}>🚌 {routeLabel}</div>
                     <div className={styles.busStatus} style={{ fontSize: '12px', color: selectedTripId === b.trip_id ? '#007bff' : '#666', fontWeight: '500' }}>{selectedTripId === b.trip_id ? '表示中' : 'タップして表示'}</div>
                   </div>
                   <div className={styles.busDetails} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
@@ -80,7 +85,7 @@ export default function BusRoutesModal({ visible, onClose, selectedStart, select
                     <div className={styles.stopsCount} style={{ fontSize: '14px', color: '#666', backgroundColor: '#f8f9fa', padding: '4px 8px', borderRadius: '12px', fontWeight: '500' }}>{b.stops_count}駅</div>
                   </div>
                 </div>
-              ))}
+              );})}
             </div>
           )}
           {!loadingRoute && routeBuses.length === 0 && selectedStart && selectedDest && (

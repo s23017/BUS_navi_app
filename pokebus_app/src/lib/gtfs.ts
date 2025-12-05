@@ -118,7 +118,7 @@ async function ensureBaseStopIndex() {
   const aliasMap = new Map<string, BaseStopEntry[]>();
   const list: BaseStopEntry[] = [];
   const seen = new Set<string>();
-  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni', 'naha'];
+  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni', 'naha', 'naha_120', 'naha_112', 'naha_55'];
 
   for (const company of companies) {
     try {
@@ -478,7 +478,7 @@ export async function loadStopMasterData() {
 
 export async function loadStops() {
   if (stopsCache) return stopsCache;
-  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni', 'naha'];
+  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni', 'naha', 'naha_120', 'naha_112', 'naha_55'];
   const merged: any[] = [];
   const seen = new Map<string, any>();
 
@@ -524,7 +524,7 @@ export async function loadStops() {
 
 export async function loadStopTimes() {
   if (stopTimesCache) return stopTimesCache;
-  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni', 'naha'];
+  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni', 'naha', 'naha_120', 'naha_112', 'naha_55'];
   const allStopTimes: any[] = [];
 
   for (const company of companies) {
@@ -549,7 +549,7 @@ export async function loadStopTimes() {
 
 export async function loadTrips() {
   if (tripsCache) return tripsCache;
-  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni', 'naha'];
+  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni', 'naha', 'naha_120', 'naha_112', 'naha_55'];
   const allTrips: any[] = [];
 
   for (const company of companies) {
