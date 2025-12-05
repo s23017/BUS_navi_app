@@ -1,0 +1,1308 @@
+{
+  "ＳＣＳＫ沖縄センター前（大謝名向け）": {
+    "matched": false
+  },
+  "東江（名護バスターミナル向け）": {
+    "matched": false
+  },
+  "東江入口（名護バスターミナル向け）": {
+    "matched": false
+  },
+  "安慶田（平良川・知花・宮里向け）": {
+    "matched": false
+  },
+  "安慶名（赤野・西田場向け）": {
+    "matched": false
+  },
+  "安富祖（名護向け）": {
+    "matched": false
+  },
+  "安謝（第二城間・パイプライン向け）": {
+    "matched": false
+  },
+  "安謝橋（第二城間・パイプライン向け）": {
+    "matched": false
+  },
+  "赤道十字路（県道75号線（宮里）方面）": {
+    "matched": false
+  },
+  "赤野（具志川バスターミナル向け）": {
+    "sid": "ca649b41-2225-4076-94a2-35a0e3aca427",
+    "nameCandidates": [
+      {
+        "sid": "ca649b41-2225-4076-94a2-35a0e3aca427",
+        "name": "赤野（具志川バスターミナル向け）",
+        "shortName": "赤野"
+      }
+    ],
+    "matched": true
+  },
+  "天久（浦添向け）": {
+    "matched": false
+  },
+  "安全運転学校前（胡屋向け）": {
+    "matched": false
+  },
+  "旭橋・那覇バスターミナル　のりば１１": {
+    "sid": "e6b942f3-9542-41e3-acad-22a2d44fbd13",
+    "nameCandidates": [
+      {
+        "sid": "e6b942f3-9542-41e3-acad-22a2d44fbd13",
+        "name": "旭橋・那覇バスターミナル　のりば１１",
+        "shortName": "旭橋・那覇バスターミナル"
+      }
+    ],
+    "matched": true
+  },
+  "安里（朝之浦）": {
+    "matched": false
+  },
+  "安里（又吉通り）（浦添向け）": {
+    "matched": false
+  },
+  "熱田（名護向け）": {
+    "matched": false
+  },
+  "ブルーシール本店前（大謝名向け）": {
+    "sid": "7da9fa37-c114-472b-bc11-7e00376de636",
+    "nameCandidates": [
+      {
+        "sid": "7da9fa37-c114-472b-bc11-7e00376de636",
+        "name": "ブルーシール本店前（大謝名向け）",
+        "shortName": "ブルーシール本店前"
+      }
+    ],
+    "matched": true
+  },
+  "ブセナリゾート前（名護市内向け）": {
+    "matched": false
+  },
+  "大学院大学前（名護向け）": {
+    "matched": false
+  },
+  "第五ゲ－ト（球陽高校向け）": {
+    "matched": false
+  },
+  "第一天久（浦添向け）": {
+    "matched": false
+  },
+  "第一仲西（大謝名向け）": {
+    "matched": false
+  },
+  "第一大山（北谷・胡屋向け）": {
+    "matched": false
+  },
+  "第二真志喜": {
+    "matched": false
+  },
+  "江洲（安慶名向け）": {
+    "matched": false
+  },
+  "宜野湾高校前": {
+    "sid": "36d51a42-0516-444a-88c3-bed17d272799",
+    "nameCandidates": [
+      {
+        "sid": "36d51a42-0516-444a-88c3-bed17d272799",
+        "name": "宜野湾高校前（大謝名・真志喜中向け）",
+        "shortName": "宜野湾高校前"
+      }
+    ],
+    "matched": true
+  },
+  "胡屋（平良川・知花・宮里向け）": {
+    "matched": false
+  },
+  "軍桟橋前（那覇空港→旭橋方面）": {
+    "matched": false
+  },
+  "具志川バスターミナル（終点）": {
+    "matched": false
+  },
+  "具志川商業高校入口（具志川バスターミナル向け）": {
+    "sid": "d70bd950-f88a-4ed2-be99-e8abdc74b042",
+    "nameCandidates": [
+      {
+        "sid": "d70bd950-f88a-4ed2-be99-e8abdc74b042",
+        "name": "具志川商業高校入口（具志川バスターミナル向け）",
+        "shortName": "具志川商業高校入口"
+      }
+    ],
+    "matched": true
+  },
+  "具志川郵便局前（安慶名向け）": {
+    "matched": false
+  },
+  "城間（大謝名向け）": {
+    "matched": false
+  },
+  "那覇バスターミナル　のりば １": {
+    "sid": "99644599-2a2a-4a6b-a1cc-98eef29788b4",
+    "nameCandidates": [
+      {
+        "sid": "99644599-2a2a-4a6b-a1cc-98eef29788b4",
+        "name": "那覇バスターミナル　のりば １",
+        "shortName": "那覇バスターミナル"
+      }
+    ],
+    "matched": true
+  },
+  "比謝（名護・楚辺・座喜味向け）": {
+    "matched": false
+  },
+  "比謝後原（名護・楚辺・座喜味向け）": {
+    "matched": false
+  },
+  "壺屋前": {
+    "sid": "828fba46-baa3-4eae-93af-6bd396a172e5",
+    "nameCandidates": [
+      {
+        "sid": "828fba46-baa3-4eae-93af-6bd396a172e5",
+        "name": "壺屋（那覇バスターミナル向け）",
+        "shortName": "壺屋"
+      }
+    ],
+    "matched": true
+  },
+  "北部合同庁舎前（名護バスターミナル・本部向け）": {
+    "matched": false
+  },
+  "ホテルコレクティブ前（安謝・古島向け）": {
+    "matched": false
+  },
+  "ホテルみゆきビーチ前（名護向け）": {
+    "matched": false
+  },
+  "福祉工場前（名護向け）": {
+    "matched": false
+  },
+  "フリーゾーン前（那覇バスターミナル向け）": {
+    "matched": false
+  },
+  "古島": {
+    "sid": "773c9126-4074-45c9-bb95-7f55e0fcb973",
+    "nameCandidates": [
+      {
+        "sid": "773c9126-4074-45c9-bb95-7f55e0fcb973",
+        "name": "古島（那覇向け）",
+        "shortName": "古島"
+      }
+    ],
+    "matched": true
+  },
+  "富着（名護向け）": {
+    "matched": false
+  },
+  "伊平（嘉手納・国体道路向け）": {
+    "matched": false
+  },
+  "伊武部（いんぶ）（名護市内向け）": {
+    "matched": false
+  },
+  "伊武部ビーチ前（名護市内向け）": {
+    "matched": false
+  },
+  "伊武部希望ヶ丘入口（名護市内向け）": {
+    "matched": false
+  },
+  "伊良皆（名護・座喜味向け）": {
+    "matched": false
+  },
+  "伊佐（北谷・胡屋向け）": {
+    "matched": false
+  },
+  "伊佐川（北谷・コンベンション向け）": {
+    "matched": false
+  },
+  "伊佐浜": {
+    "matched": false
+  },
+  "磯": {
+    "matched": false
+  },
+  "謝苅入口（嘉手納・国体道路向け）": {
+    "matched": false
+  },
+  "勢理客（第二城間・パイプライン向け）": {
+    "matched": false
+  },
+  "嘉手納（名護・楚辺・座喜味向け）": {
+    "matched": false
+  },
+  "嘉手納町役場前（読谷・名護向け）": {
+    "matched": false
+  },
+  "海浜公園前（読谷・名護向け）": {
+    "matched": false
+  },
+  "嘉間良（平良川・知花・宮里向け）": {
+    "matched": false
+  },
+  "神原（古島向け）": {
+    "matched": false
+  },
+  "上泉（与儀十字路向け）": {
+    "sid": "3b019032-e97a-4b0b-bf4a-4e28844e8ad5",
+    "nameCandidates": [
+      {
+        "sid": "3b019032-e97a-4b0b-bf4a-4e28844e8ad5",
+        "name": "上泉（那覇バスターミナル・小禄向け）",
+        "shortName": "上泉"
+      }
+    ],
+    "matched": true
+  },
+  "上勢頭（かみせど）（球陽高校向け）": {
+    "matched": false
+  },
+  "県営大山前": {
+    "matched": false
+  },
+  "県庁北口（国際通り・久茂地向け）": {
+    "matched": false
+  },
+  "県庁南口（与儀十字路向け）": {
+    "sid": "487a6eee-13ec-4830-9edc-627e845b1ed7",
+    "nameCandidates": [
+      {
+        "sid": "487a6eee-13ec-4830-9edc-627e845b1ed7",
+        "name": "県庁南口（那覇バスターミナル・旭橋向け）",
+        "shortName": "県庁南口"
+      }
+    ],
+    "matched": true
+  },
+  "喜名（名護向け）": {
+    "matched": false
+  },
+  "喜仲入口（安慶名向け）": {
+    "matched": false
+  },
+  "喜瀬（名護市内向け）": {
+    "matched": false
+  },
+  "北前": {
+    "matched": false
+  },
+  "湖辺底（こへんぞこ）（名護市内向け）": {
+    "matched": false
+  },
+  "国内線旅客ターミナル前（那覇バスターミナル向け）": {
+    "matched": false
+  },
+  "国際線旅客ターミナル前（那覇バスターミナル向け）": {
+    "matched": false
+  },
+  "コンベンション前": {
+    "matched": false
+  },
+  "公園前（那覇バスターミナル向け）": {
+    "matched": false
+  },
+  "幸喜（名護市内向け）": {
+    "matched": false
+  },
+  "航空隊入口（読谷・名護向け）": {
+    "matched": false
+  },
+  "興南高校前": {
+    "matched": false
+  },
+  "興南高校前（国際通り・開南・久茂地向け）": {
+    "matched": false
+  },
+  "コザ（安慶名・美里高校向け）": {
+    "matched": false
+  },
+  "久良波（名護向け）": {
+    "matched": false
+  },
+  "桑江（嘉手納・国体道路向け）": {
+    "matched": false
+  },
+  "許田（名護市内向け）": {
+    "matched": false
+  },
+  "球陽高校前（胡屋向け）": {
+    "sid": "a7c23889-5134-4aba-9eed-400765c653cd",
+    "nameCandidates": [
+      {
+        "sid": "a7c23889-5134-4aba-9eed-400765c653cd",
+        "name": "球陽高校前（謝苅入口・山内中向け）",
+        "shortName": "球陽高校前"
+      }
+    ],
+    "matched": true
+  },
+  "前兼久（名護向け）": {
+    "matched": false
+  },
+  "真嘉比": {
+    "matched": false
+  },
+  "牧港": {
+    "matched": false
+  },
+  "牧港ブルーシール本店北側（大謝名・真志喜中学校向け）": {
+    "matched": false
+  },
+  "牧志（安謝・古島向け）": {
+    "matched": false
+  },
+  "万座ビーチ前（名護向け）": {
+    "matched": false
+  },
+  "真志喜": {
+    "matched": false
+  },
+  "美浜アメリカンビレッジ入口（嘉手納方面）": {
+    "matched": false
+  },
+  "美原一丁目（安慶名向け）": {
+    "matched": false
+  },
+  "南恩納（名護向け）": {
+    "matched": false
+  },
+  "港川（大謝名向け）": {
+    "matched": false
+  },
+  "美里入口（安慶名向け）": {
+    "matched": false
+  },
+  "道の駅許田（名護向け）": {
+    "matched": false
+  },
+  "宮城（大謝名向け）": {
+    "matched": false
+  },
+  "宮里一丁目（名護バスターミナル向け）": {
+    "matched": false
+  },
+  "宮里三丁目（名護バスーミナル向け）": {
+    "matched": false
+  },
+  "水釜（読谷・名護向け）": {
+    "matched": false
+  },
+  "黙想の家入口（名護向け）": {
+    "matched": false
+  },
+  "諸見（コザ向け）": {
+    "matched": false
+  },
+  "ムーンビーチ前（名護向け）": {
+    "matched": false
+  },
+  "名護バスターミナル": {
+    "matched": false
+  },
+  "名護十字路（名護バスターミナル・本部向け）": {
+    "matched": false
+  },
+  "仲泊（名護向け）": {
+    "matched": false
+  },
+  "名嘉真（名護向け）": {
+    "matched": false
+  },
+  "仲西（大謝名向け）": {
+    "matched": false
+  },
+  "中之橋（浦添向け）": {
+    "sid": "e7f49cd1-e186-4742-a45e-b313fc96976b",
+    "nameCandidates": [
+      {
+        "sid": "e7f49cd1-e186-4742-a45e-b313fc96976b",
+        "name": "中之橋（浦添向け）",
+        "shortName": "中之橋"
+      }
+    ],
+    "matched": true
+  },
+  "中の町（コザ向け）": {
+    "matched": false
+  },
+  "名護城入口（名護バスターミナル・本部向け）": {
+    "matched": false
+  },
+  "西田場（具志川バスターミナル向け）": {
+    "matched": false
+  },
+  "農協前": {
+    "matched": false
+  },
+  "おもろまち": {
+    "matched": false
+  },
+  "恩納小中学校前（名護向け）": {
+    "matched": false
+  },
+  "大平": {
+    "matched": false
+  },
+  "大謝名": {
+    "matched": false
+  },
+  "大南（名護バスターミナル向け）": {
+    "matched": false
+  },
+  "大中（名護バスターミナル・本部向け）": {
+    "matched": false
+  },
+  "大西（名護バスターミナル・本部向け）": {
+    "matched": false
+  },
+  "太田後原（名護向け）": {
+    "matched": false
+  },
+  "大湾（名護・楚辺・座喜味向け）": {
+    "matched": false
+  },
+  "大山（北谷・胡屋向け）": {
+    "matched": false
+  },
+  "親志入口（名護向け）": {
+    "matched": false
+  },
+  "ラグナガーデン前": {
+    "matched": false
+  },
+  "老人ホーム前": {
+    "matched": false
+  },
+  "ルネッサンスホテル前（名護向け）": {
+    "matched": false
+  },
+  "琉球村（名護向け）": {
+    "matched": false
+  },
+  "サンマリーナホテル前（名護向け）": {
+    "matched": false
+  },
+  "瀬良垣（名護向け）": {
+    "matched": false
+  },
+  "瀬良垣ビーチ前（名護向け）": {
+    "matched": false
+  },
+  "市営伊佐": {
+    "matched": false
+  },
+  "シーサイドハウス前（名護向け）": {
+    "matched": false
+  },
+  "志林川（安慶名向け）": {
+    "matched": false
+  },
+  "園田（コザ向け）": {
+    "matched": false
+  },
+  "崇元寺（浦添向け）": {
+    "sid": "6ffe320c-e5fb-495a-b02b-f8399c411696",
+    "nameCandidates": [
+      {
+        "sid": "6ffe320c-e5fb-495a-b02b-f8399c411696",
+        "name": "崇元寺（浦添向け）",
+        "shortName": "崇元寺"
+      }
+    ],
+    "matched": true
+  },
+  "末吉団地前": {
+    "matched": false
+  },
+  "数久田（名護市内向け）": {
+    "matched": false
+  },
+  "砂辺（読谷・嘉手納向け）": {
+    "matched": false
+  },
+  "タイガービーチ前（名護向け）": {
+    "matched": false
+  },
+  "平良川（安慶名向け）": {
+    "matched": false
+  },
+  "田崇志（仮）": {
+    "matched": false
+  },
+  "谷茶（恩納村）（名護向け）": {
+    "matched": false
+  },
+  "谷茶の丘（名護向け）": {
+    "matched": false
+  },
+  "泊高橋（浦添向け）": {
+    "matched": false
+  },
+  "壺屋": {
+    "sid": "828fba46-baa3-4eae-93af-6bd396a172e5",
+    "nameCandidates": [
+      {
+        "sid": "828fba46-baa3-4eae-93af-6bd396a172e5",
+        "name": "壺屋（那覇バスターミナル向け）",
+        "shortName": "壺屋"
+      }
+    ],
+    "matched": true
+  },
+  "北谷": {
+    "matched": false
+  },
+  "北谷高校入口（球陽高校向け）": {
+    "sid": "e6b45020-10de-427d-ba27-c2fd96c7b4ee",
+    "nameCandidates": [
+      {
+        "sid": "e6b45020-10de-427d-ba27-c2fd96c7b4ee",
+        "name": "北谷高校入口（北谷高校向け）",
+        "shortName": "北谷高校入口(南側)"
+      }
+    ],
+    "matched": true
+  },
+  "中部病院前（喜屋武方面）": {
+    "matched": false
+  },
+  "中農前（赤野・西田場向け）": {
+    "matched": false
+  },
+  "上之屋（浦添向け）": {
+    "matched": false
+  },
+  "上平良川（安慶名向け）": {
+    "matched": false
+  },
+  "ＳＣＳＫ沖縄センター前（安謝向け）": {
+    "matched": false
+  },
+  "東江（那覇・二見向け）": {
+    "matched": false
+  },
+  "東江入口（那覇・二見向け）": {
+    "matched": false
+  },
+  "安慶田（山里・沖縄南IC向け）": {
+    "matched": false
+  },
+  "安慶名（胡屋向け）": {
+    "matched": false
+  },
+  "安富祖（那覇向け）": {
+    "matched": false
+  },
+  "安謝（国際通り・久茂地・おもろまち向け）": {
+    "matched": false
+  },
+  "安謝橋（国際通り・久茂地・おもろまち向け）": {
+    "matched": false
+  },
+  "赤道十字路（胡屋向け）": {
+    "matched": false
+  },
+  "赤野（胡屋向け）": {
+    "sid": "ca649b41-2225-4076-94a2-35a0e3aca427",
+    "nameCandidates": [
+      {
+        "sid": "ca649b41-2225-4076-94a2-35a0e3aca427",
+        "name": "赤野（具志川バスターミナル向け）",
+        "shortName": "赤野"
+      }
+    ],
+    "matched": true
+  },
+  "天久（国際通り・久茂地・おもろまち向け）": {
+    "matched": false
+  },
+  "安全運転学校前（伊平・沖縄南IC向け）": {
+    "matched": false
+  },
+  "旭橋・那覇バスターミナル（公園前向け）": {
+    "matched": false
+  },
+  "安里（那覇バスターミナル・旭橋向け）": {
+    "matched": false
+  },
+  "浅野浦（古島駅向け）": {
+    "matched": false
+  },
+  "熱田（那覇向け）": {
+    "matched": false
+  },
+  "ブセナリゾート前（那覇向け）": {
+    "matched": false
+  },
+  "大学院大学前（那覇向け）": {
+    "matched": false
+  },
+  "第五ゲ－ト（北谷向け）": {
+    "matched": false
+  },
+  "第一天久（国際通り・久茂地・おもろまち向け）": {
+    "matched": false
+  },
+  "第一仲西（泊高橋・おもろまち向け）": {
+    "matched": false
+  },
+  "第一大山（那覇向け）": {
+    "matched": false
+  },
+  "第二真志喜（大謝名向け）": {
+    "matched": false
+  },
+  "第二名座喜原（名護十字路・名護高校向け）": {
+    "matched": false
+  },
+  "江洲（胡屋向け）": {
+    "matched": false
+  },
+  "宜野湾高校前（大謝名・真志喜中向け）": {
+    "sid": "36d51a42-0516-444a-88c3-bed17d272799",
+    "nameCandidates": [
+      {
+        "sid": "36d51a42-0516-444a-88c3-bed17d272799",
+        "name": "宜野湾高校前（大謝名・真志喜中向け）",
+        "shortName": "宜野湾高校前"
+      }
+    ],
+    "matched": true
+  },
+  "宜野湾市農協前（コンベンション向け）": {
+    "matched": false
+  },
+  "胡屋（山里・沖縄南IC向け）": {
+    "matched": false
+  },
+  "軍桟橋前（高良・那覇空港向け）": {
+    "matched": false
+  },
+  "具志川バスターミナル（起点）（胡屋向け）": {
+    "matched": false
+  },
+  "具志川商業高校入口（胡屋向け）": {
+    "sid": "d70bd950-f88a-4ed2-be99-e8abdc74b042",
+    "nameCandidates": [
+      {
+        "sid": "d70bd950-f88a-4ed2-be99-e8abdc74b042",
+        "name": "具志川商業高校入口（具志川バスターミナル向け）",
+        "shortName": "具志川商業高校入口"
+      }
+    ],
+    "matched": true
+  },
+  "具志川郵便局前（胡屋向け）": {
+    "matched": false
+  },
+  "城間（安謝向け）": {
+    "matched": false
+  },
+  "比謝（那覇・知花向け）": {
+    "matched": false
+  },
+  "比謝後原（那覇・知花向け）": {
+    "matched": false
+  },
+  "姫百合橋（与儀十字路方面）": {
+    "sid": "240412ac-c3b5-49b2-8f07-f3a2c6ab4f05",
+    "nameCandidates": [
+      {
+        "sid": "240412ac-c3b5-49b2-8f07-f3a2c6ab4f05",
+        "name": "姫百合橋（与儀十字路方面）",
+        "shortName": "姫百合橋"
+      }
+    ],
+    "matched": true
+  },
+  "北部合同庁舎前（世富慶・伊差川・名護バスターミナル向け）": {
+    "matched": false
+  },
+  "ホテルコレクティブ前（那覇バスターミナル・旭橋向け）": {
+    "matched": false
+  },
+  "ホテルみゆきビーチ前（那覇向け）": {
+    "matched": false
+  },
+  "福祉工場前（那覇向け）": {
+    "matched": false
+  },
+  "フリーゾーン前（那覇空港向け）": {
+    "matched": false
+  },
+  "古島駅前（おもろまち駅向け）": {
+    "matched": false
+  },
+  "富着（那覇向け）": {
+    "matched": false
+  },
+  "伊平（那覇・コンベンション向け）": {
+    "matched": false
+  },
+  "伊武部（いんぶ）（那覇向け）": {
+    "matched": false
+  },
+  "伊武部ビーチ前（那覇向け）": {
+    "matched": false
+  },
+  "伊武部希望ヶ丘入口（那覇向け）": {
+    "matched": false
+  },
+  "伊良皆（那覇・知花向け）": {
+    "matched": false
+  },
+  "伊佐（那覇向け）": {
+    "matched": false
+  },
+  "伊佐川（那覇・普天間向け）": {
+    "matched": false
+  },
+  "伊佐浜（那覇・コンベンション向け）": {
+    "matched": false
+  },
+  "伊祖（古島駅向け）": {
+    "sid": "4e0679f1-8559-44f1-b310-35701c48b266",
+    "nameCandidates": [
+      {
+        "sid": "4e0679f1-8559-44f1-b310-35701c48b266",
+        "name": "伊祖四丁目（那覇向け）",
+        "shortName": "伊祖四丁目"
+      }
+    ],
+    "matched": true
+  },
+  "謝苅入口（那覇・コンベンション向け）": {
+    "matched": false
+  },
+  "勢理客（安謝方面）": {
+    "matched": false
+  },
+  "嘉手納（那覇・知花向け）": {
+    "matched": false
+  },
+  "嘉手納町役場前（那覇向け）": {
+    "matched": false
+  },
+  "海浜公園前（那覇向け）": {
+    "matched": false
+  },
+  "上泉（那覇バスターミナル・小禄向け）": {
+    "sid": "3b019032-e97a-4b0b-bf4a-4e28844e8ad5",
+    "nameCandidates": [
+      {
+        "sid": "3b019032-e97a-4b0b-bf4a-4e28844e8ad5",
+        "name": "上泉（那覇バスターミナル・小禄向け）",
+        "shortName": "上泉"
+      }
+    ],
+    "matched": true
+  },
+  "上勢頭（かみせど）（北谷向け）": {
+    "matched": false
+  },
+  "県営大山住宅前（コンベンション向け）": {
+    "matched": false
+  },
+  "県庁南口（那覇バスターミナル・旭橋向け）": {
+    "sid": "487a6eee-13ec-4830-9edc-627e845b1ed7",
+    "nameCandidates": [
+      {
+        "sid": "487a6eee-13ec-4830-9edc-627e845b1ed7",
+        "name": "県庁南口（那覇バスターミナル・旭橋向け）",
+        "shortName": "県庁南口"
+      }
+    ],
+    "matched": true
+  },
+  "県立北部病院前（名護BT・世富慶向け）": {
+    "matched": false
+  },
+  "県庁北口（那覇バスターミナル・旭橋向け）": {
+    "matched": false
+  },
+  "喜名（那覇・知花向け）": {
+    "matched": false
+  },
+  "喜仲入口（胡屋向け）": {
+    "matched": false
+  },
+  "喜瀬（那覇向け）": {
+    "matched": false
+  },
+  "北前（那覇・コンベンション向け）": {
+    "matched": false
+  },
+  "湖辺底（こへんぞこ）（那覇向け）": {
+    "matched": false
+  },
+  "国際線旅客ターミナル前（終点）": {
+    "matched": false
+  },
+  "コンベンションセンター前（那覇・宜野湾営業所向け）": {
+    "sid": "0800da07-4007-4b4b-98f0-83fc8d9a7089",
+    "nameCandidates": [
+      {
+        "sid": "0800da07-4007-4b4b-98f0-83fc8d9a7089",
+        "name": "コンベンションセンター前（那覇・宜野湾営業所向け）",
+        "shortName": "コンベンションセンター前"
+      }
+    ],
+    "matched": true
+  },
+  "公園前（高良・小禄・空港向け）": {
+    "matched": false
+  },
+  "幸喜（那覇向け）": {
+    "matched": false
+  },
+  "航空隊入口（那覇向け）": {
+    "matched": false
+  },
+  "久良波（那覇向け）": {
+    "matched": false
+  },
+  "桑江（那覇・コンベンション向け）": {
+    "matched": false
+  },
+  "許田（那覇向け）": {
+    "matched": false
+  },
+  "球陽高校前（謝苅入口・山内中向け）": {
+    "sid": "a7c23889-5134-4aba-9eed-400765c653cd",
+    "nameCandidates": [
+      {
+        "sid": "a7c23889-5134-4aba-9eed-400765c653cd",
+        "name": "球陽高校前（謝苅入口・山内中向け）",
+        "shortName": "球陽高校前"
+      }
+    ],
+    "matched": true
+  },
+  "前兼久（那覇向け）": {
+    "matched": false
+  },
+  "真嘉比（国際通り・開南・久茂地向け）": {
+    "matched": false
+  },
+  "牧港（古島駅向け）": {
+    "matched": false
+  },
+  "牧港ブルーシール本店北側（安謝向け）": {
+    "matched": false
+  },
+  "牧志（那覇バスターミナル・旭橋向け）": {
+    "matched": false
+  },
+  "万座ビーチ前（那覇向け）": {
+    "matched": false
+  },
+  "真志喜（那覇向け）": {
+    "matched": false
+  },
+  "真志喜（大謝名向け）": {
+    "matched": false
+  },
+  "美浜アメリカンビレッジ入口（宜野湾市方面）": {
+    "matched": false
+  },
+  "美原一丁目（胡屋向け）": {
+    "matched": false
+  },
+  "南恩納（那覇向け）": {
+    "matched": false
+  },
+  "港川（安謝向け）": {
+    "matched": false
+  },
+  "美里入口（胡屋向け）": {
+    "matched": false
+  },
+  "道の駅許田（那覇向け）": {
+    "matched": false
+  },
+  "宮城（安謝向け）": {
+    "matched": false
+  },
+  "宮里三丁目（世富慶・伊差川向け）": {
+    "matched": false
+  },
+  "宮里一丁目（世富慶・伊差川向け） リクエスト メソッド": {
+    "matched": false
+  },
+  "水釜（那覇向け）": {
+    "matched": false
+  },
+  "黙想の家入口（那覇向け）": {
+    "matched": false
+  },
+  "桃山（第五ゲート向け）": {
+    "matched": false
+  },
+  "諸見（普天間・球陽高校向け）": {
+    "matched": false
+  },
+  "ムーンビーチ前（那覇向け）": {
+    "matched": false
+  },
+  "名護バスターミナル（名護市内向け）": {
+    "matched": false
+  },
+  "名護十字路（名護BT・世富慶向け）": {
+    "matched": false
+  },
+  "名護十字路（世富慶・名護バスターミナル向け）": {
+    "matched": false
+  },
+  "名護高校前（名護十字路・辺土名向け）": {
+    "matched": false
+  },
+  "名護商工高校前（名護十字路・辺土名向け）": {
+    "matched": false
+  },
+  "那覇バスターミナル　おりば Ｅ": {
+    "sid": "e34129f4-8c03-476c-b1d7-3e14c8b5469c",
+    "nameCandidates": [
+      {
+        "sid": "e34129f4-8c03-476c-b1d7-3e14c8b5469c",
+        "name": "那覇バスターミナル　おりば Ｅ",
+        "shortName": "那覇バスターミナル"
+      }
+    ],
+    "matched": true
+  },
+  "国内線旅客ターミナル前（終点・国際線向け）": {
+    "matched": false
+  },
+  "仲泊（那覇向け）": {
+    "matched": false
+  },
+  "中区（名護十字路向け）": {
+    "matched": false
+  },
+  "名嘉真（那覇向け）": {
+    "matched": false
+  },
+  "仲西（泊高橋・おもろまち向け）": {
+    "matched": false
+  },
+  "中之橋（国際通り向け）": {
+    "sid": "e7f49cd1-e186-4742-a45e-b313fc96976b",
+    "nameCandidates": [
+      {
+        "sid": "e7f49cd1-e186-4742-a45e-b313fc96976b",
+        "name": "中之橋（浦添向け）",
+        "shortName": "中之橋"
+      }
+    ],
+    "matched": true
+  },
+  "中の町（山里・沖縄南IC向け）": {
+    "matched": false
+  },
+  "西区前（那覇向け）": {
+    "sid": "11ec24f9-d541-41ab-87a4-0a3180e7bf74",
+    "nameCandidates": [
+      {
+        "sid": "11ec24f9-d541-41ab-87a4-0a3180e7bf74",
+        "name": "西区前（那覇向け）",
+        "shortName": "西区前"
+      }
+    ],
+    "matched": true
+  },
+  "西田場（胡屋向け）": {
+    "matched": false
+  },
+  "沖縄タイムス前（那覇バスターミナル・旭橋向け）": {
+    "matched": false
+  },
+  "おもろまち駅前（国際通り・開南・久茂地向け）": {
+    "matched": false
+  },
+  "恩納（那覇向け）": {
+    "matched": false
+  },
+  "恩納村役場前（那覇向け）": {
+    "matched": false
+  },
+  "恩納小中学校前（那覇向け）": {
+    "matched": false
+  },
+  "大平（浦添市）（古島駅向け）": {
+    "matched": false
+  },
+  "大謝名（牧港向け）": {
+    "matched": false
+  },
+  "大北（名護十字路向け）": {
+    "matched": false
+  },
+  "大南（世富慶・伊差川向け）": {
+    "matched": false
+  },
+  "大西五丁目（名護十字路・辺土名向け）": {
+    "matched": false
+  },
+  "大西（世富慶・伊差川・名護バスターミナル向け）": {
+    "matched": false
+  },
+  "太田後原（那覇向け）": {
+    "matched": false
+  },
+  "大湾（那覇・知花向け）": {
+    "matched": false
+  },
+  "大山（那覇向け）": {
+    "matched": false
+  },
+  "親志入口（那覇向け）": {
+    "matched": false
+  },
+  "ラ・ジェント・ホテル沖縄那覇前（久茂地方面）": {
+    "matched": false
+  },
+  "老人ホーム愛誠園前（コンベンション向け）": {
+    "matched": false
+  },
+  "ルネッサンスホテル前（那覇向け）": {
+    "matched": false
+  },
+  "琉球村（那覇向け）": {
+    "matched": false
+  },
+  "サンマリーナホテル前（那覇向け）": {
+    "matched": false
+  },
+  "瀬良垣（那覇向け）": {
+    "matched": false
+  },
+  "瀬良垣ビーチ前（那覇向け）": {
+    "matched": false
+  },
+  "シーサイドハウス前（那覇向け）": {
+    "matched": false
+  },
+  "市営伊佐住宅前（コンベンション向け）": {
+    "matched": false
+  },
+  "志林川（胡屋向け）": {
+    "matched": false
+  },
+  "園田（山里・沖縄南IC向け）": {
+    "matched": false
+  },
+  "崇元寺（国際通り向け）": {
+    "sid": "6ffe320c-e5fb-495a-b02b-f8399c411696",
+    "nameCandidates": [
+      {
+        "sid": "6ffe320c-e5fb-495a-b02b-f8399c411696",
+        "name": "崇元寺（浦添向け）",
+        "shortName": "崇元寺"
+      }
+    ],
+    "matched": true
+  },
+  "末吉団地前（おもろまち駅向け）": {
+    "matched": false
+  },
+  "数久田（那覇向け）": {
+    "matched": false
+  },
+  "砂辺（那覇向け）": {
+    "matched": false
+  },
+  "タイガービーチ前（那覇向け）": {
+    "matched": false
+  },
+  "平良川（胡屋向け）": {
+    "matched": false
+  },
+  "沢岻（おもろまち駅向け）": {
+    "matched": false
+  },
+  "谷茶（恩納村）（那覇向け）": {
+    "matched": false
+  },
+  "谷茶の丘（那覇向け）": {
+    "matched": false
+  },
+  "泊高橋（国際通り向け）": {
+    "matched": false
+  },
+  "泊高橋（那覇バスターミナル・旭橋向け）": {
+    "matched": false
+  },
+  "壺屋（那覇バスターミナル向け）": {
+    "sid": "828fba46-baa3-4eae-93af-6bd396a172e5",
+    "nameCandidates": [
+      {
+        "sid": "828fba46-baa3-4eae-93af-6bd396a172e5",
+        "name": "壺屋（那覇バスターミナル向け）",
+        "shortName": "壺屋"
+      }
+    ],
+    "matched": true
+  },
+  "北谷（那覇・コンベンション向け）": {
+    "matched": false
+  },
+  "北谷高校入口（北谷向け）": {
+    "sid": "e6b45020-10de-427d-ba27-c2fd96c7b4ee",
+    "nameCandidates": [
+      {
+        "sid": "e6b45020-10de-427d-ba27-c2fd96c7b4ee",
+        "name": "北谷高校入口（北谷高校向け）",
+        "shortName": "北谷高校入口(南側)"
+      }
+    ],
+    "matched": true
+  },
+  "北谷町老人福祉センター前（北谷向け）": {
+    "matched": false
+  },
+  "中部病院前（胡屋向け）": {
+    "matched": false
+  },
+  "中農前（胡屋向け）": {
+    "matched": false
+  },
+  "上之屋（国際通り・久茂地向け）": {
+    "matched": false
+  },
+  "上平良川（胡屋向け）": {
+    "matched": false
+  },
+  "うるま市役所前（胡屋向け）": {
+    "sid": "5d3eee77-0c8f-4bf0-b3cc-0b63b8cf4bf3",
+    "nameCandidates": [
+      {
+        "sid": "5d3eee77-0c8f-4bf0-b3cc-0b63b8cf4bf3",
+        "name": "うるま市役所前（具志川バスターミナル向け）",
+        "shortName": "うるま市役所前"
+      }
+    ],
+    "matched": true
+  },
+  "宇地泊（安謝・バイパス向け）": {
+    "matched": false
+  },
+  "屋富祖（安謝向け）": {
+    "matched": false
+  },
+  "屋嘉田（那覇向け）": {
+    "matched": false
+  },
+  "山田（那覇向け）": {
+    "matched": false
+  },
+  "山内（球陽高校向け）": {
+    "sid": "ac31efe9-80b7-423a-b1b7-ce83e70b9082",
+    "nameCandidates": [
+      {
+        "sid": "ac31efe9-80b7-423a-b1b7-ce83e70b9082",
+        "name": "山内（球陽高校向け）",
+        "shortName": "山内"
+      }
+    ],
+    "matched": true
+  },
+  "山内中学校前（北谷高校・国体道路向け）": {
+    "sid": "7f1a00b2-9350-4218-896d-bf44a46608ad",
+    "nameCandidates": [
+      {
+        "sid": "7f1a00b2-9350-4218-896d-bf44a46608ad",
+        "name": "山内中学校前（北谷高校・国体道路向け）",
+        "shortName": "山内中学校前"
+      }
+    ],
+    "matched": true
+  },
+  "山里（普天間・球陽高校向け）": {
+    "matched": false
+  },
+  "与儀十字路（与儀公園前　開南・古波蔵方面）": {
+    "sid": "485f8739-f085-4af9-a271-62e4139e72e0",
+    "nameCandidates": [
+      {
+        "sid": "485f8739-f085-4af9-a271-62e4139e72e0",
+        "name": "与儀十字路（与儀公園前　開南・古波蔵方面）",
+        "shortName": "与儀十字路"
+      }
+    ],
+    "matched": true
+  },
+  "世冨慶（那覇・二見向け）": {
+    "matched": false
+  },
+  "吉原入口（胡屋向け）": {
+    "matched": false
+  },
+  "陽明高校前（古島駅向け）": {
+    "matched": false
+  },
+  "うるま市役所前（具志川バスターミナル向け）": {
+    "sid": "5d3eee77-0c8f-4bf0-b3cc-0b63b8cf4bf3",
+    "nameCandidates": [
+      {
+        "sid": "5d3eee77-0c8f-4bf0-b3cc-0b63b8cf4bf3",
+        "name": "うるま市役所前（具志川バスターミナル向け）",
+        "shortName": "うるま市役所前"
+      }
+    ],
+    "matched": true
+  },
+  "内泊": {
+    "matched": false
+  },
+  "屋富祖（大謝名向け）": {
+    "matched": false
+  },
+  "屋嘉田（名護向け）": {
+    "matched": false
+  },
+  "山田（名護向け）": {
+    "matched": false
+  },
+  "山内（胡屋向け）": {
+    "sid": "ac31efe9-80b7-423a-b1b7-ce83e70b9082",
+    "nameCandidates": [
+      {
+        "sid": "ac31efe9-80b7-423a-b1b7-ce83e70b9082",
+        "name": "山内（球陽高校向け）",
+        "shortName": "山内"
+      }
+    ],
+    "matched": true
+  },
+  "山内中学校前（胡屋向け）": {
+    "sid": "7f1a00b2-9350-4218-896d-bf44a46608ad",
+    "nameCandidates": [
+      {
+        "sid": "7f1a00b2-9350-4218-896d-bf44a46608ad",
+        "name": "山内中学校前（北谷高校・国体道路向け）",
+        "shortName": "山内中学校前"
+      }
+    ],
+    "matched": true
+  },
+  "山里（コザ向け）": {
+    "matched": false
+  },
+  "与儀十字路（古島向け）": {
+    "sid": "485f8739-f085-4af9-a271-62e4139e72e0",
+    "nameCandidates": [
+      {
+        "sid": "485f8739-f085-4af9-a271-62e4139e72e0",
+        "name": "与儀十字路（与儀公園前　開南・古波蔵方面）",
+        "shortName": "与儀十字路"
+      }
+    ],
+    "matched": true
+  },
+  "世冨慶（名護十字路向け）": {
+    "matched": false
+  },
+  "吉原入口（安慶名・美里高校向け）": {
+    "matched": false
+  },
+  "陽明高校前": {
+    "matched": false
+  }
+}

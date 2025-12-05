@@ -94,3 +94,8 @@ export function loadKainanTimeTable(appRootDir?: string): NahaTimeIndex {
 export function loadYogijuuziroTimeTable(appRootDir?: string): NahaTimeIndex {
   return loadNahaTimeTable('yogijuuziro.json', appRootDir);
 }
+
+// 宜野湾高校前 (ginowankoukou.json)
+export function loadGinowankoukouTimeTable(appRootDir?: string): NahaTimeIndex {
+  return loadNahaTimeTable('ginowankoukou.json', appRootDir);
+}
