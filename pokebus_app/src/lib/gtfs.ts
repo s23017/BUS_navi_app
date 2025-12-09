@@ -118,7 +118,7 @@ async function ensureBaseStopIndex() {
   const aliasMap = new Map<string, BaseStopEntry[]>();
   const list: BaseStopEntry[] = [];
   const seen = new Set<string>();
-  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni', 'naha', 'naha_120', 'naha_112', 'naha_55'];
+  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni', 'naha', 'naha_120', 'naha_112', 'naha_55', 'naha_7', 'naha_8', 'naha_113', 'naha_99down', 'naha_120down', 'naha_4up', 'naha_6up', 'naha_9', 'naha_9up', 'naha_10up', 'naha_11down', 'naha_13down', 'naha_14down', 'naha_15down', 'naha_16down', 'naha_17down', 'naha_18down', 'naha_19down', 'naha_20down', 'naha_21down', 'naha_22down', 'naha_23down', 'naha_24down', 'naha_25down', 'naha_26down', 'naha_27down', 'naha_28down', 'naha_29down', 'naha_30down', 'naha_12', 'naha_12up'];
 
   for (const company of companies) {
     try {
@@ -478,7 +478,7 @@ export async function loadStopMasterData() {
 
 export async function loadStops() {
   if (stopsCache) return stopsCache;
-  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni', 'naha', 'naha_120', 'naha_112', 'naha_55'];
+  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni', 'naha', 'naha_120', 'naha_112', 'naha_55', 'naha_7', 'naha_8', 'naha_113', 'naha_99down', 'naha_120down', 'naha_4up', 'naha_6up', 'naha_9', 'naha_9up', 'naha_10up', 'naha_11up', 'naha_12', 'naha_12up'];
   const merged: any[] = [];
   const seen = new Map<string, any>();
 
@@ -492,8 +492,17 @@ export async function loadStops() {
 
   for (const company of companies) {
     const text = await fetchText(`/${company}/stops.txt`);
-    if (!text) continue;
+    if (!text) {
+      // console.debug(`loadStops: no stops.txt for ${company}`);
+      continue;
+    }
     const parsed = parseCsv(text);
+    // debug: which companies provided stops and how many
+    try {
+      console.debug(`[GTFS] loadStops loaded ${parsed.length} stops from /${company}/stops.txt`);
+    } catch (err) {
+      // noop
+    }
     parsed.forEach(stop => {
       if (!stop?.stop_id) return;
       if (!seen.has(stop.stop_id)) {
@@ -524,13 +533,17 @@ export async function loadStops() {
 
 export async function loadStopTimes() {
   if (stopTimesCache) return stopTimesCache;
-  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni', 'naha', 'naha_120', 'naha_112', 'naha_55'];
+  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni', 'naha', 'naha_120', 'naha_112', 'naha_55', 'naha_7', 'naha_8', 'naha_113', 'naha_99down',  'naha_120down', 'naha_4up', 'naha_6up', 'naha_9', 'naha_9up', 'naha_10up', 'naha_11down', 'naha_12', 'naha_12up'];
   const allStopTimes: any[] = [];
 
   for (const company of companies) {
     const text = await fetchText(`/${company}/stop_times.txt`);
-    if (!text) continue;
+    if (!text) {
+      // console.debug(`loadStopTimes: no stop_times.txt for ${company}`);
+      continue;
+    }
     const parsed = parseCsv(text);
+    try { console.debug(`[GTFS] loadStopTimes loaded ${parsed.length} stop_times from /${company}/stop_times.txt`); } catch (err) {}
     allStopTimes.push(...parsed);
   }
 
@@ -549,13 +562,17 @@ export async function loadStopTimes() {
 
 export async function loadTrips() {
   if (tripsCache) return tripsCache;
-  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni', 'naha', 'naha_120', 'naha_112', 'naha_55'];
+  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni', 'naha', 'naha_120', 'naha_112', 'naha_55', 'naha_7', 'naha_8', 'naha_113', 'naha_99down', 'naha_120down', 'naha_4up', 'naha_6up', 'naha_9', 'naha_9up', 'naha_10up', 'naha_11down', 'naha_12', 'naha_12up'];
   const allTrips: any[] = [];
 
   for (const company of companies) {
     const text = await fetchText(`/${company}/trips.txt`);
-    if (!text) continue;
+    if (!text) {
+      // console.debug(`loadTrips: no trips.txt for ${company}`);
+      continue;
+    }
     const parsed = parseCsv(text);
+    try { console.debug(`[GTFS] loadTrips loaded ${parsed.length} trips from /${company}/trips.txt`); } catch (err) {}
     allTrips.push(...parsed);
   }
 
@@ -574,13 +591,17 @@ export async function loadTrips() {
 
 export async function loadRoutes() {
   if (routesCache) return routesCache;
-  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni', 'naha'];
+  const companies = ['okibus', 'touyou', 'kitanaka', 'nakagusuku', 'nanjoushi', 'okinawashi', 'yonaguni', 'naha', 'naha_120', 'naha_112', 'naha_55', 'naha_7', 'naha_8', 'naha_113', 'naha_99down', 'naha_120down', 'naha_4up', 'naha_6up', 'naha_9', 'naha_9up', 'naha_10up', 'naha_11down', 'naha_12', 'naha_12up'];
   const allRoutes: any[] = [];
 
   for (const company of companies) {
     const text = await fetchText(`/${company}/routes.txt`);
-    if (!text) continue;
+    if (!text) {
+      // console.debug(`loadRoutes: no routes.txt for ${company}`);
+      continue;
+    }
     const parsed = parseCsv(text);
+    try { console.debug(`[GTFS] loadRoutes loaded ${parsed.length} routes from /${company}/routes.txt`); } catch (err) {}
     allRoutes.push(...parsed);
   }
 
