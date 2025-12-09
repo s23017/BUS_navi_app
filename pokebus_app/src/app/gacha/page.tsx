@@ -24,7 +24,7 @@ type HistoryItem = {
   rolledAt: Timestamp;
 };
 
-const rarityLabels: Record<Rarity, string> = {
+const rarityLabels: Record<string, string> = {
   SSR: "SSR",
   SR: "SR",
   R: "R",
@@ -32,7 +32,7 @@ const rarityLabels: Record<Rarity, string> = {
   EXR: "EXR",
 };
 
-const raritySound: Record<Rarity, string> = {
+const raritySound: Record<string, string> = {
   SSR: "✨",
   SR: "🌟",
   R: "🔹",
@@ -40,7 +40,7 @@ const raritySound: Record<Rarity, string> = {
   EXR: "🔰",
 };
 
-const rarityColors: Record<Rarity, string> = {
+const rarityColors: Record<string, string> = {
   SSR: "linear-gradient(140deg, #fbbf24 0%, #f97316 50%, #facc15 100%)",
   SR: "linear-gradient(140deg, #38bdf8 0%, #0ea5e9 100%)",
   R: "linear-gradient(140deg, #a855f7 0%, #7c3aed 100%)",
@@ -48,7 +48,7 @@ const rarityColors: Record<Rarity, string> = {
   EXR: "linear-gradient(140deg, #9ca3af 0%, #6b7280 100%)",
 };
 
-const rarityOrder: Record<Rarity, number> = {
+const rarityOrder: Record<string, number> = {
   SSR: 0,
   SR: 1,
   R: 2,

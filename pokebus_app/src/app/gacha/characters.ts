@@ -1,4 +1,4 @@
-export type Rarity = "SSR" | "SR" | "R" | "N";
+export type Rarity = "SSR" | "SR" | "R" | "N" | "EXR";
 
 export type GachaCharacter = {
   id: string;
@@ -58,4 +58,12 @@ export const characters: GachaCharacter[] = [
     image: "/gacha/characters/rabi.png",
     description: "ローカル情報ならお任せ。乗客に寄り添う親しみやすい案内役。",
   },
+  {
+    id: "eco-driver",
+    name: "ノービタイエコドライバー",
+    rarity: "EXR",
+    weight: 50,
+    image: "/gacha/characters/",
+    description: "環境に優しいエコ運転を心がける、地球思いのドライバー。",
+  }
 ];
