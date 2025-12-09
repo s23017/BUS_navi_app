@@ -2576,8 +2576,20 @@ export default function BusSearch() {
 
       setShowBusRoutes(false);
     } catch (e:any) {
-      setStopsError(e.message || '検索でエラーが発生しました');
-      console.error('[SearchDebug] handleSearch error', { error: e, override });
+      // 詳細ログを出して原因特定をしやすくする
+      const errInfo: any = {};
+      try {
+        errInfo.type = typeof e;
+        errInfo.name = e?.name;
+        errInfo.message = e?.message;
+        errInfo.stack = e?.stack;
+        errInfo.keys = e && typeof e === 'object' ? Object.keys(e) : undefined;
+        errInfo.value = e && typeof e === 'object' ? JSON.stringify(e, Object.getOwnPropertyNames(e).filter(k=>k!=='stack').slice(0,50)) : String(e);
+      } catch (err) {
+        // ignore
+      }
+      setStopsError((e && e.message) || String(e) || '検索でエラーが発生しました');
+      console.error('[SearchDebug] handleSearch error (detailed)', errInfo, { rawError: e, override });
     } finally {
       setLoadingStops(false);
       console.log('[SearchDebug] handleSearch finished');
@@ -2775,6 +2787,16 @@ export default function BusSearch() {
         loadRoutes()
       ]);
       console.log(`handleSelectStartStop: loaded stops=${stops.length}, stopTimes=${stopTimes.length}, trips=${trips.length}, routes=${routes.length}`);
+      try {
+        const matches4up = routes.filter((r: any) => {
+          const s = (r.route_short_name || '').toString();
+          const id = (r.route_id || '').toString();
+          return s.toLowerCase().includes('4up') || id.toLowerCase().includes('4up') || s === '4' || s === '4up' || s.includes('4');
+        });
+        console.log('[SearchDebug] routes matching 4/4up sample', matches4up.slice(0,10));
+      } catch (err) {
+        // ignore
+      }
       
       // trip_id -> ordered stop sequence
       const tripStops: Record<string, { stop_id: string; seq: number; arrival_time?: string; departure_time?: string }[]> = {};
