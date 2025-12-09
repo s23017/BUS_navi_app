@@ -174,8 +174,19 @@ function main() {
 
       let tripCounter = 1;
 
+      function pickIndexRecords(idx: any, baseKey: string, calName: string) {
+        if (!idx) return [];
+        const candidates = [baseKey, baseKey.replace(/(up|down)$/,'') , (baseKey.match(/\d+/)||[])[0]];
+        for (const k of candidates) {
+          if (!k) continue;
+          const bucket = idx[k] && idx[k][calName];
+          if (Array.isArray(bucket) && bucket.length) return bucket;
+        }
+        return [];
+      }
+
       for (const cal of calendars) {
-        const recs55 = idxJson && idxJson['55'] && idxJson['55'][cal];
+        const recs55 = pickIndexRecords(idxJson, '55', cal);
         if (!Array.isArray(recs55) || recs55.length === 0) continue;
 
         // tripSid ごとにまとめる。stopName が入っているものを優先し、無ければ time 単位で。
