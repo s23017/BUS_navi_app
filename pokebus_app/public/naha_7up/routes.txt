@@ -1,2 +1,2 @@
 route_id,route_short_name,route_long_name,route_type,agency_id
-naha7up_1,7up,7up 7up番線,3,naha_bus
+naha7up_1,7up,7up 名護西空港線,3,naha_bus

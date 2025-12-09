@@ -1,2 +1,2 @@
 route_id,route_short_name,route_long_name,route_type,agency_id
-naha8_1,8,8 8番線,3,naha_bus
+naha8_1,8,8 名護西空港線,3,naha_bus
