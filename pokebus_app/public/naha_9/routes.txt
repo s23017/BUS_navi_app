@@ -1,0 +1,2 @@
+route_id,route_short_name,route_long_name,route_type,agency_id
+naha9_1,9,9 9番線,3,naha_bus

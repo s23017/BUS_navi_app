@@ -1,0 +1,2 @@
+route_id,route_short_name,route_long_name,route_type,agency_id
+naha99down_1,99down,99down 99番線,3,naha_bus
