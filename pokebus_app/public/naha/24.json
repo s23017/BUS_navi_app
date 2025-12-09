@@ -1,0 +1,405 @@
+{
+  "journey": {
+    "start": "那覇バスターミナル　のりば ４",
+    "end": "具志川バスターミナル（終点）"
+  },
+  "routes": [
+    {
+      "option": 1,
+      "summary": {
+        "text": "具志川線下り急行（BT経由）具志川向け"
+      },
+      "legs": [
+        {
+          "mode": "bus",
+          "description": "具志川線下り急行（BT経由）具志川向け"
+        }
+      ],
+      "stops": [
+        {
+          "sid": "0cfa9ac7-dc07-47e4-95d5-d2e8c1eaab5b",
+          "stop_id": "0cfa9ac7-dc07-47e4-95d5-d2e8c1eaab5b",
+          "name": "那覇バスターミナル　のりば ４",
+          "stop_name": "那覇バスターミナル　のりば ４",
+          "lat": 26.2125,
+          "lon": 127.6811,
+          "stop_lat": 26.2125,
+          "stop_lon": 127.6811,
+          "arrival_time": "16:05",
+          "departure_time": "16:05",
+          "seq": 1
+        },
+        {
+          "sid": "5c43b142-a7b8-48ea-a4a9-f7be19a981f7",
+          "stop_id": "5c43b142-a7b8-48ea-a4a9-f7be19a981f7",
+          "name": "県庁北口（国際通り・久茂地向け）",
+          "stop_name": "県庁北口（国際通り・久茂地向け）",
+          "lat": 26.2125,
+          "lon": 127.6811,
+          "stop_lat": 26.2125,
+          "stop_lon": 127.6811,
+          "arrival_time": "16:07",
+          "departure_time": "16:07",
+          "seq": 2
+        },
+        {
+          "sid": "ccbc0799-409a-41f4-8cce-424ea66cad7d",
+          "stop_id": "ccbc0799-409a-41f4-8cce-424ea66cad7d",
+          "name": "沖縄タイムス前（浦添・おもろまち向け）",
+          "stop_name": "沖縄タイムス前（浦添・おもろまち向け）",
+          "lat": 26.2125,
+          "lon": 127.6811,
+          "stop_lat": 26.2125,
+          "stop_lon": 127.6811,
+          "arrival_time": "16:12",
+          "departure_time": "16:12",
+          "seq": 3
+        },
+        {
+          "sid": "dc145013-7257-42fc-b412-916a371eaab6",
+          "stop_id": "dc145013-7257-42fc-b412-916a371eaab6",
+          "name": "泊高橋（とまりん前）（浦添・おもろまち向け）",
+          "stop_name": "泊高橋（とまりん前）（浦添・おもろまち向け）",
+          "lat": 26.2125,
+          "lon": 127.6811,
+          "stop_lat": 26.2125,
+          "stop_lon": 127.6811,
+          "arrival_time": "16:14",
+          "departure_time": "16:14",
+          "seq": 4
+        },
+        {
+          "sid": "13f6ece8-494a-41d0-a1b1-1498eb22d6ee",
+          "stop_id": "13f6ece8-494a-41d0-a1b1-1498eb22d6ee",
+          "name": "上之屋（浦添向け）",
+          "stop_name": "上之屋（浦添向け）",
+          "lat": 26.2125,
+          "lon": 127.6811,
+          "stop_lat": 26.2125,
+          "stop_lon": 127.6811,
+          "arrival_time": "16:17",
+          "departure_time": "16:17",
+          "seq": 5
+        },
+        {
+          "sid": "60846052-756c-4b38-a58f-f6a41c7e0a4d",
+          "stop_id": "60846052-756c-4b38-a58f-f6a41c7e0a4d",
+          "name": "ＳＣＳＫ沖縄センター前（大謝名向け）",
+          "stop_name": "ＳＣＳＫ沖縄センター前（大謝名向け）",
+          "lat": 26.2125,
+          "lon": 127.6811,
+          "stop_lat": 26.2125,
+          "stop_lon": 127.6811,
+          "arrival_time": "16:27",
+          "departure_time": "16:27",
+          "seq": 6
+        },
+        {
+          "sid": "260eca97-050c-4387-812b-9c0de3a78dd7",
+          "stop_id": "260eca97-050c-4387-812b-9c0de3a78dd7",
+          "name": "宇地泊（真志喜・真栄原向け）",
+          "stop_name": "宇地泊（真志喜・真栄原向け）",
+          "lat": 26.2125,
+          "lon": 127.6811,
+          "stop_lat": 26.2125,
+          "stop_lon": 127.6811,
+          "arrival_time": "16:35",
+          "departure_time": "16:35",
+          "seq": 7
+        },
+        {
+          "sid": "08c34f72-247d-4ab5-a3e4-46e1a7941666",
+          "stop_id": "08c34f72-247d-4ab5-a3e4-46e1a7941666",
+          "name": "伊佐（北谷・胡屋向け）",
+          "stop_name": "伊佐（北谷・胡屋向け）",
+          "lat": 26.2125,
+          "lon": 127.6811,
+          "stop_lat": 26.2125,
+          "stop_lon": 127.6811,
+          "arrival_time": "16:42",
+          "departure_time": "16:42",
+          "seq": 8
+        },
+        {
+          "sid": "dd6a7885-edb6-4f77-bea4-e1788bd678eb",
+          "stop_id": "dd6a7885-edb6-4f77-bea4-e1788bd678eb",
+          "name": "新城（胡屋・長田向け）",
+          "stop_name": "新城（胡屋・長田向け）",
+          "lat": 26.2125,
+          "lon": 127.6811,
+          "stop_lat": 26.2125,
+          "stop_lon": 127.6811,
+          "arrival_time": "16:47",
+          "departure_time": "16:47",
+          "seq": 9
+        },
+        {
+          "sid": "c63364e6-e64e-47be-8a10-402983739c36",
+          "stop_id": "c63364e6-e64e-47be-8a10-402983739c36",
+          "name": "普天間（胡屋向け）",
+          "stop_name": "普天間（胡屋向け）",
+          "lat": 26.2125,
+          "lon": 127.6811,
+          "stop_lat": 26.2125,
+          "stop_lon": 127.6811,
+          "arrival_time": "16:49",
+          "departure_time": "16:49",
+          "seq": 10
+        },
+        {
+          "sid": "d22289be-7fae-4307-9462-3da1f0416dfb",
+          "stop_id": "d22289be-7fae-4307-9462-3da1f0416dfb",
+          "name": "比嘉西原（胡屋向け）",
+          "stop_name": "比嘉西原（胡屋向け）",
+          "lat": 26.2125,
+          "lon": 127.6811,
+          "stop_lat": 26.2125,
+          "stop_lon": 127.6811,
+          "arrival_time": "16:59",
+          "departure_time": "16:59",
+          "seq": 11
+        },
+        {
+          "sid": "83576c38-8dc5-498c-ad45-5e607cd2fb26",
+          "stop_id": "83576c38-8dc5-498c-ad45-5e607cd2fb26",
+          "name": "山里（コザ向け）",
+          "stop_name": "山里（コザ向け）",
+          "lat": 26.2125,
+          "lon": 127.6811,
+          "stop_lat": 26.2125,
+          "stop_lon": 127.6811,
+          "arrival_time": "17:02",
+          "departure_time": "17:02",
+          "seq": 12
+        },
+        {
+          "sid": "4da99cc7-ac25-4ba9-892c-0224aba46b8f",
+          "stop_id": "4da99cc7-ac25-4ba9-892c-0224aba46b8f",
+          "name": "中の町（コザ向け）",
+          "stop_name": "中の町（コザ向け）",
+          "lat": 26.2125,
+          "lon": 127.6811,
+          "stop_lat": 26.2125,
+          "stop_lon": 127.6811,
+          "arrival_time": "17:06",
+          "departure_time": "17:06",
+          "seq": 13
+        },
+        {
+          "sid": "c5cb4b52-3126-494f-9c86-5f6312ef4122",
+          "stop_id": "c5cb4b52-3126-494f-9c86-5f6312ef4122",
+          "name": "胡屋（平良川・知花・宮里向け）",
+          "stop_name": "胡屋（平良川・知花・宮里向け）",
+          "lat": 26.2125,
+          "lon": 127.6811,
+          "stop_lat": 26.2125,
+          "stop_lon": 127.6811,
+          "arrival_time": "17:09",
+          "departure_time": "17:09",
+          "seq": 14
+        },
+        {
+          "sid": "b82f7747-b3cf-4416-88b7-5e8b7b641e2e",
+          "stop_id": "b82f7747-b3cf-4416-88b7-5e8b7b641e2e",
+          "name": "コザ（安慶名・美里高校向け）",
+          "stop_name": "コザ（安慶名・美里高校向け）",
+          "lat": 26.2125,
+          "lon": 127.6811,
+          "stop_lat": 26.2125,
+          "stop_lon": 127.6811,
+          "arrival_time": "17:15",
+          "departure_time": "17:15",
+          "seq": 15
+        },
+        {
+          "sid": "e0e7271b-c85f-4ecd-b049-007dcf3ee650",
+          "stop_id": "e0e7271b-c85f-4ecd-b049-007dcf3ee650",
+          "name": "美里入口（安慶名向け）",
+          "stop_name": "美里入口（安慶名向け）",
+          "lat": 26.2125,
+          "lon": 127.6811,
+          "stop_lat": 26.2125,
+          "stop_lon": 127.6811,
+          "arrival_time": "17:19",
+          "departure_time": "17:19",
+          "seq": 16
+        },
+        {
+          "sid": "222b5fe7-4576-4531-b47f-791b12755921",
+          "stop_id": "222b5fe7-4576-4531-b47f-791b12755921",
+          "name": "赤道十字路（県道75号線（宮里）方面）",
+          "stop_name": "赤道十字路（県道75号線（宮里）方面）",
+          "lat": 26.2125,
+          "lon": 127.6811,
+          "stop_lat": 26.2125,
+          "stop_lon": 127.6811,
+          "arrival_time": "17:23",
+          "departure_time": "17:23",
+          "seq": 17
+        },
+        {
+          "sid": "afbad8bb-daa8-4724-ba2f-929dba1ae4bd",
+          "stop_id": "afbad8bb-daa8-4724-ba2f-929dba1ae4bd",
+          "name": "中部病院前（喜屋武方面）",
+          "stop_name": "中部病院前（喜屋武方面）",
+          "lat": 26.2125,
+          "lon": 127.6811,
+          "stop_lat": 26.2125,
+          "stop_lon": 127.6811,
+          "arrival_time": "17:24",
+          "departure_time": "17:24",
+          "seq": 18
+        },
+        {
+          "sid": "b3f8cf8d-f28c-4229-9003-75a406d6adad",
+          "stop_id": "b3f8cf8d-f28c-4229-9003-75a406d6adad",
+          "name": "平良川（安慶名向け）",
+          "stop_name": "平良川（安慶名向け）",
+          "lat": 26.2125,
+          "lon": 127.6811,
+          "stop_lat": 26.2125,
+          "stop_lon": 127.6811,
+          "arrival_time": "17:29",
+          "departure_time": "17:29",
+          "seq": 19
+        },
+        {
+          "sid": "0e4f2ba7-2692-4e15-a584-5e8005a4e1df",
+          "stop_id": "0e4f2ba7-2692-4e15-a584-5e8005a4e1df",
+          "name": "安慶名（赤野・西田場向け）",
+          "stop_name": "安慶名（赤野・西田場向け）",
+          "lat": 26.2125,
+          "lon": 127.6811,
+          "stop_lat": 26.2125,
+          "stop_lon": 127.6811,
+          "arrival_time": "17:31",
+          "departure_time": "17:31",
+          "seq": 20
+        },
+        {
+          "sid": "5d3eee77-0c8f-4bf0-b3cc-0b63b8cf4bf3",
+          "stop_id": "5d3eee77-0c8f-4bf0-b3cc-0b63b8cf4bf3",
+          "name": "うるま市役所前（具志川バスターミナル向け）",
+          "stop_name": "うるま市役所前（具志川バスターミナル向け）",
+          "lat": 26.2125,
+          "lon": 127.6811,
+          "stop_lat": 26.2125,
+          "stop_lon": 127.6811,
+          "arrival_time": "17:34",
+          "departure_time": "17:34",
+          "seq": 21
+        },
+        {
+          "sid": "f7efb772-b55d-4c32-88aa-de1d6076406b",
+          "stop_id": "f7efb772-b55d-4c32-88aa-de1d6076406b",
+          "name": "具志川バスターミナル（終点）",
+          "stop_name": "具志川バスターミナル（終点）",
+          "lat": 26.2125,
+          "lon": 127.6811,
+          "stop_lat": 26.2125,
+          "stop_lon": 127.6811,
+          "arrival_time": "17:37",
+          "departure_time": "17:37",
+          "seq": 22
+        }
+      ],
+      "courseSids": [
+        "d1bb6c96-13a6-4106-8c3d-74ef5d86e187"
+      ],
+      "keitouSids": [
+        "f99c5e45-be7d-4258-8efa-25fdeea5baee"
+      ],
+      "passPoints": [
+        {
+          "lat": 26.2125,
+          "lon": 127.6811
+        },
+        {
+          "lat": 26.2125,
+          "lon": 127.6811
+        },
+        {
+          "lat": 26.2125,
+          "lon": 127.6811
+        },
+        {
+          "lat": 26.2125,
+          "lon": 127.6811
+        },
+        {
+          "lat": 26.2125,
+          "lon": 127.6811
+        },
+        {
+          "lat": 26.2125,
+          "lon": 127.6811
+        },
+        {
+          "lat": 26.2125,
+          "lon": 127.6811
+        },
+        {
+          "lat": 26.2125,
+          "lon": 127.6811
+        },
+        {
+          "lat": 26.2125,
+          "lon": 127.6811
+        },
+        {
+          "lat": 26.2125,
+          "lon": 127.6811
+        },
+        {
+          "lat": 26.2125,
+          "lon": 127.6811
+        },
+        {
+          "lat": 26.2125,
+          "lon": 127.6811
+        },
+        {
+          "lat": 26.2125,
+          "lon": 127.6811
+        },
+        {
+          "lat": 26.2125,
+          "lon": 127.6811
+        },
+        {
+          "lat": 26.2125,
+          "lon": 127.6811
+        },
+        {
+          "lat": 26.2125,
+          "lon": 127.6811
+        },
+        {
+          "lat": 26.2125,
+          "lon": 127.6811
+        },
+        {
+          "lat": 26.2125,
+          "lon": 127.6811
+        },
+        {
+          "lat": 26.2125,
+          "lon": 127.6811
+        },
+        {
+          "lat": 26.2125,
+          "lon": 127.6811
+        },
+        {
+          "lat": 26.2125,
+          "lon": 127.6811
+        },
+        {
+          "lat": 26.2125,
+          "lon": 127.6811
+        }
+      ]
+    }
+  ],
+  "source": "naha_24"
+}

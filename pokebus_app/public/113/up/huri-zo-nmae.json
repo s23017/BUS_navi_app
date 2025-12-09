@@ -1,0 +1,2672 @@
+[
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "a108771b-a278-4597-9522-f1b50725c5e4",
+    "calendar": "weekday",
+    "time": "21:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "1c336002-1c3e-41d3-b254-f3310e16ee7a",
+    "calendar": "saturday",
+    "time": "21:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "83d62123-8bae-4b48-a0a6-1a72a62ebfc4",
+    "calendar": "holiday",
+    "time": "21:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "26",
+    "courseSid": "df512982-b2fc-4dfe-bd59-8b78c366c89e",
+    "tripSid": "54459bff-f800-4503-8bf2-7863452150b7",
+    "calendar": "weekday",
+    "time": "08:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "26",
+    "courseSid": "df512982-b2fc-4dfe-bd59-8b78c366c89e",
+    "tripSid": "598db78f-bd0b-4d5d-b24f-d68e646bd755",
+    "calendar": "weekday",
+    "time": "08:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "26",
+    "courseSid": "df512982-b2fc-4dfe-bd59-8b78c366c89e",
+    "tripSid": "dea55dab-8a91-4adb-8c8b-b7efd511629a",
+    "calendar": "weekday",
+    "time": "10:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "26",
+    "courseSid": "df512982-b2fc-4dfe-bd59-8b78c366c89e",
+    "tripSid": "e9f1d918-c4d8-4183-a71c-9267e2ca35aa",
+    "calendar": "weekday",
+    "time": "12:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "26",
+    "courseSid": "df512982-b2fc-4dfe-bd59-8b78c366c89e",
+    "tripSid": "3a437da4-1f40-49a2-950c-55e8bdd4d9db",
+    "calendar": "weekday",
+    "time": "14:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "26",
+    "courseSid": "df512982-b2fc-4dfe-bd59-8b78c366c89e",
+    "tripSid": "c917e34b-706a-4b94-9c1e-8aa7a92393ac",
+    "calendar": "saturday",
+    "time": "15:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "26",
+    "courseSid": "df512982-b2fc-4dfe-bd59-8b78c366c89e",
+    "tripSid": "a4ec132b-b89e-4817-a1e3-9a68bfb09917",
+    "calendar": "saturday",
+    "time": "20:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "26",
+    "courseSid": "df512982-b2fc-4dfe-bd59-8b78c366c89e",
+    "tripSid": "4d1b4974-9c54-4104-8432-354f07a79c9d",
+    "calendar": "holiday",
+    "time": "15:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "26",
+    "courseSid": "df512982-b2fc-4dfe-bd59-8b78c366c89e",
+    "tripSid": "4d216625-d130-4c07-bb54-d1504e7f78e7",
+    "calendar": "holiday",
+    "time": "20:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "d7f268f0-7988-4381-b5e2-282ed63f9d0f",
+    "calendar": "weekday",
+    "time": "12:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "54b148cc-dd38-4aff-a3fe-358a875d00a3",
+    "calendar": "weekday",
+    "time": "19:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "10495368-02f1-4c2a-bec7-1f24745843e0",
+    "calendar": "saturday",
+    "time": "12:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "d43e57fc-4ea6-4273-bb2d-d76d3117589e",
+    "calendar": "saturday",
+    "time": "19:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "83",
+    "courseSid": "087e19bf-9349-4fd0-bbf8-26bdf6b213df",
+    "tripSid": "9e83ce6c-2ca4-411b-9672-80c937320dbe",
+    "calendar": "holiday",
+    "time": "12:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "dc24b738-0c50-46a6-a1c0-9c8e6c1556eb",
+    "calendar": "weekday",
+    "time": "07:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "5fe14dd0-4532-4af3-b061-b13fc9e3bad8",
+    "calendar": "weekday",
+    "time": "08:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "cc0c3a8c-51e9-482b-ab81-e59a4f5afb7b",
+    "calendar": "weekday",
+    "time": "09:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "c4300173-8255-4298-8fb2-619c29625283",
+    "calendar": "weekday",
+    "time": "09:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "b16860cd-4113-4494-937c-33b8e6fcb08c",
+    "calendar": "weekday",
+    "time": "10:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "a4cec829-fd61-4ab3-930e-28d9e2a9c17d",
+    "calendar": "weekday",
+    "time": "11:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "f4d012d7-33b2-4931-9d94-8466ea50bd3a",
+    "calendar": "weekday",
+    "time": "12:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "92c2f9de-e31f-40f7-97c2-4eac95230d58",
+    "calendar": "weekday",
+    "time": "13:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "0da7c327-5879-4f06-8b6c-f21e85849646",
+    "calendar": "weekday",
+    "time": "13:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "c3254d05-bdc5-471b-8d38-da9d0fa5357e",
+    "calendar": "weekday",
+    "time": "14:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "a7ac6b1d-a37a-4ac3-83c5-40c923813e4d",
+    "calendar": "weekday",
+    "time": "15:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "1758fc5a-40b7-417f-b1fa-b50e0b4aebe1",
+    "calendar": "weekday",
+    "time": "16:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "44be348e-28ca-431d-901d-ad8ba8d053bc",
+    "calendar": "weekday",
+    "time": "18:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "d5acb31a-936f-483f-97b0-9efd56bebe01",
+    "calendar": "weekday",
+    "time": "19:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "62847610-8aee-43cc-9daf-7086f66f6515",
+    "calendar": "saturday",
+    "time": "07:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "b76d6097-c4b3-40bb-ac1b-73e041c20639",
+    "calendar": "saturday",
+    "time": "08:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "ec5d2784-5ac1-4b70-8c90-4508422a2139",
+    "calendar": "saturday",
+    "time": "09:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "2bf8f85c-4543-4487-9601-fb87b9bf39f0",
+    "calendar": "saturday",
+    "time": "10:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "d1f2f224-4be1-4812-9256-7f78ae4c3382",
+    "calendar": "saturday",
+    "time": "11:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "b56d46aa-7051-4624-8c07-3a6fcd5d8967",
+    "calendar": "saturday",
+    "time": "12:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "3873026f-826c-44e5-880a-b9c7d28f733e",
+    "calendar": "saturday",
+    "time": "14:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "f375bdcd-7afa-4dd6-820d-9e63393ad754",
+    "calendar": "saturday",
+    "time": "16:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "fac8caf7-091a-4a53-a959-8a35af03c3f4",
+    "calendar": "saturday",
+    "time": "17:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "96abeaa3-34b7-454b-a160-9aebf19f4782",
+    "calendar": "saturday",
+    "time": "18:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "171aeae1-896d-42cd-bfa9-a502b9a10e05",
+    "calendar": "holiday",
+    "time": "07:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "06f7d8a1-c6d1-40f1-8be3-3e63bb69129b",
+    "calendar": "holiday",
+    "time": "08:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "53684273-c624-4376-9df6-1ae7cc6e467c",
+    "calendar": "holiday",
+    "time": "09:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "267270d9-bbcb-4745-895a-1f91a0afd251",
+    "calendar": "holiday",
+    "time": "10:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "5123fa55-edfa-4e95-ab25-c139fbd1d885",
+    "calendar": "holiday",
+    "time": "11:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "8dcc5c4b-49fd-46f0-a045-935633ea2017",
+    "calendar": "holiday",
+    "time": "12:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "0059971a-0bcc-4124-87b0-9288f39ee676",
+    "calendar": "holiday",
+    "time": "14:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "5018ee8e-3ccd-467a-8cd4-3fcd9000ad2b",
+    "calendar": "holiday",
+    "time": "16:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "851632e1-a03d-410d-a2d9-d65c0a193f67",
+    "calendar": "holiday",
+    "time": "17:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "99",
+    "courseSid": "fa5af26e-8448-4a85-9a76-3a535517e9b9",
+    "tripSid": "0a062b3e-bdc2-4497-92fb-f1a5ec7311c9",
+    "calendar": "holiday",
+    "time": "18:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "40eb6092-0f3b-4630-a185-16b7cbb5149d",
+    "calendar": "weekday",
+    "time": "07:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "4d599355-d4db-465d-af63-bdf297b00628",
+    "calendar": "weekday",
+    "time": "08:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "16469c04-2ced-4ed9-b670-189421242edb",
+    "calendar": "weekday",
+    "time": "08:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "3668375f-f717-457d-a8e8-eda530611fc4",
+    "calendar": "weekday",
+    "time": "10:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "7206d0fb-5d6c-43e4-bb8b-3670208569a7",
+    "calendar": "weekday",
+    "time": "10:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "d18ce499-4c40-4624-8561-c7541d5203ba",
+    "calendar": "weekday",
+    "time": "11:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "a00a8b0d-b45e-4eab-86c5-0c0614791267",
+    "calendar": "weekday",
+    "time": "11:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "b35f0612-c712-4436-8177-88628f3a3444",
+    "calendar": "weekday",
+    "time": "15:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "d5c72cbf-828b-4950-8a89-4b89e966d7a6",
+    "calendar": "weekday",
+    "time": "16:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "a36f44ee-567b-426c-a804-224bdc672c32",
+    "calendar": "weekday",
+    "time": "17:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "a3968a24-15ea-4b5a-b811-b676fe99e35a",
+    "calendar": "weekday",
+    "time": "20:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "4dac32cb-55c9-4566-be00-0cf5fbbfec23",
+    "calendar": "weekday",
+    "time": "21:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "0f5bd64e-a144-401d-97b9-62c28899162e",
+    "calendar": "saturday",
+    "time": "07:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "992f8c2f-00f3-4ae1-bada-b7a3343f7027",
+    "calendar": "saturday",
+    "time": "08:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "471cbb39-522a-4d54-a013-71a41cb0cca0",
+    "calendar": "saturday",
+    "time": "08:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "52890fcc-7330-4931-b3b6-b93c04bc9240",
+    "calendar": "saturday",
+    "time": "10:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "b18da731-d4cb-4fc5-af0c-edeb06d6a6f2",
+    "calendar": "saturday",
+    "time": "10:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "9f39bd4f-9e44-4a12-98d5-f9fd1c078816",
+    "calendar": "saturday",
+    "time": "11:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "ae580232-1325-48de-a8c1-1ec0a9d56f32",
+    "calendar": "saturday",
+    "time": "11:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "a327718a-67b3-4ac2-8615-61400eeff5b3",
+    "calendar": "saturday",
+    "time": "15:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "7bd7544f-496a-4574-97d1-7890d520555c",
+    "calendar": "saturday",
+    "time": "16:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "1b573601-dcff-4448-a68b-51c429b1087d",
+    "calendar": "saturday",
+    "time": "17:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "5da27bca-4701-4eb7-ae42-3c77f8b6a85d",
+    "calendar": "saturday",
+    "time": "20:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "1bcc842d-5d74-4daa-9dde-2661d477a4a3",
+    "calendar": "saturday",
+    "time": "21:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "5969fde1-f81f-4482-a450-5be72713a929",
+    "calendar": "holiday",
+    "time": "07:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "1096ecb7-cd2a-49a5-9327-d7ac85a6705e",
+    "calendar": "holiday",
+    "time": "08:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "93e53b7f-2566-40bd-b24f-cca6bdc942f7",
+    "calendar": "holiday",
+    "time": "08:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "4d98a417-2b53-4870-8065-684e73054830",
+    "calendar": "holiday",
+    "time": "10:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "598e4bee-1fcd-48ea-9283-706e0eeaa62b",
+    "calendar": "holiday",
+    "time": "10:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "85edb6bf-39b1-4d24-bc75-586921391751",
+    "calendar": "holiday",
+    "time": "11:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "4f8abb40-ae36-4142-a39b-5e3ca3cdf3b7",
+    "calendar": "holiday",
+    "time": "11:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "db693aff-2438-4be6-8ef0-da368852ee24",
+    "calendar": "holiday",
+    "time": "15:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "74aea567-9fee-493a-870f-c50ae21da0a7",
+    "calendar": "holiday",
+    "time": "16:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "c5020b02-314e-476c-bf4d-432578cca0f7",
+    "calendar": "holiday",
+    "time": "17:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "c3cf50bb-f1d9-43c3-bfdd-bebf532615fb",
+    "calendar": "holiday",
+    "time": "20:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "111",
+    "courseSid": "ec9f4f04-91a1-4e5c-95d7-ef1ad0f57da0",
+    "tripSid": "7b0e00b5-7d53-4001-b40f-3fb074b0cddc",
+    "calendar": "holiday",
+    "time": "21:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "3f2102c2-26ba-4cc9-b32f-7871130f77b7",
+    "calendar": "weekday",
+    "time": "07:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "f5f840c2-4871-4e54-bc49-fc115c5cb654",
+    "calendar": "weekday",
+    "time": "07:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "35307fd9-af22-4c08-8ce7-1a4318d68893",
+    "calendar": "weekday",
+    "time": "15:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "ad34e781-c079-401e-b56c-e5516de63cee",
+    "calendar": "weekday",
+    "time": "17:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "5ad08742-9b49-4cf8-90c0-1c50b2741898",
+    "calendar": "weekday",
+    "time": "18:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "549c2118-6939-46b1-a1c6-2943ba49d975",
+    "calendar": "saturday",
+    "time": "07:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "cf4bb9d8-484f-4a35-a7fd-618061512323",
+    "calendar": "saturday",
+    "time": "07:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "116ee681-f053-42f5-bf67-4f0683998461",
+    "calendar": "saturday",
+    "time": "08:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "eaaea64c-d062-4c37-ac19-351c387395ff",
+    "calendar": "saturday",
+    "time": "15:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "dd0314a2-bc11-4f01-96b8-a9706f0e6caa",
+    "calendar": "saturday",
+    "time": "16:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "4c9e79b9-9ccd-4877-87c9-e71f99777d0f",
+    "calendar": "saturday",
+    "time": "17:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "d29faf14-d6d5-49b9-a24c-285c80183b8a",
+    "calendar": "weekday",
+    "time": "12:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "8bfbd5bb-dfef-466b-93a2-2e85f28d99db",
+    "calendar": "weekday",
+    "time": "14:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "672066aa-dd7d-48d7-94fc-5e9ea8bf4091",
+    "calendar": "weekday",
+    "time": "15:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "0d11fd25-06cc-4358-bb68-bb9db445d6dc",
+    "calendar": "weekday",
+    "time": "15:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "0289c1a2-767b-4ad2-9c9e-dba9b21b134d",
+    "calendar": "weekday",
+    "time": "17:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "233b0fe5-e59e-43f9-b2dc-e1f361fc743f",
+    "calendar": "weekday",
+    "time": "18:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "d7eccb8c-0a5d-4388-b476-0fcad168a9c4",
+    "calendar": "weekday",
+    "time": "18:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "9fe4e4b7-0a55-456c-9abb-a9343c3153e7",
+    "calendar": "weekday",
+    "time": "19:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "25d98e91-7271-4b28-a347-05160492ba53",
+    "calendar": "weekday",
+    "time": "19:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "77ebd979-0202-4743-a137-819c0b72c7b3",
+    "calendar": "saturday",
+    "time": "12:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "b43c0f32-c6fa-4cba-917e-282ecf323b53",
+    "calendar": "saturday",
+    "time": "14:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "b8ab54ab-6bdf-4016-9648-7f47dde04485",
+    "calendar": "saturday",
+    "time": "15:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "9c6f4c1c-cf5b-4a94-ac0a-2e8f67693108",
+    "calendar": "saturday",
+    "time": "15:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "e3f8fc6b-e9d2-4072-9504-470e8c28310d",
+    "calendar": "saturday",
+    "time": "17:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "16a0a82f-4cb2-4abc-ac4b-f605275b0921",
+    "calendar": "saturday",
+    "time": "18:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "12c2b425-065d-4e47-8929-f5016eb9637e",
+    "calendar": "saturday",
+    "time": "18:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "84bcac5b-fc00-4c28-afda-98dfd04f41ef",
+    "calendar": "saturday",
+    "time": "19:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "eeec77d6-36eb-4b87-bb57-12c792a1b83d",
+    "calendar": "saturday",
+    "time": "19:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "b5fcd36d-f099-4f62-aa0c-29a642eaabee",
+    "calendar": "holiday",
+    "time": "12:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "a5ea5dab-cc1c-485a-8f80-59ed66cf8051",
+    "calendar": "holiday",
+    "time": "14:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "0f157298-73a8-45d2-85d4-615e40f5d45d",
+    "calendar": "holiday",
+    "time": "15:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "78393b35-fd54-4bfc-9f62-4aa4e65835a4",
+    "calendar": "holiday",
+    "time": "15:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "ee5dc266-c570-4939-a4e3-706d130e8524",
+    "calendar": "holiday",
+    "time": "17:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "52ebcebc-c007-495f-8ce0-60cb708f8ace",
+    "calendar": "holiday",
+    "time": "18:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "c9ad2165-dcfd-4019-a3f0-fe66174c3cda",
+    "calendar": "holiday",
+    "time": "18:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "0f55211e-4b85-4407-be83-fbcc284e850f",
+    "calendar": "holiday",
+    "time": "19:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "117",
+    "courseSid": "930d045b-1fd3-408a-9e2f-1214daa3b5be",
+    "tripSid": "d25fa917-e5eb-4ab8-b111-bde1a7cb83f0",
+    "calendar": "holiday",
+    "time": "19:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "630d4225-ed1b-4536-80c1-5b8abb0a4a1b",
+    "calendar": "weekday",
+    "time": "08:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "711141a9-27e6-441c-839f-bb5d36d925c9",
+    "calendar": "weekday",
+    "time": "08:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "97c4fba1-9b68-4d28-ba80-8b9c38254a1a",
+    "calendar": "weekday",
+    "time": "09:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "41ee7e48-3613-48eb-ab34-ec439ad79dba",
+    "calendar": "weekday",
+    "time": "09:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "f30130c5-0467-4039-b2d8-3c0fbf21d0ae",
+    "calendar": "weekday",
+    "time": "10:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ef0c7c07-3a13-409a-9900-06c17847f24f",
+    "calendar": "weekday",
+    "time": "10:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "83c65530-fa6a-4096-b0b5-523d7dde9cfd",
+    "calendar": "weekday",
+    "time": "11:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2ec1155d-8f10-4311-9aae-fa1289b24e36",
+    "calendar": "weekday",
+    "time": "12:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5ed58e11-5031-4dc9-bc31-e9e95caa8008",
+    "calendar": "weekday",
+    "time": "13:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5c3ad1db-6a44-448d-9925-8d13a8b11ee8",
+    "calendar": "weekday",
+    "time": "13:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ebfa89c9-079f-4089-8ff0-9ff82a7ebef7",
+    "calendar": "weekday",
+    "time": "14:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "e339de21-0ace-4d97-a3eb-49d75e1f2551",
+    "calendar": "weekday",
+    "time": "14:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "76ee88bf-b545-4984-abf7-9ab4842c53c8",
+    "calendar": "weekday",
+    "time": "15:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d94b06b4-dd6c-4f91-8da6-ff6a24142420",
+    "calendar": "weekday",
+    "time": "15:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "935f3c88-1993-4ed0-8529-e6beb83709d2",
+    "calendar": "weekday",
+    "time": "16:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "7eb903f1-7a5f-4ebe-b245-e1438180ea7b",
+    "calendar": "weekday",
+    "time": "16:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "288b6b1a-8fc9-42c6-8b12-d6f84cc166fb",
+    "calendar": "weekday",
+    "time": "17:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d79669b8-b66c-4dbe-852f-99ff430cc375",
+    "calendar": "weekday",
+    "time": "17:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5388715f-e66f-4d06-b04f-14c46fa25a4d",
+    "calendar": "weekday",
+    "time": "19:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "117af7b3-9022-49d4-90ff-a783e028bf6c",
+    "calendar": "weekday",
+    "time": "20:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "65f58f1d-cdbc-47e8-bfda-fa63a9c1a9de",
+    "calendar": "saturday",
+    "time": "07:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "b2a2b72e-6da6-4615-b43b-8cad28b4a55c",
+    "calendar": "saturday",
+    "time": "08:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "939371e2-4c59-4a97-bc90-2ce6dd9fd56f",
+    "calendar": "saturday",
+    "time": "08:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5f1c058c-0cac-47fb-9c6a-711ff7c4fff2",
+    "calendar": "saturday",
+    "time": "09:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "705c3ac7-6421-4123-97f6-b53d09b9d7b8",
+    "calendar": "saturday",
+    "time": "09:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "a32f75f0-83bc-43e9-8447-681388e189a7",
+    "calendar": "saturday",
+    "time": "10:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5eef7bf1-d8fc-4887-85f2-66b63ab87552",
+    "calendar": "saturday",
+    "time": "11:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "07d6209d-c879-4cef-b90c-1d2bca05a11d",
+    "calendar": "saturday",
+    "time": "12:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2ecec279-afd7-4bcd-979a-869cac46beaa",
+    "calendar": "saturday",
+    "time": "12:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "52896c8a-cbbe-4563-b5de-8df489d9e323",
+    "calendar": "saturday",
+    "time": "13:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "cfdb11a3-1143-4829-825e-9b91fc5f9f64",
+    "calendar": "saturday",
+    "time": "14:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d6f08561-4e99-46e9-b3b1-48675fedc64e",
+    "calendar": "saturday",
+    "time": "14:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "0fd23527-40ef-42b8-88e5-4884000eaea6",
+    "calendar": "saturday",
+    "time": "14:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "e809db33-1764-4e88-8d7f-ddefc30b6fb2",
+    "calendar": "saturday",
+    "time": "15:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2e4c1b4d-efe6-47fe-96cb-ce2d8efe723b",
+    "calendar": "saturday",
+    "time": "15:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "f1c4cd30-81f2-4e4a-8129-bdf6e7cb230b",
+    "calendar": "saturday",
+    "time": "16:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "fd11a45a-7caf-49c3-b995-a7b5cd4a836f",
+    "calendar": "saturday",
+    "time": "16:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ddb57b72-37a0-4d4a-9015-6405a23c617d",
+    "calendar": "saturday",
+    "time": "18:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ba1255c4-5e5e-4d89-9f8d-2067df5a0131",
+    "calendar": "saturday",
+    "time": "18:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ddd4b119-5242-4b88-ba20-5b3fc676a512",
+    "calendar": "saturday",
+    "time": "19:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "a503c0d8-29c5-4122-947f-c7d95b8a2d49",
+    "calendar": "saturday",
+    "time": "20:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "c3a257f2-3905-4d39-aac0-e773577d3b9c",
+    "calendar": "holiday",
+    "time": "07:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d6ce2689-866a-48c3-a94e-6b922a52670f",
+    "calendar": "holiday",
+    "time": "07:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "6cdd5ffc-9256-4a73-a44d-456938cd0bb4",
+    "calendar": "holiday",
+    "time": "08:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "652a58d7-bda9-4578-99eb-720c5a52f69b",
+    "calendar": "holiday",
+    "time": "08:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "fe9bc8d3-8ed1-4766-939c-c72bd456e026",
+    "calendar": "holiday",
+    "time": "08:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "8f99e8db-4307-43ae-bafd-5502da5ca9ad",
+    "calendar": "holiday",
+    "time": "08:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "532f0c25-fb56-4400-a5ea-bee7a878c09d",
+    "calendar": "holiday",
+    "time": "09:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "16f5a95a-e6fe-46aa-b3c3-172210d3a3f7",
+    "calendar": "holiday",
+    "time": "09:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2597de63-2966-460d-a9d8-c688e6fd87eb",
+    "calendar": "holiday",
+    "time": "09:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2f2c572a-9da4-4fbe-ac12-6328680f3219",
+    "calendar": "holiday",
+    "time": "10:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "680bca6b-6ac8-409e-9aaf-55548d28ba4d",
+    "calendar": "holiday",
+    "time": "10:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "42b8795a-2731-4a78-a9a3-f809e3771745",
+    "calendar": "holiday",
+    "time": "10:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "962e753d-5100-4bd7-923b-ff7698bc37be",
+    "calendar": "holiday",
+    "time": "11:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "37c9f1b7-699d-4039-8df2-ce3c71e4bac5",
+    "calendar": "holiday",
+    "time": "11:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "27efc12c-4013-4db7-a8db-5687a85590d9",
+    "calendar": "holiday",
+    "time": "12:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "7a4e36d7-65d1-4138-8d9b-41af8491f68d",
+    "calendar": "holiday",
+    "time": "12:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "9e9ce592-fea5-48fd-b423-6e9f511b9e49",
+    "calendar": "holiday",
+    "time": "12:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "bd5fc94d-b514-46c9-b4d1-283d51bb7d1a",
+    "calendar": "holiday",
+    "time": "12:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "cb5a1421-7db8-4688-8b74-f6ce0835e841",
+    "calendar": "holiday",
+    "time": "13:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "33751651-79d7-4cfd-a57c-92ae6c38b88f",
+    "calendar": "holiday",
+    "time": "13:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "7777de19-4fc3-4500-8e62-e42d736aea66",
+    "calendar": "holiday",
+    "time": "13:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "acc57ef9-2d87-416d-b79f-c12ba5b5dd2d",
+    "calendar": "holiday",
+    "time": "14:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "f108c7d8-4d4a-4c96-8a63-55cf366db6a2",
+    "calendar": "holiday",
+    "time": "14:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d629d8ed-770e-4e8d-b9fb-93b680fc3db4",
+    "calendar": "holiday",
+    "time": "14:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "dfc207fb-0235-420d-9bf1-a2f26a75ce77",
+    "calendar": "holiday",
+    "time": "14:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "3e375449-bac1-49c6-8c2d-eea82794cd31",
+    "calendar": "holiday",
+    "time": "14:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "f3f82ec0-bed5-4fc7-95fa-54bf6af4d366",
+    "calendar": "holiday",
+    "time": "14:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2cfa92ab-1edf-476c-93c1-6cfb0937d1c9",
+    "calendar": "holiday",
+    "time": "15:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "7603d576-9372-4937-ab8c-3561e5d007d9",
+    "calendar": "holiday",
+    "time": "15:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5839cf74-a034-49ee-a413-189e7906d8ca",
+    "calendar": "holiday",
+    "time": "15:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "f56f985f-2944-4f68-acc1-979f01f2a7d4",
+    "calendar": "holiday",
+    "time": "16:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "df7c7b67-c512-4286-b46c-a045765e2128",
+    "calendar": "holiday",
+    "time": "16:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "8e5e96b4-cc2f-4219-bc60-407ed3a16fe3",
+    "calendar": "holiday",
+    "time": "16:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "eba672a3-023a-4f9e-ac36-dbbc6bc1a901",
+    "calendar": "holiday",
+    "time": "16:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "389c7f65-8bfa-49ab-8ec2-e3a440481eaa",
+    "calendar": "holiday",
+    "time": "17:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "62866405-0a8f-4bc4-b581-d7b851d78083",
+    "calendar": "holiday",
+    "time": "18:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "20174d4c-0ecf-4c2b-8120-5718a4d10cdd",
+    "calendar": "holiday",
+    "time": "18:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ad4a18ee-bb39-4de2-9f69-85b3509664b8",
+    "calendar": "holiday",
+    "time": "18:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "eea98159-d77a-4408-9c86-6bfafb2d8244",
+    "calendar": "holiday",
+    "time": "19:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "474d5cb4-75f7-4aa9-b42e-3f763fd98ca0",
+    "calendar": "holiday",
+    "time": "19:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "1ef613f0-24db-4f9c-a083-06352ec7e128",
+    "calendar": "holiday",
+    "time": "20:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "0e756c57-3005-4074-9e1b-f2686a21d96c",
+    "calendar": "holiday",
+    "time": "20:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "123",
+    "courseSid": "d15097d1-60f3-472c-894c-68ff4c6451df",
+    "tripSid": "0ef7c8f2-bf99-4d2d-bd06-a16a6cad8d2b",
+    "calendar": "weekday",
+    "time": "08:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "45bc024e-dfe9-49a7-a90b-6938ff3b7b7c",
+    "calendar": "weekday",
+    "time": "10:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "6336236d-491a-4302-ad73-fb33c9844dff",
+    "calendar": "weekday",
+    "time": "11:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "cefd7875-cd87-4a9f-9b95-92e296db02ad",
+    "calendar": "weekday",
+    "time": "11:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "b152e671-43b7-4c36-935b-14e17b1fa5a5",
+    "calendar": "weekday",
+    "time": "12:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "e7a5478f-6d3c-4160-a8f6-4a960220b782",
+    "calendar": "weekday",
+    "time": "13:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "8a111679-83a8-4b0d-8d66-2180544eb8d6",
+    "calendar": "weekday",
+    "time": "14:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "a67cb19b-115c-4142-a61d-b0fafdc7cdab",
+    "calendar": "weekday",
+    "time": "15:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "483c6055-a763-4477-9e28-e2d7db301e7a",
+    "calendar": "weekday",
+    "time": "16:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "0901ff34-24bd-4843-9e8e-b6cb1d4cfa57",
+    "calendar": "weekday",
+    "time": "17:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "a98969a9-29e9-4029-b2fc-ca26185838c4",
+    "calendar": "weekday",
+    "time": "18:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "f9689864-1a6a-413c-91da-3ae98ae1b11a",
+    "calendar": "weekday",
+    "time": "18:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "1a70b5e2-6add-4090-9204-e9b11372875a",
+    "calendar": "weekday",
+    "time": "19:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "c887a16b-0a8a-480a-838f-bc11109be266",
+    "calendar": "weekday",
+    "time": "20:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "47fb7878-1d71-4a9f-bb12-f18b5089c425",
+    "calendar": "saturday",
+    "time": "10:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "fec13853-cbf7-4975-84f3-b4ac7a3e89ed",
+    "calendar": "saturday",
+    "time": "11:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "139dea64-d2b3-48db-98ce-fad6f7e47cd0",
+    "calendar": "saturday",
+    "time": "12:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "87ccaf80-53d6-43fc-974a-9286768e7ead",
+    "calendar": "saturday",
+    "time": "13:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "cb842857-4ffd-498c-8bd2-dae1ea868db6",
+    "calendar": "saturday",
+    "time": "14:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "3352c001-85be-42c5-9891-0789966c77e5",
+    "calendar": "saturday",
+    "time": "15:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "27419d2b-1444-4e62-864a-c143b5515eaf",
+    "calendar": "saturday",
+    "time": "16:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "5f83600b-75ff-44ba-afff-69861e4eeae2",
+    "calendar": "saturday",
+    "time": "17:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "041f2a32-5627-4771-be8e-bc59ef1bc2a5",
+    "calendar": "saturday",
+    "time": "19:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "a648b07b-2536-4fcc-b08a-9b3f3b6fadc9",
+    "calendar": "saturday",
+    "time": "19:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "ab899a9a-e07f-4a92-9cc7-54f052e0e5ec",
+    "calendar": "holiday",
+    "time": "10:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "ad2b25ff-6ffe-49d6-965a-da89e66d1c4f",
+    "calendar": "holiday",
+    "time": "12:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "099a6670-cf86-4d29-ab79-c322d4b12e48",
+    "calendar": "holiday",
+    "time": "12:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "4c1cb3c1-7903-4b92-bd94-e52af18f2be5",
+    "calendar": "holiday",
+    "time": "13:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "63e838f9-d33d-4a6e-b5e8-518b0e4c5462",
+    "calendar": "holiday",
+    "time": "13:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "1ef19de5-0396-4e56-9f77-efc1d72022b6",
+    "calendar": "holiday",
+    "time": "15:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "be852d01-b559-467b-87b7-b32e499f1319",
+    "calendar": "holiday",
+    "time": "15:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "1d10e375-c5a0-40ba-8a59-48321e21ef0e",
+    "calendar": "holiday",
+    "time": "16:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "a3f02d0c-9790-4345-8884-fc4d48da1d93",
+    "calendar": "holiday",
+    "time": "16:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "c269fe8e-06a2-4bf2-abe1-edf6369f28a1",
+    "calendar": "holiday",
+    "time": "17:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "0a2371b9-59f1-4219-b0ee-d2ef5c142898",
+    "calendar": "holiday",
+    "time": "17:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "125",
+    "courseSid": "0a1a8b30-33b4-4e80-b048-f52218d4b031",
+    "tripSid": "61431e27-069e-493d-ae59-364cb8fca14c",
+    "calendar": "holiday",
+    "time": "19:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "d0c41f2b-cd5e-4d08-aab3-4e785ad6b99b",
+    "calendar": "weekday",
+    "time": "08:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "148bff59-035d-4dc5-ae48-e5fe381bb775",
+    "calendar": "weekday",
+    "time": "09:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "548dc0d7-c290-4eec-9197-29563893e962",
+    "calendar": "weekday",
+    "time": "09:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "b0baa2f1-f3ba-4512-b46a-03ea07d69abe",
+    "calendar": "weekday",
+    "time": "09:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "2bff073d-b271-4a66-93bf-07482730d9c6",
+    "calendar": "weekday",
+    "time": "09:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "e1101195-f667-491d-8133-08755a68827e",
+    "calendar": "weekday",
+    "time": "10:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "b29d5704-a9e0-40fb-b5e4-786c835d4a51",
+    "calendar": "weekday",
+    "time": "10:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "da14b006-d4ef-49aa-84a5-1231e44abd78",
+    "calendar": "weekday",
+    "time": "11:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "564710b6-f79b-4f5d-ae6d-246f871f49c1",
+    "calendar": "weekday",
+    "time": "11:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "1e4ae35f-e58d-4205-9923-db053cb372b9",
+    "calendar": "weekday",
+    "time": "12:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "6f026c2b-4e29-4b74-ace0-a63818fc1003",
+    "calendar": "weekday",
+    "time": "12:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "ad7c183a-a8a9-43fa-a1f6-c0dea8f6e47f",
+    "calendar": "weekday",
+    "time": "12:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "784a7b52-8364-48e9-8bba-f410bb13492d",
+    "calendar": "weekday",
+    "time": "14:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "14f4a011-4f58-40b6-9d2e-f7e672b10270",
+    "calendar": "weekday",
+    "time": "15:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "08916b2a-c983-4b0e-a854-bacd11183a9a",
+    "calendar": "weekday",
+    "time": "15:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "b86f038b-1525-4035-ac4b-c58754af2bdd",
+    "calendar": "saturday",
+    "time": "09:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "e5a10fc2-0a2f-4dd6-9bd6-bb78e3b5da04",
+    "calendar": "saturday",
+    "time": "10:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "54e08d1c-70ba-487b-8fbe-9cf3596f9793",
+    "calendar": "saturday",
+    "time": "10:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "0360a5d9-9049-4cc9-8e8a-369786fe9290",
+    "calendar": "saturday",
+    "time": "11:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "5b90354c-b8ed-4a5d-8543-c61362d80ac6",
+    "calendar": "holiday",
+    "time": "09:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "0a132416-2709-4226-9893-a31b3c91623d",
+    "calendar": "holiday",
+    "time": "10:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "599708ea-eddb-4c74-aaa5-bf112ff5ba1d",
+    "calendar": "holiday",
+    "time": "10:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "16080100",
+    "stopName": "フリーゾーン前（那覇空港向け）",
+    "routeNo": "190",
+    "courseSid": "eb0fe4f2-5949-408c-9e8d-1ee179d41c87",
+    "tripSid": "127f9251-e5d2-450c-ac83-92c4381a0a2a",
+    "calendar": "holiday",
+    "time": "11:56",
+    "parentCompanyCode": "8000"
+  }
+]

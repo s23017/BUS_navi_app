@@ -1,0 +1,2132 @@
+[
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "cf1fea9b-d898-474d-94c2-fdf9366cdfd9",
+    "calendar": "weekday",
+    "time": "19:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "9247f558-0ea9-43a7-ac99-312b261a89a6",
+    "calendar": "weekday",
+    "time": "20:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "32d9249c-b19b-4788-b6e3-773687e1c3a0",
+    "calendar": "weekday",
+    "time": "21:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "b5095eef-d6b3-436b-bd0b-4b4cb02b58d3",
+    "calendar": "saturday",
+    "time": "19:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "bda381ae-014e-4522-89b5-c2bb5afbf0d7",
+    "calendar": "saturday",
+    "time": "20:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "d119138b-e3bf-4c27-bfa4-ff9ade3fd471",
+    "calendar": "saturday",
+    "time": "21:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "83d09207-4c98-4753-aa47-4d856e203880",
+    "calendar": "holiday",
+    "time": "19:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "0886b7bb-9470-4020-8c25-0e561a97f259",
+    "calendar": "holiday",
+    "time": "19:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "05131c65-38ef-49a1-bd82-fa42534e27c7",
+    "calendar": "holiday",
+    "time": "20:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "011a4f5d-e491-4408-ad25-9b9664fd33dc",
+    "calendar": "holiday",
+    "time": "20:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "3227c086-7984-4394-b9d3-775c2933af1c",
+    "calendar": "holiday",
+    "time": "21:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "136ae0ba-1516-4166-b772-812fe257ef77",
+    "calendar": "holiday",
+    "time": "21:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "d63e02aa-8acb-4d09-9bd5-82126fce5998",
+    "calendar": "weekday",
+    "time": "06:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "4dd04227-c722-496e-99a0-d15db8465f25",
+    "calendar": "weekday",
+    "time": "07:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "09e100c1-0bf7-41c8-b80e-61af372930df",
+    "calendar": "weekday",
+    "time": "07:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "61872515-17b9-4d06-93f2-33939808db7d",
+    "calendar": "weekday",
+    "time": "08:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "76010f19-08fa-4e8b-83ef-2439d3ef46f3",
+    "calendar": "weekday",
+    "time": "09:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "264826ce-5bda-4573-894d-17c16b6ca0f4",
+    "calendar": "weekday",
+    "time": "09:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "9c1c50e3-233e-4e8a-b328-6545d75ffbff",
+    "calendar": "weekday",
+    "time": "09:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "abe06cb2-76a7-4554-a9c0-993d7c6e1868",
+    "calendar": "weekday",
+    "time": "10:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "1b6da6d7-ef59-4367-88e3-5a1fc7bb8e19",
+    "calendar": "weekday",
+    "time": "10:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "d4d04539-b040-4d91-aae1-2d8a04320e15",
+    "calendar": "weekday",
+    "time": "10:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "a59f079c-cd4f-4940-bd91-acc400c8c6c7",
+    "calendar": "weekday",
+    "time": "11:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "50e01592-f9cc-4535-9a8f-7abc8a036115",
+    "calendar": "weekday",
+    "time": "11:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "282484df-7108-45c8-a2a2-105d8457747c",
+    "calendar": "weekday",
+    "time": "12:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "aa212139-c123-4bd6-9feb-162b78bd3ff1",
+    "calendar": "weekday",
+    "time": "13:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "6cd12109-325d-4068-9ea6-0bd681247d7b",
+    "calendar": "weekday",
+    "time": "14:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "2d3193bd-86ed-4ccc-a0da-baca01cf7eb6",
+    "calendar": "weekday",
+    "time": "14:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "24be1331-3bee-434d-8aa8-7209aa5737e4",
+    "calendar": "weekday",
+    "time": "15:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "7cec0faa-0007-4a61-9f1d-43d950264a58",
+    "calendar": "weekday",
+    "time": "16:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "3c92c398-804e-4908-89c3-54659b299b59",
+    "calendar": "weekday",
+    "time": "16:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "8006b240-9592-4828-ae5b-f79260dd8202",
+    "calendar": "weekday",
+    "time": "17:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "e6cb1791-7894-4bd0-9c12-26661313c115",
+    "calendar": "weekday",
+    "time": "18:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "1b337bd9-e579-415d-9053-2a359c733390",
+    "calendar": "weekday",
+    "time": "18:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "75268788-8490-46df-b1c6-2f3abb284f43",
+    "calendar": "weekday",
+    "time": "19:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "2664ef86-c2db-43bc-bbcf-60ba18b8fb03",
+    "calendar": "weekday",
+    "time": "20:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "0f8a082c-2489-4d6a-80b0-ef70386b394e",
+    "calendar": "weekday",
+    "time": "20:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "714882d1-a86d-43ed-a6ae-7273152d4b61",
+    "calendar": "weekday",
+    "time": "21:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "302ad63b-d4f8-4d27-ac9e-264e3d92ad6f",
+    "calendar": "saturday",
+    "time": "06:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "6ccb4122-e2b5-4cbf-9a96-3000f03d957c",
+    "calendar": "saturday",
+    "time": "07:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "f9062a91-75f3-40b7-8408-5bd9e85ec8d9",
+    "calendar": "saturday",
+    "time": "08:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "5468c191-bbb0-4b56-9ba7-c45257ebe529",
+    "calendar": "saturday",
+    "time": "09:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "9d06d9fd-fe1c-44bc-8db3-ed41f424ec74",
+    "calendar": "saturday",
+    "time": "10:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "adadc79b-f96a-466a-bec3-9afc82cdc88b",
+    "calendar": "saturday",
+    "time": "10:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "a28f73e0-532a-42a5-80fb-51cbd9f0f6a7",
+    "calendar": "saturday",
+    "time": "10:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "b64df5f0-2b8d-4ef8-8c20-f3ac8189d23d",
+    "calendar": "saturday",
+    "time": "11:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "ced6eff3-a206-4461-aa9b-cef7bf1fcea8",
+    "calendar": "saturday",
+    "time": "12:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "7d216774-65af-47bb-8ebe-baf5a8db7b73",
+    "calendar": "saturday",
+    "time": "13:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "54cbd8b7-1d05-4c1f-8566-ddf9a5f03513",
+    "calendar": "saturday",
+    "time": "13:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "34f4d400-c0a7-4cf2-a846-c1823b38f9d2",
+    "calendar": "saturday",
+    "time": "14:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "c75d8ef5-f982-40bc-9057-bd6842cd3269",
+    "calendar": "saturday",
+    "time": "14:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "e835b64c-1a23-4f60-b291-23f034bab28a",
+    "calendar": "saturday",
+    "time": "15:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "0e1bf0f9-29ae-4448-9f3e-710dd17522bf",
+    "calendar": "saturday",
+    "time": "16:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "99d18672-0eee-483f-9ba1-9e971e681039",
+    "calendar": "saturday",
+    "time": "17:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "c64feae6-d642-4ba2-b446-f62fddff1184",
+    "calendar": "saturday",
+    "time": "18:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "032d2b50-052f-4a83-a42a-317e0edfc9e8",
+    "calendar": "saturday",
+    "time": "19:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "132884d8-572e-4a49-aaeb-0b9afb8697a4",
+    "calendar": "saturday",
+    "time": "20:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "edf083a7-d8d1-4afe-80f1-6542ca9c88a4",
+    "calendar": "saturday",
+    "time": "20:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "5a282848-be4c-42b8-9304-01f5ada83510",
+    "calendar": "saturday",
+    "time": "20:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "da394cf2-4213-4f77-aa89-4bb2f58406e8",
+    "calendar": "holiday",
+    "time": "06:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "2d56c6ad-e47c-4387-bd2e-99bee195f9c5",
+    "calendar": "holiday",
+    "time": "07:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "c95bd03c-0e14-4eac-8fa8-b862f954d5f6",
+    "calendar": "holiday",
+    "time": "08:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "0e8ce6e7-9dbe-4afe-b9dc-0b1fb5995c4d",
+    "calendar": "holiday",
+    "time": "09:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "840e20a2-7d08-41c3-87b6-a69512e7dffb",
+    "calendar": "holiday",
+    "time": "10:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "14f955ed-eeb8-49a3-8a0b-2697e7b82120",
+    "calendar": "holiday",
+    "time": "10:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "20c96809-c75f-4379-88ec-596ccadc5bee",
+    "calendar": "holiday",
+    "time": "10:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "e87358c6-84d0-49a8-94ef-48e708a7bbb5",
+    "calendar": "holiday",
+    "time": "11:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "d5c1e47d-1447-4bb0-95c1-d96715abe02d",
+    "calendar": "holiday",
+    "time": "12:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "c7439e52-b9cd-4987-993f-6d7e36f68e78",
+    "calendar": "holiday",
+    "time": "13:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "1087ad48-cb3a-4993-8669-1b76ccfaceac",
+    "calendar": "holiday",
+    "time": "13:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "53e9c912-1cb5-4938-8da3-4f481eae3620",
+    "calendar": "holiday",
+    "time": "14:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "9070d364-90d3-426f-a4cd-83e2049e80e5",
+    "calendar": "holiday",
+    "time": "14:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "df95acf5-2969-4150-91d4-41941bb758ab",
+    "calendar": "holiday",
+    "time": "15:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "d0d7a0c1-39d4-4af0-a4ba-5010199a486d",
+    "calendar": "holiday",
+    "time": "16:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "5b7076a0-2824-4350-9274-7b446319b182",
+    "calendar": "holiday",
+    "time": "17:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "f2e9e763-5f87-43ef-bfd4-e7d52845cd5f",
+    "calendar": "holiday",
+    "time": "18:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "e90fe303-30a9-4e59-bd11-c9e46a571206",
+    "calendar": "holiday",
+    "time": "19:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "16c56c65-8c84-4bb9-8328-8d5467f79a08",
+    "calendar": "holiday",
+    "time": "20:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "2ec99585-127e-4d73-90a7-42d9011fc0b6",
+    "calendar": "holiday",
+    "time": "20:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "fc10b4af-9fc0-4324-86e3-f26eb9070f37",
+    "calendar": "holiday",
+    "time": "20:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "69d82b18-4dc1-4801-bcdd-8b6a9d3670c1",
+    "calendar": "weekday",
+    "time": "07:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "0464f8e2-5d0e-441d-8106-4a951b42b968",
+    "calendar": "weekday",
+    "time": "08:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "e52fb4a9-18ae-4a6d-8b65-c88782635675",
+    "calendar": "weekday",
+    "time": "14:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "db7f2cbb-e4d0-47b8-8569-23c28eea538f",
+    "calendar": "weekday",
+    "time": "17:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "1a0e9374-db4e-43ad-b22d-3fa5b45186e4",
+    "calendar": "saturday",
+    "time": "07:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "3f3f89ed-69e6-4c5a-994d-44131716f8ce",
+    "calendar": "saturday",
+    "time": "09:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "bec283d2-5b2a-4b8c-bae8-f657225e8739",
+    "calendar": "saturday",
+    "time": "15:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "23a9eec5-bc01-4fb4-b27d-e997dc187afe",
+    "calendar": "holiday",
+    "time": "07:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "b0be595f-e89d-447e-833b-0a0d1b975e2c",
+    "calendar": "holiday",
+    "time": "09:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "3e1dc693-1848-4d11-bf38-bb0cd932e5bb",
+    "calendar": "holiday",
+    "time": "15:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "9fe116fb-f124-4cc2-8293-ef8efb5da244",
+    "calendar": "weekday",
+    "time": "06:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "7611b095-6dd3-44ed-8f05-a460c5574f8d",
+    "calendar": "weekday",
+    "time": "07:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "648e820c-0b30-4965-9f5b-b6cd533e69c3",
+    "calendar": "weekday",
+    "time": "08:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "e36d8fb6-79b2-4343-9da4-1938bc1fe4ef",
+    "calendar": "weekday",
+    "time": "14:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "02dd0ba1-5b86-4dd9-8e00-f156ded5ccc9",
+    "calendar": "weekday",
+    "time": "14:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "4a4e3238-1377-45eb-8b0e-c23bbb244d3f",
+    "calendar": "weekday",
+    "time": "16:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "e2157736-a598-4ff7-bb70-ece926647f59",
+    "calendar": "weekday",
+    "time": "17:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "4fad1e91-851e-412a-b1c6-526e084dbea2",
+    "calendar": "weekday",
+    "time": "19:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "d2e6ee10-e494-4089-b26f-dc709ef28d80",
+    "calendar": "saturday",
+    "time": "06:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "0f26c380-b3cb-406b-9ad7-c37b6b375a2d",
+    "calendar": "saturday",
+    "time": "10:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "66a7df71-abd6-4a28-a343-e80ff0e70de8",
+    "calendar": "saturday",
+    "time": "15:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "0ab60357-9c61-4ee2-8183-d65432b3829a",
+    "calendar": "holiday",
+    "time": "06:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "ac48bd31-6e91-426f-a8a3-8589a49377f8",
+    "calendar": "holiday",
+    "time": "10:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "112",
+    "courseSid": "04722d4d-0b95-44db-b702-ecfeaebafe17",
+    "tripSid": "93199b11-0083-4649-9780-77e035dd3b48",
+    "calendar": "holiday",
+    "time": "15:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "630d4225-ed1b-4536-80c1-5b8abb0a4a1b",
+    "calendar": "weekday",
+    "time": "07:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "711141a9-27e6-441c-839f-bb5d36d925c9",
+    "calendar": "weekday",
+    "time": "07:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "97c4fba1-9b68-4d28-ba80-8b9c38254a1a",
+    "calendar": "weekday",
+    "time": "07:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "41ee7e48-3613-48eb-ab34-ec439ad79dba",
+    "calendar": "weekday",
+    "time": "08:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "f30130c5-0467-4039-b2d8-3c0fbf21d0ae",
+    "calendar": "weekday",
+    "time": "08:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ef0c7c07-3a13-409a-9900-06c17847f24f",
+    "calendar": "weekday",
+    "time": "09:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "83c65530-fa6a-4096-b0b5-523d7dde9cfd",
+    "calendar": "weekday",
+    "time": "10:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2ec1155d-8f10-4311-9aae-fa1289b24e36",
+    "calendar": "weekday",
+    "time": "11:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5ed58e11-5031-4dc9-bc31-e9e95caa8008",
+    "calendar": "weekday",
+    "time": "12:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5c3ad1db-6a44-448d-9925-8d13a8b11ee8",
+    "calendar": "weekday",
+    "time": "12:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ebfa89c9-079f-4089-8ff0-9ff82a7ebef7",
+    "calendar": "weekday",
+    "time": "13:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "e339de21-0ace-4d97-a3eb-49d75e1f2551",
+    "calendar": "weekday",
+    "time": "13:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "76ee88bf-b545-4984-abf7-9ab4842c53c8",
+    "calendar": "weekday",
+    "time": "14:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d94b06b4-dd6c-4f91-8da6-ff6a24142420",
+    "calendar": "weekday",
+    "time": "14:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "935f3c88-1993-4ed0-8529-e6beb83709d2",
+    "calendar": "weekday",
+    "time": "15:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "7eb903f1-7a5f-4ebe-b245-e1438180ea7b",
+    "calendar": "weekday",
+    "time": "15:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "288b6b1a-8fc9-42c6-8b12-d6f84cc166fb",
+    "calendar": "weekday",
+    "time": "16:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d79669b8-b66c-4dbe-852f-99ff430cc375",
+    "calendar": "weekday",
+    "time": "16:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5388715f-e66f-4d06-b04f-14c46fa25a4d",
+    "calendar": "weekday",
+    "time": "18:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "117af7b3-9022-49d4-90ff-a783e028bf6c",
+    "calendar": "weekday",
+    "time": "18:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "65f58f1d-cdbc-47e8-bfda-fa63a9c1a9de",
+    "calendar": "saturday",
+    "time": "07:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "b2a2b72e-6da6-4615-b43b-8cad28b4a55c",
+    "calendar": "saturday",
+    "time": "07:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "939371e2-4c59-4a97-bc90-2ce6dd9fd56f",
+    "calendar": "saturday",
+    "time": "07:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5f1c058c-0cac-47fb-9c6a-711ff7c4fff2",
+    "calendar": "saturday",
+    "time": "08:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "705c3ac7-6421-4123-97f6-b53d09b9d7b8",
+    "calendar": "saturday",
+    "time": "08:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "a32f75f0-83bc-43e9-8447-681388e189a7",
+    "calendar": "saturday",
+    "time": "09:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5eef7bf1-d8fc-4887-85f2-66b63ab87552",
+    "calendar": "saturday",
+    "time": "10:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "07d6209d-c879-4cef-b90c-1d2bca05a11d",
+    "calendar": "saturday",
+    "time": "11:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2ecec279-afd7-4bcd-979a-869cac46beaa",
+    "calendar": "saturday",
+    "time": "11:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "52896c8a-cbbe-4563-b5de-8df489d9e323",
+    "calendar": "saturday",
+    "time": "12:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "cfdb11a3-1143-4829-825e-9b91fc5f9f64",
+    "calendar": "saturday",
+    "time": "12:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d6f08561-4e99-46e9-b3b1-48675fedc64e",
+    "calendar": "saturday",
+    "time": "13:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "0fd23527-40ef-42b8-88e5-4884000eaea6",
+    "calendar": "saturday",
+    "time": "13:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "e809db33-1764-4e88-8d7f-ddefc30b6fb2",
+    "calendar": "saturday",
+    "time": "13:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2e4c1b4d-efe6-47fe-96cb-ce2d8efe723b",
+    "calendar": "saturday",
+    "time": "14:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "f1c4cd30-81f2-4e4a-8129-bdf6e7cb230b",
+    "calendar": "saturday",
+    "time": "14:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "fd11a45a-7caf-49c3-b995-a7b5cd4a836f",
+    "calendar": "saturday",
+    "time": "15:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ddb57b72-37a0-4d4a-9015-6405a23c617d",
+    "calendar": "saturday",
+    "time": "16:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ba1255c4-5e5e-4d89-9f8d-2067df5a0131",
+    "calendar": "saturday",
+    "time": "17:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ddd4b119-5242-4b88-ba20-5b3fc676a512",
+    "calendar": "saturday",
+    "time": "18:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "a503c0d8-29c5-4122-947f-c7d95b8a2d49",
+    "calendar": "saturday",
+    "time": "19:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "c3a257f2-3905-4d39-aac0-e773577d3b9c",
+    "calendar": "holiday",
+    "time": "07:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d6ce2689-866a-48c3-a94e-6b922a52670f",
+    "calendar": "holiday",
+    "time": "07:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "6cdd5ffc-9256-4a73-a44d-456938cd0bb4",
+    "calendar": "holiday",
+    "time": "07:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "652a58d7-bda9-4578-99eb-720c5a52f69b",
+    "calendar": "holiday",
+    "time": "07:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "fe9bc8d3-8ed1-4766-939c-c72bd456e026",
+    "calendar": "holiday",
+    "time": "07:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "8f99e8db-4307-43ae-bafd-5502da5ca9ad",
+    "calendar": "holiday",
+    "time": "08:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "532f0c25-fb56-4400-a5ea-bee7a878c09d",
+    "calendar": "holiday",
+    "time": "08:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "16f5a95a-e6fe-46aa-b3c3-172210d3a3f7",
+    "calendar": "holiday",
+    "time": "08:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2597de63-2966-460d-a9d8-c688e6fd87eb",
+    "calendar": "holiday",
+    "time": "08:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2f2c572a-9da4-4fbe-ac12-6328680f3219",
+    "calendar": "holiday",
+    "time": "09:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "680bca6b-6ac8-409e-9aaf-55548d28ba4d",
+    "calendar": "holiday",
+    "time": "09:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "42b8795a-2731-4a78-a9a3-f809e3771745",
+    "calendar": "holiday",
+    "time": "09:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "37c9f1b7-699d-4039-8df2-ce3c71e4bac5",
+    "calendar": "holiday",
+    "time": "10:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "962e753d-5100-4bd7-923b-ff7698bc37be",
+    "calendar": "holiday",
+    "time": "10:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "7a4e36d7-65d1-4138-8d9b-41af8491f68d",
+    "calendar": "holiday",
+    "time": "11:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "27efc12c-4013-4db7-a8db-5687a85590d9",
+    "calendar": "holiday",
+    "time": "11:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "9e9ce592-fea5-48fd-b423-6e9f511b9e49",
+    "calendar": "holiday",
+    "time": "11:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "bd5fc94d-b514-46c9-b4d1-283d51bb7d1a",
+    "calendar": "holiday",
+    "time": "11:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "cb5a1421-7db8-4688-8b74-f6ce0835e841",
+    "calendar": "holiday",
+    "time": "12:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "33751651-79d7-4cfd-a57c-92ae6c38b88f",
+    "calendar": "holiday",
+    "time": "12:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "acc57ef9-2d87-416d-b79f-c12ba5b5dd2d",
+    "calendar": "holiday",
+    "time": "12:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "7777de19-4fc3-4500-8e62-e42d736aea66",
+    "calendar": "holiday",
+    "time": "12:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "f108c7d8-4d4a-4c96-8a63-55cf366db6a2",
+    "calendar": "holiday",
+    "time": "13:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d629d8ed-770e-4e8d-b9fb-93b680fc3db4",
+    "calendar": "holiday",
+    "time": "13:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "dfc207fb-0235-420d-9bf1-a2f26a75ce77",
+    "calendar": "holiday",
+    "time": "13:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "3e375449-bac1-49c6-8c2d-eea82794cd31",
+    "calendar": "holiday",
+    "time": "13:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2cfa92ab-1edf-476c-93c1-6cfb0937d1c9",
+    "calendar": "holiday",
+    "time": "13:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "f3f82ec0-bed5-4fc7-95fa-54bf6af4d366",
+    "calendar": "holiday",
+    "time": "13:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "7603d576-9372-4937-ab8c-3561e5d007d9",
+    "calendar": "holiday",
+    "time": "14:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5839cf74-a034-49ee-a413-189e7906d8ca",
+    "calendar": "holiday",
+    "time": "14:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "df7c7b67-c512-4286-b46c-a045765e2128",
+    "calendar": "holiday",
+    "time": "14:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "f56f985f-2944-4f68-acc1-979f01f2a7d4",
+    "calendar": "holiday",
+    "time": "15:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "8e5e96b4-cc2f-4219-bc60-407ed3a16fe3",
+    "calendar": "holiday",
+    "time": "15:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "eba672a3-023a-4f9e-ac36-dbbc6bc1a901",
+    "calendar": "holiday",
+    "time": "15:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "62866405-0a8f-4bc4-b581-d7b851d78083",
+    "calendar": "holiday",
+    "time": "16:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "389c7f65-8bfa-49ab-8ec2-e3a440481eaa",
+    "calendar": "holiday",
+    "time": "16:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ad4a18ee-bb39-4de2-9f69-85b3509664b8",
+    "calendar": "holiday",
+    "time": "17:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "20174d4c-0ecf-4c2b-8120-5718a4d10cdd",
+    "calendar": "holiday",
+    "time": "17:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "eea98159-d77a-4408-9c86-6bfafb2d8244",
+    "calendar": "holiday",
+    "time": "18:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "474d5cb4-75f7-4aa9-b42e-3f763fd98ca0",
+    "calendar": "holiday",
+    "time": "18:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "1ef613f0-24db-4f9c-a083-06352ec7e128",
+    "calendar": "holiday",
+    "time": "18:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "0e756c57-3005-4074-9e1b-f2686a21d96c",
+    "calendar": "holiday",
+    "time": "19:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "26641ab9-534a-4821-9804-6d7c0214dc27",
+    "calendar": "weekday",
+    "time": "06:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "a7c2c661-4c3c-4b9a-8d2f-33097aac3ca8",
+    "calendar": "weekday",
+    "time": "07:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "ffc32d05-f659-48b8-b710-a8da41b684ac",
+    "calendar": "weekday",
+    "time": "08:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "0d66e3e5-5682-41a7-a36e-62a3df6ac62c",
+    "calendar": "weekday",
+    "time": "11:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "f764fff1-3172-4961-b475-b448fd3e763a",
+    "calendar": "weekday",
+    "time": "12:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "cbc97b3e-aa94-4d74-b7b2-bbee249e2bec",
+    "calendar": "weekday",
+    "time": "12:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "0c10af6f-b153-48dc-937b-97515b505470",
+    "calendar": "weekday",
+    "time": "13:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "58218601-d03a-4f4a-9704-1a65b6de9add",
+    "calendar": "weekday",
+    "time": "15:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "efee2865-3a04-45cd-a213-0d8e1ce056ef",
+    "calendar": "weekday",
+    "time": "16:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "cd10fc44-0b75-4ee6-bb90-57b212ca743e",
+    "calendar": "weekday",
+    "time": "17:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "8e239cd1-ae51-4ca4-a353-04adc5787cbe",
+    "calendar": "saturday",
+    "time": "07:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "b8b41547-4df2-4ad3-903b-6cdaf665f6a3",
+    "calendar": "saturday",
+    "time": "08:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "bd57a622-6fc1-4e64-b0c5-b15b08b8c022",
+    "calendar": "saturday",
+    "time": "09:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "5e51cf8f-6dfc-4778-9aef-cf36178e117d",
+    "calendar": "saturday",
+    "time": "11:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "84b84bef-39b0-4463-ab3a-7f139dd337a8",
+    "calendar": "saturday",
+    "time": "12:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "19ae6fa0-bd7f-4637-a193-74d7334acb17",
+    "calendar": "saturday",
+    "time": "14:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "401aae62-ea34-4194-9699-d40522462ddf",
+    "calendar": "saturday",
+    "time": "16:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "8211d5d4-724f-43dd-8053-f04b4b3086ab",
+    "calendar": "saturday",
+    "time": "18:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "c9537f10-0601-458f-b6ce-a3981534b9e1",
+    "calendar": "holiday",
+    "time": "07:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "8601d8a2-6d26-4e14-b64b-e464dd17168a",
+    "calendar": "holiday",
+    "time": "08:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "52ed4c69-0c0f-484e-978a-5b03c3e3911c",
+    "calendar": "holiday",
+    "time": "09:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "7e0d54c4-6f3c-4474-ba2a-195f6217b3c3",
+    "calendar": "holiday",
+    "time": "11:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "b0641b13-c9ae-4188-b280-15329da9e111",
+    "calendar": "holiday",
+    "time": "12:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "3265540b-20d3-45b7-a55b-136ced9467d6",
+    "calendar": "holiday",
+    "time": "14:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "15a6b03f-94ba-4c2f-8f02-ad1ab90f1aac",
+    "calendar": "holiday",
+    "time": "16:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "10400100",
+    "stopName": "謝苅入口（那覇・コンベンション向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "a258805b-b580-4f2a-908f-b46c1942c5f5",
+    "calendar": "holiday",
+    "time": "18:01",
+    "parentCompanyCode": "8000"
+  }
+]

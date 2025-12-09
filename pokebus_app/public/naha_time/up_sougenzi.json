@@ -1,0 +1,1472 @@
+[
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "9cfbdd44-9a6b-4639-8b26-9727cf87f53c",
+    "calendar": "weekday",
+    "time": "08:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "9b100163-c2c3-4156-984d-aae542afcaeb",
+    "calendar": "weekday",
+    "time": "08:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "c07083c7-e766-45ed-8b7c-c04bf8bea83b",
+    "calendar": "weekday",
+    "time": "09:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "721a0972-dcd1-44be-8aca-21fb90b70370",
+    "calendar": "weekday",
+    "time": "09:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "f6a4d143-6035-4f84-9fd7-33b4dddb810d",
+    "calendar": "weekday",
+    "time": "10:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "0038e967-39ec-4cf1-8d11-fff974a4c61f",
+    "calendar": "weekday",
+    "time": "11:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "56323aa8-3f7a-45f4-95d5-5bec5652ad00",
+    "calendar": "weekday",
+    "time": "11:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "24d52eb4-b722-4728-aea9-fb9542c26b0d",
+    "calendar": "weekday",
+    "time": "12:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "8e7c9efc-8101-4bda-8e4d-96e57409ed11",
+    "calendar": "weekday",
+    "time": "13:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "2983c057-7b31-43ce-843d-74d64591c7de",
+    "calendar": "weekday",
+    "time": "14:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "7d4d0846-2f45-45d4-ae5c-5e202e0b651e",
+    "calendar": "weekday",
+    "time": "15:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "9b5c88da-08c8-4447-b298-fed878135661",
+    "calendar": "weekday",
+    "time": "16:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "a61ce11e-59bd-4a1f-b952-3633dc231968",
+    "calendar": "weekday",
+    "time": "17:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "19c3355b-8893-4be4-8d0b-4a89d4c61028",
+    "calendar": "weekday",
+    "time": "18:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "4b399c74-bf16-4dfc-819a-b9a78fc76c5a",
+    "calendar": "weekday",
+    "time": "19:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "e0c978fe-11c8-419d-9f4d-637ae4b28594",
+    "calendar": "weekday",
+    "time": "20:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "fd20d332-c97f-4d3b-ba7c-8f1478820d29",
+    "calendar": "saturday",
+    "time": "08:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "9c8dc7ac-0c00-454e-8a52-17285cc209fd",
+    "calendar": "saturday",
+    "time": "09:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "d533a9f6-a75c-455d-9ad1-440ca0c93533",
+    "calendar": "saturday",
+    "time": "10:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "fabaf0c1-67c5-47e3-a341-5b53ce551d0c",
+    "calendar": "saturday",
+    "time": "11:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "99f68b40-44d5-435c-8d5e-b57429e9429a",
+    "calendar": "saturday",
+    "time": "12:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "acd2a739-c647-470e-91e4-ef32cb4734e1",
+    "calendar": "saturday",
+    "time": "13:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "ba491a99-c105-42c5-a3f6-e5e5df842916",
+    "calendar": "saturday",
+    "time": "14:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "8d93b6be-0138-414b-9770-652acc165b90",
+    "calendar": "saturday",
+    "time": "15:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "caa6882e-6676-473a-8757-7293401e892c",
+    "calendar": "saturday",
+    "time": "16:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "55db3813-4acc-403b-9955-7e5e3ee686f2",
+    "calendar": "saturday",
+    "time": "17:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "28c75bd9-610f-4e03-804f-88912c19d768",
+    "calendar": "saturday",
+    "time": "18:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "25c277ac-9940-4c00-a0fb-7bdfe8403dff",
+    "calendar": "saturday",
+    "time": "19:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "7704ea24-755e-4bfa-bb34-ead1b68defa6",
+    "calendar": "holiday",
+    "time": "08:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "ae9297ce-ad4a-4ec8-a830-3e1ca74b80aa",
+    "calendar": "holiday",
+    "time": "09:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "6ec01d6f-a18f-4522-b821-ed231e384a38",
+    "calendar": "holiday",
+    "time": "10:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "2df0f9a4-8ffb-4efc-a63d-299cf873aae6",
+    "calendar": "holiday",
+    "time": "10:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "7504efbc-04c2-4b64-b567-e6474eb93d04",
+    "calendar": "holiday",
+    "time": "12:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "6d819d47-0de4-4e41-ad42-13ab9495cea4",
+    "calendar": "holiday",
+    "time": "13:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "322c223b-36ec-494f-818c-6473d2b90664",
+    "calendar": "holiday",
+    "time": "14:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "fe011f3e-1e26-4672-a042-4e2994264bfc",
+    "calendar": "holiday",
+    "time": "15:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "5a930214-c3b2-4634-91fb-ecc90c897765",
+    "calendar": "holiday",
+    "time": "16:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "286bd16f-e9ae-432e-8b5f-ddab2d2dac13",
+    "calendar": "holiday",
+    "time": "17:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "bed9c4ab-11c7-4ba4-901d-7512146a8149",
+    "calendar": "holiday",
+    "time": "18:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "10",
+    "courseSid": "8855ca7d-e8f6-481a-9abb-4408ca48a541",
+    "tripSid": "abc45da8-7a41-4cad-9f70-cc87926c4da0",
+    "calendar": "holiday",
+    "time": "19:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "cf1fea9b-d898-474d-94c2-fdf9366cdfd9",
+    "calendar": "weekday",
+    "time": "20:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "9247f558-0ea9-43a7-ac99-312b261a89a6",
+    "calendar": "weekday",
+    "time": "20:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "32d9249c-b19b-4788-b6e3-773687e1c3a0",
+    "calendar": "weekday",
+    "time": "21:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "b5095eef-d6b3-436b-bd0b-4b4cb02b58d3",
+    "calendar": "saturday",
+    "time": "20:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "bda381ae-014e-4522-89b5-c2bb5afbf0d7",
+    "calendar": "saturday",
+    "time": "21:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "d119138b-e3bf-4c27-bfa4-ff9ade3fd471",
+    "calendar": "saturday",
+    "time": "21:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "83d09207-4c98-4753-aa47-4d856e203880",
+    "calendar": "holiday",
+    "time": "19:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "0886b7bb-9470-4020-8c25-0e561a97f259",
+    "calendar": "holiday",
+    "time": "20:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "05131c65-38ef-49a1-bd82-fa42534e27c7",
+    "calendar": "holiday",
+    "time": "20:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "011a4f5d-e491-4408-ad25-9b9664fd33dc",
+    "calendar": "holiday",
+    "time": "21:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "3227c086-7984-4394-b9d3-775c2933af1c",
+    "calendar": "holiday",
+    "time": "21:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "136ae0ba-1516-4166-b772-812fe257ef77",
+    "calendar": "holiday",
+    "time": "21:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "42e9cb4e-b449-474a-8909-d70dbf793aa8",
+    "calendar": "weekday",
+    "time": "06:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "1499845f-a0fd-453c-ac86-fe8d3731d23b",
+    "calendar": "weekday",
+    "time": "09:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "ac654379-ac52-4572-b16d-91f4158b712c",
+    "calendar": "weekday",
+    "time": "09:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "1598ccb5-70f5-48c6-9d7e-92f7d4ecca06",
+    "calendar": "weekday",
+    "time": "10:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "b94ac4b8-07c8-4f8b-a705-5aac07288dbb",
+    "calendar": "weekday",
+    "time": "14:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "f8d2034a-7108-41e9-a8ff-42860460b97e",
+    "calendar": "weekday",
+    "time": "16:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "b7380203-557d-4a0c-8da1-6eca66931886",
+    "calendar": "weekday",
+    "time": "18:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "a7cfb936-1db1-430a-b3dd-b5d5ba0740c1",
+    "calendar": "saturday",
+    "time": "07:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "8a248717-c0ff-45bf-8e8a-c7e9b5c05f88",
+    "calendar": "saturday",
+    "time": "08:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "d032c918-502a-4809-a12f-6f631f9cf16f",
+    "calendar": "saturday",
+    "time": "08:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "a5a60a79-b5ad-4492-abe4-9755102ea758",
+    "calendar": "saturday",
+    "time": "16:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "37310c27-72fa-414b-8100-b2f1f953d7d6",
+    "calendar": "saturday",
+    "time": "19:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "149bf1ee-9a95-4f10-a014-77e8741c727e",
+    "calendar": "holiday",
+    "time": "07:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "4b1cc6dc-05d9-494f-8f9f-84110bff87a1",
+    "calendar": "holiday",
+    "time": "08:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "41e9c904-061c-4c6c-8efd-01b06964fea3",
+    "calendar": "holiday",
+    "time": "08:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "c0e04f70-bc35-457f-94cf-fef6b666e470",
+    "calendar": "holiday",
+    "time": "16:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "7a78dcf7-26ca-4ee5-be7e-00f344f2bd1e",
+    "calendar": "holiday",
+    "time": "19:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "e01445fe-00d7-49dd-b458-c2b0f2e6c663",
+    "calendar": "saturday",
+    "time": "10:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "9d602e75-0b0e-406e-9e62-680fb9190250",
+    "calendar": "holiday",
+    "time": "10:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "76010f19-08fa-4e8b-83ef-2439d3ef46f3",
+    "calendar": "weekday",
+    "time": "09:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "9c1c50e3-233e-4e8a-b328-6545d75ffbff",
+    "calendar": "weekday",
+    "time": "10:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "abe06cb2-76a7-4554-a9c0-993d7c6e1868",
+    "calendar": "weekday",
+    "time": "10:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "1b6da6d7-ef59-4367-88e3-5a1fc7bb8e19",
+    "calendar": "weekday",
+    "time": "11:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "d4d04539-b040-4d91-aae1-2d8a04320e15",
+    "calendar": "weekday",
+    "time": "11:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "50e01592-f9cc-4535-9a8f-7abc8a036115",
+    "calendar": "weekday",
+    "time": "12:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "282484df-7108-45c8-a2a2-105d8457747c",
+    "calendar": "weekday",
+    "time": "13:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "aa212139-c123-4bd6-9feb-162b78bd3ff1",
+    "calendar": "weekday",
+    "time": "13:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "2d3193bd-86ed-4ccc-a0da-baca01cf7eb6",
+    "calendar": "weekday",
+    "time": "15:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "24be1331-3bee-434d-8aa8-7209aa5737e4",
+    "calendar": "weekday",
+    "time": "16:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "7cec0faa-0007-4a61-9f1d-43d950264a58",
+    "calendar": "weekday",
+    "time": "16:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "2664ef86-c2db-43bc-bbcf-60ba18b8fb03",
+    "calendar": "weekday",
+    "time": "20:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "6ccb4122-e2b5-4cbf-9a96-3000f03d957c",
+    "calendar": "saturday",
+    "time": "08:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "032d2b50-052f-4a83-a42a-317e0edfc9e8",
+    "calendar": "saturday",
+    "time": "19:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "2d56c6ad-e47c-4387-bd2e-99bee195f9c5",
+    "calendar": "holiday",
+    "time": "08:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "e90fe303-30a9-4e59-bd11-c9e46a571206",
+    "calendar": "holiday",
+    "time": "19:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "0464f8e2-5d0e-441d-8106-4a951b42b968",
+    "calendar": "weekday",
+    "time": "09:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "3f3f89ed-69e6-4c5a-994d-44131716f8ce",
+    "calendar": "saturday",
+    "time": "10:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "b0be595f-e89d-447e-833b-0a0d1b975e2c",
+    "calendar": "holiday",
+    "time": "10:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "2d2c3734-de94-4b26-956a-2a96adaee457",
+    "calendar": "weekday",
+    "time": "10:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "4cddf6dc-a690-4a05-a762-2939b2852f49",
+    "calendar": "weekday",
+    "time": "13:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "c07c19e3-6f75-4daf-85c0-151d19847646",
+    "calendar": "saturday",
+    "time": "09:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "e772b438-586d-4de2-a38d-061e705a9951",
+    "calendar": "saturday",
+    "time": "10:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "420a98b0-5f08-4804-971d-ebc9e1d3c1ff",
+    "calendar": "holiday",
+    "time": "11:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "489d919f-1e9d-4d5c-95f7-45c214b8f724",
+    "calendar": "weekday",
+    "time": "08:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "b7887786-6afc-4aaf-ad52-7cb0e208b0b0",
+    "calendar": "weekday",
+    "time": "08:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "b2be9a16-5b54-4036-b768-91c7bd7ecc38",
+    "calendar": "weekday",
+    "time": "09:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "223b7d81-fa31-483b-985a-7772583e6867",
+    "calendar": "weekday",
+    "time": "14:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "ca4b4bdd-a2e0-4f63-8d95-cb42bf778d06",
+    "calendar": "weekday",
+    "time": "15:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "29248c7d-a743-4ef2-a12c-6fc8f8a364a2",
+    "calendar": "weekday",
+    "time": "16:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "97ba673c-7934-478f-b551-32a7e66cfc41",
+    "calendar": "weekday",
+    "time": "18:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "879e1875-9aa8-4bd9-ac14-f5f6f99da639",
+    "calendar": "weekday",
+    "time": "18:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "719937b1-89b6-49ed-8602-8e25bce8b9fd",
+    "calendar": "weekday",
+    "time": "19:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "76e2572e-6963-4ee5-970a-15d7fbdfb9d8",
+    "calendar": "saturday",
+    "time": "08:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "040901d5-c931-408c-821b-7b3b730937de",
+    "calendar": "saturday",
+    "time": "14:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "75b957f7-8704-47ea-bc56-4715cdc930f6",
+    "calendar": "saturday",
+    "time": "18:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "572a5420-1d8c-403c-b0fa-7606e4d24811",
+    "calendar": "weekday",
+    "time": "11:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "83c65530-fa6a-4096-b0b5-523d7dde9cfd",
+    "calendar": "weekday",
+    "time": "11:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5ed58e11-5031-4dc9-bc31-e9e95caa8008",
+    "calendar": "weekday",
+    "time": "12:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ebfa89c9-079f-4089-8ff0-9ff82a7ebef7",
+    "calendar": "weekday",
+    "time": "13:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "76ee88bf-b545-4984-abf7-9ab4842c53c8",
+    "calendar": "weekday",
+    "time": "14:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "935f3c88-1993-4ed0-8529-e6beb83709d2",
+    "calendar": "weekday",
+    "time": "15:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "288b6b1a-8fc9-42c6-8b12-d6f84cc166fb",
+    "calendar": "weekday",
+    "time": "17:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5388715f-e66f-4d06-b04f-14c46fa25a4d",
+    "calendar": "weekday",
+    "time": "19:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "117af7b3-9022-49d4-90ff-a783e028bf6c",
+    "calendar": "weekday",
+    "time": "19:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "07d6209d-c879-4cef-b90c-1d2bca05a11d",
+    "calendar": "saturday",
+    "time": "11:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2ecec279-afd7-4bcd-979a-869cac46beaa",
+    "calendar": "saturday",
+    "time": "12:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "52896c8a-cbbe-4563-b5de-8df489d9e323",
+    "calendar": "saturday",
+    "time": "13:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "cfdb11a3-1143-4829-825e-9b91fc5f9f64",
+    "calendar": "saturday",
+    "time": "13:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d6f08561-4e99-46e9-b3b1-48675fedc64e",
+    "calendar": "saturday",
+    "time": "14:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "0fd23527-40ef-42b8-88e5-4884000eaea6",
+    "calendar": "saturday",
+    "time": "14:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "e809db33-1764-4e88-8d7f-ddefc30b6fb2",
+    "calendar": "saturday",
+    "time": "14:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2e4c1b4d-efe6-47fe-96cb-ce2d8efe723b",
+    "calendar": "saturday",
+    "time": "15:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "f1c4cd30-81f2-4e4a-8129-bdf6e7cb230b",
+    "calendar": "saturday",
+    "time": "15:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "fd11a45a-7caf-49c3-b995-a7b5cd4a836f",
+    "calendar": "saturday",
+    "time": "16:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ddb57b72-37a0-4d4a-9015-6405a23c617d",
+    "calendar": "saturday",
+    "time": "17:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ba1255c4-5e5e-4d89-9f8d-2067df5a0131",
+    "calendar": "saturday",
+    "time": "18:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ddd4b119-5242-4b88-ba20-5b3fc676a512",
+    "calendar": "saturday",
+    "time": "19:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "a503c0d8-29c5-4122-947f-c7d95b8a2d49",
+    "calendar": "saturday",
+    "time": "19:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "7a4e36d7-65d1-4138-8d9b-41af8491f68d",
+    "calendar": "holiday",
+    "time": "11:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "bd5fc94d-b514-46c9-b4d1-283d51bb7d1a",
+    "calendar": "holiday",
+    "time": "12:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "33751651-79d7-4cfd-a57c-92ae6c38b88f",
+    "calendar": "holiday",
+    "time": "13:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "acc57ef9-2d87-416d-b79f-c12ba5b5dd2d",
+    "calendar": "holiday",
+    "time": "13:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d629d8ed-770e-4e8d-b9fb-93b680fc3db4",
+    "calendar": "holiday",
+    "time": "14:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "3e375449-bac1-49c6-8c2d-eea82794cd31",
+    "calendar": "holiday",
+    "time": "14:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2cfa92ab-1edf-476c-93c1-6cfb0937d1c9",
+    "calendar": "holiday",
+    "time": "14:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5839cf74-a034-49ee-a413-189e7906d8ca",
+    "calendar": "holiday",
+    "time": "15:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "df7c7b67-c512-4286-b46c-a045765e2128",
+    "calendar": "holiday",
+    "time": "15:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "8e5e96b4-cc2f-4219-bc60-407ed3a16fe3",
+    "calendar": "holiday",
+    "time": "16:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "62866405-0a8f-4bc4-b581-d7b851d78083",
+    "calendar": "holiday",
+    "time": "17:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "20174d4c-0ecf-4c2b-8120-5718a4d10cdd",
+    "calendar": "holiday",
+    "time": "18:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ad4a18ee-bb39-4de2-9f69-85b3509664b8",
+    "calendar": "holiday",
+    "time": "18:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "eea98159-d77a-4408-9c86-6bfafb2d8244",
+    "calendar": "holiday",
+    "time": "18:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "474d5cb4-75f7-4aa9-b42e-3f763fd98ca0",
+    "calendar": "holiday",
+    "time": "19:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "1ef613f0-24db-4f9c-a083-06352ec7e128",
+    "calendar": "holiday",
+    "time": "19:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5060100",
+    "stopName": "崇元寺（国際通り向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "0e756c57-3005-4074-9e1b-f2686a21d96c",
+    "calendar": "holiday",
+    "time": "19:40",
+    "parentCompanyCode": "8000"
+  }
+]

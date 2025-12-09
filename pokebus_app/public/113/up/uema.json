@@ -1,0 +1,192 @@
+[
+  {
+    "stationSid": "1120100",
+    "stopName": "上間（国道沿い）（那覇空港向け）",
+    "routeNo": "12",
+    "courseSid": "61456100-ebb9-404c-847f-d500b366a8fc",
+    "tripSid": "9fe22e9f-36ba-4d60-a47c-a21c80cf72d4",
+    "calendar": "weekday",
+    "time": "06:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1120100",
+    "stopName": "上間（国道沿い）（那覇空港向け）",
+    "routeNo": "12",
+    "courseSid": "61456100-ebb9-404c-847f-d500b366a8fc",
+    "tripSid": "8430dbc4-92ce-4238-8ec3-10deaab14767",
+    "calendar": "weekday",
+    "time": "07:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1120100",
+    "stopName": "上間（国道沿い）（那覇空港向け）",
+    "routeNo": "12",
+    "courseSid": "61456100-ebb9-404c-847f-d500b366a8fc",
+    "tripSid": "9b54f918-a0bf-4958-8205-8fd77dfe7d5f",
+    "calendar": "weekday",
+    "time": "07:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1120100",
+    "stopName": "上間（国道沿い）（那覇空港向け）",
+    "routeNo": "12",
+    "courseSid": "61456100-ebb9-404c-847f-d500b366a8fc",
+    "tripSid": "e202ec78-e636-45e3-b4e4-88691da84fdf",
+    "calendar": "saturday",
+    "time": "07:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1120100",
+    "stopName": "上間（国道沿い）（那覇空港向け）",
+    "routeNo": "12",
+    "courseSid": "61456100-ebb9-404c-847f-d500b366a8fc",
+    "tripSid": "7c1565b1-cc75-4bf4-9eeb-85e4360231b1",
+    "calendar": "saturday",
+    "time": "07:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1120100",
+    "stopName": "上間（国道沿い）（那覇空港向け）",
+    "routeNo": "12",
+    "courseSid": "61456100-ebb9-404c-847f-d500b366a8fc",
+    "tripSid": "79381c8f-f74c-434e-be74-8c710562f04f",
+    "calendar": "holiday",
+    "time": "07:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1120100",
+    "stopName": "上間（国道沿い）（那覇空港向け）",
+    "routeNo": "12",
+    "courseSid": "61456100-ebb9-404c-847f-d500b366a8fc",
+    "tripSid": "984f2a36-e0ea-4262-812c-4a2312142579",
+    "calendar": "holiday",
+    "time": "07:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1120100",
+    "stopName": "上間（国道沿い）（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "3f2102c2-26ba-4cc9-b32f-7871130f77b7",
+    "calendar": "weekday",
+    "time": "06:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1120100",
+    "stopName": "上間（国道沿い）（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "f5f840c2-4871-4e54-bc49-fc115c5cb654",
+    "calendar": "weekday",
+    "time": "07:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1120100",
+    "stopName": "上間（国道沿い）（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "35307fd9-af22-4c08-8ce7-1a4318d68893",
+    "calendar": "weekday",
+    "time": "15:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1120100",
+    "stopName": "上間（国道沿い）（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "ad34e781-c079-401e-b56c-e5516de63cee",
+    "calendar": "weekday",
+    "time": "16:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1120100",
+    "stopName": "上間（国道沿い）（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "5ad08742-9b49-4cf8-90c0-1c50b2741898",
+    "calendar": "weekday",
+    "time": "17:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1120100",
+    "stopName": "上間（国道沿い）（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "549c2118-6939-46b1-a1c6-2943ba49d975",
+    "calendar": "saturday",
+    "time": "06:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1120100",
+    "stopName": "上間（国道沿い）（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "cf4bb9d8-484f-4a35-a7fd-618061512323",
+    "calendar": "saturday",
+    "time": "07:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1120100",
+    "stopName": "上間（国道沿い）（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "116ee681-f053-42f5-bf67-4f0683998461",
+    "calendar": "saturday",
+    "time": "07:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1120100",
+    "stopName": "上間（国道沿い）（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "eaaea64c-d062-4c37-ac19-351c387395ff",
+    "calendar": "saturday",
+    "time": "15:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1120100",
+    "stopName": "上間（国道沿い）（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "dd0314a2-bc11-4f01-96b8-a9706f0e6caa",
+    "calendar": "saturday",
+    "time": "16:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1120100",
+    "stopName": "上間（国道沿い）（那覇空港向け）",
+    "routeNo": "113",
+    "courseSid": "89c78d3f-2877-4927-a9e8-b088e0363d9c",
+    "tripSid": "4c9e79b9-9ccd-4877-87c9-e71f99777d0f",
+    "calendar": "saturday",
+    "time": "16:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1120100",
+    "stopName": "上間（国道沿い）（那覇空港向け）",
+    "routeNo": "123",
+    "courseSid": "d15097d1-60f3-472c-894c-68ff4c6451df",
+    "tripSid": "0ef7c8f2-bf99-4d2d-bd06-a16a6cad8d2b",
+    "calendar": "weekday",
+    "time": "08:11",
+    "parentCompanyCode": "8000"
+  }
+]

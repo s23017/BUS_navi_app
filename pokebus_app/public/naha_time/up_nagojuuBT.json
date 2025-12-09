@@ -1,0 +1,742 @@
+[
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "9d387db7-8d80-499c-b929-1be8cae9293d",
+    "calendar": "weekday",
+    "time": "09:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "248ff834-8e39-4d4a-b59e-c34cd1912d40",
+    "calendar": "weekday",
+    "time": "09:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "d4216b05-5d23-4cc5-96a0-82dd3d88b81e",
+    "calendar": "weekday",
+    "time": "10:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "c6c92aa3-0024-4b95-98eb-903983b235c1",
+    "calendar": "weekday",
+    "time": "11:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "da74f81a-1367-4439-b402-541c6c52d5a5",
+    "calendar": "weekday",
+    "time": "12:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "25fd594f-f242-4cc5-beb5-7c2ca6a0deda",
+    "calendar": "weekday",
+    "time": "14:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "f10cc0b0-24be-4154-951c-3e7169d03632",
+    "calendar": "weekday",
+    "time": "15:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "e6003da5-5247-49a6-b2ad-9df6f69ec54c",
+    "calendar": "weekday",
+    "time": "16:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "66cf26db-25d9-4257-9c8a-5a9296f1a477",
+    "calendar": "weekday",
+    "time": "17:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "327854d9-4915-467e-91b6-a2d1dc86d300",
+    "calendar": "weekday",
+    "time": "18:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "b398dd0f-338c-42b9-992d-c752e225acf9",
+    "calendar": "weekday",
+    "time": "20:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "cf3369e7-b091-4ab3-8f4e-adeeca12ae9b",
+    "calendar": "weekday",
+    "time": "21:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "5e0a6990-9117-48dd-8f11-6a5eca476823",
+    "calendar": "saturday",
+    "time": "08:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "b1f11d9c-2293-401a-a09c-eac2f23bdf33",
+    "calendar": "saturday",
+    "time": "09:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "3b423a64-483b-49c4-a318-09d6dc37eed2",
+    "calendar": "saturday",
+    "time": "09:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "331e255d-9b01-4288-be18-cef2d09644e1",
+    "calendar": "saturday",
+    "time": "10:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "5499ca43-b11f-4a70-affd-d8d68a542b32",
+    "calendar": "saturday",
+    "time": "11:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "de295180-6217-437a-9be8-3812082a1b12",
+    "calendar": "saturday",
+    "time": "13:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "581e0ea9-818f-4fdd-bc17-88745a25af0f",
+    "calendar": "saturday",
+    "time": "14:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "31ac4b48-99b0-41f6-8ec9-900a39e889b9",
+    "calendar": "saturday",
+    "time": "15:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "d60780a5-5aab-4975-9f7e-2e0ba0f830b9",
+    "calendar": "saturday",
+    "time": "16:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "3129773d-7aed-4484-a18f-afda6de96678",
+    "calendar": "saturday",
+    "time": "17:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "7e899687-18bb-4f7a-babe-3ae2aa520df1",
+    "calendar": "saturday",
+    "time": "18:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "f75c45ac-3306-4660-a729-94e6fd0d9b0f",
+    "calendar": "saturday",
+    "time": "20:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "3f20113c-a032-4ea4-beae-b37e444f6c08",
+    "calendar": "saturday",
+    "time": "21:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "4f8f72d6-c854-46d7-83c0-a8785acdffc9",
+    "calendar": "holiday",
+    "time": "08:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "fecf8e37-74b9-4fa9-a47d-c2e2e6103447",
+    "calendar": "holiday",
+    "time": "09:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "86610560-38a9-4bf8-a196-d38cdade247e",
+    "calendar": "holiday",
+    "time": "09:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "9de55188-8a26-4f17-9529-9bddf82b9505",
+    "calendar": "holiday",
+    "time": "10:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "6e66008c-7d85-4015-820a-da333f377242",
+    "calendar": "holiday",
+    "time": "11:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "f893f051-2879-435c-8cbd-5131ad3a141d",
+    "calendar": "holiday",
+    "time": "13:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "cb57f6a1-00c8-4b3b-aad0-c89961abb649",
+    "calendar": "holiday",
+    "time": "14:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "425fa9d5-9f9f-4e85-8ac0-5e70915d8dbe",
+    "calendar": "holiday",
+    "time": "15:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "f1d0ed8c-5692-490b-9779-c34dbfe96c42",
+    "calendar": "holiday",
+    "time": "16:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "980e24cd-c1c6-4eb5-8b68-5952807d36e8",
+    "calendar": "holiday",
+    "time": "17:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "c097834a-44bf-466b-9eab-b5a41a61f1d0",
+    "calendar": "holiday",
+    "time": "18:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "f8682c29-2b80-4b19-8314-d3573a90a06c",
+    "calendar": "holiday",
+    "time": "20:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "65",
+    "courseSid": "33a97685-6320-4a9b-a691-8d155528644f",
+    "tripSid": "68dbcba5-c4d1-461c-9728-49b0dc2ee8d2",
+    "calendar": "holiday",
+    "time": "21:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "66",
+    "courseSid": "1469e79a-dd67-47d1-9cb8-b6e7890077f7",
+    "tripSid": "2cc5ebf4-720a-457f-97e6-4846bd8addfe",
+    "calendar": "weekday",
+    "time": "08:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "2bbcb6a9-cab4-40ae-9b73-a30428c7dd32",
+    "calendar": "weekday",
+    "time": "07:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "d9e36ea6-7f95-4dba-8025-2fa700fc5a3a",
+    "calendar": "weekday",
+    "time": "09:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "8ca266cb-676f-478f-9d91-d40cedb7c257",
+    "calendar": "weekday",
+    "time": "10:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "7c746f34-f656-4592-b938-9c3af8667ed9",
+    "calendar": "weekday",
+    "time": "11:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "7b4902db-e36e-4694-8435-48f1678e9cf3",
+    "calendar": "weekday",
+    "time": "13:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "861ef6e0-62af-4f79-a065-90125f1e5774",
+    "calendar": "weekday",
+    "time": "14:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "047c2fa2-6fb5-4a56-863a-9c9178d57266",
+    "calendar": "weekday",
+    "time": "15:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "4360e405-e954-40b4-9713-2bb67af7d220",
+    "calendar": "weekday",
+    "time": "16:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "08e9555f-634a-4487-ac3e-4868fe1a75b6",
+    "calendar": "weekday",
+    "time": "17:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "e0b349e8-f000-43c2-aaa1-366a67d816ac",
+    "calendar": "weekday",
+    "time": "18:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "6251638b-020f-4352-a813-2cc0a736ec7d",
+    "calendar": "weekday",
+    "time": "20:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "d14624a4-5462-47a0-b6d4-f96d48d86d4c",
+    "calendar": "saturday",
+    "time": "07:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "9e8bb6b4-4ca1-434b-8b91-1c410278a1bf",
+    "calendar": "saturday",
+    "time": "08:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "08bad2ff-809a-4323-9cd7-4ad71be4686e",
+    "calendar": "saturday",
+    "time": "09:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "cc521fde-8a79-437e-9c55-d9f38164517a",
+    "calendar": "saturday",
+    "time": "10:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "d041e9cf-6e32-4f1a-94c3-113edcd1ba81",
+    "calendar": "saturday",
+    "time": "11:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "1c99bc63-028c-4b0c-9cec-1ee1ace0ab37",
+    "calendar": "saturday",
+    "time": "13:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "44497a25-f25c-4c29-9475-7ec47af50b51",
+    "calendar": "saturday",
+    "time": "14:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "4357e2cb-e4c7-4ac7-94b7-ab0468a1f79e",
+    "calendar": "saturday",
+    "time": "16:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "7858da5e-cb03-414e-86d0-7027469478ab",
+    "calendar": "saturday",
+    "time": "17:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "3bcef54e-6daa-4bad-b4c5-153b7b9ac049",
+    "calendar": "saturday",
+    "time": "18:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "9df7db3f-1487-40b4-a74a-8f798a836ff2",
+    "calendar": "saturday",
+    "time": "20:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "afef049e-0d0a-4c6a-989b-aaa5143aaf56",
+    "calendar": "holiday",
+    "time": "07:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "0c7ca820-c9f9-496a-9b6c-66abcbf4b0da",
+    "calendar": "holiday",
+    "time": "08:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "7ddebf5f-91d3-4747-a4eb-339d04dd52c3",
+    "calendar": "holiday",
+    "time": "09:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "ad213a62-88dc-4290-9ea6-0dff0e706d28",
+    "calendar": "holiday",
+    "time": "10:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "21640daf-b29c-42ce-b173-b6e63286418a",
+    "calendar": "holiday",
+    "time": "11:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "471c2d59-6574-4f56-818b-7f186c6d7423",
+    "calendar": "holiday",
+    "time": "13:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "1a20055d-c9e7-4104-b531-a0b21f409a67",
+    "calendar": "holiday",
+    "time": "14:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "08918ebb-c483-4b95-a172-477c9f77e250",
+    "calendar": "holiday",
+    "time": "16:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "dd80cb7f-b1c0-422f-92c0-d900161667d0",
+    "calendar": "holiday",
+    "time": "17:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "8bb1567e-f847-4d53-9aeb-23730b3a87f9",
+    "calendar": "holiday",
+    "time": "18:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "67",
+    "courseSid": "64ecc41d-93a9-4a03-81d0-eb431212784a",
+    "tripSid": "957e8dc2-6af7-4d81-9cac-9ca906ed4d64",
+    "calendar": "holiday",
+    "time": "20:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "76",
+    "courseSid": "7f8336c1-8553-43a9-81bc-9c01696444f0",
+    "tripSid": "a3f19e67-a5ba-4a13-9d81-4f668d493e25",
+    "calendar": "weekday",
+    "time": "08:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "11300300",
+    "stopName": "名護十字路（名護BT・世富慶向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5388715f-e66f-4d06-b04f-14c46fa25a4d",
+    "calendar": "weekday",
+    "time": "16:38",
+    "parentCompanyCode": "8000"
+  }
+]

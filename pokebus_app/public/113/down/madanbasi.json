@@ -1,0 +1,2362 @@
+[
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "d25c7792-3257-4b66-ab58-c8698fa6d668",
+    "calendar": "weekday",
+    "time": "06:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "bb55bb94-69d7-4b5c-933f-454d213ecc93",
+    "calendar": "weekday",
+    "time": "06:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "55131bd2-899f-44ab-b704-a9523030a39f",
+    "calendar": "weekday",
+    "time": "06:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "dac41d80-5b4c-41f8-b3c5-d7368692475e",
+    "calendar": "weekday",
+    "time": "07:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "663c5801-9888-40d6-828f-4aadcfff27b0",
+    "calendar": "weekday",
+    "time": "07:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "f8940884-535c-4386-9e27-0f85e80032d8",
+    "calendar": "weekday",
+    "time": "07:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "a1044389-7054-4ffd-9075-881d758d9356",
+    "calendar": "weekday",
+    "time": "08:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "7d07969b-817a-43a2-a89b-1620e72c8d1d",
+    "calendar": "weekday",
+    "time": "08:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "3e9d960a-27c1-482a-85da-09cdab69bc08",
+    "calendar": "weekday",
+    "time": "08:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "b9c89552-86bb-4bf7-9cde-91e8abe29325",
+    "calendar": "weekday",
+    "time": "09:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "6b327819-944e-4238-b5b4-a67e910aa6e7",
+    "calendar": "weekday",
+    "time": "09:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "993be20d-7d47-4e22-bc55-591bcbdb8122",
+    "calendar": "weekday",
+    "time": "10:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "501c3c8d-0f13-4f05-8c2c-d6656a54dc7c",
+    "calendar": "weekday",
+    "time": "11:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "27aa628e-0ca8-4657-9251-b56e63c3f35a",
+    "calendar": "weekday",
+    "time": "11:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "d6ea3bd7-400d-4052-a7eb-cfd922ce8638",
+    "calendar": "weekday",
+    "time": "13:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "a249632c-ec9a-4a04-bc52-3cb471fef4c0",
+    "calendar": "weekday",
+    "time": "13:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "4f24b126-1a99-4d65-bf3e-320f0fe06a8a",
+    "calendar": "weekday",
+    "time": "14:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "db2531de-b85e-4bbd-92ea-32673f7b1607",
+    "calendar": "weekday",
+    "time": "14:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "bd3d59cc-7af1-4e19-b1ad-a0f500d006c7",
+    "calendar": "weekday",
+    "time": "15:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "a1cad452-f9a0-46f5-8ec7-767b78556057",
+    "calendar": "weekday",
+    "time": "15:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "43bfa5f3-3b17-4248-bafd-d7569f33c3a5",
+    "calendar": "weekday",
+    "time": "16:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "759e1a8c-1f54-4eb7-a45e-7b8a5b179840",
+    "calendar": "weekday",
+    "time": "16:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "87e606b4-f6d8-4e2f-842b-b7692223c2de",
+    "calendar": "weekday",
+    "time": "17:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "ea92dd9b-dc42-4964-ada3-2d467c064177",
+    "calendar": "weekday",
+    "time": "17:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "a1a3a0f7-48aa-4562-b463-b8584f63ac45",
+    "calendar": "weekday",
+    "time": "18:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "de5b469a-465d-4c2c-b38e-f417a24ce3ed",
+    "calendar": "weekday",
+    "time": "18:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "0d197fd4-5a61-46da-8fcd-f0ce81075728",
+    "calendar": "weekday",
+    "time": "19:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "8e434170-2961-457d-81fd-9d90a3c24c24",
+    "calendar": "weekday",
+    "time": "20:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "7f6eb451-f1a6-47bc-b41c-939c6ccef1e8",
+    "calendar": "weekday",
+    "time": "21:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "8d3ca972-677e-4ce0-b610-bd5d72f1dc48",
+    "calendar": "saturday",
+    "time": "06:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "5c863579-2e64-4c33-aa7d-6620af9462c2",
+    "calendar": "saturday",
+    "time": "07:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "0b364d01-1d94-463e-9365-f980e57cfe23",
+    "calendar": "saturday",
+    "time": "08:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "1d996a20-d06c-4df2-8826-3dd433c6ac8f",
+    "calendar": "saturday",
+    "time": "08:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "822a4710-42ff-4095-a50f-9af07eb2f4bc",
+    "calendar": "saturday",
+    "time": "09:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "3dd2f0b8-2191-4774-8e03-c5f4015e9ca6",
+    "calendar": "saturday",
+    "time": "10:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "5f21b798-89f3-4297-9f70-b5617f344650",
+    "calendar": "saturday",
+    "time": "11:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "aeffb1bb-72c0-44b6-9242-3d250c0744bc",
+    "calendar": "saturday",
+    "time": "12:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "216ac1a5-33ef-4a84-8913-90f9868ac12b",
+    "calendar": "saturday",
+    "time": "13:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "04ec3ee3-40f3-4437-ade8-6c56f7d61030",
+    "calendar": "saturday",
+    "time": "14:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "19ad8c3e-870c-43c7-8bde-30babc604e9e",
+    "calendar": "saturday",
+    "time": "14:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "6f9a4ba5-0445-4b44-a230-1a4d40263b67",
+    "calendar": "saturday",
+    "time": "15:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "8472c05f-8b51-400c-86df-293a7b4ac0b9",
+    "calendar": "saturday",
+    "time": "16:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "11ea9a3f-fea0-441f-97d0-40d6d5089bac",
+    "calendar": "saturday",
+    "time": "17:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "c2088a0c-ef9a-452b-a4d3-2cc85075e494",
+    "calendar": "saturday",
+    "time": "18:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "1276de03-8a1c-43ca-ba77-d2162a2f95e5",
+    "calendar": "saturday",
+    "time": "19:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "eb70f82c-9c84-4a50-9226-f674ae6163f9",
+    "calendar": "saturday",
+    "time": "20:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "cc1fe0c5-b6bb-40e8-88d6-6f403afe7707",
+    "calendar": "saturday",
+    "time": "21:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "49ffb7c2-f88f-40f0-a83f-1b83616516b5",
+    "calendar": "holiday",
+    "time": "06:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "22b75076-8513-46d2-960f-08abb2378b76",
+    "calendar": "holiday",
+    "time": "07:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "2043deac-b828-4e64-9379-b91f8d873730",
+    "calendar": "holiday",
+    "time": "08:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "7c059336-5da9-4932-9c7a-891341eb1ba4",
+    "calendar": "holiday",
+    "time": "08:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "47077da3-6d8d-47a8-b7a4-e8170cceef2b",
+    "calendar": "holiday",
+    "time": "09:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "2187576e-901c-40e3-85b6-aa49d37c6c33",
+    "calendar": "holiday",
+    "time": "10:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "b315246d-d7f5-4fbb-beae-bfbc741508db",
+    "calendar": "holiday",
+    "time": "11:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "04638323-209d-48c6-9add-4d5ba04ef46f",
+    "calendar": "holiday",
+    "time": "12:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "9ae5f6d8-dd83-4bff-9c9b-bade93894663",
+    "calendar": "holiday",
+    "time": "13:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "0991a7f9-9f4b-4070-8b7c-72debf6ebe1b",
+    "calendar": "holiday",
+    "time": "14:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "0b375d72-a722-4dbd-91cc-27f9b3ee8154",
+    "calendar": "holiday",
+    "time": "14:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "43e0ee7e-f223-4d23-aa78-71e951fb2c88",
+    "calendar": "holiday",
+    "time": "15:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "51d7299c-67d4-4eb6-bbe8-44fcf1137710",
+    "calendar": "holiday",
+    "time": "16:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "0c143462-fd79-418c-bfd3-e6f13de37c3e",
+    "calendar": "holiday",
+    "time": "17:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "6210edf6-cd7e-4120-944d-7a4ce04591e9",
+    "calendar": "holiday",
+    "time": "18:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "8d0b266c-91d8-4845-9e91-37f0522c40e3",
+    "calendar": "holiday",
+    "time": "19:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "65a9b8a4-9917-4062-8c95-c5e944fc3e27",
+    "calendar": "holiday",
+    "time": "20:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "6",
+    "courseSid": "dfc267b5-1be2-401a-bb17-ce60a1d6de01",
+    "tripSid": "ac9d37ed-09c1-4037-b84c-fe2a4d2bfdd1",
+    "calendar": "holiday",
+    "time": "21:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "12",
+    "courseSid": "aa3374bb-0298-4b05-a605-be51bcc63e8c",
+    "tripSid": "8877176d-e14b-459f-b8e1-b1a10a43b810",
+    "calendar": "weekday",
+    "time": "20:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "12",
+    "courseSid": "aa3374bb-0298-4b05-a605-be51bcc63e8c",
+    "tripSid": "b4c31310-22bd-4f17-8773-d91c2d9b0621",
+    "calendar": "weekday",
+    "time": "21:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "12",
+    "courseSid": "aa3374bb-0298-4b05-a605-be51bcc63e8c",
+    "tripSid": "eb020ad7-22ff-45e0-bc22-471f5f5ee1e3",
+    "calendar": "saturday",
+    "time": "19:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "12",
+    "courseSid": "aa3374bb-0298-4b05-a605-be51bcc63e8c",
+    "tripSid": "5af8f0d7-982e-4fd3-9f52-e2836fd15ee5",
+    "calendar": "saturday",
+    "time": "20:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "12",
+    "courseSid": "aa3374bb-0298-4b05-a605-be51bcc63e8c",
+    "tripSid": "8182a26e-ba1b-4911-8794-69120e00eaa8",
+    "calendar": "holiday",
+    "time": "19:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "12",
+    "courseSid": "aa3374bb-0298-4b05-a605-be51bcc63e8c",
+    "tripSid": "1cd0d945-7f3a-4e2b-b6bc-13f7ec709d68",
+    "calendar": "holiday",
+    "time": "19:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "1786baee-4a5b-4214-834a-8092a74fccb9",
+    "calendar": "weekday",
+    "time": "07:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "019a536d-268b-4493-9506-01df39517228",
+    "calendar": "weekday",
+    "time": "09:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "603d1a48-51d0-4c56-adad-b392114d1ef7",
+    "calendar": "weekday",
+    "time": "09:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "f70d4224-df0c-4140-9dc8-548643259ca1",
+    "calendar": "weekday",
+    "time": "09:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "dbb73eaf-9481-442a-a694-e4987105d351",
+    "calendar": "weekday",
+    "time": "10:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "b17fb712-b050-4f74-9f1c-b6c1a75c9eb5",
+    "calendar": "weekday",
+    "time": "11:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "b4c26761-c9c1-4a32-9182-4a27da417607",
+    "calendar": "weekday",
+    "time": "12:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "5238e543-4bde-48a5-8115-73f7115a9b4e",
+    "calendar": "weekday",
+    "time": "13:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "8d849d49-9d0d-4fbf-b783-73aa97cc4799",
+    "calendar": "weekday",
+    "time": "13:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "462a83da-a9fb-4db1-8293-9c5caae7b747",
+    "calendar": "weekday",
+    "time": "14:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "1a477d59-7e17-4a45-9314-cd3f68170345",
+    "calendar": "weekday",
+    "time": "14:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "d508f201-d903-437d-aeea-eaea861b4b6e",
+    "calendar": "weekday",
+    "time": "15:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "6397ea07-d2a7-445f-9add-a2ea7063a3de",
+    "calendar": "weekday",
+    "time": "15:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "a1e296b1-6b91-4c09-9cf2-cab2c6e7aa0d",
+    "calendar": "weekday",
+    "time": "16:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "fadf955d-7e31-4d1c-a5e8-16a3e6535737",
+    "calendar": "weekday",
+    "time": "16:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "45c310eb-abf6-45cc-bdee-1d45af016c74",
+    "calendar": "weekday",
+    "time": "17:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "fbfcac6f-b02e-4dac-9a5b-0651f140923e",
+    "calendar": "weekday",
+    "time": "18:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "98aa8538-24bc-42d6-a788-5c2f5594a83e",
+    "calendar": "weekday",
+    "time": "18:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "8637da0b-abac-42a4-802e-d88b9d9f865b",
+    "calendar": "weekday",
+    "time": "19:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "89cf0cc7-3106-404e-a0e7-63e6c43c9a21",
+    "calendar": "weekday",
+    "time": "19:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "51310ef3-4e1a-4539-be53-283feb8d3635",
+    "calendar": "weekday",
+    "time": "20:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "c144433c-5964-4797-ba17-1064c6259b2f",
+    "calendar": "saturday",
+    "time": "07:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "ba2db531-6af8-4a7b-834d-94334667391f",
+    "calendar": "saturday",
+    "time": "08:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "e34cf39b-0b7b-4f01-9ef7-9bfccb09a052",
+    "calendar": "saturday",
+    "time": "09:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "cb003ce1-7ebc-40f8-b70c-55698c83d252",
+    "calendar": "saturday",
+    "time": "10:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "767015e8-93b6-4127-a239-b581df6d6722",
+    "calendar": "saturday",
+    "time": "11:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "5cf6ae75-0df0-4443-b23c-6aaf72f69821",
+    "calendar": "saturday",
+    "time": "12:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "0e9d0d88-0ce8-4e21-8862-7fe4ca727944",
+    "calendar": "saturday",
+    "time": "13:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "3cf89a6b-4733-4644-bb7c-677bc7b94d7d",
+    "calendar": "saturday",
+    "time": "14:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "e3262a24-973b-4631-a9ac-a14d35702466",
+    "calendar": "saturday",
+    "time": "14:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "fd0139f9-966d-4cf3-be1e-217c7af8b720",
+    "calendar": "saturday",
+    "time": "15:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "d194a8b5-8f24-4510-b2ad-edec94e47ff5",
+    "calendar": "saturday",
+    "time": "16:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "b3363e62-3a15-43e7-88a7-ea3d91e22859",
+    "calendar": "saturday",
+    "time": "17:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "f615d220-47a6-40ce-a451-f779039e4fcd",
+    "calendar": "saturday",
+    "time": "18:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "d056d8b9-d71d-4ebd-baf5-d6989ba2f993",
+    "calendar": "saturday",
+    "time": "19:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "654179b2-ab5b-475a-8425-d41ad23edeec",
+    "calendar": "saturday",
+    "time": "20:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "b75fbb9f-f239-4fdf-a719-b856bb42bd0f",
+    "calendar": "holiday",
+    "time": "07:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "6c11123d-9f2a-4387-bb15-06202758dbf0",
+    "calendar": "holiday",
+    "time": "08:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "1785760d-775c-49de-a2d6-587f21d20ac3",
+    "calendar": "holiday",
+    "time": "09:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "1ae6e21c-9385-45ed-acb2-51acd56fd53c",
+    "calendar": "holiday",
+    "time": "10:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "0127855c-8300-485c-863c-121595a7cded",
+    "calendar": "holiday",
+    "time": "11:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "43fa692f-98a0-4312-bfb4-9214fddc9deb",
+    "calendar": "holiday",
+    "time": "12:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "46af950e-d355-44a5-bb21-656820bc716d",
+    "calendar": "holiday",
+    "time": "13:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "e9c2db9a-8d19-4486-a000-47eeaf3ea776",
+    "calendar": "holiday",
+    "time": "14:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "671b2298-9a93-4db7-8add-f235cc828a19",
+    "calendar": "holiday",
+    "time": "14:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "9ccac0fa-7d22-4bfb-aafd-b80d39494ebf",
+    "calendar": "holiday",
+    "time": "15:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "211748dd-7ea2-4974-a09b-70fb052b68f5",
+    "calendar": "holiday",
+    "time": "16:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "c0eb9f76-3d61-4648-b85f-52543dab4ed7",
+    "calendar": "holiday",
+    "time": "17:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "c864d4d6-c63f-414d-a5db-6afad33df1a4",
+    "calendar": "holiday",
+    "time": "18:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "c582f667-8d96-4cc7-ab06-b589126a9132",
+    "calendar": "holiday",
+    "time": "19:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "45",
+    "courseSid": "212c0780-6263-47f6-8ee4-96ae3e89a03e",
+    "tripSid": "f2d29b67-d894-4bb3-9866-503c3b3586b8",
+    "calendar": "holiday",
+    "time": "20:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "8ceb75a9-ca59-4b8e-aff9-4b325a653f81",
+    "calendar": "weekday",
+    "time": "06:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "f587f297-c87c-43a5-85e7-e44d8aac8df8",
+    "calendar": "weekday",
+    "time": "07:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "71fbbd57-baf3-4b31-991c-0b405e65210f",
+    "calendar": "weekday",
+    "time": "07:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "f09b23da-efd2-4957-8c7b-f4f76492915c",
+    "calendar": "weekday",
+    "time": "07:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "21fbcf18-46b8-438b-a2e8-0fe14a963db1",
+    "calendar": "weekday",
+    "time": "08:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "71489100-bb58-48b4-9e18-d79b3ea19841",
+    "calendar": "weekday",
+    "time": "08:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "7a26ba21-37fc-4289-b789-f5627a444eeb",
+    "calendar": "weekday",
+    "time": "09:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "4be39bdd-9ac6-4285-b43a-d64c2ae2d2b1",
+    "calendar": "weekday",
+    "time": "09:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "64628f84-6a3a-48ab-badd-0995712c24f9",
+    "calendar": "weekday",
+    "time": "10:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "84aed845-a183-4b6e-9bd5-c7c2062710a1",
+    "calendar": "weekday",
+    "time": "10:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "68707ac2-5c04-422b-bd21-9235bf8cbc22",
+    "calendar": "weekday",
+    "time": "11:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "3f7e8908-d5be-4c1f-a996-e91f35294cf7",
+    "calendar": "weekday",
+    "time": "12:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "df0f42e9-4734-40e9-8e3b-f59bbc819623",
+    "calendar": "weekday",
+    "time": "13:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "2f9e8315-0b19-4fc8-b80b-e268ca3018f4",
+    "calendar": "weekday",
+    "time": "14:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "5b3ee6b5-8640-4a57-99a3-e61095ff58ca",
+    "calendar": "weekday",
+    "time": "15:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "83ba21ab-bf8a-49b0-87d1-ba385fce1fc8",
+    "calendar": "weekday",
+    "time": "16:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "eec8e2bc-71b9-42a0-8cbb-ddb863ef453a",
+    "calendar": "weekday",
+    "time": "17:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "7c3d513d-b5f7-4471-a1b1-e7ddb7ee9d77",
+    "calendar": "weekday",
+    "time": "17:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "175a3092-4512-4287-9ced-e0848a07c604",
+    "calendar": "weekday",
+    "time": "18:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "44e992c6-547a-4f86-8e12-cdcdb1686e6f",
+    "calendar": "weekday",
+    "time": "18:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "e4c183c4-d64c-41dc-b93a-6d82016ead1a",
+    "calendar": "weekday",
+    "time": "19:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "e24ea371-b12b-4137-be2e-5587ae9ac221",
+    "calendar": "weekday",
+    "time": "20:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "123716a5-66b1-41c5-844d-41f487264e00",
+    "calendar": "weekday",
+    "time": "21:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "471345e6-8dd3-44bd-8f32-374123bd9506",
+    "calendar": "saturday",
+    "time": "07:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "fd0022a4-30d9-4b04-8b8d-72fda3216686",
+    "calendar": "saturday",
+    "time": "07:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "01d5abb9-6dbf-457a-82ee-0d70e285282d",
+    "calendar": "saturday",
+    "time": "08:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "bf7a0d25-563f-443f-9bb7-dd0e618e2b58",
+    "calendar": "saturday",
+    "time": "09:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "1c07dcd2-ccbb-40de-874d-6ee14dedafe0",
+    "calendar": "saturday",
+    "time": "09:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "d75c9a8d-8b03-40d7-8b7d-b7f6de634949",
+    "calendar": "saturday",
+    "time": "10:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "af53b0c9-26ac-44d7-81f0-e89b8a0cad28",
+    "calendar": "saturday",
+    "time": "11:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "54ed1757-60ca-456e-a9f4-5e17e5923bd4",
+    "calendar": "saturday",
+    "time": "12:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "ce41ac94-8b2a-4cba-adae-4a7291f98786",
+    "calendar": "saturday",
+    "time": "13:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "34aea739-a768-4c0c-9c2a-9f7513dc8152",
+    "calendar": "saturday",
+    "time": "14:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "1ef07218-8fbb-417f-9508-af4195fe3efb",
+    "calendar": "saturday",
+    "time": "15:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "6020ccf1-ae41-4f81-b357-44dbb76c8dcc",
+    "calendar": "saturday",
+    "time": "17:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "6e2eb24d-4bd2-4bca-9cc7-68c8ef57ac29",
+    "calendar": "saturday",
+    "time": "18:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "bccda891-6bab-4ace-b268-2a6d82f9b6f5",
+    "calendar": "saturday",
+    "time": "18:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "7e1bb422-ca61-46f2-a79d-7b35b7c80388",
+    "calendar": "saturday",
+    "time": "19:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "d45545b2-6480-4eb3-82ad-d60ccd6b01f9",
+    "calendar": "saturday",
+    "time": "21:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "e87e87e7-5445-4390-b378-d5ec865a3975",
+    "calendar": "holiday",
+    "time": "07:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "6da48088-2288-4ca3-b956-0e1cf05fd779",
+    "calendar": "holiday",
+    "time": "08:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "d33efda1-72c6-48ce-bccc-e01d2e55bd60",
+    "calendar": "holiday",
+    "time": "09:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "01a79ef4-3612-4b1a-b1c3-65b8409033bc",
+    "calendar": "holiday",
+    "time": "11:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "a59b57d7-9430-4473-a2c3-8e89b6809d56",
+    "calendar": "holiday",
+    "time": "12:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "d477850f-f6e1-4c41-a667-7aff3e446d68",
+    "calendar": "holiday",
+    "time": "13:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "0af0bc5a-2804-4644-a941-69662083cac1",
+    "calendar": "holiday",
+    "time": "14:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "934223d3-2cc3-4344-afb6-19559b56ae59",
+    "calendar": "holiday",
+    "time": "15:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "f5b8b1a8-12ca-4e30-8628-d1aa3c8cdfd7",
+    "calendar": "holiday",
+    "time": "16:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "a999afb6-c00e-4743-8760-dbc4e9817435",
+    "calendar": "holiday",
+    "time": "17:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "7121642c-eb79-4d6a-9ed3-22f33e48f6bd",
+    "calendar": "holiday",
+    "time": "18:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "3c0b2bbd-6ec0-4f86-bed1-4d508a2fdd5c",
+    "calendar": "holiday",
+    "time": "19:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "47da1a65-3a5a-4bf4-8c9c-554b34b363a6",
+    "calendar": "holiday",
+    "time": "20:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "ff6521fc-831c-4163-8251-ccca77722086",
+    "calendar": "weekday",
+    "time": "06:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "75b05097-7dd0-40cc-9540-386469cceea7",
+    "calendar": "weekday",
+    "time": "08:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "a863c066-f2a2-40b8-9c90-0e98067c210a",
+    "calendar": "weekday",
+    "time": "09:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "aee167b3-92fd-49a5-9d4e-ff875792d801",
+    "calendar": "weekday",
+    "time": "09:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "8ae34225-d849-4092-9ca1-5ae48ce3b645",
+    "calendar": "weekday",
+    "time": "10:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "18444c2e-7bfb-4f61-b0d6-a73f3b68e17c",
+    "calendar": "weekday",
+    "time": "11:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "c31adc7f-f285-4599-9214-d9d009e6c6f1",
+    "calendar": "weekday",
+    "time": "13:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "60ecf542-2ec6-4f8c-957b-2593c7f6f7a6",
+    "calendar": "weekday",
+    "time": "14:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "1666312c-39c2-4963-86ca-4c7c2d2a6893",
+    "calendar": "weekday",
+    "time": "15:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "fe660e14-f07a-4727-9c38-68f6343969d3",
+    "calendar": "weekday",
+    "time": "16:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "2c97b29e-3ae7-4a52-b18f-ef4fc9750c8b",
+    "calendar": "weekday",
+    "time": "17:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "8be426d0-e3e1-420c-aa82-b3c9a1d130db",
+    "calendar": "weekday",
+    "time": "19:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "659e5dcc-7b8c-416d-bf09-6b871fd51f4a",
+    "calendar": "saturday",
+    "time": "08:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "ac8e0cd1-e7ac-4310-84b2-1186c813f91c",
+    "calendar": "saturday",
+    "time": "11:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "d6bfadec-eb07-40ab-9231-c78c3e4bc0ba",
+    "calendar": "saturday",
+    "time": "14:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "9db16a27-01e7-4d0b-85fa-76796f9a33f4",
+    "calendar": "saturday",
+    "time": "15:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "80ebd924-2af5-467a-89cf-17dc5d964251",
+    "calendar": "saturday",
+    "time": "16:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "861e21a2-64dc-48e4-8c8d-d9f0da04f044",
+    "calendar": "saturday",
+    "time": "18:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "d155b5c8-2e03-4d2b-b7d2-bf7329bd424c",
+    "calendar": "saturday",
+    "time": "20:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "ea95e77d-88d4-40d3-86b2-d5e534dc4e99",
+    "calendar": "holiday",
+    "time": "08:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "b6e5838b-af2b-4232-a227-c084e8b34741",
+    "calendar": "holiday",
+    "time": "11:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "a4bbfaf9-bbd1-47b4-81ae-8965decbbb63",
+    "calendar": "holiday",
+    "time": "15:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "d1c4b7d4-38e8-4724-a2a8-4a302c371675",
+    "calendar": "holiday",
+    "time": "16:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "707034ac-3029-431b-b08a-bafea0675b81",
+    "calendar": "holiday",
+    "time": "17:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "9cf0e16f-7f5f-40bb-8e24-7f635fc26eb8",
+    "calendar": "holiday",
+    "time": "19:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "1213b4a4-2ef5-465e-9a07-c9f6f456d364",
+    "calendar": "weekday",
+    "time": "06:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "160416f2-51e0-490d-bb5c-09d01d170a9b",
+    "calendar": "weekday",
+    "time": "09:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "cc86dbcc-ea69-4027-bc4b-1cdfb6407b29",
+    "calendar": "weekday",
+    "time": "15:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "1d4d6946-6420-4499-8796-0018325f161b",
+    "calendar": "weekday",
+    "time": "18:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "b46f2025-4b56-46c1-9f07-0be48020bc2f",
+    "calendar": "saturday",
+    "time": "06:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "3b14b95e-46d5-4f51-bdcf-9824bb43f7d8",
+    "calendar": "saturday",
+    "time": "08:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "ff7d1c10-180e-4f18-a3cf-8149f8841d8c",
+    "calendar": "holiday",
+    "time": "06:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "709c41d4-d227-472e-8735-114fe38ac167",
+    "calendar": "holiday",
+    "time": "08:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "27291b9a-9aa5-46c4-ae29-343fa4edd901",
+    "calendar": "weekday",
+    "time": "08:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "e58e27d5-8c0c-4742-973d-a907deb4c131",
+    "calendar": "weekday",
+    "time": "09:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "f52f9f30-b48b-488a-bdb0-e333f1c4a998",
+    "calendar": "weekday",
+    "time": "10:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "7cd52ef9-57ab-4fd2-88f6-9e0fdc997023",
+    "calendar": "weekday",
+    "time": "11:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "9ffaab61-3986-4250-a5f9-97c00c9e274d",
+    "calendar": "weekday",
+    "time": "12:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "69e4afec-b3dc-4204-8ad5-e5407eb0a7fc",
+    "calendar": "weekday",
+    "time": "14:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "416472ff-4603-4b1c-b1c4-0dae67bccc25",
+    "calendar": "weekday",
+    "time": "15:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "d1438539-f82b-4650-8ea6-68757005b304",
+    "calendar": "weekday",
+    "time": "17:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "210f1e1d-1b8f-4b46-b027-9c5d8a81032d",
+    "calendar": "saturday",
+    "time": "09:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "ad36473d-c961-4974-8fb3-1f1612ef1aaa",
+    "calendar": "saturday",
+    "time": "10:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "59a0c463-f0b5-4b6c-b790-7a99e8e71634",
+    "calendar": "saturday",
+    "time": "11:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "37a2c5bd-1f19-469f-8be2-6e97b7640a0d",
+    "calendar": "saturday",
+    "time": "14:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "ff36eeef-639b-46b6-b9dd-d0e1c7a06fae",
+    "calendar": "saturday",
+    "time": "15:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "1d0f2255-92f3-4832-9f9b-bf7a4e9296fc",
+    "calendar": "saturday",
+    "time": "17:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "8d8d1867-bb32-454d-a31e-b7787cd74ac4",
+    "calendar": "holiday",
+    "time": "10:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "aad52365-ae77-4177-8b02-d894d9ae787e",
+    "calendar": "holiday",
+    "time": "12:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "97896966-1e36-461c-9736-127586957327",
+    "calendar": "holiday",
+    "time": "14:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "113",
+    "courseSid": "1b0fe798-bef7-4618-9574-c47a68ef27bd",
+    "tripSid": "fb34c393-b9fa-4513-9c84-6af3f638f773",
+    "calendar": "weekday",
+    "time": "08:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "113",
+    "courseSid": "1b0fe798-bef7-4618-9574-c47a68ef27bd",
+    "tripSid": "c2d2e5ec-031a-4db4-a8ca-41ab98527200",
+    "calendar": "weekday",
+    "time": "09:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "113",
+    "courseSid": "1b0fe798-bef7-4618-9574-c47a68ef27bd",
+    "tripSid": "1665ea98-6728-4e65-b13c-fdbe262e85e2",
+    "calendar": "weekday",
+    "time": "09:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "113",
+    "courseSid": "1b0fe798-bef7-4618-9574-c47a68ef27bd",
+    "tripSid": "c7f7d19f-fe40-40e6-b3cf-29b12db9bebb",
+    "calendar": "weekday",
+    "time": "16:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "113",
+    "courseSid": "1b0fe798-bef7-4618-9574-c47a68ef27bd",
+    "tripSid": "43033146-c5d2-418f-b9c8-44ca83c17fca",
+    "calendar": "weekday",
+    "time": "18:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "113",
+    "courseSid": "1b0fe798-bef7-4618-9574-c47a68ef27bd",
+    "tripSid": "df64c2b7-711b-466b-8bb4-da7ed04037cf",
+    "calendar": "saturday",
+    "time": "08:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "113",
+    "courseSid": "1b0fe798-bef7-4618-9574-c47a68ef27bd",
+    "tripSid": "94b31e46-f84b-4112-b43e-dcf42fc53d54",
+    "calendar": "saturday",
+    "time": "08:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "113",
+    "courseSid": "1b0fe798-bef7-4618-9574-c47a68ef27bd",
+    "tripSid": "2d071d57-517f-42a1-937c-51836c1e2feb",
+    "calendar": "saturday",
+    "time": "09:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "113",
+    "courseSid": "1b0fe798-bef7-4618-9574-c47a68ef27bd",
+    "tripSid": "c826b9e5-a081-4748-887a-b5e91c3299a0",
+    "calendar": "saturday",
+    "time": "16:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "113",
+    "courseSid": "1b0fe798-bef7-4618-9574-c47a68ef27bd",
+    "tripSid": "e2ed883a-5da4-414e-ae14-e5c34d184406",
+    "calendar": "saturday",
+    "time": "17:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "113",
+    "courseSid": "1b0fe798-bef7-4618-9574-c47a68ef27bd",
+    "tripSid": "f3afa1b4-581b-4ed5-9871-5c3bf4ae298c",
+    "calendar": "saturday",
+    "time": "18:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1090000",
+    "stopName": "真玉橋（津嘉山・沖縄市向け）",
+    "routeNo": "123",
+    "courseSid": "d89f2108-5ddf-4af1-abe7-a4e2aa954068",
+    "tripSid": "fbd1fa0a-a0b6-4d79-ad98-2ea4079afba5",
+    "calendar": "weekday",
+    "time": "19:02",
+    "parentCompanyCode": "8000"
+  }
+]

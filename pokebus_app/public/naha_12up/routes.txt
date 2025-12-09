@@ -1,0 +1,2 @@
+route_id,route_short_name,route_long_name,route_type,agency_id
+naha12up_1,12up,12up 12番線,3,naha_bus

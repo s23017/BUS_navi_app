@@ -1,0 +1,770 @@
+{
+  "journey": {
+    "start": {
+      "stopId": "99644599-2a2a-4a6b-a1cc-98eef29788b4",
+      "name": "那覇バスターミナル　のりば １",
+      "time": "10:20"
+    },
+    "end": {
+      "stopId": "2ba273e8-73b2-4ccc-8cb2-5d85dbd70a96",
+      "name": "石嶺団地東（終点）",
+      "time": "11:06"
+    }
+  },
+  "routes": [
+    {
+      "option": "7",
+      "summary": "首里城下町線 下り",
+      "legs": [
+        {
+          "from": {
+            "stopId": "99644599-2a2a-4a6b-a1cc-98eef29788b4",
+            "name": "那覇バスターミナル　のりば １",
+            "time": "10:20"
+          },
+          "to": {
+            "stopId": "2ba273e8-73b2-4ccc-8cb2-5d85dbd70a96",
+            "name": "石嶺団地東（終点）",
+            "time": "11:06"
+          },
+          "distanceMeters": null,
+          "durationMinutes": null,
+          "instructions": "首里城下町線 下り（那覇西原（鳥堀経由）線）"
+        }
+      ],
+      "stops": [
+        {
+          "id": "99644599-2a2a-4a6b-a1cc-98eef29788b4",
+          "name": "那覇バスターミナル　のりば １",
+          "shortName": "那覇バスターミナル",
+          "position": {
+            "lat": 15.7241,
+            "lng": 76.60739
+          },
+          "order": 1,
+          "time": "10:20",
+          "hour": 10,
+          "minute": 20,
+          "startTime": "10:20"
+        },
+        {
+          "id": "5c43b142-a7b8-48ea-a4a9-f7be19a981f7",
+          "name": "県庁北口（国際通り・久茂地向け）",
+          "shortName": "県庁北口",
+          "position": {
+            "lat": 15.7258,
+            "lng": 76.60906
+          },
+          "order": 2,
+          "time": "10:23",
+          "hour": 10,
+          "minute": 23,
+          "startTime": "10:23"
+        },
+        {
+          "id": "ccbc0799-409a-41f4-8cce-424ea66cad7d",
+          "name": "沖縄タイムス前（浦添・おもろまち向け）",
+          "shortName": "沖縄タイムス前",
+          "position": {
+            "lat": 15.72786,
+            "lng": 76.60886
+          },
+          "order": 3,
+          "time": "10:26",
+          "hour": 10,
+          "minute": 26,
+          "startTime": "10:26"
+        },
+        {
+          "id": "dbbfd171-fb5c-43de-9364-c4c7facb93f0",
+          "name": "ラ・ジェント・ホテル沖縄那覇前（泊方面）",
+          "shortName": "ラ・ジェント・ホテル沖縄那覇前",
+          "position": {
+            "lat": 15.7292,
+            "lng": 76.60998
+          },
+          "order": 4,
+          "time": "10:27",
+          "hour": 10,
+          "minute": 27,
+          "startTime": "10:27"
+        },
+        {
+          "id": "dc145013-7257-42fc-b412-916a371eaab6",
+          "name": "泊高橋（とまりん前）（浦添・おもろまち向け）",
+          "shortName": "泊高橋（58号）",
+          "position": {
+            "lat": 15.73185,
+            "lng": 76.61156
+          },
+          "order": 5,
+          "time": "10:29",
+          "hour": 10,
+          "minute": 29,
+          "startTime": "10:29"
+        },
+        {
+          "id": "13709d87-539c-48bc-8a59-a155d6113961",
+          "name": "楽市前（博物館向け）",
+          "shortName": "楽市前",
+          "position": {
+            "lat": 15.73588,
+            "lng": 76.61471
+          },
+          "order": 6,
+          "time": "10:34",
+          "hour": 10,
+          "minute": 34,
+          "startTime": "10:34"
+        },
+        {
+          "id": "1f40b00a-a693-4945-8c11-1fee280071a8",
+          "name": "合同庁舎前（駅前広場・バイパス向け）",
+          "shortName": "合同庁舎前",
+          "position": {
+            "lat": 15.73422,
+            "lng": 76.61618
+          },
+          "order": 7,
+          "time": "10:36",
+          "hour": 10,
+          "minute": 36,
+          "startTime": "10:36"
+        },
+        {
+          "id": "1a2eb0d0-51c3-458c-9160-3e04580bdce7",
+          "name": "県立博物館前（駅前広場・バイパス向け）",
+          "shortName": "県立博物館前",
+          "position": {
+            "lat": 15.73362,
+            "lng": 76.61676
+          },
+          "order": 8,
+          "time": "10:36",
+          "hour": 10,
+          "minute": 36,
+          "startTime": "10:36"
+        },
+        {
+          "id": "b44e3a2d-6c34-49f5-bb34-660a5a81d17e",
+          "name": "おもろまち一丁目（駅前広場・バイパス向け）",
+          "shortName": "おもろまち一丁目",
+          "position": {
+            "lat": 15.7326,
+            "lng": 76.61787
+          },
+          "order": 9,
+          "time": "10:38",
+          "hour": 10,
+          "minute": 38,
+          "startTime": "10:38"
+        },
+        {
+          "id": "a3e06016-0873-4668-a270-080c631157fd",
+          "name": "那覇メインプレイス東口（駅前広場向け）",
+          "shortName": "那覇メインプレイス東口",
+          "position": {
+            "lat": 15.73251,
+            "lng": 76.61844
+          },
+          "order": 10,
+          "time": "10:39",
+          "hour": 10,
+          "minute": 39,
+          "startTime": "10:39"
+        },
+        {
+          "id": "43bb9327-acf4-4d6b-9151-5156b99ee01e",
+          "name": "新都心公園前（安謝小学校方面行き）",
+          "shortName": "新都心公園前",
+          "position": {
+            "lat": 15.73318,
+            "lng": 76.61932
+          },
+          "order": 11,
+          "time": "10:40",
+          "hour": 10,
+          "minute": 40,
+          "startTime": "10:40"
+        },
+        {
+          "id": "88405895-61bc-473d-bfd9-fa7aa81e476c",
+          "name": "おもろまち四丁目（首里城向け）",
+          "shortName": "おもろまち四丁目",
+          "position": {
+            "lat": 15.73339,
+            "lng": 76.62005
+          },
+          "order": 12,
+          "time": "10:40",
+          "hour": 10,
+          "minute": 40,
+          "startTime": "10:40"
+        },
+        {
+          "id": "6c07a520-b44d-474d-aecf-f490a6c29018",
+          "name": "真嘉比小学校入口（首里城向け）",
+          "shortName": "真嘉比小学校入口",
+          "position": {
+            "lat": 15.73175,
+            "lng": 76.62225
+          },
+          "order": 13,
+          "time": "10:42",
+          "hour": 10,
+          "minute": 42,
+          "startTime": "10:42"
+        },
+        {
+          "id": "47166754-9712-4454-96cf-002e9eb0ba2f",
+          "name": "真嘉比東（首里城向け）",
+          "shortName": "真嘉比東",
+          "position": {
+            "lat": 15.73137,
+            "lng": 76.62273
+          },
+          "order": 14,
+          "time": "10:43",
+          "hour": 10,
+          "minute": 43,
+          "startTime": "10:43"
+        },
+        {
+          "id": "41baddae-9a28-4ed4-ab15-42585610e5f3",
+          "name": "松川西（首里城向け）",
+          "shortName": "松川西",
+          "position": {
+            "lat": 15.72932,
+            "lng": 76.62264
+          },
+          "order": 15,
+          "time": "10:45",
+          "hour": 10,
+          "minute": 45,
+          "startTime": "10:45"
+        },
+        {
+          "id": "07f1b82a-6f4a-41f2-b3f0-52be903583ae",
+          "name": "ノボテル沖縄那覇前（首里山川方面）",
+          "shortName": "ノボテル沖縄那覇前",
+          "position": {
+            "lat": 15.72955,
+            "lng": 76.6251
+          },
+          "order": 16,
+          "time": "10:47",
+          "hour": 10,
+          "minute": 47,
+          "startTime": "10:47"
+        },
+        {
+          "id": "05276913-4119-4225-9051-0189681661c3",
+          "name": "観音堂前（首里城向け）",
+          "shortName": "観音堂前",
+          "position": {
+            "lat": 15.72875,
+            "lng": 76.62631
+          },
+          "order": 17,
+          "time": "10:49",
+          "hour": 10,
+          "minute": 49,
+          "startTime": "10:49"
+        },
+        {
+          "id": "ceac1c14-efb9-400f-a67d-2b9109d5dd3d",
+          "name": "寒水川樋川前（首里城向け）",
+          "shortName": "寒水川樋川前",
+          "position": {
+            "lat": 15.72826,
+            "lng": 76.62764
+          },
+          "order": 18,
+          "time": "10:49",
+          "hour": 10,
+          "minute": 49,
+          "startTime": "10:49"
+        },
+        {
+          "id": "cd4c8d6e-ebdb-4508-bb29-56fd512488e7",
+          "name": "一中健児の塔入口（首里城向け）",
+          "shortName": "一中健児の塔入口",
+          "position": {
+            "lat": 15.72787,
+            "lng": 76.62917
+          },
+          "order": 19,
+          "time": "10:49",
+          "hour": 10,
+          "minute": 49,
+          "startTime": "10:49"
+        },
+        {
+          "id": "e15ba1ac-ac4f-4b41-8e6f-49f9f74658fe",
+          "name": "石畳入口（首里城向け）",
+          "shortName": "石畳入口",
+          "position": {
+            "lat": 15.72743,
+            "lng": 76.63041
+          },
+          "order": 20,
+          "time": "10:50",
+          "hour": 10,
+          "minute": 50,
+          "startTime": "10:50"
+        },
+        {
+          "id": "5aa1a470-e836-47c2-b0a1-f7bf16471400",
+          "name": "芸大第３キャンパス前（首里城向け）",
+          "shortName": "芸大第３キャンパス前",
+          "position": {
+            "lat": 15.72714,
+            "lng": 76.63144
+          },
+          "order": 21,
+          "time": "10:50",
+          "hour": 10,
+          "minute": 50,
+          "startTime": "10:50"
+        },
+        {
+          "id": "2f84ac8c-8da9-4164-bab3-59a4df30164d",
+          "name": "金城町（首里城向け）",
+          "shortName": "金城町",
+          "position": {
+            "lat": 15.72716,
+            "lng": 76.63214
+          },
+          "order": 22,
+          "time": "10:51",
+          "hour": 10,
+          "minute": 51,
+          "startTime": "10:51"
+        },
+        {
+          "id": "0d75f694-b8bc-4736-b1b9-89622410e991",
+          "name": "首里城南口（首里駅向け）",
+          "shortName": "首里城南口",
+          "position": {
+            "lat": 15.72782,
+            "lng": 76.63118
+          },
+          "order": 23,
+          "time": "10:51",
+          "hour": 10,
+          "minute": 51,
+          "startTime": "10:51"
+        },
+        {
+          "id": "011ddd21-c714-42fe-9068-854db1286a3a",
+          "name": "首里城前（首里駅向け）",
+          "shortName": "首里城前",
+          "position": {
+            "lat": 15.72906,
+            "lng": 76.63045
+          },
+          "order": 24,
+          "time": "10:52",
+          "hour": 10,
+          "minute": 52,
+          "startTime": "10:52"
+        },
+        {
+          "id": "a7b15ce9-8475-4254-aa9a-a75ecfc3ae2e",
+          "name": "首里城公園入口（当蔵向け）",
+          "shortName": "首里城公園入口",
+          "position": {
+            "lat": 15.72967,
+            "lng": 76.6308
+          },
+          "order": 25,
+          "time": "10:54",
+          "hour": 10,
+          "minute": 54,
+          "startTime": "10:54"
+        },
+        {
+          "id": "054cf588-240f-466e-b7ec-6a23a4ede338",
+          "name": "当蔵（首里公民館向け）",
+          "shortName": "当蔵",
+          "position": {
+            "lat": 15.72958,
+            "lng": 76.63284
+          },
+          "order": 26,
+          "time": "10:56",
+          "hour": 10,
+          "minute": 56,
+          "startTime": "10:56"
+        },
+        {
+          "id": "421b9a2a-64d1-4991-ab6b-a011e8d1f0bb",
+          "name": "首里公民館前（鳥堀一丁目向け）",
+          "shortName": "首里公民館前",
+          "position": {
+            "lat": 15.72928,
+            "lng": 76.63382
+          },
+          "order": 27,
+          "time": "10:56",
+          "hour": 10,
+          "minute": 56,
+          "startTime": "10:56"
+        },
+        {
+          "id": "9bb49562-2366-4118-9cf1-6f7cb5d3c9cd",
+          "name": "鳥堀一丁目（鳥堀交差点向け）",
+          "shortName": "鳥堀一丁目",
+          "position": {
+            "lat": 15.72852,
+            "lng": 76.63492
+          },
+          "order": 28,
+          "time": "10:57",
+          "hour": 10,
+          "minute": 57,
+          "startTime": "10:57"
+        },
+        {
+          "id": "6c98422c-a546-48b7-9632-77a1f50d2913",
+          "name": "首里駅前（西原・崎山向け）",
+          "shortName": "首里駅前",
+          "position": {
+            "lat": 15.729,
+            "lng": 76.63608
+          },
+          "order": 29,
+          "time": "10:58",
+          "hour": 10,
+          "minute": 58,
+          "startTime": "10:58"
+        },
+        {
+          "id": "09b85007-afac-4236-b414-d998e4cee9d7",
+          "name": "久場川団地入口（石嶺団地向け）",
+          "shortName": "久場川団地入口",
+          "position": {
+            "lat": 15.73014,
+            "lng": 76.63707
+          },
+          "order": 30,
+          "time": "10:59",
+          "hour": 10,
+          "minute": 59,
+          "startTime": "10:59"
+        },
+        {
+          "id": "1cb9b0dd-10b8-4360-9d3c-d4eb06a358fb",
+          "name": "首里りうぼう前（石嶺団地向け）",
+          "shortName": "首里りうぼう前",
+          "position": {
+            "lat": 15.73102,
+            "lng": 76.63743
+          },
+          "order": 31,
+          "time": "11:00",
+          "hour": 11,
+          "minute": 0,
+          "startTime": "11:00"
+        },
+        {
+          "id": "147d6e57-67fe-45ae-a9a8-8993a66c4991",
+          "name": "第一石嶺（石嶺団地向け）",
+          "shortName": "第一石嶺",
+          "position": {
+            "lat": 15.73206,
+            "lng": 76.6378
+          },
+          "order": 32,
+          "time": "11:00",
+          "hour": 11,
+          "minute": 0,
+          "startTime": "11:00"
+        },
+        {
+          "id": "db3a78d9-fbc1-44f6-956f-e19756c01bc2",
+          "name": "第二石嶺（石嶺団地向け）",
+          "shortName": "第二石嶺",
+          "position": {
+            "lat": 15.73282,
+            "lng": 76.63807
+          },
+          "order": 33,
+          "time": "11:01",
+          "hour": 11,
+          "minute": 1,
+          "startTime": "11:01"
+        },
+        {
+          "id": "0f825ab6-0e39-4afa-91e3-aa8ce97a23b8",
+          "name": "石嶺駅前（石嶺団地向け）",
+          "shortName": "石嶺駅前",
+          "position": {
+            "lat": 15.73386,
+            "lng": 76.63847
+          },
+          "order": 34,
+          "time": "11:02",
+          "hour": 11,
+          "minute": 2,
+          "startTime": "11:02"
+        },
+        {
+          "id": "7d0bcba3-3fa5-4906-89f1-e10385c23b91",
+          "name": "石嶺営業所前（石嶺団地向け）",
+          "shortName": "石嶺営業所前",
+          "position": {
+            "lat": 15.73431,
+            "lng": 76.6395
+          },
+          "order": 35,
+          "time": "11:04",
+          "hour": 11,
+          "minute": 4,
+          "startTime": "11:04"
+        },
+        {
+          "id": "b501f720-482f-45f4-923d-9ff6964a6f42",
+          "name": "石嶺団地北（石嶺団地東向け）",
+          "shortName": "石嶺団地北（下りのみ）",
+          "position": {
+            "lat": 15.73409,
+            "lng": 76.64064
+          },
+          "order": 36,
+          "time": "11:05",
+          "hour": 11,
+          "minute": 5,
+          "startTime": "11:05"
+        },
+        {
+          "id": "cbe8fa37-1d55-4701-ba97-07d8e949c0eb",
+          "name": "自治会事務所前（石嶺団地東向け）",
+          "shortName": "自治会事務所前",
+          "position": {
+            "lat": 15.73346,
+            "lng": 76.64059
+          },
+          "order": 37,
+          "time": "11:05",
+          "hour": 11,
+          "minute": 5,
+          "startTime": "11:05"
+        },
+        {
+          "id": "2ba273e8-73b2-4ccc-8cb2-5d85dbd70a96",
+          "name": "石嶺団地東（終点）",
+          "shortName": "石嶺団地東",
+          "position": {
+            "lat": 15.73269,
+            "lng": 76.64177
+          },
+          "order": 38,
+          "time": "11:06",
+          "hour": 11,
+          "minute": 6,
+          "startTime": "11:06"
+        }
+      ],
+      "courseSids": [
+        "8e44c391-a077-4ea2-a558-5eb5607f332b"
+      ],
+      "keitouSids": [
+        "4d6f1cf0-60e9-4ceb-a524-b158baa8cd43"
+      ],
+      "passPoints": [
+        {
+          "index": 0,
+          "lat": 15.7241,
+          "lng": 76.60739
+        },
+        {
+          "index": 1,
+          "lat": 15.7258,
+          "lng": 76.60906
+        },
+        {
+          "index": 2,
+          "lat": 15.72786,
+          "lng": 76.60886
+        },
+        {
+          "index": 3,
+          "lat": 15.7292,
+          "lng": 76.60998
+        },
+        {
+          "index": 4,
+          "lat": 15.73185,
+          "lng": 76.61156
+        },
+        {
+          "index": 5,
+          "lat": 15.73588,
+          "lng": 76.61471
+        },
+        {
+          "index": 6,
+          "lat": 15.73422,
+          "lng": 76.61618
+        },
+        {
+          "index": 7,
+          "lat": 15.73362,
+          "lng": 76.61676
+        },
+        {
+          "index": 8,
+          "lat": 15.7326,
+          "lng": 76.61787
+        },
+        {
+          "index": 9,
+          "lat": 15.73251,
+          "lng": 76.61844
+        },
+        {
+          "index": 10,
+          "lat": 15.73318,
+          "lng": 76.61932
+        },
+        {
+          "index": 11,
+          "lat": 15.73339,
+          "lng": 76.62005
+        },
+        {
+          "index": 12,
+          "lat": 15.73175,
+          "lng": 76.62225
+        },
+        {
+          "index": 13,
+          "lat": 15.73137,
+          "lng": 76.62273
+        },
+        {
+          "index": 14,
+          "lat": 15.72932,
+          "lng": 76.62264
+        },
+        {
+          "index": 15,
+          "lat": 15.72955,
+          "lng": 76.6251
+        },
+        {
+          "index": 16,
+          "lat": 15.72875,
+          "lng": 76.62631
+        },
+        {
+          "index": 17,
+          "lat": 15.72826,
+          "lng": 76.62764
+        },
+        {
+          "index": 18,
+          "lat": 15.72787,
+          "lng": 76.62917
+        },
+        {
+          "index": 19,
+          "lat": 15.72743,
+          "lng": 76.63041
+        },
+        {
+          "index": 20,
+          "lat": 15.72714,
+          "lng": 76.63144
+        },
+        {
+          "index": 21,
+          "lat": 15.72716,
+          "lng": 76.63214
+        },
+        {
+          "index": 22,
+          "lat": 15.72782,
+          "lng": 76.63118
+        },
+        {
+          "index": 23,
+          "lat": 15.72906,
+          "lng": 76.63045
+        },
+        {
+          "index": 24,
+          "lat": 15.72967,
+          "lng": 76.6308
+        },
+        {
+          "index": 25,
+          "lat": 15.72958,
+          "lng": 76.63284
+        },
+        {
+          "index": 26,
+          "lat": 15.72928,
+          "lng": 76.63382
+        },
+        {
+          "index": 27,
+          "lat": 15.72852,
+          "lng": 76.63492
+        },
+        {
+          "index": 28,
+          "lat": 15.729,
+          "lng": 76.63608
+        },
+        {
+          "index": 29,
+          "lat": 15.73014,
+          "lng": 76.63707
+        },
+        {
+          "index": 30,
+          "lat": 15.73102,
+          "lng": 76.63743
+        },
+        {
+          "index": 31,
+          "lat": 15.73206,
+          "lng": 76.6378
+        },
+        {
+          "index": 32,
+          "lat": 15.73282,
+          "lng": 76.63807
+        },
+        {
+          "index": 33,
+          "lat": 15.73386,
+          "lng": 76.63847
+        },
+        {
+          "index": 34,
+          "lat": 15.73431,
+          "lng": 76.6395
+        },
+        {
+          "index": 35,
+          "lat": 15.73409,
+          "lng": 76.64064
+        },
+        {
+          "index": 36,
+          "lat": 15.73346,
+          "lng": 76.64059
+        },
+        {
+          "index": 37,
+          "lat": 15.73269,
+          "lng": 76.64177
+        }
+      ]
+    }
+  ],
+  "source": "naha_13"
+}

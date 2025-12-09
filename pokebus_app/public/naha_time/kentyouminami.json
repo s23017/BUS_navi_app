@@ -1,0 +1,5322 @@
+[
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "4",
+    "courseSid": "73b0cc33-5883-45fa-8657-b5f374992eac",
+    "tripSid": "69eb35e4-fdf5-4459-8d30-4166f1a9efeb",
+    "calendar": "weekday",
+    "time": "08:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "4",
+    "courseSid": "73b0cc33-5883-45fa-8657-b5f374992eac",
+    "tripSid": "f69ef67e-ceb3-4d65-ab59-952b29033a3e",
+    "calendar": "weekday",
+    "time": "09:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "4",
+    "courseSid": "73b0cc33-5883-45fa-8657-b5f374992eac",
+    "tripSid": "4c510075-f11c-4bb9-8b2b-49d2acf8b24c",
+    "calendar": "weekday",
+    "time": "09:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "4",
+    "courseSid": "73b0cc33-5883-45fa-8657-b5f374992eac",
+    "tripSid": "ca5e9d0b-9d86-4567-9c0e-c77ca6543e15",
+    "calendar": "weekday",
+    "time": "11:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "4",
+    "courseSid": "73b0cc33-5883-45fa-8657-b5f374992eac",
+    "tripSid": "3dcc777a-4324-47fa-a36d-5edea64a971d",
+    "calendar": "weekday",
+    "time": "17:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "4",
+    "courseSid": "73b0cc33-5883-45fa-8657-b5f374992eac",
+    "tripSid": "0e39ea3d-6034-4a38-b010-2af4898bca94",
+    "calendar": "weekday",
+    "time": "19:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "4",
+    "courseSid": "73b0cc33-5883-45fa-8657-b5f374992eac",
+    "tripSid": "f330ef7a-fc3b-4141-8443-7eed252f1dde",
+    "calendar": "saturday",
+    "time": "09:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "4",
+    "courseSid": "73b0cc33-5883-45fa-8657-b5f374992eac",
+    "tripSid": "27fc143a-b7ba-41e9-8975-9e2abcdee32d",
+    "calendar": "saturday",
+    "time": "11:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "4",
+    "courseSid": "73b0cc33-5883-45fa-8657-b5f374992eac",
+    "tripSid": "a7bd3e78-2d9f-43da-9715-dd6d982660fc",
+    "calendar": "saturday",
+    "time": "12:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "4",
+    "courseSid": "73b0cc33-5883-45fa-8657-b5f374992eac",
+    "tripSid": "58e06698-0405-4ebe-8cb0-4d6d7025ad85",
+    "calendar": "saturday",
+    "time": "15:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "4",
+    "courseSid": "73b0cc33-5883-45fa-8657-b5f374992eac",
+    "tripSid": "7521eb05-e13f-46fc-a3fe-b0740ae4b518",
+    "calendar": "saturday",
+    "time": "16:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "4",
+    "courseSid": "73b0cc33-5883-45fa-8657-b5f374992eac",
+    "tripSid": "512c13cd-7758-4192-bf85-7e55d7d9c6a0",
+    "calendar": "holiday",
+    "time": "09:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "4",
+    "courseSid": "73b0cc33-5883-45fa-8657-b5f374992eac",
+    "tripSid": "d5c06945-cb24-4e69-85a7-b02f72a0abfe",
+    "calendar": "holiday",
+    "time": "11:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "4",
+    "courseSid": "73b0cc33-5883-45fa-8657-b5f374992eac",
+    "tripSid": "4d15fda9-db4f-4ee9-a3ef-fa96244096d2",
+    "calendar": "holiday",
+    "time": "12:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "4",
+    "courseSid": "73b0cc33-5883-45fa-8657-b5f374992eac",
+    "tripSid": "ccf4f039-776c-4f6f-8db1-60f4ca8be201",
+    "calendar": "holiday",
+    "time": "12:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "4",
+    "courseSid": "73b0cc33-5883-45fa-8657-b5f374992eac",
+    "tripSid": "490fb849-0bd9-48eb-81da-b1f92775fcd9",
+    "calendar": "holiday",
+    "time": "15:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "4",
+    "courseSid": "73b0cc33-5883-45fa-8657-b5f374992eac",
+    "tripSid": "20f65877-2e04-4ce3-a1dd-f8b3dc689507",
+    "calendar": "holiday",
+    "time": "15:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "4",
+    "courseSid": "73b0cc33-5883-45fa-8657-b5f374992eac",
+    "tripSid": "951b93f1-0f36-48b4-9f58-24f204bd30fb",
+    "calendar": "holiday",
+    "time": "16:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "4",
+    "courseSid": "73b0cc33-5883-45fa-8657-b5f374992eac",
+    "tripSid": "a966c1aa-3203-4d6c-981e-3b51d7ac8dfb",
+    "calendar": "holiday",
+    "time": "16:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "c41a83e9-37b5-4f18-a34c-851232e4e6c3",
+    "calendar": "weekday",
+    "time": "07:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "67664c02-8341-4f7e-b521-d60328269b25",
+    "calendar": "weekday",
+    "time": "07:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "cc2f4442-8c97-4ba5-bbd3-77171cc25237",
+    "calendar": "weekday",
+    "time": "08:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "8b86c432-3be1-4b7e-8ebf-5a789d7c117f",
+    "calendar": "weekday",
+    "time": "08:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "dc2bf455-028f-46e0-95f6-efb826866f8b",
+    "calendar": "weekday",
+    "time": "09:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "8399df03-09f3-42f1-92ee-634739a5edc0",
+    "calendar": "weekday",
+    "time": "09:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "65d2f79f-365b-44a7-b36a-996ec37123d1",
+    "calendar": "weekday",
+    "time": "09:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "ed1681de-3770-4a88-a0f7-8cace67eddef",
+    "calendar": "weekday",
+    "time": "10:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "2b6ea805-7062-407f-921d-e43425a026ac",
+    "calendar": "weekday",
+    "time": "10:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "34f7d65a-c29e-4bd9-9f4f-7b72252deb8a",
+    "calendar": "weekday",
+    "time": "10:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "87728b1f-9a7c-47fe-a948-b8bd63f4301e",
+    "calendar": "weekday",
+    "time": "11:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "368854c6-8feb-4644-afbe-91529085af19",
+    "calendar": "weekday",
+    "time": "11:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "a86eaa1a-6895-4188-b63e-04948fb17c23",
+    "calendar": "weekday",
+    "time": "12:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "5689361a-fec7-47d2-ab11-55350dc2f3aa",
+    "calendar": "weekday",
+    "time": "13:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "3b4f215f-78a7-41a6-adf1-a02c511f157c",
+    "calendar": "weekday",
+    "time": "14:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "99cd1e6f-5ad0-45c8-831d-f5d64d77619b",
+    "calendar": "weekday",
+    "time": "15:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "e3b65586-e8f6-4c8a-a4d3-f5eb293316b4",
+    "calendar": "weekday",
+    "time": "15:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "9c31d355-f9d0-40f7-abbf-23b7b9f251c9",
+    "calendar": "weekday",
+    "time": "16:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "52e226f4-d86a-4a37-8004-cb2b410ae265",
+    "calendar": "weekday",
+    "time": "17:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "f3feb2e3-287e-44d8-89c9-1573eb1c11fa",
+    "calendar": "weekday",
+    "time": "17:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "ab339563-02d3-4848-905a-b8ab24c05aab",
+    "calendar": "weekday",
+    "time": "18:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "b4aae476-2013-44db-ac4a-87bfb47a0a7d",
+    "calendar": "weekday",
+    "time": "18:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "4266475f-88dd-474c-9cd4-4544834a4195",
+    "calendar": "weekday",
+    "time": "18:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "79b1815b-44b0-41e6-9a18-b69724b05a66",
+    "calendar": "weekday",
+    "time": "19:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "885c0a55-a585-4c5a-b1cd-ce9d3e87e4f7",
+    "calendar": "weekday",
+    "time": "19:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "327a63d0-f3b0-4a25-b0a9-8dcbafd98907",
+    "calendar": "weekday",
+    "time": "19:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "d7c8fbba-d906-4286-ac25-4657215a5b01",
+    "calendar": "weekday",
+    "time": "20:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "4d96cc4b-cc8d-48dd-a080-7dba1520b411",
+    "calendar": "weekday",
+    "time": "20:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "95a13e46-0732-4b1b-bc9b-5d229a31261e",
+    "calendar": "weekday",
+    "time": "21:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "d4498a69-9741-454f-b752-f79299cbb538",
+    "calendar": "weekday",
+    "time": "22:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "8e27edab-bd43-4e5a-b168-140f51a0ca92",
+    "calendar": "saturday",
+    "time": "07:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "67b52168-a0c8-4106-8ef4-fc54a41ca43c",
+    "calendar": "saturday",
+    "time": "08:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "125ca815-94f7-4e98-bf81-dd9fcea6327e",
+    "calendar": "saturday",
+    "time": "09:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "96561858-e651-402b-bc13-9e8b5af30c42",
+    "calendar": "saturday",
+    "time": "10:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "29a84b4a-b5d1-4f69-8182-2c58fd0dbd76",
+    "calendar": "saturday",
+    "time": "11:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "faf70488-a498-49b4-8396-2589d868ad87",
+    "calendar": "saturday",
+    "time": "11:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "8e487b26-66b7-46f7-815d-ffdcd8750fd7",
+    "calendar": "saturday",
+    "time": "12:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "29c53f5c-884f-4f97-b959-9a1791fef5cd",
+    "calendar": "saturday",
+    "time": "13:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "7c6903ba-a800-4e1e-9637-59251c70f033",
+    "calendar": "saturday",
+    "time": "14:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "8793b9a7-84b2-4e66-8183-fab251a7d67f",
+    "calendar": "saturday",
+    "time": "15:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "4a594514-3535-4b37-99fe-c3ccbfa3ba65",
+    "calendar": "saturday",
+    "time": "16:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "a16a5f2e-56c6-4a57-8b10-1f608901d5a3",
+    "calendar": "saturday",
+    "time": "17:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "7f3b8610-397a-4fbb-8ab2-e68dd08ad229",
+    "calendar": "saturday",
+    "time": "18:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "f6f70c50-78c9-4708-93f5-523818d18668",
+    "calendar": "saturday",
+    "time": "19:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "fd7ba7b8-181d-49f7-aff5-bde514cd84ee",
+    "calendar": "saturday",
+    "time": "19:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "1f8167eb-8bc5-48af-b96d-9e5ef7735dc6",
+    "calendar": "saturday",
+    "time": "20:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "5051cc60-10e7-445d-bbf9-3ceae0ac8959",
+    "calendar": "saturday",
+    "time": "21:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "37e1e658-7488-4b91-aeae-986ba65bf33a",
+    "calendar": "saturday",
+    "time": "22:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "f5a3f12d-28f3-4870-90d0-0c894726caaa",
+    "calendar": "holiday",
+    "time": "07:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "a9a413a1-e201-4af9-88f8-855d52c017d9",
+    "calendar": "holiday",
+    "time": "08:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "106fb9c5-a8a3-46f1-9a5d-431768a86e45",
+    "calendar": "holiday",
+    "time": "09:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "e9e7e7fc-429e-4077-a914-cdf9873ebf08",
+    "calendar": "holiday",
+    "time": "10:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "ddeca3d2-f257-4335-b972-3024f114fa1d",
+    "calendar": "holiday",
+    "time": "11:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "31ec82a4-e709-420e-aff9-f8bd9289c88b",
+    "calendar": "holiday",
+    "time": "11:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "3df3728b-d746-451b-91f2-7f327e48e373",
+    "calendar": "holiday",
+    "time": "12:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "3a13e1f6-76b0-4e19-b06c-534fafac416d",
+    "calendar": "holiday",
+    "time": "13:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "41cae878-d2c8-4986-b159-421510bf072f",
+    "calendar": "holiday",
+    "time": "14:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "94ba72ea-5153-48c5-811b-fcc53987842d",
+    "calendar": "holiday",
+    "time": "15:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "44e91559-96f8-442e-a6da-27addf783420",
+    "calendar": "holiday",
+    "time": "16:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "3e34daaf-cc2b-46de-b54f-89f5c86267b8",
+    "calendar": "holiday",
+    "time": "17:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "c9b056dd-2d0c-468f-aa53-c3ee20859676",
+    "calendar": "holiday",
+    "time": "18:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "44eefc38-7696-4161-9949-d2a8376a908f",
+    "calendar": "holiday",
+    "time": "19:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "ac42de21-2d3e-4a3f-bef9-4acd514c1581",
+    "calendar": "holiday",
+    "time": "19:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "5e214ccb-4d7e-4b70-a56c-3c8d54110731",
+    "calendar": "holiday",
+    "time": "20:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "96a52394-a7da-41d3-9029-01d5e7f485eb",
+    "calendar": "holiday",
+    "time": "21:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "6",
+    "courseSid": "89912ca6-b61c-4d5b-bafa-80cef8ad0209",
+    "tripSid": "dedb734a-cd0b-4941-90de-3fa2937b7bd8",
+    "calendar": "holiday",
+    "time": "22:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "7e44e9f9-31ae-4cce-947a-5b3f5b511e98",
+    "calendar": "weekday",
+    "time": "06:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "3973ab9e-a429-403d-99cd-46c24122fde3",
+    "calendar": "weekday",
+    "time": "07:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "0901369e-81fd-4795-9187-e056ecbb9a78",
+    "calendar": "weekday",
+    "time": "07:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "c98e0777-51ea-48dd-9726-5cdb6811aaea",
+    "calendar": "weekday",
+    "time": "08:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "4fddf951-c2eb-4a62-b91b-1b51d5a2102f",
+    "calendar": "weekday",
+    "time": "08:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "85127d5e-e595-4d7a-8fbc-f4de8db14214",
+    "calendar": "weekday",
+    "time": "08:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "ebdface3-43fd-4d43-bec2-4d39497ba95c",
+    "calendar": "weekday",
+    "time": "09:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "3a4a0af9-d862-4f3b-aa1e-04f5529f8413",
+    "calendar": "weekday",
+    "time": "10:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "623a33fc-640b-4d9b-af55-8ac9c3fc6f8e",
+    "calendar": "weekday",
+    "time": "10:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "346b8c51-0a14-4083-9607-1a9ab2e1c2ba",
+    "calendar": "weekday",
+    "time": "11:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "2f5f7afa-6518-4e7c-a3e6-d25fc171bbc0",
+    "calendar": "weekday",
+    "time": "12:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "a6d3c043-b927-4906-a340-26b2c314ba55",
+    "calendar": "weekday",
+    "time": "13:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "cf405ae4-f6a6-4b1b-91f7-173eab3570d9",
+    "calendar": "weekday",
+    "time": "13:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "52c20871-705b-43cd-aa2d-c733ac5b32cd",
+    "calendar": "weekday",
+    "time": "14:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "b9b82125-1592-4c8e-b6aa-3a8809546965",
+    "calendar": "weekday",
+    "time": "15:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "49b5877e-b06a-444e-a54b-ea16b1b19a94",
+    "calendar": "weekday",
+    "time": "16:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "3fadb27b-96f5-4533-b7d8-594c425f9d41",
+    "calendar": "weekday",
+    "time": "16:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "a6ad0a85-9ccd-4908-a24e-c4a03e7a394e",
+    "calendar": "weekday",
+    "time": "17:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "aab02167-59e7-4c7d-b399-69d7435f61c4",
+    "calendar": "weekday",
+    "time": "17:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "8953ed74-f448-48ef-92f9-0b53127452e4",
+    "calendar": "weekday",
+    "time": "18:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "22b646ae-8dd9-47e7-8acb-77b8e637db9d",
+    "calendar": "weekday",
+    "time": "19:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "1d0f6901-9bb7-443e-b7c8-7134a7d74df7",
+    "calendar": "weekday",
+    "time": "19:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "65dcf812-1c78-4628-9677-138996efe0d4",
+    "calendar": "weekday",
+    "time": "20:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "0dd9fb5b-42f0-421f-892d-0b7b40f5954c",
+    "calendar": "weekday",
+    "time": "21:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "276ba55c-b94b-45e8-bc3d-69d66ff48d87",
+    "calendar": "saturday",
+    "time": "07:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "8cdad23e-6d31-44f9-bb9c-c5916937cb4f",
+    "calendar": "saturday",
+    "time": "08:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "3d38c451-ed94-4c0a-a73e-2f0735de36d7",
+    "calendar": "saturday",
+    "time": "08:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "e9cfb7c4-af22-45b3-b56e-4907781b856d",
+    "calendar": "saturday",
+    "time": "09:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "e46d0c0b-1c8a-4a45-8586-89a324d5fc91",
+    "calendar": "saturday",
+    "time": "10:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "dc1f5939-43de-4d24-997c-97b7084c4702",
+    "calendar": "saturday",
+    "time": "11:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "39ae7bbc-06d9-447a-a71d-12a1e55a2bda",
+    "calendar": "saturday",
+    "time": "11:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "df22e443-84c6-4314-8ecb-141c6c963f6b",
+    "calendar": "saturday",
+    "time": "12:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "c00db6f1-6405-4828-bfe7-f0524d0d287f",
+    "calendar": "saturday",
+    "time": "13:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "3ef48c20-dc14-41da-a707-bb1884a0f5b0",
+    "calendar": "saturday",
+    "time": "14:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "6764a6e3-5fee-4ad5-914b-525bd53fb473",
+    "calendar": "saturday",
+    "time": "14:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "52f27d66-cc14-4710-b9db-2e3981a15c1d",
+    "calendar": "saturday",
+    "time": "15:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "95d79186-6bb6-4b34-ae9a-df24f48b5728",
+    "calendar": "saturday",
+    "time": "16:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "ee23776a-dbc4-4277-b59f-23f59b5be1fa",
+    "calendar": "saturday",
+    "time": "17:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "d5dbdbca-fa38-4c88-88b1-200ac4f8318f",
+    "calendar": "saturday",
+    "time": "17:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "41bf76c5-6c95-410e-a65a-37ed945eb496",
+    "calendar": "saturday",
+    "time": "18:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "09fc335d-336d-4151-943e-0702196ca76c",
+    "calendar": "saturday",
+    "time": "19:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "14f3334b-0977-4c97-b344-db76c0b8d26a",
+    "calendar": "saturday",
+    "time": "19:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "a52c1a12-e105-47d5-8743-e01227600c2f",
+    "calendar": "saturday",
+    "time": "20:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "032752e5-9b8e-4ac5-9b41-8fd33ffd1edd",
+    "calendar": "holiday",
+    "time": "07:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "c7831369-54b8-4ffb-a951-f8c259bb7d4c",
+    "calendar": "holiday",
+    "time": "08:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "866245c5-4df6-4e39-bc83-84760b941ed5",
+    "calendar": "holiday",
+    "time": "08:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "aeb97ed2-a307-4193-8f02-f9ec01b7ac16",
+    "calendar": "holiday",
+    "time": "09:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "b089bc11-bb7b-47cd-a4f0-c933be8e96c7",
+    "calendar": "holiday",
+    "time": "10:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "aed1eb3f-f331-42ec-adfc-7d685ab8587d",
+    "calendar": "holiday",
+    "time": "11:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "6aaec993-6052-49ff-ac2e-4864fa92976f",
+    "calendar": "holiday",
+    "time": "11:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "5cce1b39-1245-4aee-9604-7133dff58d55",
+    "calendar": "holiday",
+    "time": "12:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "a0f344ec-b35e-49c6-99f7-638dca513577",
+    "calendar": "holiday",
+    "time": "13:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "cb947606-db97-4e30-9f31-6f59f4ca5dcc",
+    "calendar": "holiday",
+    "time": "14:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "a7f91818-b8aa-44b7-8424-d8a509244345",
+    "calendar": "holiday",
+    "time": "14:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "70f5ce9a-8e49-41c4-8e14-81bb68405f26",
+    "calendar": "holiday",
+    "time": "15:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "213d7548-5d69-464a-a625-99d2ffc9ad92",
+    "calendar": "holiday",
+    "time": "16:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "0ebfb636-3bc0-425c-ba2a-d2677fc09cbb",
+    "calendar": "holiday",
+    "time": "17:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "fa561d66-875f-479b-92a0-feec03a492a5",
+    "calendar": "holiday",
+    "time": "17:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "1be1eb89-f238-4bdc-8868-e7945a4ae31b",
+    "calendar": "holiday",
+    "time": "18:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "f48df405-4792-4a2a-a7f8-80885fbee633",
+    "calendar": "holiday",
+    "time": "19:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "5c9ed76e-3f11-441f-842c-9a6b88921105",
+    "calendar": "holiday",
+    "time": "19:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "11",
+    "courseSid": "c8029ee5-d7b6-403d-89be-fd6a513cb1ab",
+    "tripSid": "e18d9c69-e6c2-462f-b0fe-3b94119f5597",
+    "calendar": "holiday",
+    "time": "20:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "12",
+    "courseSid": "61456100-ebb9-404c-847f-d500b366a8fc",
+    "tripSid": "9fe22e9f-36ba-4d60-a47c-a21c80cf72d4",
+    "calendar": "weekday",
+    "time": "06:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "12",
+    "courseSid": "61456100-ebb9-404c-847f-d500b366a8fc",
+    "tripSid": "8430dbc4-92ce-4238-8ec3-10deaab14767",
+    "calendar": "weekday",
+    "time": "07:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "12",
+    "courseSid": "61456100-ebb9-404c-847f-d500b366a8fc",
+    "tripSid": "9b54f918-a0bf-4958-8205-8fd77dfe7d5f",
+    "calendar": "weekday",
+    "time": "07:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "12",
+    "courseSid": "61456100-ebb9-404c-847f-d500b366a8fc",
+    "tripSid": "e202ec78-e636-45e3-b4e4-88691da84fdf",
+    "calendar": "saturday",
+    "time": "07:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "12",
+    "courseSid": "61456100-ebb9-404c-847f-d500b366a8fc",
+    "tripSid": "7c1565b1-cc75-4bf4-9eeb-85e4360231b1",
+    "calendar": "saturday",
+    "time": "08:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "12",
+    "courseSid": "61456100-ebb9-404c-847f-d500b366a8fc",
+    "tripSid": "79381c8f-f74c-434e-be74-8c710562f04f",
+    "calendar": "holiday",
+    "time": "07:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "12",
+    "courseSid": "61456100-ebb9-404c-847f-d500b366a8fc",
+    "tripSid": "984f2a36-e0ea-4262-812c-4a2312142579",
+    "calendar": "holiday",
+    "time": "08:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "678883e9-6c1d-4197-b303-23f1c7b033d9",
+    "calendar": "weekday",
+    "time": "06:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "5821fee2-eac7-4ad7-90ab-ea8ee71d6654",
+    "calendar": "weekday",
+    "time": "07:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "06b186b4-077a-4d35-83d5-a80e79daf00d",
+    "calendar": "weekday",
+    "time": "07:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "e3927405-78a8-4a7c-a367-340e6cbbe9d2",
+    "calendar": "weekday",
+    "time": "08:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "47db4d34-1036-4f4b-b3d3-240e568696ce",
+    "calendar": "weekday",
+    "time": "09:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "891fc78b-4bcd-4d3a-aef7-6fb1c64226b6",
+    "calendar": "weekday",
+    "time": "12:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "235dc334-c953-4333-b95c-82fbfbf82458",
+    "calendar": "weekday",
+    "time": "13:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "97a0b164-7b6f-4fc7-abf3-c3373dfe717c",
+    "calendar": "weekday",
+    "time": "15:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "66c73b1f-4eaa-41ec-ba78-a2c53ffd3d3b",
+    "calendar": "weekday",
+    "time": "15:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "58f19bc2-255b-4ffe-8298-1b769340ae57",
+    "calendar": "weekday",
+    "time": "16:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "df6ba847-0bf2-4df6-b150-3a084fb697c0",
+    "calendar": "weekday",
+    "time": "17:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "222f78e3-c9e6-49c7-be80-b1356781b61f",
+    "calendar": "weekday",
+    "time": "18:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "43c5c4cc-a818-4236-9e81-dc8d49d5b6b6",
+    "calendar": "weekday",
+    "time": "19:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "29b88305-2644-4848-a682-9b06b944cebf",
+    "calendar": "saturday",
+    "time": "06:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "81585461-b0c9-4a16-af91-9a3f6dfeb790",
+    "calendar": "saturday",
+    "time": "08:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "83961f49-c3d7-4522-81ea-a95c6eab9f2c",
+    "calendar": "saturday",
+    "time": "11:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "7727fcf8-cea9-4753-8672-efa28a4e16b0",
+    "calendar": "saturday",
+    "time": "13:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "728fc329-3928-4574-84d9-555fe5ce59ab",
+    "calendar": "saturday",
+    "time": "15:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "921a6f48-c406-455e-b773-29cb040de1db",
+    "calendar": "saturday",
+    "time": "18:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "31d354ec-3420-4ceb-8a69-7ab81c4ae00a",
+    "calendar": "holiday",
+    "time": "06:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "8ba18725-6f86-42ff-8a17-28252fd6993e",
+    "calendar": "holiday",
+    "time": "08:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "973b1d93-b041-4b03-b347-4acd70c439e9",
+    "calendar": "holiday",
+    "time": "11:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "7dee025b-778b-45b9-8c1d-3238343da40f",
+    "calendar": "holiday",
+    "time": "13:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "4875ffe8-d550-4391-9d8e-84b1a7106f31",
+    "calendar": "holiday",
+    "time": "15:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "17",
+    "courseSid": "95b90e39-e51b-4520-b8fa-b8b173d3c00d",
+    "tripSid": "4993ebc7-7c0b-4ca8-94a3-e5114ade02a1",
+    "calendar": "holiday",
+    "time": "18:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "8ceb75a9-ca59-4b8e-aff9-4b325a653f81",
+    "calendar": "weekday",
+    "time": "06:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "f587f297-c87c-43a5-85e7-e44d8aac8df8",
+    "calendar": "weekday",
+    "time": "06:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "71fbbd57-baf3-4b31-991c-0b405e65210f",
+    "calendar": "weekday",
+    "time": "07:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "f09b23da-efd2-4957-8c7b-f4f76492915c",
+    "calendar": "weekday",
+    "time": "07:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "21fbcf18-46b8-438b-a2e8-0fe14a963db1",
+    "calendar": "weekday",
+    "time": "07:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "71489100-bb58-48b4-9e18-d79b3ea19841",
+    "calendar": "weekday",
+    "time": "08:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "7a26ba21-37fc-4289-b789-f5627a444eeb",
+    "calendar": "weekday",
+    "time": "09:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "4be39bdd-9ac6-4285-b43a-d64c2ae2d2b1",
+    "calendar": "weekday",
+    "time": "09:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "64628f84-6a3a-48ab-badd-0995712c24f9",
+    "calendar": "weekday",
+    "time": "09:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "84aed845-a183-4b6e-9bd5-c7c2062710a1",
+    "calendar": "weekday",
+    "time": "10:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "68707ac2-5c04-422b-bd21-9235bf8cbc22",
+    "calendar": "weekday",
+    "time": "11:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "3f7e8908-d5be-4c1f-a996-e91f35294cf7",
+    "calendar": "weekday",
+    "time": "12:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "df0f42e9-4734-40e9-8e3b-f59bbc819623",
+    "calendar": "weekday",
+    "time": "12:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "2f9e8315-0b19-4fc8-b80b-e268ca3018f4",
+    "calendar": "weekday",
+    "time": "14:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "5b3ee6b5-8640-4a57-99a3-e61095ff58ca",
+    "calendar": "weekday",
+    "time": "15:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "83ba21ab-bf8a-49b0-87d1-ba385fce1fc8",
+    "calendar": "weekday",
+    "time": "16:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "eec8e2bc-71b9-42a0-8cbb-ddb863ef453a",
+    "calendar": "weekday",
+    "time": "16:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "7c3d513d-b5f7-4471-a1b1-e7ddb7ee9d77",
+    "calendar": "weekday",
+    "time": "17:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "175a3092-4512-4287-9ced-e0848a07c604",
+    "calendar": "weekday",
+    "time": "17:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "44e992c6-547a-4f86-8e12-cdcdb1686e6f",
+    "calendar": "weekday",
+    "time": "18:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "e4c183c4-d64c-41dc-b93a-6d82016ead1a",
+    "calendar": "weekday",
+    "time": "19:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "e24ea371-b12b-4137-be2e-5587ae9ac221",
+    "calendar": "weekday",
+    "time": "20:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "123716a5-66b1-41c5-844d-41f487264e00",
+    "calendar": "weekday",
+    "time": "21:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "471345e6-8dd3-44bd-8f32-374123bd9506",
+    "calendar": "saturday",
+    "time": "06:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "fd0022a4-30d9-4b04-8b8d-72fda3216686",
+    "calendar": "saturday",
+    "time": "07:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "01d5abb9-6dbf-457a-82ee-0d70e285282d",
+    "calendar": "saturday",
+    "time": "08:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "bf7a0d25-563f-443f-9bb7-dd0e618e2b58",
+    "calendar": "saturday",
+    "time": "08:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "1c07dcd2-ccbb-40de-874d-6ee14dedafe0",
+    "calendar": "saturday",
+    "time": "09:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "d75c9a8d-8b03-40d7-8b7d-b7f6de634949",
+    "calendar": "saturday",
+    "time": "10:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "af53b0c9-26ac-44d7-81f0-e89b8a0cad28",
+    "calendar": "saturday",
+    "time": "10:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "54ed1757-60ca-456e-a9f4-5e17e5923bd4",
+    "calendar": "saturday",
+    "time": "12:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "ce41ac94-8b2a-4cba-adae-4a7291f98786",
+    "calendar": "saturday",
+    "time": "13:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "34aea739-a768-4c0c-9c2a-9f7513dc8152",
+    "calendar": "saturday",
+    "time": "14:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "1ef07218-8fbb-417f-9508-af4195fe3efb",
+    "calendar": "saturday",
+    "time": "15:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "6020ccf1-ae41-4f81-b357-44dbb76c8dcc",
+    "calendar": "saturday",
+    "time": "17:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "6e2eb24d-4bd2-4bca-9cc7-68c8ef57ac29",
+    "calendar": "saturday",
+    "time": "18:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "bccda891-6bab-4ace-b268-2a6d82f9b6f5",
+    "calendar": "saturday",
+    "time": "18:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "7e1bb422-ca61-46f2-a79d-7b35b7c80388",
+    "calendar": "saturday",
+    "time": "19:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "d45545b2-6480-4eb3-82ad-d60ccd6b01f9",
+    "calendar": "saturday",
+    "time": "21:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "e87e87e7-5445-4390-b378-d5ec865a3975",
+    "calendar": "holiday",
+    "time": "07:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "6da48088-2288-4ca3-b956-0e1cf05fd779",
+    "calendar": "holiday",
+    "time": "07:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "d33efda1-72c6-48ce-bccc-e01d2e55bd60",
+    "calendar": "holiday",
+    "time": "09:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "01a79ef4-3612-4b1a-b1c3-65b8409033bc",
+    "calendar": "holiday",
+    "time": "11:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "a59b57d7-9430-4473-a2c3-8e89b6809d56",
+    "calendar": "holiday",
+    "time": "12:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "d477850f-f6e1-4c41-a667-7aff3e446d68",
+    "calendar": "holiday",
+    "time": "13:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "0af0bc5a-2804-4644-a941-69662083cac1",
+    "calendar": "holiday",
+    "time": "14:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "934223d3-2cc3-4344-afb6-19559b56ae59",
+    "calendar": "holiday",
+    "time": "15:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "f5b8b1a8-12ca-4e30-8628-d1aa3c8cdfd7",
+    "calendar": "holiday",
+    "time": "16:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "a999afb6-c00e-4743-8760-dbc4e9817435",
+    "calendar": "holiday",
+    "time": "17:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "7121642c-eb79-4d6a-9ed3-22f33e48f6bd",
+    "calendar": "holiday",
+    "time": "18:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "3c0b2bbd-6ec0-4f86-bed1-4d508a2fdd5c",
+    "calendar": "holiday",
+    "time": "18:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "50",
+    "courseSid": "57a0ffc2-fe40-48ca-b9cb-e5ff6a11d7cb",
+    "tripSid": "47da1a65-3a5a-4bf4-8c9c-554b34b363a6",
+    "calendar": "holiday",
+    "time": "20:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "ff6521fc-831c-4163-8251-ccca77722086",
+    "calendar": "weekday",
+    "time": "06:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "75b05097-7dd0-40cc-9540-386469cceea7",
+    "calendar": "weekday",
+    "time": "08:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "a863c066-f2a2-40b8-9c90-0e98067c210a",
+    "calendar": "weekday",
+    "time": "08:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "aee167b3-92fd-49a5-9d4e-ff875792d801",
+    "calendar": "weekday",
+    "time": "09:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "8ae34225-d849-4092-9ca1-5ae48ce3b645",
+    "calendar": "weekday",
+    "time": "10:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "18444c2e-7bfb-4f61-b0d6-a73f3b68e17c",
+    "calendar": "weekday",
+    "time": "11:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "c31adc7f-f285-4599-9214-d9d009e6c6f1",
+    "calendar": "weekday",
+    "time": "13:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "60ecf542-2ec6-4f8c-957b-2593c7f6f7a6",
+    "calendar": "weekday",
+    "time": "13:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "1666312c-39c2-4963-86ca-4c7c2d2a6893",
+    "calendar": "weekday",
+    "time": "15:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "fe660e14-f07a-4727-9c38-68f6343969d3",
+    "calendar": "weekday",
+    "time": "16:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "2c97b29e-3ae7-4a52-b18f-ef4fc9750c8b",
+    "calendar": "weekday",
+    "time": "17:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "8be426d0-e3e1-420c-aa82-b3c9a1d130db",
+    "calendar": "weekday",
+    "time": "19:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "659e5dcc-7b8c-416d-bf09-6b871fd51f4a",
+    "calendar": "saturday",
+    "time": "07:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "ac8e0cd1-e7ac-4310-84b2-1186c813f91c",
+    "calendar": "saturday",
+    "time": "11:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "d6bfadec-eb07-40ab-9231-c78c3e4bc0ba",
+    "calendar": "saturday",
+    "time": "13:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "9db16a27-01e7-4d0b-85fa-76796f9a33f4",
+    "calendar": "saturday",
+    "time": "14:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "80ebd924-2af5-467a-89cf-17dc5d964251",
+    "calendar": "saturday",
+    "time": "16:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "861e21a2-64dc-48e4-8c8d-d9f0da04f044",
+    "calendar": "saturday",
+    "time": "17:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "d155b5c8-2e03-4d2b-b7d2-bf7329bd424c",
+    "calendar": "saturday",
+    "time": "20:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "ea95e77d-88d4-40d3-86b2-d5e534dc4e99",
+    "calendar": "holiday",
+    "time": "08:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "b6e5838b-af2b-4232-a227-c084e8b34741",
+    "calendar": "holiday",
+    "time": "11:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "a4bbfaf9-bbd1-47b4-81ae-8965decbbb63",
+    "calendar": "holiday",
+    "time": "15:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "d1c4b7d4-38e8-4724-a2a8-4a302c371675",
+    "calendar": "holiday",
+    "time": "16:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "707034ac-3029-431b-b08a-bafea0675b81",
+    "calendar": "holiday",
+    "time": "17:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "51",
+    "courseSid": "6adbaa43-2757-4294-a114-13c8caaa8fd2",
+    "tripSid": "9cf0e16f-7f5f-40bb-8e24-7f635fc26eb8",
+    "calendar": "holiday",
+    "time": "19:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "1213b4a4-2ef5-465e-9a07-c9f6f456d364",
+    "calendar": "weekday",
+    "time": "06:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "160416f2-51e0-490d-bb5c-09d01d170a9b",
+    "calendar": "weekday",
+    "time": "08:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "cc86dbcc-ea69-4027-bc4b-1cdfb6407b29",
+    "calendar": "weekday",
+    "time": "14:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "1d4d6946-6420-4499-8796-0018325f161b",
+    "calendar": "weekday",
+    "time": "18:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "b46f2025-4b56-46c1-9f07-0be48020bc2f",
+    "calendar": "saturday",
+    "time": "06:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "3b14b95e-46d5-4f51-bdcf-9824bb43f7d8",
+    "calendar": "saturday",
+    "time": "08:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "ff7d1c10-180e-4f18-a3cf-8149f8841d8c",
+    "calendar": "holiday",
+    "time": "06:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "54",
+    "courseSid": "a77fd3ed-45bf-46b5-b04d-28ead2afac08",
+    "tripSid": "709c41d4-d227-472e-8735-114fe38ac167",
+    "calendar": "holiday",
+    "time": "08:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "0862330d-9c0f-41da-a239-035f2d159196",
+    "calendar": "weekday",
+    "time": "06:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "b3857ef7-4f5c-44aa-9439-29cf605ab0f9",
+    "calendar": "weekday",
+    "time": "07:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "950a9cce-d2e1-44bf-a3bb-291e604d810c",
+    "calendar": "weekday",
+    "time": "07:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "737b07c7-b093-4482-9b06-bfbbcd7deeb5",
+    "calendar": "weekday",
+    "time": "08:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "b0a64abb-1db1-497f-9915-a4205e1f5aa8",
+    "calendar": "weekday",
+    "time": "09:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "1d87ece4-6b41-439f-84b1-8c08412d5537",
+    "calendar": "weekday",
+    "time": "09:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "6c57552f-0340-4b83-bfe7-6ca2082fca59",
+    "calendar": "weekday",
+    "time": "10:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "77e468d9-137d-47e2-87e5-ee4a19e1e01d",
+    "calendar": "weekday",
+    "time": "11:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "0de81a12-1182-447a-804b-e5fa1c0b2ee0",
+    "calendar": "weekday",
+    "time": "12:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "8fca0b8b-9177-4a3c-8be4-995926e9bd7e",
+    "calendar": "weekday",
+    "time": "13:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "9414c63d-ed88-446c-8aa7-0b9a4cf130ce",
+    "calendar": "weekday",
+    "time": "14:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "e25e71bb-0aa2-417f-91af-beeac1de1c02",
+    "calendar": "weekday",
+    "time": "14:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "89465290-9a12-41a2-beb4-0db9ceb49c83",
+    "calendar": "weekday",
+    "time": "15:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "019f23cb-c1b8-4d1d-bba6-cff031db7698",
+    "calendar": "weekday",
+    "time": "15:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "0a7cdd1d-afb7-4597-8603-68a16f3b7468",
+    "calendar": "weekday",
+    "time": "16:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "9f91d878-9091-48df-bcd1-8baf0910054b",
+    "calendar": "weekday",
+    "time": "17:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "7f54321d-54f5-40be-bd6a-0a505cc0d916",
+    "calendar": "weekday",
+    "time": "18:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "dc21e7ac-2251-4789-8d15-e4d50cae951d",
+    "calendar": "weekday",
+    "time": "19:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "5f29f473-aed4-409c-90a4-d62888adf398",
+    "calendar": "weekday",
+    "time": "20:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "b5132418-8214-409d-a955-6b4782c7ef1c",
+    "calendar": "weekday",
+    "time": "21:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "0f2794c5-a3c5-46f7-ab33-2b1fbcb800fd",
+    "calendar": "saturday",
+    "time": "07:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "2f76afc6-3abe-434f-ab92-f4a1c37a347e",
+    "calendar": "saturday",
+    "time": "07:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "179ba8cb-491e-471c-8a1b-7cd189fda9f1",
+    "calendar": "saturday",
+    "time": "09:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "502d6020-4a91-457c-b64b-b052b54ded0e",
+    "calendar": "saturday",
+    "time": "09:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "78c305ad-e3ba-479f-9fe0-2d5ca65fa0d2",
+    "calendar": "saturday",
+    "time": "10:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "a527dd3e-8771-4553-b526-cea1085753ad",
+    "calendar": "saturday",
+    "time": "12:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "3d1fe428-e2b3-42f4-99a2-655492fb0075",
+    "calendar": "saturday",
+    "time": "14:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "723af579-8534-48e7-baea-89fb0a978366",
+    "calendar": "saturday",
+    "time": "15:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "73a7233b-4682-483c-886a-0e273e66e8ad",
+    "calendar": "saturday",
+    "time": "16:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "27be1d71-05ef-4c4b-80f9-6e7f1d2c4b2f",
+    "calendar": "saturday",
+    "time": "17:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "c950acf5-58f8-41a7-bde4-92fb6a8ab4ab",
+    "calendar": "saturday",
+    "time": "18:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "a3a008f7-413f-425d-92d2-244fe553acbf",
+    "calendar": "saturday",
+    "time": "19:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "1cc2b910-a5df-4cc1-a353-207f2311779e",
+    "calendar": "saturday",
+    "time": "21:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "aa36bce1-3739-4275-ab8a-1d9ca6e9544d",
+    "calendar": "holiday",
+    "time": "07:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "054c85fa-3d85-437c-86be-6e97530eb0a0",
+    "calendar": "holiday",
+    "time": "07:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "5a14ee3e-00bc-43b1-846a-3412fab050f2",
+    "calendar": "holiday",
+    "time": "09:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "9b20cce5-e55a-4526-8ad3-ce9c48726f1e",
+    "calendar": "holiday",
+    "time": "09:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "3da516e3-0baa-4000-8b5c-9e181f6f9f25",
+    "calendar": "holiday",
+    "time": "10:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "cfe5a21a-a519-4275-a924-65640ffee3c0",
+    "calendar": "holiday",
+    "time": "12:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "1df659db-fbac-4ab7-8991-2923c8030d4e",
+    "calendar": "holiday",
+    "time": "14:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "91306e88-d986-436f-bf02-5382879c0ddd",
+    "calendar": "holiday",
+    "time": "15:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "4efae548-5be7-42ab-91a0-518542e388bf",
+    "calendar": "holiday",
+    "time": "16:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "bd7bc4ef-dfa9-4c84-b0e0-af943642333f",
+    "calendar": "holiday",
+    "time": "17:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "b2d81c4a-1d1e-4648-be5c-5717e790a5eb",
+    "calendar": "holiday",
+    "time": "18:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "92b6e46d-684b-4982-9b71-2230da8483f6",
+    "calendar": "holiday",
+    "time": "19:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "55",
+    "courseSid": "b810d750-8bd7-4852-a9bf-530c9b87c245",
+    "tripSid": "f92f8857-d7eb-495e-9dd0-04f6a4504570",
+    "calendar": "holiday",
+    "time": "21:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "27291b9a-9aa5-46c4-ae29-343fa4edd901",
+    "calendar": "weekday",
+    "time": "08:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "e58e27d5-8c0c-4742-973d-a907deb4c131",
+    "calendar": "weekday",
+    "time": "09:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "f52f9f30-b48b-488a-bdb0-e333f1c4a998",
+    "calendar": "weekday",
+    "time": "10:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "7cd52ef9-57ab-4fd2-88f6-9e0fdc997023",
+    "calendar": "weekday",
+    "time": "11:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "9ffaab61-3986-4250-a5f9-97c00c9e274d",
+    "calendar": "weekday",
+    "time": "12:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "69e4afec-b3dc-4204-8ad5-e5407eb0a7fc",
+    "calendar": "weekday",
+    "time": "13:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "416472ff-4603-4b1c-b1c4-0dae67bccc25",
+    "calendar": "weekday",
+    "time": "15:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "d1438539-f82b-4650-8ea6-68757005b304",
+    "calendar": "weekday",
+    "time": "17:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "210f1e1d-1b8f-4b46-b027-9c5d8a81032d",
+    "calendar": "saturday",
+    "time": "09:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "ad36473d-c961-4974-8fb3-1f1612ef1aaa",
+    "calendar": "saturday",
+    "time": "10:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "59a0c463-f0b5-4b6c-b790-7a99e8e71634",
+    "calendar": "saturday",
+    "time": "11:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "37a2c5bd-1f19-469f-8be2-6e97b7640a0d",
+    "calendar": "saturday",
+    "time": "14:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "ff36eeef-639b-46b6-b9dd-d0e1c7a06fae",
+    "calendar": "saturday",
+    "time": "15:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "1d0f2255-92f3-4832-9f9b-bf7a4e9296fc",
+    "calendar": "saturday",
+    "time": "16:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "8d8d1867-bb32-454d-a31e-b7787cd74ac4",
+    "calendar": "holiday",
+    "time": "10:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "aad52365-ae77-4177-8b02-d894d9ae787e",
+    "calendar": "holiday",
+    "time": "12:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "83",
+    "courseSid": "be95a710-5a9e-4032-8038-938e4bf22f15",
+    "tripSid": "97896966-1e36-461c-9736-127586957327",
+    "calendar": "holiday",
+    "time": "14:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "4988b870-5b02-4d08-a165-9c1400266f9d",
+    "calendar": "weekday",
+    "time": "06:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "e07f78b7-eb67-4739-a820-482ed59414a4",
+    "calendar": "weekday",
+    "time": "06:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "07d227a8-5a69-4fd8-9a24-940c115a3f2f",
+    "calendar": "weekday",
+    "time": "06:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "0fd71336-4d16-438a-8206-b5410389b868",
+    "calendar": "weekday",
+    "time": "07:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "c2aa7e14-451c-4a51-9f9f-b827e9cdfab9",
+    "calendar": "weekday",
+    "time": "07:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "31782a28-8ebb-4c0a-845d-b66681cbce91",
+    "calendar": "weekday",
+    "time": "07:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "d2a612fa-22ff-4ea3-889a-c6b38a88d0bb",
+    "calendar": "weekday",
+    "time": "07:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "a7bcb9b3-4472-4f5d-84af-3db2110f8624",
+    "calendar": "weekday",
+    "time": "08:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "15fcdbba-cd22-422f-bac7-a336f340b316",
+    "calendar": "weekday",
+    "time": "08:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "67813e8d-5daf-48a3-a3fc-875cbf65179b",
+    "calendar": "weekday",
+    "time": "08:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "78c3b38c-63ee-4ebb-831b-b711d42754c6",
+    "calendar": "weekday",
+    "time": "09:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "bdaa022c-d4b9-4ef0-aed9-7e3996d22f5f",
+    "calendar": "weekday",
+    "time": "09:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "d9b74561-3429-4cdf-9fe3-e4d52d9bc06d",
+    "calendar": "weekday",
+    "time": "09:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "76de2414-1506-490c-a1fd-dde9da910ba9",
+    "calendar": "weekday",
+    "time": "09:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "4d45fbc7-0353-4278-a65c-74f71e1a1ec5",
+    "calendar": "weekday",
+    "time": "10:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "41f65445-ccb9-4adb-a10a-154a44e10bb4",
+    "calendar": "weekday",
+    "time": "10:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "e61052e7-a969-41d2-8f3c-7f4d8828f773",
+    "calendar": "weekday",
+    "time": "10:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "b6db6b33-4a85-42f6-8d75-f00930d2a63d",
+    "calendar": "weekday",
+    "time": "10:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "fab4971a-0102-4eb1-9e2b-fc8479574ebe",
+    "calendar": "weekday",
+    "time": "11:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "0b9c6db2-7e0c-4d5d-9d7f-f8776352ae7b",
+    "calendar": "weekday",
+    "time": "11:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "2fbfabfd-49d3-4f21-b52d-97d32685ea11",
+    "calendar": "weekday",
+    "time": "11:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "e9c2eded-c52b-47b8-9448-52397bcf42a7",
+    "calendar": "weekday",
+    "time": "11:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "4a7096b1-fbab-4c23-9417-ad09e00bcba7",
+    "calendar": "weekday",
+    "time": "12:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "a635f61b-ba90-4be4-8808-4d0fdf510eb3",
+    "calendar": "weekday",
+    "time": "12:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "3573fe5f-124b-4e38-b2a3-35a9878687cf",
+    "calendar": "weekday",
+    "time": "12:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "68b31293-4901-406e-b844-37c33411f057",
+    "calendar": "weekday",
+    "time": "13:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "a496b925-7812-4e21-b756-7745f6112ef2",
+    "calendar": "weekday",
+    "time": "13:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "7fd592e1-c275-4ee9-bccf-35ce4eb8c042",
+    "calendar": "weekday",
+    "time": "14:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "05f70c72-96e2-4ac4-ad2f-98fa6300806f",
+    "calendar": "weekday",
+    "time": "14:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "93511c7f-cf90-4173-b3b5-a794d4485eb3",
+    "calendar": "weekday",
+    "time": "14:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "41224d46-c1ee-416b-bcb9-b7e6ba5e5077",
+    "calendar": "weekday",
+    "time": "15:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "532d10a3-6d66-488f-8996-982a6be187c9",
+    "calendar": "weekday",
+    "time": "15:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "b2499e70-04eb-44bb-95a6-71b91f3182b7",
+    "calendar": "weekday",
+    "time": "15:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "2a29ee4c-1666-4b0c-882a-0b446c1c3dea",
+    "calendar": "weekday",
+    "time": "16:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "04b805d8-6c28-4671-a5ba-9603ca77d7e3",
+    "calendar": "weekday",
+    "time": "16:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "a633af26-b98d-48b2-b0a8-aba2c6716edc",
+    "calendar": "weekday",
+    "time": "16:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "c3f2d71c-00c4-482b-a9e4-44bc81cef80f",
+    "calendar": "weekday",
+    "time": "17:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "99765d98-9ec7-42f1-8af8-f145e102cc61",
+    "calendar": "weekday",
+    "time": "17:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "fc28ce25-a247-4f0a-96c2-b2101dfaf858",
+    "calendar": "weekday",
+    "time": "17:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "99b2969c-2c17-4941-81d9-10205ed43d43",
+    "calendar": "weekday",
+    "time": "18:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "d79b1890-b98f-40d5-9d26-24be255e595a",
+    "calendar": "weekday",
+    "time": "18:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "f20ffb39-d367-43c4-ae42-d2f7585d855b",
+    "calendar": "weekday",
+    "time": "18:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "5883e10b-d30b-45db-8ef6-06426e19ddd6",
+    "calendar": "weekday",
+    "time": "19:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "98ef0b26-960f-49db-9768-98d81b22967f",
+    "calendar": "weekday",
+    "time": "19:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "1a4968d6-5826-43b6-a6db-3ef6ed61c5d5",
+    "calendar": "weekday",
+    "time": "19:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "08da80fd-1d96-4b49-9353-9db7c54e202d",
+    "calendar": "weekday",
+    "time": "20:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "c45648e2-87ed-4bf3-bf21-7b735421125f",
+    "calendar": "weekday",
+    "time": "20:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "8f116b14-65f1-4be1-b4a8-271270039a9b",
+    "calendar": "weekday",
+    "time": "20:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "20c49b95-9bd5-4f14-bfa2-e3742313e48f",
+    "calendar": "weekday",
+    "time": "21:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "46bb6aac-e46c-49b0-ac0f-69b936dd2770",
+    "calendar": "weekday",
+    "time": "21:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "9c005319-5de1-4392-b6ae-cd1fac0d6db5",
+    "calendar": "saturday",
+    "time": "06:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "9ce2f978-b2d4-4e9f-b1ee-dfc6f985de01",
+    "calendar": "saturday",
+    "time": "07:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "5bfe17da-1d35-44a6-b79d-42a1b39bdaed",
+    "calendar": "saturday",
+    "time": "07:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "0dea8f78-66bf-44c9-9a99-bfb658141db6",
+    "calendar": "saturday",
+    "time": "07:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "14b3fb44-224f-4950-b2f1-88c0d7c107f1",
+    "calendar": "saturday",
+    "time": "08:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "62f8d80a-02c1-45a5-9e7f-9266ecd1177e",
+    "calendar": "saturday",
+    "time": "08:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "880505c1-151b-4f46-90fa-b8dc1139c3c1",
+    "calendar": "saturday",
+    "time": "09:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "cbc61d17-fa9d-4844-8387-283362f08d54",
+    "calendar": "saturday",
+    "time": "09:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "174c1f00-357b-4d94-850a-72c0b204edf8",
+    "calendar": "saturday",
+    "time": "09:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "4ddfffb5-f778-4f4a-a9bd-c9c17ecc2b81",
+    "calendar": "saturday",
+    "time": "10:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "ad0b0b96-d79f-4777-ae95-f25c85721ebe",
+    "calendar": "saturday",
+    "time": "10:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "41cd607a-a3dd-45a5-8eeb-98845c5f5f43",
+    "calendar": "saturday",
+    "time": "10:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "22882b06-9af1-44d6-b583-038adbd64b92",
+    "calendar": "saturday",
+    "time": "11:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "b29f7588-3429-46ee-9cb9-7a8e939b9a23",
+    "calendar": "saturday",
+    "time": "11:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "fede4db3-44b3-4567-80d9-fb91220f098b",
+    "calendar": "saturday",
+    "time": "12:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "4a373375-c6b8-490b-aaf3-d950041e2326",
+    "calendar": "saturday",
+    "time": "12:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "36d471dc-a984-4c50-a938-2938765053d6",
+    "calendar": "saturday",
+    "time": "13:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "b968b509-3498-46db-9da3-7bdc6f702726",
+    "calendar": "saturday",
+    "time": "13:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "813a5c3f-644a-40fd-a4ad-058befd2c9bc",
+    "calendar": "saturday",
+    "time": "14:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "ed0d476a-ff6d-46bd-a764-e9ae8c02d028",
+    "calendar": "saturday",
+    "time": "14:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "5b8b7534-849d-4635-bdb0-08efae40ba46",
+    "calendar": "saturday",
+    "time": "14:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "f61520d4-bc32-406d-8a1c-66c73244991c",
+    "calendar": "saturday",
+    "time": "15:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "01b0a016-728d-492e-b612-21aedd56b0a8",
+    "calendar": "saturday",
+    "time": "15:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "743722c4-2945-4ec4-993a-6f24c2836eb4",
+    "calendar": "saturday",
+    "time": "15:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "17dd2eb0-e5be-4cb2-b8eb-8cadc1feaa1e",
+    "calendar": "saturday",
+    "time": "16:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "edee5778-6ab3-4454-8962-5e0ff8a5cc28",
+    "calendar": "saturday",
+    "time": "16:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "eb256c18-420c-4476-8606-966a0fd0e67a",
+    "calendar": "saturday",
+    "time": "17:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "e7da5420-4efa-47a2-ad32-a63914241bf5",
+    "calendar": "saturday",
+    "time": "17:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "b2aa84f9-1285-4c04-92ec-0b2a2bc9b7ca",
+    "calendar": "saturday",
+    "time": "17:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "a33a7ded-a3de-4f21-bae5-babbf575a472",
+    "calendar": "saturday",
+    "time": "18:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "fe9bff51-35e5-4064-b387-ebb04fb8bf6f",
+    "calendar": "saturday",
+    "time": "18:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "c202b7ed-8956-41ce-8288-9762ab130f05",
+    "calendar": "saturday",
+    "time": "19:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "84b24d95-dd94-4049-9825-3418875220c7",
+    "calendar": "saturday",
+    "time": "19:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "ae35b66a-3cae-489e-8424-b16f97b3c996",
+    "calendar": "saturday",
+    "time": "19:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "5a11f6ab-936a-4cbc-b1ef-0815411994b0",
+    "calendar": "saturday",
+    "time": "20:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "cc7289fb-9a44-4d26-96be-7fe94b8ddc62",
+    "calendar": "saturday",
+    "time": "20:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "b5fcfa0c-7ec5-4d1f-8e5c-f664fda603a6",
+    "calendar": "saturday",
+    "time": "21:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "0cd1e273-f355-4432-be30-9e5099162575",
+    "calendar": "saturday",
+    "time": "21:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "1d2e10f4-de30-4729-93df-129b639ffc9a",
+    "calendar": "holiday",
+    "time": "06:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "0db27af9-fc93-4817-9147-2a1fb5f9252a",
+    "calendar": "holiday",
+    "time": "07:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "c0848a52-3614-4c85-b0bb-72fba2dbe827",
+    "calendar": "holiday",
+    "time": "07:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "0a4ce6eb-4ec6-434b-8fde-83fbd64bab62",
+    "calendar": "holiday",
+    "time": "07:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "52585cac-3c9c-43a5-a756-c4192964cab3",
+    "calendar": "holiday",
+    "time": "08:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "debd5586-608b-4dc9-a3c9-03ace4b1347c",
+    "calendar": "holiday",
+    "time": "08:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "d1517b78-c931-467e-8fbb-8eca08cc15f5",
+    "calendar": "holiday",
+    "time": "09:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "42af8edd-cc25-4b13-b3bd-8d060f7a9e74",
+    "calendar": "holiday",
+    "time": "09:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "01caa6b1-913c-43c9-aef1-5a8e282fd637",
+    "calendar": "holiday",
+    "time": "09:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "24b2a5f6-ab68-4946-9863-78d3ce6abc41",
+    "calendar": "holiday",
+    "time": "10:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "7cefdf4b-2270-4589-a740-bf861c5e5dfc",
+    "calendar": "holiday",
+    "time": "10:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "14f46ef1-ba3d-4ddc-8e3f-3766328686af",
+    "calendar": "holiday",
+    "time": "10:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "fbafe88a-5eb5-4f4d-b060-67d98b6874a1",
+    "calendar": "holiday",
+    "time": "11:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "91da03eb-06f9-4b18-b509-b952cf3e1f18",
+    "calendar": "holiday",
+    "time": "11:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "6ab30bbe-baad-4a18-9236-7e4ae732ca3d",
+    "calendar": "holiday",
+    "time": "12:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "fa5b2665-55cb-4024-9d70-530290fb250f",
+    "calendar": "holiday",
+    "time": "12:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "0d5667f5-56eb-4cc7-bbd2-3c26ca1ed15b",
+    "calendar": "holiday",
+    "time": "13:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "5f324e1d-a7e9-4607-b528-a869e1cf6338",
+    "calendar": "holiday",
+    "time": "13:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "942f35b8-9aae-4e27-8bdf-72d095be77a6",
+    "calendar": "holiday",
+    "time": "14:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "9e9db3b6-bed4-4f4c-9855-fbd831dd0b7d",
+    "calendar": "holiday",
+    "time": "14:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "9574039d-8077-411f-93de-40270dca6c97",
+    "calendar": "holiday",
+    "time": "14:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "46abd15b-6b38-4404-816e-e323355ea46a",
+    "calendar": "holiday",
+    "time": "15:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "e8388876-5001-42b8-8888-79c4ceaf791e",
+    "calendar": "holiday",
+    "time": "15:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "7e616ae3-3e66-4f80-986b-0a79d47aec32",
+    "calendar": "holiday",
+    "time": "15:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "9acefaa3-7b53-4748-b66e-308396d68b5d",
+    "calendar": "holiday",
+    "time": "16:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "26167a32-6872-4728-8df4-2c66bd68e5ad",
+    "calendar": "holiday",
+    "time": "16:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "bb4e6a3e-e2c5-473e-80a7-3ea8ffbd1846",
+    "calendar": "holiday",
+    "time": "17:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "4df30940-bb2b-42fe-9fba-6b7cb25c0040",
+    "calendar": "holiday",
+    "time": "17:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "09cea6e8-e345-49aa-96bd-246b04aa177e",
+    "calendar": "holiday",
+    "time": "17:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "1633b1ac-232b-4358-839c-b4c281394bc8",
+    "calendar": "holiday",
+    "time": "18:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "752678e1-4967-4d9f-9df8-2d0c2fa6d99b",
+    "calendar": "holiday",
+    "time": "18:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "1d2deab3-51f3-44d1-afe3-4b6c4ad07041",
+    "calendar": "holiday",
+    "time": "19:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "231b3013-8351-4308-be42-7239180c8645",
+    "calendar": "holiday",
+    "time": "19:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "9025137a-fb21-44ff-a275-99a218b20a99",
+    "calendar": "holiday",
+    "time": "19:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "1acb17a5-049c-4346-b781-fe94dbf95d00",
+    "calendar": "holiday",
+    "time": "20:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "58c62cef-c70e-486a-9a95-0aa8ddc25664",
+    "calendar": "holiday",
+    "time": "20:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "0ba77f9c-2b09-4613-9ec9-865707560815",
+    "calendar": "holiday",
+    "time": "21:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "89",
+    "courseSid": "ccc973ef-d9f0-4fc2-8832-5f41cad6c655",
+    "tripSid": "8bf669ae-e633-4fbe-9131-32201ffedd97",
+    "calendar": "holiday",
+    "time": "21:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "b7887786-6afc-4aaf-ad52-7cb0e208b0b0",
+    "calendar": "weekday",
+    "time": "07:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "b2be9a16-5b54-4036-b768-91c7bd7ecc38",
+    "calendar": "weekday",
+    "time": "08:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "ea0bb622-e2a4-4803-ad26-f53d8a605abf",
+    "calendar": "weekday",
+    "time": "06:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "20fb696c-8d7a-440f-b3db-76c242729719",
+    "calendar": "weekday",
+    "time": "07:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "3b06e9d9-703c-445e-86ba-c2f969bff215",
+    "calendar": "weekday",
+    "time": "07:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "362d8830-28bc-4d84-985c-6ec56d6d80e0",
+    "calendar": "weekday",
+    "time": "09:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "64babc7e-eda7-4212-8d81-e5b61be4f959",
+    "calendar": "weekday",
+    "time": "16:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "398487ba-38d1-4e81-affd-bebdf82547ec",
+    "calendar": "weekday",
+    "time": "18:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "8866e926-28b2-4cb2-9fdf-5cb0de92f9d4",
+    "calendar": "weekday",
+    "time": "18:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "d7dac08c-4a7c-4f95-8e34-08da4df0ece2",
+    "calendar": "saturday",
+    "time": "06:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "b0fd700b-9d63-4384-a378-a710c1309bff",
+    "calendar": "saturday",
+    "time": "09:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "e4213db8-30a6-4377-8bb5-a0fee3337936",
+    "calendar": "saturday",
+    "time": "18:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "da15b6dd-8830-411f-9f7f-772a6339c38d",
+    "calendar": "holiday",
+    "time": "06:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "d276a277-f1d3-4841-bd49-3452bcf92f2b",
+    "calendar": "holiday",
+    "time": "09:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "112",
+    "courseSid": "46478f16-b9ec-4b86-9926-6860e840796e",
+    "tripSid": "aaf479c0-ffa6-46da-81d5-657e296ab04f",
+    "calendar": "holiday",
+    "time": "18:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "0c9f53e6-9cbd-46d3-8fce-b8986d448dd2",
+    "calendar": "weekday",
+    "time": "07:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "b600ce4e-0e50-4935-8106-e74263a57f07",
+    "calendar": "weekday",
+    "time": "07:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "e2ee593f-3230-4e05-a837-0d6505affeb3",
+    "calendar": "weekday",
+    "time": "08:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "bbe7d58b-3b91-47b1-b96e-a00e16afa0d8",
+    "calendar": "weekday",
+    "time": "08:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "2d7c4c4f-899d-4b6b-bff2-969ca3221b7f",
+    "calendar": "weekday",
+    "time": "09:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "b11cf52d-a407-4e98-8918-933b19e3c061",
+    "calendar": "weekday",
+    "time": "09:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "59c39bb7-cd91-4e37-ac58-f3ea034ec4cc",
+    "calendar": "weekday",
+    "time": "09:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "260c7618-6a94-48a9-97ac-3682a6e0c48c",
+    "calendar": "weekday",
+    "time": "10:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "8f93e80a-e64d-4fa0-90e6-53790608af91",
+    "calendar": "weekday",
+    "time": "10:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "fdfd549f-d38e-4571-b140-365cb55df40f",
+    "calendar": "weekday",
+    "time": "11:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "02b6ab57-7fef-4c96-a333-d7c8bc939df0",
+    "calendar": "weekday",
+    "time": "12:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "77538279-089c-4e43-b21c-4554226cd6b3",
+    "calendar": "weekday",
+    "time": "13:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "28158ba4-b309-4219-b6ce-1d861e6e5dcc",
+    "calendar": "weekday",
+    "time": "13:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "08b5ebcf-82c1-4aec-b145-1c33a5d433fc",
+    "calendar": "weekday",
+    "time": "14:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "ab3e85e7-0c1b-4f82-a7b9-00072ab25360",
+    "calendar": "weekday",
+    "time": "14:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "370a5b92-8811-44e7-bde9-5d0fb3b12fec",
+    "calendar": "weekday",
+    "time": "15:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "89ad431d-f374-4598-824a-adcf28955588",
+    "calendar": "weekday",
+    "time": "16:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "d68a8343-f52b-4f4e-bde1-f0802d919112",
+    "calendar": "weekday",
+    "time": "16:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "01ae01a4-609f-4bc2-b8a3-ba540cda789a",
+    "calendar": "weekday",
+    "time": "17:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "33c0b704-82f4-43f9-9a2a-91734c84b556",
+    "calendar": "weekday",
+    "time": "17:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "82e5d7c2-d0f2-4c65-b0d3-b215eafaa139",
+    "calendar": "weekday",
+    "time": "18:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "11d8e306-507c-4775-9b3f-88faa2d1d650",
+    "calendar": "weekday",
+    "time": "19:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "76c4c506-3254-4772-a510-4229a1b18530",
+    "calendar": "weekday",
+    "time": "19:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "e97570ac-e2cd-4735-a7c1-ade1b9951a8a",
+    "calendar": "weekday",
+    "time": "20:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "ee84836a-6c5d-4a5f-ad5f-d460473d079d",
+    "calendar": "weekday",
+    "time": "21:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "ef197288-ba6c-427e-a63e-87ebed5d98d0",
+    "calendar": "saturday",
+    "time": "07:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "86669dbb-39df-4064-9898-647c0a87d5b5",
+    "calendar": "saturday",
+    "time": "08:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "8d33ef0c-8f3a-4865-b93d-e9032ff24fa8",
+    "calendar": "saturday",
+    "time": "08:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "406959a8-3c17-4d5d-8653-6f026a15d486",
+    "calendar": "saturday",
+    "time": "09:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "aed1f162-3987-4bbf-bc07-4e7ad89cf7a4",
+    "calendar": "saturday",
+    "time": "10:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "73941816-ebfa-4c85-814e-862ea0aac0d1",
+    "calendar": "saturday",
+    "time": "10:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "3be23e22-b11a-418c-8f3d-8689b79416c2",
+    "calendar": "saturday",
+    "time": "11:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "6872536d-b7ad-40e5-a589-2fb1400dcd71",
+    "calendar": "saturday",
+    "time": "12:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "9eb91930-d576-4735-af11-0beeca27f9ca",
+    "calendar": "saturday",
+    "time": "13:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "10213f23-4751-441b-9d15-d3af9c8bceea",
+    "calendar": "saturday",
+    "time": "14:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "c8cc1dad-a835-411c-ad52-34d0231ba4d4",
+    "calendar": "saturday",
+    "time": "14:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "7d3253ee-8640-469a-9bc7-8d066c4aefb3",
+    "calendar": "saturday",
+    "time": "15:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "62a33836-e557-4b10-92a7-0afc12f4b3c6",
+    "calendar": "saturday",
+    "time": "16:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "50610d67-7e03-4882-a995-bbfe2e61ef9f",
+    "calendar": "saturday",
+    "time": "16:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "6f84a208-3d9d-4cd2-b63a-7c6cbb91ff19",
+    "calendar": "saturday",
+    "time": "17:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "1fafe99a-c736-4a38-866b-2b32503a77c4",
+    "calendar": "saturday",
+    "time": "17:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "6a86172a-2a93-43b2-b548-08e05b8a9889",
+    "calendar": "saturday",
+    "time": "18:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "366c47a8-abe7-4fb1-95c7-5ff6bb49d9d9",
+    "calendar": "saturday",
+    "time": "19:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "88fae56c-3330-4339-8538-af3ac5e29d67",
+    "calendar": "saturday",
+    "time": "20:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "b58e3123-8adb-494f-a751-134e839dd199",
+    "calendar": "saturday",
+    "time": "21:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "1bd1c86e-9f7b-4df4-a112-2aebc82a6ce2",
+    "calendar": "holiday",
+    "time": "08:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "51488c49-72b5-40e7-8fe6-1c51889721ac",
+    "calendar": "holiday",
+    "time": "08:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "f506951a-a6f5-4376-88ab-cf4f48545ab1",
+    "calendar": "holiday",
+    "time": "09:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "a38558e1-5c0f-4f37-9a9a-db4ade4798f2",
+    "calendar": "holiday",
+    "time": "09:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "1cdff58d-3b6b-46b2-ace2-a12b352c86a6",
+    "calendar": "holiday",
+    "time": "10:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "e9511a6a-4e86-4942-888b-e107bdf26652",
+    "calendar": "holiday",
+    "time": "11:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "12ae98cd-76b9-4009-a186-ae4dd924d625",
+    "calendar": "holiday",
+    "time": "11:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "252ec12f-0d1c-4102-9794-5e24d97eac87",
+    "calendar": "holiday",
+    "time": "12:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "7fb06bdd-3374-47cc-b020-fc69ab0aec93",
+    "calendar": "holiday",
+    "time": "14:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "4e3da92f-89b8-4629-b5c5-aadf986d46fe",
+    "calendar": "holiday",
+    "time": "14:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "bc3bb3db-533d-41e1-ad7e-ed82cf306980",
+    "calendar": "holiday",
+    "time": "15:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "b2c5c424-3fc2-4244-ba7d-fb18d66b1791",
+    "calendar": "holiday",
+    "time": "15:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "40651e32-97b5-45df-87ee-904d61a543b4",
+    "calendar": "holiday",
+    "time": "16:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "6486ca03-af6c-4d8a-b057-957622435554",
+    "calendar": "holiday",
+    "time": "17:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "619361da-f64d-407f-b5ca-c9f89618d7aa",
+    "calendar": "holiday",
+    "time": "18:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "aca15657-236d-4ae8-9e62-8a41b2f26b45",
+    "calendar": "holiday",
+    "time": "18:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "c68c4f24-0845-40ec-ad54-d0fd77bcf292",
+    "calendar": "holiday",
+    "time": "19:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "ee04252d-8aa9-4867-9866-0d35761ffd70",
+    "calendar": "holiday",
+    "time": "19:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "1010000",
+    "stopName": "県庁南口（与儀十字路向け）",
+    "routeNo": "446",
+    "courseSid": "d8aa50ac-f5e7-462e-a2f6-9f56ed5072b2",
+    "tripSid": "966709a3-9333-40b0-982d-4e8e5e348638",
+    "calendar": "holiday",
+    "time": "21:02",
+    "parentCompanyCode": "8000"
+  }
+]

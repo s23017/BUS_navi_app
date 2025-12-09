@@ -1,0 +1,5142 @@
+[
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "91a60c67-760c-4e12-a65b-55371546a90c",
+    "calendar": "weekday",
+    "time": "06:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "6b74e8e3-d75d-4a7b-be1b-33f45cbf5553",
+    "calendar": "weekday",
+    "time": "07:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "6050185b-8aa8-4e0a-80b0-efae35552254",
+    "calendar": "weekday",
+    "time": "08:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "2e888159-6200-4a32-ab61-7434a0cbf518",
+    "calendar": "weekday",
+    "time": "08:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "2d99740f-c83b-4c92-876f-0c921b48e3ad",
+    "calendar": "weekday",
+    "time": "08:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "f38f77a6-05cc-41e2-bc34-968d35f03a4b",
+    "calendar": "weekday",
+    "time": "09:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "30169b4d-d63b-4539-9482-d9a045bc7793",
+    "calendar": "weekday",
+    "time": "09:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "e4b7c191-35f2-4913-ad76-9510e88cd03a",
+    "calendar": "weekday",
+    "time": "10:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "42c8a652-f17a-4b62-baaa-61990f47b5e4",
+    "calendar": "weekday",
+    "time": "10:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "003d890f-5472-4e84-87b9-df03b71de0dd",
+    "calendar": "weekday",
+    "time": "11:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "9a0de4f7-c914-4514-a5f5-6de166ccca65",
+    "calendar": "weekday",
+    "time": "11:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "79ef2dcc-ddf6-4f67-b226-cafc75c7ec7a",
+    "calendar": "weekday",
+    "time": "12:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "3e6f8e96-a84b-4b7e-a15b-c6ff6831f9b5",
+    "calendar": "weekday",
+    "time": "13:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "7d0febbd-0dab-48e6-b6e9-96ff1c4464de",
+    "calendar": "weekday",
+    "time": "14:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "5141d369-401a-49e0-abf0-beb4cba9c4b0",
+    "calendar": "weekday",
+    "time": "15:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "464b922e-2d97-4dbc-94f1-31e9fc864a00",
+    "calendar": "weekday",
+    "time": "15:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "7c16d163-582e-40eb-ad4d-37b232ecfef6",
+    "calendar": "weekday",
+    "time": "16:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "b5271602-fe36-4370-b8a1-e35b859fa92a",
+    "calendar": "weekday",
+    "time": "16:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "ab71d4f6-ef32-4adc-b1cf-c4d2a0d20796",
+    "calendar": "weekday",
+    "time": "17:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "efc5eed4-c5c8-4440-9ea0-eed3bcc1b99f",
+    "calendar": "weekday",
+    "time": "17:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "155d5aad-180b-43b8-ad07-fd8c3d83b49c",
+    "calendar": "weekday",
+    "time": "18:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "4e09804e-c46a-441b-96fa-5dabd72ee754",
+    "calendar": "weekday",
+    "time": "19:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "07113ac2-68a2-42ff-a8a9-c7413ca44dcc",
+    "calendar": "weekday",
+    "time": "19:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "751839e4-016f-4f1e-8c47-5254975c9e2b",
+    "calendar": "weekday",
+    "time": "20:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "45d9653e-5493-472a-87d9-26c45e69eb35",
+    "calendar": "weekday",
+    "time": "21:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "1d27f2f7-fce8-4b9d-a5ab-6847a1e3fd91",
+    "calendar": "saturday",
+    "time": "07:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "d73fdd5c-45c0-4a4a-b08f-edbd269285d4",
+    "calendar": "saturday",
+    "time": "08:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "04c0afca-1768-47d3-b801-d3b475b88cce",
+    "calendar": "saturday",
+    "time": "08:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "c808c447-6ba7-45a5-b29d-7ff2ff385864",
+    "calendar": "saturday",
+    "time": "09:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "69ba5a80-5dbe-4dc6-bc63-319fe7c56405",
+    "calendar": "saturday",
+    "time": "10:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "aaba7ca5-20c2-4662-9967-ed5178b1cff9",
+    "calendar": "saturday",
+    "time": "11:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "bbb719ba-21b5-4588-91fc-c219f8ce665f",
+    "calendar": "saturday",
+    "time": "11:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "c25d1d82-cecc-436b-a185-e452577fb9ad",
+    "calendar": "saturday",
+    "time": "12:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "23a3e3ae-e35b-4702-989a-b3f8320344b4",
+    "calendar": "saturday",
+    "time": "13:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "0d8b9eb3-8826-4e8f-a354-662dd0c116a5",
+    "calendar": "saturday",
+    "time": "14:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "91e38ab9-8e93-4fa8-a2f4-9c6e13d9747a",
+    "calendar": "saturday",
+    "time": "14:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "bf9c9807-52aa-4f72-94e3-20a8a1fa480c",
+    "calendar": "saturday",
+    "time": "15:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "bad2e491-31ae-4d8d-9066-7ac897198f0c",
+    "calendar": "saturday",
+    "time": "16:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "02fa01ea-b0e2-4fc2-9828-613e2271e9ad",
+    "calendar": "saturday",
+    "time": "16:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "60bcf386-2dd6-41d4-a956-458e1717a54f",
+    "calendar": "saturday",
+    "time": "17:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "2a02b6b4-027a-4332-af9a-c44fbd77cd29",
+    "calendar": "saturday",
+    "time": "18:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "c756a145-32ef-4cd3-9544-e6b3a0e96eaa",
+    "calendar": "saturday",
+    "time": "19:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "074febad-4349-481c-8c41-d343bebb32fe",
+    "calendar": "saturday",
+    "time": "19:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "e2a22863-f0c9-4acb-b1cf-0852306b4b9d",
+    "calendar": "saturday",
+    "time": "20:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "824ceee1-3a2f-4e6e-a4e7-90b57298e30f",
+    "calendar": "holiday",
+    "time": "07:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "a28e737a-ad60-4635-abb2-728a5b471ecf",
+    "calendar": "holiday",
+    "time": "08:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "884a3817-be4c-4cb6-b566-2eef7540b263",
+    "calendar": "holiday",
+    "time": "08:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "0f557c76-4952-4aa2-a6aa-b599a90e554e",
+    "calendar": "holiday",
+    "time": "09:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "ccf36713-0d4c-43cf-aee5-eb73e6075893",
+    "calendar": "holiday",
+    "time": "10:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "166d5460-efbc-4f1b-a4e2-3ad4020ad68b",
+    "calendar": "holiday",
+    "time": "11:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "3af3fabf-fcaa-4a77-b562-55c02ae6e35e",
+    "calendar": "holiday",
+    "time": "11:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "f7f2301b-0fdb-457e-9f97-9438edc57e19",
+    "calendar": "holiday",
+    "time": "12:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "33a7c49c-24ce-4f0a-9db3-9753163a2aa2",
+    "calendar": "holiday",
+    "time": "13:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "957aef5e-c2b2-4001-926a-7f84d4db32b3",
+    "calendar": "holiday",
+    "time": "14:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "71463e9e-d434-4370-a16a-861399865ab4",
+    "calendar": "holiday",
+    "time": "14:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "cef60f48-e7f5-4a71-9172-a1a34a6e178f",
+    "calendar": "holiday",
+    "time": "15:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "4a43b705-034e-4d69-a443-72a5fc4d674e",
+    "calendar": "holiday",
+    "time": "16:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "7fa3c836-169e-4812-8490-cae10771eb91",
+    "calendar": "holiday",
+    "time": "16:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "7e90e1a4-e6a4-49ca-932c-e6df4247969c",
+    "calendar": "holiday",
+    "time": "17:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "20dea631-4e76-4599-bda8-8e668fc7fdd6",
+    "calendar": "holiday",
+    "time": "18:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "2feb9efa-f2bf-4dd9-afc0-2e361114936a",
+    "calendar": "holiday",
+    "time": "19:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "3bf51b2d-8d47-4569-835c-bf93e2b242a1",
+    "calendar": "holiday",
+    "time": "19:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "11",
+    "courseSid": "c5e693ab-9bcc-4a77-a459-544cbc290884",
+    "tripSid": "a1c644f1-34fd-4c3d-8b9f-dd20d9c842bd",
+    "calendar": "holiday",
+    "time": "20:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "cf1fea9b-d898-474d-94c2-fdf9366cdfd9",
+    "calendar": "weekday",
+    "time": "19:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "9247f558-0ea9-43a7-ac99-312b261a89a6",
+    "calendar": "weekday",
+    "time": "20:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "32d9249c-b19b-4788-b6e3-773687e1c3a0",
+    "calendar": "weekday",
+    "time": "21:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "b5095eef-d6b3-436b-bd0b-4b4cb02b58d3",
+    "calendar": "saturday",
+    "time": "20:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "bda381ae-014e-4522-89b5-c2bb5afbf0d7",
+    "calendar": "saturday",
+    "time": "20:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "d119138b-e3bf-4c27-bfa4-ff9ade3fd471",
+    "calendar": "saturday",
+    "time": "21:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "83d09207-4c98-4753-aa47-4d856e203880",
+    "calendar": "holiday",
+    "time": "19:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "0886b7bb-9470-4020-8c25-0e561a97f259",
+    "calendar": "holiday",
+    "time": "20:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "05131c65-38ef-49a1-bd82-fa42534e27c7",
+    "calendar": "holiday",
+    "time": "20:43",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "011a4f5d-e491-4408-ad25-9b9664fd33dc",
+    "calendar": "holiday",
+    "time": "20:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "3227c086-7984-4394-b9d3-775c2933af1c",
+    "calendar": "holiday",
+    "time": "21:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "20",
+    "courseSid": "848ac941-bbe0-4d0d-9fea-4e64abda1526",
+    "tripSid": "136ae0ba-1516-4166-b772-812fe257ef77",
+    "calendar": "holiday",
+    "time": "21:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "42e9cb4e-b449-474a-8909-d70dbf793aa8",
+    "calendar": "weekday",
+    "time": "06:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "821fbc84-6b2a-4e96-83bb-26d56e4b84ca",
+    "calendar": "weekday",
+    "time": "06:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "9fc4a5a5-a6b2-4e55-b6d6-27e962857d8b",
+    "calendar": "weekday",
+    "time": "06:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "8f77400f-2d43-4233-8ddc-c4cf92132430",
+    "calendar": "weekday",
+    "time": "07:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "eb5058e0-1ec5-4d82-a894-fc8a8f6e8c51",
+    "calendar": "weekday",
+    "time": "07:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "f0bd3c96-98ef-4827-80cc-4496b8ceea31",
+    "calendar": "weekday",
+    "time": "07:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "a89b90cc-feda-4d6b-b23c-20e5654532d5",
+    "calendar": "weekday",
+    "time": "08:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "e478de4c-8327-43e1-b11d-85d67c349a5e",
+    "calendar": "weekday",
+    "time": "08:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "130e99f9-94c6-4f09-b9e4-6204b9022e13",
+    "calendar": "weekday",
+    "time": "08:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "f3a2a644-c7b8-432d-ae8f-11a24339a116",
+    "calendar": "weekday",
+    "time": "09:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "1499845f-a0fd-453c-ac86-fe8d3731d23b",
+    "calendar": "weekday",
+    "time": "09:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "06e33b8a-c37f-47bd-ac9f-3f6a0544c640",
+    "calendar": "weekday",
+    "time": "09:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "ac654379-ac52-4572-b16d-91f4158b712c",
+    "calendar": "weekday",
+    "time": "09:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "920109f3-5f99-4cea-8e53-1f06c3126c07",
+    "calendar": "weekday",
+    "time": "10:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "1598ccb5-70f5-48c6-9d7e-92f7d4ecca06",
+    "calendar": "weekday",
+    "time": "10:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "60d6e842-36ac-4c71-9300-f7712a28f0a6",
+    "calendar": "weekday",
+    "time": "10:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "6173db83-091d-417f-adeb-db4751942baa",
+    "calendar": "weekday",
+    "time": "11:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "3c0246b9-5d56-4912-a794-ba1bcac35444",
+    "calendar": "weekday",
+    "time": "13:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "b94ac4b8-07c8-4f8b-a705-5aac07288dbb",
+    "calendar": "weekday",
+    "time": "14:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "a4b1b249-d837-41ea-afd6-0783e33d0bf6",
+    "calendar": "weekday",
+    "time": "14:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "5b5d7afe-1dc4-439d-a556-c8eab1433f9c",
+    "calendar": "weekday",
+    "time": "14:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "80d61347-6b84-4d9f-8510-822183dae5c9",
+    "calendar": "weekday",
+    "time": "15:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "26145007-c583-45c4-8ef7-4393b896e414",
+    "calendar": "weekday",
+    "time": "15:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "c202e25f-e079-42f8-8f07-5cffb1026532",
+    "calendar": "weekday",
+    "time": "16:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "f8d2034a-7108-41e9-a8ff-42860460b97e",
+    "calendar": "weekday",
+    "time": "16:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "30d10214-8484-49be-adc7-49f242c758ec",
+    "calendar": "weekday",
+    "time": "16:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "3b23ce27-d579-4750-9b99-ba6fbde0a8de",
+    "calendar": "weekday",
+    "time": "17:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "84b1f0df-e5cb-4f8f-8863-5537994416e2",
+    "calendar": "weekday",
+    "time": "17:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "3690d449-2356-4696-aeca-fbabe468a5e8",
+    "calendar": "weekday",
+    "time": "18:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "b7380203-557d-4a0c-8da1-6eca66931886",
+    "calendar": "weekday",
+    "time": "18:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "fe69541f-db7d-4316-ba9c-599b632fba52",
+    "calendar": "weekday",
+    "time": "19:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "864db5fe-2182-49f2-a1d8-ec058c1d7d7d",
+    "calendar": "weekday",
+    "time": "19:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "43f6329d-4c24-43aa-a123-603ad2d8e609",
+    "calendar": "weekday",
+    "time": "20:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "b5ada7c4-08e6-465b-8c97-9d041b731d72",
+    "calendar": "weekday",
+    "time": "20:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "a108771b-a278-4597-9522-f1b50725c5e4",
+    "calendar": "weekday",
+    "time": "21:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "b4c9f746-e4a1-4d05-9245-bef685f339d1",
+    "calendar": "weekday",
+    "time": "22:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "a7cfb936-1db1-430a-b3dd-b5d5ba0740c1",
+    "calendar": "saturday",
+    "time": "06:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "5cf125c9-9bb6-41e5-990f-8aa3bf0ee68d",
+    "calendar": "saturday",
+    "time": "07:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "5715f645-41cc-4c54-9552-7edd98daa234",
+    "calendar": "saturday",
+    "time": "07:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "8a248717-c0ff-45bf-8e8a-c7e9b5c05f88",
+    "calendar": "saturday",
+    "time": "08:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "54c9be98-39e1-4036-b429-b1d58e0a3a19",
+    "calendar": "saturday",
+    "time": "08:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "d032c918-502a-4809-a12f-6f631f9cf16f",
+    "calendar": "saturday",
+    "time": "08:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "3cdf28de-b150-4aae-a87f-6f9cc621f58f",
+    "calendar": "saturday",
+    "time": "09:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "5ee20034-b514-491b-a8b8-588288799a37",
+    "calendar": "saturday",
+    "time": "09:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "456b3f7e-033b-49b0-b174-df72928c09c9",
+    "calendar": "saturday",
+    "time": "10:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "055ea056-b322-40fe-aa63-be2e84aa3864",
+    "calendar": "saturday",
+    "time": "10:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "074946f8-0de5-4ba5-8069-2e415879eca2",
+    "calendar": "saturday",
+    "time": "11:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "e68892c0-ca44-4248-ad7b-04ef97917b4e",
+    "calendar": "saturday",
+    "time": "12:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "fc710b96-1af1-4659-8d62-1e44eb5039b1",
+    "calendar": "saturday",
+    "time": "12:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "0c04e81f-56f5-4cfb-9df4-7143f584ad8d",
+    "calendar": "saturday",
+    "time": "13:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "945af103-ed9e-4e9f-8cc8-1a344e17a51a",
+    "calendar": "saturday",
+    "time": "13:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "8b5c68cb-80ce-4f39-b1f6-2bc23879dfc8",
+    "calendar": "saturday",
+    "time": "14:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "0f4150cb-ac36-4d67-862e-75a6fcc3bd0f",
+    "calendar": "saturday",
+    "time": "15:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "f9b233d0-764c-430f-ab7a-0f1ec632a7f5",
+    "calendar": "saturday",
+    "time": "16:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "a5a60a79-b5ad-4492-abe4-9755102ea758",
+    "calendar": "saturday",
+    "time": "16:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "bbeac53f-3d58-40be-8c29-a454997e2653",
+    "calendar": "saturday",
+    "time": "16:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "4adff33e-b61b-43df-9e44-825d6ec22c72",
+    "calendar": "saturday",
+    "time": "17:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "d2a434ce-779c-4cec-b5cb-31960fa64c6f",
+    "calendar": "saturday",
+    "time": "17:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "e76aad96-51b4-4ef0-94ea-35a8b45864de",
+    "calendar": "saturday",
+    "time": "18:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "6ca8dc47-24ad-48bb-a9c3-a21fa6d2543e",
+    "calendar": "saturday",
+    "time": "18:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "37310c27-72fa-414b-8100-b2f1f953d7d6",
+    "calendar": "saturday",
+    "time": "19:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "c9782c3e-ac4a-4adf-a41f-25cc596472e1",
+    "calendar": "saturday",
+    "time": "19:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "3ac9da1e-4d13-437f-9ff6-afcfc149c468",
+    "calendar": "saturday",
+    "time": "19:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "68fe1298-9a13-4110-b577-8350085a240c",
+    "calendar": "saturday",
+    "time": "20:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "48bb2ce1-dfce-4924-ad12-0b752314e5b3",
+    "calendar": "saturday",
+    "time": "20:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "1c336002-1c3e-41d3-b254-f3310e16ee7a",
+    "calendar": "saturday",
+    "time": "21:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "e5d0c997-6df0-4ede-9249-dc5d10449530",
+    "calendar": "saturday",
+    "time": "21:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "149bf1ee-9a95-4f10-a014-77e8741c727e",
+    "calendar": "holiday",
+    "time": "06:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "9bedfdbe-4ee0-4b2f-87dc-1023de19c2b3",
+    "calendar": "holiday",
+    "time": "07:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "203e48cf-733a-4ad6-bace-3c5d7b13531f",
+    "calendar": "holiday",
+    "time": "07:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "4b1cc6dc-05d9-494f-8f9f-84110bff87a1",
+    "calendar": "holiday",
+    "time": "08:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "b1059b67-5d7a-4fcd-959d-c88638b4b32a",
+    "calendar": "holiday",
+    "time": "08:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "41e9c904-061c-4c6c-8efd-01b06964fea3",
+    "calendar": "holiday",
+    "time": "08:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "17a8892d-7066-4b03-a9ae-1ddd27a14d86",
+    "calendar": "holiday",
+    "time": "09:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "0adf9682-9f14-4fc4-bc52-03d29b2cd967",
+    "calendar": "holiday",
+    "time": "09:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "400d0be0-b765-4f28-b20a-84be4907a463",
+    "calendar": "holiday",
+    "time": "10:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "3f6bc4cd-0f2f-4fca-b3e6-a32b9cf670ba",
+    "calendar": "holiday",
+    "time": "10:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "fd2c730d-faf0-42f0-a897-4b3bfa59ea27",
+    "calendar": "holiday",
+    "time": "11:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "d526f449-83a7-482d-93a3-06cb555cfbf3",
+    "calendar": "holiday",
+    "time": "12:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "db4ce16c-e77a-4001-828b-a097ad933c9f",
+    "calendar": "holiday",
+    "time": "12:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "40cf1369-fd90-4b17-a16c-184f7ce7b923",
+    "calendar": "holiday",
+    "time": "13:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "2426208e-0384-495d-86f6-b1266c9523e7",
+    "calendar": "holiday",
+    "time": "13:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "f9f0864a-519e-47ac-be73-c4ebbda1f48e",
+    "calendar": "holiday",
+    "time": "14:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "2f33513b-f782-4796-8485-f04e3eabadbb",
+    "calendar": "holiday",
+    "time": "15:28",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "4bb2763c-dab5-4b04-bc17-09839e610615",
+    "calendar": "holiday",
+    "time": "16:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "919a6eef-7aa7-4107-b9f1-6f7f9e2660d1",
+    "calendar": "holiday",
+    "time": "16:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "c0e04f70-bc35-457f-94cf-fef6b666e470",
+    "calendar": "holiday",
+    "time": "16:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "27099bc3-9c52-457c-8249-f0eeaec40f71",
+    "calendar": "holiday",
+    "time": "16:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "eb114776-9789-448f-980e-fd48411f37cf",
+    "calendar": "holiday",
+    "time": "17:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "faca747b-c64f-4b7c-88a1-b8bc947e9e05",
+    "calendar": "holiday",
+    "time": "17:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "ad5cbf97-590b-4d34-8840-23d15bb596e0",
+    "calendar": "holiday",
+    "time": "18:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "aec18c62-965a-493d-98a2-9f964b90ea43",
+    "calendar": "holiday",
+    "time": "18:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "7a78dcf7-26ca-4ee5-be7e-00f344f2bd1e",
+    "calendar": "holiday",
+    "time": "19:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "51b52f20-1998-4456-b638-59cbb75af64d",
+    "calendar": "holiday",
+    "time": "19:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "76504772-a04f-4727-b7a9-d59db86e247c",
+    "calendar": "holiday",
+    "time": "19:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "f27985bc-90e6-4656-b2ba-72572a90aa63",
+    "calendar": "holiday",
+    "time": "20:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "b7289d26-516f-4de4-b380-c651a1b068e2",
+    "calendar": "holiday",
+    "time": "20:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "83d62123-8bae-4b48-a0a6-1a72a62ebfc4",
+    "calendar": "holiday",
+    "time": "21:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "23",
+    "courseSid": "70aa15ec-5bf0-4edc-9e99-c398e8dd1e87",
+    "tripSid": "01c38199-ebf7-4611-86f4-8d9905f56a1f",
+    "calendar": "holiday",
+    "time": "21:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "8b12e13b-1f04-441e-9218-55a53d00f58a",
+    "calendar": "weekday",
+    "time": "07:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "f4433971-d8e3-4f84-a9f7-faf6c91d384b",
+    "calendar": "weekday",
+    "time": "08:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "1d31eebd-1cb9-4578-aa65-374b918e3e43",
+    "calendar": "weekday",
+    "time": "08:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "1bb0cc7b-6a95-4d0b-8cfc-4a250b7204e6",
+    "calendar": "weekday",
+    "time": "09:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "bf82bb91-23a5-4592-a000-643486c71463",
+    "calendar": "weekday",
+    "time": "10:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "a1e48521-eeea-4a4e-bebc-b5fd719db0c5",
+    "calendar": "weekday",
+    "time": "10:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "b9f18bf6-0178-4e9d-9942-12579ea0ba37",
+    "calendar": "weekday",
+    "time": "12:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "766594ab-7160-4288-b03f-61a4a33fc6aa",
+    "calendar": "weekday",
+    "time": "14:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "b86a02fb-8112-438c-8f69-69b14bec6efb",
+    "calendar": "weekday",
+    "time": "15:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "dbed8595-636d-4ff2-86fc-6d67c7f4f34a",
+    "calendar": "weekday",
+    "time": "15:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "5e6ff988-fc3f-4b75-b56d-445bb54073b7",
+    "calendar": "weekday",
+    "time": "16:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "9082f820-5702-4f13-a7c7-10f46fed1317",
+    "calendar": "weekday",
+    "time": "17:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "6120c030-93db-4954-9d0e-d4b5ffc6d408",
+    "calendar": "weekday",
+    "time": "17:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "6a92b1d4-f775-47b3-af39-4063bdf8f415",
+    "calendar": "weekday",
+    "time": "18:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "0bbaff91-309d-4e97-9218-e00c3878dba2",
+    "calendar": "weekday",
+    "time": "19:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "b2fad86e-4b40-46aa-9343-0a4d1f925ad4",
+    "calendar": "saturday",
+    "time": "08:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "4d1dc8be-9a45-4c8c-a209-af6d32abfb33",
+    "calendar": "saturday",
+    "time": "08:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "6d4b039f-f8d4-4c3b-aead-259a99d4c087",
+    "calendar": "saturday",
+    "time": "09:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "e01445fe-00d7-49dd-b458-c2b0f2e6c663",
+    "calendar": "saturday",
+    "time": "10:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "88b77fc8-0980-4df5-8492-194bb4092a06",
+    "calendar": "saturday",
+    "time": "12:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "7b9efece-ca44-4af9-b039-4d2f6e4f6aa0",
+    "calendar": "saturday",
+    "time": "13:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "53b15452-cfa9-4db4-a3ed-251e3900f539",
+    "calendar": "saturday",
+    "time": "14:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "34d6ce59-5d26-471d-9319-37557aa76a67",
+    "calendar": "saturday",
+    "time": "16:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "493426c1-9567-4e6f-b736-a068e93bf3cd",
+    "calendar": "saturday",
+    "time": "17:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "aeb9836a-d125-4a59-be8d-d4dc5ebf4498",
+    "calendar": "saturday",
+    "time": "18:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "eb82f5da-5b56-4734-b452-738b7b4ec925",
+    "calendar": "holiday",
+    "time": "08:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "7c4888a3-0ce1-4513-8c17-af28d97ec7d5",
+    "calendar": "holiday",
+    "time": "08:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "98e33605-2626-470e-866d-3ac4c2b14e9c",
+    "calendar": "holiday",
+    "time": "09:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "9d602e75-0b0e-406e-9e62-680fb9190250",
+    "calendar": "holiday",
+    "time": "10:22",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "17b1cb76-7ba8-4854-a859-f88f68ad773c",
+    "calendar": "holiday",
+    "time": "12:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "2838ba3d-8d85-445d-95c4-bfa933923481",
+    "calendar": "holiday",
+    "time": "13:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "96a65f08-3d49-424e-832c-d73364f52685",
+    "calendar": "holiday",
+    "time": "14:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "eae29019-6da5-4ab4-8180-cad652189665",
+    "calendar": "holiday",
+    "time": "16:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "74dbadf3-e20e-43da-85c7-bbb45da20c33",
+    "calendar": "holiday",
+    "time": "17:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "24",
+    "courseSid": "dc59f23d-91fd-4f1f-9c91-36f8e505d38e",
+    "tripSid": "364211c5-2f39-4a01-b925-2c690011f50f",
+    "calendar": "holiday",
+    "time": "18:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "26",
+    "courseSid": "df512982-b2fc-4dfe-bd59-8b78c366c89e",
+    "tripSid": "54459bff-f800-4503-8bf2-7863452150b7",
+    "calendar": "weekday",
+    "time": "07:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "26",
+    "courseSid": "df512982-b2fc-4dfe-bd59-8b78c366c89e",
+    "tripSid": "598db78f-bd0b-4d5d-b24f-d68e646bd755",
+    "calendar": "weekday",
+    "time": "07:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "26",
+    "courseSid": "df512982-b2fc-4dfe-bd59-8b78c366c89e",
+    "tripSid": "dea55dab-8a91-4adb-8c8b-b7efd511629a",
+    "calendar": "weekday",
+    "time": "09:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "26",
+    "courseSid": "df512982-b2fc-4dfe-bd59-8b78c366c89e",
+    "tripSid": "e9f1d918-c4d8-4183-a71c-9267e2ca35aa",
+    "calendar": "weekday",
+    "time": "11:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "26",
+    "courseSid": "df512982-b2fc-4dfe-bd59-8b78c366c89e",
+    "tripSid": "3a437da4-1f40-49a2-950c-55e8bdd4d9db",
+    "calendar": "weekday",
+    "time": "14:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "26",
+    "courseSid": "df512982-b2fc-4dfe-bd59-8b78c366c89e",
+    "tripSid": "c917e34b-706a-4b94-9c1e-8aa7a92393ac",
+    "calendar": "saturday",
+    "time": "14:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "26",
+    "courseSid": "df512982-b2fc-4dfe-bd59-8b78c366c89e",
+    "tripSid": "a4ec132b-b89e-4817-a1e3-9a68bfb09917",
+    "calendar": "saturday",
+    "time": "19:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "26",
+    "courseSid": "df512982-b2fc-4dfe-bd59-8b78c366c89e",
+    "tripSid": "4d1b4974-9c54-4104-8432-354f07a79c9d",
+    "calendar": "holiday",
+    "time": "14:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "26",
+    "courseSid": "df512982-b2fc-4dfe-bd59-8b78c366c89e",
+    "tripSid": "4d216625-d130-4c07-bb54-d1504e7f78e7",
+    "calendar": "holiday",
+    "time": "19:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "d63e02aa-8acb-4d09-9bd5-82126fce5998",
+    "calendar": "weekday",
+    "time": "07:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "4dd04227-c722-496e-99a0-d15db8465f25",
+    "calendar": "weekday",
+    "time": "07:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "09e100c1-0bf7-41c8-b80e-61af372930df",
+    "calendar": "weekday",
+    "time": "07:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "61872515-17b9-4d06-93f2-33939808db7d",
+    "calendar": "weekday",
+    "time": "08:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "76010f19-08fa-4e8b-83ef-2439d3ef46f3",
+    "calendar": "weekday",
+    "time": "09:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "264826ce-5bda-4573-894d-17c16b6ca0f4",
+    "calendar": "weekday",
+    "time": "10:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "9c1c50e3-233e-4e8a-b328-6545d75ffbff",
+    "calendar": "weekday",
+    "time": "10:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "abe06cb2-76a7-4554-a9c0-993d7c6e1868",
+    "calendar": "weekday",
+    "time": "10:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "1b6da6d7-ef59-4367-88e3-5a1fc7bb8e19",
+    "calendar": "weekday",
+    "time": "10:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "d4d04539-b040-4d91-aae1-2d8a04320e15",
+    "calendar": "weekday",
+    "time": "11:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "a59f079c-cd4f-4940-bd91-acc400c8c6c7",
+    "calendar": "weekday",
+    "time": "11:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "50e01592-f9cc-4535-9a8f-7abc8a036115",
+    "calendar": "weekday",
+    "time": "12:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "282484df-7108-45c8-a2a2-105d8457747c",
+    "calendar": "weekday",
+    "time": "13:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "aa212139-c123-4bd6-9feb-162b78bd3ff1",
+    "calendar": "weekday",
+    "time": "13:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "6cd12109-325d-4068-9ea6-0bd681247d7b",
+    "calendar": "weekday",
+    "time": "15:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "2d3193bd-86ed-4ccc-a0da-baca01cf7eb6",
+    "calendar": "weekday",
+    "time": "15:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "24be1331-3bee-434d-8aa8-7209aa5737e4",
+    "calendar": "weekday",
+    "time": "15:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "7cec0faa-0007-4a61-9f1d-43d950264a58",
+    "calendar": "weekday",
+    "time": "16:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "3c92c398-804e-4908-89c3-54659b299b59",
+    "calendar": "weekday",
+    "time": "17:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "8006b240-9592-4828-ae5b-f79260dd8202",
+    "calendar": "weekday",
+    "time": "18:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "e6cb1791-7894-4bd0-9c12-26661313c115",
+    "calendar": "weekday",
+    "time": "19:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "1b337bd9-e579-415d-9053-2a359c733390",
+    "calendar": "weekday",
+    "time": "19:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "75268788-8490-46df-b1c6-2f3abb284f43",
+    "calendar": "weekday",
+    "time": "20:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "2664ef86-c2db-43bc-bbcf-60ba18b8fb03",
+    "calendar": "weekday",
+    "time": "20:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "0f8a082c-2489-4d6a-80b0-ef70386b394e",
+    "calendar": "weekday",
+    "time": "21:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "714882d1-a86d-43ed-a6ae-7273152d4b61",
+    "calendar": "weekday",
+    "time": "21:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "302ad63b-d4f8-4d27-ac9e-264e3d92ad6f",
+    "calendar": "saturday",
+    "time": "07:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "6ccb4122-e2b5-4cbf-9a96-3000f03d957c",
+    "calendar": "saturday",
+    "time": "08:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "f9062a91-75f3-40b7-8408-5bd9e85ec8d9",
+    "calendar": "saturday",
+    "time": "09:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "5468c191-bbb0-4b56-9ba7-c45257ebe529",
+    "calendar": "saturday",
+    "time": "09:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "9d06d9fd-fe1c-44bc-8db3-ed41f424ec74",
+    "calendar": "saturday",
+    "time": "10:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "adadc79b-f96a-466a-bec3-9afc82cdc88b",
+    "calendar": "saturday",
+    "time": "11:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "a28f73e0-532a-42a5-80fb-51cbd9f0f6a7",
+    "calendar": "saturday",
+    "time": "11:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "b64df5f0-2b8d-4ef8-8c20-f3ac8189d23d",
+    "calendar": "saturday",
+    "time": "12:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "ced6eff3-a206-4461-aa9b-cef7bf1fcea8",
+    "calendar": "saturday",
+    "time": "13:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "7d216774-65af-47bb-8ebe-baf5a8db7b73",
+    "calendar": "saturday",
+    "time": "13:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "54cbd8b7-1d05-4c1f-8566-ddf9a5f03513",
+    "calendar": "saturday",
+    "time": "13:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "34f4d400-c0a7-4cf2-a846-c1823b38f9d2",
+    "calendar": "saturday",
+    "time": "14:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "c75d8ef5-f982-40bc-9057-bd6842cd3269",
+    "calendar": "saturday",
+    "time": "15:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "e835b64c-1a23-4f60-b291-23f034bab28a",
+    "calendar": "saturday",
+    "time": "15:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "0e1bf0f9-29ae-4448-9f3e-710dd17522bf",
+    "calendar": "saturday",
+    "time": "16:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "99d18672-0eee-483f-9ba1-9e971e681039",
+    "calendar": "saturday",
+    "time": "17:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "c64feae6-d642-4ba2-b446-f62fddff1184",
+    "calendar": "saturday",
+    "time": "19:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "032d2b50-052f-4a83-a42a-317e0edfc9e8",
+    "calendar": "saturday",
+    "time": "19:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "132884d8-572e-4a49-aaeb-0b9afb8697a4",
+    "calendar": "saturday",
+    "time": "20:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "edf083a7-d8d1-4afe-80f1-6542ca9c88a4",
+    "calendar": "saturday",
+    "time": "21:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "5a282848-be4c-42b8-9304-01f5ada83510",
+    "calendar": "saturday",
+    "time": "21:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "da394cf2-4213-4f77-aa89-4bb2f58406e8",
+    "calendar": "holiday",
+    "time": "07:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "2d56c6ad-e47c-4387-bd2e-99bee195f9c5",
+    "calendar": "holiday",
+    "time": "08:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "c95bd03c-0e14-4eac-8fa8-b862f954d5f6",
+    "calendar": "holiday",
+    "time": "09:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "0e8ce6e7-9dbe-4afe-b9dc-0b1fb5995c4d",
+    "calendar": "holiday",
+    "time": "09:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "840e20a2-7d08-41c3-87b6-a69512e7dffb",
+    "calendar": "holiday",
+    "time": "10:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "14f955ed-eeb8-49a3-8a0b-2697e7b82120",
+    "calendar": "holiday",
+    "time": "11:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "20c96809-c75f-4379-88ec-596ccadc5bee",
+    "calendar": "holiday",
+    "time": "11:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "e87358c6-84d0-49a8-94ef-48e708a7bbb5",
+    "calendar": "holiday",
+    "time": "12:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "d5c1e47d-1447-4bb0-95c1-d96715abe02d",
+    "calendar": "holiday",
+    "time": "13:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "c7439e52-b9cd-4987-993f-6d7e36f68e78",
+    "calendar": "holiday",
+    "time": "13:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "1087ad48-cb3a-4993-8669-1b76ccfaceac",
+    "calendar": "holiday",
+    "time": "13:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "53e9c912-1cb5-4938-8da3-4f481eae3620",
+    "calendar": "holiday",
+    "time": "14:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "9070d364-90d3-426f-a4cd-83e2049e80e5",
+    "calendar": "holiday",
+    "time": "15:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "df95acf5-2969-4150-91d4-41941bb758ab",
+    "calendar": "holiday",
+    "time": "15:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "d0d7a0c1-39d4-4af0-a4ba-5010199a486d",
+    "calendar": "holiday",
+    "time": "16:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "5b7076a0-2824-4350-9274-7b446319b182",
+    "calendar": "holiday",
+    "time": "17:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "f2e9e763-5f87-43ef-bfd4-e7d52845cd5f",
+    "calendar": "holiday",
+    "time": "19:27",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "e90fe303-30a9-4e59-bd11-c9e46a571206",
+    "calendar": "holiday",
+    "time": "19:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "16c56c65-8c84-4bb9-8328-8d5467f79a08",
+    "calendar": "holiday",
+    "time": "20:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "2ec99585-127e-4d73-90a7-42d9011fc0b6",
+    "calendar": "holiday",
+    "time": "21:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "28",
+    "courseSid": "eaaad386-69ff-4723-880a-a112e1de20c0",
+    "tripSid": "fc10b4af-9fc0-4324-86e3-f26eb9070f37",
+    "calendar": "holiday",
+    "time": "21:21",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "69d82b18-4dc1-4801-bcdd-8b6a9d3670c1",
+    "calendar": "weekday",
+    "time": "08:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "0464f8e2-5d0e-441d-8106-4a951b42b968",
+    "calendar": "weekday",
+    "time": "09:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "e52fb4a9-18ae-4a6d-8b65-c88782635675",
+    "calendar": "weekday",
+    "time": "14:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "db7f2cbb-e4d0-47b8-8569-23c28eea538f",
+    "calendar": "weekday",
+    "time": "17:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "1a0e9374-db4e-43ad-b22d-3fa5b45186e4",
+    "calendar": "saturday",
+    "time": "07:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "3f3f89ed-69e6-4c5a-994d-44131716f8ce",
+    "calendar": "saturday",
+    "time": "10:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "bec283d2-5b2a-4b8c-bae8-f657225e8739",
+    "calendar": "saturday",
+    "time": "16:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "23a9eec5-bc01-4fb4-b27d-e997dc187afe",
+    "calendar": "holiday",
+    "time": "07:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "b0be595f-e89d-447e-833b-0a0d1b975e2c",
+    "calendar": "holiday",
+    "time": "10:23",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "29",
+    "courseSid": "f799f9a8-5082-4e61-892e-a492340b670c",
+    "tripSid": "3e1dc693-1848-4d11-bf38-bb0cd932e5bb",
+    "calendar": "holiday",
+    "time": "16:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "47",
+    "courseSid": "77f1e166-ebf7-4ac9-81c9-a146b56dbc9e",
+    "tripSid": "9f0e0544-a009-45a3-9b62-f85b7ffb86ea",
+    "calendar": "weekday",
+    "time": "07:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "47",
+    "courseSid": "77f1e166-ebf7-4ac9-81c9-a146b56dbc9e",
+    "tripSid": "7d7f0e8e-1925-481b-8a69-28f222076011",
+    "calendar": "weekday",
+    "time": "14:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "47",
+    "courseSid": "77f1e166-ebf7-4ac9-81c9-a146b56dbc9e",
+    "tripSid": "9579a6a4-5ce1-4057-a3ac-3ae006ae08c7",
+    "calendar": "weekday",
+    "time": "16:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "474f40d8-a1d6-45bf-828c-98afeff27a53",
+    "calendar": "weekday",
+    "time": "07:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "69c03963-4480-49aa-bffe-1c3ee416bb49",
+    "calendar": "weekday",
+    "time": "08:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "4e44279c-143b-4595-b645-a62137e7cd5e",
+    "calendar": "weekday",
+    "time": "08:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "20027398-9e31-47a2-ae93-c5339e3e1fa0",
+    "calendar": "weekday",
+    "time": "09:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "2d2c3734-de94-4b26-956a-2a96adaee457",
+    "calendar": "weekday",
+    "time": "10:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "e73ac16d-e607-4ebd-8135-42ce0737794d",
+    "calendar": "weekday",
+    "time": "10:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "4cddf6dc-a690-4a05-a762-2939b2852f49",
+    "calendar": "weekday",
+    "time": "12:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "f1ff6d27-52d3-4f98-aae5-820b78242072",
+    "calendar": "weekday",
+    "time": "13:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "3e4b1625-0066-4472-9af1-989171a51015",
+    "calendar": "weekday",
+    "time": "14:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "3c53bc92-a40e-41a8-84ff-413fc8cef4c5",
+    "calendar": "weekday",
+    "time": "15:08",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "dfea54a9-74c4-4194-931e-9198a150f019",
+    "calendar": "weekday",
+    "time": "16:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "5e66b2ea-608e-4fa8-9636-d20bdca7243d",
+    "calendar": "weekday",
+    "time": "18:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "eb608a6b-2760-493f-8565-c092575e7c38",
+    "calendar": "weekday",
+    "time": "19:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "f5c83bdd-499b-4ef2-94db-c346f6aff3c0",
+    "calendar": "weekday",
+    "time": "19:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "4bfca611-c86c-42b3-bca1-7f914d38dfd1",
+    "calendar": "weekday",
+    "time": "20:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "1b6f1ca2-5aec-4029-80e8-733dfc3cc588",
+    "calendar": "weekday",
+    "time": "21:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "10efe22d-6038-42d6-aeb8-0b524251bb3a",
+    "calendar": "saturday",
+    "time": "07:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "3e50d36d-ecb4-4b05-9530-a7eb0c22613c",
+    "calendar": "saturday",
+    "time": "08:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "c07c19e3-6f75-4daf-85c0-151d19847646",
+    "calendar": "saturday",
+    "time": "09:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "a761ca41-81a7-4c45-9418-502c7e21ee61",
+    "calendar": "saturday",
+    "time": "09:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "e772b438-586d-4de2-a38d-061e705a9951",
+    "calendar": "saturday",
+    "time": "10:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "d707b295-9a70-4682-9b4a-6a68886cda50",
+    "calendar": "saturday",
+    "time": "11:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "c0c71614-48ae-4060-8b8d-34efb04437ea",
+    "calendar": "saturday",
+    "time": "12:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "e51f4022-39fc-4641-b451-c459dd0ed5d6",
+    "calendar": "saturday",
+    "time": "12:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "678080e3-161c-44a3-85f9-14abf23b07db",
+    "calendar": "saturday",
+    "time": "13:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "90efce02-8761-41a1-8391-ff9593142d5b",
+    "calendar": "saturday",
+    "time": "15:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "286ed51f-15d3-4834-bba1-73b50bbeb0a1",
+    "calendar": "saturday",
+    "time": "16:25",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "c7b1221a-cc20-487a-aa51-608ffd38c6b9",
+    "calendar": "saturday",
+    "time": "17:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "78a6eb23-26d3-47e6-ad0f-0d940d83a4a3",
+    "calendar": "saturday",
+    "time": "18:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "41bc54a0-a2a4-4694-b766-d141fab578ac",
+    "calendar": "saturday",
+    "time": "19:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "40cc78d1-68c0-433c-8b07-ed9d333e6be7",
+    "calendar": "saturday",
+    "time": "20:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "14d31ff9-0965-4221-860c-92984a95c263",
+    "calendar": "holiday",
+    "time": "08:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "ccbfd7ca-1f68-4ece-a485-869aafe78514",
+    "calendar": "holiday",
+    "time": "08:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "f14beb74-9753-410c-a92e-dfbce2052ccd",
+    "calendar": "holiday",
+    "time": "10:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "420a98b0-5f08-4804-971d-ebc9e1d3c1ff",
+    "calendar": "holiday",
+    "time": "10:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "91534441-1a74-4731-a239-e0f9fd2e8350",
+    "calendar": "holiday",
+    "time": "12:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "486d0e54-5223-44de-a77d-6e61df98eac1",
+    "calendar": "holiday",
+    "time": "12:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "e43fff0b-ae95-4919-9125-ec077be38fcb",
+    "calendar": "holiday",
+    "time": "13:52",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "b40d66b0-0904-4703-9c6c-e783aa51bbb8",
+    "calendar": "holiday",
+    "time": "15:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "b88150f2-e846-4357-8327-32fcd42c589c",
+    "calendar": "holiday",
+    "time": "16:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "40ff5e1d-7e61-41d4-bf21-2116fe66abe1",
+    "calendar": "holiday",
+    "time": "18:17",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "701db34c-685f-43ea-9846-27657049c061",
+    "calendar": "holiday",
+    "time": "19:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "63",
+    "courseSid": "76205fb3-5a35-4d37-98ee-b7296473d943",
+    "tripSid": "aa8f08aa-0a41-456d-97a7-ab6b38d584bb",
+    "calendar": "holiday",
+    "time": "20:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "489d919f-1e9d-4d5c-95f7-45c214b8f724",
+    "calendar": "weekday",
+    "time": "08:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "b7887786-6afc-4aaf-ad52-7cb0e208b0b0",
+    "calendar": "weekday",
+    "time": "08:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "b2be9a16-5b54-4036-b768-91c7bd7ecc38",
+    "calendar": "weekday",
+    "time": "09:10",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "223b7d81-fa31-483b-985a-7772583e6867",
+    "calendar": "weekday",
+    "time": "14:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "ca4b4bdd-a2e0-4f63-8d95-cb42bf778d06",
+    "calendar": "weekday",
+    "time": "15:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "29248c7d-a743-4ef2-a12c-6fc8f8a364a2",
+    "calendar": "weekday",
+    "time": "16:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "97ba673c-7934-478f-b551-32a7e66cfc41",
+    "calendar": "weekday",
+    "time": "17:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "879e1875-9aa8-4bd9-ac14-f5f6f99da639",
+    "calendar": "weekday",
+    "time": "18:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "719937b1-89b6-49ed-8602-8e25bce8b9fd",
+    "calendar": "weekday",
+    "time": "19:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "76e2572e-6963-4ee5-970a-15d7fbdfb9d8",
+    "calendar": "saturday",
+    "time": "08:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "040901d5-c931-408c-821b-7b3b730937de",
+    "calendar": "saturday",
+    "time": "14:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "101",
+    "courseSid": "95425529-a67d-40b0-8809-b72d45656c76",
+    "tripSid": "75b957f7-8704-47ea-bc56-4715cdc930f6",
+    "calendar": "saturday",
+    "time": "18:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "2c671712-c72d-4028-9e1e-5e8431a8fd2a",
+    "calendar": "weekday",
+    "time": "07:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "37365f83-2323-4662-832e-857a0d17f25c",
+    "calendar": "weekday",
+    "time": "08:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "2527ed0e-69d4-42c8-a73f-cbdb3456cdbb",
+    "calendar": "weekday",
+    "time": "09:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "6ccd8731-3837-43b5-8cce-75e700c1d594",
+    "calendar": "weekday",
+    "time": "09:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "2db0a8b8-d9d2-4918-849e-4024b2f7acb9",
+    "calendar": "weekday",
+    "time": "09:46",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "a78b903a-6517-4bcf-8009-26c97fda68e2",
+    "calendar": "weekday",
+    "time": "10:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "572a5420-1d8c-403c-b0fa-7606e4d24811",
+    "calendar": "weekday",
+    "time": "11:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "89740b43-4dfd-48f9-b67c-2da054dbcf11",
+    "calendar": "weekday",
+    "time": "12:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "d76e31a0-14dd-4fea-ad4f-168cbb0d0e00",
+    "calendar": "weekday",
+    "time": "13:06",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "f8c4bcfd-602d-48a4-9be5-3f5df18b4266",
+    "calendar": "weekday",
+    "time": "13:41",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "f3a16b8d-b092-4652-8bac-13e2f3ff0a26",
+    "calendar": "weekday",
+    "time": "14:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "fab41333-a2cc-4c72-a90f-6831fcd2fdd4",
+    "calendar": "weekday",
+    "time": "15:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "8f47944f-6239-4e40-83fb-f3b182793049",
+    "calendar": "weekday",
+    "time": "15:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "8e6f0192-f4b1-4114-b42b-be576f587a6b",
+    "calendar": "weekday",
+    "time": "16:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "15f3e3ad-03eb-465f-9512-88af353a2d25",
+    "calendar": "weekday",
+    "time": "17:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "91d7b572-b22a-4f5e-8079-a6220d3a6fac",
+    "calendar": "weekday",
+    "time": "18:07",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "677375fa-77eb-423c-a6bf-b57956c17c2f",
+    "calendar": "weekday",
+    "time": "19:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "27eedf7b-4d7f-4401-99b3-66e4c6b49214",
+    "calendar": "weekday",
+    "time": "20:05",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "a30947c8-2ffc-48d9-bc90-3c6827e6f740",
+    "calendar": "weekday",
+    "time": "21:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "f70833dc-f585-410e-814c-dd396b7a3525",
+    "calendar": "saturday",
+    "time": "07:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "80dd09d5-01b4-48be-9c82-94fcc77f7351",
+    "calendar": "saturday",
+    "time": "08:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "7e19da4b-84de-4ed7-a14e-f914e2a330f3",
+    "calendar": "saturday",
+    "time": "09:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "d1b04c4b-bdd3-4cb4-ac03-d872620f0ea2",
+    "calendar": "saturday",
+    "time": "11:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "6c8f892f-8383-4a07-aa1e-d1f8f128793e",
+    "calendar": "saturday",
+    "time": "14:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "6a55706d-48f2-47b7-8892-57df3f070837",
+    "calendar": "saturday",
+    "time": "15:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "dd1793c9-1f9f-45f1-934e-ad0b5587a9f7",
+    "calendar": "saturday",
+    "time": "16:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "7a901fc4-3041-4c3a-8aef-0da230935acc",
+    "calendar": "saturday",
+    "time": "17:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "9319c413-cbe2-4641-9214-78f516bd4cf2",
+    "calendar": "saturday",
+    "time": "19:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "8c42430c-fc9e-4ba3-b4d6-6e8fca6f2248",
+    "calendar": "saturday",
+    "time": "20:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "4417e1cb-39ae-4d58-8844-97552095eabb",
+    "calendar": "saturday",
+    "time": "20:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "8731bcd3-bbbb-4401-bd52-5da971dfda3e",
+    "calendar": "holiday",
+    "time": "07:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "80cffc37-ea8a-4a11-9b29-d2ba80496489",
+    "calendar": "holiday",
+    "time": "08:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "e4fce2bc-a53f-4072-91f1-82aa6d4ede8b",
+    "calendar": "holiday",
+    "time": "09:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "75fe4b03-d6b9-4a18-80aa-b38f00f407c3",
+    "calendar": "holiday",
+    "time": "11:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "9ebd5d20-4f4d-4928-970c-3d2efc0ca0a9",
+    "calendar": "holiday",
+    "time": "14:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "d0cec962-9ba4-4831-ac61-63831832cd3f",
+    "calendar": "holiday",
+    "time": "15:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "af846f5e-2979-4e83-916c-79847b8acbd2",
+    "calendar": "holiday",
+    "time": "16:12",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "c897eb77-047f-478b-95e9-490541ae70da",
+    "calendar": "holiday",
+    "time": "17:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "0a4ae2a7-8f5d-445d-8133-9a49d83d3a87",
+    "calendar": "holiday",
+    "time": "19:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "b21c9c5d-77c3-4bd7-8311-af0b59390f57",
+    "calendar": "holiday",
+    "time": "20:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "110",
+    "courseSid": "7c0c5f3d-024a-46e1-8844-da2f2eb65281",
+    "tripSid": "18f18450-6e98-438b-9f47-e681898f5174",
+    "calendar": "holiday",
+    "time": "20:53",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "630d4225-ed1b-4536-80c1-5b8abb0a4a1b",
+    "calendar": "weekday",
+    "time": "07:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "711141a9-27e6-441c-839f-bb5d36d925c9",
+    "calendar": "weekday",
+    "time": "08:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "97c4fba1-9b68-4d28-ba80-8b9c38254a1a",
+    "calendar": "weekday",
+    "time": "08:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "41ee7e48-3613-48eb-ab34-ec439ad79dba",
+    "calendar": "weekday",
+    "time": "09:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "f30130c5-0467-4039-b2d8-3c0fbf21d0ae",
+    "calendar": "weekday",
+    "time": "09:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ef0c7c07-3a13-409a-9900-06c17847f24f",
+    "calendar": "weekday",
+    "time": "10:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "83c65530-fa6a-4096-b0b5-523d7dde9cfd",
+    "calendar": "weekday",
+    "time": "11:15",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2ec1155d-8f10-4311-9aae-fa1289b24e36",
+    "calendar": "weekday",
+    "time": "11:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5ed58e11-5031-4dc9-bc31-e9e95caa8008",
+    "calendar": "weekday",
+    "time": "12:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5c3ad1db-6a44-448d-9925-8d13a8b11ee8",
+    "calendar": "weekday",
+    "time": "13:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ebfa89c9-079f-4089-8ff0-9ff82a7ebef7",
+    "calendar": "weekday",
+    "time": "13:47",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "e339de21-0ace-4d97-a3eb-49d75e1f2551",
+    "calendar": "weekday",
+    "time": "14:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "76ee88bf-b545-4984-abf7-9ab4842c53c8",
+    "calendar": "weekday",
+    "time": "14:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d94b06b4-dd6c-4f91-8da6-ff6a24142420",
+    "calendar": "weekday",
+    "time": "15:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "935f3c88-1993-4ed0-8529-e6beb83709d2",
+    "calendar": "weekday",
+    "time": "15:38",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "7eb903f1-7a5f-4ebe-b245-e1438180ea7b",
+    "calendar": "weekday",
+    "time": "16:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "288b6b1a-8fc9-42c6-8b12-d6f84cc166fb",
+    "calendar": "weekday",
+    "time": "17:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d79669b8-b66c-4dbe-852f-99ff430cc375",
+    "calendar": "weekday",
+    "time": "17:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5388715f-e66f-4d06-b04f-14c46fa25a4d",
+    "calendar": "weekday",
+    "time": "18:56",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "117af7b3-9022-49d4-90ff-a783e028bf6c",
+    "calendar": "weekday",
+    "time": "19:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "65f58f1d-cdbc-47e8-bfda-fa63a9c1a9de",
+    "calendar": "saturday",
+    "time": "07:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "b2a2b72e-6da6-4615-b43b-8cad28b4a55c",
+    "calendar": "saturday",
+    "time": "07:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "939371e2-4c59-4a97-bc90-2ce6dd9fd56f",
+    "calendar": "saturday",
+    "time": "08:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5f1c058c-0cac-47fb-9c6a-711ff7c4fff2",
+    "calendar": "saturday",
+    "time": "08:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "705c3ac7-6421-4123-97f6-b53d09b9d7b8",
+    "calendar": "saturday",
+    "time": "09:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "a32f75f0-83bc-43e9-8447-681388e189a7",
+    "calendar": "saturday",
+    "time": "10:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5eef7bf1-d8fc-4887-85f2-66b63ab87552",
+    "calendar": "saturday",
+    "time": "10:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "07d6209d-c879-4cef-b90c-1d2bca05a11d",
+    "calendar": "saturday",
+    "time": "11:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2ecec279-afd7-4bcd-979a-869cac46beaa",
+    "calendar": "saturday",
+    "time": "12:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "52896c8a-cbbe-4563-b5de-8df489d9e323",
+    "calendar": "saturday",
+    "time": "13:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "cfdb11a3-1143-4829-825e-9b91fc5f9f64",
+    "calendar": "saturday",
+    "time": "13:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d6f08561-4e99-46e9-b3b1-48675fedc64e",
+    "calendar": "saturday",
+    "time": "13:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "0fd23527-40ef-42b8-88e5-4884000eaea6",
+    "calendar": "saturday",
+    "time": "14:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "e809db33-1764-4e88-8d7f-ddefc30b6fb2",
+    "calendar": "saturday",
+    "time": "14:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2e4c1b4d-efe6-47fe-96cb-ce2d8efe723b",
+    "calendar": "saturday",
+    "time": "15:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "f1c4cd30-81f2-4e4a-8129-bdf6e7cb230b",
+    "calendar": "saturday",
+    "time": "15:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "fd11a45a-7caf-49c3-b995-a7b5cd4a836f",
+    "calendar": "saturday",
+    "time": "16:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ddb57b72-37a0-4d4a-9015-6405a23c617d",
+    "calendar": "saturday",
+    "time": "17:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ba1255c4-5e5e-4d89-9f8d-2067df5a0131",
+    "calendar": "saturday",
+    "time": "18:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ddd4b119-5242-4b88-ba20-5b3fc676a512",
+    "calendar": "saturday",
+    "time": "18:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "a503c0d8-29c5-4122-947f-c7d95b8a2d49",
+    "calendar": "saturday",
+    "time": "19:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "c3a257f2-3905-4d39-aac0-e773577d3b9c",
+    "calendar": "holiday",
+    "time": "07:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d6ce2689-866a-48c3-a94e-6b922a52670f",
+    "calendar": "holiday",
+    "time": "07:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "6cdd5ffc-9256-4a73-a44d-456938cd0bb4",
+    "calendar": "holiday",
+    "time": "07:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "652a58d7-bda9-4578-99eb-720c5a52f69b",
+    "calendar": "holiday",
+    "time": "07:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "fe9bc8d3-8ed1-4766-939c-c72bd456e026",
+    "calendar": "holiday",
+    "time": "08:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "8f99e8db-4307-43ae-bafd-5502da5ca9ad",
+    "calendar": "holiday",
+    "time": "08:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "532f0c25-fb56-4400-a5ea-bee7a878c09d",
+    "calendar": "holiday",
+    "time": "08:51",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "16f5a95a-e6fe-46aa-b3c3-172210d3a3f7",
+    "calendar": "holiday",
+    "time": "09:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2597de63-2966-460d-a9d8-c688e6fd87eb",
+    "calendar": "holiday",
+    "time": "09:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2f2c572a-9da4-4fbe-ac12-6328680f3219",
+    "calendar": "holiday",
+    "time": "10:01",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "680bca6b-6ac8-409e-9aaf-55548d28ba4d",
+    "calendar": "holiday",
+    "time": "10:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "42b8795a-2731-4a78-a9a3-f809e3771745",
+    "calendar": "holiday",
+    "time": "10:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "37c9f1b7-699d-4039-8df2-ce3c71e4bac5",
+    "calendar": "holiday",
+    "time": "10:57",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "962e753d-5100-4bd7-923b-ff7698bc37be",
+    "calendar": "holiday",
+    "time": "10:58",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "7a4e36d7-65d1-4138-8d9b-41af8491f68d",
+    "calendar": "holiday",
+    "time": "11:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "27efc12c-4013-4db7-a8db-5687a85590d9",
+    "calendar": "holiday",
+    "time": "11:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "9e9ce592-fea5-48fd-b423-6e9f511b9e49",
+    "calendar": "holiday",
+    "time": "12:18",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "bd5fc94d-b514-46c9-b4d1-283d51bb7d1a",
+    "calendar": "holiday",
+    "time": "12:20",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "cb5a1421-7db8-4688-8b74-f6ce0835e841",
+    "calendar": "holiday",
+    "time": "12:55",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "33751651-79d7-4cfd-a57c-92ae6c38b88f",
+    "calendar": "holiday",
+    "time": "13:00",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "acc57ef9-2d87-416d-b79f-c12ba5b5dd2d",
+    "calendar": "holiday",
+    "time": "13:30",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "7777de19-4fc3-4500-8e62-e42d736aea66",
+    "calendar": "holiday",
+    "time": "13:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "f108c7d8-4d4a-4c96-8a63-55cf366db6a2",
+    "calendar": "holiday",
+    "time": "13:50",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "d629d8ed-770e-4e8d-b9fb-93b680fc3db4",
+    "calendar": "holiday",
+    "time": "13:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "dfc207fb-0235-420d-9bf1-a2f26a75ce77",
+    "calendar": "holiday",
+    "time": "14:14",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "3e375449-bac1-49c6-8c2d-eea82794cd31",
+    "calendar": "holiday",
+    "time": "14:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "2cfa92ab-1edf-476c-93c1-6cfb0937d1c9",
+    "calendar": "holiday",
+    "time": "14:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "f3f82ec0-bed5-4fc7-95fa-54bf6af4d366",
+    "calendar": "holiday",
+    "time": "14:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "7603d576-9372-4937-ab8c-3561e5d007d9",
+    "calendar": "holiday",
+    "time": "15:02",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "5839cf74-a034-49ee-a413-189e7906d8ca",
+    "calendar": "holiday",
+    "time": "15:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "df7c7b67-c512-4286-b46c-a045765e2128",
+    "calendar": "holiday",
+    "time": "15:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "f56f985f-2944-4f68-acc1-979f01f2a7d4",
+    "calendar": "holiday",
+    "time": "15:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "8e5e96b4-cc2f-4219-bc60-407ed3a16fe3",
+    "calendar": "holiday",
+    "time": "16:19",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "eba672a3-023a-4f9e-ac36-dbbc6bc1a901",
+    "calendar": "holiday",
+    "time": "16:31",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "389c7f65-8bfa-49ab-8ec2-e3a440481eaa",
+    "calendar": "holiday",
+    "time": "17:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "62866405-0a8f-4bc4-b581-d7b851d78083",
+    "calendar": "holiday",
+    "time": "17:16",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "20174d4c-0ecf-4c2b-8120-5718a4d10cdd",
+    "calendar": "holiday",
+    "time": "18:04",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "ad4a18ee-bb39-4de2-9f69-85b3509664b8",
+    "calendar": "holiday",
+    "time": "18:11",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "eea98159-d77a-4408-9c86-6bfafb2d8244",
+    "calendar": "holiday",
+    "time": "18:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "474d5cb4-75f7-4aa9-b42e-3f763fd98ca0",
+    "calendar": "holiday",
+    "time": "18:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "1ef613f0-24db-4f9c-a083-06352ec7e128",
+    "calendar": "holiday",
+    "time": "19:24",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "120",
+    "courseSid": "632acb21-8c13-4b69-a877-281a4f41002e",
+    "tripSid": "0e756c57-3005-4074-9e1b-f2686a21d96c",
+    "calendar": "holiday",
+    "time": "19:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "223",
+    "courseSid": "c0ea39ac-b9e4-4254-af0f-b0392e81ae4a",
+    "tripSid": "8bdd6aba-83ee-4ccb-895f-a177f7ad7d62",
+    "calendar": "weekday",
+    "time": "11:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "223",
+    "courseSid": "c0ea39ac-b9e4-4254-af0f-b0392e81ae4a",
+    "tripSid": "0869cacc-c5d8-4cfd-8941-e3fb35ed1a89",
+    "calendar": "weekday",
+    "time": "12:54",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "223",
+    "courseSid": "c0ea39ac-b9e4-4254-af0f-b0392e81ae4a",
+    "tripSid": "6da7acc4-0677-4ace-9940-c4095e81c964",
+    "calendar": "saturday",
+    "time": "09:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "223",
+    "courseSid": "c0ea39ac-b9e4-4254-af0f-b0392e81ae4a",
+    "tripSid": "dc36c0f0-15af-4581-8340-f831fb498152",
+    "calendar": "holiday",
+    "time": "09:40",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "26641ab9-534a-4821-9804-6d7c0214dc27",
+    "calendar": "weekday",
+    "time": "07:34",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "a7c2c661-4c3c-4b9a-8d2f-33097aac3ca8",
+    "calendar": "weekday",
+    "time": "08:36",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "ffc32d05-f659-48b8-b710-a8da41b684ac",
+    "calendar": "weekday",
+    "time": "09:32",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "0d66e3e5-5682-41a7-a36e-62a3df6ac62c",
+    "calendar": "weekday",
+    "time": "11:48",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "f764fff1-3172-4961-b475-b448fd3e763a",
+    "calendar": "weekday",
+    "time": "12:49",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "cbc97b3e-aa94-4d74-b7b2-bbee249e2bec",
+    "calendar": "weekday",
+    "time": "13:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "0c10af6f-b153-48dc-937b-97515b505470",
+    "calendar": "weekday",
+    "time": "14:09",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "58218601-d03a-4f4a-9704-1a65b6de9add",
+    "calendar": "weekday",
+    "time": "16:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "efee2865-3a04-45cd-a213-0d8e1ce056ef",
+    "calendar": "weekday",
+    "time": "17:29",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "cd10fc44-0b75-4ee6-bb90-57b212ca743e",
+    "calendar": "weekday",
+    "time": "18:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "8e239cd1-ae51-4ca4-a353-04adc5787cbe",
+    "calendar": "saturday",
+    "time": "07:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "b8b41547-4df2-4ad3-903b-6cdaf665f6a3",
+    "calendar": "saturday",
+    "time": "08:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "bd57a622-6fc1-4e64-b0c5-b15b08b8c022",
+    "calendar": "saturday",
+    "time": "09:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "5e51cf8f-6dfc-4778-9aef-cf36178e117d",
+    "calendar": "saturday",
+    "time": "11:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "84b84bef-39b0-4463-ab3a-7f139dd337a8",
+    "calendar": "saturday",
+    "time": "12:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "19ae6fa0-bd7f-4637-a193-74d7334acb17",
+    "calendar": "saturday",
+    "time": "15:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "401aae62-ea34-4194-9699-d40522462ddf",
+    "calendar": "saturday",
+    "time": "17:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "8211d5d4-724f-43dd-8053-f04b4b3086ab",
+    "calendar": "saturday",
+    "time": "18:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "c9537f10-0601-458f-b6ce-a3981534b9e1",
+    "calendar": "holiday",
+    "time": "07:26",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "8601d8a2-6d26-4e14-b64b-e464dd17168a",
+    "calendar": "holiday",
+    "time": "08:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "52ed4c69-0c0f-484e-978a-5b03c3e3911c",
+    "calendar": "holiday",
+    "time": "09:35",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "7e0d54c4-6f3c-4474-ba2a-195f6217b3c3",
+    "calendar": "holiday",
+    "time": "11:44",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "b0641b13-c9ae-4188-b280-15329da9e111",
+    "calendar": "holiday",
+    "time": "12:42",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "3265540b-20d3-45b7-a55b-136ced9467d6",
+    "calendar": "holiday",
+    "time": "15:13",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "15a6b03f-94ba-4c2f-8f02-ad1ab90f1aac",
+    "calendar": "holiday",
+    "time": "17:33",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "228",
+    "courseSid": "3ae43661-8a9d-4b87-b844-b64d23d08571",
+    "tripSid": "a258805b-b580-4f2a-908f-b46c1942c5f5",
+    "calendar": "holiday",
+    "time": "18:37",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "263",
+    "courseSid": "accb1306-2b57-4932-9dca-8013112887ba",
+    "tripSid": "fe7377c4-70b9-4781-9d66-047dad88576a",
+    "calendar": "weekday",
+    "time": "14:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "263",
+    "courseSid": "accb1306-2b57-4932-9dca-8013112887ba",
+    "tripSid": "47e49410-c25a-4d93-b471-21f98e6a2d1a",
+    "calendar": "weekday",
+    "time": "17:45",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "263",
+    "courseSid": "accb1306-2b57-4932-9dca-8013112887ba",
+    "tripSid": "97e09de9-e6c4-4cdb-83f9-cad6204d9a28",
+    "calendar": "saturday",
+    "time": "14:39",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "263",
+    "courseSid": "accb1306-2b57-4932-9dca-8013112887ba",
+    "tripSid": "1b93134e-9120-4a19-98e7-a0b27064e12f",
+    "calendar": "saturday",
+    "time": "17:03",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "263",
+    "courseSid": "accb1306-2b57-4932-9dca-8013112887ba",
+    "tripSid": "b6f1d72a-d3ee-419f-a40e-3b75152fb084",
+    "calendar": "holiday",
+    "time": "14:59",
+    "parentCompanyCode": "8000"
+  },
+  {
+    "stationSid": "5130100",
+    "stopName": "第一天久（国際通り・久茂地・おもろまち向け）",
+    "routeNo": "263",
+    "courseSid": "accb1306-2b57-4932-9dca-8013112887ba",
+    "tripSid": "ade0ce9c-bbd8-4287-9b94-c24009f2515a",
+    "calendar": "holiday",
+    "time": "17:13",
+    "parentCompanyCode": "8000"
+  }
+]
