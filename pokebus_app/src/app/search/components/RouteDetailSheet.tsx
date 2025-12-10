@@ -188,15 +188,27 @@ export default function RouteDetailSheet(props: Props) {
 
       {!isSheetMinimized && (() => {
         const bus = routeBuses.find(b => b.trip_id === selectedTripId);
-        const delay = tripDelays[selectedTripId || ''] ?? null;
+        const realtimeDelay = tripDelays[selectedTripId || ''];
+        const inferredDelay = typeof lastPassedStop?.delay === 'number' ? lastPassedStop.delay : null;
+        const effectiveDelay = typeof realtimeDelay === 'number' ? realtimeDelay : inferredDelay;
         const delayText =
-          delay === null
-            ? '遅れ情報はありません'
-            : delay === 0
-            ? '定刻で運行中'
-            : `${Math.abs(delay)}分${delay > 0 ? '遅れています' : '早く進んでいます'}`;
+          effectiveDelay === null || typeof effectiveDelay !== 'number'
+            ? '情報なし'
+            : effectiveDelay === 0
+            ? '定刻'
+            : `${Math.abs(effectiveDelay)}分${effectiveDelay > 0 ? '遅れ' : '早着'}`;
         const delayColor =
-          delay === null ? '#555' : delay > 0 ? '#c82333' : delay < 0 ? '#218838' : '#0d6efd';
+          effectiveDelay === null || typeof effectiveDelay !== 'number'
+            ? '#555'
+            : effectiveDelay > 0
+            ? '#c82333'
+            : effectiveDelay < 0
+            ? '#218838'
+            : '#0d6efd';
+        const delaySuffix =
+          effectiveDelay !== null && typeof effectiveDelay === 'number' && typeof realtimeDelay !== 'number'
+            ? '・推定'
+            : '';
         const lastPassedDelayText = lastPassedStop
           ? lastPassedStop.delay === 0
             ? '（定刻）'
@@ -204,38 +216,33 @@ export default function RouteDetailSheet(props: Props) {
           : '';
         return (
           <div>
-            <div style={{ marginBottom: '12px', padding: '12px', backgroundColor: '#f8f9fa', borderRadius: '12px', display: 'flex', flexDirection: 'column', gap: '6px' }}>
-              <div style={{ fontSize: '16px', fontWeight: 700, color: '#004085' }}>🚌 {bus?.route_short_name || bus?.route_long_name || bus?.route_id}</div>
-              <div style={{ fontSize: '14px', color: '#333' }}>出発 {bus?.departure || '未定'} ／ 到着 {bus?.arrival || '未定'}</div>
-              <div style={{ fontSize: '14px', fontWeight: 600, color: delayColor }}>遅れ: {delayText}</div>
-              {nextUpcomingStop ? (
-                <div style={{ fontSize: '15px', fontWeight: 600, color: '#212529' }}>
-                  次は {nextUpcomingStop.stop_name}
+            <div style={{ marginBottom: '12px', padding: '12px', backgroundColor: '#f8f9fa', borderRadius: '12px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                <span style={{ fontSize: '16px', fontWeight: 700, color: '#004085' }}>🚌 {bus?.route_short_name || bus?.route_long_name || bus?.route_id}</span>
+                <span style={{ fontSize: '13px', fontWeight: 600, color: delayColor }}>{delayText}{delaySuffix}</span>
+              </div>
+              <div style={{ fontSize: '14px', color: '#333' }}>{bus?.departure || '未定'} → {bus?.arrival || '未定'}</div>
+              {nextUpcomingStop && (
+                <div style={{ fontSize: '14px', color: '#212529', fontWeight: 600 }}>
+                  ➡ 次 {nextUpcomingStop.stop_name}
                   {distanceToNextStop !== null ? `（約${distanceToNextStop}m）` : ''}
                 </div>
-              ) : (
-                <div style={{ fontSize: '14px', color: '#555' }}>次に停まる停留所は未確認です。</div>
               )}
               {lastPassedStop && (
-                <div style={{ fontSize: '14px', color: '#555' }}>
-                  直前に通過: {lastPassedStop.stopName}{lastPassedDelayText}
-                  {lastPassedStop.username ? ` ／ 更新: ${lastPassedStop.username}さん` : ''}
-                </div>
-              )}
-              {busLocation && (
-                <div style={{ fontSize: '13px', color: '#666' }}>
-                  推定位置: 地図上のバスマーク付近（座標 {busLocation.lat().toFixed(4)}, {busLocation.lng().toFixed(4)}）
+                <div style={{ fontSize: '13px', color: '#555' }}>
+                  ✓ {lastPassedStop.stopName}{lastPassedDelayText}
+                  {lastPassedStop.username ? ` / ${lastPassedStop.username}` : ''}
                 </div>
               )}
             </div>
 
             {selectedTripId && ridersLocations.length > 0 && (
-              <div style={{ marginBottom: '12px', padding: '12px', backgroundColor: '#fff4e5', borderRadius: '12px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
-                <div style={{ fontSize: '15px', fontWeight: 600, color: '#8a4b16' }}>
-                  👥 一緒に乗っている人 {ridersLocations.length}人
-                </div>
-                <div style={{ fontSize: '14px', color: '#6c757d' }}>
-                  {isLocationSharing ? 'あなたの現在地も共有されています。降りたら「下車する」を押してください。' : '「バス停付近で乗車」を押すとあなたの現在地も共有されます。'}
+              <div style={{ marginBottom: '12px', padding: '12px', backgroundColor: '#fff4e5', borderRadius: '12px', display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '14px', fontWeight: 600, color: '#8a4b16' }}>
+                  <span>👥 共有中 {ridersLocations.length}人</span>
+                  <span style={{ fontSize: '12px', color: isLocationSharing ? '#d63384' : '#6c757d' }}>
+                    {isLocationSharing ? '🔴 あなた共有中' : '⚪ 確認のみ'}
+                  </span>
                 </div>
                 {process.env.NODE_ENV === 'development' && (
                   <button
@@ -257,11 +264,11 @@ export default function RouteDetailSheet(props: Props) {
                           key={`${rider.id}_${index}`}
                           onClick={canViewProfile && !isCurrentUser ? () => { router.push(`/profile?userId=${rider.userId}&username=${encodeURIComponent(rider.username)}`); } : undefined}
                           style={{
-                            fontSize: '13px',
+                            fontSize: '12px',
                             backgroundColor: isCurrentUser ? '#007bff' : '#d4edda',
                             color: isCurrentUser ? 'white' : '#155724',
                             borderRadius: '999px',
-                            padding: '6px 10px',
+                            padding: '4px 10px',
                             cursor: canViewProfile && !isCurrentUser ? 'pointer' : 'default',
                             textDecoration: canViewProfile && !isCurrentUser ? 'underline' : 'none'
                           }}
