@@ -1552,6 +1552,14 @@ export default function BusSearch() {
           if (!initialValidation.valid) {
             alert(`乗車位置が不適切です: ${initialValidation.reason}\n\nバス停付近で再度お試しください。`);
             setIsLocationSharing(false);
+            if (unsubscribeRiderListener.current) {
+              unsubscribeRiderListener.current();
+              unsubscribeRiderListener.current = null;
+            }
+            if (unsubscribeStopPassageListener.current) {
+              unsubscribeStopPassageListener.current();
+              unsubscribeStopPassageListener.current = null;
+            }
             resolveOnce(false);
             return;
           }
@@ -2242,6 +2250,11 @@ export default function BusSearch() {
     if (!d) return true; // 時刻が存在しない場合は表示を継続
     const cutoff = Date.now() - hours * 3600 * 1000;
     return d.getTime() >= cutoff;
+  };
+
+  const isDepartureExpired = (timeStr?: string, hours = 2) => {
+    if (!timeStr) return false;
+    return !isWithinPastHours(timeStr, hours);
   };
 
   // 残りの停留所の到着予定時刻を更新
@@ -3006,10 +3019,41 @@ export default function BusSearch() {
         return a.departure.localeCompare(b.departure);
       });
 
-      // 出発時刻が現在時刻から見て過去2時間より古いものは表示しない
+      let passedTripIds = new Set<string>();
+      if (canonicalStart?.stop_id && canonicalStart.stop_id !== 'current_location') {
+        try {
+          const passageResults = await Promise.all(
+            matchingTrips.map(async (trip) => {
+              try {
+                const passageQuery = query(
+                  collection(db, 'busStopPassages'),
+                  where('tripId', '==', trip.tripId),
+                  where('stopId', '==', canonicalStart.stop_id),
+                  limit(1)
+                );
+                const snapshot = await getDocs(passageQuery);
+                if (!snapshot.empty) {
+                  return trip.tripId;
+                }
+              } catch (passageError) {
+                console.warn('Failed to check passage info for trip', trip.tripId, passageError);
+              }
+              return null;
+            })
+          );
+
+          passedTripIds = new Set(passageResults.filter((id): id is string => Boolean(id)));
+        } catch (passageLookupError) {
+          console.warn('Failed to resolve passage lookups', passageLookupError);
+        }
+      }
+
+      // ユーザー報告で通過済みの便と、出発予定時刻から2時間以上経過した便は非表示にする
       const filteredBuses = buses.filter(b => {
         if (!b.departure) return true;
-        return isWithinPastHours(b.departure, 2);
+        if (passedTripIds.has(b.trip_id)) return false;
+        if (isDepartureExpired(b.departure, 2)) return false;
+        return true;
       });
 
       // キャッシュとしてこの時点で tripStops を保存しておく（便選択時に再利用）
