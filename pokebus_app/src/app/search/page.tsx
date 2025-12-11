@@ -67,6 +67,7 @@ export default function BusSearch() {
   const [selectedTripId, setSelectedTripId] = useState<string | null>(null);
   const [ridingTripId, setRidingTripId] = useState<string | null>(null);
   const [tripDelays, setTripDelays] = useState<Record<string, number | null>>({});
+  const [isSearchCollapsed, setIsSearchCollapsed] = useState(false);
   
   // リアルタイムバス追跡用のステート
   const [busLocation, setBusLocation] = useState<google.maps.LatLng | null>(null);
@@ -211,6 +212,12 @@ export default function BusSearch() {
       // noop
     }
   }, []);
+
+  useEffect(() => {
+    if (!selectedTripId && isSearchCollapsed) {
+      setIsSearchCollapsed(false);
+    }
+  }, [selectedTripId, isSearchCollapsed]);
 
   // ユーザー名取得関数
   const getUserDisplayName = (user: any) => {
@@ -860,6 +867,8 @@ export default function BusSearch() {
       // 位置情報共有用：バス路線全体をグローバル変数に保存
       (window as any).fullRouteStops = fullRouteStops;
       setSelectedTripId(tripId);
+      setIsSearchCollapsed(true);
+      setMenuOpen(false);
       setIsSheetMinimized(false);
       setSheetTranslateY(0);
 
@@ -1029,6 +1038,14 @@ export default function BusSearch() {
   const [loadingRoute, setLoadingRoute] = useState(false);
   const [showStopCandidates, setShowStopCandidates] = useState(false);
   const [showBusRoutes, setShowBusRoutes] = useState(false);
+
+  useEffect(() => {
+    if (!isSearchCollapsed) return;
+    setShowStopCandidates(false);
+    setShowBusRoutes(false);
+    setShowPredictions(false);
+    setShowStartPredictions(false);
+  }, [isSearchCollapsed]);
 
   function getDistance(lat1: number, lon1: number, lat2: number, lon2: number) {
     const R = 6371000;
@@ -3248,39 +3265,43 @@ export default function BusSearch() {
           onGoProfile={() => router.push('/profile')}
         />
 
-        {/* SearchBar */}
-        {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
-        {/* @ts-ignore */}
-        <SearchBar
-          startSearchQuery={startSearchQuery}
-          searchQuery={searchQuery}
-          handleStartSearchChange={handleStartSearchChange}
-          handleSearchChange={handleSearchChange}
-          handleUseCurrentLocation={handleUseCurrentLocation}
-          handleSearch={handleSearch}
-          clearRoute={clearRoute}
-          showStartPredictions={showStartPredictions}
-          startPredictions={startPredictions}
-          showPredictions={showPredictions}
-          predictions={predictions}
-          handleStartPredictionClick={handleStartPredictionClick}
-          handlePredictionClick={handlePredictionClick}
-          setShowStartPredictions={setShowStartPredictions}
-          setShowPredictions={setShowPredictions}
-        />
+        {!isSearchCollapsed && (
+          <>
+            {/* SearchBar */}
+            {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+            {/* @ts-ignore */}
+            <SearchBar
+              startSearchQuery={startSearchQuery}
+              searchQuery={searchQuery}
+              handleStartSearchChange={handleStartSearchChange}
+              handleSearchChange={handleSearchChange}
+              handleUseCurrentLocation={handleUseCurrentLocation}
+              handleSearch={handleSearch}
+              clearRoute={clearRoute}
+              showStartPredictions={showStartPredictions}
+              startPredictions={startPredictions}
+              showPredictions={showPredictions}
+              predictions={predictions}
+              handleStartPredictionClick={handleStartPredictionClick}
+              handlePredictionClick={handlePredictionClick}
+              setShowStartPredictions={setShowStartPredictions}
+              setShowPredictions={setShowPredictions}
+            />
 
-        {/* 出発地点候補選択モーダル（コンポーネント化） */}
-        {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
-        {/* @ts-ignore */}
-        <StopCandidatesModal
-          visible={showStopCandidates}
-          setVisible={setShowStopCandidates}
-          loadingStops={loadingStops}
-          stopsError={stopsError}
-          nearbyStops={nearbyStops}
-          selectedDest={selectedDest}
-          handleSelectStartStop={handleSelectStartStop}
-        />
+            {/* 出発地点候補選択モーダル（コンポーネント化） */}
+            {/* eslint-disable-next-line @typescript-eslint/ban-ts-comment */}
+            {/* @ts-ignore */}
+            <StopCandidatesModal
+              visible={showStopCandidates}
+              setVisible={setShowStopCandidates}
+              loadingStops={loadingStops}
+              stopsError={stopsError}
+              nearbyStops={nearbyStops}
+              selectedDest={selectedDest}
+              handleSelectStartStop={handleSelectStartStop}
+            />
+          </>
+        )}
 
         {/* バス便選択モーダル（コンポーネント化） */}
         <BusRoutesModal
@@ -3328,6 +3349,7 @@ export default function BusSearch() {
           routeMarkersRef={routeMarkersRef}
           routePolylineRef={routePolylineRef}
           getDistance={getDistance}
+          setIsSearchCollapsed={setIsSearchCollapsed}
         />
 
         {/* Googleマップ */}

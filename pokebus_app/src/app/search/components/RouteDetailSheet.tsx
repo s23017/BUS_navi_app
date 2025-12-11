@@ -36,6 +36,7 @@ type Props = {
   routeMarkersRef: React.MutableRefObject<any[]>;
   routePolylineRef: React.MutableRefObject<any>;
   getDistance: (a: number, b: number, c: number, d: number) => number;
+  setIsSearchCollapsed: (collapsed: boolean) => void;
 };
 
 export default function RouteDetailSheet(props: Props) {
@@ -72,9 +73,28 @@ export default function RouteDetailSheet(props: Props) {
     routeMarkersRef,
     routePolylineRef,
     getDistance,
+    setIsSearchCollapsed,
   } = props;
 
   if (!selectedTripId || routeStops.length === 0) return null;
+
+  const uniqueRouteStops = routeStops.filter((rs, index, array) => index === array.findIndex(stop => stop.stop_id === rs.stop_id));
+  const passedStopIds = new Set(busPassedStops.map(passed => passed.stopId));
+  const nextUpcomingStopIndex = uniqueRouteStops.findIndex(rs => !passedStopIds.has(rs.stop_id) && !rs.isBeforeStart);
+  const nextUpcomingStop = nextUpcomingStopIndex >= 0 ? uniqueRouteStops[nextUpcomingStopIndex] : null;
+  const lastPassedStop = busPassedStops.length > 0 ? busPassedStops[busPassedStops.length - 1] : null;
+  const distanceToNextStop = (() => {
+    if (!nextUpcomingStop || !currentLocationRef.current || !nextUpcomingStop.stop_lat || !nextUpcomingStop.stop_lon) {
+      return null;
+    }
+    try {
+      const currentLat = currentLocationRef.current.lat();
+      const currentLng = currentLocationRef.current.lng();
+      return Math.round(getDistance(currentLat, currentLng, parseFloat(nextUpcomingStop.stop_lat), parseFloat(nextUpcomingStop.stop_lon)));
+    } catch (error) {
+      return null;
+    }
+  })();
 
   return (
     <div
@@ -151,6 +171,13 @@ export default function RouteDetailSheet(props: Props) {
         <div style={{ display: 'flex', gap: '8px' }}>
           <button
             className={styles.smallButton}
+            onClick={() => setIsSearchCollapsed(false)}
+            style={{ fontSize: '12px', padding: '4px 8px' }}
+          >
+            再検索
+          </button>
+          <button
+            className={styles.smallButton}
             onClick={() => setIsSheetMinimized(!isSheetMinimized)}
             style={{ fontSize: '12px', padding: '4px 8px' }}
           >
@@ -161,97 +188,101 @@ export default function RouteDetailSheet(props: Props) {
 
       {!isSheetMinimized && (() => {
         const bus = routeBuses.find(b => b.trip_id === selectedTripId);
-        const delay = tripDelays[selectedTripId || ''] ?? null;
+        const realtimeDelay = tripDelays[selectedTripId || ''];
+        const inferredDelay = typeof lastPassedStop?.delay === 'number' ? lastPassedStop.delay : null;
+        const effectiveDelay = typeof realtimeDelay === 'number' ? realtimeDelay : inferredDelay;
+        const delayText =
+          effectiveDelay === null || typeof effectiveDelay !== 'number'
+            ? '情報なし'
+            : effectiveDelay === 0
+            ? '定刻'
+            : `${Math.abs(effectiveDelay)}分${effectiveDelay > 0 ? '遅れ' : '早着'}`;
+        const delayColor =
+          effectiveDelay === null || typeof effectiveDelay !== 'number'
+            ? '#555'
+            : effectiveDelay > 0
+            ? '#c82333'
+            : effectiveDelay < 0
+            ? '#218838'
+            : '#0d6efd';
+        const delaySuffix =
+          effectiveDelay !== null && typeof effectiveDelay === 'number' && typeof realtimeDelay !== 'number'
+            ? '・推定'
+            : '';
+        const lastPassedDelayText = lastPassedStop
+          ? lastPassedStop.delay === 0
+            ? '（定刻）'
+            : `（${Math.abs(lastPassedStop.delay)}分${lastPassedStop.delay > 0 ? '遅れ' : '早着'}）`
+          : '';
         return (
           <div>
-            <div style={{ marginBottom: '8px' }}>
-              <div style={{ fontSize: '14px', color: '#007bff', fontWeight: 700 }}>🚌 {bus?.route_short_name || bus?.route_long_name || bus?.route_id}</div>
-              <div style={{ fontSize: '12px', color: '#666' }}>出発: {bus?.departure || '不明'} • 到着: {bus?.arrival || '不明'}</div>
-            </div>
-            <div style={{ marginBottom: '8px' }}>
-              <div style={{ fontSize: '12px', color: '#666' }}>遅延情報</div>
-              <div style={{ fontWeight: 600 }}>{delay === null ? '遅延情報なし' : `${delay} 分遅延`}</div>
+            <div style={{ marginBottom: '12px', padding: '12px', backgroundColor: '#f8f9fa', borderRadius: '12px', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+              <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
+                <span style={{ fontSize: '16px', fontWeight: 700, color: '#004085' }}>🚌 {bus?.route_short_name || bus?.route_long_name || bus?.route_id}</span>
+                <span style={{ fontSize: '13px', fontWeight: 600, color: delayColor }}>{delayText}{delaySuffix}</span>
+              </div>
+              <div style={{ fontSize: '14px', color: '#333' }}>{bus?.departure || '未定'} → {bus?.arrival || '未定'}</div>
+              {nextUpcomingStop && (
+                <div style={{ fontSize: '14px', color: '#212529', fontWeight: 600 }}>
+                  ➡ 次 {nextUpcomingStop.stop_name}
+                  {distanceToNextStop !== null ? `（約${distanceToNextStop}m）` : ''}
+                </div>
+              )}
+              {lastPassedStop && (
+                <div style={{ fontSize: '13px', color: '#555' }}>
+                  ✓ {lastPassedStop.stopName}{lastPassedDelayText}
+                  {lastPassedStop.username ? ` / ${lastPassedStop.username}` : ''}
+                </div>
+              )}
             </div>
 
             {selectedTripId && ridersLocations.length > 0 && (
-              <div style={{ marginBottom: '8px', padding: '8px', backgroundColor: isLocationSharing ? '#e8f5e8' : '#f0f8ff', borderRadius: '6px' }}>
-                <div style={{ fontSize: '12px', color: isLocationSharing ? '#28a745' : '#0066cc', fontWeight: 600, marginBottom: '4px' }}>
-                  {isLocationSharing ? '🔴 リアルタイム追跡中' : '👀 他のライダー情報'} ({ridersLocations.length}人が乗車中)
+              <div style={{ marginBottom: '12px', padding: '12px', backgroundColor: '#fff4e5', borderRadius: '12px', display: 'flex', flexDirection: 'column', gap: '6px' }}>
+                <div style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', fontSize: '14px', fontWeight: 600, color: '#8a4b16' }}>
+                  <span>👥 共有中 {ridersLocations.length}人</span>
+                  <span style={{ fontSize: '12px', color: isLocationSharing ? '#d63384' : '#6c757d' }}>
+                    {isLocationSharing ? '🔴 あなた共有中' : '⚪ 確認のみ'}
+                  </span>
                 </div>
-                <div style={{ fontSize: '11px', color: '#666', marginBottom: '4px' }}>
-                  {isLocationSharing
-                    ? '🚌 同じバスを選択したユーザー同士で位置情報を常時共有中（バス停通過時に通知）'
-                    : '同じバスの他のライダーの位置情報を見ています'}
-                  <br />
-                  {isLocationSharing
-                    ? '📍 位置情報を常時共有中（バス停通過時に自動通知）'
-                    : '💡 「乗車中」ボタンを押すとあなたの位置も共有されます'}
-                </div>
-
-                {ridersLocations.length > 0 && (
-                  <div style={{ marginBottom: '4px' }}>
-                    <div style={{ fontSize: '10px', color: '#666', marginBottom: '2px', display: 'flex', justifyContent: 'space-between', alignItems: 'center' }}>
-                      <span>{isLocationSharing ? `🚌 乗車中ライダー (${ridersLocations.length}名):` : `👥 位置情報共有中 (${ridersLocations.length}名):`}</span>
-                      {process.env.NODE_ENV === 'development' && (
-                        <button
-                          onClick={() => { updateOtherRidersMarkers(); }}
-                          style={{ fontSize: '8px', padding: '2px 4px', backgroundColor: '#f0f0f0', border: '1px solid #ccc', borderRadius: '3px', cursor: 'pointer' }}
-                          title="開発用: マーカーを手動更新"
-                        >
-                          🔄
-                        </button>
-                      )}
-                    </div>
-                    <div style={{ display: 'flex', flexWrap: 'wrap', gap: '4px' }}>
-                      {ridersLocations.length === 0 ? (
-                        <span style={{ fontSize: '9px', color: '#999', fontStyle: 'italic' }}>現在乗車中のライダーはいません</span>
-                      ) : (
-                        ridersLocations
-                          .filter((rider, index, self) => index === self.findIndex(r => r.id === rider.id))
-                          .map((rider, index) => {
-                            const isCurrentUser = rider.id === currentUser?.uid;
-                            const canViewProfile = rider.userId && rider.userId !== 'anonymous';
-                            return (
-                              <span
-                                key={`${rider.id}_${index}`}
-                                onClick={canViewProfile && !isCurrentUser ? () => { router.push(`/profile?userId=${rider.userId}&username=${encodeURIComponent(rider.username)}`); } : undefined}
-                                style={{ fontSize: '9px', backgroundColor: isCurrentUser ? '#007BFF' : '#d4edda', color: isCurrentUser ? 'white' : '#155724', border: isCurrentUser ? '1px solid #0056b3' : '1px solid #c3e6cb', borderRadius: '4px', padding: '1px 4px', cursor: canViewProfile && !isCurrentUser ? 'pointer' : 'default', textDecoration: canViewProfile && !isCurrentUser ? 'underline' : 'none', transition: 'all 0.2s ease' }}
-                                title={canViewProfile && !isCurrentUser ? `${rider.username}のプロフィールを表示` : isCurrentUser ? 'あなた' : undefined}
-                              >
-                                {isCurrentUser ? '👤' : '🚌'} {rider.username}
-                              </span>
-                            );
-                          })
-                      )}
-                    </div>
-                  </div>
+                {process.env.NODE_ENV === 'development' && (
+                  <button
+                    onClick={() => { updateOtherRidersMarkers(); }}
+                    style={{ alignSelf: 'flex-start', fontSize: '12px', padding: '4px 8px', borderRadius: '6px', backgroundColor: '#f1f3f5', border: '1px solid #ced4da', cursor: 'pointer' }}
+                    title="開発用: マーカーを手動更新"
+                  >
+                    共有情報を再読込
+                  </button>
                 )}
-
-                {busLocation && (
-                  <div style={{ fontSize: '11px', color: '#666' }}>バス推定位置: {busLocation.lat().toFixed(5)}, {busLocation.lng().toFixed(5)}</div>
-                )}
-                {busPassedStops.length > 0 && (
-                  <div style={{ fontSize: '11px', color: '#666' }}>
-                    直近通過: {busPassedStops[busPassedStops.length - 1].stopName}
-                    ({busPassedStops[busPassedStops.length - 1].delay > 0 ? `${busPassedStops[busPassedStops.length - 1].delay}分遅れ` : busPassedStops[busPassedStops.length - 1].delay < 0 ? `${-busPassedStops[busPassedStops.length - 1].delay}分早く` : '定刻'})
-                    {busPassedStops[busPassedStops.length - 1].username && (
-                      <span style={{ color: '#28a745', fontWeight: '500' }}> {' '}by{' '}
+                <div style={{ display: 'flex', flexWrap: 'wrap', gap: '6px' }}>
+                  {ridersLocations
+                    .filter((rider, index, self) => index === self.findIndex(r => r.id === rider.id))
+                    .map((rider, index) => {
+                      const isCurrentUser = rider.id === currentUser?.uid;
+                      const canViewProfile = rider.userId && rider.userId !== 'anonymous';
+                      return (
                         <span
-                          onClick={busPassedStops[busPassedStops.length - 1].userId && busPassedStops[busPassedStops.length - 1].userId !== 'anonymous' && busPassedStops[busPassedStops.length - 1].userId !== currentUser?.uid ? () => { const lastPassage = busPassedStops[busPassedStops.length - 1]; router.push(`/profile?userId=${lastPassage.userId}&username=${encodeURIComponent(lastPassage.username || '')}`); } : undefined}
-                          style={{ cursor: busPassedStops[busPassedStops.length - 1].userId && busPassedStops[busPassedStops.length - 1].userId !== 'anonymous' && busPassedStops[busPassedStops.length - 1].userId !== currentUser?.uid ? 'pointer' : 'default', textDecoration: busPassedStops[busPassedStops.length - 1].userId && busPassedStops[busPassedStops.length - 1].userId !== 'anonymous' && busPassedStops[busPassedStops.length - 1].userId !== currentUser?.uid ? 'underline' : 'none', color: '#28a745' }}
-                          title={busPassedStops[busPassedStops.length - 1].userId && busPassedStops[busPassedStops.length - 1].userId !== 'anonymous' && busPassedStops[busPassedStops.length - 1].userId !== currentUser?.uid ? `${busPassedStops[busPassedStops.length - 1].username}のプロフィールを表示` : undefined}
+                          key={`${rider.id}_${index}`}
+                          onClick={canViewProfile && !isCurrentUser ? () => { router.push(`/profile?userId=${rider.userId}&username=${encodeURIComponent(rider.username)}`); } : undefined}
+                          style={{
+                            fontSize: '12px',
+                            backgroundColor: isCurrentUser ? '#007bff' : '#d4edda',
+                            color: isCurrentUser ? 'white' : '#155724',
+                            borderRadius: '999px',
+                            padding: '4px 10px',
+                            cursor: canViewProfile && !isCurrentUser ? 'pointer' : 'default',
+                            textDecoration: canViewProfile && !isCurrentUser ? 'underline' : 'none'
+                          }}
+                          title={canViewProfile && !isCurrentUser ? `${rider.username}さんのプロフィールを見る` : isCurrentUser ? 'あなた' : undefined}
                         >
-                          {busPassedStops[busPassedStops.length - 1].username}
+                          {isCurrentUser ? 'あなた' : rider.username}
                         </span>
-                      </span>
-                    )}
-                  </div>
-                )}
-                <div style={{ fontSize: '10px', color: '#999', marginTop: '4px', fontStyle: 'italic' }}>✅ Firebase連携済み - リアルタイム共有が有効です</div>
+                      );
+                    })}
+                </div>
               </div>
             )}
 
-            <div style={{ display: 'flex', gap: '8px', marginBottom: '8px' }}>
+            <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginBottom: '12px' }}>
               <button
                 className={styles.selectButton}
                 onClick={() => {
@@ -266,66 +297,88 @@ export default function RouteDetailSheet(props: Props) {
                     }
                   }
                 }}
-                style={{ backgroundColor: ridingTripId === selectedTripId ? '#dc3545' : '#28a745', color: 'white' }}
+                style={{
+                  backgroundColor: ridingTripId === selectedTripId ? '#dc3545' : '#28a745',
+                  color: 'white',
+                  padding: '12px 16px',
+                  fontSize: '15px',
+                  borderRadius: '10px'
+                }}
               >
                 {ridingTripId === selectedTripId ? '下車する' : 'バス停付近で乗車'}
               </button>
-              <button className={styles.smallButton} onClick={() => { mapInstance.current && routeStops.length > 0 && mapInstance.current.fitBounds((() => { const b = new window.google.maps.LatLngBounds(); if (currentLocationRef.current) b.extend(currentLocationRef.current); routeStops.forEach((rs)=>{ if (rs.stop_lat && rs.stop_lon) b.extend(new window.google.maps.LatLng(parseFloat(rs.stop_lat), parseFloat(rs.stop_lon))); }); return b; })()); }}>表示範囲</button>
+              <button
+                className={styles.smallButton}
+                onClick={() => {
+                  if (!mapInstance.current || uniqueRouteStops.length === 0) return;
+                  const bounds = new window.google.maps.LatLngBounds();
+                  if (currentLocationRef.current) {
+                    bounds.extend(currentLocationRef.current);
+                  }
+                  uniqueRouteStops.forEach(stop => {
+                    if (stop.stop_lat && stop.stop_lon) {
+                      bounds.extend(new window.google.maps.LatLng(parseFloat(stop.stop_lat), parseFloat(stop.stop_lon)));
+                    }
+                  });
+                  mapInstance.current.fitBounds(bounds);
+                }}
+                style={{ padding: '12px 16px', fontSize: '14px', borderRadius: '10px' }}
+              >
+                地図を合わせる
+              </button>
             </div>
 
-            <div style={{ fontSize: '13px', fontWeight: 600, marginBottom: '6px' }}>停車順</div>
-            <div style={{ maxHeight: '28vh', overflowY: 'auto' }}>
-              {routeStops
-                .filter((rs, index, array) => index === array.findIndex(stop => stop.stop_id === rs.stop_id))
-                .map((rs, idx) => {
-                  let isNearest = false;
-                  let nearestDistance = Infinity;
-                  try {
-                    if (currentLocationRef.current && rs.stop_lat && rs.stop_lon) {
-                      const curLat = (currentLocationRef.current as any).lat();
-                      const curLon = (currentLocationRef.current as any).lng();
-                      const d = getDistance(curLat, curLon, parseFloat(rs.stop_lat), parseFloat(rs.stop_lon));
-                      nearestDistance = d;
-                      isNearest = d < 150;
-                      if (d < 250) {
-                        // debug
-                      }
-                    }
-                  } catch (e) {
-                    isNearest = false;
-                  }
+            <div style={{ fontSize: '15px', fontWeight: 700, marginBottom: '6px' }}>停車順</div>
+            <div style={{ maxHeight: '30vh', overflowY: 'auto', display: 'flex', flexDirection: 'column', gap: '8px' }}>
+              {uniqueRouteStops.map((rs, idx) => {
+                const passedInfo = busPassedStops.find(passed => passed.stopId === rs.stop_id);
+                const estimatedTime = estimatedArrivalTimes[rs.stop_id];
+                let timeDisplay = passedInfo
+                  ? `通過 ${passedInfo.passTime.toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' })}`
+                  : `予定 ${estimatedTime || rs.arrival_time || rs.departure_time || '時刻未設定'}`;
+                if (passedInfo && passedInfo.delay !== 0) {
+                  timeDisplay += `（${passedInfo.delay > 0 ? '+' : ''}${passedInfo.delay}分）`;
+                }
+                let statusLabel = 'これから';
+                let statusColor = '#0d6efd';
+                let backgroundColor = '#ffffff';
+                let borderColor = '#e0e0e0';
+                if (passedInfo) {
+                  statusLabel = passedInfo.inferred ? '通過（目安）' : '通過済み';
+                  statusColor = '#6c757d';
+                  backgroundColor = '#f1f3f5';
+                  borderColor = '#ced4da';
+                } else if (rs.isBeforeStart) {
+                  statusLabel = '運行前';
+                  statusColor = '#6c757d';
+                } else if (nextUpcomingStop && rs.stop_id === nextUpcomingStop.stop_id) {
+                  statusLabel = '次に停車';
+                  statusColor = '#d35400';
+                  backgroundColor = '#fff4d6';
+                  borderColor = '#ffc107';
+                }
 
-                  const passedInfo = busPassedStops.find(passed => passed.stopId === rs.stop_id);
-                  const estimatedTime = estimatedArrivalTimes[rs.stop_id];
-                  const isBeforeStart = rs.isBeforeStart;
-
-                  return (
-                    <div key={`route_stop_${rs.stop_id}_${idx}`} style={{ display: 'flex', justifyContent: 'space-between', alignItems: 'center', padding: '6px 8px', background: passedInfo ? (passedInfo.inferred ? '#fff4e6' : '#ffe6e6') : isNearest ? '#e6f7ff' : isBeforeStart ? '#f5f5f5' : 'transparent', borderRadius: '6px', marginBottom: '6px', borderLeft: passedInfo ? (passedInfo.inferred ? '3px solid #ff9900' : '3px solid #ff4444') : isNearest ? '3px solid #007bff' : isBeforeStart ? '3px solid #ccc' : 'none', opacity: isBeforeStart ? 0.7 : 1 }}>
-                      <div>
-                        <div style={{ fontWeight: 600, fontSize: '13px' }}>{passedInfo && (passedInfo.inferred ? '〜 ' : '✓ ')}{isBeforeStart && '← '}{rs.stop_name}</div>
-                        <div style={{ fontSize: '11px', color: '#666' }}>
-                          {passedInfo ? (
-                            <span>
-                              {passedInfo.inferred ? '推定通過' : '通過'}: {passedInfo.passTime.toLocaleTimeString('ja-JP', { hour: '2-digit', minute: '2-digit' })} ({passedInfo.delay > 0 ? `+${passedInfo.delay}分` : passedInfo.delay < 0 ? `${passedInfo.delay}分` : '定刻'})
-                              {passedInfo.username && (
-                                <span style={{ color: '#28a745', fontWeight: '500' }}> {' '}by{' '}
-                                  <span onClick={passedInfo.userId && passedInfo.userId !== 'anonymous' && passedInfo.userId !== currentUser?.uid ? () => { router.push(`/profile?userId=${passedInfo.userId}&username=${encodeURIComponent(passedInfo.username || '')}`); } : undefined} style={{ cursor: passedInfo.userId && passedInfo.userId !== 'anonymous' && passedInfo.userId !== currentUser?.uid ? 'pointer' : 'default', textDecoration: passedInfo.userId && passedInfo.userId !== 'anonymous' && passedInfo.userId !== currentUser?.uid ? 'underline' : 'none', color: '#28a745' }} title={passedInfo.userId && passedInfo.userId !== 'anonymous' && passedInfo.userId !== currentUser?.uid ? `${passedInfo.username}のプロフィールを表示` : undefined}>{passedInfo.username}</span>
-                                </span>
-                              )}
-                            </span>
-                          ) : estimatedTime ? (
-                            `予測: ${estimatedTime} (元: ${rs.arrival_time || rs.departure_time || ''})`
-                          ) : (
-                            rs.arrival_time || rs.departure_time || ''
-                          )}
-                        </div>
-                      </div>
-                      <div style={{ fontSize: '12px', color: passedInfo ? (passedInfo.inferred ? '#ff9900' : '#ff4444') : isNearest ? '#007bff' : isBeforeStart ? '#999' : '#666', fontWeight: passedInfo ? 600 : 'normal' }}>
-                        {passedInfo ? (passedInfo.inferred ? '推定通過済み' : '通過済み') : isNearest ? '現在地近く' : isBeforeStart ? '出発前' : `${idx+1}`}
-                      </div>
+                return (
+                  <div
+                    key={`route_stop_${rs.stop_id}_${idx}`}
+                    style={{
+                      border: `1px solid ${borderColor}`,
+                      borderRadius: '10px',
+                      padding: '10px 12px',
+                      display: 'flex',
+                      justifyContent: 'space-between',
+                      alignItems: 'center',
+                      backgroundColor
+                    }}
+                  >
+                    <div>
+                      <div style={{ fontSize: '15px', fontWeight: 600, color: '#212529' }}>{rs.stop_name}</div>
+                      <div style={{ fontSize: '13px', color: '#555' }}>{timeDisplay}</div>
                     </div>
-                  );
-                })}
+                    <div style={{ fontSize: '12px', fontWeight: 600, color: statusColor }}>{statusLabel}</div>
+                  </div>
+                );
+              })}
             </div>
           </div>
         );
@@ -339,7 +392,19 @@ export default function RouteDetailSheet(props: Props) {
               <div style={{ fontSize: '14px', color: '#007bff', fontWeight: 700 }}>🚌 {bus?.route_short_name || bus?.route_long_name || bus?.route_id}</div>
               <div style={{ fontSize: '12px', color: '#666' }}>出発: {bus?.departure || '不明'} • 到着: {bus?.arrival || '不明'}</div>
             </div>
-            <div style={{ fontSize: '12px', color: '#666' }}>タップして詳細を表示 ▲</div>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '8px' }}>
+              <button
+                className={styles.smallButton}
+                onClick={(e) => {
+                  e.stopPropagation();
+                  setIsSearchCollapsed(false);
+                }}
+                style={{ fontSize: '11px', padding: '4px 8px' }}
+              >
+                再検索
+              </button>
+              <div style={{ fontSize: '12px', color: '#666' }}>タップで詳細 ▲</div>
+            </div>
           </div>
         );
       })()}
