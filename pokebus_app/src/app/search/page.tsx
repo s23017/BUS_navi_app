@@ -60,7 +60,7 @@ export default function BusSearch() {
   const routeMarkersByStopIdRef = useRef<Map<string, google.maps.Marker>>(new Map());
   const otherRidersMarkersRef = useRef<google.maps.Marker[]>([]); // 他のライダーのマーカー管理用
   const ridersMarkersMapRef = useRef<Map<string, google.maps.Marker>>(new Map()); // ライダーID → マーカーのマップ
-  const routePolylineRef = useRef<google.maps.Polyline | null>(null);
+  const routePolylineRef = useRef<google.maps.Polyline[]>([]);
   const tripStopsRef = useRef<Record<string, any[]> | null>(null);
   const masterStopsRef = useRef<any[] | null>(null);
   const masterStopMapRef = useRef<Map<string, any>>(new Map());
@@ -210,6 +210,12 @@ export default function BusSearch() {
       scaledSize: new window.google.maps.Size(meta.size.width, meta.size.height),
       anchor: new window.google.maps.Point(meta.anchor.x, meta.anchor.y),
     };
+  };
+
+  const clearRoutePolylines = () => {
+    if (routePolylineRef.current.length === 0) return;
+    routePolylineRef.current.forEach(poly => poly.setMap(null));
+    routePolylineRef.current = [];
   };
 
   // Google Maps APIが読み込まれた後にマップを初期化
@@ -924,12 +930,11 @@ export default function BusSearch() {
         routeMarkersRef.current.forEach(m => m.setMap(null));
         routeMarkersRef.current = [];
         routeMarkersByStopIdRef.current.clear();
-        if (routePolylineRef.current) {
-          routePolylineRef.current.setMap(null);
-          routePolylineRef.current = null;
-        }
+        clearRoutePolylines();
 
         const path: google.maps.LatLngLiteral[] = [];
+        const pathBefore: google.maps.LatLngLiteral[] = [];
+        const pathAfter: google.maps.LatLngLiteral[] = [];
 
         // 21番バス特別処理
         const isRoute21 = tripId.includes('naha_trip_') && routeStopsFull.some(rs => 
@@ -941,12 +946,13 @@ export default function BusSearch() {
         }
 
         const firstActiveStopIndex = routeStopsFull.findIndex(stop => !stop.isBeforeStart);
+        const rideIndex = firstActiveStopIndex === -1 ? null : firstActiveStopIndex;
         const lastStopIndex = routeStopsFull.length - 1;
 
         routeStopsFull.forEach((rs, index) => {
           const lat = parseFloat(rs.stop_lat);
           const lon = parseFloat(rs.stop_lon);
-          const isStartStop = index === firstActiveStopIndex && firstActiveStopIndex !== -1;
+          const isStartStop = rideIndex !== null && index === rideIndex;
           const isDestinationStop = index === lastStopIndex;
           
           if (isNaN(lat) || isNaN(lon)) {
@@ -960,6 +966,12 @@ export default function BusSearch() {
 
               const fallbackPos = { lat: fallbackLat, lng: fallbackLon };
               path.push(fallbackPos);
+              if (rideIndex !== null && index <= rideIndex) {
+                pathBefore.push(fallbackPos);
+              }
+              if (rideIndex === null || index >= rideIndex) {
+                pathAfter.push(fallbackPos);
+              }
               
               const marker = new window.google.maps.Marker({ 
                 position: fallbackPos, 
@@ -984,6 +996,12 @@ export default function BusSearch() {
           
           const pos = { lat, lng: lon };
           path.push(pos);
+          if (rideIndex !== null && index <= rideIndex) {
+            pathBefore.push(pos);
+          }
+          if (rideIndex === null || index >= rideIndex) {
+            pathAfter.push(pos);
+          }
           
           // 出発前の停留所は落ち着いた色で表示
           let markerIcon: string | google.maps.Icon = getStopIcon('route');
@@ -1015,13 +1033,54 @@ export default function BusSearch() {
         });
 
         if (path.length > 0) {
-          const poly = new window.google.maps.Polyline({ 
-            path, 
-            strokeColor: isRoute21 ? '#FF9800' : '#FF5722', // 21番バスは特別な色
-            strokeWeight: isRoute21 ? 6 : 4, // 21番バスは太い線
-            map: mapInstance.current! 
-          });
-          routePolylineRef.current = poly;
+          const mainColor = isRoute21 ? '#FF9800' : '#FF5722';
+          const strokeWeight = isRoute21 ? 6 : 4;
+          const polylines: google.maps.Polyline[] = [];
+
+          if (rideIndex === null) {
+            if (path.length > 1) {
+              const entirePolyline = new window.google.maps.Polyline({
+                path,
+                strokeColor: mainColor,
+                strokeWeight,
+                map: mapInstance.current!
+              });
+              polylines.push(entirePolyline);
+            }
+          } else {
+            if (pathBefore.length > 1) {
+              const dashedPolyline = new window.google.maps.Polyline({
+                path: pathBefore,
+                strokeColor: mainColor,
+                strokeOpacity: 0,
+                strokeWeight,
+                map: mapInstance.current!,
+                icons: [{
+                  icon: {
+                    path: 'M 0,-1 0,1',
+                    strokeOpacity: 1,
+                    strokeColor: mainColor,
+                    scale: strokeWeight
+                  },
+                  offset: '0',
+                  repeat: '20px'
+                }]
+              });
+              polylines.push(dashedPolyline);
+            }
+
+            if (pathAfter.length > 1) {
+              const solidPolyline = new window.google.maps.Polyline({
+                path: pathAfter,
+                strokeColor: mainColor,
+                strokeWeight,
+                map: mapInstance.current!
+              });
+              polylines.push(solidPolyline);
+            }
+          }
+
+          routePolylineRef.current = polylines;
           const bounds = new window.google.maps.LatLngBounds();
           if (currentLocationRef.current) bounds.extend(currentLocationRef.current);
           path.forEach(p => bounds.extend(new window.google.maps.LatLng(p.lat, p.lng)));
@@ -3096,7 +3155,7 @@ export default function BusSearch() {
   // ルートをクリア
   const clearRoute = () => {
     // リアルタイム追跡をクリア
-  stopLocationSharing(getActiveTripId() || undefined);
+    stopLocationSharing(getActiveTripId() || undefined);
     setBusLocation(null);
     setBusPassedStops([]);
     setEstimatedArrivalTimes({});
@@ -3139,10 +3198,7 @@ export default function BusSearch() {
     routeMarkersByStopIdRef.current.clear();
     otherRidersMarkersRef.current.forEach(m => m.setMap(null));
     otherRidersMarkersRef.current = [];
-    if (routePolylineRef.current) {
-      routePolylineRef.current.setMap(null);
-      routePolylineRef.current = null;
-    }
+    clearRoutePolylines();
     
     // マップを現在地に戻す（現在地マーカーは残す）
     if (mapInstance.current && currentLocationRef.current) {

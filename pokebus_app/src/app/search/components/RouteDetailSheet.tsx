@@ -144,7 +144,10 @@ export default function RouteDetailSheet(props: Props) {
             setRouteStops([]);
             setIsSheetMinimized(false);
             routeMarkersRef.current.forEach((m: any) => m.setMap(null));
-            if (routePolylineRef.current) { routePolylineRef.current.setMap(null); routePolylineRef.current = null; }
+            if (routePolylineRef.current && routePolylineRef.current.length) {
+              routePolylineRef.current.forEach((poly: any) => poly.setMap(null));
+              routePolylineRef.current = [];
+            }
           } else {
             setIsSheetMinimized(true);
           }
