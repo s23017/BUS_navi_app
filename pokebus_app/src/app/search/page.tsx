@@ -57,6 +57,7 @@ export default function BusSearch() {
   const lastSharedPositionRef = useRef<google.maps.LatLng | null>(null);
   const sessionUserIdRef = useRef<string | null>(null);
   const routeMarkersRef = useRef<google.maps.Marker[]>([]);
+  const routeMarkersByStopIdRef = useRef<Map<string, google.maps.Marker>>(new Map());
   const otherRidersMarkersRef = useRef<google.maps.Marker[]>([]); // 他のライダーのマーカー管理用
   const ridersMarkersMapRef = useRef<Map<string, google.maps.Marker>>(new Map()); // ライダーID → マーカーのマップ
   const routePolylineRef = useRef<google.maps.Polyline | null>(null);
@@ -170,6 +171,44 @@ export default function BusSearch() {
       stop_lat: lat,
       stop_lon: lon,
       stop_name: canonicalName
+    };
+  };
+  
+  const STOP_ICON_META = {
+    route: {
+      url: '/icons/rote.png',
+      size: { width: 34, height: 50 },
+      anchor: { x: 17, y: 50 }
+    },
+    destination: {
+      url: '/icons/destination.png',
+      size: { width: 34, height: 50 },
+      anchor: { x: 17, y: 50 }
+    },
+    passing: {
+      url: '/icons/passing.png',
+      size: { width: 30, height: 46 },
+      anchor: { x: 15, y: 46 }
+    },
+    ride: {
+      url: '/icons/ride.png',
+      size: { width: 34, height: 50 },
+      anchor: { x: 17, y: 50 }
+    }
+  } as const;
+
+  type StopIconKey = keyof typeof STOP_ICON_META;
+
+  const getStopIcon = (kind: StopIconKey): string | google.maps.Icon => {
+    const meta = STOP_ICON_META[kind];
+    if (!meta) return '';
+    if (typeof window === 'undefined' || !window.google || !window.google.maps) {
+      return meta.url;
+    }
+    return {
+      url: meta.url,
+      scaledSize: new window.google.maps.Size(meta.size.width, meta.size.height),
+      anchor: new window.google.maps.Point(meta.anchor.x, meta.anchor.y),
     };
   };
 
@@ -661,8 +700,8 @@ export default function BusSearch() {
               currentLocationMarkerRef.current = new window.google.maps.Marker({
                 position: current,
                 map,
-                icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
-                title: "現在地",
+                icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+                title: '現在地'
               });
             }
             map.setCenter(current);
@@ -884,6 +923,7 @@ export default function BusSearch() {
       if (mapInstance.current && window.google) {
         routeMarkersRef.current.forEach(m => m.setMap(null));
         routeMarkersRef.current = [];
+        routeMarkersByStopIdRef.current.clear();
         if (routePolylineRef.current) {
           routePolylineRef.current.setMap(null);
           routePolylineRef.current = null;
@@ -899,10 +939,15 @@ export default function BusSearch() {
         if (isRoute21) {
 
         }
-        
-        for (const rs of routeStopsFull) {
+
+        const firstActiveStopIndex = routeStopsFull.findIndex(stop => !stop.isBeforeStart);
+        const lastStopIndex = routeStopsFull.length - 1;
+
+        routeStopsFull.forEach((rs, index) => {
           const lat = parseFloat(rs.stop_lat);
           const lon = parseFloat(rs.stop_lon);
+          const isStartStop = index === firstActiveStopIndex && firstActiveStopIndex !== -1;
+          const isDestinationStop = index === lastStopIndex;
           
           if (isNaN(lat) || isNaN(lon)) {
             
@@ -922,21 +967,33 @@ export default function BusSearch() {
                 title: `${rs.stop_name} (座標推定) (${rs.arrival_time || rs.departure_time || ''})`,
                 icon: 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png' // 推定座標用の色
               });
+              marker.set('markerMeta', {
+                stopId: rs.stop_id,
+                isBeforeStart: !!rs.isBeforeStart,
+                isDestination: isDestinationStop,
+                isStart: isStartStop
+              });
+              if (rs.stop_id) {
+                routeMarkersByStopIdRef.current.set(rs.stop_id, marker);
+              }
               routeMarkersRef.current.push(marker);
             }
             
-            continue;
+            return;
           }
           
           const pos = { lat, lng: lon };
           path.push(pos);
           
-          // 出発地点と到着地点のマーカーを区別して表示
-          let markerIcon = 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png';
-          if (rs === routeStopsFull[0]) {
-            markerIcon = 'http://maps.google.com/mapfiles/ms/icons/green-dot.png'; // 出発地
-          } else if (rs === routeStopsFull[routeStopsFull.length - 1]) {
-            markerIcon = 'http://maps.google.com/mapfiles/ms/icons/red-dot.png'; // 到着地
+          // 出発前の停留所は落ち着いた色で表示
+          let markerIcon: string | google.maps.Icon = getStopIcon('route');
+
+          if (rs.isBeforeStart) {
+            markerIcon = getStopIcon('passing');
+          } else if (isStartStop) {
+            markerIcon = getStopIcon('ride');
+          } else if (isDestinationStop) {
+            markerIcon = getStopIcon('destination');
           }
           
           const marker = new window.google.maps.Marker({ 
@@ -945,8 +1002,17 @@ export default function BusSearch() {
             title: `${rs.stop_name} (${rs.arrival_time || rs.departure_time || ''})`,
             icon: markerIcon
           });
+          marker.set('markerMeta', {
+            stopId: rs.stop_id,
+            isBeforeStart: !!rs.isBeforeStart,
+            isDestination: isDestinationStop,
+            isStart: isStartStop
+          });
+          if (rs.stop_id) {
+            routeMarkersByStopIdRef.current.set(rs.stop_id, marker);
+          }
           routeMarkersRef.current.push(marker);
-        }
+        });
 
         if (path.length > 0) {
           const poly = new window.google.maps.Polyline({ 
@@ -1046,6 +1112,33 @@ export default function BusSearch() {
     setShowPredictions(false);
     setShowStartPredictions(false);
   }, [isSearchCollapsed]);
+
+  useEffect(() => {
+    if (typeof window === 'undefined' || !window.google || !window.google.maps) return;
+    if (routeMarkersByStopIdRef.current.size === 0) return;
+
+    const passedSet = new Set(busPassedStops.map(stop => stop.stopId));
+
+    routeMarkersByStopIdRef.current.forEach((marker, stopId) => {
+      const meta = marker.get('markerMeta') as
+        | { stopId?: string; isBeforeStart?: boolean; isDestination?: boolean; isStart?: boolean }
+        | undefined;
+      if (!meta) return;
+
+      let icon: string | google.maps.Icon;
+      if (meta.isStart) {
+        icon = getStopIcon('ride');
+      } else if (meta.isDestination) {
+        icon = getStopIcon('destination');
+      } else if (meta.isBeforeStart || passedSet.has(stopId)) {
+        icon = getStopIcon('passing');
+      } else {
+        icon = getStopIcon('route');
+      }
+
+      marker.setIcon(icon);
+    });
+  }, [busPassedStops, routeStops]);
 
   function getDistance(lat1: number, lon1: number, lat2: number, lon2: number) {
     const R = 6371000;
@@ -1324,8 +1417,8 @@ export default function BusSearch() {
         currentLocationMarkerRef.current = new window.google.maps.Marker({
           position: currentPos,
           map: mapInstance.current,
-          icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
-          title: "現在地",
+          icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+          title: '現在地'
         });
       }
 
@@ -1763,7 +1856,7 @@ export default function BusSearch() {
           const selfInfoWindow = new window.google.maps.InfoWindow({
             content: `
               <div style="padding: 12px; min-width: 180px;">
-                <h4 style="margin: 0 0 8px 0; color: #007BFF;">� あなたの位置</h4>
+                <h4 style="margin: 0 0 8px 0; color: #007BFF;">あなたの位置</h4>
                 <p style="margin: 4px 0; color: #666;"><strong>ユーザー名:</strong> ${rider.username}</p>
                 <p style="margin: 4px 0; color: #666;"><strong>位置:</strong> ${rider.position.lat().toFixed(6)}, ${rider.position.lng().toFixed(6)}</p>
                 <p style="margin: 4px 0; color: #666;"><strong>最終更新:</strong> ${rider.timestamp.toLocaleTimeString()}</p>
@@ -2770,8 +2863,8 @@ export default function BusSearch() {
             currentLocationMarkerRef.current = new window.google.maps.Marker({
               position: latLng,
               map: mapInstance.current,
-              icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
-              title: "現在地",
+              icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+              title: '現在地'
             });
           }
         }
@@ -3043,6 +3136,7 @@ export default function BusSearch() {
     // 地図上のマーカーをクリア
     routeMarkersRef.current.forEach(m => m.setMap(null));
     routeMarkersRef.current = [];
+    routeMarkersByStopIdRef.current.clear();
     otherRidersMarkersRef.current.forEach(m => m.setMap(null));
     otherRidersMarkersRef.current = [];
     if (routePolylineRef.current) {
@@ -3117,8 +3211,8 @@ export default function BusSearch() {
             currentLocationMarkerRef.current = new window.google.maps.Marker({
               position: latLng,
               map: mapInstance.current,
-              icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
-              title: "現在地",
+              icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+              title: '現在地'
             });
           }
           lastPositionTimestampRef.current = Date.now();
