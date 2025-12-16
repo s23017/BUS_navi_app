@@ -43,7 +43,7 @@
 }
 
 .dropdown {
-  position: absolute;
+  position: fixed;
   right: 1rem;
   top: calc(3.5rem + env(safe-area-inset-top, 0)); /* align below fixed header */
   background-color: white;
@@ -52,7 +52,7 @@
   border: 1px solid rgba(0, 0, 0, 0.1);
   width: 10rem; /* w-40 */
   font-size: 0.875rem; /* text-sm */
-  z-index: 1000;
+  z-index: 2000;
 }
 
 .dropdownList {
