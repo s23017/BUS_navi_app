@@ -337,7 +337,6 @@ function RankingPage() {
               <Trophy className={styles.trophy} />
             </div>
             <h1 className={styles.titleText}>ランキング</h1>
-            <p className={styles.titleSubtext}>バス停通過でポイントを貯めて上位を目指そう！</p>
           </div>
 
           {error && (
@@ -380,55 +379,18 @@ function RankingPage() {
                     <div className={styles.statCard}>
                       <div className={styles.statLabel}>週間ポイント</div>
                       <div className={styles.statValue}>{userStats.weeklyPoints.toLocaleString()}</div>
-                      <div className={styles.statSubtext}>{Math.floor(userStats.weeklyPoints / POINTS_PER_BUS_STOP)}回通過</div>
+                      <div className={styles.statSubtext}>通過{Math.floor(userStats.weeklyPoints / POINTS_PER_BUS_STOP)}回</div>
                     </div>
                     <div className={styles.statCard}>
                       <div className={styles.statLabel}>月間ポイント</div>
                       <div className={styles.statValue}>{userStats.monthlyPoints.toLocaleString()}</div>
-                      <div className={styles.statSubtext}>{Math.floor(userStats.monthlyPoints / POINTS_PER_BUS_STOP)}回通過</div>
+                      <div className={styles.statSubtext}>通過{Math.floor(userStats.monthlyPoints / POINTS_PER_BUS_STOP)}回</div>
                     </div>
                     <div className={styles.statCard}>
                       <div className={styles.statLabel}>総合ポイント</div>
                       <div className={styles.statValue}>{userStats.totalPoints.toLocaleString()}</div>
-                      <div className={styles.statSubtext}>{userStats.busPasses}回通過</div>
+                      <div className={styles.statSubtext}>通過{userStats.busPasses}回</div>
                     </div>
-                  </div>
-                  
-                  <div className={styles.pointsInfo}>
-                    <div className={styles.pointsTitle}>🎯 ポイント獲得方法</div>
-                    <div className={styles.pointsText}>
-                      • バス停通過: <span className={styles.pointsHighlight}>+{POINTS_PER_BUS_STOP}ポイント</span><br/>
-                      • 「乗車中」状態でバス停付近を通過すると自動獲得<br/>
-                      • リアルタイム位置共有で他のユーザーと競い合おう！
-                    </div>
-                    {userStats.lastPassage && (
-                      <div className={styles.lastPassageInfo}>
-                        <div className={styles.lastPassageTitle}>最新通過</div>
-                        <div className={styles.lastPassageBody}>
-                          {userStats.lastPassage.stopName}
-                          {userStats.lastPassage.points ? ` (+${userStats.lastPassage.points}pt)` : ''}
-                        </div>
-                        {userStats.lastPassage.awardedAt && (
-                          <div className={styles.lastPassageSubtext}>
-                            {userStats.lastPassage.awardedAt.toDate().toLocaleString('ja-JP', {
-                              month: 'short',
-                              day: 'numeric',
-                              hour: '2-digit',
-                              minute: '2-digit'
-                            })}
-                            {typeof userStats.lastPassage.delay === 'number' && (
-                              <span>
-                                {' '}• {userStats.lastPassage.delay > 0
-                                  ? `${userStats.lastPassage.delay}分遅れ`
-                                  : userStats.lastPassage.delay < 0
-                                    ? `${Math.abs(userStats.lastPassage.delay)}分早く`
-                                    : '定刻'}
-                              </span>
-                            )}
-                          </div>
-                        )}
-                      </div>
-                    )}
                   </div>
                 </div>
               )}
@@ -467,9 +429,9 @@ function RankingPage() {
                   <Users className="w-5 h-5" />
                   <h2 className={styles.rankingTitle}>ランキング一覧</h2>
                   <div className={styles.periodLabel}>
-                    {period === 'weekly' && '今週の獲得ポイント'}
-                    {period === 'monthly' && '今月の獲得ポイント'}
-                    {period === 'overall' && '総合獲得ポイント'}
+                    {period === 'weekly' && '今週'}
+                    {period === 'monthly' && '今月'}
+                    {period === 'overall' && '総合'}
                   </div>
                 </div>
 
@@ -535,20 +497,14 @@ function RankingPage() {
                                   {/* メールアドレスはセキュリティのため表示しない */}
                                 </div>
                               )}
-                              {r.lastPassage && (
+                              {isMe && r.lastPassage && (
                                 <div className={styles.itemLastPassage}>
-                                  <span className={styles.itemLastPassageStop}>{r.lastPassage.stopName}</span>
-                                  {r.lastPassage.points ? (
-                                    <span className={styles.itemLastPassagePoints}>+{r.lastPassage.points}pt</span>
-                                  ) : null}
-                                  {r.lastPassage.awardedAt && (
-                                    <span className={styles.itemLastPassageTime}>
-                                      {r.lastPassage.awardedAt.toDate().toLocaleTimeString('ja-JP', {
-                                        hour: '2-digit',
-                                        minute: '2-digit'
-                                      })}
-                                    </span>
-                                  )}
+                                  最終 {r.lastPassage.stopName}
+                                  {r.lastPassage.points ? ` +${r.lastPassage.points}pt` : ''}
+                                  {r.lastPassage.awardedAt ? ` ${r.lastPassage.awardedAt.toDate().toLocaleTimeString('ja-JP', {
+                                    hour: '2-digit',
+                                    minute: '2-digit'
+                                  })}` : ''}
                                 </div>
                               )}
                             </div>
@@ -572,17 +528,6 @@ function RankingPage() {
                 )}
               </div>
 
-              <div className={styles.footer}>
-                <p className={styles.footerText}>
-                  🎯 バス停通過1回につき{POINTS_PER_BUS_STOP}ポイント自動獲得
-                </p>
-                <p className={styles.footerText}>
-                  ✨ Firebase連携済み - リアルタイム更新
-                </p>
-                <p className={styles.footerText}>
-                  🚌 「乗車中」状態でバス停付近を通過すると自動でポイント獲得
-                </p>
-              </div>
             </>
           ) : (
             <div className={styles.loginRequired}>
