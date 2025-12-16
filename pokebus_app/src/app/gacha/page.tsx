@@ -9,10 +9,7 @@ import SearchHeader from "../search/components/Header";
 import { auth, db } from "../../../lib/firebase";
 import { GachaCharacter, Rarity, characters } from "./characters";
 
-const GACHA_COST_SINGLE = 10;
-const GACHA_COST_TEN = 100;
-
-type RollMode = "single" | "ten";
+const GACHA_COST_SINGLE = 100;
 type ActiveSection = "gacha" | "collection" | "history";
 
 type HistoryItem = {
@@ -61,6 +58,7 @@ type CollectionEntry = {
   count: number;
   lastObtained: Timestamp | null;
 };
+
 const pickRandomCharacter = (list: GachaCharacter[]) => {
   const totalWeight = list.reduce((sum, item) => sum + item.weight, 0);
   const random = Math.random() * totalWeight;
@@ -102,7 +100,6 @@ export default function GachaPage() {
   const [loadingPoints, setLoadingPoints] = useState(true);
   const [history, setHistory] = useState<HistoryItem[]>([]);
   const [activeSection, setActiveSection] = useState<ActiveSection>("gacha");
-  const [rollMode, setRollMode] = useState<RollMode>("single");
   const [error, setError] = useState<string | null>(null);
   const [isRolling, setIsRolling] = useState(false);
   const [hasGlow, setHasGlow] = useState(false);
@@ -166,7 +163,7 @@ export default function GachaPage() {
               rarity,
               weight: 0,
               image: "/pokebus_icon.png",
-              description: "未登録キャラクター",
+              description: "未登録クーポン",
             };
             const lastObtained = entry.lastObtained instanceof Timestamp
               ? entry.lastObtained
@@ -217,30 +214,24 @@ export default function GachaPage() {
     return () => unsubscribe();
   }, [user]);
 
-  const costLabels = useMemo(
-    () => ({
-      single: `${GACHA_COST_SINGLE.toLocaleString()} pt`,
-      ten: `${GACHA_COST_TEN.toLocaleString()} pt`,
-    }),
-    []
-  );
+  const costLabel = useMemo(() => `${GACHA_COST_SINGLE.toLocaleString()} pt`, []);
 
-  const currentCost = rollMode === "ten" ? GACHA_COST_TEN : GACHA_COST_SINGLE;
+  const currentCost = GACHA_COST_SINGLE;
 
   const handleImageError = (event: SyntheticEvent<HTMLImageElement>) => {
     event.currentTarget.src = "/pokebus_icon.png";
   };
 
-  const handleRoll = async (mode: RollMode) => {
+  const handleRoll = async () => {
     if (!user) {
       setError("ガチャを引くにはログインが必要です。");
       return;
     }
     if (isRolling) return;
 
-    const cost = mode === "ten" ? GACHA_COST_TEN : GACHA_COST_SINGLE;
-    const rollCount = mode === "ten" ? 10 : 1;
-    const modeLabel = mode === "ten" ? "10連" : "単発";
+    const cost = GACHA_COST_SINGLE;
+    const rollCount = 1;
+    const modeLabel = "ガチャ";
 
     if (!loadingPoints && availablePoints < cost) {
       setError(`${modeLabel}を引くポイントが不足しています（${cost}pt必要です）。`);
@@ -451,7 +442,7 @@ export default function GachaPage() {
       <div className={styles.content}>
         <div className={styles.titleBlock}>
           <h1>バスポイントガチャ</h1>
-          <p className={styles.subtitle}>貯めたポイントを使って限定キャラクターをゲットしよう！</p>
+          <p className={styles.subtitle}>貯めたポイントを使ってお得なクーポンをゲットしよう！</p>
         </div>
 
         <div className={styles.statusCard}>
@@ -475,7 +466,7 @@ export default function GachaPage() {
                 className={`${styles.sectionButton} ${activeSection === "collection" ? styles.sectionButtonActive : ""}`}
                 onClick={() => setActiveSection("collection")}
               >
-                キャラBOX
+                クーポンBOX
               </button>
               <button
                 type="button"
@@ -488,25 +479,7 @@ export default function GachaPage() {
           </div>
           {activeSection === "gacha" && (
             <>
-              <div className={styles.costLabel}>
-                単発: {costLabels.single} / 10連: {costLabels.ten}
-              </div>
-              <div className={styles.rollModeToggle}>
-                <button
-                  type="button"
-                  className={`${styles.rollModeButton} ${rollMode === "single" ? styles.rollModeActive : ""}`}
-                  onClick={() => setRollMode("single")}
-                >
-                  単発
-                </button>
-                <button
-                  type="button"
-                  className={`${styles.rollModeButton} ${rollMode === "ten" ? styles.rollModeActive : ""}`}
-                  onClick={() => setRollMode("ten")}
-                >
-                  10連
-                </button>
-              </div>
+              <div className={styles.costLabel}>1回 {costLabel}</div>
               {error && <div className={styles.error}>⚠️ {error}</div>}
             </>
           )}
@@ -523,16 +496,14 @@ export default function GachaPage() {
               <button
                 type="button"
                 className={styles.rollButton}
-                onClick={() => handleRoll(rollMode)}
+                onClick={handleRoll}
                 disabled={isRolling || loadingPoints || availablePoints < currentCost}
               >
                 {isRolling
                   ? "ガチャ演出中..."
                   : availablePoints < currentCost
                     ? `ポイント不足（${currentCost}pt必要）`
-                    : rollMode === "ten"
-                      ? `10連ガチャを引く（${GACHA_COST_TEN}pt）`
-                      : `単発ガチャを引く（${GACHA_COST_SINGLE}pt）`}
+                    : `ガチャを引く（${currentCost}pt）`}
               </button>
             </div>
           </div>
@@ -540,9 +511,9 @@ export default function GachaPage() {
 
         {activeSection === "collection" && (
           <div className={styles.collection}>
-            <div className={styles.collectionTitle}>キャラBOX</div>
+            <div className={styles.collectionTitle}>クーポンBOX</div>
             {collectionEntries.length === 0 ? (
-              <div className={styles.emptyState}>まだ入手済みのキャラクターがありません。</div>
+              <div className={styles.emptyState}>まだ入手済みのクーポンがありません。</div>
             ) : (
               <div className={styles.collectionGrid}>
                 {collectionEntries.map((entry) => (
