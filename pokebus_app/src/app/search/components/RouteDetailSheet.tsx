@@ -27,8 +27,8 @@ type Props = {
   ridingTripId: string | null;
   setRidingTripId: (id: string | null) => void;
   getActiveTripId: () => string | undefined | null;
-  stopLocationSharing: (tripId?: string) => void;
-  startLocationSharing: (tripId: string) => void;
+  stopLocationSharing: (tripId?: string) => Promise<void>;
+  startLocationSharing: (tripId: string) => Promise<boolean>;
   mapInstance: React.MutableRefObject<any>;
   currentLocationRef: React.MutableRefObject<any>;
   setSelectedTripId: (id: string | null) => void;
@@ -144,7 +144,10 @@ export default function RouteDetailSheet(props: Props) {
             setRouteStops([]);
             setIsSheetMinimized(false);
             routeMarkersRef.current.forEach((m: any) => m.setMap(null));
-            if (routePolylineRef.current) { routePolylineRef.current.setMap(null); routePolylineRef.current = null; }
+            if (routePolylineRef.current && routePolylineRef.current.length) {
+              routePolylineRef.current.forEach((poly: any) => poly.setMap(null));
+              routePolylineRef.current = [];
+            }
           } else {
             setIsSheetMinimized(true);
           }
@@ -285,15 +288,16 @@ export default function RouteDetailSheet(props: Props) {
             <div style={{ display: 'flex', flexWrap: 'wrap', gap: '8px', marginBottom: '12px' }}>
               <button
                 className={styles.selectButton}
-                onClick={() => {
+                onClick={async () => {
                   if (ridingTripId === selectedTripId) {
                     const activeTripId = getActiveTripId();
                     setRidingTripId(null);
-                    stopLocationSharing(activeTripId || undefined);
+                    await stopLocationSharing(activeTripId || undefined);
                   } else {
-                    setRidingTripId(selectedTripId);
-                    if (selectedTripId) {
-                      startLocationSharing(selectedTripId);
+                    if (!selectedTripId) return;
+                    const success = await startLocationSharing(selectedTripId);
+                    if (success) {
+                      setRidingTripId(selectedTripId);
                     }
                   }
                 }}

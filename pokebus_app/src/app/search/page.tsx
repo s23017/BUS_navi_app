@@ -57,9 +57,10 @@ export default function BusSearch() {
   const lastSharedPositionRef = useRef<google.maps.LatLng | null>(null);
   const sessionUserIdRef = useRef<string | null>(null);
   const routeMarkersRef = useRef<google.maps.Marker[]>([]);
+  const routeMarkersByStopIdRef = useRef<Map<string, google.maps.Marker>>(new Map());
   const otherRidersMarkersRef = useRef<google.maps.Marker[]>([]); // 他のライダーのマーカー管理用
   const ridersMarkersMapRef = useRef<Map<string, google.maps.Marker>>(new Map()); // ライダーID → マーカーのマップ
-  const routePolylineRef = useRef<google.maps.Polyline | null>(null);
+  const routePolylineRef = useRef<google.maps.Polyline[]>([]);
   const tripStopsRef = useRef<Record<string, any[]> | null>(null);
   const masterStopsRef = useRef<any[] | null>(null);
   const masterStopMapRef = useRef<Map<string, any>>(new Map());
@@ -171,6 +172,50 @@ export default function BusSearch() {
       stop_lon: lon,
       stop_name: canonicalName
     };
+  };
+  
+  const STOP_ICON_META = {
+    route: {
+      url: '/icons/rote.png',
+      size: { width: 34, height: 50 },
+      anchor: { x: 17, y: 50 }
+    },
+    destination: {
+      url: '/icons/destination.png',
+      size: { width: 34, height: 50 },
+      anchor: { x: 17, y: 50 }
+    },
+    passing: {
+      url: '/icons/passing.png',
+      size: { width: 30, height: 46 },
+      anchor: { x: 15, y: 46 }
+    },
+    ride: {
+      url: '/icons/ride.png',
+      size: { width: 34, height: 50 },
+      anchor: { x: 17, y: 50 }
+    }
+  } as const;
+
+  type StopIconKey = keyof typeof STOP_ICON_META;
+
+  const getStopIcon = (kind: StopIconKey): string | google.maps.Icon => {
+    const meta = STOP_ICON_META[kind];
+    if (!meta) return '';
+    if (typeof window === 'undefined' || !window.google || !window.google.maps) {
+      return meta.url;
+    }
+    return {
+      url: meta.url,
+      scaledSize: new window.google.maps.Size(meta.size.width, meta.size.height),
+      anchor: new window.google.maps.Point(meta.anchor.x, meta.anchor.y),
+    };
+  };
+
+  const clearRoutePolylines = () => {
+    if (routePolylineRef.current.length === 0) return;
+    routePolylineRef.current.forEach(poly => poly.setMap(null));
+    routePolylineRef.current = [];
   };
 
   // Google Maps APIが読み込まれた後にマップを初期化
@@ -661,8 +706,8 @@ export default function BusSearch() {
               currentLocationMarkerRef.current = new window.google.maps.Marker({
                 position: current,
                 map,
-                icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
-                title: "現在地",
+                icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+                title: '現在地'
               });
             }
             map.setCenter(current);
@@ -884,12 +929,12 @@ export default function BusSearch() {
       if (mapInstance.current && window.google) {
         routeMarkersRef.current.forEach(m => m.setMap(null));
         routeMarkersRef.current = [];
-        if (routePolylineRef.current) {
-          routePolylineRef.current.setMap(null);
-          routePolylineRef.current = null;
-        }
+        routeMarkersByStopIdRef.current.clear();
+        clearRoutePolylines();
 
         const path: google.maps.LatLngLiteral[] = [];
+        const pathBefore: google.maps.LatLngLiteral[] = [];
+        const pathAfter: google.maps.LatLngLiteral[] = [];
 
         // 21番バス特別処理
         const isRoute21 = tripId.includes('naha_trip_') && routeStopsFull.some(rs => 
@@ -899,10 +944,16 @@ export default function BusSearch() {
         if (isRoute21) {
 
         }
-        
-        for (const rs of routeStopsFull) {
+
+        const firstActiveStopIndex = routeStopsFull.findIndex(stop => !stop.isBeforeStart);
+        const rideIndex = firstActiveStopIndex === -1 ? null : firstActiveStopIndex;
+        const lastStopIndex = routeStopsFull.length - 1;
+
+        routeStopsFull.forEach((rs, index) => {
           const lat = parseFloat(rs.stop_lat);
           const lon = parseFloat(rs.stop_lon);
+          const isStartStop = rideIndex !== null && index === rideIndex;
+          const isDestinationStop = index === lastStopIndex;
           
           if (isNaN(lat) || isNaN(lon)) {
             
@@ -915,6 +966,12 @@ export default function BusSearch() {
 
               const fallbackPos = { lat: fallbackLat, lng: fallbackLon };
               path.push(fallbackPos);
+              if (rideIndex !== null && index <= rideIndex) {
+                pathBefore.push(fallbackPos);
+              }
+              if (rideIndex === null || index >= rideIndex) {
+                pathAfter.push(fallbackPos);
+              }
               
               const marker = new window.google.maps.Marker({ 
                 position: fallbackPos, 
@@ -922,21 +979,39 @@ export default function BusSearch() {
                 title: `${rs.stop_name} (座標推定) (${rs.arrival_time || rs.departure_time || ''})`,
                 icon: 'http://maps.google.com/mapfiles/ms/icons/yellow-dot.png' // 推定座標用の色
               });
+              marker.set('markerMeta', {
+                stopId: rs.stop_id,
+                isBeforeStart: !!rs.isBeforeStart,
+                isDestination: isDestinationStop,
+                isStart: isStartStop
+              });
+              if (rs.stop_id) {
+                routeMarkersByStopIdRef.current.set(rs.stop_id, marker);
+              }
               routeMarkersRef.current.push(marker);
             }
             
-            continue;
+            return;
           }
           
           const pos = { lat, lng: lon };
           path.push(pos);
+          if (rideIndex !== null && index <= rideIndex) {
+            pathBefore.push(pos);
+          }
+          if (rideIndex === null || index >= rideIndex) {
+            pathAfter.push(pos);
+          }
           
-          // 出発地点と到着地点のマーカーを区別して表示
-          let markerIcon = 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png';
-          if (rs === routeStopsFull[0]) {
-            markerIcon = 'http://maps.google.com/mapfiles/ms/icons/green-dot.png'; // 出発地
-          } else if (rs === routeStopsFull[routeStopsFull.length - 1]) {
-            markerIcon = 'http://maps.google.com/mapfiles/ms/icons/red-dot.png'; // 到着地
+          // 出発前の停留所は落ち着いた色で表示
+          let markerIcon: string | google.maps.Icon = getStopIcon('route');
+
+          if (rs.isBeforeStart) {
+            markerIcon = getStopIcon('passing');
+          } else if (isStartStop) {
+            markerIcon = getStopIcon('ride');
+          } else if (isDestinationStop) {
+            markerIcon = getStopIcon('destination');
           }
           
           const marker = new window.google.maps.Marker({ 
@@ -945,17 +1020,67 @@ export default function BusSearch() {
             title: `${rs.stop_name} (${rs.arrival_time || rs.departure_time || ''})`,
             icon: markerIcon
           });
+          marker.set('markerMeta', {
+            stopId: rs.stop_id,
+            isBeforeStart: !!rs.isBeforeStart,
+            isDestination: isDestinationStop,
+            isStart: isStartStop
+          });
+          if (rs.stop_id) {
+            routeMarkersByStopIdRef.current.set(rs.stop_id, marker);
+          }
           routeMarkersRef.current.push(marker);
-        }
+        });
 
         if (path.length > 0) {
-          const poly = new window.google.maps.Polyline({ 
-            path, 
-            strokeColor: isRoute21 ? '#FF9800' : '#FF5722', // 21番バスは特別な色
-            strokeWeight: isRoute21 ? 6 : 4, // 21番バスは太い線
-            map: mapInstance.current! 
-          });
-          routePolylineRef.current = poly;
+          const mainColor = isRoute21 ? '#FF9800' : '#FF5722';
+          const strokeWeight = isRoute21 ? 6 : 4;
+          const polylines: google.maps.Polyline[] = [];
+
+          if (rideIndex === null) {
+            if (path.length > 1) {
+              const entirePolyline = new window.google.maps.Polyline({
+                path,
+                strokeColor: mainColor,
+                strokeWeight,
+                map: mapInstance.current!
+              });
+              polylines.push(entirePolyline);
+            }
+          } else {
+            if (pathBefore.length > 1) {
+              const dashedPolyline = new window.google.maps.Polyline({
+                path: pathBefore,
+                strokeColor: mainColor,
+                strokeOpacity: 0,
+                strokeWeight,
+                map: mapInstance.current!,
+                icons: [{
+                  icon: {
+                    path: 'M 0,-1 0,1',
+                    strokeOpacity: 1,
+                    strokeColor: mainColor,
+                    scale: strokeWeight
+                  },
+                  offset: '0',
+                  repeat: '20px'
+                }]
+              });
+              polylines.push(dashedPolyline);
+            }
+
+            if (pathAfter.length > 1) {
+              const solidPolyline = new window.google.maps.Polyline({
+                path: pathAfter,
+                strokeColor: mainColor,
+                strokeWeight,
+                map: mapInstance.current!
+              });
+              polylines.push(solidPolyline);
+            }
+          }
+
+          routePolylineRef.current = polylines;
           const bounds = new window.google.maps.LatLngBounds();
           if (currentLocationRef.current) bounds.extend(currentLocationRef.current);
           path.forEach(p => bounds.extend(new window.google.maps.LatLng(p.lat, p.lng)));
@@ -1046,6 +1171,33 @@ export default function BusSearch() {
     setShowPredictions(false);
     setShowStartPredictions(false);
   }, [isSearchCollapsed]);
+
+  useEffect(() => {
+    if (typeof window === 'undefined' || !window.google || !window.google.maps) return;
+    if (routeMarkersByStopIdRef.current.size === 0) return;
+
+    const passedSet = new Set(busPassedStops.map(stop => stop.stopId));
+
+    routeMarkersByStopIdRef.current.forEach((marker, stopId) => {
+      const meta = marker.get('markerMeta') as
+        | { stopId?: string; isBeforeStart?: boolean; isDestination?: boolean; isStart?: boolean }
+        | undefined;
+      if (!meta) return;
+
+      let icon: string | google.maps.Icon;
+      if (meta.isStart) {
+        icon = getStopIcon('ride');
+      } else if (meta.isDestination) {
+        icon = getStopIcon('destination');
+      } else if (meta.isBeforeStart || passedSet.has(stopId)) {
+        icon = getStopIcon('passing');
+      } else {
+        icon = getStopIcon('route');
+      }
+
+      marker.setIcon(icon);
+    });
+  }, [busPassedStops, routeStops]);
 
   function getDistance(lat1: number, lon1: number, lat2: number, lon2: number) {
     const R = 6371000;
@@ -1260,281 +1412,271 @@ export default function BusSearch() {
   const unsubscribeStopPassageListener = useRef<(() => void) | null>(null);
 
   // 位置情報共有開始（1分間隔での更新）
-  const startLocationSharing = (tripId: string) => {
-
+  const startLocationSharing = (tripId: string): Promise<boolean> => {
     ensureSessionUserId();
-    
-    if (!navigator.geolocation) {
 
+    if (!navigator.geolocation) {
       alert('このデバイスでは位置情報を取得できません');
-      return;
+      return Promise.resolve(false);
     }
 
-    // 位置情報権限の確認
-    navigator.permissions.query({name: 'geolocation'}).then((permissionStatus) => {
+    return new Promise<boolean>((resolve) => {
+      let resolved = false;
+      const resolveOnce = (value: boolean) => {
+        if (resolved) return;
+        resolved = true;
+        resolve(value);
+      };
 
-    }).catch((error) => {
+      navigator.permissions.query({ name: 'geolocation' }).catch(() => {
+        // 権限問い合わせの失敗は致命的ではないので無視
+      });
 
-    });
-
-    // 他のライダーの位置情報をリッスン開始
-
-    const unsubscribe = listenToOtherRiders(tripId);
-    unsubscribeRiderListener.current = unsubscribe;
-
-    // バス停通過情報のリッスン開始
-
-    const stopPassageUnsubscribe = listenToBusStopPassages(tripId);
-    unsubscribeStopPassageListener.current = stopPassageUnsubscribe;
-
-    const handlePositionUpdate = async (position: GeolocationPosition, skipStateCheck = false): Promise<boolean> => {
-
-      if (!skipStateCheck && !isLocationSharing) {
-        return false;
+      if (unsubscribeRiderListener.current) {
+        unsubscribeRiderListener.current();
       }
+      const unsubscribe = listenToOtherRiders(tripId);
+      unsubscribeRiderListener.current = unsubscribe;
 
-      const { latitude, longitude } = position.coords;
-      const currentPos = new window.google.maps.LatLng(latitude, longitude);
-
-      const now = Date.now();
-      const lastSharedAt = lastPositionTimestampRef.current || 0;
-      let movedDistance = Number.POSITIVE_INFINITY;
-      if (lastSharedPositionRef.current && window.google?.maps?.geometry) {
-        movedDistance = window.google.maps.geometry.spherical.computeDistanceBetween(
-          lastSharedPositionRef.current,
-          currentPos
-        );
+      if (unsubscribeStopPassageListener.current) {
+        unsubscribeStopPassageListener.current();
       }
+      const stopPassageUnsubscribe = listenToBusStopPassages(tripId);
+      unsubscribeStopPassageListener.current = stopPassageUnsubscribe;
 
-      const timeElapsed = now - lastSharedAt;
-      const timeElapsedInfo = lastSharedAt ? `${timeElapsed}ms` : '初回送信';
-      const movedEnough = Number.isFinite(movedDistance) && movedDistance >= MIN_MOVEMENT_METERS;
-      const intervalReached = !lastSharedAt || timeElapsed >= MIN_SHARE_INTERVAL_MS;
-
-      if (!intervalReached && !movedEnough) {
-        const distanceInfo = Number.isFinite(movedDistance) ? `${movedDistance.toFixed(1)}m` : '未計測';
-
-        return false;
-      }
-
-      currentLocationRef.current = currentPos;
-      if (currentLocationMarkerRef.current) {
-        currentLocationMarkerRef.current.setPosition(currentPos);
-      } else if (mapInstance.current) {
-        currentLocationMarkerRef.current = new window.google.maps.Marker({
-          position: currentPos,
-          map: mapInstance.current,
-          icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
-          title: "現在地",
-        });
-      }
-
-      const validation = validateLocationForSharing(currentPos, tripId);
-      if (!validation.valid) {
-        alert(`位置情報の共有を停止しました: ${validation.reason}`);
-  await stopLocationSharing(tripId);
-        return false;
-      }
-
-      try {
-
-        await shareLocationToFirestore(tripId, currentPos);
-
-  lastPositionTimestampRef.current = now;
-        lastSharedPositionRef.current = currentPos;
-
-        if (!isLocationSharing) {
-
-          setIsLocationSharing(true);
+      const handlePositionUpdate = async (position: GeolocationPosition, skipStateCheck = false): Promise<boolean> => {
+        if (!skipStateCheck && !isLocationSharing) {
+          return false;
         }
-      } catch (error) {
 
-        return false;
-      }
+        const { latitude, longitude } = position.coords;
+        const currentPos = new window.google.maps.LatLng(latitude, longitude);
 
-      checkPassedStops(currentPos, tripId);
+        const now = Date.now();
+        const lastSharedAt = lastPositionTimestampRef.current || 0;
+        let movedDistance = Number.POSITIVE_INFINITY;
+        if (lastSharedPositionRef.current && window.google?.maps?.geometry) {
+          movedDistance = window.google.maps.geometry.spherical.computeDistanceBetween(
+            lastSharedPositionRef.current,
+            currentPos
+          );
+        }
 
-      return true;
-    };
+        const intervalReached = !lastSharedAt || now - lastSharedAt >= MIN_SHARE_INTERVAL_MS;
+        const movedEnough = Number.isFinite(movedDistance) && movedDistance >= MIN_MOVEMENT_METERS;
+        if (!intervalReached && !movedEnough) {
+          return false;
+        }
 
-    const updateLocation = (skipStateCheck = false) => {
+        currentLocationRef.current = currentPos;
+        if (currentLocationMarkerRef.current) {
+          currentLocationMarkerRef.current.setPosition(currentPos);
+        } else if (mapInstance.current) {
+          currentLocationMarkerRef.current = new window.google.maps.Marker({
+            position: currentPos,
+            map: mapInstance.current,
+            icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+            title: '現在地'
+          });
+        }
 
-      const now = Date.now();
-  const minInterval = skipStateCheck ? MIN_SHARE_INTERVAL_MS : 0;
-      if (lastPositionTimestampRef.current && now - lastPositionTimestampRef.current < minInterval) {
-        return;
-      }
-      navigator.geolocation.getCurrentPosition(
-        (position) => {
-          handlePositionUpdate(position, skipStateCheck)
-            .then((success) => {
-              if (!success) {
-              }
-            })
-            .catch((error) => {
-
-            });
-        },
-        (error) => {
-
-          const timeoutCode = (error as GeolocationPositionError).TIMEOUT ?? 3;
-          if (error.code === timeoutCode && currentLocationRef.current) {
-            lastPositionTimestampRef.current = Date.now();
+        const validation = validateLocationForSharing(currentPos, tripId);
+        if (!validation.valid) {
+          alert(`位置情報の共有を停止しました: ${validation.reason}`);
+          if (isLocationSharing) {
+            await stopLocationSharing(tripId);
           }
-          if (!skipStateCheck) {
-            setIsLocationSharing(false);
-          }
-        },
-        {
-          enableHighAccuracy: true,
-          timeout: 20000,
-          maximumAge: 15000
-        }
-      );
-    };
-
-    navigator.geolocation.getCurrentPosition(
-      async (initialPosition) => {
-
-        const { latitude, longitude } = initialPosition.coords;
-        const initialPos = new window.google.maps.LatLng(latitude, longitude);
-
-        const initialValidation = validateLocationForSharing(initialPos, tripId);
-
-        if (!initialValidation.valid) {
-
-          alert(`乗車位置が不適切です: ${initialValidation.reason}\n\nバス停付近で再度お試しください。`);
-          setIsLocationSharing(false);
-          return;
+          resolveOnce(false);
+          return false;
         }
 
-        if (locationTimerRef.current) {
-
-          if (typeof locationTimerRef.current === 'object' && 'clearAll' in locationTimerRef.current) {
-            locationTimerRef.current.clearAll();
-          } else if (typeof locationTimerRef.current === 'function') {
-            locationTimerRef.current();
-          } else {
-            clearInterval(locationTimerRef.current);
-          }
-          locationTimerRef.current = null;
-        }
-
-        setIsLocationSharing(true);
-
-        let initialUpdateSuccess = false;
         try {
-          initialUpdateSuccess = await handlePositionUpdate(initialPosition, true);
-        } catch (error) {
+          await shareLocationToFirestore(tripId, currentPos);
+          lastPositionTimestampRef.current = now;
+          lastSharedPositionRef.current = currentPos;
 
+          if (!isLocationSharing) {
+            setIsLocationSharing(true);
+          }
+          resolveOnce(true);
+        } catch (error) {
+          if (isLocationSharing) {
+            await stopLocationSharing(tripId);
+          }
+          resolveOnce(false);
+          return false;
         }
 
-        if (!initialUpdateSuccess) {
+        checkPassedStops(currentPos, tripId);
+
+        return true;
+      };
+
+      const updateLocation = (skipStateCheck = false) => {
+        const now = Date.now();
+        const minInterval = skipStateCheck ? MIN_SHARE_INTERVAL_MS : 0;
+        if (lastPositionTimestampRef.current && now - lastPositionTimestampRef.current < minInterval) {
           return;
         }
-
-        // 乗車開始時に前のバス停の通過判定を自動推論
-        inferPreviousPassedStops(initialPos, tripId);
-
-        const watchIdentifier = navigator.geolocation.watchPosition(
-          async (pos) => {
-
-            try {
-              const success = await handlePositionUpdate(pos, true);
-              if (!success) {
-              }
-            } catch (error) {
-
-            }
+        navigator.geolocation.getCurrentPosition(
+          (position) => {
+            handlePositionUpdate(position, skipStateCheck).catch(() => {
+              resolveOnce(false);
+            });
           },
-          (watchError) => {
-
+          (error) => {
+            const timeoutCode = (error as GeolocationPositionError).TIMEOUT ?? 3;
+            if (error.code === timeoutCode && currentLocationRef.current) {
+              lastPositionTimestampRef.current = Date.now();
+            }
+            if (!skipStateCheck) {
+              setIsLocationSharing(false);
+            }
+            resolveOnce(false);
           },
           {
             enableHighAccuracy: true,
-            maximumAge: 5000,
-            timeout: 15000
+            timeout: 20000,
+            maximumAge: 15000
           }
         );
-        setWatchId(watchIdentifier);
+      };
 
-        const fallbackTimer = setInterval(() => {
-          // watchPositionが静止した際のバックアップとして定期的に現在地を取得
+      navigator.geolocation.getCurrentPosition(
+        async (initialPosition) => {
+          const { latitude, longitude } = initialPosition.coords;
+          const initialPos = new window.google.maps.LatLng(latitude, longitude);
 
-          updateLocation(true);
-        }, MIN_SHARE_INTERVAL_MS);
+          const initialValidation = validateLocationForSharing(initialPos, tripId);
 
-        const heartbeatTimer = setInterval(() => {
+          if (!initialValidation.valid) {
+            alert(`乗車位置が不適切です: ${initialValidation.reason}\n\nバス停付近で再度お試しください。`);
+            setIsLocationSharing(false);
+            if (unsubscribeRiderListener.current) {
+              unsubscribeRiderListener.current();
+              unsubscribeRiderListener.current = null;
+            }
+            if (unsubscribeStopPassageListener.current) {
+              unsubscribeStopPassageListener.current();
+              unsubscribeStopPassageListener.current = null;
+            }
+            resolveOnce(false);
+            return;
+          }
 
-          if (currentUser?.uid) {
-            const isBackground = document.hidden;
-            const statusText = isBackground ? 'バックグラウンド' : 'フォアグラウンド';
+          if (locationTimerRef.current) {
+            if (typeof locationTimerRef.current === 'object' && 'clearAll' in locationTimerRef.current) {
+              locationTimerRef.current.clearAll();
+            } else if (typeof locationTimerRef.current === 'function') {
+              locationTimerRef.current();
+            } else {
+              clearInterval(locationTimerRef.current);
+            }
+            locationTimerRef.current = null;
+          }
 
-            const updateHeartbeat = async () => {
+          let initialUpdateSuccess = false;
+          try {
+            initialUpdateSuccess = await handlePositionUpdate(initialPosition, true);
+          } catch (error) {
+            resolveOnce(false);
+          }
+
+          if (!initialUpdateSuccess) {
+            resolveOnce(false);
+            return;
+          }
+
+          inferPreviousPassedStops(initialPos, tripId);
+
+          const watchIdentifier = navigator.geolocation.watchPosition(
+            async (pos) => {
               try {
-                const q = query(
-                  collection(db, 'busRiderLocations'),
-                  where('userId', '==', currentUser.uid),
-                  where('tripId', '==', tripId)
-                );
-                const querySnapshot = await getDocs(q);
-
-                if (querySnapshot.empty) {
-                  return;
-                }
-
-                const updatePromises = querySnapshot.docs.map(doc => {
-                  return updateDoc(doc.ref, { lastActive: Timestamp.now() });
-                });
-
-                await Promise.all(updatePromises);
-              } catch (error: any) {
-
-                if (error?.code === 'permission-denied' || error?.code === 'unavailable') {
-                }
+                await handlePositionUpdate(pos, true);
+              } catch (error) {
+                resolveOnce(false);
               }
-            };
-            updateHeartbeat();
-          } else {
+            },
+            () => {
+              resolveOnce(false);
+            },
+            {
+              enableHighAccuracy: true,
+              maximumAge: 5000,
+              timeout: 15000
+            }
+          );
+          setWatchId(watchIdentifier);
+
+          const fallbackTimer = setInterval(() => {
+            updateLocation(true);
+          }, MIN_SHARE_INTERVAL_MS);
+
+          const heartbeatTimer = setInterval(() => {
+            if (currentUser?.uid) {
+              const updateHeartbeat = async () => {
+                try {
+                  const q = query(
+                    collection(db, 'busRiderLocations'),
+                    where('userId', '==', currentUser.uid),
+                    where('tripId', '==', tripId)
+                  );
+                  const querySnapshot = await getDocs(q);
+
+                  if (querySnapshot.empty) {
+                    return;
+                  }
+
+                  const updatePromises = querySnapshot.docs.map(doc =>
+                    updateDoc(doc.ref, { lastActive: Timestamp.now() })
+                  );
+
+                  await Promise.all(updatePromises);
+                } catch (error: any) {
+                  if (error?.code === 'permission-denied' || error?.code === 'unavailable') {
+                  }
+                }
+              };
+              updateHeartbeat();
+            }
+          }, 30000);
+
+          locationTimerRef.current = {
+            fallbackTimer,
+            heartbeatTimer,
+            clearAll: () => {
+              clearInterval(fallbackTimer);
+              clearInterval(heartbeatTimer);
+            }
+          };
+
+          resolveOnce(true);
+        },
+        (error) => {
+          let errorMessage = '位置情報の取得に失敗しました。';
+          switch (error.code) {
+            case 1:
+              errorMessage = '位置情報の許可が拒否されています。ブラウザの設定を確認してください。';
+              break;
+            case 2:
+              errorMessage = '位置情報を取得できません。GPSが利用できない環境の可能性があります。';
+              break;
+            case 3:
+              errorMessage = '位置情報の取得がタイムアウトしました。再度お試しください。';
+              break;
           }
-        }, 30000);
 
-        locationTimerRef.current = {
-          fallbackTimer,
-          heartbeatTimer,
-          clearAll: () => {
-
-            clearInterval(fallbackTimer);
-            clearInterval(heartbeatTimer);
-          }
-        };
-
-      },
-      (error) => {
-        
-        let errorMessage = '位置情報の取得に失敗しました。';
-        switch (error.code) {
-          case 1: // PERMISSION_DENIED
-            errorMessage = '位置情報の許可が拒否されています。ブラウザの設定を確認してください。';
-            break;
-          case 2: // POSITION_UNAVAILABLE
-            errorMessage = '位置情報を取得できません。GPSが利用できない環境の可能性があります。';
-            break;
-          case 3: // TIMEOUT
-            errorMessage = '位置情報の取得がタイムアウトしました。再度お試しください。';
-            break;
+          alert(errorMessage);
+          setIsLocationSharing(false);
+          resolveOnce(false);
+        },
+        {
+          enableHighAccuracy: true,
+          timeout: 10000,
+          maximumAge: 5000
         }
-        
-        alert(errorMessage);
-        setIsLocationSharing(false);
-
-      },
-      {
-        enableHighAccuracy: true,
-        timeout: 10000,
-        maximumAge: 5000
-      }
-    );
+      );
+    });
   };
 
   // 位置情報共有停止
@@ -1763,7 +1905,7 @@ export default function BusSearch() {
           const selfInfoWindow = new window.google.maps.InfoWindow({
             content: `
               <div style="padding: 12px; min-width: 180px;">
-                <h4 style="margin: 0 0 8px 0; color: #007BFF;">� あなたの位置</h4>
+                <h4 style="margin: 0 0 8px 0; color: #007BFF;">あなたの位置</h4>
                 <p style="margin: 4px 0; color: #666;"><strong>ユーザー名:</strong> ${rider.username}</p>
                 <p style="margin: 4px 0; color: #666;"><strong>位置:</strong> ${rider.position.lat().toFixed(6)}, ${rider.position.lng().toFixed(6)}</p>
                 <p style="margin: 4px 0; color: #666;"><strong>最終更新:</strong> ${rider.timestamp.toLocaleTimeString()}</p>
@@ -2108,6 +2250,11 @@ export default function BusSearch() {
     if (!d) return true; // 時刻が存在しない場合は表示を継続
     const cutoff = Date.now() - hours * 3600 * 1000;
     return d.getTime() >= cutoff;
+  };
+
+  const isDepartureExpired = (timeStr?: string, hours = 2) => {
+    if (!timeStr) return false;
+    return !isWithinPastHours(timeStr, hours);
   };
 
   // 残りの停留所の到着予定時刻を更新
@@ -2770,8 +2917,8 @@ export default function BusSearch() {
             currentLocationMarkerRef.current = new window.google.maps.Marker({
               position: latLng,
               map: mapInstance.current,
-              icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
-              title: "現在地",
+              icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+              title: '現在地'
             });
           }
         }
@@ -2872,10 +3019,41 @@ export default function BusSearch() {
         return a.departure.localeCompare(b.departure);
       });
 
-      // 出発時刻が現在時刻から見て過去2時間より古いものは表示しない
+      let passedTripIds = new Set<string>();
+      if (canonicalStart?.stop_id && canonicalStart.stop_id !== 'current_location') {
+        try {
+          const passageResults = await Promise.all(
+            matchingTrips.map(async (trip) => {
+              try {
+                const passageQuery = query(
+                  collection(db, 'busStopPassages'),
+                  where('tripId', '==', trip.tripId),
+                  where('stopId', '==', canonicalStart.stop_id),
+                  limit(1)
+                );
+                const snapshot = await getDocs(passageQuery);
+                if (!snapshot.empty) {
+                  return trip.tripId;
+                }
+              } catch (passageError) {
+                console.warn('Failed to check passage info for trip', trip.tripId, passageError);
+              }
+              return null;
+            })
+          );
+
+          passedTripIds = new Set(passageResults.filter((id): id is string => Boolean(id)));
+        } catch (passageLookupError) {
+          console.warn('Failed to resolve passage lookups', passageLookupError);
+        }
+      }
+
+      // ユーザー報告で通過済みの便と、出発予定時刻から2時間以上経過した便は非表示にする
       const filteredBuses = buses.filter(b => {
         if (!b.departure) return true;
-        return isWithinPastHours(b.departure, 2);
+        if (passedTripIds.has(b.trip_id)) return false;
+        if (isDepartureExpired(b.departure, 2)) return false;
+        return true;
       });
 
       // キャッシュとしてこの時点で tripStops を保存しておく（便選択時に再利用）
@@ -3003,7 +3181,7 @@ export default function BusSearch() {
   // ルートをクリア
   const clearRoute = () => {
     // リアルタイム追跡をクリア
-  stopLocationSharing(getActiveTripId() || undefined);
+    stopLocationSharing(getActiveTripId() || undefined);
     setBusLocation(null);
     setBusPassedStops([]);
     setEstimatedArrivalTimes({});
@@ -3043,12 +3221,10 @@ export default function BusSearch() {
     // 地図上のマーカーをクリア
     routeMarkersRef.current.forEach(m => m.setMap(null));
     routeMarkersRef.current = [];
+    routeMarkersByStopIdRef.current.clear();
     otherRidersMarkersRef.current.forEach(m => m.setMap(null));
     otherRidersMarkersRef.current = [];
-    if (routePolylineRef.current) {
-      routePolylineRef.current.setMap(null);
-      routePolylineRef.current = null;
-    }
+    clearRoutePolylines();
     
     // マップを現在地に戻す（現在地マーカーは残す）
     if (mapInstance.current && currentLocationRef.current) {
@@ -3117,8 +3293,8 @@ export default function BusSearch() {
             currentLocationMarkerRef.current = new window.google.maps.Marker({
               position: latLng,
               map: mapInstance.current,
-              icon: "http://maps.google.com/mapfiles/ms/icons/blue-dot.png",
-              title: "現在地",
+              icon: 'http://maps.google.com/mapfiles/ms/icons/blue-dot.png',
+              title: '現在地'
             });
           }
           lastPositionTimestampRef.current = Date.now();
